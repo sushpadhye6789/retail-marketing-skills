@@ -37,7 +37,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | ads | 2.2.0 | 2026-07-05 |
 | paywalls | 2.0.0 | 2026-05-05 |
 | popups | 2.0.0 | 2026-05-05 |
-| pricing | 2.0.1 | 2026-06-16 |
+| pricing | 2.1.0 | 2026-07-27 |
 | product-marketing | 2.1.0 | 2026-07-16 |
 | programmatic-seo | 2.0.0 | 2026-05-05 |
 | prospecting | 1.1.0 | 2026-07-13 |
@@ -54,6 +54,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.1.0 | 2026-07-14 |
 
 ## Recent Changes
+
+### 2.9.1 (2026-07-27)
+
+- **pricing** (2.0.1 → 2.1.0): added a **Pricing Page Teardown** — a two-axis audit of a live pricing page. Axis 1 is the classic human buyer experience (value-prop clarity, plan differentiation, cognitive load, trust signals, psychology, transparency); Axis 2 is the novel **AI-agent readiness** lens: whether the LLMs/agents that increasingly shortlist and compare tools can actually read and quote your pricing — machine-readable prices (not locked in an image or behind "Contact us"), extractable FAQ/objection coverage, per-tier depth in text, and structured data. Includes the memorable **"paste test"** (give the URL to a browsing-capable AI and ask for the plans and prices — if it can't answer, an AI shopping for your buyer can't either), a full 10-dimension rubric + scoring/report template in `references/pricing-page-teardown.md`, and hand-offs to `schema` (Product/Offer JSON-LD) and `ai-seo` (extractability, AI search-bot access, llms.txt). New eval (id 7). AI-agent-readiness lens adapted from Kyle Poyar / Growth Unhinged (learn-from-only, credited).
 
 ### 2.9.0 (2026-07-15)
 

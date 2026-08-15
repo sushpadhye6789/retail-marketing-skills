@@ -1,8 +1,8 @@
 ---
 name: marketing-council
-description: "When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp, and more). Also use when the user mentions 'marketing council,' 'board of advisors,' 'advisory board,' 'what would Seth Godin say,' 'what would Ogilvy think,' 'channel Hormozi,' 'get multiple perspectives,' 'debate this,' 'have the council review,' 'marketing mentors,' or asks how a famous marketer would approach their problem. The council gives each advisor's take through their documented frameworks, surfaces where they disagree, and synthesizes a recommendation. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill."
+description: When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp, Gary Vaynerchuk, and more). Also use when the user mentions 'marketing council,' 'board of advisors,' 'advisory board,' 'boardroom,' 'run the boardroom,' 'what would Seth Godin say,' 'what would Ogilvy think,' 'channel Hormozi,' 'get multiple perspectives,' 'debate this,' 'have the council review,' 'marketing mentors,' or asks how a famous marketer would approach their problem. The council gives each advisor's take through their documented frameworks, surfaces where they disagree, and synthesizes a recommendation. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Marketing Council
@@ -13,61 +13,62 @@ You convene a **simulated board of marketing advisors**: legendary marketers who
 
 ## Before Starting
 
-**Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md`), read it before asking questions.
+**Check for product marketing context first:** If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md`), read it before asking questions.
 
 Then clarify (ask only for what's missing):
+
 1. **The question** — What decision or work product is the council reviewing? (a strategy, a landing page, a pricing change, a launch plan, a rebrand, an ad account)
 2. **The stakes** — What happens if this goes well or badly? What's already been tried?
-3. **Session mode** — quick take, council session, or full council (see below). Default: council session.
+3. **Session mode** — quick take, council session, boardroom, or full council (see below). Default: council session.
 
 ## Session Modes
 
-| Mode | Seats | When |
-|------|-------|------|
-| **Quick take** | 1 advisor | "What would Ogilvy say about this headline?" — a single named advisor |
-| **Council session** (default) | 3–5 advisors | A real decision that benefits from conflicting lenses |
-| **Full council** | All 12 | Major strategic decisions — expect a long output; offer this only when stakes justify it |
+| Mode                          | Seats        | When                                                                                     |
+| ----------------------------- | ------------ | ---------------------------------------------------------------------------------------- |
+| **Quick take**                | 1 advisor    | "What would Ogilvy say about this headline?" — a single named advisor                    |
+| **Council session** (default) | 3–5 advisors | A real decision that benefits from conflicting lenses                                    |
+| **Boardroom**                 | 6 fixed advisors | Sush's default panel for auditing a finished asset (ad, landing page, campaign, screenshot). Triggers on "run the boardroom," "boardroom this," "audit this," "tear this apart," or any asset review with no advisor named. Skips the seating-logic table below entirely — always seat Ogilvy, Godin, Vaynerchuk, Sutherland, Schwartz, and Sharp, in that order, regardless of question type. Produces the Action Matrix artifact (see below) instead of the plain text next-steps list. |
+| **Full council**              | All 12       | Major strategic decisions — expect a long output; offer this only when stakes justify it |
 
 ## The Bench
 
 Twelve advisors, chosen so their lenses collide. Full dossiers live in `references/advisors/` — load only the seated advisors' files.
 
-| Advisor | Lens | File |
-|---------|------|------|
-| **Seth Godin** | Remarkability, permission, smallest viable audience | [seth-godin.md](references/advisors/seth-godin.md) |
-| **David Ogilvy** | Research-driven brand advertising with direct-response discipline | [david-ogilvy.md](references/advisors/david-ogilvy.md) |
-| **Eugene Schwartz** | Channel existing mass desire; awareness & sophistication stages | [eugene-schwartz.md](references/advisors/eugene-schwartz.md) |
-| **Claude Hopkins** | Scientific advertising — test everything, reason-why copy | [claude-hopkins.md](references/advisors/claude-hopkins.md) |
-| **Gary Halbert** | The starving crowd — market and list before product and copy | [gary-halbert.md](references/advisors/gary-halbert.md) |
-| **Russell Brunson** | Funnels, value ladders, hook-story-offer | [russell-brunson.md](references/advisors/russell-brunson.md) |
-| **Alex Hormozi** | Offer construction and the value equation; volume and leverage | [alex-hormozi.md](references/advisors/alex-hormozi.md) |
-| **April Dunford** | Positioning against real competitive alternatives | [april-dunford.md](references/advisors/april-dunford.md) |
-| **Rory Sutherland** | Behavioral science and psycho-logic; the opposite of a good idea can also be a good idea | [rory-sutherland.md](references/advisors/rory-sutherland.md) |
-| **Byron Sharp** | Evidence-based brand science — mental & physical availability, reach over loyalty | [byron-sharp.md](references/advisors/byron-sharp.md) |
-| **Ann Handley** | Content and writing craft; slower, braver marketing | [ann-handley.md](references/advisors/ann-handley.md) |
-| **Gary Vaynerchuk** | Attention arbitrage — be native to underpriced channels at volume | [gary-vaynerchuk.md](references/advisors/gary-vaynerchuk.md) |
+| Advisor             | Lens                                                                                     | File                                                                                                                           |
+| ------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Seth Godin**      | Remarkability, permission, smallest viable audience                                      | `references/advisors/seth-godin.md`           |
+| **David Ogilvy**    | Research-driven brand advertising with direct-response discipline                        | `references/advisors/david-ogilvy.md`       |
+| **Eugene Schwartz** | Channel existing mass desire; awareness & sophistication stages                          | `references/advisors/eugene-schwartz.md` |
+| **Claude Hopkins**  | Scientific advertising — test everything, reason-why copy                                | `references/advisors/claude-hopkins.md`   |
+| **Gary Halbert**    | The starving crowd — market and list before product and copy                             | `references/advisors/gary-halbert.md`       |
+| **Russell Brunson** | Funnels, value ladders, hook-story-offer                                                 | `references/advisors/russell-brunson.md` |
+| **Alex Hormozi**    | Offer construction and the value equation; volume and leverage                           | `references/advisors/alex-hormozi.md`       |
+| **April Dunford**   | Positioning against real competitive alternatives                                        | `references/advisors/april-dunford.md`     |
+| **Rory Sutherland** | Behavioral science and psycho-logic; the opposite of a good idea can also be a good idea | `references/advisors/rory-sutherland.md` |
+| **Byron Sharp**     | Evidence-based brand science — mental & physical availability, reach over loyalty        | `references/advisors/byron-sharp.md`         |
+| **Ann Handley**     | Content and writing craft; slower, braver marketing                                      | `references/advisors/ann-handley.md`         |
+| **Gary Vaynerchuk** | Attention arbitrage — be native to underpriced channels at volume                        | `references/advisors/gary-vaynerchuk.md` |
 
 ## Seating the Council
 
-For a council session, seat 3–5 advisors:
+For a council session, seat 3–5 advisors (skip this entirely in Boardroom mode — see Session Modes above):
 
 1. **2–3 whose lens directly fits the question type** (table below).
 2. **Always seat at least one designated dissenter** — an advisor whose documented position conflicts with where the question is leaning. A council that agrees is a mirror, not a board.
 3. Honor explicit requests ("I want Hormozi and Godin on this").
 
-| Question type | Strong fits | Natural dissenters |
-|---------------|-------------|-------------------|
-| Positioning / messaging | Dunford, Godin, Schwartz | Sharp (differentiation skeptic) |
-| Offer / pricing | Hormozi, Halbert, Brunson | Sutherland (price ≠ value logic), Godin (race-to-the-bottom warning) |
-| Brand building / awareness | Sharp, Ogilvy, Sutherland | Hopkins, Halbert (show me the sales) |
-| Copy / creative review | Ogilvy, Schwartz, Halbert, Handley | Sutherland (test the illogical) |
-| Funnels / conversion path | Brunson, Hormozi, Hopkins | Godin (permission over pressure), Handley (you're churning trust) |
-| Content strategy | Handley, Godin, Vaynerchuk | Sharp (reach beats depth), Hopkins (where's the response?) |
-| Paid ads / media | Hopkins, Sharp, Vaynerchuk | Godin (interruption is a tax) |
-| Growth / scaling | Hormozi, Vaynerchuk, Sharp | Handley (quality erosion), Dunford (scaling a fuzzy position) |
-| Audience / channel choice | Vaynerchuk, Sharp, Halbert | Godin (smallest viable audience vs. mass reach) |
-| Launch strategy | Brunson, Godin, Halbert | Sharp (launches fade; availability compounds) |
+| Question type              | Strong fits                        | Natural dissenters                                                   |
+| --------------------------- | ----------------------------------- | ---------------------------------------------------------------------- |
+| Positioning / messaging    | Dunford, Godin, Schwartz           | Sharp (differentiation skeptic)                                      |
+| Offer / pricing            | Hormozi, Halbert, Brunson          | Sutherland (price ≠ value logic), Godin (race-to-the-bottom warning) |
+| Brand building / awareness | Sharp, Ogilvy, Sutherland          | Hopkins, Halbert (show me the sales)                                 |
+| Copy / creative review     | Ogilvy, Schwartz, Halbert, Handley | Sutherland (test the illogical)                                      |
+| Funnels / conversion path  | Brunson, Hormozi, Hopkins          | Godin (permission over pressure), Handley (you're churning trust)    |
+| Content strategy           | Handley, Godin, Vaynerchuk         | Sharp (reach beats depth), Hopkins (where's the response?)           |
+| Paid ads / media           | Hopkins, Sharp, Vaynerchuk         | Godin (interruption is a tax)                                        |
+| Growth / scaling           | Hormozi, Vaynerchuk, Sharp         | Handley (quality erosion), Dunford (scaling a fuzzy position)        |
+| Audience / channel choice  | Vaynerchuk, Sharp, Halbert         | Godin (smallest viable audience vs. mass reach)                      |
+| Launch strategy            | Brunson, Godin, Halbert            | Sharp (launches fade; availability compounds)                        |
 
 ## Session Protocol
 
@@ -78,8 +79,9 @@ For a council session, seat 3–5 advisors:
    - Apply their frameworks to the specifics (their dossier lists them) — not generic advice with a name attached
    - State their recommendation with the conviction they'd actually have
    - Written in their voice per the dossier's voice notes, without fabricated quotes
-4. **The disagreement map** — the most valuable section. Identify 2-4 genuine conflicts between the takes, name the underlying trade-off each conflict represents (e.g., "Sharp vs. Godin here is really reach vs. resonance — which constraint binds *this* business?"), and say what evidence would settle each.
-5. **Synthesis** — a chair's summary: the recommendation that best fits *this* user's stage, category, and constraints; which advisor's warning to keep as a tripwire; and concrete next steps with skill handoffs (see Related Skills).
+4. **In Boardroom mode, add a cross-examination round** after the individual takes: a real back-and-forth between seated advisors where their frameworks genuinely conflict on this specific asset (minimum 8 exchanges). Let the friction be real, not scripted — don't force a clash that this particular asset doesn't actually produce. The board should converge on 3 core strategic bets before moving to synthesis.
+5. **The disagreement map** — the most valuable section. Identify 2–4 genuine conflicts between the takes, name the underlying trade-off each conflict represents (e.g., "Sharp vs. Godin here is really reach vs. resonance — which constraint binds *this* business?"), and say what evidence would settle each.
+6. **Synthesis** — a chair's summary: the recommendation that best fits *this* user's stage, category, and constraints; which advisor's warning to keep as a tripwire; and concrete next steps with skill handoffs (see Related Skills). In Boardroom mode, replace the plain-text next-steps list with the Action Matrix artifact (see below).
 
 ## Live Research Pass
 
@@ -111,7 +113,8 @@ Fold findings into the takes with citations ("In a 2023 interview on X, Dunford 
 [1-2 sentence restatement + what's at stake]
 
 ## Seated: [Advisor A], [Advisor B], [Advisor C] ([mode])
-[One line on why this bench, including who was seated as the dissenter]
+[One line on why this bench, including who was seated as the dissenter —
+in Boardroom mode, note that all six are fixed by default]
 
 ---
 
@@ -121,6 +124,8 @@ Fold findings into the takes with citations ("In a 2023 interview on X, Dunford 
 
 ### [Advisor B] — …
 …
+
+[Boardroom mode only: cross-examination round here, minimum 8 exchanges]
 
 ---
 
@@ -137,13 +142,23 @@ Fold findings into the takes with citations ("In a 2023 interview on X, Dunford 
 - **Execute with:** [skill handoffs]
 ```
 
+## Action Matrix (Boardroom mode only)
+
+Instead of a plain-text next-steps list, produce a standalone, single-file HTML artifact:
+
+- Dark-mode UI.
+- Each action item tagged by Effort (Low/Med/High) and Impact (Critical/High), with working filter controls.
+- An owner badge naming which seated advisor proposed the item.
+- Click-to-check task boxes.
+- No external calls, no localStorage, transparent background — keep it self-contained per the `frontend-design` skill's constraints. Consult `frontend-design` before building it so the styling reads as intentional rather than templated.
+
 ## Adding a Custom Advisor
 
-Users can extend the bench ("add my own advisor"). Create a dossier following the structure in [references/advisor-template.md](references/advisor-template.md) — the same fields as the built-in advisors (lens, frameworks, documented positions with sources, signature questions, best-for/blind spots, voice notes, key works). For non-famous advisors (the user's old boss, an internal exec), have the user supply the positions; do not invent them. Save to `.agents/advisors/<name>.md` in the user's project so it persists and never collides with repo updates.
+Users can extend the bench ("add my own advisor"). Create a dossier following the structure in `references/advisor-template.md` — the same fields as the built-in advisors (lens, frameworks, documented positions with sources, signature questions, best-for/blind spots, voice notes, key works). For non-famous advisors (the user's old boss, an internal exec), have the user supply the positions; do not invent them. Save to `.agents/advisors/<name>.md` in the user's project so it persists and never collides with repo updates.
 
 ## Anti-Patterns
 
-- **The agreeing council** — five takes that all bless the user's existing plan. Re-seat with a real dissenter.
+- **The agreeing council** — five (or six) takes that all bless the user's existing plan. Re-seat with a real dissenter, or in Boardroom mode, make sure the cross-examination round surfaces genuine conflict rather than staged theatre.
 - **Name-flavored generic advice** — a take that would survive with the name swapped isn't a take; anchor each one in that advisor's specific frameworks and documented positions.
 - **Quote soup** — stitching famous one-liners together instead of applying the method behind them.
 - **Council for execution work** — the council decides direction; it doesn't write the landing page. Hand off to the execution skill once direction is set.
@@ -159,3 +174,4 @@ Users can extend the bench ("add my own advisor"). Create a dossier following th
 - **brand-strategy** / **marketing-psychology**: For Sharp's availability work and Sutherland's behavioral mechanics
 - **ab-testing**: When the disagreement map says "test it" — Hopkins would insist
 - **deep-research**: For the live research pass, when installed
+- **frontend-design**: For the Action Matrix artifact in Boardroom mode

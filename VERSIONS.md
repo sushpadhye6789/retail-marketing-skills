@@ -28,7 +28,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | influencer-marketing | 1.0.0 | 2026-07-15 |
 | launch | 2.0.1 | 2026-06-16 |
 | lead-magnets | 2.0.0 | 2026-05-05 |
-| marketing-council | 1.0.0 | 2026-07-06 |
+| marketing-council | 1.2.0 | 2026-08-16 |
 | marketing-ideas | 2.0.0 | 2026-05-05 |
 | marketing-loops | 1.2.0 | 2026-07-10 |
 | marketing-plan | 1.1.0 | 2026-05-29 |
@@ -55,6 +55,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.1.0 | 2026-07-14 |
 
 ## Recent Changes
+
+### 2.10.1 (2026-08-16)
+
+- **marketing-council** (1.1.0 → 1.2.0): added a second, independent council — **Decision Council** — five fixed, domain-agnostic thinking roles (Contrarian, First Principles Thinker, Expansionist, Outsider, Executor) that stress-test an idea or decision itself, distinct from the existing marketer-persona bench. Not persona simulation (no real people represented, so the Grounding Rules don't apply to it), governed instead by its own Decision Council Rules — most notably that the Outsider's take must be generated in isolation before the other four roles are discussed, or its "zero context" value is contaminated. Fires only on its own explicit triggers ("decision council," "contrarian take," "stress-test this," "first-principles this") so it never silently substitutes for Council session or Boardroom on an ordinary marketing question; designed to be run standalone or stacked with the marketer bench (before it, to sanity-check the question itself; after it, to stress-test the marketers' consensus — the Outsider specifically catches the curse-of-knowledge blind spot the 12-marketer bench shares by construction).
 
 ### 2.10.0 (2026-07-22)
 

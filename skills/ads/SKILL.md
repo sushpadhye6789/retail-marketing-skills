@@ -89,9 +89,9 @@ Account
 [Platform]_[Objective]_[Audience]_[Offer]_[Date]
 
 Examples:
-META_Conv_Lookalike-Customers_FreeTrial_2024Q1
-GOOG_Search_Brand_Demo_Ongoing
-LI_LeadGen_CMOs-SaaS_Whitepaper_Mar24
+META_Conv_Lookalike-Customers_SummerSale_2024Q1
+GOOG_Search_Brand_BestSellers_Ongoing
+TT_Conv_Broad_NewArrivals_Mar24
 ```
 
 ### Budget Allocation
@@ -292,8 +292,8 @@ For hard kill/keep/scale thresholds, use the platform playbooks (see Reference R
 | Funnel Stage | Audience | Message | Goal |
 |--------------|----------|---------|------|
 | Top | Blog readers, video viewers | Educational, social proof | Move to consideration |
-| Middle | Pricing/feature page visitors | Case studies, demos | Move to decision |
-| Bottom | Cart abandoners, trial users | Urgency, objection handling | Convert |
+| Middle | Product/category page visitors | Reviews, UGC, comparison content | Move to decision |
+| Bottom | Cart/checkout abandoners | Urgency, objection handling | Convert |
 
 ### Retargeting Windows
 
@@ -479,7 +479,7 @@ For tracking setup, see [references/conversion-tracking.md](references/conversio
 ## Related Skills
 
 - **ad-creative**: For generating and iterating ad headlines, descriptions, and creative at scale
-- **revops**: For the CRM side of ABM — lead scoring, routing, and the offline conversion loop
+- **attribution**: For reconciling platform-reported ROAS against blended CAC and real revenue
 - **customer-research**: For the voice-of-customer inputs that feed ad copy and creative angles
 - **copywriting**: For landing page copy that converts ad traffic
 - **analytics**: For proper conversion tracking setup

@@ -4,7 +4,7 @@ A collection of AI agent skills for retail and ecommerce marketing. Built for te
 
 Maintained by Sush Padhye ([GitHub](https://github.com/sushpadhye6789) · [LinkedIn](https://www.linkedin.com/in/sushpadhye)). This is a fork of [Corey Haines' marketingskills](https://github.com/coreyhaines31/marketingskills), substantially extended with retail/ecommerce-specific skills (POS marketing, retail media, local marketing, trade marketing, visual merchandising, experiential marketing, distribution-model and brand-tier classification, and more) beyond the original SaaS-leaning skill set.
 
-Want help with your marketing, or want to automate it? [Reach out on LinkedIn](https://www.linkedin.com/in/sushpadhye).
+Want help with your marketing, or want to automate it? [Reach out to Sush on LinkedIn](https://www.linkedin.com/in/sushpadhye).
 
 **Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).
 

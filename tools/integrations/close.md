@@ -63,7 +63,7 @@ POST https://api.close.com/api/v1/contact/
 {
   "lead_id": "lead_xxx",
   "name": "Jane Smith",
-  "emails": [{ "email": "jane@acme.com", "type": "office" }],
+  "emails": [{ "email": "admin@store.com.au", "type": "office" }],
   "phones": [{ "phone": "+15551234567", "type": "office" }]
 }
 ```

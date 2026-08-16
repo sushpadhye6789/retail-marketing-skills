@@ -60,6 +60,6 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Validate ${{ matrix.skill }}
-        uses: Flash-Brew-Digital/validate-skill@v1
+        uses: Flash-Brew-Digital/validate-skill@39c9da973b7ce3fd4d9632672a0c355bdd733d89 # v1
         with:
           path: ${{ matrix.skill }}

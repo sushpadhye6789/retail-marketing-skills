@@ -1,6 +1,6 @@
 ---
 name: cro
-description: "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'nobody's converting,' 'low conversion rate,' or 'this page needs work.' Use this even if the user just shares a URL and asks for feedback. For signup/registration flows, see signup. For post-signup activation, see onboarding. For popups/modals, see popups."
+description: "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, product pages, cart, checkout, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'cart abandonment,' 'checkout friction,' 'nobody's converting,' 'low conversion rate,' or 'this page needs work.' Use this even if the user just shares a URL and asks for feedback. For signup/registration flows, see signup. For post-signup activation, see onboarding. For popups/modals, see popups."
 metadata:
   version: 2.0.0
 ---
@@ -16,7 +16,7 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 
 Before providing recommendations, identify:
 
-1. **Page Type**: Homepage, landing page, pricing, feature, blog, about, other
+1. **Page Type**: Homepage, landing page, product page, cart, checkout, pricing, feature, blog, about, other
 2. **Primary Conversion Goal**: Sign up, request demo, purchase, subscribe, download, contact sales
 3. **Traffic Context**: Where are visitors coming from? (organic, paid, email, social)
 
@@ -134,6 +134,29 @@ For key elements (headlines, CTAs), provide 2-3 alternatives with rationale.
 - Single CTA (remove navigation if possible)
 - Complete argument on one page
 
+### Product Page (PDP) CRO
+- **Imagery does the heaviest lifting** — multiple angles, in-use/lifestyle shots, and zoom/detail views reduce the "what am I actually getting" uncertainty that's the single biggest PDP conversion blocker; a listing with one thin product shot underperforms regardless of how good the copy is.
+- **Answer the size/fit/compatibility question before it's asked** — a size guide, a compatibility checker, or explicit "works with X" callouts prevent the silent bounce of someone who couldn't get a confident answer and left rather than asking.
+- **Reviews and UGC near the add-to-cart button**, not buried below the fold — social proof placed right at the decision point converts better than the same proof placed where it's scrolled past before the decision is made.
+- **Shipping, returns, and availability information visible on the page itself**, not just at checkout — surprises discovered only at checkout (see Checkout CRO below) are a major cause of cart abandonment that a PDP can pre-empt.
+- **Stock/urgency signals only when genuinely true** — a low-stock indicator that's accurate builds urgency; a fabricated or permanently-on one trains customers to distrust it, and risks the same claims-accuracy issue `compliance` flags for false scarcity.
+- See `product-feed` for the underlying product data quality this page draws from, and `offers/references/scarcity-urgency.md` for earned-vs-fabricated urgency framing.
+
+### Cart CRO
+- **Show the path to free shipping, not just the cart total** — "add $12 more for free shipping" is one of the highest-converting cart nudges in ecommerce, converting an abandonment risk into an AOV lift; see `pricing`/`offers` for free-shipping-threshold design.
+- **Make quantity/variant changes editable in the cart itself** — forcing a return to the product page to fix a size or quantity is friction that costs conversions disproportionate to how minor the fix is.
+- **Surface cross-sell/upsell modestly, not aggressively** — one or two genuinely relevant additions (not a wall of unrelated products) can lift AOV without distracting from the primary conversion.
+- **A visible, accurate running total** (including any threshold progress, estimated tax/shipping where feasible) reduces the surprise that causes checkout-stage abandonment.
+
+### Checkout CRO
+- **Guest checkout should be the default, not buried** — forcing account creation before purchase is one of the most well-documented checkout abandonment causes in ecommerce; offer account creation *after* the purchase completes instead.
+- **Minimize steps and fields to what's actually required** — every additional field or page is a friction point; the same Form Optimization discipline below (see [references/form.md](references/form.md)) applies with extra weight at checkout, where a customer has already committed to buying and friction here is pure loss.
+- **No cost surprises at the final step** — shipping cost, tax, or fees that first appear at checkout (having been absent from the cart/PDP) is one of the single largest documented causes of cart abandonment; surface real costs as early as page/cart-level estimation allows.
+- **Multiple payment and delivery options visible early in the flow**, not discovered only after committing to a path — a customer who wanted to pay a specific way and finds out at the last step it's unavailable is a lost sale that a clear upfront listing would have kept.
+- **Progress indication on a multi-step checkout** reduces the uncertainty ("how much more of this is there") that drives mid-flow abandonment.
+- **Trust signals at the payment step specifically** (security badges, clear return/refund policy link) address the exact moment financial-risk objections peak.
+- For the abandoned-cart *recovery* sequence once someone has already left, see `emails`/`sms` — this section is about preventing the abandonment in the first place.
+
 ### Pricing Page CRO
 - Clear plan comparison
 - Recommended plan indication
@@ -179,6 +202,10 @@ When recommending experiments, consider tests for:
 - **popups**: If considering popups as part of the strategy
 - **copywriting**: If the page needs a complete copy rewrite
 - **ab-testing**: To properly test recommended changes
+- **product-feed**: For the underlying product data quality a product page draws from
+- **offers** / **pricing**: For free-shipping-threshold, guarantee, and urgency framing used in cart/checkout CRO
+- **emails** / **sms**: For the abandoned-cart recovery sequence once someone has already left, distinct from this skill's abandonment-prevention focus
+- **compliance**: For claims-accuracy limits on stock/urgency indicators
 
 ---
 

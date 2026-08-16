@@ -132,3 +132,4 @@ Marketing assets (emails, landing pages, ad creative, the site itself) have acce
 - **marketing-strategy**: For the distribution-model and market-reach context this skill's jurisdiction checks depend on
 - **product-lifecycle**: For the recall/safety-driven emergency phase-out this skill leads on, regulatory notice and disposition requirements included
 - **public-relations**: For the external Crisis & Reactive PR response running alongside any compliance issue that reaches media or social
+- **cro**: For claims-accuracy limits on stock/urgency indicators used in product page and cart CRO

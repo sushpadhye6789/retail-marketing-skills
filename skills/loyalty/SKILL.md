@@ -99,6 +99,17 @@ Reward types, roughly in order of typical cost-to-perceived-value efficiency:
 
 Whatever the catalog, keep at least one reward reachable quickly after joining — a program where the first reward feels distant loses people before they experience the loop.
 
+### Abuse & Gaming
+
+Any program with real value attached attracts people trying to extract more of it than intended — plan for this before scale exposes it, not after:
+
+- **Multi-account abuse** — a single person or reseller creating multiple accounts to repeatedly claim first-purchase or entry-tier rewards. Tie enrollment to a verified identity signal (email/phone verification, one account per payment method or shipping address where feasible) rather than relying on goodwill.
+- **Return-and-keep-the-points abuse** — earning points on a purchase, redeeming the reward, then returning the original item. Claw back or void the associated points/reward on a refunded order rather than treating earning and returns as unrelated events.
+- **Reseller/arbitrage abuse** — a program generous enough that buying purely to earn and flip rewards becomes profitable on its own, independent of wanting the product. This is usually a sign the redemption value is set too high relative to margin (see Points Economics) rather than something to solve with rules alone.
+- **Bot/automation abuse** on non-purchase earning actions (reviews, social shares, referral clicks) — cap how much of a customer's total point balance can come from non-purchase actions, and monitor for earning patterns that don't match plausible human behavior.
+
+Set these guardrails proportionate to the program's actual value at stake — a small punch-card program doesn't need the same anti-fraud rigor as a paid membership tier with real cash-equivalent rewards.
+
 ---
 
 ## Enrollment & Trigger Moments

@@ -71,6 +71,15 @@ Budget allocation isn't a once-a-year decision — build in a recurring review:
 - **Triggers to reallocate outside the normal cadence**: a channel's incremental CPA crossing above its breakeven ceiling, a test channel graduating (per `channel-selection`'s criteria) and needing real budget, a co-op/MDF fund deadline approaching unused (see `supplier-funded-marketing`).
 - **Don't over-react to short-term noise.** Reuse `attribution`'s discipline for reading a test honestly — a single bad week in an otherwise-proven channel is often noise, not a signal to reallocate; check the confidence interval and trend before moving real budget on a small sample.
 
+### Emergency Mid-Flight Cuts
+
+A sudden, large budget cut forced by external pressure (a cash-flow crunch, a corporate directive) is a different exercise than the normal reallocation cadence above — the goal shifts from optimizing the mix to minimizing damage under a hard constraint, fast:
+
+- **Protect committed, hard-to-reverse spend first** — a `media-plan` premium placement already booked (programmatic guaranteed CTV, a `digital-out-of-home` contract, a `tentpole-campaign` production already underway) often carries cancellation penalties or sunk production cost; cutting flexible channels (open-exchange `programmatic`, paid social, always-on retargeting) first is usually less destructive than breaking a locked-in commitment.
+- **Cut by graduation status, not evenly across the board** — an even percentage cut across every channel protects underperformers at the expense of proven ones; cut test/early-stage spend (per `channel-selection`) before cutting a channel that's already graduated and proven its incremental return.
+- **Preserve retention/owned-channel spend disproportionately** if forced to choose — `emails`/`sms` to an existing list and `loyalty` program costs are typically the cheapest revenue the business has; cutting acquisition spend first, before touching the channels that keep existing revenue flowing, is usually the less damaging order.
+- **Communicate the cut's expected impact honestly** (which channels lose reach, what pipeline/revenue impact to expect) rather than presenting a cut as costless — a budget cut has consequences, and surfacing them clearly protects against the same cut being repeated without understanding what it actually gave up.
+
 ---
 
 ## Budget by Brand Tier and Distribution Model

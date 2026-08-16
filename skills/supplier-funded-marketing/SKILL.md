@@ -41,6 +41,7 @@ Gather this context (ask if not provided):
 - **Documentation for the claim** typically needs proof of performance — tearsheets, screenshots, invoices, run dates — collected as the campaign runs, not reconstructed afterward.
 - **Funds are often "use it or lose it" within a defined period.** Coordinate your own campaign calendar (`tentpole-campaign`, `discount-and-clearance`) with fund availability and deadlines so allocated funds don't go unused — a fund that expires unused is a real, avoidable cost.
 - **Multi-supplier coordination**: if funded by several suppliers with different programs, track each one's rules, deadlines, and compliance requirements separately — conflating them (using one supplier's approved creative template for another's funded campaign) is a common compliance mistake.
+- **Approval isn't final — retain the proof-of-performance documentation past the claim's payment date.** Many programs reserve the right to audit funded claims after payment and claw back funds found non-compliant on review, even after initial approval and reimbursement. Keep tearsheets, screenshots, and run-date records for the program's stated audit window (or a reasonable default if none is stated), not just until the claim clears.
 
 ---
 

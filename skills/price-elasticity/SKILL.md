@@ -101,6 +101,15 @@ How a *different* product's price affects this product's demand — relevant for
 - **Substitutes** (two products the customer would swap between): a price cut on one typically reduces demand for the other — relevant when discounting one SKU inside a catalog that has a close substitute, since some of the "lift" is actually cannibalization, not new demand. Same logic `ads/references/google-search-playbook-ecommerce.md`'s brand-cannibalization pause test uses, applied to price instead of ad spend.
 - **Complements** (products bought together): a price cut on one can increase demand for the other (a razor-and-blades or a serum-and-moisturizer pairing) — this is the economic logic behind loss-leader bundle pricing, and worth testing explicitly rather than assuming.
 
+### When there isn't enough data for any of the above
+
+A low-volume SKU, a brand-new product with no sales history, or a small business with too few total transactions to detect a statistically meaningful response — all four methods above need volume to work, and none of them produce a trustworthy number below some threshold. Don't force a precise elasticity estimate out of data that can't support one; instead:
+
+- **Borrow from a comparable SKU or category** with enough volume to have a real estimate, and treat the borrowed number as a rough prior, not a precise figure specific to this product.
+- **Widen the price-test increments** — a small price change is the hardest to detect with thin data; a larger, more deliberate test move (still within a defensible range) produces a clearer signal even from a smaller sample, at the cost of more risk if the move is wrong.
+- **Extend the test window** rather than the sample size, if volume genuinely can't be increased — more weeks of data on a slow-moving SKU partially substitutes for more transactions, though seasonality risk grows with a longer window.
+- **Fall back to stated preference or competitive/market pricing signals** (see method 3, and `pricing`'s competitive-price-monitoring reference) as the primary input, and say plainly that the resulting price is a judgment call informed by proxy data, not a measured elasticity — that's more honest than presenting a number precision the data can't support.
+
 ---
 
 ## Using elasticity to size a decision

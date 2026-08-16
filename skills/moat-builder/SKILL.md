@@ -69,6 +69,8 @@ For each candidate, ask:
 - **Is it getting stronger or eroding right now?** A moat isn't a one-time achievement — network effects and data moats compound if actively reinforced and can stagnate or erode if neglected; a brand moat decays under inconsistent execution.
 - **Does it compound, or is it static?** A good ad campaign is static — it doesn't get more valuable over time. A network effect or a growing first-party data asset compounds. This distinction is the core test for whether something is actually a moat versus just a current advantage.
 
+**If honest assessment finds no real moat candidate yet** — a genuinely new business with no accumulated data, no distribution relationships, and nothing yet differentiated enough to resist replication — say so plainly rather than forcing one of the moat types onto a current advantage that's actually just a head start. A head start (being first to market, a temporary feature lead) is real and worth exploiting while it lasts, but it isn't a moat until it's been deliberately compounded into one of the types above. In that case, the honest recommendation is to identify which moat type is *most buildable* given the business's actual assets (see Moat Types above) and treat building toward it as the Section 12 priority itself, rather than pretending a moat already exists.
+
 ---
 
 ## Directing Investment to the Moat

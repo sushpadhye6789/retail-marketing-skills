@@ -265,6 +265,17 @@ Extract "content atoms" — self-contained moments from any long-form content th
 
 ---
 
+## Platform & Account Risk
+
+A steady decline explained by Optimization Actions above is a different problem than a sudden algorithm change, policy update, or account-level action — don't apply the same fixes to both:
+
+- **Sudden, sharp reach drop with no content change** usually signals a platform algorithm update, not a content problem — check whether the drop is brand-specific or industry-wide (search for other creators/brands reporting the same shift) before overhauling a content strategy that wasn't actually the cause.
+- **Never build the strategy around a single platform.** A platform can change its algorithm, monetization terms, or policies unilaterally, or suspend/ban an account (sometimes in error, sometimes for a violation the brand didn't realize applied) with limited recourse. Treat owned channels — the email/SMS list (`emails`, `sms`), the site itself — as the durable asset, and social reach as rented, not owned; see `channel-selection`'s Portfolio Thinking for the broader version of this principle.
+- **If an account is suspended or restricted**, appeal through the platform's official process and, in parallel, redirect audience-facing effort (link-in-bio, pinned posts on remaining channels, an email to the list) to whatever channels are still reachable — don't wait on the appeal before communicating with the audience elsewhere.
+- **Policy risk is content-specific, not just account-specific** — claims, regulated-category content (health, finance, alcohol), and IP/usage-rights issues (see `influencer-marketing`'s disclosure and rights guidance) are the most common causes of takedowns or strikes; review before posting in a regulated category, not after a strike.
+
+---
+
 ## Content Ideas by Situation
 
 ### When You're Starting Out
@@ -412,3 +423,5 @@ Tools: CapCut (free), Descript, Captions.ai, Premiere Pro
 - **launch**: For coordinating social with launches
 - **emails**: For nurturing social audience via email
 - **marketing-psychology**: For understanding what drives engagement
+- **channel-selection**: For the owned-vs-rented channel portfolio thinking behind not over-relying on any single platform
+- **influencer-marketing**: For disclosure and usage-rights discipline relevant to policy/takedown risk

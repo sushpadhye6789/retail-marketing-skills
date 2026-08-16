@@ -1,6 +1,6 @@
 ---
 name: loyalty
-description: "When the user wants to design, launch, or improve a customer loyalty or rewards program. Also use when the user mentions 'loyalty program,' 'rewards program,' 'points program,' 'VIP program,' 'loyalty tiers,' 'membership program,' 'punch card,' 'paid membership,' 'loyalty points,' 'rewards points,' 'customer loyalty,' 'repeat purchase program,' or 'how do I get customers to come back.' Use this whenever the goal is rewarding and retaining existing customers through a structured program (points, tiers, or paid membership) — not a one-time discount or a program aimed at acquiring new customers via existing ones (see referrals for that). For save offers and cancellation flows on subscription churn, see churn-prevention."
+description: "When the user wants to design, launch, or improve a customer loyalty or rewards program, or a subscribe-and-save/replenishment/box subscription program. Also use when the user mentions 'loyalty program,' 'rewards program,' 'points program,' 'VIP program,' 'loyalty tiers,' 'membership program,' 'punch card,' 'paid membership,' 'loyalty points,' 'rewards points,' 'customer loyalty,' 'repeat purchase program,' 'subscribe and save,' 'subscription box,' 'replenishment program,' 'recurring order,' 'skip a shipment,' or 'how do I get customers to come back.' Use this whenever the goal is rewarding and retaining existing customers through a structured program (points, tiers, paid membership, or an automated recurring subscription) — not a one-time discount or a program aimed at acquiring new customers via existing ones (see referrals for that). For save offers and cancellation flows on subscription churn, see churn-prevention."
 metadata:
   version: 1.0.0
 ---
@@ -62,6 +62,37 @@ Simple "buy N, get one free" or milestone-based rewards, with minimal program me
 Points for everyday engagement, tiers for status, occasionally a paid tier layered on top. More powerful, more to build and explain — earn the complexity, don't start there.
 
 **Start simple and add complexity only when the simpler version is working** — a punch card that works beats a tiered points-with-multipliers system nobody understands.
+
+---
+
+## Subscription Commerce (Subscribe & Save / Replenishment / Boxes)
+
+A structurally different retention mechanism from the reward programs above: instead of earning value back for returning, the customer pre-commits to recurring, automated repurchase. The job shifts from "give them a reason to come back" to "make the automatic default good enough that they don't need to leave."
+
+**When this fits**: consumable, replenishable products with a real, predictable usage cycle (coffee, razors, supplements, pet food, skincare). A subscription only works where the underlying repurchase cadence is genuine — forcing a subscription model onto a one-off or unpredictable-cadence category creates friction without retention benefit.
+
+### Cadence & Curation
+
+- **Predict the right default cadence from actual usage data**, not a round-number guess — a cadence set too short creates a stockpile and a skip or cancel; too long creates a stockout and an off-cycle purchase (or a lost sale to a competitor) before the next shipment arrives.
+- **Let the customer adjust cadence easily.** Self-service frequency change is one of the highest-leverage retention levers in subscription commerce — a customer who can't easily slow down when overstocked cancels instead.
+- **Curated/surprise boxes** (a box program, not a fixed-SKU replenishment) shift the value proposition from convenience to discovery — the failure modes differ: replenishment churns on wrong cadence or unwanted product; curated boxes churn on repetitive or irrelevant curation. Know which model this is before applying the wrong fix.
+
+### Skip, Pause, and Swap
+
+- **Skip/pause self-service is a retention lever, not a leak.** A customer who can skip one shipment when overstocked stays subscribed; a customer whose only options are "stay on the current cadence" or "cancel entirely" cancels. Treat a skip as a save, not a loss.
+- **Make skip/pause/swap genuinely self-service** — requiring a support contact to skip a shipment adds friction at exactly the moment a customer is deciding whether the subscription is worth the hassle.
+- **Track skip rate as a leading churn indicator.** A rising skip rate on a cohort usually precedes cancellation; treat it the way `churn-prevention` treats other pre-cancellation signals, and consider a proactive cadence-adjustment prompt before the customer skips enough times to just cancel instead.
+
+### Subscription-Specific Churn
+
+- **Distinguish "too much product" churn from "don't want this anymore" churn.** The first is a cadence problem, solvable with a skip/pause prompt or cadence extension; the second is a genuine save-offer or win-back situation. Treating the first like the second — a discount save offer to someone who just has too much product — misses the actual fix and burns margin for nothing; see `attribution/references/incrementality-checkpoint.md`'s save-offer trap, the same principle `churn-prevention` applies to SaaS save offers.
+- **Failed payment (involuntary churn) applies here exactly as `churn-prevention` describes for SaaS** — dunning, card updaters, and retry logic are just as relevant to a recurring physical-goods subscription as a software one; see `churn-prevention`'s Involuntary Churn: Payment Recovery section directly rather than re-deriving it here.
+- **A cancel flow needs the same discipline `churn-prevention` applies generally** — understand the actual reason via an exit survey, offer a proportionate save (a skip/pause first, a discount only if the reason is genuinely price-sensitivity, not overstock), and don't make cancellation itself artificially difficult — a hard-to-cancel subscription creates the reputational and regulatory risk `compliance` flags for dark-pattern cancellation flows.
+
+### Economics
+
+- **Model subscription discount depth against realized LTV, not the first order's margin.** A subscribe-and-save discount (commonly in the 10-20% range) is usually justified by the value of a locked-in recurring relationship, not by that single order's own margin — the same "afford it at scale" discipline from Points Economics below applies here directly.
+- **Shipping economics compound at subscription frequency.** A shipping cost that's a rounding error on an occasional purchase becomes a material recurring cost at subscription cadence — model it explicitly rather than assuming one-time-purchase unit economics still hold.
 
 ---
 
@@ -195,14 +226,17 @@ Don't assume a member-vs-non-member gap is *caused* by the program — your most
 3. What's your budget for rewards, as a % of revenue or margin?
 4. Existing program or starting from scratch — if existing, what's underperforming?
 5. What tools/platforms are you using or considering?
+6. If subscription commerce: what's the actual usage cadence data, and is skip/pause/swap genuinely self-service today?
 
 ---
 
 ## Related Skills
 
 - **referrals**: For programs that reward bringing in *new* customers, rather than rewarding existing customers for staying — the two are often bundled but solve different problems
-- **churn-prevention**: For the cancellation/save-offer side of retention in subscription businesses; loyalty is the proactive complement
-- **emails** / **sms**: For point-balance reminders, tier-progress nudges, and expiring-points sequences
+- **churn-prevention**: For the cancellation/save-offer side of retention, in both SaaS and subscription-commerce businesses; loyalty is the proactive complement
+- **emails** / **sms**: For point-balance reminders, tier-progress nudges, expiring-points sequences, and skip/pause reminders
 - **popups**: For enrollment prompts and progress-to-next-reward messaging
-- **pricing** / **offers**: For paid-membership tier design and reward-value framing
-- **analytics**: For tracking enrollment, earning, and redemption events
+- **pricing** / **offers**: For paid-membership tier design, reward-value framing, and subscribe-and-save discount depth
+- **analytics**: For tracking enrollment, earning, redemption, and skip/pause events
+- **compliance**: For dark-pattern cancellation-flow risk on a subscription program
+- **attribution**: For the incrementality-checkpoint principle applied to subscription save offers

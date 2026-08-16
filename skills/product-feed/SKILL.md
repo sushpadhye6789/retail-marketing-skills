@@ -156,3 +156,4 @@ Feed health metrics to track (no universal benchmark numbers here — track your
 - **price-elasticity** / **overstock**: For deciding what margin-tier or clearance custom labels should actually mean before setting them in the feed
 - **marketing-strategy**: For the brand tier context that should inform margin-tier segmentation
 - **analytics**: For conversion tracking on feed-driven traffic
+- **cro**: For the on-site product page experience this feed's data quality underpins once a shopper actually lands there

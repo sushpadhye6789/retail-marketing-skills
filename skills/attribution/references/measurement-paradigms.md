@@ -63,6 +63,15 @@ You don't need to compute significance by hand, but you must read a result hones
 
 **Use it for:** the highest-stakes questions and the tiebreakers — "does retargeting actually do anything?", "is branded-search paid just buying clicks we'd get free?", "which of our two biggest channels is really driving growth?" You can only test a few things at a time, so spend those tests on the decisions that matter most.
 
+### Brand lift and awareness — what changes
+
+Same exposed-vs-control experimental logic as above, but the outcome variable is a survey response (aided/unaided recall, brand favorability, purchase intent) instead of a conversion event. A few things differ:
+
+- **You need survey respondents, not just conversions, to reach significance.** A geo-holdout for conversions can work with modest spend if conversion volume is decent; a brand lift study needs enough people in both groups to actually *complete a survey*, which is a much higher bar — this is why brand lift studies typically require meaningful reach/spend to run credibly, and aren't viable for a small test budget the way a conversion-based geo test can be.
+- **Control-group matching matters even more.** Since the outcome is self-reported, differences in who happens to respond to the survey (not just who was exposed) can bias the result — platform-native brand lift tools handle this matching for you; a DIY survey-based version needs deliberate demographic/behavioral matching between exposed and control respondents.
+- **Reading the result is the same logic as §"How to read a test" above** — lift = exposed rate minus control rate on the survey metric, check the confidence interval before believing a point estimate, and translate to a decision (was the awareness lift worth the spend, same way incremental CPA translates conversion lift to a decision).
+- **Share of voice** (impression share, branded search volume, social mention volume relative to category) is a cheaper, always-on proxy when a formal brand lift study isn't affordable for a given campaign — it's directional and confounded by lots of things (seasonality, competitor activity), not a substitute for a real controlled test on a high-stakes question, but useful for continuous monitoring between formal tests.
+
 ## Putting them together (the mature stack)
 
 They're layers, not competitors:

@@ -6,6 +6,8 @@ This is the most misused offer lever in the industry. Done right, it's a meaning
 
 The repo voice: **only ship real scarcity.** If the scarcity is fake, take it off the page.
 
+**Check brand tier before applying any of this.** How loud and frequent scarcity/urgency messaging should be varies sharply by tier — see `marketing-strategy/references/brand-tier-guide.md`'s Scarcity & Urgency row. What reads as normal genre convention for a budget brand can undercut a premium or luxury brand's positioning.
+
 ## Scarcity vs urgency
 
 | | What it limits | Examples |

@@ -63,6 +63,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [analytics](skills/analytics/) | When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions... |
 | [aso](skills/aso/) | When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO... |
 | [attribution](skills/attribution/) | When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an... |
+| [brand-guidelines](skills/brand-guidelines/) | When the user wants to create, update, or apply visual brand identity guidelines — logo usage, color palette,... |
 | [churn-prevention](skills/churn-prevention/) | When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or... |
 | [co-marketing](skills/co-marketing/) | When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use... |
 | [cold-email](skills/cold-email/) | Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails,... |
@@ -75,6 +76,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [cro](skills/cro/) | When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage,... |
 | [customer-research](skills/customer-research/) | When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer... |
 | [directory-submissions](skills/directory-submissions/) | When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for... |
+| [discount-and-overstock](skills/discount-and-overstock/) | When the user wants to clear overstock, aging, or discontinued inventory, or decide how deep and how often to discount.... |
 | [emails](skills/emails/) | When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email... |
 | [free-tools](skills/free-tools/) | When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or... |
 | [image](skills/image/) | When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product... |
@@ -92,7 +94,9 @@ See each skill's **Related Skills** section for the full dependency map.
 | [onboarding](skills/onboarding/) | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also... |
 | [paywalls](skills/paywalls/) | When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use... |
 | [popups](skills/popups/) | When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also... |
+| [price-elasticity](skills/price-elasticity/) | When the user wants to understand or estimate how demand responds to a price change, decide how much they can raise... |
 | [pricing](skills/pricing/) | When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions... |
+| [product-feed](skills/product-feed/) | When the user wants to build, audit, or optimize a product data feed for shopping ads or catalog-driven marketing. Also... |
 | [programmatic-seo](skills/programmatic-seo/) | When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions... |
 | [prospecting](skills/prospecting/) | When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or... |
 | [public-relations](skills/public-relations/) | When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy... |
@@ -304,8 +308,9 @@ You can also invoke skills directly:
 - `schema` - Structured data
 
 ### Paid & Distribution
-- `ads` - Google, Meta, LinkedIn ad campaigns
+- `ads` - Google, Meta, LinkedIn ad campaigns (including PMax and Advantage+ Shopping playbooks)
 - `ad-creative` - Bulk ad creative generation and iteration
+- `product-feed` - Merchant/catalog feed structure, quality, and troubleshooting
 - `social` - Social media scheduling and strategy
 
 ### Measurement & Testing
@@ -322,11 +327,15 @@ You can also invoke skills directly:
 - `referrals` - Referral and affiliate programs
 
 ### Strategy & Monetization
-- `marketing-strategy` - Foundational positioning, audience, and strategic-priority context
+- `marketing-strategy` - Foundational positioning, audience, brand tier, and strategic-priority context
+- `brand-guidelines` - Visual identity: logo, color, typography, imagery style
 - `marketing-ideas` - 140 marketing ideas
 - `marketing-psychology` - Mental models and psychology
 - `launch` - Product launches and announcements
 - `pricing` - Pricing, packaging, and monetization
+- `price-elasticity` - Measuring and using demand response to price changes
+- `offers` - Value framing, bonus stacking, guarantees, scarcity/urgency
+- `discount-and-overstock` - Clearing inventory without training customers to wait for sales
 
 ### Sales & RevOps
 - `revops` - Lead lifecycle, scoring, routing, pipeline management

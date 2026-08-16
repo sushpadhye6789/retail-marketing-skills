@@ -99,6 +99,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [overstock](skills/overstock/) | When the user has excess, aging, dead, or discontinued inventory and needs to diagnose why, and decide how to dispose... |
 | [paywalls](skills/paywalls/) | When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use... |
 | [popups](skills/popups/) | When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also... |
+| [pos-marketing](skills/pos-marketing/) | When the user wants to plan point-of-sale or point-of-purchase marketing materials — in-store signage, shelf talkers,... |
 | [price-elasticity](skills/price-elasticity/) | When the user wants to understand or estimate how demand responds to a price change, decide how much they can raise... |
 | [pricing](skills/pricing/) | When the user wants help with pricing decisions, packaging, monetization strategy, or checking prices against... |
 | [product-feed](skills/product-feed/) | When the user wants to build, audit, or optimize a product data feed for shopping ads or catalog-driven marketing. Also... |
@@ -108,6 +109,8 @@ See each skill's **Related Skills** section for the full dependency map.
 | [public-relations](skills/public-relations/) | When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy... |
 | [range-review](skills/range-review/) | When the user wants to periodically review the product range/assortment and decide what to keep, grow, fix, cut, or... |
 | [referrals](skills/referrals/) | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy.... |
+| [repositioning](skills/repositioning/) | When a material positioning change has just been made in marketing-strategy and the user needs to know everything else... |
+| [retail-media](skills/retail-media/) | When the user wants to plan or optimize advertising on a retailer's own platform — sponsored product listings, on-site... |
 | [revops](skills/revops/) | When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes.... |
 | [sales-enablement](skills/sales-enablement/) | When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also... |
 | [schema](skills/schema/) | When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user... |
@@ -116,6 +119,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [site-architecture](skills/site-architecture/) | When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal... |
 | [sms](skills/sms/) | When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts,... |
 | [social](skills/social/) | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram,... |
+| [storytelling](skills/storytelling/) | When the user wants to construct a brand, founder, product, or customer narrative — the underlying story arc, not the... |
 | [supplier-funded-marketing](skills/supplier-funded-marketing/) | When the user wants help with marketing development funds (MDF) or co-op advertising — either requesting and using... |
 | [tentpole-campaign](skills/tentpole-campaign/) | When the user wants to plan a major brand campaign tied to a calendar moment, cultural moment, or brand-owned milestone... |
 | [video](skills/video/) | When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use... |
@@ -301,6 +305,7 @@ You can also invoke skills directly:
 - `paywalls` - In-app upgrade moments
 
 ### Content & Copy
+- `storytelling` - Brand, founder, product, and customer narrative construction
 - `copywriting` - Marketing page copy
 - `copy-editing` - Edit and polish existing copy
 - `cold-email` - B2B cold outreach emails and sequences
@@ -320,6 +325,8 @@ You can also invoke skills directly:
 - `ads` - Google, Meta, LinkedIn ad campaigns (including PMax and Advantage+ Shopping playbooks)
 - `ad-creative` - Bulk ad creative generation and iteration
 - `product-feed` - Merchant/catalog feed structure, quality, and troubleshooting
+- `retail-media` - Advertising on a retailer's own platform (Amazon Ads, Walmart Connect, etc.)
+- `pos-marketing` - Point-of-sale / point-of-purchase marketing materials
 - `social` - Social media scheduling and strategy
 
 ### Measurement & Testing
@@ -337,6 +344,7 @@ You can also invoke skills directly:
 
 ### Strategy & Monetization
 - `marketing-strategy` - Foundational positioning, audience, brand tier, distribution model, and strategic-priority context
+- `repositioning` - Cascading a material positioning change through everything built on the old one
 - `channel-selection` - Deciding which marketing channels belong in the mix
 - `budget-allocation` - Sizing and allocating marketing budget across channels, and reallocating on performance
 - `brand-guidelines` - Visual identity: logo, color, typography, imagery style

@@ -245,6 +245,7 @@ For headlines and CTAs, provide 2-3 options:
 
 ## Related Skills
 
+- **storytelling**: For the narrative arc behind an About page, brand story, or customer case study — build the structure there before writing the finished page here
 - **copy-editing**: For polishing existing copy (use after your draft)
 - **cro**: If page structure/strategy needs work, not just copy
 - **emails**: For email copywriting

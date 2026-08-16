@@ -37,6 +37,14 @@ How to classify a brand's distribution model, and how that classification should
 | Ecom-only / Own stores | Full creative and timing control |
 | Dealers | Major campaigns (tentpole/brand campaigns, seasonal pushes) often need dealer coordination — shared creative assets, embargo dates so dealers aren't caught off guard by a promotion that affects their own marketing, and co-op/MDF fund timing if the brand funds dealer marketing (see `supplier-funded-marketing`) |
 
+### Retail media and point-of-sale (see `retail-media` and `pos-marketing`)
+
+| Model | What changes |
+|---|---|
+| Ecom-only | Retail media is only relevant if also listing on a marketplace; point-of-sale marketing doesn't apply without physical retail presence |
+| Own stores | Full control over both — point-of-sale execution is direct, and any retail media presence (e.g., marketplace listings alongside owned stores) is self-managed |
+| Dealers | Retail media is frequently the *only* lever available to influence the purchase decision at a dealer's specific point of sale — your own DTC channels can't follow the shopper there. Point-of-sale materials need the same coordination as campaign assets above — shared kits, compliance monitoring, and often co-op/MDF funding (see `supplier-funded-marketing`) |
+
 ### Attribution and measurement (see `attribution`)
 
 | Model | What changes |

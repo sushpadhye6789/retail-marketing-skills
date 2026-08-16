@@ -1,15 +1,18 @@
 ---
 name: marketing-council
-description: "When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp, and more). Also use when the user mentions 'marketing council,' 'board of advisors,' 'advisory board,' 'boardroom,' 'run the boardroom,' 'boardroom this,' 'audit this,' 'tear this apart,' 'rip this apart,' 'roast this,' 'critique this,' 'grade this ad,' 'what would Seth Godin say,' 'what would Ogilvy think,' 'channel Hormozi,' 'get multiple perspectives,' 'debate this,' 'have the council review,' 'marketing mentors,' or asks how a famous marketer would approach their problem. The council gives each advisor's take through their documented frameworks, surfaces where they disagree, and synthesizes a recommendation. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill."
+description: "When the user wants multiple expert perspectives on a marketing question — either a simulated board of legendary marketers (Seth Godin, Ogilvy, Schwartz, Dunford, Hormozi, and more) applying documented frameworks, or a domain-agnostic Decision Council (Contrarian, First Principles Thinker, Expansionist, Outsider, Executor) that stress-tests the idea. Also use when the user mentions 'marketing council,' 'advisory board,' 'boardroom,' 'audit this,' 'tear this apart,' 'grade this ad,' 'what would Seth Godin say,' 'channel Hormozi,' 'debate this,' 'decision council,' 'contrarian take,' 'stress-test this,' or 'first-principles this.' The marketer bench surfaces documented disagreement; Decision Council catches fatal flaws, wrong framing, undersold upside, curse-of-knowledge blind spots, and feasibility gaps. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Marketing Council
 
-You convene a **simulated board of marketing advisors**: legendary marketers whose documented frameworks, published positions, and known heuristics you apply to the user's specific problem. The value isn't any single take — it's the *disagreement*. The bench is built from thinkers whose lenses conflict in useful ways, so the user sees the real trade-offs before choosing a direction.
+You convene one of two councils, depending on what the question needs:
 
-**This is persona simulation, not the real people.** Every take must be grounded in what the advisor actually wrote or said (see Grounding Rules). Label the output as simulation.
+- **The marketer bench** — legendary marketers whose documented frameworks, published positions, and known heuristics you apply to the user's specific problem. The value isn't any single take — it's the *disagreement*. The bench is built from thinkers whose lenses conflict in useful ways, so the user sees the real trade-offs before choosing a direction. **This is persona simulation, not the real people.** Every take must be grounded in what the advisor actually wrote or said (see Grounding Rules). Label the output as simulation.
+- **The Decision Council** — five generic, domain-agnostic thinking roles (Contrarian, First Principles Thinker, Expansionist, Outsider, Executor) that stress-test the *idea itself*, independent of any marketing framework. Not persona simulation — no real people are represented, so the Grounding Rules don't apply to it (see its own Decision Council Rules instead).
+
+They answer different questions and can be run standalone or stacked — see Session Modes below for when each fits, and "Decision Council vs. the marketer bench" for how they combine.
 
 ## Before Starting
 
@@ -19,18 +22,23 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 Then clarify (ask only for what's missing):
 1. **The question** — What decision or work product is the council reviewing? (a strategy, a landing page, a pricing change, a launch plan, a rebrand, an ad account)
 2. **The stakes** — What happens if this goes well or badly? What's already been tried?
-3. **Session mode** — quick take, council session, boardroom, or full council (see below). Default: council session.
+3. **Session mode** — quick take, council session, boardroom, full council, or decision council (see below). Default: council session.
 
 ## Session Modes
 
 | Mode | Seats | When |
 |------|-------|------|
 | **Quick take** | 1 advisor | "What would Ogilvy say about this headline?" — a single named advisor |
-| **Council session** (default) | 3–5 advisors | A real decision that benefits from conflicting lenses |
+| **Council session** (default) | 3–5 advisors | A real decision that benefits from conflicting *marketing* lenses |
 | **Boardroom** | 6 fixed advisors | A fixed panel for auditing a finished asset (ad, landing page, campaign, screenshot). Triggers on "run the boardroom," "boardroom this," "audit this," "tear this apart," "rip this apart," "roast this," "critique this," "grade this ad," or any asset review with no advisor named. Skips the seating-logic table below entirely — always seat Ogilvy, Godin, Vaynerchuk, Sutherland, Schwartz, and Sharp, in that order, regardless of question type; their lenses already collide without needing the dissenter logic. Produces the Action Matrix artifact (see below) instead of the plain-text next-steps list. |
 | **Full council** | All 12 | Major strategic decisions — expect a long output; offer this only when stakes justify it |
+| **Decision Council** | 5 fixed roles | A domain-agnostic stress-test of the idea or decision itself, independent of marketing expertise. Triggers on "decision council," "contrarian take," "stress-test this," "first-principles this," "poke holes in this," "what's the fatal flaw here," or an explicit request to run the Contrarian/First Principles/Expansionist/Outsider/Executor roles. Does **not** trigger on generic marketing questions or asset audits — those default to Council session or Boardroom (see disambiguation below). |
 
 **Boardroom vs. a Council session reviewing copy:** both can touch a finished asset, and that overlap is real. Default to Boardroom when the ask is a full-asset audit with no advisor named ("audit this," "tear this apart," a pasted screenshot with no further instruction). Default to Council session's Copy / creative review seating (see below) when the user names specific advisors, asks a narrower question about the copy or messaging alone, or the request reads as a strategic question rather than a critique of a finished piece.
+
+**Decision Council vs. the marketer bench:** these overlap in *when they could apply* (both can touch a strategic decision or a finished asset) but never in *what they produce* — the marketer bench answers "what would documented marketing expertise say, and where do real experts' philosophies genuinely conflict"; Decision Council answers "does this survive fatal-flaw hunting, wrong-question framing, undersold upside, fresh-eyes confusion, and a feasibility check, independent of any marketing framework." Because of that overlap window, Decision Council only triggers on its own explicit phrases above — never as a silent alternative to Council session or Boardroom on an ordinary marketing question, and never both at once unless asked. It's most valuable **stacked**, not standalone:
+- **Before** a Council session or Boardroom — to sanity-check the question itself before spending the marketer panel's time on it ("First Principles: is repositioning even the right move here, or is the real problem retention?").
+- **After** a Council session, Boardroom, or Full council — to stress-test the marketers' consensus, especially the Outsider seat, which catches the curse-of-knowledge blind spot a bench of deep marketing experts shares by construction (none of the 12 marketer personas ever has zero context; the Outsider always does).
 
 ## The Bench
 
@@ -71,6 +79,31 @@ For a council session, seat 3–5 advisors:
 | Growth / scaling | Hormozi, Vaynerchuk, Sharp | Handley (quality erosion), Dunford (scaling a fuzzy position) |
 | Audience / channel choice | Vaynerchuk, Sharp, Halbert | Godin (smallest viable audience vs. mass reach) |
 | Launch strategy | Brunson, Godin, Halbert | Sharp (launches fade; availability compounds) |
+
+## The Decision Council
+
+Five fixed roles, always seated together (unlike the marketer bench, there's no partial seating — the five are chosen so each covers a distinct failure mode of the other four, and dropping one leaves a gap none of the others fill):
+
+| Role | Job | Failure mode it exists to catch |
+|------|-----|----------------------------------|
+| **The Contrarian** | Actively looks for what's wrong, what's missing, what will fail. Assumes the idea has a fatal flaw and tries to find it. If everything looks solid, digs deeper. Not a pessimist — the friend who saves you from a bad deal by asking the question you're avoiding. | A decision that looks good because no one stress-tested it |
+| **The First Principles Thinker** | Ignores the surface-level question and asks "what are we actually trying to solve here?" Strips away assumptions and rebuilds the problem from the ground up. Sometimes the most valuable output is "you're asking the wrong question entirely." | Solving a well-articulated version of the wrong problem |
+| **The Expansionist** | Looks for upside everyone else is missing. What could be bigger? What adjacent opportunity is hiding? What's being undervalued? Doesn't weigh risk — that's the Contrarian's job. Cares about what happens if this works *better* than expected. | An idea sized too small because no one asked what winning big looks like |
+| **The Outsider** | Has zero context about the business, the field, or its history. Responds purely to what's in front of them. Never given the other four takes before forming their own — contamination defeats the point. | The curse of knowledge: things obvious to an expert but confusing (or alarming) to anyone else |
+| **The Executor** | Only cares whether this can actually be done and what the fastest path is. Ignores theory and big-picture strategy. Looks at every idea through "OK, but what do you do Monday morning?" If it sounds brilliant but has no clear first step, says so. | A direction that's directionally right but never ships |
+
+### Decision Council Protocol
+
+1. **Generate the Outsider's take first, in isolation** — before the other four roles see the question discussed, or the Outsider inherits context they're specifically meant not to have. (The other four can be generated in any order, each seeing only the question, not each other's takes, to keep every role's critique independent rather than reactive.)
+2. **Each role's take** — 1-3 paragraphs, staying strictly inside that role's lens (an Executor take that starts weighing strategic tradeoffs has drifted into someone else's seat — cut it back).
+3. **Where the roles disagree** — the Expansionist and Contrarian will often point in opposite directions on the same fact (is the small addressable market a risk or is it exactly the "smallest viable" advantage); name that tension explicitly rather than smoothing it over.
+4. **Chair's synthesis** — same format as the marketer bench: a recommendation fitted to the user's actual situation, which role's warning to keep as a tripwire, and concrete next steps.
+
+### Decision Council Rules
+
+- **No real people are represented.** These are functional roles, not personas — nothing here needs sourcing, quoting, or the marketer bench's Grounding Rules. The discipline is different: stay strictly inside the role's lens (see Anti-Patterns) rather than avoiding misattribution.
+- **The Outsider's isolation is load-bearing, not a formality.** If the Outsider's take reads like it absorbed the other four roles' framing, it has failed at the one thing it exists to do.
+- **Don't let five takes converge into one generic "here are some things to consider."** Each role should sometimes actively contradict another — an Expansionist and a Contrarian agreeing on everything means one of them isn't doing their job.
 
 ## Session Protocol
 
@@ -144,6 +177,8 @@ in Boardroom mode, note that all six are fixed by default]
 - **Execute with:** [skill handoffs]
 ```
 
+**Decision Council mode** uses the same overall shape, with two differences: no simulation-disclaimer line (these aren't real people), and the seated line reads `## Seated: Contrarian, First Principles Thinker, Expansionist, Outsider, Executor (Decision Council)` with a note confirming the Outsider's take was generated in isolation, not that anyone was chosen as a dissenter.
+
 ## Action Matrix (Boardroom mode only)
 
 Instead of a plain-text next-steps list, produce a standalone, single-file HTML artifact:
@@ -166,6 +201,9 @@ Users can extend the bench ("add my own advisor"). Create a dossier following th
 - **Quote soup** — stitching famous one-liners together instead of applying the method behind them.
 - **Council for execution work** — the council decides direction; it doesn't write the landing page. Hand off to the execution skill once direction is set.
 - **Twelve advisors on a headline** — match the bench size to the stakes.
+- **Decision Council as the default** — running it on every ordinary marketing question instead of Council session/Boardroom defeats its purpose as a targeted stress-test; only fire it on its own explicit triggers (see Session Modes).
+- **A contaminated Outsider** — generating the Outsider's take after (or informed by) the other four roles' discussion produces a sixth generic opinion, not fresh eyes. Generate it first, in isolation, every time.
+- **Roles bleeding into each other** — an Executor debating strategy, or a Contrarian pitching upside, has left their lane; each role should read as a genuinely different kind of critique, not five voices making the same point.
 
 ## Related Skills
 

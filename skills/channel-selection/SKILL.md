@@ -106,3 +106,4 @@ Signals worth acting on, not just monitoring:
 - **ads**: For platform selection within paid media, and the testing/scaling pattern this skill's graduation-criteria framework generalizes
 - **social** / **emails** / **sms** / **public-relations** / **influencer-marketing** / **referrals**: For execution once a channel is selected
 - **programmatic** / **digital-out-of-home**: For open-ecosystem and place-based channel options once basic digital/social channels are covered
+- **media-plan**: For weighting and sequencing the selected channels into an actual reach/frequency plan, once selection is done

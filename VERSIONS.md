@@ -4,61 +4,174 @@ Current versions of all skills. Agents can compare against local versions to che
 
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
-| ab-testing | 2.0.0 | 2026-05-05 |
-| ad-creative | 2.8.0 | 2026-07-14 |
-| ai-seo | 2.2.0 | 2026-07-09 |
-| analytics | 2.0.1 | 2026-07-22 |
-| aso | 2.0.0 | 2026-05-05 |
-| attribution | 1.1.0 | 2026-07-23 |
-| churn-prevention | 2.0.0 | 2026-05-05 |
-| co-marketing | 2.0.0 | 2026-05-05 |
-| cold-email | 2.0.0 | 2026-05-05 |
-| community-marketing | 2.0.0 | 2026-05-05 |
-| competitor-profiling | 2.0.0 | 2026-05-05 |
-| competitors | 2.0.1 | 2026-07-09 |
-| content-strategy | 2.0.0 | 2026-05-05 |
-| copy-editing | 2.0.0 | 2026-05-05 |
-| copywriting | 2.0.1 | 2026-06-16 |
-| cro | 2.0.0 | 2026-05-05 |
-| customer-research | 2.0.1 | 2026-07-10 |
-| directory-submissions | 2.0.0 | 2026-05-05 |
-| emails | 2.0.0 | 2026-05-05 |
-| free-tools | 2.0.0 | 2026-05-05 |
-| image | 2.0.1 | 2026-05-18 |
-| influencer-marketing | 1.0.0 | 2026-07-15 |
-| launch | 2.0.1 | 2026-06-16 |
-| lead-magnets | 2.0.0 | 2026-05-05 |
+| ab-testing | 2.0.0 | 2026-08-16 |
+| ad-creative | 2.8.0 | 2026-08-16 |
+| ads | 2.4.0 | 2026-08-16 |
+| ai-seo | 2.2.0 | 2026-08-16 |
+| analytics | 2.0.1 | 2026-08-16 |
+| aso | 2.0.0 | 2026-08-16 |
+| attribution | 1.3.0 | 2026-08-16 |
+| brand-guidelines | 1.0.0 | 2026-08-16 |
+| brand-management | 1.0.0 | 2026-08-16 |
+| budget-allocation | 1.0.0 | 2026-08-16 |
+| budget-pacing-tracker | 1.0.0 | 2026-08-16 |
+| channel-selection | 1.0.0 | 2026-08-16 |
+| churn-prevention | 2.0.0 | 2026-08-16 |
+| co-marketing | 2.0.0 | 2026-08-16 |
+| cold-email | 2.0.0 | 2026-08-16 |
+| community-marketing | 2.0.0 | 2026-08-16 |
+| competitor-profiling | 2.0.0 | 2026-08-16 |
+| competitors | 2.0.1 | 2026-08-16 |
+| compliance | 1.0.0 | 2026-08-16 |
+| content-strategy | 2.0.0 | 2026-08-16 |
+| copy-editing | 2.0.0 | 2026-08-16 |
+| copywriting | 2.0.1 | 2026-08-16 |
+| cro | 2.1.0 | 2026-08-16 |
+| customer-research | 2.0.1 | 2026-08-16 |
+| digital-out-of-home | 1.0.0 | 2026-08-16 |
+| directory-submissions | 2.0.0 | 2026-08-16 |
+| discount-and-clearance | 1.0.0 | 2026-08-16 |
+| emails | 2.1.0 | 2026-08-16 |
+| experiential-marketing | 1.0.0 | 2026-08-16 |
+| free-tools | 2.0.0 | 2026-08-16 |
+| image | 2.0.1 | 2026-08-16 |
+| influencer-marketing | 1.0.0 | 2026-08-16 |
+| launch | 2.0.1 | 2026-08-16 |
+| lead-magnets | 2.0.0 | 2026-08-16 |
+| local-marketing | 1.0.0 | 2026-08-16 |
+| loyalty | 1.0.0 | 2026-08-16 |
 | marketing-council | 1.2.0 | 2026-08-16 |
-| marketing-ideas | 2.0.0 | 2026-05-05 |
-| marketing-loops | 1.2.0 | 2026-07-10 |
-| marketing-plan | 1.1.0 | 2026-05-29 |
-| marketing-psychology | 2.0.0 | 2026-05-05 |
-| offers | 1.0.0 | 2026-06-16 |
-| onboarding | 2.0.0 | 2026-05-05 |
-| ads | 2.2.0 | 2026-07-05 |
-| paywalls | 2.0.0 | 2026-05-05 |
-| popups | 2.0.0 | 2026-05-05 |
-| pricing | 2.1.0 | 2026-07-27 |
-| product-marketing | 2.1.0 | 2026-07-16 |
-| programmatic-seo | 2.0.0 | 2026-05-05 |
-| prospecting | 1.1.0 | 2026-07-13 |
-| public-relations | 1.0.0 | 2026-06-10 |
-| referrals | 2.0.0 | 2026-05-05 |
-| revops | 2.0.0 | 2026-05-05 |
-| sales-enablement | 2.0.1 | 2026-06-16 |
-| schema | 2.0.0 | 2026-05-05 |
-| seo-audit | 2.0.0 | 2026-05-05 |
-| signup | 2.0.0 | 2026-05-05 |
-| site-architecture | 2.0.0 | 2026-05-05 |
-| sms | 1.0.0 | 2026-05-21 |
-| social | 2.2.0 | 2026-07-09 |
-| video | 2.1.0 | 2026-07-14 |
+| marketing-ideas | 2.0.1 | 2026-08-16 |
+| marketing-loops | 1.2.0 | 2026-08-16 |
+| marketing-plan | 1.1.0 | 2026-08-16 |
+| marketing-psychology | 2.0.0 | 2026-08-16 |
+| marketing-strategy | 1.4.0 | 2026-08-16 |
+| media-plan | 1.0.0 | 2026-08-16 |
+| moat-builder | 1.0.0 | 2026-08-16 |
+| offers | 1.1.0 | 2026-08-16 |
+| onboarding | 2.0.1 | 2026-08-16 |
+| overstock | 1.0.0 | 2026-08-16 |
+| paywalls | 2.0.0 | 2026-08-16 |
+| popups | 2.0.0 | 2026-08-16 |
+| pos-marketing | 1.0.0 | 2026-08-16 |
+| price-elasticity | 1.0.0 | 2026-08-16 |
+| pricing | 2.2.0 | 2026-08-16 |
+| product-feed | 1.0.0 | 2026-08-16 |
+| product-lifecycle | 1.0.0 | 2026-08-16 |
+| programmatic-seo | 2.0.0 | 2026-08-16 |
+| programmatic | 1.0.0 | 2026-08-16 |
+| prospecting | 1.1.0 | 2026-08-16 |
+| public-relations | 1.0.0 | 2026-08-16 |
+| range-review | 1.0.0 | 2026-08-16 |
+| referrals | 2.0.0 | 2026-08-16 |
+| repositioning | 1.0.0 | 2026-08-16 |
+| retail-media | 1.0.0 | 2026-08-16 |
+| revops | 2.0.0 | 2026-08-16 |
+| sales-enablement | 2.0.1 | 2026-08-16 |
+| schema | 2.0.0 | 2026-08-16 |
+| seo-audit | 2.0.0 | 2026-08-16 |
+| signup | 2.0.0 | 2026-08-16 |
+| site-architecture | 2.0.0 | 2026-08-16 |
+| sms | 1.0.0 | 2026-08-16 |
+| social | 2.3.0 | 2026-08-16 |
+| storytelling | 1.0.0 | 2026-08-16 |
+| supplier-funded-marketing | 1.0.0 | 2026-08-16 |
+| tentpole-campaign | 1.0.0 | 2026-08-16 |
+| trade-marketing | 1.0.0 | 2026-08-16 |
+| video | 2.1.0 | 2026-08-16 |
+| visual-merchandising | 1.0.0 | 2026-08-16 |
 
 ## Recent Changes
 
-### 2.10.1 (2026-08-16)
+### 2.20.3 (2026-08-16)
 
 - **marketing-council** (1.1.0 → 1.2.0): added a second, independent council — **Decision Council** — five fixed, domain-agnostic thinking roles (Contrarian, First Principles Thinker, Expansionist, Outsider, Executor) that stress-test an idea or decision itself, distinct from the existing marketer-persona bench. Not persona simulation (no real people represented, so the Grounding Rules don't apply to it), governed instead by its own Decision Council Rules — most notably that the Outsider's take must be generated in isolation before the other four roles are discussed, or its "zero context" value is contaminated. Fires only on its own explicit triggers ("decision council," "contrarian take," "stress-test this," "first-principles this") so it never silently substitutes for Council session or Boardroom on an ordinary marketing question; designed to be run standalone or stacked with the marketer bench (before it, to sanity-check the question itself; after it, to stress-test the marketers' consensus — the Outsider specifically catches the curse-of-knowledge blind spot the 12-marketer bench shares by construction).
+
+### 2.20.2 (2026-08-16)
+
+- **cro** (2.0.0 → 2.1.0): its Page-Specific Frameworks section covered only Homepage, Landing Page, Pricing Page, Feature Page, and Blog Post — all SaaS-framed, with no Product Page, Cart, or Checkout guidance despite this being one of the most-used skills in an otherwise retail-focused repo. Added all three: **Product Page CRO** (imagery, size/fit/compatibility, review placement, pre-empting checkout surprises), **Cart CRO** (free-shipping threshold nudges, editable line items, modest cross-sell), and **Checkout CRO** (guest checkout as default, no late-stage cost surprises, payment/delivery visibility, progress indication) — checkout cost-surprise and forced-account-creation are among the most well-documented ecommerce abandonment causes. Cross-referenced product-feed, offers/pricing, emails/sms, and compliance.
+- **loyalty** (1.0.0, no bump — new this session, no external users possible): new **Subscription Commerce** section (subscribe & save, replenishment, curated boxes) — a structurally distinct retention mechanism from the points/tiers/paid-membership program types already covered. Covers cadence prediction, skip/pause/swap as a retention lever (not a leak) with skip rate as a leading churn indicator, distinguishing "too much product" churn from "don't want this anymore" churn (the former needs a cadence fix, not a save-offer discount), involuntary/dunning churn (pointing at churn-prevention's existing SaaS dunning content), and dark-pattern cancellation-flow risk.
+
+### 2.20.1 (2026-08-16)
+
+- **pos-marketing** (no bump — new this session): new **Omnichannel Fulfillment Signage** section (BOPIS, curbside, ship-from-store) — the physical pickup/handoff moment is a genuine POS execution question (wayfinding, curbside signage, using the moment as a merchandising opportunity), distinct from local-marketing's job of making the fulfillment option known in the first place.
+- **retail-media** (no bump — new this session): new **Organic Marketplace Ranking & the Buy Box** section — listing-content ranking factors, the conversion-rate/ranking feedback loop, compliant review generation, and Buy Box eligibility mechanics. Paid and organic visibility inside the same retailer platform interact directly — a weak organic position makes paid spend do work a listing fix would do more cheaply. Added a Common Mistakes entry for advertising against a listing that's losing the Buy Box.
+- **marketing-strategy** `references/distribution-model-guide.md`: new franchise note — a franchised location is a Dealers-row case, but franchise agreements typically add a mandatory national-ad-fund contribution (distinct from an opt-in MDF structure) and stricter brand-standard enforcement, since the franchisee's whole business is the brand. Cross-referenced into supplier-funded-marketing's fund-structure options and local-marketing's multi-location coordination guidance.
+
+### 2.20.0 (2026-08-16)
+
+- Added **`local-marketing`**, **`trade-marketing`**, **`visual-merchandising`**, and **`experiential-marketing`** — closing the clearest remaining gaps for a repo scoping toward retail (not just ecommerce/DTC) marketing, identified by auditing the existing 72 skills for coverage before building. **local-marketing**: Google Business Profile, "near me"/local search, review generation as a ranking signal, geo-targeted paid, and multi-location/dealer coordination. **trade-marketing**: the retailer-buyer-facing counterpart to consumer marketing — sell-in decks, category management, line reviews, planogram negotiation, trade show sell-in; distinct from supplier-funded-marketing (co-op compliance once listed) and retail-media (ads once listed) — this is earning the listing itself. **visual-merchandising**: store zoning, planogram principles, window/hero displays, reset cadence — distinct from pos-marketing's signage/collateral focus. **experiential-marketing**: in-store demos, trade show booths, roadshows, pop-ups, and workshops, with a measurement section applying the incrementality checkpoint before crediting event-driven sales lift. All four check brand tier and distribution model from marketing-strategy, and are bidirectionally cross-referenced into pos-marketing, retail-media, supplier-funded-marketing, range-review, sales-enablement, tentpole-campaign, community-marketing, seo-audit, and brand-management. Total skills: 76.
+
+### 2.19.1 (2026-08-16)
+
+- Audited the repo for skills whose mainline advice breaks down in a specific, concrete situation that wasn't yet covered, and threaded coverage into 13 skills using whichever pattern fit (a new subsection, an inline conditional branch, or a Common Mistakes-style addition) rather than touching every skill uniformly: **public-relations** (new Crisis & Reactive PR section — the skill was entirely proactive-pitch-focused), **product-lifecycle** (Emergency Phase-Out for recalls/safety issues), **brand-management** (Reputational Crisis Recovery), **loyalty** (Abuse & Gaming), **price-elasticity** (guidance for too-little-data SKUs), **range-review** (single-product/narrow-catalog businesses), **social** (Platform & Account Risk — algorithm shifts, bans, policy risk), **tentpole-campaign** (go/no-go checkpoint for external disruption), **budget-allocation** (Emergency Mid-Flight Cuts), **supplier-funded-marketing** (post-payment audit/clawback risk), **moat-builder** (honest guidance for no-moat-yet), **emails** (new Compliance & Deliverability section — had zero coverage despite sms treating it as foundational), and **compliance** (reciprocal links to the new recall/crisis content). Checked each candidate against existing content first to avoid duplicating what a skill already handled well (churn-prevention's dunning coverage, product-feed's disapproval troubleshooting, and ab-testing's sample-size discipline were already solid and left alone).
+
+### 2.19.0 (2026-08-16)
+
+- Added **`media-plan`** — general-purpose media planning (reach/frequency, flighting patterns, channel-role weighting and sequencing) as its own skill rather than folding it into tentpole-campaign, since the mechanics apply equally to a launch or any other large coordinated push. Sits between channel-selection (which channels are eligible) and budget-allocation (total budget/split) on one side, and individual channel execution (ads, programmatic, digital-out-of-home) on the other. Includes a plan-level incrementality caveat: a coordinated multi-channel plan is designed to work as a system, so crediting its lift to the last-touch conversion channel alone systematically undercredits the reach channels that made the conversion possible. Cross-referenced into tentpole-campaign, launch, channel-selection, and budget-allocation. Total skills: 72.
+
+### 2.18.0 (2026-08-16)
+
+- Added **`programmatic`** and **`digital-out-of-home`** — two execution-layer channel skills alongside the existing ads (walled-garden platforms), retail-media (retailer-owned platforms), and pos-marketing (in-store physical) skills. **programmatic**: DSP-based auction buying of display, video, CTV/OTT, and audio inventory across the open web/app ecosystem — open exchange vs. PMP vs. programmatic guaranteed, first-party data activation, and why view-through conversion needs the same incrementality skepticism applied elsewhere in the repo. **digital-out-of-home**: billboards, transit, place-based screens, and programmatic DOOH (pDOOH) buying — creative constraints unique to short dwell time and no on-unit CTA, brand-tier signaling risk of premium placements, and why foot-traffic/geofencing attribution needs a control comparison, not just a correlation. Both cross-reference ads, retail-media, pos-marketing, tentpole-campaign, and channel-selection. Total skills: 70.
+
+### 2.17.1 (2026-08-16)
+
+- **attribution** (1.2.0 → 1.3.0): added `references/incrementality-checkpoint.md` — a canonical, reusable "would this have happened anyway?" pattern any skill can point to before recommending an activity be scaled, kept funded, or rolled out. Names the specific trap for each activity type and a proportionality table (gut-check vs. holdout vs. full controlled test) so the check scales to the actual stakes. Threaded into 10 skills where the trap is concrete: **referrals**/**loyalty** (rewarding a purchase/referral that would've happened anyway), **churn-prevention** (a "saved" customer who was never leaving), **influencer-marketing**/**co-marketing** (a partnership credited with sales another channel would have captured anyway), **content-strategy** (traffic without proof of created, not just captured, conversions), **ad-creative** (a variant winning on CTR while losing on the metric that matters), **public-relations** (a sales bump attributed to coverage that was really seasonal), and **lead-magnets**/**free-tools** (lead capture counted as lead creation). Also fixed a stale product-marketing context path left over from the earlier rename (was pointing only at the legacy path instead of the canonical fallback chain).
+
+### 2.17.0 (2026-08-16)
+
+- Added **`budget-pacing-tracker`** and **`moat-builder`**. **budget-pacing-tracker**: scoped against budget-allocation (that skill decides how much a channel/campaign gets for a period; this one tracks whether actual spend within the period is on pace, and flags deviations early) — covers non-linear pacing (a planned tentpole-campaign or discount-and-clearance spike shouldn't trigger a false alarm), overspend risk (a paused campaign resets platform learning), and underspend risk (use-it-or-lose-it co-op funds). **moat-builder**: tests which differentiators are actually durable, compounding structural advantages (network effects, switching costs, brand, proprietary data, cost/scale, exclusive distribution, regulatory/IP) versus temporary advantages a competitor can copy in a quarter, and maps each moat type to the specific skills that widen it so budget-allocation and channel-selection can bias investment toward reinforcing a real moat. Total skills: 69.
+
+### 2.16.0 (2026-08-16)
+
+- Added **`storytelling`**, **`retail-media`**, **`pos-marketing`**, and **`repositioning`**. **storytelling**: narrative-construction layer distinct from copywriting (page-level execution) — customer-as-hero/brand-as-guide framework mapped onto marketing-strategy's existing sections. **retail-media**: advertising inside a retailer's own platform (Amazon Ads, Walmart Connect, Instacart Ads), explicitly distinguished from `ads` (open web/social) — for a dealer-heavy business, often the only lever that reaches a shopper at that specific point of sale. **pos-marketing**: point-of-sale/point-of-purchase physical marketing materials, tier- and distribution-model-aware. **repositioning**: the "a positioning change should cascade through everything" mechanism — activates after a material change is saved in marketing-strategy and produces a prioritized cascade audit (live campaigns first, then owned content, then partner-facing, then earned media) with a severity classifier so a wording tweak doesn't trigger the full audit; marketing-strategy's save flow now actively tells the user to run it. Total skills: 67.
+
+### 2.15.0 (2026-08-16)
+
+- Added **`channel-selection`** and **`budget-allocation`** — **channel-selection** decides which marketing channels belong in the mix at all (distinct from how much to spend, or how to run a chosen channel well); **budget-allocation** sizes the total marketing budget and allocates it across channels/campaigns, including ongoing reallocation on performance, not just an annual split. Total skills: 63.
+
+### 2.14.0 (2026-08-16)
+
+- Added **`range-review`**, **`brand-management`**, and **`compliance`**. **range-review**: periodic cross-SKU assortment review (keep/grow/fix/cut/add), using sales performance, margin, range role, internal cannibalization, and competitive gaps; hands off to product-lifecycle for execution and overstock for resulting inventory. **brand-management**: the ongoing discipline beyond marketing-strategy/brand-guidelines's point-in-time documents — brand health tracking, brand architecture, extension decisions, and governance/consistency enforcement across teams and dealers. **compliance**: advertising claims substantiation, disclosure requirements, email/SMS consent, data privacy, pricing-claim accuracy, and accessibility — framed as pattern recognition and a "flag for legal review" discipline, not legal advice.
+- **pricing** (2.1.0 → 2.2.0): added `references/competitive-price-monitoring.md` — competitor price comparison (normalize for pack-size/bundle differences, feed findings into price-elasticity rather than reacting to the raw gap) and dealer/MAP price consistency (distinguishes advertised price from transaction price). Total skills: 61.
+
+### 2.13.0 (2026-08-16)
+
+- New **distribution-model classification** — Section 15 in marketing-strategy (Ecom-only / Own stores / Dealers) plus `references/distribution-model-guide.md`, alongside the existing brand-tier classification: what changes on discounting (MAP compliance, channel conflict), paid Shopping/PMax presence competing with dealer listings, campaign coordination/embargo needs, and the attribution blind spot on dealer-channel sales.
+- Split **discount-and-overstock** into two skills: **overstock** (the inventory diagnosis and disposition-channel decision, tier- and distribution-model-aware) and **discount-and-clearance** (the discount/marketing mechanic itself, usable for any discount trigger, not just inventory-driven ones) — discount mechanics and inventory disposition are different jobs.
+- Added **`tentpole-campaign`** (major brand campaigns tied to a calendar/cultural moment, explicitly scoped against promo campaigns and product launches, judged on awareness/brand-lift first), **`product-lifecycle`** (product transitions, phase-outs, and replacements after launch), and **`supplier-funded-marketing`** (both directions of MDF/co-op advertising — receiving funds from suppliers, providing funds to dealers). Total skills: 58.
+
+### 2.12.0 (2026-08-16)
+
+- New **brand-tier classification** — Section 14 in marketing-strategy (Budget / Mid-market / Premium / Luxury, classified by price position + distribution signal, not self-assessment) plus `references/brand-tier-guide.md`, with tactic-by-tactic guidance (scarcity/urgency, discount depth, guarantee framing, creative aesthetic, bundling/loyalty) for how the same tactic should look different at each tier.
+- Added **`price-elasticity`** (estimation methods incl. controlled testing reusing attribution's geo-holdout design; no fabricated elasticity coefficients — every number comes from the user's own data), **`product-feed`** (merchant/catalog feed structure, quality, disapproval troubleshooting), **`discount-and-overstock`** (later split — see 2.13.0), and **`brand-guidelines`** (visual identity using the same document-capture pattern as marketing-strategy).
+- **ads** (2.3.0 → 2.4.0): added `references/pmax-playbook-ecommerce.md` and `references/advantage-plus-shopping-ecommerce.md` — PMax and Advantage+ Shopping got dedicated deep-dive reference files here rather than standalone skills, since separate skills would compete with ads' own trigger phrases.
+- **attribution** (1.1.0 → 1.2.0): added Section 8 (awareness/brand-lift measurement) — reuses the geo-holdout/PSA experimental design already documented in `measurement-paradigms.md`, since the only real difference from conversion measurement is the outcome variable. Total skills: 54.
+
+### 2.11.2 (2026-08-16)
+
+- **marketing-strategy** (1.0.0 → 1.1.0): added `references/positioning-methodology.md` (a five-step positioning method — true competitive alternatives including "doing nothing," unique attributes, attribute-to-value mapping, target market fit, category choice — with worked examples for both an ecommerce/DTC and a B2B SaaS product) and `references/prioritization.md` (naming the binding constraint, scoring candidates against it, cutting the rest with reasons stated, tracing survivors back to the goal) — until now Section 12 (Strategic Priorities) had free-text prompts but no actual method. Also fixed two dangling references to a "positioning" skill that didn't exist anywhere in the repo.
+
+### 2.11.1 (2026-08-16)
+
+- **offers** (1.0.0 → 1.1.0): the skill's own scope list named "e-com promo offers" only under the aggressive Direct-response bucket, and `offer-formats.md` had zero entry for standard ecommerce product offers despite that being this repo's primary audience. Added a One-time purchase vs. Subscribe & Save comparison table (the biggest structural offer decision in DTC — it changes the guarantee, scarcity, bonus sequencing, and naming all at once), a 7th worked example (skincare serum), an ecommerce/DTC guarantee pair including the subscription-specific "cancel-anytime IS the guarantee" case, and ecommerce-specific objection-to-bonus rows (fit/sizing, shipping cost/speed, damaged-item replacement).
+
+### 2.11.0 (2026-08-16)
+
+- Added **`loyalty`** — points-based/tiered/paid-membership/punch-card program types with a start-simple bias, points economics framed as "model your own numbers against your margin" rather than asserted benchmark ratios, and a measurement section flagging the member-vs-non-member causality trap. Cross-linked with referrals (rewards existing customers for staying vs. bringing in new ones) and churn-prevention (proactive loyalty vs. reactive save offers).
+- Renamed and merged **`product-marketing`** into **`marketing-strategy`**: same context-document workflow (auto-draft, versioned Changelog, the 12 existing capture sections) plus a new Strategic Priorities section — the 2-4 things that matter this cycle, what's explicitly deprioritized, and the binding constraint. Context file's canonical path moves to `.agents/marketing-strategy.md`, with `.agents/product-marketing.md`, `.claude/product-marketing.md`, and `product-marketing-context.md` kept as legacy fallbacks so existing users' files keep working without migrating. Updated every cross-reference repo-wide. Total skills: 50.
+
+### 2.10.3 (2026-08-16)
+
+- Fixed three Tier 3 B2C coverage gaps found in a spot check: **onboarding** (2.0.0 → 2.0.1) — "Common Patterns by Product Type" had no ecommerce/DTC row, added one (order confirmation, shipping/tracking, unboxing content, loyalty opt-in, repeat-purchase nudge); **marketing-ideas** (2.0.0 → 2.0.1) — description and H1 scoped the whole skill to "their SaaS or software product" despite ~126 of its 140 ideas being generally applicable, broadened the framing; **product-marketing** — "Target Audience" section only had B2B-shaped prompts, added consumer-audience prompts alongside them. Spot-checked the rest of Tier 3 (21 skills) — all already business-type-aware or using B2B only as an accurate, scoped example; no changes needed there.
+
+### 2.10.2 (2026-08-16)
+
+- **ads** (2.2.0 → 2.3.0): its own routing table sent operational decisions (when to kill/scale a Meta ad, how to structure a Google Search account) to two entirely B2B lead-gen playbooks by default — an ecommerce user following the skill's own routing would get the wrong operating model for two of its most heavily-used platforms. Added `references/meta-decision-system-ecommerce.md` (same kill/graduate/scale engine, re-anchored on breakeven CPA instead of cost-per-qualified-lead) and `references/google-search-playbook-ecommerce.md` (same intent-ladder structure, treating Shopping/PMax as core infra from day one). Deliberately did not carry over the B2B files' numeric benchmark ranges — asserting an ecommerce equivalent without real sourcing would be fabrication; both new files say so and point to computing your own from account data instead.
+
+### 2.10.1 (2026-08-16)
+
+- **marketing-council** (1.0.0 → 1.1.0): "tear this apart" was documented as a Boardroom trigger in the body table but missing from the frontmatter description, which is what actually gates skill invocation — fixed, and added more natural critique phrasing as triggers ("rip this apart," "roast this," "critique this," "grade this ad"), kept in sync between description and the Session Modes table. Added an explicit disambiguation note between Boardroom and a Council session seated for Copy/creative review, since both can legitimately fire on a request to review a finished asset.
 
 ### 2.10.0 (2026-07-22)
 

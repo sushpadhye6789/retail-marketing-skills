@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-marketing-skills",
+  "name": "retail-marketing-skills",
   "owner": {
     "name": "Sush Padhye",
     "url": "https://github.com/sushpadhye6789"
@@ -7,7 +7,7 @@
   "metadata": {
     "description": "Retail & ecommerce marketing skills for AI agents — CRO, copywriting, SEO, paid ads, retail/dealer marketing, and growth. Forked from Corey Haines' marketingskills.",
     "version": "2.10.0",
-    "repository": "https://github.com/sushpadhye6789/ecommerce-marketing-skills"
+    "repository": "https://github.com/sushpadhye6789/retail-marketing-skills"
   },
   "plugins": [
     {

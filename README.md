@@ -1,4 +1,4 @@
-# Ecommerce & Retail Marketing Skills for AI Agents
+# Retail & Ecommerce Marketing Skills for AI Agents
 
 A collection of AI agent skills for retail and ecommerce marketing. Built for technical marketers and founders who want AI coding agents to help with conversion optimization, copywriting, SEO, paid ads, retail/dealer marketing, and growth engineering. Works with Claude Code, OpenAI Codex, Cursor, Windsurf, and any agent that supports the [Agent Skills spec](https://agentskills.io).
 
@@ -8,7 +8,7 @@ Want help with your marketing, or want to automate it? [Reach out to Sush on Lin
 
 **Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).
 
-Run into a problem or have a question? [Open an issue](https://github.com/sushpadhye6789/ecommerce-marketing-skills/issues).
+Run into a problem or have a question? [Open an issue](https://github.com/sushpadhye6789/retail-marketing-skills/issues).
 
 ## What are Skills?
 
@@ -111,13 +111,13 @@ Use [npx skills](https://github.com/vercel-labs/skills) to install skills direct
 
 ```bash
 # Install all skills
-npx skills add sushpadhye6789/ecommerce-marketing-skills
+npx skills add sushpadhye6789/retail-marketing-skills
 
 # Install specific skills
-npx skills add sushpadhye6789/ecommerce-marketing-skills --skill cro copywriting
+npx skills add sushpadhye6789/retail-marketing-skills --skill cro copywriting
 
 # List available skills
-npx skills add sushpadhye6789/ecommerce-marketing-skills --list
+npx skills add sushpadhye6789/retail-marketing-skills --list
 ```
 
 The CLI detects which agents you have installed and asks where to install. For Claude Code it installs into `.claude/skills/`; universal agents share `.agents/skills/`.
@@ -126,7 +126,7 @@ The CLI detects which agents you have installed and asks where to install. For C
 > If you run the command from **inside** an agent session (e.g., asking Claude Code to install the skills for you), the CLI runs non-interactively and may only install to the universal `.agents/skills/` directory, which Claude Code does not read. Pass the agent explicitly:
 >
 > ```bash
-> npx skills add sushpadhye6789/ecommerce-marketing-skills -a claude-code
+> npx skills add sushpadhye6789/retail-marketing-skills -a claude-code
 > ```
 
 ### Option 2: Claude Code Plugin
@@ -135,7 +135,7 @@ Install via Claude Code's built-in plugin system:
 
 ```bash
 # Add the marketplace
-/plugin marketplace add sushpadhye6789/ecommerce-marketing-skills
+/plugin marketplace add sushpadhye6789/retail-marketing-skills
 
 # Install all marketing skills
 /plugin install marketing-skills
@@ -146,8 +146,8 @@ Install via Claude Code's built-in plugin system:
 Clone the entire repo and copy the skills folder:
 
 ```bash
-git clone https://github.com/sushpadhye6789/ecommerce-marketing-skills.git
-cp -r ecommerce-marketing-skills/skills/* .agents/skills/
+git clone https://github.com/sushpadhye6789/retail-marketing-skills.git
+cp -r retail-marketing-skills/skills/* .agents/skills/
 ```
 
 ### Option 4: Git Submodule
@@ -155,10 +155,10 @@ cp -r ecommerce-marketing-skills/skills/* .agents/skills/
 Add as a submodule for easy updates:
 
 ```bash
-git submodule add https://github.com/sushpadhye6789/ecommerce-marketing-skills.git .agents/ecommerce-marketing-skills
+git submodule add https://github.com/sushpadhye6789/retail-marketing-skills.git .agents/retail-marketing-skills
 ```
 
-Then reference skills from `.agents/ecommerce-marketing-skills/skills/`.
+Then reference skills from `.agents/retail-marketing-skills/skills/`.
 
 ### Option 5: Fork and Customize
 
@@ -172,13 +172,13 @@ Use [SkillKit](https://github.com/rohitg00/skillkit) to install skills across mu
 
 ```bash
 # Install all skills
-npx skillkit install sushpadhye6789/ecommerce-marketing-skills
+npx skillkit install sushpadhye6789/retail-marketing-skills
 
 # Install specific skills
-npx skillkit install sushpadhye6789/ecommerce-marketing-skills --skill cro copywriting
+npx skillkit install sushpadhye6789/retail-marketing-skills --skill cro copywriting
 
 # List available skills
-npx skillkit install sushpadhye6789/ecommerce-marketing-skills --list
+npx skillkit install sushpadhye6789/retail-marketing-skills --list
 ```
 
 ### Product marketing context file

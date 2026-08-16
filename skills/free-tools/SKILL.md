@@ -99,6 +99,8 @@ Before designing a tool strategy, understand:
 - Show preview of what they'll get
 - Optional: Segment by asking one qualifying question
 
+**Leads captured aren't leads created.** A free tool that ranks well and gets used will capture some people who were already headed toward the product through another path — gating just interposes a form in front of demand the tool didn't generate. Before crediting the tool's lead count as net-new pipeline (and before greenlighting a second tool on the strength of the first one's numbers), see `attribution/references/incrementality-checkpoint.md` — the same trap `lead-magnets` checks for.
+
 ---
 
 ## SEO Considerations

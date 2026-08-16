@@ -111,6 +111,8 @@ What to track:
 
 What not to obsess over: AVE (advertising value equivalency) — it's a vanity metric PR firms invented.
 
+**A sales bump that follows coverage isn't automatically caused by it.** Seasonality, a concurrent paid push, or an unrelated launch can produce the same bump — brand search lift right after a placement is the best available signal that people actually reacted to *this* coverage, but even that's a proxy, not proof. See `attribution/references/incrementality-checkpoint.md` before crediting a major revenue swing to a PR hit, or before sizing next quarter's PR budget off of it.
+
 ---
 
 ## Common Workflows

@@ -253,6 +253,8 @@ Good lead magnet attracted quality leads if:
 - Low unsubscribe rate after delivery
 - Leads match ICP demographics
 
+**A lead capture isn't the same as a lead the magnet created.** Some of the people who traded an email for the download were already going to buy through the normal funnel — the magnet just interposed itself as a checkpoint, and lead-to-customer rate alone can't tell the two groups apart. This inflates the magnet's apparent value and can justify budget it hasn't earned. See `attribution/references/incrementality-checkpoint.md` — comparing gated vs. equivalent ungated content's downstream conversion rate is a proportionate check once a lead magnet becomes a primary acquisition channel rather than a one-off asset.
+
 ---
 
 ## Output Format

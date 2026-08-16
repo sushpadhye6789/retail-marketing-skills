@@ -224,6 +224,8 @@ Look at the top-performing creative (by CTR, conversion rate, or ROAS — ask wh
 - **Winning word patterns** — Specific words or phrases that recur?
 - **Character utilization** — Are top performers shorter or longer?
 
+**Pick the metric that matters before declaring a winner.** A variant that wins on CTR or engagement can still lose on ROAS or purchases — a scroll-stopping hook can pull in clickers who were never going to buy, which makes "doubling down" on it a mistake dressed up as a finding. When platform reporting is the only signal, treat a CTR-only win as provisional; see `attribution/references/incrementality-checkpoint.md` for scaling the check (a downstream conversion check for most tests, a holdout-backed read before committing real budget to a "winning" angle).
+
 ### Step 2: Analyze Losers
 
 Look at the worst performers and identify:

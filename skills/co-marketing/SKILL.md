@@ -231,6 +231,8 @@ Would you be open to a quick call to explore?
 - Brand lift
 - Relationship strengthened for future campaigns
 
+**Before crediting the partnership with the revenue or leads above, ask whether they'd have arrived anyway** — a co-marketing push often runs alongside existing branded search and direct traffic from both partners' audiences, and last-touch numbers can flatter the partnership by capturing demand it didn't create. See `attribution/references/incrementality-checkpoint.md`: a gut-check is fine for a single joint webinar or content piece; a real read (comparing lift against a period or segment without the partnership) is worth it before locking in a recurring or exclusive partnership.
+
 ---
 
 ## Co-Marketing Checklist

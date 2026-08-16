@@ -78,6 +78,14 @@ Decision tree:
 
 **Weak:** No guarantee. The buyer's risk is too high for the price.
 
+### Ecommerce / DTC product
+
+**Strong:** "30-day try-it guarantee — didn't work for you? Full refund, and you don't need to send it back." Removes the return-shipping friction that kills refund-guarantee trust on lower-cost items; explicitly states who eats the logistics cost.
+
+**Weak:** "See our returns policy" linked in the footer with no guarantee stated on the product page. A real policy that isn't surfaced as an offer component does none of the conversion work a guarantee should do.
+
+**For subscriptions specifically:** "Cancel or pause anytime, no questions asked" is the guarantee — the risk reversal is commitment-flexibility, not a refund. Making cancellation genuinely one click (not a retention phone call) is what makes this guarantee credible; a subscription that's hard to cancel turns its own guarantee into a weak one regardless of what the copy says.
+
 ### SaaS
 
 **Strong:** Free trial *or* annual-prepay-with-money-back-in-first-30-days. Reduces friction without locking in unhappy users.

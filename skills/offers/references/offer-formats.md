@@ -203,6 +203,47 @@ For SaaS, this skill is supplemental. Read [`pricing`](../../pricing/SKILL.md) f
 
 ---
 
+## Ecommerce / DTC product
+
+You sell a physical or consumable product directly to a consumer, usually through a product page or cart, not a sales page.
+
+### Default format
+
+| Component | Default |
+|-----------|---------|
+| **Core** | The product (or a bundle of products) with a clear primary benefit |
+| **Bonuses** | Free gift with purchase, free shipping above a threshold, a care/usage guide, samples of adjacent products |
+| **Guarantee** | Satisfaction guarantee with a defined return window, or a defect-only guarantee for lower-margin items |
+| **Scarcity** | Inventory-based (real stock levels) or seasonal (limited-run, drop-based) |
+| **Name** | Product name + a benefit-led descriptor ("The Overnight Repair Serum," not "Serum #4") |
+| **Price** | Single price, often with a multi-buy or bundle discount; subscribe & save as a structural discount, not a bonus |
+
+### One-time purchase vs. Subscribe & Save
+
+The biggest offer-structure decision in ecommerce, and it changes every other component:
+
+| Decision | One-time purchase | Subscribe & Save |
+|----------|--------------------|--------------------|
+| **Guarantee** | Return/refund window on that order only | Cancel-anytime is itself part of the guarantee — the risk reversal is "you're never locked in," not a refund |
+| **Scarcity** | Inventory-based, straightforward | Founding-subscriber pricing, or "lock in this price before it increases," works because a subscription is a bet on the future |
+| **Bonuses** | Front-loaded (free gift on this order) | Can be sequenced across the relationship (bonus at order 2, bigger bonus at order 4) — subscriptions let you design a bonus *timeline*, not just a stack |
+| **Price framing** | Full price, or a bundle/multi-buy discount | A recurring discount (10-20% off) funds itself through reduced re-acquisition cost — model it against your actual repeat-purchase economics, not an arbitrary round number |
+| **Name/positioning** | The product is the offer | The *program* is the offer — name the subscription itself ("The Refill Plan"), not just the product inside it |
+
+Subscribe & Save is a genuine structural offer decision, not a checkbox — a discount alone doesn't make a subscription compelling if cancellation is hard or the cadence doesn't match real usage. See `pricing` for the discount-percentage and cadence mechanics; this skill covers the offer framing around it.
+
+### What to watch
+
+- **The guarantee has real logistics behind it, unlike a service or info product** — return shipping cost, who pays it, restocking fees, and how fast the refund actually posts are all part of the offer whether or not you say so explicitly. A guarantee that's technically true but operationally painful (customer pays return shipping on a $20 item) reads as bad faith even when the copy says "100% guaranteed."
+- **Bundle logic should solve a real problem, not just raise AOV** — "buy this, get 20% off that" only works as an offer if the second item is something the buyer would plausibly want alongside the first (a genuine use-case pairing), not an arbitrary inventory-clearing bundle.
+- **Free shipping thresholds are a bonus, not a fact of life** — "free shipping over $50" is doing real offer work (it's an AOV lever disguised as a convenience), so treat the threshold number as a lever to test, not a fixed cost of doing business.
+- **First-order incentives (10% off your first order) are acquisition offers, not the core offer** — they should get a customer to try the product once; the loyalty/subscription/repeat-purchase offer is what earns the second order. Don't confuse a welcome discount with the actual value proposition.
+- **Reviews and UGC substitute for the case-study proof that services and courses rely on** — "perceived likelihood" here is mostly carried by star ratings, review count, and photos/video from real buyers, not named case studies.
+
+This format is closest to **Direct response / paid traffic** below when running an aggressive, promotional, VSL-style funnel for a physical product — read that section too if that's your model. Most ecommerce brands running a standard product page or cart, not a hard-sell funnel, should start here instead.
+
+---
+
 ## Direct response / paid traffic
 
 You sell from a sales page or VSL to cold traffic.
@@ -235,6 +276,6 @@ If you're not sure which format applies, pick the closest match and adapt. The b
 Two diagnostic questions:
 
 1. **Who buys it, and how sophisticated are they?** Premium B2B and direct-response cold traffic both buy, but they need different offers.
-2. **What's the dominant constraint?** Service businesses are capacity-constrained, SaaS is pricing-tier-constrained, courses are cohort/season constrained. Match the scarcity format to the real constraint.
+2. **What's the dominant constraint?** Service businesses are capacity-constrained, SaaS is pricing-tier-constrained, courses are cohort/season constrained, ecommerce is inventory- or repeat-purchase-constrained. Match the scarcity format to the real constraint.
 
 For worked examples by business type, see [examples.md](examples.md).

@@ -65,6 +65,8 @@ See each skill's **Related Skills** section for the full dependency map.
 | [attribution](skills/attribution/) | When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an... |
 | [brand-guidelines](skills/brand-guidelines/) | When the user wants to create, update, or apply visual brand identity guidelines — logo usage, color palette,... |
 | [brand-management](skills/brand-management/) | When the user wants to track brand health, decide on brand architecture (house of brands vs. branded house vs.... |
+| [budget-allocation](skills/budget-allocation/) | When the user wants to size a total marketing budget or decide how to split it across channels/campaigns, including... |
+| [channel-selection](skills/channel-selection/) | When the user wants to decide which marketing channels to be in — not how much to spend on each (see budget-allocation)... |
 | [churn-prevention](skills/churn-prevention/) | When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or... |
 | [co-marketing](skills/co-marketing/) | When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use... |
 | [cold-email](skills/cold-email/) | Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails,... |
@@ -335,6 +337,8 @@ You can also invoke skills directly:
 
 ### Strategy & Monetization
 - `marketing-strategy` - Foundational positioning, audience, brand tier, distribution model, and strategic-priority context
+- `channel-selection` - Deciding which marketing channels belong in the mix
+- `budget-allocation` - Sizing and allocating marketing budget across channels, and reallocating on performance
 - `brand-guidelines` - Visual identity: logo, color, typography, imagery style
 - `brand-management` - Brand health tracking, architecture, extension decisions, and governance
 - `range-review` - Periodic product range/assortment review — keep, grow, fix, cut, add

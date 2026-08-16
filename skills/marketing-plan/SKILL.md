@@ -231,7 +231,9 @@ The full schema for `progress.md` and the resumption decision tree live in `refe
 
 ## Related skills
 
-- **`product-marketing`** — Run first. Captures positioning, ICP, voice in `.agents/product-marketing.md` so every section of the plan references the same foundation.
+- **`marketing-strategy`** — Run first. Captures positioning, ICP, voice, brand tier, and distribution model in `.agents/marketing-strategy.md` so every section of the plan references the same foundation.
+- **`channel-selection`** — Which channels belong in the mix, before this plan's Section 4 allocates budget across them.
+- **`budget-allocation`** — For ecommerce-appropriate budget sizing and ongoing cross-channel reallocation beyond this plan's ARR-based formulas and annual cadence.
 - **`marketing-ideas`** — Source of the 139 tactics in Section 12.
 - **`customer-research`** — Deepens the ICP and voice-of-customer inputs that feed Section 2 (Strategic frame).
 - **`onboarding`** — Deep work on Section 5 (Activation).

@@ -2,7 +2,7 @@
 name: marketing-strategy
 description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, and strategic-priority context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Marketing Strategy
@@ -87,11 +87,15 @@ If multiple stakeholders are involved in buying, capture for each:
 - **Indirect competitors**: Conflicting approach (e.g., Calendly vs personal assistant)
 - How each falls short for customers
 
+*For a rigorous version of this section instead of free-text bullets — true competitive alternatives (including "doing nothing"), mapped step by step — see [references/positioning-methodology.md](references/positioning-methodology.md).*
+
 ### 6. Differentiation
 - Key differentiators (capabilities alternatives lack)
 - How you solve it differently
 - Why that's better (benefits)
 - Why customers choose you over alternatives
+
+*Same reference as above covers this section too — it walks attributes through to value and target-market fit, not just a features list.*
 
 ### 7. Objections & Anti-Personas
 - Top 3 objections heard in sales and how to address them
@@ -128,10 +132,22 @@ The JTBD Four Forces:
 - The constraint that's actually binding (budget, team size, product readiness, channel access) — strategy is mostly about picking what to do given a binding constraint, not a wish list
 - How this connects to the business goal in Section 13 — each priority should trace back to it
 
+*If the draft priorities list is longer than 4 items or has nothing marked as cut, it's a wish list, not a strategy — run [references/prioritization.md](references/prioritization.md) before writing this section.*
+
 ### 13. Goals
 - Primary business goal
 - Key conversion action (what you want people to do)
 - Current metrics (if known)
+
+---
+
+## Reference Library
+
+| Reference | When to read |
+|-----------|--------------|
+| [positioning-methodology.md](references/positioning-methodology.md) | Filling in Sections 5-6 with rigor instead of free-text bullets — true competitive alternatives, attribute-to-value mapping, target market fit, category choice |
+| [prioritization.md](references/prioritization.md) | Filling in Section 12 when the draft priorities list is a wish list rather than a real set of choices — naming the binding constraint, scoring candidates, cutting the rest |
+| [examples.md](references/examples.md) | Weak-vs-strong worked examples for Sections 5, 6, and 12, for both an ecommerce/DTC and a B2B SaaS business |
 
 ---
 
@@ -274,6 +290,5 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
 ## Related Skills
 
 - **marketing-plan**: For the dated, channel-by-channel 90-day/12-month execution plan built from this document's positioning and priorities
-- **positioning**: For deeper competitive positioning work (Dunford-style) beyond what this document captures
 - **customer-research**: For the raw customer interviews and language-mining that feeds Sections 4 and 9
 - **pricing** / **offers**: For monetization decisions that should trace back to Section 13's priorities

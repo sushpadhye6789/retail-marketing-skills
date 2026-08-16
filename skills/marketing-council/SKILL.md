@@ -169,7 +169,7 @@ Users can extend the bench ("add my own advisor"). Create a dossier following th
 
 ## Related Skills
 
-- **positioning** / **marketing-strategy**: When Dunford's take wins — execute the positioning work
+- **marketing-strategy**: When Dunford's take wins — execute the positioning work (see its `references/positioning-methodology.md`)
 - **offers** / **pricing**: When Hormozi/Halbert direction wins — build the offer
 - **copywriting** / **copy-editing**: When the council reviewed copy — execute revisions
 - **ads** / **ad-creative**: When the debate was media or creative strategy

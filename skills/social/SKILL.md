@@ -407,6 +407,7 @@ Tools: CapCut (free), Descript, Captions.ai, Premiere Pro
 
 ## Related Skills
 
+- **storytelling**: For the narrative arc behind a carousel or story-driven post, before slide-by-slide execution
 - **copywriting**: For longer-form content that feeds social
 - **launch**: For coordinating social with launches
 - **emails**: For nurturing social audience via email

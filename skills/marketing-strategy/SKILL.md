@@ -2,7 +2,7 @@
 name: marketing-strategy
 description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' 'brand tier,' 'are we a premium/luxury brand,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, and strategic-priority context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
 metadata:
-  version: 1.3.0
+  version: 1.4.0
 ---
 
 # Marketing Strategy
@@ -300,6 +300,7 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
   - Use today's date in ISO form (YYYY-MM-DD) for the entry and `Last updated`.
   - **Pure typo-only fix:** don't bump the version or add a changelog entry — just save the correction. Every other change bumps the version and gets an entry. When the change is a real repositioning or priority shift, say so plainly — downstream skills will now generate against the new context.
 - Save to `.agents/marketing-strategy.md`
+- **If Sections 5, 6, or 14 changed materially** (not just wording — the competitive frame, differentiation story, target audience, or brand tier actually shifted), the update doesn't stop here: everything already built on the old positioning — live campaigns, owned content, sales materials, dealer-facing assets — still says the old thing until it's deliberately updated. Tell the user this plainly and recommend running `/repositioning` next to get the prioritized cascade audit, rather than letting the document change sit unnoticed by everything downstream of it.
 - Tell them: "Other marketing skills will now use this context automatically. The Changelog at the bottom tracks every revision — check it to see how your positioning and priorities have evolved. Run `/marketing-strategy` anytime to update it. For a dated 90-day execution plan built from this strategy, run `/marketing-plan` next."
 
 ---
@@ -315,8 +316,9 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
 
 ## Related Skills
 
+- **repositioning**: For the prioritized cascade audit of everything downstream that needs updating after a material change to Sections 5, 6, or 14 — run this after saving a real positioning change, not just when it happens to come up
 - **marketing-plan**: For the dated, channel-by-channel 90-day/12-month execution plan built from this document's positioning and priorities
 - **customer-research**: For the raw customer interviews and language-mining that feeds Sections 4 and 9
 - **pricing** / **offers**: For monetization decisions that should trace back to Section 13's priorities
 - **discount-and-clearance** / **overstock** / **brand-guidelines** / **loyalty** / **ads**: For skills that check Section 14's brand tier before applying tactics that diverge by tier (see [references/brand-tier-guide.md](references/brand-tier-guide.md))
-- **discount-and-clearance** / **overstock** / **ads** / **product-feed**: For skills that check Section 15's distribution model before recommending a tactic that could conflict with dealer channels (see [references/distribution-model-guide.md](references/distribution-model-guide.md))
+- **discount-and-clearance** / **overstock** / **ads** / **product-feed** / **retail-media** / **pos-marketing**: For skills that check Section 15's distribution model before recommending a tactic that could conflict with dealer channels (see [references/distribution-model-guide.md](references/distribution-model-guide.md))

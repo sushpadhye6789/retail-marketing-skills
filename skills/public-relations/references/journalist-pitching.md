@@ -318,9 +318,9 @@ Things that instantly disqualify your pitch:
 
 ```bash
 # Most journalists' emails follow patterns:
-# firstname@outlet.com
-# firstname.lastname@outlet.com
-# flastname@outlet.com
+# firstname@outlet.com.au
+# firstname.lastname@outlet.com.au
+# flastname@outlet.com.au
 # Use Hunter.io, RocketReach, or just guess and bounce-check
 ```
 

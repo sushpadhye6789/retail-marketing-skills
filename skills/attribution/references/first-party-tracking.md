@@ -35,7 +35,7 @@ At every conversion moment, call `identify()` with a stable id, and set person p
 
 ```js
 // Normalize before use as a distinct_id — analytics tools match exact strings,
-// so "Corey@x.com" and "corey@x.com" split into two people otherwise.
+// so "Sush@x.com" and "sush@x.com" split into two people otherwise.
 export function identifyUser(email) {
   const normalized = email.trim().toLowerCase();
   window.posthog?.identify(normalized, { email: normalized });

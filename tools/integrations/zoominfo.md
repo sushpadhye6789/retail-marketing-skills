@@ -52,7 +52,7 @@ POST https://api.zoominfo.com/search/contact
 POST https://api.zoominfo.com/enrich/contact
 
 {
-  "matchEmail": ["jane@acme.com"]
+  "matchEmail": ["admin@store.com.au"]
 }
 ```
 

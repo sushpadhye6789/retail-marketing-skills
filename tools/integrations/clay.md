@@ -52,7 +52,7 @@ POST https://api.clay.com/v3/tables/{table_id}/rows
   "first_name": "Jane",
   "last_name": "Doe",
   "company": "Acme Inc",
-  "email": "jane@acme.com"
+  "email": "admin@store.com.au"
 }
 ```
 
@@ -62,7 +62,7 @@ POST https://api.clay.com/v3/tables/{table_id}/rows
 POST https://api.clay.com/v3/people/enrich
 
 {
-  "email": "jane@acme.com"
+  "email": "admin@store.com.au"
 }
 ```
 

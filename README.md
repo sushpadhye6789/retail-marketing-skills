@@ -1,14 +1,12 @@
-# Marketing Skills for AI Agents
+# Ecommerce & Retail Marketing Skills for AI Agents
 
-A collection of AI agent skills focused on marketing tasks. Built for technical marketers and founders who want AI coding agents to help with conversion optimization, copywriting, SEO, analytics, and growth engineering. Works with Claude Code, OpenAI Codex, Cursor, Windsurf, and any agent that supports the [Agent Skills spec](https://agentskills.io).
+A collection of AI agent skills for retail and ecommerce marketing. Built for technical marketers and founders who want AI coding agents to help with conversion optimization, copywriting, SEO, paid ads, retail/dealer marketing, and growth engineering. Works with Claude Code, OpenAI Codex, Cursor, Windsurf, and any agent that supports the [Agent Skills spec](https://agentskills.io).
 
-Built by [Corey Haines](https://corey.co?ref=marketingskills). Need hands-on help? Check out [Conversion Factory](https://conversionfactory.co?ref=marketingskills) — Corey's agency for conversion optimization, landing pages, and growth strategy. Want to learn more about marketing? Subscribe to [Swipe Files](https://swipefiles.com?ref=marketingskills). Want to get dangerously good at using AI for marketing? Check out [AI Marketing Training](https://conversionfactory.co/offers/ai-marketing-training?ref=marketingskills). Want an autonomous AI agent that uses these skills to be your CMO? Try [Magister](https://magistermarketing.com?ref=marketingskills).
-
-New to the terminal and coding agents? Check out the companion guide [Coding for Marketers](https://codingformarketers.com?ref=marketingskills).
+Maintained by [Sush Padhye](https://github.com/sushpadhye6789). This is a fork of [Corey Haines' marketingskills](https://github.com/coreyhaines31/marketingskills), substantially extended with retail/ecommerce-specific skills (POS marketing, retail media, local marketing, trade marketing, visual merchandising, experiential marketing, distribution-model and brand-tier classification, and more) beyond the original SaaS-leaning skill set.
 
 **Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).
 
-Run into a problem or have a question? [Open an issue](https://github.com/coreyhaines31/marketingskills/issues) — we're happy to help.
+Run into a problem or have a question? [Open an issue](https://github.com/sushpadhye6789/ecommerce-marketing-skills/issues).
 
 ## What are Skills?
 
@@ -16,40 +14,9 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 
 ## How Skills Work Together
 
-Skills reference each other and build on shared context. The `marketing-strategy` skill is the foundation — every other skill checks it first to understand your product, audience, positioning, and strategic priorities before doing anything.
+Skills reference each other and build on shared context. The `marketing-strategy` skill is the foundation — every other skill checks it first to understand your product, audience, brand tier, distribution model (ecom-only / own stores / dealers), and strategic priorities before doing anything. From there, skills group loosely into the categories below — conversion, content & copy, SEO, paid media, retail & physical marketing, growth & retention, commercial/monetization, and sales & RevOps — and cross-reference each other directly within and across those groups (e.g. `copywriting` ↔ `cro` ↔ `ab-testing`, `seo-audit` ↔ `schema` ↔ `ai-seo`, `pos-marketing` ↔ `retail-media` ↔ `local-marketing`).
 
-```
-                            ┌──────────────────────────────────────┐
-                            │          marketing-strategy          │
-                            │    (read by all other skills first)  │
-                            └──────────────────┬───────────────────┘
-                                               │
-    ┌──────────────┬─────────────┬─────────────┼─────────────┬──────────────┬──────────────┐
-    ▼              ▼             ▼             ▼             ▼              ▼              ▼
-┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────────┐ ┌──────────┐ ┌─────────────┐ ┌───────────┐
-│  SEO &   │ │   CRO    │ │Content & │ │  Paid &    │ │ Growth & │ │  Sales &    │ │ Strategy  │
-│ Content  │ │          │ │   Copy   │ │Measurement │ │Retention │ │    GTM      │ │           │
-├──────────┤ ├──────────┤ ├──────────┤ ├────────────┤ ├──────────┤ ├─────────────┤ ├───────────┤
-│seo-audit │ │cro       │ │copywritng│ │ads         │ │referrals │ │revops       │ │mktg-ideas │
-│ai-seo    │ │signup    │ │copy-edit │ │ad-creative │ │free-tools│ │sales-enable │ │mktg-psych │
-│site-arch │ │onboarding│ │cold-email│ │ab-testing  │ │churn-    │ │launch       │ │customer-  │
-│programm  │ │popups    │ │emails    │ │analytics   │ │ prevent  │ │pricing      │ │ research  │
-│schema    │ │paywalls  │ │social    │ │            │ │community │ │competitors  │ │           │
-│content   │ │          │ │video     │ │            │ │lead-magnt│ │comp-profile │ │           │
-│aso       │ │          │ │image     │ │            │ │co-mktg   │ │directory    │ │           │
-│          │ │          │ │sms       │ │            │ │loyalty   │ │prospecting  │ │           │
-└────┬─────┘ └────┬─────┘ └────┬─────┘ └─────┬──────┘ └────┬─────┘ └──────┬──────┘ └─────┬─────┘
-     │            │            │              │             │              │              │
-     └────────────┴─────┬──────┴──────────────┴─────────────┴──────────────┴──────────────┘
-                        │
-         Skills cross-reference each other:
-           copywriting ↔ cro ↔ ab-testing
-           revops ↔ sales-enablement ↔ cold-email
-           seo-audit ↔ schema ↔ ai-seo
-           customer-research → copywriting, cro, competitors
-```
-
-See each skill's **Related Skills** section for the full dependency map.
+See each skill's **Related Skills** section for the full dependency map, and [Skill Categories](#skill-categories) below for the complete grouping.
 
 ## Available Skills
 
@@ -142,13 +109,13 @@ Use [npx skills](https://github.com/vercel-labs/skills) to install skills direct
 
 ```bash
 # Install all skills
-npx skills add coreyhaines31/marketingskills
+npx skills add sushpadhye6789/ecommerce-marketing-skills
 
 # Install specific skills
-npx skills add coreyhaines31/marketingskills --skill cro copywriting
+npx skills add sushpadhye6789/ecommerce-marketing-skills --skill cro copywriting
 
 # List available skills
-npx skills add coreyhaines31/marketingskills --list
+npx skills add sushpadhye6789/ecommerce-marketing-skills --list
 ```
 
 The CLI detects which agents you have installed and asks where to install. For Claude Code it installs into `.claude/skills/`; universal agents share `.agents/skills/`.
@@ -157,7 +124,7 @@ The CLI detects which agents you have installed and asks where to install. For C
 > If you run the command from **inside** an agent session (e.g., asking Claude Code to install the skills for you), the CLI runs non-interactively and may only install to the universal `.agents/skills/` directory, which Claude Code does not read. Pass the agent explicitly:
 >
 > ```bash
-> npx skills add coreyhaines31/marketingskills -a claude-code
+> npx skills add sushpadhye6789/ecommerce-marketing-skills -a claude-code
 > ```
 
 ### Option 2: Claude Code Plugin
@@ -166,7 +133,7 @@ Install via Claude Code's built-in plugin system:
 
 ```bash
 # Add the marketplace
-/plugin marketplace add coreyhaines31/marketingskills
+/plugin marketplace add sushpadhye6789/ecommerce-marketing-skills
 
 # Install all marketing skills
 /plugin install marketing-skills
@@ -177,8 +144,8 @@ Install via Claude Code's built-in plugin system:
 Clone the entire repo and copy the skills folder:
 
 ```bash
-git clone https://github.com/coreyhaines31/marketingskills.git
-cp -r marketingskills/skills/* .agents/skills/
+git clone https://github.com/sushpadhye6789/ecommerce-marketing-skills.git
+cp -r ecommerce-marketing-skills/skills/* .agents/skills/
 ```
 
 ### Option 4: Git Submodule
@@ -186,10 +153,10 @@ cp -r marketingskills/skills/* .agents/skills/
 Add as a submodule for easy updates:
 
 ```bash
-git submodule add https://github.com/coreyhaines31/marketingskills.git .agents/marketingskills
+git submodule add https://github.com/sushpadhye6789/ecommerce-marketing-skills.git .agents/ecommerce-marketing-skills
 ```
 
-Then reference skills from `.agents/marketingskills/skills/`.
+Then reference skills from `.agents/ecommerce-marketing-skills/skills/`.
 
 ### Option 5: Fork and Customize
 
@@ -203,93 +170,38 @@ Use [SkillKit](https://github.com/rohitg00/skillkit) to install skills across mu
 
 ```bash
 # Install all skills
-npx skillkit install coreyhaines31/marketingskills
+npx skillkit install sushpadhye6789/ecommerce-marketing-skills
 
 # Install specific skills
-npx skillkit install coreyhaines31/marketingskills --skill cro copywriting
+npx skillkit install sushpadhye6789/ecommerce-marketing-skills --skill cro copywriting
 
 # List available skills
-npx skillkit install coreyhaines31/marketingskills --list
+npx skillkit install sushpadhye6789/ecommerce-marketing-skills --list
 ```
 
-## Upgrading from v1.x to v2.0
+### Product marketing context file
 
-v2.0 renames 17 skills and consolidates `page-cro` + `form-cro` into a single `cro` skill. If you installed the v1.x skills, you'll have **stale old-name folders** in your install directory after upgrading — the new skills install alongside the old ones, so you'll see both `skills/page-cro/` and `skills/cro/`, etc. Clean them up:
-
-```bash
-# From the directory where you installed the skills (e.g., .agents/skills/ or .claude/skills/)
-rm -rf page-cro form-cro \
-       ab-test-setup analytics-tracking aso-audit competitor-alternatives \
-       email-sequence free-tool-strategy launch-strategy onboarding-cro \
-       paid-ads paywall-upgrade-cro popup-cro pricing-strategy \
-       product-marketing-context referral-program schema-markup \
-       signup-flow-cro social-content
-```
-
-Then reinstall the v2.0 skills via your usual method (e.g., `npx skills add coreyhaines31/marketingskills`).
-
-### Migrate the product marketing context file
-
-In v2.0 the context file moved from `.claude/` to `.agents/` and was renamed from `product-marketing-context.md` to `product-marketing.md`. Move your existing context file:
-
-```bash
-mkdir -p .agents
-# v2.0 file (or pre-v2.0 file with new name)
-mv .claude/product-marketing.md .agents/product-marketing.md 2>/dev/null
-# pre-v2.0 file with legacy name
-mv .claude/product-marketing-context.md .agents/product-marketing.md 2>/dev/null
-```
-
-Skills will still check `.claude/` and the legacy `product-marketing-context.md` filename as fallbacks, so nothing breaks if you don't migrate.
-
-### `product-marketing` renamed and merged into `marketing-strategy`
-
-The `product-marketing` skill has been renamed to `marketing-strategy` and folded in strategic-priority capture alongside the existing positioning/audience sections. The context file's canonical path is now `.agents/marketing-strategy.md`; every skill still checks the old `.agents/product-marketing.md`, `.claude/product-marketing.md`, and `product-marketing-context.md` paths as fallbacks, so nothing breaks if you don't rename your existing file. To migrate:
-
-```bash
-mv .agents/product-marketing.md .agents/marketing-strategy.md 2>/dev/null
-```
-
-### Full rename map
-
-| Old | New |
-|-----|-----|
-| `ab-test-setup` | `ab-testing` |
-| `analytics-tracking` | `analytics` |
-| `aso-audit` | `aso` |
-| `competitor-alternatives` | `competitors` |
-| `email-sequence` | `emails` |
-| `form-cro` | merged into `cro` |
-| `free-tool-strategy` | `free-tools` |
-| `launch-strategy` | `launch` |
-| `onboarding-cro` | `onboarding` |
-| `page-cro` | `cro` |
-| `paid-ads` | `ads` |
-| `paywall-upgrade-cro` | `paywalls` |
-| `popup-cro` | `popups` |
-| `pricing-strategy` | `pricing` |
-| `product-marketing-context` | `product-marketing` |
-| `referral-program` | `referrals` |
-| `schema-markup` | `schema` |
-| `signup-flow-cro` | `signup` |
-| `social-content` | `social` |
+Most skills read a shared context file first to understand your product, audience, brand tier, and distribution model — see `marketing-strategy`. Its canonical path is `.agents/marketing-strategy.md`; skills also check `.agents/product-marketing.md`, `.claude/product-marketing.md`, and `product-marketing-context.md` as legacy fallbacks, so nothing breaks if you're migrating an existing context file from another install of this skill set.
 
 ## Usage
 
 Once installed, just ask your agent to help with marketing tasks:
 
 ```
-"Help me optimize this landing page for conversions"
+"Help me optimize this product page for conversions"
 → Uses cro skill
 
-"Write homepage copy for my SaaS"
+"Write homepage copy for my store"
 → Uses copywriting skill
 
-"Set up GA4 tracking for signups"
+"Set up GA4 tracking for purchases"
 → Uses analytics skill
 
 "Create a 5-email welcome sequence"
 → Uses emails skill
+
+"Plan a sell-in deck for a new retail buyer"
+→ Uses trade-marketing skill
 
 "Run the boardroom on this ad screenshot"
 → Uses marketing-council skill (Boardroom mode — a fixed 6-advisor
@@ -306,77 +218,103 @@ You can also invoke skills directly:
 
 ## Skill Categories
 
+### Strategy & Foundation
+- `marketing-strategy` - Foundational positioning, audience, brand tier, distribution model, and strategic priorities
+- `repositioning` - Cascading a material positioning change through everything built on the old one
+- `marketing-plan` - Comprehensive AARRR-structured marketing plan
+- `marketing-ideas` - 140 marketing ideas
+- `marketing-psychology` - Mental models and psychology
+- `marketing-council` - Boardroom mode — multi-advisor review of a finished asset or decision
+- `moat-builder` - Identifying and widening durable competitive advantages, not just messaging around them
+- `customer-research` - Conducting and synthesizing customer research
+- `competitor-profiling` - Researching and profiling competitors from their URLs
+- `brand-management` - Brand health tracking, architecture, extension decisions, and governance
+- `brand-guidelines` - Visual identity: logo, color, typography, imagery style
+
+### Channel Strategy, Budget & Measurement
+- `channel-selection` - Deciding which marketing channels belong in the mix
+- `budget-allocation` - Sizing and allocating marketing budget across channels, and reallocating on performance
+- `budget-pacing-tracker` - Tracking actual spend against planned pace within a budget period
+- `media-plan` - Reach/frequency, flighting, and channel weighting for a coordinated campaign
+- `attribution` - Attribution models, incrementality testing, and media mix modeling
+- `analytics` - Event tracking setup
+
 ### Conversion Optimization
-- `cro` - Pages and forms
-- `signup` - Registration flows
+- `cro` - Homepage, landing page, product page, cart, checkout, and form CRO
+- `signup` - Registration and trial activation flows
 - `onboarding` - Post-signup activation
 - `popups` - Modals and overlays
 - `paywalls` - In-app upgrade moments
+- `ab-testing` - Experiment design
 
 ### Content & Copy
 - `storytelling` - Brand, founder, product, and customer narrative construction
 - `copywriting` - Marketing page copy
 - `copy-editing` - Edit and polish existing copy
+- `content-strategy` - What content to create and why
 - `cold-email` - B2B cold outreach emails and sequences
 - `emails` - Automated email flows
+- `sms` - SMS/MMS marketing
 - `social` - Social media content
 - `image` - AI image generation, design tools, and optimization
+- `video` - AI video production
 
 ### SEO & Discovery
 - `seo-audit` - Technical and on-page SEO
 - `ai-seo` - AI search optimization (AEO, GEO, LLMO)
 - `programmatic-seo` - Scaled page generation
 - `site-architecture` - Page hierarchy, navigation, URL structure
-- `competitors` - Comparison and alternative pages
 - `schema` - Structured data
+- `aso` - App Store / Google Play optimization
+- `competitors` - Comparison and alternative pages
 
-### Paid & Distribution
-- `ads` - Google, Meta, LinkedIn ad campaigns (including PMax and Advantage+ Shopping playbooks)
+### Paid Media
+- `ads` - Google, Meta, LinkedIn, TikTok campaigns (including PMax and Advantage+ Shopping)
 - `ad-creative` - Bulk ad creative generation and iteration
+- `programmatic` - DSP/RTB media buying across display, video, CTV, and audio
+- `digital-out-of-home` - Billboards, transit, and place-based screens
 - `product-feed` - Merchant/catalog feed structure, quality, and troubleshooting
-- `retail-media` - Advertising on a retailer's own platform (Amazon Ads, Walmart Connect, etc.)
-- `pos-marketing` - Point-of-sale / point-of-purchase marketing materials
-- `social` - Social media scheduling and strategy
 
-### Measurement & Testing
-- `analytics` - Event tracking setup
-- `ab-testing` - Experiment design
+### Retail & Physical Marketing
+- `retail-media` - Advertising and organic visibility (including the Buy Box) on a retailer's own platform
+- `pos-marketing` - Point-of-sale/point-of-purchase marketing materials, including BOPIS/curbside signage
+- `local-marketing` - Google Business Profile, local search, and multi-location/dealer coordination
+- `trade-marketing` - Retail buyer sell-in, category management, and line reviews
+- `visual-merchandising` - Store layout, planograms, and window displays
+- `experiential-marketing` - In-store demos, trade shows, roadshows, and pop-ups
+- `supplier-funded-marketing` - MDF/co-op advertising, receiving or providing dealer marketing funds
 
-### Retention
-- `churn-prevention` - Cancel flows, save offers, dunning, payment recovery
-- `loyalty` - Points, tiers, and paid-membership rewards programs
-
-### Growth Engineering
-- `co-marketing` - Partner identification and joint campaigns
-- `free-tools` - Marketing tools and calculators
+### Growth & Retention
 - `referrals` - Referral and affiliate programs
+- `loyalty` - Points, tiers, paid-membership, and subscribe-and-save/replenishment programs
+- `churn-prevention` - Cancel flows, save offers, dunning, and payment recovery
+- `community-marketing` - Online communities (Discord, Slack, forums)
+- `influencer-marketing` - Creator and ambassador partnerships
+- `co-marketing` - Partner identification and joint campaigns
+- `public-relations` - Earned media, journalist outreach, and crisis/reactive PR
+- `lead-magnets` - Lead magnets for email capture
+- `free-tools` - Free marketing tools and calculators
+- `prospecting` - Prospect list building
+- `directory-submissions` - Directory and listing submissions
+- `marketing-loops` - Recurring, self-running marketing workflows
 
-### Strategy & Monetization
-- `marketing-strategy` - Foundational positioning, audience, brand tier, distribution model, and strategic-priority context
-- `repositioning` - Cascading a material positioning change through everything built on the old one
-- `moat-builder` - Identifying and widening durable competitive advantages, not just messaging around them
-- `channel-selection` - Deciding which marketing channels belong in the mix
-- `budget-allocation` - Sizing and allocating marketing budget across channels, and reallocating on performance
-- `budget-pacing-tracker` - Tracking actual spend against planned pace within a budget period
-- `brand-guidelines` - Visual identity: logo, color, typography, imagery style
-- `brand-management` - Brand health tracking, architecture, extension decisions, and governance
-- `range-review` - Periodic product range/assortment review — keep, grow, fix, cut, add
-- `marketing-ideas` - 140 marketing ideas
-- `marketing-psychology` - Mental models and psychology
-- `launch` - Product launches and announcements
-- `product-lifecycle` - Product transitions, phase-outs, and replacements after launch
-- `tentpole-campaign` - Major brand campaigns tied to a calendar or cultural moment
-- `pricing` - Pricing, packaging, monetization, and competitor/dealer price checks
+### Commercial & Monetization
+- `pricing` - Pricing, packaging, and monetization strategy
 - `price-elasticity` - Measuring and using demand response to price changes
 - `offers` - Value framing, bonus stacking, guarantees, scarcity/urgency
 - `discount-and-clearance` - Sizing and messaging a discount or clearance event
 - `overstock` - Diagnosing excess/aging inventory and choosing a disposition channel
+- `range-review` - Periodic product range/assortment review — keep, grow, fix, cut, add
+- `product-lifecycle` - Product transitions, phase-outs, and replacements after launch
+- `tentpole-campaign` - Major brand campaigns tied to a calendar or cultural moment
+- `launch` - Product launches and announcements
+
+### Compliance
 - `compliance` - Advertising claims, disclosures, consent, and pricing-claim compliance risk
 
 ### Sales & RevOps
 - `revops` - Lead lifecycle, scoring, routing, pipeline management
 - `sales-enablement` - Sales decks, one-pagers, objection docs, demo scripts
-- `supplier-funded-marketing` - MDF/co-op advertising, receiving or providing dealer marketing funds
 
 ## Contributing
 
@@ -386,10 +324,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding or improving ski
 
 ## License
 
-[MIT](LICENSE) - Use these however you want.
-
-<br />
-<br />
-<a href="https://vercel.com/open-source-program">
-  <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge-2026.svg" />
-</a>
+[MIT](LICENSE). Originally built by [Corey Haines](https://github.com/coreyhaines31); modifications and additions by [Sush Padhye](https://github.com/sushpadhye6789). Use these however you want — see the [License](LICENSE) file for the one condition (keep the copyright notice).

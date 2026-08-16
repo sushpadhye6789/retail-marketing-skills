@@ -1,13 +1,13 @@
 {
-  "name": "marketingskills",
+  "name": "ecommerce-marketing-skills",
   "owner": {
-    "name": "Corey Haines",
-    "url": "https://corey.co"
+    "name": "Sush Padhye",
+    "url": "https://github.com/sushpadhye6789"
   },
   "metadata": {
-    "description": "Marketing skills for AI agents — conversion optimization, copywriting, SEO, paid ads, and growth",
+    "description": "Retail & ecommerce marketing skills for AI agents — CRO, copywriting, SEO, paid ads, retail/dealer marketing, and growth. Forked from Corey Haines' marketingskills.",
     "version": "2.10.0",
-    "repository": "https://github.com/coreyhaines31/marketingskills"
+    "repository": "https://github.com/sushpadhye6789/ecommerce-marketing-skills"
   },
   "plugins": [
     {

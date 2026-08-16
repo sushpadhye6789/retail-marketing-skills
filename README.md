@@ -255,6 +255,10 @@ Once installed, just ask your agent to help with marketing tasks:
 
 "Create a 5-email welcome sequence"
 → Uses emails skill
+
+"Run the boardroom on this ad screenshot"
+→ Uses marketing-council skill (Boardroom mode — a fixed 6-advisor
+  panel audits the finished asset and outputs a prioritized action list)
 ```
 
 You can also invoke skills directly:

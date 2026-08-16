@@ -1,8 +1,8 @@
 ---
 name: marketing-council
-description: "When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp, and more). Also use when the user mentions 'marketing council,' 'board of advisors,' 'advisory board,' 'what would Seth Godin say,' 'what would Ogilvy think,' 'channel Hormozi,' 'get multiple perspectives,' 'debate this,' 'have the council review,' 'marketing mentors,' or asks how a famous marketer would approach their problem. The council gives each advisor's take through their documented frameworks, surfaces where they disagree, and synthesizes a recommendation. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill."
+description: "When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp, and more). Also use when the user mentions 'marketing council,' 'board of advisors,' 'advisory board,' 'boardroom,' 'run the boardroom,' 'boardroom this,' 'audit this,' 'tear this apart,' 'rip this apart,' 'roast this,' 'critique this,' 'grade this ad,' 'what would Seth Godin say,' 'what would Ogilvy think,' 'channel Hormozi,' 'get multiple perspectives,' 'debate this,' 'have the council review,' 'marketing mentors,' or asks how a famous marketer would approach their problem. The council gives each advisor's take through their documented frameworks, surfaces where they disagree, and synthesizes a recommendation. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Marketing Council
@@ -14,12 +14,12 @@ You convene a **simulated board of marketing advisors**: legendary marketers who
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md`), read it before asking questions.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md`), read it before asking questions.
 
 Then clarify (ask only for what's missing):
 1. **The question** — What decision or work product is the council reviewing? (a strategy, a landing page, a pricing change, a launch plan, a rebrand, an ad account)
 2. **The stakes** — What happens if this goes well or badly? What's already been tried?
-3. **Session mode** — quick take, council session, or full council (see below). Default: council session.
+3. **Session mode** — quick take, council session, boardroom, or full council (see below). Default: council session.
 
 ## Session Modes
 
@@ -27,7 +27,10 @@ Then clarify (ask only for what's missing):
 |------|-------|------|
 | **Quick take** | 1 advisor | "What would Ogilvy say about this headline?" — a single named advisor |
 | **Council session** (default) | 3–5 advisors | A real decision that benefits from conflicting lenses |
+| **Boardroom** | 6 fixed advisors | A fixed panel for auditing a finished asset (ad, landing page, campaign, screenshot). Triggers on "run the boardroom," "boardroom this," "audit this," "tear this apart," "rip this apart," "roast this," "critique this," "grade this ad," or any asset review with no advisor named. Skips the seating-logic table below entirely — always seat Ogilvy, Godin, Vaynerchuk, Sutherland, Schwartz, and Sharp, in that order, regardless of question type; their lenses already collide without needing the dissenter logic. Produces the Action Matrix artifact (see below) instead of the plain-text next-steps list. |
 | **Full council** | All 12 | Major strategic decisions — expect a long output; offer this only when stakes justify it |
+
+**Boardroom vs. a Council session reviewing copy:** both can touch a finished asset, and that overlap is real. Default to Boardroom when the ask is a full-asset audit with no advisor named ("audit this," "tear this apart," a pasted screenshot with no further instruction). Default to Council session's Copy / creative review seating (see below) when the user names specific advisors, asks a narrower question about the copy or messaging alone, or the request reads as a strategic question rather than a critique of a finished piece.
 
 ## The Bench
 
@@ -78,8 +81,9 @@ For a council session, seat 3–5 advisors:
    - Apply their frameworks to the specifics (their dossier lists them) — not generic advice with a name attached
    - State their recommendation with the conviction they'd actually have
    - Written in their voice per the dossier's voice notes, without fabricated quotes
-4. **The disagreement map** — the most valuable section. Identify 2-4 genuine conflicts between the takes, name the underlying trade-off each conflict represents (e.g., "Sharp vs. Godin here is really reach vs. resonance — which constraint binds *this* business?"), and say what evidence would settle each.
-5. **Synthesis** — a chair's summary: the recommendation that best fits *this* user's stage, category, and constraints; which advisor's warning to keep as a tripwire; and concrete next steps with skill handoffs (see Related Skills).
+4. **In Boardroom mode, add a cross-examination round** after the individual takes: a real back-and-forth between seated advisors where their frameworks genuinely conflict on this specific asset (minimum 8 exchanges). Let the friction be real, not scripted — don't force a clash that this particular asset doesn't actually produce. The board should converge on 3 core strategic bets before moving to synthesis.
+5. **The disagreement map** — the most valuable section. Identify 2-4 genuine conflicts between the takes, name the underlying trade-off each conflict represents (e.g., "Sharp vs. Godin here is really reach vs. resonance — which constraint binds *this* business?"), and say what evidence would settle each.
+6. **Synthesis** — a chair's summary: the recommendation that best fits *this* user's stage, category, and constraints; which advisor's warning to keep as a tripwire; and concrete next steps with skill handoffs (see Related Skills). In Boardroom mode, replace the plain-text next-steps list with the Action Matrix artifact (see below).
 
 ## Live Research Pass
 
@@ -111,7 +115,8 @@ Fold findings into the takes with citations ("In a 2023 interview on X, Dunford 
 [1-2 sentence restatement + what's at stake]
 
 ## Seated: [Advisor A], [Advisor B], [Advisor C] ([mode])
-[One line on why this bench, including who was seated as the dissenter]
+[One line on why this bench, including who was seated as the dissenter —
+in Boardroom mode, note that all six are fixed by default]
 
 ---
 
@@ -121,6 +126,8 @@ Fold findings into the takes with citations ("In a 2023 interview on X, Dunford 
 
 ### [Advisor B] — …
 …
+
+[Boardroom mode only: cross-examination round here, minimum 8 exchanges]
 
 ---
 
@@ -137,6 +144,16 @@ Fold findings into the takes with citations ("In a 2023 interview on X, Dunford 
 - **Execute with:** [skill handoffs]
 ```
 
+## Action Matrix (Boardroom mode only)
+
+Instead of a plain-text next-steps list, produce a standalone, single-file HTML artifact:
+
+- Dark-mode UI.
+- Each action item tagged by Effort (Low/Med/High) and Impact (Critical/High), with working filter controls.
+- An owner badge naming which seated advisor proposed the item.
+- Click-to-check task boxes.
+- No external calls, no localStorage, transparent background — keep it self-contained per the `frontend-design` skill's constraints. Consult `frontend-design` before building it so the styling reads as intentional rather than templated.
+
 ## Adding a Custom Advisor
 
 Users can extend the bench ("add my own advisor"). Create a dossier following the structure in [references/advisor-template.md](references/advisor-template.md) — the same fields as the built-in advisors (lens, frameworks, documented positions with sources, signature questions, best-for/blind spots, voice notes, key works). For non-famous advisors (the user's old boss, an internal exec), have the user supply the positions; do not invent them. Save to `.agents/advisors/<name>.md` in the user's project so it persists and never collides with repo updates.
@@ -144,6 +161,7 @@ Users can extend the bench ("add my own advisor"). Create a dossier following th
 ## Anti-Patterns
 
 - **The agreeing council** — five takes that all bless the user's existing plan. Re-seat with a real dissenter.
+- **Staged cross-examination** — a Boardroom cross-examination round that's obviously scripted rather than following where the seated advisors' frameworks actually clash on this asset defeats the point; force real friction, not theatre.
 - **Name-flavored generic advice** — a take that would survive with the name swapped isn't a take; anchor each one in that advisor's specific frameworks and documented positions.
 - **Quote soup** — stitching famous one-liners together instead of applying the method behind them.
 - **Council for execution work** — the council decides direction; it doesn't write the landing page. Hand off to the execution skill once direction is set.
@@ -151,7 +169,7 @@ Users can extend the bench ("add my own advisor"). Create a dossier following th
 
 ## Related Skills
 
-- **positioning** / **product-marketing**: When Dunford's take wins — execute the positioning work
+- **marketing-strategy**: When Dunford's take wins — execute the positioning work (see its `references/positioning-methodology.md`)
 - **offers** / **pricing**: When Hormozi/Halbert direction wins — build the offer
 - **copywriting** / **copy-editing**: When the council reviewed copy — execute revisions
 - **ads** / **ad-creative**: When the debate was media or creative strategy
@@ -159,3 +177,4 @@ Users can extend the bench ("add my own advisor"). Create a dossier following th
 - **brand-strategy** / **marketing-psychology**: For Sharp's availability work and Sutherland's behavioral mechanics
 - **ab-testing**: When the disagreement map says "test it" — Hopkins would insist
 - **deep-research**: For the live research pass, when installed
+- **frontend-design**: For the Action Matrix artifact in Boardroom mode

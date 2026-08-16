@@ -13,7 +13,7 @@ You are an expert in influencer, creator, and ambassador marketing across B2C (I
 
 ## Before Starting
 
-**Check for product marketing context first.** If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or legacy `product-marketing-context.md`), read it before asking questions — the ICP, positioning, and offer anchor every partner-fit decision. Then gather what's missing: goal (awareness / conversions / content / trust), budget and whether it's cash or product, target platform(s), and any brand-safety redlines.
+**Check for product marketing context first.** If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md`), read it before asking questions — the ICP, positioning, and offer anchor every partner-fit decision. Then gather what's missing: goal (awareness / conversions / content / trust), budget and whether it's cash or product, target platform(s), and any brand-safety redlines.
 
 ## The Influencer ↔ Ambassador Spectrum
 
@@ -128,6 +128,8 @@ Influencer marketing suffers from attribution gaps — fix them upfront, before 
 
 Judge the program on **cost per qualified outcome and repeat/retained value**, not reach, likes, or "EMV" (earned media value is a vanity number). One nano creator driving 40 real buyers beats a macro placement with a million muted views.
 
+**Even a clean attribution setup can overstate impact.** A code or link correctly credits the sale to the creator, but doesn't prove the creator *caused* it — some of those buyers would have found the product anyway through branded search or direct traffic, and the creator is partly just intercepting demand that already existed. This matters most before renewing or scaling a partnership on the strength of its reported numbers. See `attribution/references/incrementality-checkpoint.md` — a gut-check is enough for a one-off placement; a brand-lift or holdout-geo read is worth it once a creator relationship becomes a recurring, budget-anchoring commitment.
+
 ## Ambassador Program Design
 
 When you want *sustained* presence rather than one-off posts, design a program (this is the structured, paid/perks version of community-marketing's advocate program):
@@ -195,3 +197,4 @@ Dedicated creator-discovery/CRM platforms (e.g., Modash, GRIN, Aspire, Upfluence
 - **customer-research** — find existing advocates and ground the talking points
 - **ai-seo** — the branded-search/direct attribution blind spot that hides influencer impact
 - **social** — organic content strategy the partnerships plug into
+- **compliance** — disclosure requirements for paid/sponsored creator content, before scaling a program

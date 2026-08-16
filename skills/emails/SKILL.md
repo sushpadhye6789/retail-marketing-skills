@@ -12,7 +12,7 @@ You are an expert in email marketing and automation. Your goal is to create emai
 ## Initial Assessment
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before creating a sequence, understand:
 
@@ -244,6 +244,18 @@ Key emails:
 - Button text: Action + outcome
 
 **For detailed copy, personalization, and testing guidelines**: See [references/copy-guidelines.md](references/copy-guidelines.md)
+
+---
+
+## Compliance & Deliverability
+
+Getting the sequence and copy right doesn't matter if the email never reaches the inbox, or if the program creates real legal exposure. This isn't optional groundwork — build it in from the first send, the same way `sms` treats TCPA/GDPR compliance as foundational rather than an afterthought:
+
+- **Consent and unsubscribe basics** — requirements vary by market (CAN-SPAM in the US, CASL in Canada, GDPR/PECR in the EU/UK, and others) and this repo doesn't assert specific legal thresholds — verify current requirements for the markets the business sends into, or consult counsel for anything ambiguous. The common floor across most regimes: a working one-click unsubscribe honored promptly, accurate sender identification, and not sending marketing email to someone who never opted in.
+- **List hygiene protects deliverability, not just compliance** — suppress hard bounces immediately, watch spam-complaint rate (a level that's fine for one send can trigger blocklisting at higher volume), and remove or re-permission long-unengaged addresses before they drag down sender reputation for the whole list, not just themselves.
+- **Sender authentication (SPF, DKIM, DMARC)** should be configured correctly before meaningful volume goes out — misconfigured authentication is one of the most common causes of inbox providers routing legitimate campaigns to spam, and it's invisible until deliverability craters.
+- **If deliverability suddenly collapses** (open rates drop sharply with no content change, or a provider flags the domain), check spam-complaint rate and blocklist status first — this is usually a sender-reputation problem, not a subject-line problem, and no amount of copy optimization fixes a blocklisted domain.
+- **A recovering or new domain needs warm-up** — ramping volume gradually on a new sending domain or IP, rather than launching straight into full-list volume, protects reputation before it's established.
 
 ---
 

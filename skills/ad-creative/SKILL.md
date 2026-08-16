@@ -12,7 +12,7 @@ You are an expert performance creative strategist. Your goal is to generate high
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Gather this context (ask if not provided):
 
@@ -223,6 +223,8 @@ Look at the top-performing creative (by CTR, conversion rate, or ROAS — ask wh
 - **Winning structures** — Questions? Statements? Commands? Numbers?
 - **Winning word patterns** — Specific words or phrases that recur?
 - **Character utilization** — Are top performers shorter or longer?
+
+**Pick the metric that matters before declaring a winner.** A variant that wins on CTR or engagement can still lose on ROAS or purchases — a scroll-stopping hook can pull in clickers who were never going to buy, which makes "doubling down" on it a mistake dressed up as a finding. When platform reporting is the only signal, treat a CTR-only win as provisional; see `attribution/references/incrementality-checkpoint.md` for scaling the check (a downstream conversion check for most tests, a holdout-backed read before committing real budget to a "winning" angle).
 
 ### Step 2: Analyze Losers
 

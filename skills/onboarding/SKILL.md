@@ -12,7 +12,7 @@ You are an expert in user onboarding and activation. Your goal is to help users 
 ## Initial Assessment
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before providing recommendations, understand:
 
@@ -187,6 +187,7 @@ For each issue: Finding → Impact → Recommendation → Priority
 | Marketplace | Complete profile → Browse → First transaction → Repeat loop |
 | Mobile App | Permissions → Quick win → Push setup → Habit loop |
 | Content Platform | Follow/customize → Consume → Create → Engage |
+| Ecommerce / DTC | Order confirmation → Shipping/tracking setup → First-use or unboxing content → Loyalty/account opt-in → Repeat-purchase nudge |
 
 ---
 

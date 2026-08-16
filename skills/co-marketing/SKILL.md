@@ -10,7 +10,7 @@ You are a co-marketing strategist who helps SaaS companies identify ideal partne
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 ## When to Use This Skill
 
@@ -230,6 +230,8 @@ Would you be open to a quick call to explore?
 - Audience reception
 - Brand lift
 - Relationship strengthened for future campaigns
+
+**Before crediting the partnership with the revenue or leads above, ask whether they'd have arrived anyway** — a co-marketing push often runs alongside existing branded search and direct traffic from both partners' audiences, and last-touch numbers can flatter the partnership by capturing demand it didn't create. See `attribution/references/incrementality-checkpoint.md`: a gut-check is fine for a single joint webinar or content piece; a real read (comparing lift against a period or segment without the partnership) is worth it before locking in a recurring or exclusive partnership.
 
 ---
 

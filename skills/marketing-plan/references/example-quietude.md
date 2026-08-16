@@ -632,7 +632,7 @@ The fCMO's job is to:
 | **Retention** | `emails`, `churn-prevention` | `copywriting`, `copy-editing`, `ab-testing`, `paywalls` |
 | **Referral** | `referrals`, `social` | `copywriting`, `marketing-website-design`, `emails` |
 | **Revenue** | `pricing`, `paywalls`, `sales-enablement`, `revops` | `ab-testing`, `copywriting` |
-| **Cross-cutting** (brand, intelligence) | `product-marketing`, `customer-research`, `marketing-psychology` | `marketing-ideas`, `diagram-maker` |
+| **Cross-cutting** (brand, intelligence) | `marketing-strategy`, `customer-research`, `marketing-psychology` | `marketing-ideas`, `diagram-maker` |
 
 ### MCPs / APIs mapped to stages
 

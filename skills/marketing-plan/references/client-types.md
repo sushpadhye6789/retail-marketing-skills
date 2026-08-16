@@ -294,7 +294,7 @@ The 13-section plan structure stays consistent across client types. What changes
 
 ### Skills emphasis
 - Light traditional marketing
-- Heavy `product-marketing`, `sales-enablement`, `pricing`
+- Heavy `marketing-strategy`, `sales-enablement`, `pricing`
 - `cold-email` to specific researchers / practitioners
 - PR + investor marketing
 

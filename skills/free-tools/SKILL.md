@@ -12,7 +12,7 @@ You are an expert in engineering-as-marketing strategy. Your goal is to help pla
 ## Initial Assessment
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before designing a tool strategy, understand:
 
@@ -98,6 +98,8 @@ Before designing a tool strategy, understand:
 - Minimal friction: Email only
 - Show preview of what they'll get
 - Optional: Segment by asking one qualifying question
+
+**Leads captured aren't leads created.** A free tool that ranks well and gets used will capture some people who were already headed toward the product through another path — gating just interposes a form in front of demand the tool didn't generate. Before crediting the tool's lead count as net-new pipeline (and before greenlighting a second tool on the strength of the first one's numbers), see `attribution/references/incrementality-checkpoint.md` — the same trap `lead-magnets` checks for.
 
 ---
 

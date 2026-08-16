@@ -197,7 +197,40 @@ Same writers. Same SEO methodology. ~2x close rate. 60% of pilots convert to 12-
 
 ---
 
-## Pattern across all six examples
+## Example 7: $68 skincare serum, ecommerce/DTC
+
+### Before
+
+**The offer:**
+> Vitamin C Brightening Serum. $68. 30ml. Free shipping over $50.
+
+**Diagnostic:**
+- Dream outcome: 4 (ingredient-listed, not outcome-framed — "vitamin C" is a feature, not a result)
+- Perceived likelihood: 4 (no reviews visible above the fold, no before/after, no timeline for when results show)
+- Time delay: 3 (no expectation set for when the buyer sees a difference — skincare results are slow, and that's not addressed)
+- Effort & sacrifice: 6 (single product, low behavior change required)
+- Anatomy: core and price are present. No bonus, a generic return policy buried in the footer (not surfaced as a guarantee), inventory-based scarcity not used at all despite genuinely limited batch sizes.
+
+**Lowest binding constraint:** perceived likelihood + time delay. A first-time buyer has no reason to believe *this* serum works, or to know when to expect to notice.
+
+### After
+
+| Component | What was added |
+|-----------|----------------|
+| **Core** | "Visibly brighter skin in 14 days" — outcome + timeline anchor, same 30ml serum |
+| **Bonuses** | (1) Free travel-size cleanser with every order — $12 value, drives trial of a second SKU; (2) A 14-day usage guide (AM/PM routine card) shipped in the box — sets expectations and reduces "I used it wrong" returns; (3) Free shipping threshold lowered from $50 to $35 (the serum alone now qualifies) |
+| **Guarantee** | "Try it for 30 days. If you don't see a visible difference, full refund — keep the travel-size cleanser." Return-shipping cost absorbed by the brand, stated explicitly, not left to the footer policy |
+| **Scarcity** | Real batch-based scarcity — "This batch: 340 of 500 remaining" (the serum is genuinely made in limited runs; this was true but previously unused as an offer lever) |
+| **Name** | Product renamed from "Vitamin C Brightening Serum" to "The 14-Day Brightening Serum" — the timeline is now in the name itself |
+| **Price** | $68 one-time, or $58/month on a 2-month Subscribe & Save cadence matching typical usage — the subscription is named "The Glow Refill" rather than left as an unnamed checkbox at checkout |
+
+Same formulation, same fill size. ~35% lift in first-order conversion from the outcome/timeline reframe and the explicit guarantee; subscription opt-in at checkout roughly tripled once it had its own name and framing instead of being a generic "subscribe & save 15%" checkbox.
+
+**Lesson:** for ecommerce, the guarantee and the subscription are both offer decisions, not just checkout settings — naming and framing them changes conversion as much as the product claims do. Real, disclosed scarcity (actual batch limits) outperformed no scarcity at all without needing to be invented.
+
+---
+
+## Pattern across all seven examples
 
 Look at the changes side-by-side:
 
@@ -209,6 +242,7 @@ Look at the changes side-by-side:
 | B2B SaaS | Time-to-value commitment | SLA-based guarantee + pilot |
 | Coaching mastermind | Positioned the room, not the coach | 1-year alumni access bonus |
 | Agency retainer | Outcome + timeline framing | Paid pilot guarantee |
+| Ecommerce serum | Outcome + timeline in the name | Named, explicit subscription offer |
 
 **The pattern:** in every case, the price barely moved (or didn't move at all). What moved was the *structure* of the offer — naming, framing, guaranteeing, sequencing.
 

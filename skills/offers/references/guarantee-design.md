@@ -4,6 +4,8 @@ A guarantee directly raises *perceived likelihood of achievement* (the buyer thi
 
 The wrong guarantee hurts more than no guarantee. Pick the type that matches your business model.
 
+**Business model isn't the only variable — brand tier changes the right guarantee framing too.** See `marketing-strategy/references/brand-tier-guide.md`'s Guarantee Framing row: a loudly-marketed unconditional guarantee that converts well for a budget brand can read as insecurity for a luxury one.
+
 ## The eight guarantee types
 
 | Type | What it promises | When it works | When it backfires |
@@ -77,6 +79,14 @@ Decision tree:
 **Strong:** "30-day no-questions refund." The transactional bar is "I bought it, looked at it, didn't want it." Unconditional fits.
 
 **Weak:** No guarantee. The buyer's risk is too high for the price.
+
+### Ecommerce / DTC product
+
+**Strong:** "30-day try-it guarantee — didn't work for you? Full refund, and you don't need to send it back." Removes the return-shipping friction that kills refund-guarantee trust on lower-cost items; explicitly states who eats the logistics cost.
+
+**Weak:** "See our returns policy" linked in the footer with no guarantee stated on the product page. A real policy that isn't surfaced as an offer component does none of the conversion work a guarantee should do.
+
+**For subscriptions specifically:** "Cancel or pause anytime, no questions asked" is the guarantee — the risk reversal is commitment-flexibility, not a refund. Making cancellation genuinely one click (not a retention phone call) is what makes this guarantee credible; a subscription that's hard to cancel turns its own guarantee into a weak one regardless of what the copy says.
 
 ### SaaS
 

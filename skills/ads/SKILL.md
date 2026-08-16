@@ -12,7 +12,9 @@ You are an expert performance marketer with direct access to ad platform account
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+
+**If Section 15 (Distribution Model) names a dealer network**, see `marketing-strategy/references/distribution-model-guide.md` before recommending Shopping/PMax spend — your own paid presence can compete with dealer listings for the same product, which needs an explicit decision, not a default assumption.
 
 Gather this context (ask if not provided):
 
@@ -46,11 +48,15 @@ This skill's depth lives in references — load by intent. For **any operational
 
 | User intent | Load | Covers |
 |---|---|---|
+| Meta operations for ecommerce/DTC: when to kill/graduate/scale an ad, fatigue, testing structure | [meta-decision-system-ecommerce.md](references/meta-decision-system-ecommerce.md) | Breakeven-CPA-anchored decision tree, ad-count ceiling, 80/20 CBO structure, fatigue detection, Advantage+ transition |
+| Google Search for ecommerce/DTC: what to spend on first, Shopping/PMax, structure, match types, negatives | [google-search-playbook-ecommerce.md](references/google-search-playbook-ecommerce.md) | Intent ladder with Shopping as day-one infra, account structure, product feed & revenue data, PMax guardrails |
+| PMax operations: asset group structure, listing groups, audience signals, campaign segmentation, reading the black box | [pmax-playbook-ecommerce.md](references/pmax-playbook-ecommerce.md) | Split-vs-consolidate decision, asset group theming, brand exclusions in practice, new-customer-acquisition goal, Insights tab |
+| Advantage+ Shopping Campaign operations: catalog-driven structure, product sets, when to opt out | [advantage-plus-shopping-ecommerce.md](references/advantage-plus-shopping-ecommerce.md) | ASC vs. manual tradeoff, campaign segmentation, supplementary creative, new-customer emphasis |
+| Meta operations for a B2B/lead-gen account (demo or CRM-based funnel) | [meta-decision-system.md](references/meta-decision-system.md) | TCPL-anchored decision tree, ad-count ceiling, 80/20 CBO structure, fatigue bands, lead forms, Advantage+ transition |
+| Google Search for a B2B/lead-gen account | [google-search-playbook.md](references/google-search-playbook.md) | Intent ladder, account structure, match-type gates, negatives, bidding by volume, offline/CRM conversion import, PMax-earned-not-default guardrails |
 | B2B strategy, funnel stages, budget splits, kill rules, lead quality, breakeven math | [b2b-paid-playbook.md](references/b2b-paid-playbook.md) | Demand lifecycle, leading/lagging signals, kill rules, offline conversion loop, U/B/F lead scoring, scaling quadrant |
-| Meta operations: when to kill/graduate/scale an ad, fatigue, testing structure | [meta-decision-system.md](references/meta-decision-system.md) | TCPL-anchored decision tree, ad-count ceiling, 80/20 CBO structure, fatigue bands, lead forms, Advantage+ transition |
-| LinkedIn operations: bidding, audience sizing, scaling, benchmarks, TLAs, formats | [linkedin-b2b-playbook.md](references/linkedin-b2b-playbook.md) | Bidding progression, penetration scaling, sizing rules, funnel benchmarks, document/conversation ads, audit shortlist |
-| Google Search: what to spend on first, structure, match types, negatives, PMax | [google-search-playbook.md](references/google-search-playbook.md) | Intent ladder, account structure, match-type gates, negatives, bidding by volume, offline conversions, PMax guardrails |
-| Named-account targeting, pipeline acceleration, cross-channel retargeting | [abm-playbook.md](references/abm-playbook.md) | LinkedIn/Meta ABM, list mechanics, acceleration campaigns, UTM cross-channel remarketing, ABM measurement |
+| LinkedIn operations (B2B): bidding, audience sizing, scaling, benchmarks, TLAs, formats | [linkedin-b2b-playbook.md](references/linkedin-b2b-playbook.md) | Bidding progression, penetration scaling, sizing rules, funnel benchmarks, document/conversation ads, audit shortlist |
+| Named-account targeting, pipeline acceleration, cross-channel retargeting (B2B) | [abm-playbook.md](references/abm-playbook.md) | LinkedIn/Meta ABM, list mechanics, acceleration campaigns, UTM cross-channel remarketing, ABM measurement |
 | Generating Google RSAs | [rsa-output-spec.md](references/rsa-output-spec.md) | Mandatory output spec — limits, sidecars, template, self-check |
 | Audience setup, tracking setup, launch checklists, copy formulas | [audience-targeting.md](references/audience-targeting.md) · [conversion-tracking.md](references/conversion-tracking.md) · [platform-setup-checklists.md](references/platform-setup-checklists.md) · [ad-copy-templates.md](references/ad-copy-templates.md) | Existing foundations |
 
@@ -89,9 +95,9 @@ Account
 [Platform]_[Objective]_[Audience]_[Offer]_[Date]
 
 Examples:
-META_Conv_Lookalike-Customers_FreeTrial_2024Q1
-GOOG_Search_Brand_Demo_Ongoing
-LI_LeadGen_CMOs-SaaS_Whitepaper_Mar24
+META_Conv_Lookalike-Customers_SummerSale_2024Q1
+GOOG_Search_Brand_BestSellers_Ongoing
+TT_Conv_Broad_NewArrivals_Mar24
 ```
 
 ### Budget Allocation
@@ -218,6 +224,8 @@ Meta launched the **Andromeda** algorithm in 2025, which fundamentally changed M
 
 ## Creative Best Practices
 
+**Check brand tier before applying the "native, doesn't look like an ad" guidance below.** It's the right call for budget/mid-market accounts; premium and luxury brands generally need more polished, editorial-quality creative even in paid social — see `marketing-strategy/references/brand-tier-guide.md`'s Creative Aesthetic row.
+
 ### Image Ads
 - Clear product screenshots showing UI
 - Before/after comparisons
@@ -248,7 +256,7 @@ Meta launched the **Andromeda** algorithm in 2025, which fundamentally changed M
 
 ## Campaign Optimization
 
-For hard kill/keep/scale thresholds, use the platform playbooks (see Reference Routing): the kill rules and breakeven CPL/CPC math live in [b2b-paid-playbook.md](references/b2b-paid-playbook.md), and Meta's full decision tree lives in [meta-decision-system.md](references/meta-decision-system.md).
+For hard kill/keep/scale thresholds, use the platform playbooks (see Reference Routing): for an ecommerce/DTC account, the breakeven-CPA math and Meta's full decision tree live in [meta-decision-system-ecommerce.md](references/meta-decision-system-ecommerce.md); for a B2B/lead-gen account, the kill rules and breakeven CPL/CPC math live in [b2b-paid-playbook.md](references/b2b-paid-playbook.md), and Meta's full decision tree lives in [meta-decision-system.md](references/meta-decision-system.md).
 
 ### Key Metrics by Objective
 
@@ -292,8 +300,8 @@ For hard kill/keep/scale thresholds, use the platform playbooks (see Reference R
 | Funnel Stage | Audience | Message | Goal |
 |--------------|----------|---------|------|
 | Top | Blog readers, video viewers | Educational, social proof | Move to consideration |
-| Middle | Pricing/feature page visitors | Case studies, demos | Move to decision |
-| Bottom | Cart abandoners, trial users | Urgency, objection handling | Convert |
+| Middle | Product/category page visitors | Reviews, UGC, comparison content | Move to decision |
+| Bottom | Cart/checkout abandoners | Urgency, objection handling | Convert |
 
 ### Retargeting Windows
 
@@ -479,9 +487,10 @@ For tracking setup, see [references/conversion-tracking.md](references/conversio
 ## Related Skills
 
 - **ad-creative**: For generating and iterating ad headlines, descriptions, and creative at scale
-- **revops**: For the CRM side of ABM — lead scoring, routing, and the offline conversion loop
+- **attribution**: For reconciling platform-reported ROAS against blended CAC and real revenue
 - **customer-research**: For the voice-of-customer inputs that feed ad copy and creative angles
 - **copywriting**: For landing page copy that converts ad traffic
 - **analytics**: For proper conversion tracking setup
 - **ab-testing**: For landing page testing to improve ROAS
 - **cro**: For optimizing post-click conversion rates
+- **programmatic**: For buying display, video, CTV, and audio inventory across the open web/app ecosystem via a DSP, rather than directly on a walled-garden platform

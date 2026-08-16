@@ -104,6 +104,8 @@ Budget allocation isn't a once-a-year decision — build in a recurring review:
 ## Related Skills
 
 - **channel-selection**: For which channels are even eligible for budget — this skill assumes that decision is already made
+- **budget-pacing-tracker**: For tracking whether actual spend within a period is tracking to this skill's allocated plan, and catching over/underspend early
+- **moat-builder**: For biasing allocation toward the specific activities that widen an identified competitive moat, not just toward the best near-term ROAS
 - **attribution**: For the MMM/incrementality data this skill's allocation should be anchored on, not platform-reported ROAS
 - **marketing-plan**: For SaaS-specific ARR-based total-budget formulas, and the 12-month plan this budget sits inside
 - **price-elasticity**: For the breakeven/diminishing-returns math behind both the CAC ceiling and the channel-saturation logic

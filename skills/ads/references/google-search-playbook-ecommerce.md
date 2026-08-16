@@ -45,6 +45,8 @@ This is the biggest structural difference from the B2B playbook. B2B treats PMax
 - **Guardrails, carried over because they're genuinely platform-mechanical, not vertical-specific:** set account-level brand exclusions on non-brand PMax (or it cannibalizes brand Search and claims the credit); feed first-party audience signals; add negative keywords from day one (PMax supports search-theme negatives at the campaign level); use Google auto-generated video only as a placeholder — supply your own or it drags performance.
 - **PMax is a black box across all inventory** (Search, Shopping, Display, YouTube, Discover) — check the channel/placement report regularly so you know which of those is actually driving orders. PMax will silently overweight whichever placement is cheapest to deliver, which isn't always the one converting best.
 
+**For asset group structure, listing group segmentation, audience signals, campaign-split decisions, and reading PMax's reporting in depth**: see [pmax-playbook-ecommerce.md](pmax-playbook-ecommerce.md). This section covers the strategic framing only.
+
 ## Account structure
 
 Minimum viable split — each with an **independent budget**:

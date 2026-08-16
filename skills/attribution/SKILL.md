@@ -1,8 +1,8 @@
 ---
 name: attribution
-description: When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions "attribution," "attribution model," "first-touch vs last-touch," "multi-touch," "which channel drives revenue," "what's my real CAC," "my dashboards disagree," "Google/Meta says X but GA says Y," "media mix model," "MMM," "incrementality," "geo lift," "holdout test," "how did you hear about us," "self-reported attribution," "dark social," or wants to instrument attribution themselves — "stitch my bookings to their source," "SavvyCal/Calendly attribution," "close the identify gap," "track conversions on a third-party domain," "first-party / self-hosted attribution." For event tracking setup and UTMs, see analytics. For ad-platform pixels/CAPI, see ads. For pipeline and CRM revenue reporting, see revops. For the AI-search attribution blind spot, see ai-seo.
+description: When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions "attribution," "attribution model," "first-touch vs last-touch," "multi-touch," "which channel drives revenue," "what's my real CAC," "my dashboards disagree," "Google/Meta says X but GA says Y," "media mix model," "MMM," "incrementality," "brand lift," "geo lift," "holdout test," "how did you hear about us," "self-reported attribution," "dark social," or wants to instrument attribution themselves — "stitch my bookings to their source," "SavvyCal/Calendly attribution," "close the identify gap," "track conversions on a third-party domain," "first-party / self-hosted attribution." For event tracking setup and UTMs, see analytics. For ad-platform pixels/CAPI, see ads. For pipeline and CRM revenue reporting, see revops. For the AI-search attribution blind spot, see ai-seo.
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Attribution
@@ -125,6 +125,18 @@ Defaults differ sharply. Summary here; full playbooks in `references/by-business
 
 - **B2B SaaS (long cycle, sales-assisted):** journeys span weeks–months and multiple people, so single-touch models mislead badly. Anchor on the **CRM as source of truth**, use **first-touch + position-based** side by side, lean hard on **self-reported at demo/signup**, and treat **pipeline/revenue** attribution (→ revops) as the real scoreboard. Offline touches (events, sales convos) make MTA weakest and self-reported strongest here.
 - **Ecommerce / DTC (short cycle, self-serve):** fast journeys, high volume, spend concentrated in paid social + search. Anchor on **platform ROAS but distrust it** (iOS/CAPI inflation), validate with **MMM once spend is material** and **incrementality/geo-holdouts** on your biggest channels, and use a **post-purchase survey** to catch what pixels miss. Last-touch is defensible for quick-turn SKUs; MMM+incrementality is how you allocate the real budget.
+
+### 8. Measuring awareness, not just conversion
+
+Everything above measures whether a channel *causes conversions*. A separate question — did a campaign build **awareness or brand perception** — needs a different outcome variable (survey response, not a purchase event), but reuses the same experimental infrastructure: a geo-holdout or PSA/ghost-ads design (§3) works identically whether the thing you're measuring in the exposed-vs-control comparison is a purchase or a survey-measured lift in aided/unaided recall, brand favorability, or purchase intent.
+
+The two most common methods:
+- **Brand lift studies** — run through the ad platform (Meta, YouTube, and others offer native brand lift testing) or a third-party panel: survey an exposed group and a matched control group on recall, awareness, or intent, and compare. Needs real spend and reach to have enough survey respondents for a significant read — this isn't viable for a small test budget the way a conversion-based geo test can be.
+- **Share of voice** tracking (impression share, search volume for your brand terms, social mention volume relative to category) as a lower-cost proxy when a formal brand lift study isn't affordable — directional, not causal, but cheap to monitor continuously.
+
+**Don't conflate the two questions.** A campaign can be conversion-inefficient in the short run while genuinely building awareness that pays off later (or vice versa — some campaigns convert well without moving brand metrics at all, which is fine if conversion was the actual goal). Naming which question a given campaign is being measured against, before running it, avoids the common mistake of judging an awareness-objective campaign on ROAS or a conversion-objective campaign on recall lift.
+
+For the experimental design mechanics (geo-holdout structure, control-group matching, reading a result), reuse `references/measurement-paradigms.md`'s incrementality section — see its "Brand lift and awareness" addendum for what changes when the outcome variable is a survey response instead of a conversion.
 
 ---
 

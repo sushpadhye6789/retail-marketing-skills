@@ -4,6 +4,8 @@ A guarantee directly raises *perceived likelihood of achievement* (the buyer thi
 
 The wrong guarantee hurts more than no guarantee. Pick the type that matches your business model.
 
+**Business model isn't the only variable — brand tier changes the right guarantee framing too.** See `marketing-strategy/references/brand-tier-guide.md`'s Guarantee Framing row: a loudly-marketed unconditional guarantee that converts well for a budget brand can read as insecurity for a luxury one.
+
 ## The eight guarantee types
 
 | Type | What it promises | When it works | When it backfires |

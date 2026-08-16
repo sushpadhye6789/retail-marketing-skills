@@ -48,6 +48,8 @@ This skill's depth lives in references — load by intent. For **any operational
 |---|---|---|
 | Meta operations for ecommerce/DTC: when to kill/graduate/scale an ad, fatigue, testing structure | [meta-decision-system-ecommerce.md](references/meta-decision-system-ecommerce.md) | Breakeven-CPA-anchored decision tree, ad-count ceiling, 80/20 CBO structure, fatigue detection, Advantage+ transition |
 | Google Search for ecommerce/DTC: what to spend on first, Shopping/PMax, structure, match types, negatives | [google-search-playbook-ecommerce.md](references/google-search-playbook-ecommerce.md) | Intent ladder with Shopping as day-one infra, account structure, product feed & revenue data, PMax guardrails |
+| PMax operations: asset group structure, listing groups, audience signals, campaign segmentation, reading the black box | [pmax-playbook-ecommerce.md](references/pmax-playbook-ecommerce.md) | Split-vs-consolidate decision, asset group theming, brand exclusions in practice, new-customer-acquisition goal, Insights tab |
+| Advantage+ Shopping Campaign operations: catalog-driven structure, product sets, when to opt out | [advantage-plus-shopping-ecommerce.md](references/advantage-plus-shopping-ecommerce.md) | ASC vs. manual tradeoff, campaign segmentation, supplementary creative, new-customer emphasis |
 | Meta operations for a B2B/lead-gen account (demo or CRM-based funnel) | [meta-decision-system.md](references/meta-decision-system.md) | TCPL-anchored decision tree, ad-count ceiling, 80/20 CBO structure, fatigue bands, lead forms, Advantage+ transition |
 | Google Search for a B2B/lead-gen account | [google-search-playbook.md](references/google-search-playbook.md) | Intent ladder, account structure, match-type gates, negatives, bidding by volume, offline/CRM conversion import, PMax-earned-not-default guardrails |
 | B2B strategy, funnel stages, budget splits, kill rules, lead quality, breakeven math | [b2b-paid-playbook.md](references/b2b-paid-playbook.md) | Demand lifecycle, leading/lagging signals, kill rules, offline conversion loop, U/B/F lead scoring, scaling quadrant |
@@ -219,6 +221,8 @@ Meta launched the **Andromeda** algorithm in 2025, which fundamentally changed M
 - If you have an organic video with millions of views, **run that exact video as a paid ad** — proven content + paid distribution = the highest-leverage move
 
 ## Creative Best Practices
+
+**Check brand tier before applying the "native, doesn't look like an ad" guidance below.** It's the right call for budget/mid-market accounts; premium and luxury brands generally need more polished, editorial-quality creative even in paid social — see `marketing-strategy/references/brand-tier-guide.md`'s Creative Aesthetic row.
 
 ### Image Ads
 - Clear product screenshots showing UI

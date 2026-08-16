@@ -1,8 +1,8 @@
 ---
 name: marketing-strategy
-description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, and strategic-priority context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
+description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' 'brand tier,' 'are we a premium/luxury brand,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, and strategic-priority context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Marketing Strategy
@@ -139,6 +139,14 @@ The JTBD Four Forces:
 - Key conversion action (what you want people to do)
 - Current metrics (if known)
 
+### 14. Brand Tier & Price Positioning
+- **Tier**: Budget / Mid-market / Premium / Luxury — pick one, or name a split if different product lines sit at different tiers (this is common in ecommerce; be explicit about which line is which)
+- **What actually puts you there**: price position relative to the 2-3 direct competitors from Section 5 (meaningfully above / at / below the category), not a self-assessment — "premium" only counts if the price and distribution back it up
+- **Distribution/channel signal**: mass retail and marketplace-heavy (budget/mid-market lean) vs. specialty/DTC-only/invite-only (premium/luxury lean) — this is often a more honest tier signal than price alone
+- **What this rules in or out**: this field changes default guidance in several other skills — discount depth and frequency, scarcity/urgency style, guarantee aggressiveness, creative aesthetic. See [references/brand-tier-guide.md](references/brand-tier-guide.md) for the tactic-by-tactic breakdown other skills check against this field.
+
+This section exists so downstream skills (`offers`, `discount-and-overstock`, `ads`, `brand-guidelines`) can apply the *right* version of a tactic instead of a generic one — an aggressive countdown-timer discount push that's normal for a budget brand actively damages a luxury brand, and an overly precious no-discounting stance starves a budget brand that needs volume. Capture this honestly; it's meant to change behavior elsewhere, not just describe self-image.
+
 ---
 
 ## Reference Library
@@ -147,6 +155,7 @@ The JTBD Four Forces:
 |-----------|--------------|
 | [positioning-methodology.md](references/positioning-methodology.md) | Filling in Sections 5-6 with rigor instead of free-text bullets — true competitive alternatives, attribute-to-value mapping, target market fit, category choice |
 | [prioritization.md](references/prioritization.md) | Filling in Section 12 when the draft priorities list is a wish list rather than a real set of choices — naming the binding constraint, scoring candidates, cutting the rest |
+| [brand-tier-guide.md](references/brand-tier-guide.md) | Filling in Section 14, and for any other skill checking how its default tactics should shift by tier |
 | [examples.md](references/examples.md) | Weak-vs-strong worked examples for Sections 5, 6, and 12, for both an ecommerce/DTC and a B2B SaaS business |
 
 ---
@@ -254,6 +263,11 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
 **Conversion action:**
 **Current metrics:**
 
+## Brand Tier & Price Positioning
+**Tier:**
+**Price position vs. direct competitors:**
+**Distribution/channel signal:**
+
 ## Changelog
 *Newest first. One line per revision: what changed and why.*
 - v1 ([date]) — Initial context.
@@ -292,3 +306,4 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
 - **marketing-plan**: For the dated, channel-by-channel 90-day/12-month execution plan built from this document's positioning and priorities
 - **customer-research**: For the raw customer interviews and language-mining that feeds Sections 4 and 9
 - **pricing** / **offers**: For monetization decisions that should trace back to Section 13's priorities
+- **discount-and-overstock** / **brand-guidelines** / **loyalty** / **ads**: For skills that check Section 14's brand tier before applying tactics that diverge by tier (see [references/brand-tier-guide.md](references/brand-tier-guide.md))

@@ -64,12 +64,14 @@ See each skill's **Related Skills** section for the full dependency map.
 | [aso](skills/aso/) | When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO... |
 | [attribution](skills/attribution/) | When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an... |
 | [brand-guidelines](skills/brand-guidelines/) | When the user wants to create, update, or apply visual brand identity guidelines — logo usage, color palette,... |
+| [brand-management](skills/brand-management/) | When the user wants to track brand health, decide on brand architecture (house of brands vs. branded house vs.... |
 | [churn-prevention](skills/churn-prevention/) | When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or... |
 | [co-marketing](skills/co-marketing/) | When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use... |
 | [cold-email](skills/cold-email/) | Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails,... |
 | [community-marketing](skills/community-marketing/) | Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a... |
 | [competitor-profiling](skills/competitor-profiling/) | When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions... |
 | [competitors](skills/competitors/) | When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when... |
+| [compliance](skills/compliance/) | When the user wants to check a marketing decision, claim, or campaign for compliance risk — advertising claims,... |
 | [content-strategy](skills/content-strategy/) | When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also... |
 | [copy-editing](skills/copy-editing/) | When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the... |
 | [copywriting](skills/copywriting/) | When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages,... |
@@ -96,12 +98,13 @@ See each skill's **Related Skills** section for the full dependency map.
 | [paywalls](skills/paywalls/) | When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use... |
 | [popups](skills/popups/) | When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also... |
 | [price-elasticity](skills/price-elasticity/) | When the user wants to understand or estimate how demand responds to a price change, decide how much they can raise... |
-| [pricing](skills/pricing/) | When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions... |
+| [pricing](skills/pricing/) | When the user wants help with pricing decisions, packaging, monetization strategy, or checking prices against... |
 | [product-feed](skills/product-feed/) | When the user wants to build, audit, or optimize a product data feed for shopping ads or catalog-driven marketing. Also... |
 | [product-lifecycle](skills/product-lifecycle/) | When the user wants marketing guidance for a product moving through its lifecycle — beyond the initial launch. Also use... |
 | [programmatic-seo](skills/programmatic-seo/) | When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions... |
 | [prospecting](skills/prospecting/) | When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or... |
 | [public-relations](skills/public-relations/) | When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy... |
+| [range-review](skills/range-review/) | When the user wants to periodically review the product range/assortment and decide what to keep, grow, fix, cut, or... |
 | [referrals](skills/referrals/) | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy.... |
 | [revops](skills/revops/) | When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes.... |
 | [sales-enablement](skills/sales-enablement/) | When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also... |
@@ -331,18 +334,21 @@ You can also invoke skills directly:
 - `referrals` - Referral and affiliate programs
 
 ### Strategy & Monetization
-- `marketing-strategy` - Foundational positioning, audience, brand tier, and strategic-priority context
+- `marketing-strategy` - Foundational positioning, audience, brand tier, distribution model, and strategic-priority context
 - `brand-guidelines` - Visual identity: logo, color, typography, imagery style
+- `brand-management` - Brand health tracking, architecture, extension decisions, and governance
+- `range-review` - Periodic product range/assortment review — keep, grow, fix, cut, add
 - `marketing-ideas` - 140 marketing ideas
 - `marketing-psychology` - Mental models and psychology
 - `launch` - Product launches and announcements
 - `product-lifecycle` - Product transitions, phase-outs, and replacements after launch
 - `tentpole-campaign` - Major brand campaigns tied to a calendar or cultural moment
-- `pricing` - Pricing, packaging, and monetization
+- `pricing` - Pricing, packaging, monetization, and competitor/dealer price checks
 - `price-elasticity` - Measuring and using demand response to price changes
 - `offers` - Value framing, bonus stacking, guarantees, scarcity/urgency
 - `discount-and-clearance` - Sizing and messaging a discount or clearance event
 - `overstock` - Diagnosing excess/aging inventory and choosing a disposition channel
+- `compliance` - Advertising claims, disclosures, consent, and pricing-claim compliance risk
 
 ### Sales & RevOps
 - `revops` - Lead lifecycle, scoring, routing, pipeline management

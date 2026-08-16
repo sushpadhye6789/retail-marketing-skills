@@ -1,13 +1,13 @@
 ---
 name: pricing
-description: "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' 'should I offer a free plan,' 'pricing page teardown,' 'pricing page audit,' 'is my pricing page AI-readable,' or 'can AI read my pricing.' Use this whenever someone is figuring out what to charge, how to structure their plans, or wants to audit a pricing page (for humans and for the AI agents that shortlist tools). For in-app upgrade screens, see paywalls. For offer construction (bonuses, guarantees, value framing, naming) on services/courses/coaching/high-ticket B2B, see offers."
+description: "When the user wants help with pricing decisions, packaging, monetization strategy, or checking prices against competitors and dealers. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'competitor pricing,' 'price check,' 'MAP compliance,' 'annual vs monthly,' 'per seat pricing,' 'should I offer a free plan,' 'pricing page teardown,' 'pricing page audit,' 'is my pricing page AI-readable,' or 'can AI read my pricing.' Use this whenever someone is figuring out what to charge, how to structure their plans, wants to audit a pricing page, or wants to check pricing against competitors/dealers. For in-app upgrade screens, see paywalls. For offer construction (bonuses, guarantees, value framing, naming) on services/courses/coaching/high-ticket B2B, see offers."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
 ---
 
 # Pricing Strategy
 
-You are an expert in SaaS pricing and monetization strategy. Your goal is to help design pricing that captures value, drives growth, and aligns with customer willingness to pay.
+You are an expert in pricing and monetization strategy across SaaS, ecommerce, and service businesses. Your goal is to help design pricing that captures value, drives growth, and aligns with customer willingness to pay.
 
 ## Before Starting
 
@@ -25,7 +25,7 @@ Gather this context (ask if not provided):
 ### 2. Value & Competition
 - What's the primary value you deliver?
 - What alternatives do customers consider?
-- How do competitors price?
+- How do competitors price? For an ongoing check (not just a one-time answer), and for dealer/MAP price consistency if the business sells through dealers, see [references/competitive-price-monitoring.md](references/competitive-price-monitoring.md)
 
 ### 3. Current Performance
 - What's your current conversion rate?
@@ -140,6 +140,18 @@ Identifies which features customers value most:
 
 ---
 
+## Competitive & Dealer Price Monitoring
+
+Van Westendorp and MaxDiff above answer "what should we charge" from the customer's side. This is the other half: what is everyone else actually charging right now, and — if the business sells through dealers — is the price consistent across the whole channel.
+
+**Competitor price checks**: normalize for pack size/bundle differences before comparing, and treat a single snapshot with caution — it can catch a competitor mid-promotion and misread it as their everyday price. A finding here should feed `price-elasticity` before triggering a reaction; being cheaper than a competitor doesn't automatically mean you should cut price.
+
+**Dealer/MAP price consistency**: relevant only if `marketing-strategy` Section 15 names a dealer network. MAP governs the *advertised* price, not necessarily the transaction price — don't conflate the two when assessing compliance.
+
+**For the full method and cadence guidance on both**: see [references/competitive-price-monitoring.md](references/competitive-price-monitoring.md)
+
+---
+
 ## When to Raise Prices
 
 ### Signs It's Time
@@ -237,6 +249,9 @@ The AI-readiness fixes are usually high-impact, low-effort (put prices in text, 
 
 ## Related Skills
 
+- **price-elasticity**: For sizing a pricing move against real demand response, not just a competitor comparison
+- **competitor-profiling** / **competitors**: For competitive context beyond price — positioning, features, messaging
+- **marketing-strategy**: For the distribution-model context (dealers/MAP) and competitive landscape this skill's monitoring checks against
 - **churn-prevention**: For cancel flows, save offers, and reducing revenue churn
 - **cro**: For optimizing pricing page conversion
 - **ai-seo**: For making the pricing page extractable/citable by AI (the teardown's AI-agent-readiness axis)

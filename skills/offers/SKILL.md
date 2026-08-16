@@ -140,6 +140,8 @@ When drafting offer language (sales pages, emails, headlines), avoid:
 
 Use specific numbers, named customers, concrete outcomes, real timelines. Specificity beats superlatives.
 
+**Several of these are compliance risks, not just style issues** — see `compliance` for the claims-substantiation and pricing-claim principles behind the "$Y value with no comparable" and "100% guaranteed" entries above.
+
 ---
 
 ## Related Skills

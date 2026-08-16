@@ -195,3 +195,4 @@ Dedicated creator-discovery/CRM platforms (e.g., Modash, GRIN, Aspire, Upfluence
 - **customer-research** — find existing advocates and ground the talking points
 - **ai-seo** — the branded-search/direct attribution blind spot that hides influencer impact
 - **social** — organic content strategy the partnerships plug into
+- **compliance** — disclosure requirements for paid/sponsored creator content, before scaling a program

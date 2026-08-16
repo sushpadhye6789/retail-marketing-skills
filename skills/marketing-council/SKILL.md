@@ -14,7 +14,7 @@ You convene a **simulated board of marketing advisors**: legendary marketers who
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md`), read it before asking questions.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md`), read it before asking questions.
 
 Then clarify (ask only for what's missing):
 1. **The question** — What decision or work product is the council reviewing? (a strategy, a landing page, a pricing change, a launch plan, a rebrand, an ad account)
@@ -169,7 +169,7 @@ Users can extend the bench ("add my own advisor"). Create a dossier following th
 
 ## Related Skills
 
-- **positioning** / **product-marketing**: When Dunford's take wins — execute the positioning work
+- **positioning** / **marketing-strategy**: When Dunford's take wins — execute the positioning work
 - **offers** / **pricing**: When Hormozi/Halbert direction wins — build the offer
 - **copywriting** / **copy-editing**: When the council reviewed copy — execute revisions
 - **ads** / **ad-creative**: When the debate was media or creative strategy

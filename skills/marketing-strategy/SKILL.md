@@ -1,21 +1,23 @@
 ---
-name: product-marketing
-description: "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/product-marketing.md` that all other skills reference for product, audience, and positioning context."
+name: marketing-strategy
+description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, and strategic-priority context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
 metadata:
-  version: 2.1.0
+  version: 1.0.0
 ---
 
-# Product Marketing Context
+# Marketing Strategy
 
-You help users create and maintain a product marketing context document. This captures foundational positioning and messaging information that other marketing skills reference, so users don't repeat themselves.
+You help users create and maintain a marketing strategy and positioning context document. This captures foundational positioning, audience, and strategic-priority information that other marketing skills reference, so users don't repeat themselves — and it's the strategic input `marketing-plan` builds its tactical roadmap from.
 
-The document is stored at `.agents/product-marketing.md`.
+The document is stored at `.agents/marketing-strategy.md`.
+
+**Scope note:** this skill answers *who are we, who do we sell to, why do we win, and where should we focus* — the durable strategic layer. It does not produce a dated, channel-by-channel execution roadmap; for that (a 90-day/12-month plan with budget, team, and AARRR staging), see `marketing-plan`, which reads this document as its starting input.
 
 ## Workflow
 
 ### Step 1: Check for Existing Context
 
-First, check if `.agents/product-marketing.md` already exists. Also check `.claude/product-marketing.md` and the legacy filename `product-marketing-context.md` (in either `.agents/` or `.claude/`) for older setups — if found anywhere other than `.agents/product-marketing.md`, offer to move it to the canonical location.
+First, check if `.agents/marketing-strategy.md` already exists. Also check the legacy filenames — `.agents/product-marketing.md`, `.claude/product-marketing.md`, and `product-marketing-context.md` (in either `.agents/` or `.claude/`), from before this skill was renamed and merged with strategy — if found anywhere other than `.agents/marketing-strategy.md`, offer to migrate it to the canonical location (same content, new filename; no data is lost).
 
 **If it exists:**
 - Read it and summarize what's captured — note its current **Document version** and the last few **Changelog** entries so the user sees where the doc stands and what's changed recently
@@ -25,7 +27,7 @@ First, check if `.agents/product-marketing.md` already exists. Also check `.clau
 
 **If it doesn't exist, offer two options:**
 
-1. **Auto-draft from codebase** (recommended): You'll study the repo—README, landing pages, marketing copy, package.json, etc.—and draft a V1 of the context document. The user then reviews, corrects, and fills gaps. This is faster than starting from scratch.
+1. **Auto-draft from codebase** (recommended): You'll study the repo—README, landing pages, marketing copy, package.json, etc.—and draft a V1 of the document. The user then reviews, corrects, and fills gaps. This is faster than starting from scratch.
 
 2. **Start from scratch**: Walk through each section conversationally, gathering info one section at a time.
 
@@ -120,7 +122,13 @@ The JTBD Four Forces:
 - Testimonial snippets
 - Main value themes and supporting evidence
 
-### 12. Goals
+### 12. Strategic Priorities
+- The 2-4 things that matter most right now (not everything — a real strategy says no to something)
+- What's explicitly out of scope or deprioritized this cycle, and why
+- The constraint that's actually binding (budget, team size, product readiness, channel access) — strategy is mostly about picking what to do given a binding constraint, not a wish list
+- How this connects to the business goal in Section 13 — each priority should trace back to it
+
+### 13. Goals
 - Primary business goal
 - Key conversion action (what you want people to do)
 - Current metrics (if known)
@@ -129,10 +137,10 @@ The JTBD Four Forces:
 
 ## Step 3: Create the Document
 
-After gathering information, create `.agents/product-marketing.md` with this structure:
+After gathering information, create `.agents/marketing-strategy.md` with this structure:
 
 ```markdown
-# Product Marketing Context
+# Marketing Strategy
 
 **Document version:** v1
 **Last updated:** [date]
@@ -217,6 +225,14 @@ After gathering information, create `.agents/product-marketing.md` with this str
 |-------|-------|
 | | |
 
+## Strategic Priorities
+**This cycle's priorities:**
+1.
+2.
+**Explicitly deprioritized (and why):**
+-
+**Binding constraint:**
+
 ## Goals
 **Business goal:**
 **Conversion action:**
@@ -240,9 +256,9 @@ After gathering information, create `.agents/product-marketing.md` with this str
     - `- v3 (2026-07-16) — Repositioned from "email tool" to "deliverability platform"; added RevOps to the ICP.`
     - `- v2 (2026-06-02) — Rewrote value prop and objections after 5 customer interviews; added competitor Acme.`
   - Use today's date in ISO form (YYYY-MM-DD) for the entry and `Last updated`.
-  - **Pure typo-only fix:** don't bump the version or add a changelog entry — just save the correction. Every other change bumps the version and gets an entry. When the change is a real repositioning, say so plainly — downstream skills will now generate against the new context.
-- Save to `.agents/product-marketing.md`
-- Tell them: "Other marketing skills will now use this context automatically. The Changelog at the bottom tracks every revision — check it to see how your positioning has evolved. Run `/product-marketing` anytime to update it."
+  - **Pure typo-only fix:** don't bump the version or add a changelog entry — just save the correction. Every other change bumps the version and gets an entry. When the change is a real repositioning or priority shift, say so plainly — downstream skills will now generate against the new context.
+- Save to `.agents/marketing-strategy.md`
+- Tell them: "Other marketing skills will now use this context automatically. The Changelog at the bottom tracks every revision — check it to see how your positioning and priorities have evolved. Run `/marketing-strategy` anytime to update it. For a dated 90-day execution plan built from this strategy, run `/marketing-plan` next."
 
 ---
 
@@ -253,3 +269,11 @@ After gathering information, create `.agents/product-marketing.md` with this str
 - **Ask for examples**: "Can you give me an example?" unlocks better answers
 - **Validate as you go**: Summarize each section and confirm before moving on
 - **Skip what doesn't apply**: Not every product needs all sections (e.g., Personas for B2C)
+- **Strategy means choosing**: if Strategic Priorities lists more than 4 items or nothing was cut, push back — that's a wish list, not a strategy
+
+## Related Skills
+
+- **marketing-plan**: For the dated, channel-by-channel 90-day/12-month execution plan built from this document's positioning and priorities
+- **positioning**: For deeper competitive positioning work (Dunford-style) beyond what this document captures
+- **customer-research**: For the raw customer interviews and language-mining that feeds Sections 4 and 9
+- **pricing** / **offers**: For monetization decisions that should trace back to Section 13's priorities

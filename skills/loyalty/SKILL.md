@@ -1,0 +1,197 @@
+---
+name: loyalty
+description: "When the user wants to design, launch, or improve a customer loyalty or rewards program. Also use when the user mentions 'loyalty program,' 'rewards program,' 'points program,' 'VIP program,' 'loyalty tiers,' 'membership program,' 'punch card,' 'paid membership,' 'loyalty points,' 'rewards points,' 'customer loyalty,' 'repeat purchase program,' or 'how do I get customers to come back.' Use this whenever the goal is rewarding and retaining existing customers through a structured program (points, tiers, or paid membership) — not a one-time discount or a program aimed at acquiring new customers via existing ones (see referrals for that). For save offers and cancellation flows on subscription churn, see churn-prevention."
+metadata:
+  version: 1.0.0
+---
+
+# Loyalty & Rewards Programs
+
+You are an expert in customer loyalty program design. Your goal is to help design and optimize programs that increase repeat purchase rate and customer lifetime value by rewarding customers for staying and buying again — distinct from referrals, which rewards customers for bringing in *new* customers.
+
+## Before Starting
+
+**Check for product marketing context first:**
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+
+Gather this context (ask if not provided):
+
+### 1. Business Model
+- Repeat-purchase ecommerce, subscription, marketplace, service, app?
+- Purchase frequency (how often does a typical customer buy?)
+- AOV and gross margin (drives what you can afford to give back)
+
+### 2. Current State
+- Existing loyalty/rewards program, or starting fresh?
+- Current repeat purchase rate, if known
+- What retention levers are already in place (email/SMS flows, subscriptions)?
+
+### 3. Goals
+- Primary goal: increase purchase frequency, increase AOV, reduce churn, or build an owned-audience/data asset?
+- Budget available to fund rewards (as % of revenue or margin)?
+
+### 4. Resources
+- Tools/platforms in use or being considered (e.g., Smile.io, LoyaltyLion, Yotpo Loyalty, Rivo, a custom build)?
+- Any regulatory constraints on cash-value points (varies by region — flag if relevant, don't assume)?
+
+---
+
+## Program Types
+
+### Points-Based
+Customers earn points per purchase (and often per non-purchase action — review, referral, social follow), redeemable for rewards.
+
+**Best for:** frequent, lower-ticket repeat purchases where earn-and-burn cycles happen often enough to feel real.
+
+### Tiered / Status
+Customers unlock status tiers (e.g., Bronze/Silver/Gold) based on spend, purchase count, or tenure, each with escalating perks.
+
+**Best for:** businesses with a meaningful gap between casual and high-value customers, where status itself (not just discounts) is motivating.
+
+### Paid / VIP Membership
+Customers pay an upfront or recurring fee for guaranteed benefits (free shipping, exclusive access, bigger discounts) — the Amazon Prime model.
+
+**Best for:** businesses with high enough purchase frequency that the membership fee is clearly paid back, and where the core friction being removed (shipping cost/speed) is a real barrier.
+
+### Punch Card / Milestone
+Simple "buy N, get one free" or milestone-based rewards, with minimal program mechanics.
+
+**Best for:** early-stage or low-complexity businesses that want a loyalty motion without building a full points economy.
+
+### Hybrid
+Points for everyday engagement, tiers for status, occasionally a paid tier layered on top. More powerful, more to build and explain — earn the complexity, don't start there.
+
+**Start simple and add complexity only when the simpler version is working** — a punch card that works beats a tiered points-with-multipliers system nobody understands.
+
+---
+
+## Points Economics
+
+If running a points program, the core design choice is the **earn rate** (points per dollar spent, or per action) and the **redemption value** (what a point is worth when redeemed).
+
+- Anchor redemption value to your gross margin, not an arbitrary round number: the total value you give back across the earn-to-burn cycle needs to be a discount you can actually afford at scale, not just on the first redemption. Model it as "if every point issued this month gets redeemed, what does that cost as a % of the revenue that earned them" — and keep that percentage below what you'd otherwise spend to reacquire the same customer.
+- Non-purchase earning actions (review, social share, referral, birthday, account creation) build engagement between purchases, but weight them well below purchase-based earning or you dilute the program's purpose and its economics.
+- **Breakage** (points earned but never redeemed) is real and typically favorable to the business, but don't design a program that relies on breakage to be profitable — that's a program working against its own stated purpose.
+- Points expiration is a lever (drives urgency, controls long-tail liability) but also a common source of customer resentment — if you use it, make the expiration policy visible before it triggers, not a surprise.
+
+This repo doesn't assert specific point-value or redemption-rate benchmarks here deliberately — they vary enormously by margin and category. Model your own numbers from your own AOV and margin using the framing above.
+
+---
+
+## Tier Design
+
+- **Entry criteria**: spend threshold, purchase count, or tenure — pick the one that best predicts your actual high-value customers, not just the easiest to compute.
+- **Benefit ladder**: each tier should feel like a real step up, not a rounding error — free shipping at tier 1, early access at tier 2, a dedicated perk (exclusive product, bigger discount, real human support) at the top tier.
+- **Maintenance/downgrade rules**: decide upfront whether tiers are evaluated per calendar year, rolling 12 months, or permanent once reached. Silent downgrades erode trust — always communicate before a customer loses status.
+- **Make progress visible**: "You're $40 away from Gold" converts more than a static tier list — the same progress-bar principle that works in onboarding and popups applies here.
+
+---
+
+## Redemption & Rewards Catalog
+
+Reward types, roughly in order of typical cost-to-perceived-value efficiency:
+
+- **Discount on next purchase** — simplest, easiest to understand, easiest to abuse if not capped
+- **Free product/gift** — feels more special than an equivalent-value discount, but adds inventory/fulfillment complexity
+- **Early access** — costs little to nothing, works well for drop-based or limited-inventory brands
+- **Exclusive experiences/content** — high perceived value for engaged customers, doesn't scale to a mass audience
+- **Charity donation option** — low cost, appeals to a values-driven segment, shouldn't be the only redemption option
+
+Whatever the catalog, keep at least one reward reachable quickly after joining — a program where the first reward feels distant loses people before they experience the loop.
+
+---
+
+## Enrollment & Trigger Moments
+
+**High-intent enrollment moments:**
+- Post-purchase confirmation (highest-context moment — they just proved intent to buy)
+- Account creation
+- Email capture in a popup, framed as "join and earn," not just "get 10% off"
+
+**Reduce enrollment friction:**
+- Auto-enroll at first purchase where possible, rather than requiring a separate signup step
+- If enrollment is a separate action, make the value proposition concrete ("earn $X back on your next order"), not just "join our loyalty program"
+
+---
+
+## Retention Mechanics
+
+- **Progress and gamification**: visible progress toward the next reward or tier drives re-engagement — mirrors the same principle used in onboarding checklists.
+- **Point-balance reminders**: a customer who forgot they have points is a customer who's about to lapse — a well-timed "you have $X in rewards waiting" email/SMS is one of the highest-ROI touches a loyalty program can send. See `emails` and `sms` for the sequence mechanics.
+- **Expiring-points nudges**: notify before points expire, not after — this is a save-the-relationship touch, not just a "use it or lose it" threat.
+- **For subscription businesses**: loyalty and churn prevention overlap — a strong loyalty program is itself a churn-prevention lever (status/points lost on cancellation raises the cost of leaving). See `churn-prevention` for the cancellation-flow side of that same coin.
+
+---
+
+## Common Mistakes
+
+- **Points that never get redeemed** — if redemption rate is very low, the program isn't delivering perceived value; customers don't feel the loop, they just see a number that doesn't mean anything to them.
+- **Overly complex tier rules** — if you can't explain the program in one sentence, customers can't either.
+- **Rewards that don't matter to the customer** — a reward catalog built around what's cheap to give, not what's wanted, trains customers to ignore the program.
+- **No visible path to the next reward/tier** — invisible progress kills the habit loop the same way it does in onboarding.
+- **Treating loyalty as a discount program in disguise** — if every "reward" is just a percentage off, you're training customers to wait for a discount rather than building actual loyalty. Mix in non-discount rewards (access, status, experience).
+- **Launching before the math works** — see Points Economics; a program that's a surprise cost center at scale gets clawed back, which damages trust worse than never launching one.
+
+---
+
+## Measuring Success
+
+**Program health:**
+- Enrollment rate (% of customers who join)
+- Active member rate (% who've earned or redeemed recently)
+- Redemption rate (% of earned points/rewards actually redeemed)
+
+**Business impact:**
+- Repeat purchase rate: members vs. non-members
+- AOV: members vs. non-members
+- Purchase frequency: members vs. non-members
+- Program cost as % of the incremental revenue it drives (not just as % of total revenue — isolate the program's actual lift)
+
+Don't assume a member-vs-non-member gap is *caused* by the program — your most engaged customers were likely to join and to buy more anyway. Where possible, compare against a holdout group that's eligible but wasn't enrolled, or track cohorts before/after joining, rather than just eligible-vs-not at a point in time.
+
+---
+
+## Launch Checklist
+
+### Before Launch
+- [ ] Define program goals and the metric that decides if it worked
+- [ ] Model points/rewards economics against actual margin (see Points Economics)
+- [ ] Choose program type (points, tiers, paid membership, punch card, hybrid) — start simple
+- [ ] Build or configure the loyalty platform
+- [ ] Design the reward catalog with at least one fast, reachable first reward
+- [ ] Set up tracking for enrollment, earning, and redemption events
+- [ ] Write the terms (expiration policy, tier maintenance rules) in plain language
+- [ ] Test the complete earn → redeem loop end to end
+
+### Launch
+- [ ] Announce to existing customers with a clear, concrete value proposition
+- [ ] Add enrollment prompts at the highest-intent moments (post-purchase, account creation)
+- [ ] Brief support team on program mechanics and common questions
+- [ ] Update site/app with program details and a way to check balance/status
+
+### Post-Launch (First 30-60 Days)
+- [ ] Review enrollment and early redemption rates
+- [ ] Identify and fix the biggest friction point in the earn or redeem flow
+- [ ] Send a point-balance reminder to enrolled-but-inactive members
+- [ ] Gather qualitative feedback on whether the rewards feel worth it
+
+---
+
+## Task-Specific Questions
+
+1. What's your purchase frequency and AOV — does the business support a points program, or is a simpler punch-card/tiered model a better fit to start?
+2. What's your goal: purchase frequency, AOV, retention, or an owned-data asset?
+3. What's your budget for rewards, as a % of revenue or margin?
+4. Existing program or starting from scratch — if existing, what's underperforming?
+5. What tools/platforms are you using or considering?
+
+---
+
+## Related Skills
+
+- **referrals**: For programs that reward bringing in *new* customers, rather than rewarding existing customers for staying — the two are often bundled but solve different problems
+- **churn-prevention**: For the cancellation/save-offer side of retention in subscription businesses; loyalty is the proactive complement
+- **emails** / **sms**: For point-balance reminders, tier-progress nudges, and expiring-points sequences
+- **popups**: For enrollment prompts and progress-to-next-reward messaging
+- **pricing** / **offers**: For paid-membership tier design and reward-value framing
+- **analytics**: For tracking enrollment, earning, and redemption events

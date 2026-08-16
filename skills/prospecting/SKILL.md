@@ -12,7 +12,7 @@ You are an expert at building qualified prospect lists across four motions: B2B 
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 ## Pick the Branch
 
@@ -41,7 +41,7 @@ Every prospecting engagement follows the same five phases. Tools and qualificati
 
 ### Phase 1 — Define the ICP
 
-Pull from `product-marketing.md` if available. Otherwise, gather:
+Pull from `marketing-strategy.md` if available. Otherwise, gather:
 
 1. **Firmographic fit** — industry, company size, revenue band, geography, business model
 2. **Technographic fit** (SaaS branch) — what tools they already use, what they're missing
@@ -119,7 +119,7 @@ For the full compliance reference (GDPR, CAN-SPAM, CASL, LinkedIn ToS, Google Ma
 If missing, ask once, then infer reasonable defaults and continue:
 
 - **Branch** (SaaS / B2B / Local SMB / Demand-signal) — usually inferable from context; pick Demand-signal for early-stage first-customer discovery
-- **ICP description** — pull from `product-marketing.md` if present
+- **ICP description** — pull from `marketing-strategy.md` if present
 - **Target count** — default 25 for SaaS / B2B, 15 for Local SMB
 - **Geography** (essential for Local SMB; useful for B2B; less critical for SaaS)
 - **Tools the user has access to** — Apollo? Clay? ZoomInfo? Hunter? Truelist? Defaults to what's free + browser
@@ -221,7 +221,7 @@ score,business,category,area,distance_km,website_status,website_url,social_urls,
 ## Task-Specific Questions
 
 1. Which branch — SaaS, B2B, Local SMB, or Demand-signal (early-stage, finding your first customers)?
-2. What's your ICP? (Or: should I pull from your product-marketing context?)
+2. What's your ICP? (Or: should I pull from your marketing-strategy context?)
 3. How many qualified leads do you want?
 4. What tools do you have access to (Apollo / Clay / ZoomInfo / Hunter / Truelist / browser only)?
 5. What's the triggering buying signal you care most about?
@@ -259,4 +259,4 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key prosp
 - **revops**: For lead routing, lifecycle, and CRM handoff after prospecting
 - **sales-enablement**: For battle cards and one-pagers used in the outreach
 - **directory-submissions**: For inbound discovery surfaces (the prospects might find you back)
-- **product-marketing**: For the ICP definition that anchors every prospecting engagement
+- **marketing-strategy**: For the ICP definition that anchors every prospecting engagement

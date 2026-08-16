@@ -4,7 +4,7 @@ Idempotency is only real if the loop can remember what it already did between ru
 
 ## Where state lives
 
-Persist each loop's state in a file under `.agents/loops/` — the same `.agents/` convention this repo uses for `product-marketing.md` and `listening-sources.md`. One state file per loop:
+Persist each loop's state in a file under `.agents/loops/` — the same `.agents/` convention this repo uses for `marketing-strategy.md` and `listening-sources.md`. One state file per loop:
 
 ```
 .agents/loops/<loop-name>.json     # the loop's memory

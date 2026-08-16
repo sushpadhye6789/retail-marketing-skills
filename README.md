@@ -16,11 +16,11 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 
 ## How Skills Work Together
 
-Skills reference each other and build on shared context. The `product-marketing` skill is the foundation — every other skill checks it first to understand your product, audience, and positioning before doing anything.
+Skills reference each other and build on shared context. The `marketing-strategy` skill is the foundation — every other skill checks it first to understand your product, audience, positioning, and strategic priorities before doing anything.
 
 ```
                             ┌──────────────────────────────────────┐
-                            │          product-marketing           │
+                            │          marketing-strategy          │
                             │    (read by all other skills first)  │
                             └──────────────────┬───────────────────┘
                                                │
@@ -37,7 +37,7 @@ Skills reference each other and build on shared context. The `product-marketing`
 │schema    │ │paywalls  │ │social    │ │            │ │community │ │competitors  │ │           │
 │content   │ │          │ │video     │ │            │ │lead-magnt│ │comp-profile │ │           │
 │aso       │ │          │ │image     │ │            │ │co-mktg   │ │directory    │ │           │
-│          │ │          │ │sms       │ │            │ │          │ │prospecting  │ │           │
+│          │ │          │ │sms       │ │            │ │loyalty   │ │prospecting  │ │           │
 └────┬─────┘ └────┬─────┘ └────┬─────┘ └─────┬──────┘ └────┬─────┘ └──────┬──────┘ └─────┬─────┘
      │            │            │              │             │              │              │
      └────────────┴─────┬──────┴──────────────┴─────────────┴──────────────┴──────────────┘
@@ -81,17 +81,18 @@ See each skill's **Related Skills** section for the full dependency map.
 | [influencer-marketing](skills/influencer-marketing/) | When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and... |
 | [launch](skills/launch/) | When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user... |
 | [lead-magnets](skills/lead-magnets/) | When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the... |
+| [loyalty](skills/loyalty/) | When the user wants to design, launch, or improve a customer loyalty or rewards program. Also use when the user... |
 | [marketing-council](skills/marketing-council/) | When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by... |
 | [marketing-ideas](skills/marketing-ideas/) | When the user needs marketing ideas, inspiration, or strategies for their product or business. Also use when the user... |
 | [marketing-loops](skills/marketing-loops/) | When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a... |
 | [marketing-plan](skills/marketing-plan/) | When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use... |
 | [marketing-psychology](skills/marketing-psychology/) | When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when... |
+| [marketing-strategy](skills/marketing-strategy/) | When the user wants to create or update their foundational marketing strategy and positioning context, or needs help... |
 | [offers](skills/offers/) | When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing,... |
 | [onboarding](skills/onboarding/) | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also... |
 | [paywalls](skills/paywalls/) | When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use... |
 | [popups](skills/popups/) | When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also... |
 | [pricing](skills/pricing/) | When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions... |
-| [product-marketing](skills/product-marketing/) | When the user wants to create or update their product marketing context document. Also use when the user mentions... |
 | [programmatic-seo](skills/programmatic-seo/) | When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions... |
 | [prospecting](skills/prospecting/) | When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or... |
 | [public-relations](skills/public-relations/) | When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy... |
@@ -215,6 +216,14 @@ mv .claude/product-marketing-context.md .agents/product-marketing.md 2>/dev/null
 
 Skills will still check `.claude/` and the legacy `product-marketing-context.md` filename as fallbacks, so nothing breaks if you don't migrate.
 
+### `product-marketing` renamed and merged into `marketing-strategy`
+
+The `product-marketing` skill has been renamed to `marketing-strategy` and folded in strategic-priority capture alongside the existing positioning/audience sections. The context file's canonical path is now `.agents/marketing-strategy.md`; every skill still checks the old `.agents/product-marketing.md`, `.claude/product-marketing.md`, and `product-marketing-context.md` paths as fallbacks, so nothing breaks if you don't rename your existing file. To migrate:
+
+```bash
+mv .agents/product-marketing.md .agents/marketing-strategy.md 2>/dev/null
+```
+
 ### Full rename map
 
 | Old | New |
@@ -305,6 +314,7 @@ You can also invoke skills directly:
 
 ### Retention
 - `churn-prevention` - Cancel flows, save offers, dunning, payment recovery
+- `loyalty` - Points, tiers, and paid-membership rewards programs
 
 ### Growth Engineering
 - `co-marketing` - Partner identification and joint campaigns
@@ -312,7 +322,8 @@ You can also invoke skills directly:
 - `referrals` - Referral and affiliate programs
 
 ### Strategy & Monetization
-- `marketing-ideas` - 140 SaaS marketing ideas
+- `marketing-strategy` - Foundational positioning, audience, and strategic-priority context
+- `marketing-ideas` - 140 marketing ideas
 - `marketing-psychology` - Mental models and psychology
 - `launch` - Product launches and announcements
 - `pricing` - Pricing, packaging, and monetization

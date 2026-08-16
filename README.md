@@ -2,7 +2,7 @@
 
 A collection of AI agent skills for retail and ecommerce marketing. Built for technical marketers and founders who want AI coding agents to help with conversion optimization, copywriting, SEO, paid ads, retail/dealer marketing, and growth engineering. Works with Claude Code, OpenAI Codex, Cursor, Windsurf, and any agent that supports the [Agent Skills spec](https://agentskills.io).
 
-Maintained by [Sush Padhye](https://github.com/sushpadhye6789). This is a fork of [Corey Haines' marketingskills](https://github.com/coreyhaines31/marketingskills), substantially extended with retail/ecommerce-specific skills (POS marketing, retail media, local marketing, trade marketing, visual merchandising, experiential marketing, distribution-model and brand-tier classification, and more) beyond the original SaaS-leaning skill set.
+Maintained by Sush Padhye ([GitHub](https://github.com/sushpadhye6789) · [LinkedIn](https://www.linkedin.com/in/sushpadhye)). This is a fork of [Corey Haines' marketingskills](https://github.com/coreyhaines31/marketingskills), substantially extended with retail/ecommerce-specific skills (POS marketing, retail media, local marketing, trade marketing, visual merchandising, experiential marketing, distribution-model and brand-tier classification, and more) beyond the original SaaS-leaning skill set.
 
 **Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).
 

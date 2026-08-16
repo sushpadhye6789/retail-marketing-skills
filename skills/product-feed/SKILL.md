@@ -14,6 +14,8 @@ You help users build, audit, and optimize the product data feed that powers Shop
 **Check for product marketing context first:**
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
+**If Section 15 (Distribution Model) names a dealer network**, see `marketing-strategy/references/distribution-model-guide.md` before recommending an aggressive feed/Shopping presence — your own paid listings can compete directly with dealer listings for the same product, which is a strategic decision to make explicitly, not a default.
+
 Gather this context (ask if not provided):
 
 ### 1. Feed Status
@@ -151,6 +153,6 @@ Feed health metrics to track (no universal benchmark numbers here — track your
 - **ads**: For the Shopping/PMax campaigns that consume this feed — see its ecommerce reference files for how feed-driven campaign structure and custom-label bidding work
 - **schema**: For the structured-data markup that shares much of the same underlying product data
 - **programmatic-seo**: For product page URL structure and data architecture that the feed and schema both draw from
-- **price-elasticity** / **discount-and-overstock**: For deciding what margin-tier or clearance custom labels should actually mean before setting them in the feed
+- **price-elasticity** / **overstock**: For deciding what margin-tier or clearance custom labels should actually mean before setting them in the feed
 - **marketing-strategy**: For the brand tier context that should inform margin-tier segmentation
 - **analytics**: For conversion tracking on feed-driven traffic

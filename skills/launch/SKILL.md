@@ -345,6 +345,8 @@ Even small changelog updates remind customers your product is evolving. This bui
 
 ## Related Skills
 
+- **product-lifecycle**: For what comes after this launch — transitions, phase-outs, and replacements later in the product's life
+- **tentpole-campaign**: For a major brand campaign tied to a calendar/cultural moment rather than a new-product go-to-market
 - **marketing-ideas**: For additional launch tactics (#22 Product Hunt, #23 Early Access Referrals)
 - **emails**: For launch and onboarding email sequences
 - **cro**: For optimizing launch landing pages

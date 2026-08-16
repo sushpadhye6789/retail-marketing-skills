@@ -1,6 +1,6 @@
 ---
 name: price-elasticity
-description: "When the user wants to understand or estimate how demand responds to a price change, decide how much they can raise prices, size a discount, or reason about willingness-to-pay data as an economic effect rather than just a survey result. Also use when the user mentions 'price elasticity,' 'elastic demand,' 'inelastic demand,' 'price sensitivity,' 'demand curve,' 'how much can I raise prices,' 'will a price increase hurt sales,' 'how deep should this discount be,' 'cross-price elasticity,' or 'price test.' For willingness-to-pay research methods (Van Westendorp, MaxDiff) and tier structure, see pricing — this skill covers the causal, measured relationship between price and quantity, not stated preference. For sizing a specific markdown or liquidation event, see discount-and-overstock, which uses this skill's method."
+description: "When the user wants to understand or estimate how demand responds to a price change, decide how much they can raise prices, size a discount, or reason about willingness-to-pay data as an economic effect rather than just a survey result. Also use when the user mentions 'price elasticity,' 'elastic demand,' 'inelastic demand,' 'price sensitivity,' 'demand curve,' 'how much can I raise prices,' 'will a price increase hurt sales,' 'how deep should this discount be,' 'cross-price elasticity,' or 'price test.' For willingness-to-pay research methods (Van Westendorp, MaxDiff) and tier structure, see pricing — this skill covers the causal, measured relationship between price and quantity, not stated preference. For sizing a specific markdown, see discount-and-clearance; for an inventory liquidation/disposition decision, see overstock. Both use this skill's method."
 metadata:
   version: 1.0.0
 ---
@@ -115,7 +115,7 @@ The general logic (illustrative, not a formula to blindly apply — always check
 
 **Worked example (illustrative numbers, not a benchmark):** a product at $50 with 60% gross margin ($30 contribution per unit) selling 1,000 units/month. A 10% price cut to $45 needs enough volume increase to grow *total* contribution, not just revenue — at $45 the margin per unit drops to $25, so you'd need roughly a 20%+ volume increase just to hold contribution flat, and more than that to grow it. That volume response is exactly what elasticity tells you — if your measured or estimated elasticity implies less than a ~20% volume lift from a 10% price cut, this specific cut destroys profit even though it might grow revenue.
 
-For discount-specific sizing (markdown depth on aging or overstock inventory, where the goal is often clearing inventory rather than maximizing steady-state profit), see the `discount-and-overstock` skill, which applies this same logic with liquidation urgency as an added factor.
+For discount-specific sizing (markdown depth), see the `discount-and-clearance` skill. For the inventory diagnosis and disposition-channel decision on aging/excess stock, see `overstock` — both apply this same logic with liquidation urgency as an added factor.
 
 ---
 
@@ -144,7 +144,8 @@ For discount-specific sizing (markdown depth on aging or overstock inventory, wh
 ## Related Skills
 
 - **pricing**: For willingness-to-pay research (Van Westendorp, MaxDiff), tier structure, and the pricing page itself
-- **discount-and-overstock**: For applying this skill's method to size a specific markdown or liquidation event
+- **discount-and-clearance**: For applying this skill's method to size a specific markdown
+- **overstock**: For the inventory diagnosis and disposition decision this skill's method feeds into
 - **attribution**: For the geo-holdout/controlled-test methodology this skill reuses for price testing
 - **ab-testing**: For general experiment design and statistical significance when running a price test
 - **marketing-strategy**: For the brand tier field that changes whether the standard elastic-demand assumption applies

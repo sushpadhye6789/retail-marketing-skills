@@ -234,3 +234,5 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 - **revops** — pipeline stages, lead lifecycle, CRM revenue reporting. Attribution feeds it.
 - **ai-seo** — the AI-search attribution blind spot in depth.
 - **ab-testing** — controlled experiments; the incrementality mindset applied to on-site changes.
+- **price-elasticity** — reuses this skill's geo-holdout/controlled-test design, with a price change as the treatment instead of a channel on/off.
+- **supplier-funded-marketing** — reuses the holdout methodology to measure a co-op/MDF program's actual incremental lift, not just raw utilization.

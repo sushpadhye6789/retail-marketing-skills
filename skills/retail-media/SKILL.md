@@ -91,3 +91,4 @@ Retail media's closed-loop nature (the ad and the purchase happen on the same pl
 - **channel-selection** / **budget-allocation**: For fitting retail media into the broader channel mix and budget
 - **range-review** / **competitor-profiling**: For share-of-search/shelf competitive context
 - **ads**: For the open-web/social counterpart this skill is distinct from
+- **programmatic**: For open-ecosystem DSP buying, distinct from a retailer's own closed advertising platform (some retail media networks, like Amazon DSP, offer both)

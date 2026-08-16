@@ -114,3 +114,4 @@ Harder to directly attribute than digital channels — POS influence is largely 
 - **attribution**: For lift-measurement methodology applied to a physical placement
 - **retail-media**: For the digital retail-platform counterpart to physical POS
 - **brand-management**: For governance/consistency enforcement across dealer-executed POS
+- **digital-out-of-home**: For the outside-the-store, place-based counterpart once the shopper hasn't arrived yet

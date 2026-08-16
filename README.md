@@ -80,6 +80,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [copywriting](skills/copywriting/) | When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages,... |
 | [cro](skills/cro/) | When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage,... |
 | [customer-research](skills/customer-research/) | When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer... |
+| [digital-out-of-home](skills/digital-out-of-home/) | When the user wants to plan out-of-home (OOH) or digital out-of-home (DOOH) advertising — billboards, transit ads,... |
 | [directory-submissions](skills/directory-submissions/) | When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for... |
 | [discount-and-clearance](skills/discount-and-clearance/) | When the user wants to plan, structure, or message a discount or clearance event — sizing the depth, cadence, and... |
 | [emails](skills/emails/) | When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email... |
@@ -106,6 +107,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [pricing](skills/pricing/) | When the user wants help with pricing decisions, packaging, monetization strategy, or checking prices against... |
 | [product-feed](skills/product-feed/) | When the user wants to build, audit, or optimize a product data feed for shopping ads or catalog-driven marketing. Also... |
 | [product-lifecycle](skills/product-lifecycle/) | When the user wants marketing guidance for a product moving through its lifecycle — beyond the initial launch. Also use... |
+| [programmatic](skills/programmatic/) | When the user wants to plan or optimize programmatic media buying — automated, auction-based ad buying across display,... |
 | [programmatic-seo](skills/programmatic-seo/) | When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions... |
 | [prospecting](skills/prospecting/) | When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or... |
 | [public-relations](skills/public-relations/) | When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy... |

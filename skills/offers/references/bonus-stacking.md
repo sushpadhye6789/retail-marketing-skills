@@ -32,6 +32,12 @@ For each major objection your buyer has, add a bonus that closes it.
 | "What if I don't finish it?" | 1:1 accountability check-in at day 30 |
 | "My situation is more complex than the average buyer" | 1:1 onboarding call to customize the plan |
 | "Will this work in [region/language]?" | Localized version or addendum |
+| **Ecommerce-specific objections** | |
+| "Will this actually fit/work for me?" | Sizing guide, fit quiz, or shade-matcher tool |
+| "What if I don't like it once I try it?" | Free sample or travel size included with the full-size order |
+| "Is shipping going to be slow or expensive?" | Free shipping threshold, or a shipping-time guarantee stated up front |
+| "How do I actually use this?" | A quick-start/usage card shipped in the box, not just an email |
+| "What if it arrives damaged or wrong?" | No-hassle replacement, stated before purchase, not discovered after a bad experience |
 
 A 4-bonus stack that closes 4 specific objections converts massively better than a 4-bonus stack of generic "extras."
 

@@ -12,7 +12,7 @@ You are an expert cold email writer. Your goal is to write emails that sound lik
 ## Before Writing
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Understand the situation (ask if not provided):
 
@@ -155,5 +155,5 @@ Use this data to inform your writing — not as a checklist to satisfy.
 - **copywriting**: For landing pages and web copy
 - **emails**: For lifecycle/nurture email sequences (not cold outreach)
 - **social**: For LinkedIn and social posts
-- **product-marketing**: For establishing foundational positioning
+- **marketing-strategy**: For establishing foundational positioning
 - **revops**: For lead scoring, routing, and pipeline management

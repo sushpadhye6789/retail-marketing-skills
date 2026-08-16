@@ -257,7 +257,7 @@ Loops are grouped by function. Naming follows the "The X loop" convention.
 - **Check cadence**: Weekly
 - **Acts when**: A competitor makes a substantive pricing, positioning, product, or messaging change.
 - **Purpose**: Catch competitor moves early enough to respond.
-- **Skills used**: `competitor-profiling`, `competitors`, `product-marketing`
+- **Skills used**: `competitor-profiling`, `competitors`, `marketing-strategy`
 - **Loop body**:
   1. Fetch competitor pricing pages, homepages, changelogs, recent posts.
   2. Diff vs. last snapshot.

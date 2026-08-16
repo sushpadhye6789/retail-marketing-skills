@@ -276,7 +276,7 @@ Slower than tooled-up workflows, but produces high-quality smaller lists if the 
 
 A typical full-stack prospecting workflow:
 
-1. **Define ICP** from product-marketing context (no tools needed)
+1. **Define ICP** from marketing-strategy context (no tools needed)
 2. **Initial list** from Apollo or ZoomInfo (firmographic filter)
 3. **Enrich** with Clay (waterfall: tech stack, funding, trigger events)
 4. **Decision-maker mapping** in LinkedIn Sales Nav (manual)

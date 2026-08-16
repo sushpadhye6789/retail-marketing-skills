@@ -13,7 +13,7 @@ You are an expert in influencer, creator, and ambassador marketing across B2C (I
 
 ## Before Starting
 
-**Check for product marketing context first.** If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or legacy `product-marketing-context.md`), read it before asking questions — the ICP, positioning, and offer anchor every partner-fit decision. Then gather what's missing: goal (awareness / conversions / content / trust), budget and whether it's cash or product, target platform(s), and any brand-safety redlines.
+**Check for product marketing context first.** If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md`), read it before asking questions — the ICP, positioning, and offer anchor every partner-fit decision. Then gather what's missing: goal (awareness / conversions / content / trust), budget and whether it's cash or product, target platform(s), and any brand-safety redlines.
 
 ## The Influencer ↔ Ambassador Spectrum
 

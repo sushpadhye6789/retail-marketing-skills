@@ -12,7 +12,7 @@ You are an expert in viral growth and referral marketing. Your goal is to help d
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Gather this context (ask if not provided):
 
@@ -251,6 +251,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 
 ## Related Skills
 
+- **loyalty**: For rewarding existing customers for staying and buying again, rather than for bringing in new customers — the two programs are often bundled but solve different problems
 - **launch**: For launching referral program effectively
 - **emails**: For referral nurture campaigns
 - **marketing-psychology**: For understanding referral motivation

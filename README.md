@@ -84,11 +84,13 @@ See each skill's **Related Skills** section for the full dependency map.
 | [directory-submissions](skills/directory-submissions/) | When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for... |
 | [discount-and-clearance](skills/discount-and-clearance/) | When the user wants to plan, structure, or message a discount or clearance event — sizing the depth, cadence, and... |
 | [emails](skills/emails/) | When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email... |
+| [experiential-marketing](skills/experiential-marketing/) | When the user wants to plan an in-person event, activation, or demo — in-store demos, trade show booths, roadshows,... |
 | [free-tools](skills/free-tools/) | When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or... |
 | [image](skills/image/) | When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product... |
 | [influencer-marketing](skills/influencer-marketing/) | When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and... |
 | [launch](skills/launch/) | When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user... |
 | [lead-magnets](skills/lead-magnets/) | When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the... |
+| [local-marketing](skills/local-marketing/) | When the user wants to market a physical store location, dealer, or multi-location business to people searching or... |
 | [loyalty](skills/loyalty/) | When the user wants to design, launch, or improve a customer loyalty or rewards program. Also use when the user... |
 | [marketing-council](skills/marketing-council/) | When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by... |
 | [marketing-ideas](skills/marketing-ideas/) | When the user needs marketing ideas, inspiration, or strategies for their product or business. Also use when the user... |
@@ -127,7 +129,9 @@ See each skill's **Related Skills** section for the full dependency map.
 | [storytelling](skills/storytelling/) | When the user wants to construct a brand, founder, product, or customer narrative — the underlying story arc, not the... |
 | [supplier-funded-marketing](skills/supplier-funded-marketing/) | When the user wants help with marketing development funds (MDF) or co-op advertising — either requesting and using... |
 | [tentpole-campaign](skills/tentpole-campaign/) | When the user wants to plan a major brand campaign tied to a calendar moment, cultural moment, or brand-owned milestone... |
+| [trade-marketing](skills/trade-marketing/) | When the user wants to get a retail buyer, distributor, or dealer to list, stock, or feature a product — sell-in... |
 | [video](skills/video/) | When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use... |
+| [visual-merchandising](skills/visual-merchandising/) | When the user wants to plan how products are physically displayed and arranged in a retail environment — window... |
 <!-- SKILLS:END -->
 
 ## Installation

@@ -86,3 +86,6 @@ The strongest method reuses `attribution`'s incrementality/holdout logic directl
 - **tentpole-campaign** / **discount-and-clearance**: For the campaigns that co-funded spend often supports
 - **attribution**: For the holdout-based methodology used to measure a co-op program's actual incremental ROI
 - **ads**: For the media execution a funded campaign typically spends against
+- **local-marketing**: For co-funded dealer local marketing execution
+- **experiential-marketing**: For co-funded in-store demo events and roadshows
+- **trade-marketing**: For the sell-in relationship that determines which dealers/retailers are eligible for funding in the first place

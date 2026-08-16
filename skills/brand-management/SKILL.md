@@ -123,3 +123,4 @@ The immediate response to a negative story, a safety issue, or a viral complaint
 - **range-review** / **product-lifecycle**: For the range decisions a brand extension evaluation feeds into
 - **supplier-funded-marketing**: For the dealer-side compliance enforcement this skill's governance work extends
 - **public-relations**: For the immediate Crisis & Reactive PR response this skill's reputational-recovery work picks up after, and the recall/safety-driven scenario most likely to trigger one
+- **visual-merchandising** / **local-marketing**: For governance/consistency enforcement across dealer-executed physical and local marketing

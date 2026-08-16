@@ -92,3 +92,5 @@ Retail media's closed-loop nature (the ad and the purchase happen on the same pl
 - **range-review** / **competitor-profiling**: For share-of-search/shelf competitive context
 - **ads**: For the open-web/social counterpart this skill is distinct from
 - **programmatic**: For open-ecosystem DSP buying, distinct from a retailer's own closed advertising platform (some retail media networks, like Amazon DSP, offer both)
+- **trade-marketing**: For earning the listing itself, the prerequisite this skill's advertising assumes has already happened
+- **local-marketing**: For the general/map-search counterpart to advertising inside a specific retailer's platform

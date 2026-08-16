@@ -115,3 +115,6 @@ Harder to directly attribute than digital channels — POS influence is largely 
 - **retail-media**: For the digital retail-platform counterpart to physical POS
 - **brand-management**: For governance/consistency enforcement across dealer-executed POS
 - **digital-out-of-home**: For the outside-the-store, place-based counterpart once the shopper hasn't arrived yet
+- **visual-merchandising**: For the store layout and product-placement strategy this skill's signage and materials live within
+- **local-marketing**: For driving the visit that leads to a shopper encountering these materials in the first place
+- **experiential-marketing**: For in-store demo events, which often need coordinated physical setup alongside POS materials

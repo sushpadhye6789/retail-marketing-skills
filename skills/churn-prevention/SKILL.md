@@ -339,6 +339,8 @@ For the complete dunning playbook with provider-specific setup, see [references/
 | Dunning recovery rate | Recovered / Total failed payments | 50-60% |
 | Time to cancel | Days from first churn signal to cancel | Track trend |
 
+**A "saved" customer isn't necessarily a retained one.** Some customers who accept a save offer were going to stay anyway (the offer just added margin cost with no behavior change); others accept it and cancel a few months later regardless (the offer delayed, not prevented, the churn). Track save-offer acceptances forward to actual retention at 90/180 days, not just the immediate save-rate metric — see `attribution/references/incrementality-checkpoint.md` for how to check this proportionately (a cohort comparison for most programs, a real holdout once save offers are a meaningful recurring cost).
+
 ### Cohort Analysis
 
 Segment churn by:

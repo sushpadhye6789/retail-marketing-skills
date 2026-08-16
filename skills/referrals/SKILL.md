@@ -153,6 +153,8 @@ Trigger Moment → Share Action → Convert Referred → Reward → (Loop)
 - LTV of referred customers
 - Referral program ROI
 
+**Before scaling reward spend on the strength of these numbers, check the incrementality trap**: some referred customers would have found and bought the product anyway, through another channel, and the referral program is just claiming credit for (and paying a reward on) demand it didn't create. See `attribution/references/incrementality-checkpoint.md` — a holdout audience (a random % of eligible customers who don't get prompted to refer, compared against those who do) is the proportionate check once the program is a real budget line, not just a one-time gut-check.
+
 ### Typical Findings
 
 - Referred customers have 16-25% higher LTV

@@ -128,6 +128,8 @@ Influencer marketing suffers from attribution gaps — fix them upfront, before 
 
 Judge the program on **cost per qualified outcome and repeat/retained value**, not reach, likes, or "EMV" (earned media value is a vanity number). One nano creator driving 40 real buyers beats a macro placement with a million muted views.
 
+**Even a clean attribution setup can overstate impact.** A code or link correctly credits the sale to the creator, but doesn't prove the creator *caused* it — some of those buyers would have found the product anyway through branded search or direct traffic, and the creator is partly just intercepting demand that already existed. This matters most before renewing or scaling a partnership on the strength of its reported numbers. See `attribution/references/incrementality-checkpoint.md` — a gut-check is enough for a one-off placement; a brand-lift or holdout-geo read is worth it once a creator relationship becomes a recurring, budget-anchoring commitment.
+
 ## Ambassador Program Design
 
 When you want *sustained* presence rather than one-off posts, design a program (this is the structured, paid/perks version of community-marketing's advocate program):

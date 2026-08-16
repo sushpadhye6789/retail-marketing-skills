@@ -147,7 +147,7 @@ Whatever the catalog, keep at least one reward reachable quickly after joining �
 - Purchase frequency: members vs. non-members
 - Program cost as % of the incremental revenue it drives (not just as % of total revenue — isolate the program's actual lift)
 
-Don't assume a member-vs-non-member gap is *caused* by the program — your most engaged customers were likely to join and to buy more anyway. Where possible, compare against a holdout group that's eligible but wasn't enrolled, or track cohorts before/after joining, rather than just eligible-vs-not at a point in time.
+Don't assume a member-vs-non-member gap is *caused* by the program — your most engaged customers were likely to join and to buy more anyway. Where possible, compare against a holdout group that's eligible but wasn't enrolled, or track cohorts before/after joining, rather than just eligible-vs-not at a point in time. See `attribution/references/incrementality-checkpoint.md` for how to scale this check to the stakes — a gut-check for a new, small program; a real holdout once it's a standing budget line.
 
 ---
 

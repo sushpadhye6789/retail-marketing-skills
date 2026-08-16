@@ -90,6 +90,17 @@ If a tentpole request comes in with too little lead time for real production, sa
 
 ---
 
+## When the Moment Turns
+
+A tentpole is planned months out, which means the world can change between the creative brief and the launch date — a tragedy, an unrelated crisis, or a shift in the cultural mood can make previously-fine creative or timing land badly:
+
+- **Have a go/no-go checkpoint close to launch**, not just at the creative-brief stage — a final read of whether the concept, tone, or timing still fits the moment, especially for anything tied to a real-world event (a holiday near an unfolding crisis, a "celebration" tone during a period of hardship for the target market).
+- **Know the difference between pausing and pulling.** A short pause (holding a scheduled post or paid flight for a few days) is low-cost and reversible; fully pulling a tentpole after months of production investment is a real cost — reserve it for when the concept or tone is genuinely incompatible with the moment, not for milder discomfort that a short pause resolves.
+- **If paid media is already live when the decision is made**, pausing it is usually straightforward; owned content (site, email) and any dealer/partner-distributed assets (see `marketing-strategy/references/distribution-model-guide.md`) take longer to unwind — build in the operational lead time to actually execute a pull, not just the decision to do it.
+- **If the disruption becomes a live PR situation** rather than just a timing judgment call, this becomes a `public-relations` Crisis & Reactive PR matter running alongside the pause/pull decision, coordinated through one spokesperson.
+
+---
+
 ## Common Mistakes
 
 - **Treating a tentpole as just a bigger promo** — loses the brand-building value the extra investment was meant to buy; if the plan is really "big discount, more media spend," that's a scaled-up promo campaign, not a tentpole — call it that and route to `discount-and-clearance`.

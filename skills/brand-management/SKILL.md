@@ -82,6 +82,17 @@ Is the brand's actual market perception still matching the *intended* positionin
 
 ---
 
+## Reputational Crisis Recovery
+
+The immediate response to a negative story, a safety issue, or a viral complaint is `public-relations`' Crisis & Reactive PR (external statements, spokesperson discipline, timing) — this skill owns what happens after the news cycle passes: whether trust actually recovers, or the brand's health metrics stay depressed.
+
+- **Track brand health specifically through and after the incident** — see Brand Health Tracking above; a crisis that shows up as a temporary sentiment dip that recovers is a different situation than one that resets the baseline permanently, and only tracking tells you which happened.
+- **A real fix communicated beats a statement that just ends the news cycle** — if the underlying issue was real, brand recovery depends on visible follow-through (a policy change, a product fix, a compliance improvement — see `product-lifecycle`'s recall guidance if the issue was product-related), not just the initial response fading from attention.
+- **Don't rush back to normal-volume brand messaging** — resuming a cheerful campaign cadence too soon after a real incident reads as tone-deaf; let the brand-health signal, not a fixed calendar, guide when normal marketing volume resumes.
+- **Reassess whether the intended positioning still holds** — see Competitive Brand Positioning Monitoring above; a significant incident can shift how the brand is actually perceived relative to competitors, independent of whether the underlying facts get resolved.
+
+---
+
 ## Common Mistakes
 
 - **Treating `marketing-strategy`/`brand-guidelines` as written-once documents** never checked against how the brand is actually landing or being executed.
@@ -111,3 +122,4 @@ Is the brand's actual market perception still matching the *intended* positionin
 - **competitor-profiling**: For competitive positioning research
 - **range-review** / **product-lifecycle**: For the range decisions a brand extension evaluation feeds into
 - **supplier-funded-marketing**: For the dealer-side compliance enforcement this skill's governance work extends
+- **public-relations**: For the immediate Crisis & Reactive PR response this skill's reputational-recovery work picks up after, and the recall/safety-driven scenario most likely to trigger one

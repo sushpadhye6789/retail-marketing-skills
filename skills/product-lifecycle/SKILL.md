@@ -58,6 +58,18 @@ Winding a product down without a successor.
 
 ---
 
+## Emergency Phase-Out (Recall / Safety Issue)
+
+A recall or safety-driven withdrawal is not a slow-wind-down phase-out — it inverts almost every guideline above, and marketing is not the lead function here:
+
+- **Speed replaces the gradual wind-down.** Where a normal phase-out tapers spend and messaging over weeks, a safety issue needs marketing, site, and paid campaigns pulled or updated immediately — a live ad still promoting a recalled product is an active liability, not a lagging cleanup task.
+- **Legal and compliance lead, marketing follows.** The recall notice language, scope, and required disclosures are a legal/regulatory matter (and, depending on the category and market, may be legally mandated in specific form) — see `compliance` and consult qualified counsel; this skill doesn't draft recall notices. Marketing's job is distribution and clarity of the approved message, not authoring it.
+- **If the story reaches media or social before an official notice goes out**, that's a `public-relations` Crisis & Reactive PR situation running in parallel, not a separate track — the two need to be coordinated through one spokesperson and one set of approved facts.
+- **Customer notification is not optional messaging, it's the core deliverable** — direct, unambiguous outreach (email/SMS at minimum, not just a site banner) to every identifiable affected customer, with clear instructions (stop use, return, replace, refund) and no promotional framing mixed in.
+- **Don't quietly fold a safety-driven withdrawal into routine `overstock`/clearance messaging** — disposing of recalled stock through a discount or clearance channel is a compliance risk, not a sell-through opportunity; confirm disposition requirements with `compliance`/legal before any inventory movement.
+
+---
+
 ## Product Replacement (Phase-Out + Successor)
 
 The trickiest case — two products' marketing needs to be managed against each other during the transition.
@@ -104,3 +116,5 @@ The trickiest case — two products' marketing needs to be managed against each 
 - **churn-prevention**: For the retention-communication discipline a subscription product's transition borrows from
 - **pricing** / **price-elasticity**: For the pricing relationship between an outgoing and replacement product
 - **marketing-strategy**: For the strategic priority a phase-out or major transition should trace back to
+- **compliance**: For the regulatory/legal lead role on a recall or safety-driven emergency phase-out
+- **public-relations**: For the Crisis & Reactive PR response running alongside a recall if it reaches media or social before an official notice

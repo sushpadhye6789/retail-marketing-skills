@@ -69,6 +69,13 @@ For each SKU or category under review, assess across these dimensions before dec
 - **Good-Better-Best structure within a category** — see `pricing`'s Good-Better-Best framework; a range review is a natural point to check whether this structure is actually intact (clear differentiation between tiers) or has drifted (tiers too close in price/value to give the customer a real choice).
 - **Dealer range requirements** — if a dealer agreement requires carrying a minimum set, factor that into what's actually cuttable versus what has to stay regardless of its own performance, and flag the tension explicitly if a contractually-required SKU is a genuine underperformer with no strategic role.
 
+### When the Catalog Is Too Small for a Cross-SKU Review
+
+A single-product business, or a catalog of only a handful of SKUs, doesn't have enough range to make the comparative dimensions above (relative sales performance, range role, breadth-vs-depth architecture) meaningful — there's nothing to compare against, and "cut the weakest performer" isn't a coherent question with one or two products. In that case:
+- Redirect the same underlying questions inward, to variant/configuration level (sizes, colors, bundles) rather than SKU-to-SKU, if any variation exists at all.
+- Treat "should we add a second product" as the actual range question — this is really a `launch`/`marketing-strategy` Section 12 strategic-priority decision, not a range-review exercise, since there's no existing range to rationalize against.
+- Don't force a periodic range-review cadence (see Cadence & Governance) onto a business too small to have meaningfully changing data between reviews — a narrow catalog needs this exercise far less often.
+
 ---
 
 ## Cadence & Governance

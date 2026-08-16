@@ -115,6 +115,21 @@ What not to obsess over: AVE (advertising value equivalency) — it's a vanity m
 
 ---
 
+## Crisis & Reactive PR
+
+Everything above assumes proactive, planned outreach. A negative story, a journalist inquiry about a problem, or a viral complaint needs a different mode — reactive, fast, and governed by different rules than a pitch:
+
+- **Triage before responding**: is this a real story with legs (a journalist is actively working it, or it's already spreading), or a single complaint that risks becoming one? Don't activate a full crisis response for something that would resolve itself with a normal customer-service reply — see `customer-research`/support channels for the latter.
+- **Get the facts internally before saying anything externally** — a hasty statement that has to be walked back later does more damage than a short delay to confirm what actually happened.
+- **A holding statement beats silence**: "We're aware of this and looking into it, we'll share more shortly" buys time to get facts straight without leaving a journalist's inquiry unanswered, which itself becomes part of the story.
+- **One spokesperson, one message** — conflicting statements from different people (or different channels) is one of the fastest ways a manageable story becomes a bigger one. Route every external response through a single person or approved statement.
+- **Know when not to respond**: engaging with a low-reach complaint or bad-faith attack can amplify it far beyond its natural reach. Responding is not free — weigh the story's actual trajectory against the risk of giving it more oxygen.
+- **After the immediate response**: a real issue needs a real fix communicated, not just a statement that ends the news cycle — see `compliance` if the issue touches a regulatory or legal obligation, and `brand-management` for rebuilding trust once the immediate story has passed.
+
+This repo doesn't script specific crisis statements — the right words depend entirely on what actually happened and (for anything with legal exposure) should be reviewed by counsel before going out, not generated from a template.
+
+---
+
 ## Common Workflows
 
 ### "Help me newsjack [trending story]"
@@ -131,3 +146,16 @@ Go to [press-platforms.md](references/press-platforms.md), use the response temp
 
 ### "Build my press page"
 Use the checklist above. Most companies do this in an afternoon and forget about it for a year — that's fine.
+
+---
+
+## Related Skills
+
+- **brand-management**: For reputational recovery and brand-health tracking after the immediate crisis response
+- **compliance**: For anything a crisis touches with regulatory or legal exposure
+- **product-lifecycle**: For the recall/safety-driven emergency phase-out scenario that often runs alongside a crisis response
+- **tentpole-campaign**: For the go/no-go decision on a planned campaign when a real-world event disrupts its timing or tone
+- **customer-research**: For distinguishing a single resolvable complaint from a real reputational story
+- **attribution**: For applying incrementality discipline before crediting a sales swing to a PR placement
+- **content-strategy**: For AI-citation and earned-mention overlap with organic content strategy
+- **launch**: For press strategy tied to a specific go-to-market moment

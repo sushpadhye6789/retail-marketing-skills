@@ -40,7 +40,7 @@ The single highest-leverage local marketing asset, for one location or a thousan
 
 - **Claim and verify every location** — an unclaimed or unverified profile is either invisible or, worse, editable by anyone, including competitors' incorrect edits.
 - **NAP consistency (Name, Address, Phone)** — the same exact formatting everywhere the business is listed (the profile itself, the website, local directories, citations). Inconsistent NAP is one of the most common reasons a location under-ranks in local search, even with otherwise strong signals.
-- **Categories, attributes, hours, and photos** — fill out completely and keep current; an out-of-date "closed" status or wrong hours actively drives away the exact high-intent visitor this channel is built to capture.
+- **Categories, attributes, hours, and photos** — fill out completely and keep current; an out-of-date "closed" status or wrong hours actively drives away the exact high-intent visitor this channel is built to capture. If the location offers pickup, curbside, or delivery, set those attributes explicitly — a shopper searching with pickup intent filters on exactly this, and an unset attribute makes an eligible location invisible to that search. See `pos-marketing`'s Omnichannel Fulfillment Signage section for the in-store execution once the shopper arrives to collect.
 - **Posts and updates** — treat the profile as a live channel, not a set-and-forget listing; regular posts (offers, events, new arrivals) keep the profile active, which platforms reward with visibility.
 - **Q&A and messaging** — monitor and respond; an unanswered question sitting on a public profile is a visible signal of neglect to every future searcher who sees it.
 
@@ -79,6 +79,7 @@ Review volume, recency, and rating are a direct local-search ranking factor, not
 - **Corporate template + local flexibility** — provide a consistent baseline (brand voice, required NAP format, approved photo/content standards) while giving each location room for genuinely local content (local events, local team, local relevance) — a rigid one-size-fits-all local presence performs worse than one with real local texture.
 - **Prioritize by opportunity, not evenly** — a large multi-location footprint rarely has the resource to hand-optimize every location's local SEO/GBP equally; triage by revenue potential, current visibility gap, and competitive local density.
 - **Dealer-executed local marketing** needs the same brand-compliance discipline `supplier-funded-marketing` and `brand-management` apply elsewhere — provide the template and guardrails, audit periodically, don't assume every dealer executes correctly unsupervised.
+- **Franchise locations warrant tighter enforcement than a typical dealer** — see `marketing-strategy/references/distribution-model-guide.md`'s franchise note; because a franchisee's entire business is the brand, local flexibility should generally be narrower (less "local texture" latitude, stricter template adherence) than for a dealer carrying multiple brands.
 
 ---
 

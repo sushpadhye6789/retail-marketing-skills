@@ -45,6 +45,18 @@ Gather this context (ask if not provided):
 
 ---
 
+## Omnichannel Fulfillment Signage (BOPIS / Curbside / Ship-from-Store)
+
+Buy-online-pickup-in-store, curbside pickup, and ship-from-store are fulfillment options, but the physical execution of collecting an order is a genuine point-of-sale marketing moment — it's often a shopper's only in-person contact with the brand for that transaction, and a well- or poorly-handled pickup shapes repeat-purchase intent as much as any other in-store experience:
+
+- **Wayfinding to the pickup point** — a clearly signed, easy-to-find pickup counter or curbside zone matters more here than almost any other POS placement, since this shopper has already committed to buy and just needs a fast, low-friction handoff; a confusing pickup experience actively undoes the convenience the fulfillment option promised.
+- **Use the pickup moment as a merchandising opportunity, not just a handoff** — a well-placed impulse display near (not blocking) the pickup counter reaches a shopper who's already in the store with a completed purchase in hand and a few free minutes; see `visual-merchandising` for placement logic.
+- **Curbside needs its own signage system** — clear exterior signage (designated parking/zones, a phone number or app-based check-in instruction, order-ready indicators) since this shopper may never enter the store at all.
+- **Making the option known is a `local-marketing` job, not this skill's** — whether a location offers pickup/curbside, and communicating that to a searching shopper, lives in the Google Business Profile and site-side messaging; this skill picks up once the shopper has already chosen to use the option and is physically retrieving the order.
+- **Ship-from-store** is largely invisible to POS marketing (it's a fulfillment/logistics decision, not a shopper-facing moment) except where it affects in-store inventory availability signage — don't let a shelf that looks "in stock" mislead a shopper when available units are actually earmarked for ship-from-store fulfillment.
+
+---
+
 ## Tier Considerations
 
 See `marketing-strategy/references/brand-tier-guide.md` for the general pattern this extends — POS specifically:

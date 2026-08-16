@@ -12,6 +12,8 @@ How to classify a brand's distribution model, and how that classification should
 
 **A business can run more than one model** — e.g., a DTC ecom store that also sells through a dealer network for certain product lines or regions. Capture the split explicitly in marketing-strategy Section 15 rather than forcing one label.
 
+**A note on franchises**: a franchised location belongs in the Dealers row (per the table above — the franchisee, not the brand, controls the point of sale), but franchise agreements typically add two wrinkles a generic dealer relationship doesn't have: a **mandatory contribution to a national ad fund** (a fixed percentage of franchisee revenue, not an opt-in co-op arrangement — see `supplier-funded-marketing`'s Providing Funds section for how this compares to a standard MDF structure), and **materially stricter brand-standard enforcement**, since a franchisee's entire business identity is the franchised brand rather than one brand among several a dealer carries. Treat the Dealers guidance throughout this file as the baseline, with enforcement and fund-structure expectations tightened accordingly.
+
 ---
 
 ## What changes by model

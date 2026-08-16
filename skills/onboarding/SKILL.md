@@ -187,6 +187,7 @@ For each issue: Finding → Impact → Recommendation → Priority
 | Marketplace | Complete profile → Browse → First transaction → Repeat loop |
 | Mobile App | Permissions → Quick win → Push setup → Habit loop |
 | Content Platform | Follow/customize → Consume → Create → Engage |
+| Ecommerce / DTC | Order confirmation → Shipping/tracking setup → First-use or unboxing content → Loyalty/account opt-in → Repeat-purchase nudge |
 
 ---
 

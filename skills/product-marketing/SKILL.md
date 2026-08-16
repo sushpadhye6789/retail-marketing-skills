@@ -62,8 +62,8 @@ Push for verbatim customer language — exact phrases are more valuable than pol
 - Business model and pricing
 
 ### 2. Target Audience
-- Target company type (industry, size, stage)
-- Target decision-makers (roles, departments)
+- For B2B: target company type (industry, size, stage), target decision-makers (roles, departments)
+- For B2C/ecommerce: target customer demographics and psychographics (life stage, values, purchase occasion), who typically makes the purchase decision (self, gift-giver, household)
 - Primary use case (the main problem you solve)
 - Jobs to be done (2-3 things customers "hire" you for)
 - Specific use cases or scenarios

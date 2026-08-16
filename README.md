@@ -66,6 +66,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [brand-guidelines](skills/brand-guidelines/) | When the user wants to create, update, or apply visual brand identity guidelines — logo usage, color palette,... |
 | [brand-management](skills/brand-management/) | When the user wants to track brand health, decide on brand architecture (house of brands vs. branded house vs.... |
 | [budget-allocation](skills/budget-allocation/) | When the user wants to size a total marketing budget or decide how to split it across channels/campaigns, including... |
+| [budget-pacing-tracker](skills/budget-pacing-tracker/) | When the user wants to track whether actual spend is on pace against a planned budget within a period, catch... |
 | [channel-selection](skills/channel-selection/) | When the user wants to decide which marketing channels to be in — not how much to spend on each (see budget-allocation)... |
 | [churn-prevention](skills/churn-prevention/) | When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or... |
 | [co-marketing](skills/co-marketing/) | When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use... |
@@ -94,6 +95,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [marketing-plan](skills/marketing-plan/) | When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use... |
 | [marketing-psychology](skills/marketing-psychology/) | When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when... |
 | [marketing-strategy](skills/marketing-strategy/) | When the user wants to create or update their foundational marketing strategy and positioning context, or needs help... |
+| [moat-builder](skills/moat-builder/) | When the user wants to identify a durable competitive advantage (a moat) and direct marketing investment to build or... |
 | [offers](skills/offers/) | When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing,... |
 | [onboarding](skills/onboarding/) | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also... |
 | [overstock](skills/overstock/) | When the user has excess, aging, dead, or discontinued inventory and needs to diagnose why, and decide how to dispose... |
@@ -345,8 +347,10 @@ You can also invoke skills directly:
 ### Strategy & Monetization
 - `marketing-strategy` - Foundational positioning, audience, brand tier, distribution model, and strategic-priority context
 - `repositioning` - Cascading a material positioning change through everything built on the old one
+- `moat-builder` - Identifying and widening durable competitive advantages, not just messaging around them
 - `channel-selection` - Deciding which marketing channels belong in the mix
 - `budget-allocation` - Sizing and allocating marketing budget across channels, and reallocating on performance
+- `budget-pacing-tracker` - Tracking actual spend against planned pace within a budget period
 - `brand-guidelines` - Visual identity: logo, color, typography, imagery style
 - `brand-management` - Brand health tracking, architecture, extension decisions, and governance
 - `range-review` - Periodic product range/assortment review — keep, grow, fix, cut, add

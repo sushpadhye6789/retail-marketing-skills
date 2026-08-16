@@ -317,6 +317,7 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
 ## Related Skills
 
 - **repositioning**: For the prioritized cascade audit of everything downstream that needs updating after a material change to Sections 5, 6, or 14 — run this after saving a real positioning change, not just when it happens to come up
+- **moat-builder**: For testing whether Section 6's differentiators are actually durable, structural advantages worth prioritizing in Section 12, not just positioning material
 - **marketing-plan**: For the dated, channel-by-channel 90-day/12-month execution plan built from this document's positioning and priorities
 - **customer-research**: For the raw customer interviews and language-mining that feeds Sections 4 and 9
 - **pricing** / **offers**: For monetization decisions that should trace back to Section 13's priorities

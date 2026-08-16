@@ -353,3 +353,4 @@ Even small changelog updates remind customers your product is evolving. This bui
 - **marketing-psychology**: For psychology behind waitlists and exclusivity
 - **programmatic-seo**: For comparison pages mentioned in post-launch
 - **sales-enablement**: For launch sales collateral and enablement materials
+- **media-plan**: For sizing the reach/frequency goal and sequencing paid media across channels for a launch big enough to need coordinated media weight

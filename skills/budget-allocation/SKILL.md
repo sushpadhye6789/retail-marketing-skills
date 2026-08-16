@@ -113,3 +113,4 @@ Budget allocation isn't a once-a-year decision — build in a recurring review:
 - **supplier-funded-marketing**: For co-funded budget that changes the net total needed
 - **range-review** / **overstock**: For inventory-driven budget sizing
 - **marketing-strategy**: For the strategic priority, binding constraint, and brand-tier context driving allocation
+- **media-plan**: For sequencing a campaign-level budget across channels and time to hit a reach/frequency goal, once this skill's channel split is set

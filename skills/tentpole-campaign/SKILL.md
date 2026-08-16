@@ -76,6 +76,7 @@ If a tentpole request comes in with too little lead time for real production, sa
 - **Hero creative + cutdowns**: one core concept/asset, adapted (not just resized) for each channel's native format — see `ad-creative` and `image` for execution, `brand-guidelines` for visual consistency across all of them
 - **Paid + organic + PR + email/SMS alignment**: the same message and creative concept should be recognizable across `ads`, `social`, `public-relations`, `emails`, and `sms` during the window — a tentpole where each channel is telling a different story dilutes the brand impact it's meant to build
 - **Timing**: decide whether the campaign has a teaser/build phase before the main date or launches as a single moment, and make sure every channel's timeline matches that decision
+- **Reach, frequency, and flighting**: for the actual mechanics of sizing the reach/frequency goal, weighting channels by role, and sequencing spend across the flight, see `media-plan` — this section covers message and timing alignment, that skill covers the media math underneath it
 
 ---
 
@@ -121,4 +122,5 @@ If a tentpole request comes in with too little lead time for real production, sa
 - **ad-creative** / **image** / **brand-guidelines**: For cross-channel creative production and consistency
 - **social** / **public-relations** / **emails** / **sms**: For channel-specific execution
 - **programmatic** / **digital-out-of-home**: For CTV, video, and premium place-based media bought as part of the campaign's reach plan
+- **media-plan**: For the reach/frequency goal, flighting pattern, and channel weighting/sequencing that turns the channel list into an actual media buy
 - **supplier-funded-marketing**: For co-funded media or dealer-coordination funding, if applicable

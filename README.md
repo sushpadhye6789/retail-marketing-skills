@@ -96,6 +96,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [marketing-plan](skills/marketing-plan/) | When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use... |
 | [marketing-psychology](skills/marketing-psychology/) | When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when... |
 | [marketing-strategy](skills/marketing-strategy/) | When the user wants to create or update their foundational marketing strategy and positioning context, or needs help... |
+| [media-plan](skills/media-plan/) | When the user wants to build a media plan — sequencing and weighting paid media across channels, over time, to hit a... |
 | [moat-builder](skills/moat-builder/) | When the user wants to identify a durable competitive advantage (a moat) and direct marketing investment to build or... |
 | [offers](skills/offers/) | When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing,... |
 | [onboarding](skills/onboarding/) | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also... |

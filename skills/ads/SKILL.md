@@ -46,11 +46,13 @@ This skill's depth lives in references — load by intent. For **any operational
 
 | User intent | Load | Covers |
 |---|---|---|
+| Meta operations for ecommerce/DTC: when to kill/graduate/scale an ad, fatigue, testing structure | [meta-decision-system-ecommerce.md](references/meta-decision-system-ecommerce.md) | Breakeven-CPA-anchored decision tree, ad-count ceiling, 80/20 CBO structure, fatigue detection, Advantage+ transition |
+| Google Search for ecommerce/DTC: what to spend on first, Shopping/PMax, structure, match types, negatives | [google-search-playbook-ecommerce.md](references/google-search-playbook-ecommerce.md) | Intent ladder with Shopping as day-one infra, account structure, product feed & revenue data, PMax guardrails |
+| Meta operations for a B2B/lead-gen account (demo or CRM-based funnel) | [meta-decision-system.md](references/meta-decision-system.md) | TCPL-anchored decision tree, ad-count ceiling, 80/20 CBO structure, fatigue bands, lead forms, Advantage+ transition |
+| Google Search for a B2B/lead-gen account | [google-search-playbook.md](references/google-search-playbook.md) | Intent ladder, account structure, match-type gates, negatives, bidding by volume, offline/CRM conversion import, PMax-earned-not-default guardrails |
 | B2B strategy, funnel stages, budget splits, kill rules, lead quality, breakeven math | [b2b-paid-playbook.md](references/b2b-paid-playbook.md) | Demand lifecycle, leading/lagging signals, kill rules, offline conversion loop, U/B/F lead scoring, scaling quadrant |
-| Meta operations: when to kill/graduate/scale an ad, fatigue, testing structure | [meta-decision-system.md](references/meta-decision-system.md) | TCPL-anchored decision tree, ad-count ceiling, 80/20 CBO structure, fatigue bands, lead forms, Advantage+ transition |
-| LinkedIn operations: bidding, audience sizing, scaling, benchmarks, TLAs, formats | [linkedin-b2b-playbook.md](references/linkedin-b2b-playbook.md) | Bidding progression, penetration scaling, sizing rules, funnel benchmarks, document/conversation ads, audit shortlist |
-| Google Search: what to spend on first, structure, match types, negatives, PMax | [google-search-playbook.md](references/google-search-playbook.md) | Intent ladder, account structure, match-type gates, negatives, bidding by volume, offline conversions, PMax guardrails |
-| Named-account targeting, pipeline acceleration, cross-channel retargeting | [abm-playbook.md](references/abm-playbook.md) | LinkedIn/Meta ABM, list mechanics, acceleration campaigns, UTM cross-channel remarketing, ABM measurement |
+| LinkedIn operations (B2B): bidding, audience sizing, scaling, benchmarks, TLAs, formats | [linkedin-b2b-playbook.md](references/linkedin-b2b-playbook.md) | Bidding progression, penetration scaling, sizing rules, funnel benchmarks, document/conversation ads, audit shortlist |
+| Named-account targeting, pipeline acceleration, cross-channel retargeting (B2B) | [abm-playbook.md](references/abm-playbook.md) | LinkedIn/Meta ABM, list mechanics, acceleration campaigns, UTM cross-channel remarketing, ABM measurement |
 | Generating Google RSAs | [rsa-output-spec.md](references/rsa-output-spec.md) | Mandatory output spec — limits, sidecars, template, self-check |
 | Audience setup, tracking setup, launch checklists, copy formulas | [audience-targeting.md](references/audience-targeting.md) · [conversion-tracking.md](references/conversion-tracking.md) · [platform-setup-checklists.md](references/platform-setup-checklists.md) · [ad-copy-templates.md](references/ad-copy-templates.md) | Existing foundations |
 
@@ -248,7 +250,7 @@ Meta launched the **Andromeda** algorithm in 2025, which fundamentally changed M
 
 ## Campaign Optimization
 
-For hard kill/keep/scale thresholds, use the platform playbooks (see Reference Routing): the kill rules and breakeven CPL/CPC math live in [b2b-paid-playbook.md](references/b2b-paid-playbook.md), and Meta's full decision tree lives in [meta-decision-system.md](references/meta-decision-system.md).
+For hard kill/keep/scale thresholds, use the platform playbooks (see Reference Routing): for an ecommerce/DTC account, the breakeven-CPA math and Meta's full decision tree live in [meta-decision-system-ecommerce.md](references/meta-decision-system-ecommerce.md); for a B2B/lead-gen account, the kill rules and breakeven CPL/CPC math live in [b2b-paid-playbook.md](references/b2b-paid-playbook.md), and Meta's full decision tree lives in [meta-decision-system.md](references/meta-decision-system.md).
 
 ### Key Metrics by Objective
 

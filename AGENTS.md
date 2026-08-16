@@ -244,12 +244,12 @@ These patterns are **Claude Code only** and must not be added to `SKILL.md` file
 
 Claude Code supports embedding shell commands in SKILL.md using `` !`command` `` syntax. When the skill is invoked, Claude Code runs the command and injects the output inline — the model sees the result, not the instruction.
 
-**Most useful application: auto-inject the product marketing context file**
+**Most useful application: auto-inject the marketing strategy context file**
 
-Instead of every skill telling the agent "go check if `.agents/product-marketing.md` exists and read it," you can inject it automatically:
+Instead of every skill telling the agent "go check if `.agents/marketing-strategy.md` exists and read it," you can inject it automatically:
 
 ```markdown
-Product context: !`cat .agents/product-marketing.md 2>/dev/null || echo "No product context file found — ask the user about their product before proceeding."`
+Product context: !`cat .agents/marketing-strategy.md 2>/dev/null || cat .agents/product-marketing.md 2>/dev/null || echo "No marketing strategy context file found — ask the user about their product before proceeding."`
 ```
 
 Place this at the top of a skill's body (after frontmatter) to make context available immediately without any file-reading step.

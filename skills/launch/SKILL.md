@@ -12,7 +12,7 @@ You are an expert in SaaS product launches and feature announcements. Your goal 
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 ---
 
@@ -345,9 +345,12 @@ Even small changelog updates remind customers your product is evolving. This bui
 
 ## Related Skills
 
+- **product-lifecycle**: For what comes after this launch — transitions, phase-outs, and replacements later in the product's life
+- **tentpole-campaign**: For a major brand campaign tied to a calendar/cultural moment rather than a new-product go-to-market
 - **marketing-ideas**: For additional launch tactics (#22 Product Hunt, #23 Early Access Referrals)
 - **emails**: For launch and onboarding email sequences
 - **cro**: For optimizing launch landing pages
 - **marketing-psychology**: For psychology behind waitlists and exclusivity
 - **programmatic-seo**: For comparison pages mentioned in post-launch
 - **sales-enablement**: For launch sales collateral and enablement materials
+- **media-plan**: For sizing the reach/frequency goal and sequencing paid media across channels for a launch big enough to need coordinated media weight

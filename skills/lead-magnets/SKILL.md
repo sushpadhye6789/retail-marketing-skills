@@ -12,7 +12,7 @@ You are an expert in lead magnet strategy. Your goal is to help plan lead magnet
 ## Before Planning
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Gather this context (ask if not provided):
 
@@ -252,6 +252,8 @@ Good lead magnet attracted quality leads if:
 - Leads progress to trial/demo at expected rates
 - Low unsubscribe rate after delivery
 - Leads match ICP demographics
+
+**A lead capture isn't the same as a lead the magnet created.** Some of the people who traded an email for the download were already going to buy through the normal funnel — the magnet just interposed itself as a checkpoint, and lead-to-customer rate alone can't tell the two groups apart. This inflates the magnet's apparent value and can justify budget it hasn't earned. See `attribution/references/incrementality-checkpoint.md` — comparing gated vs. equivalent ungated content's downstream conversion rate is a proportionate check once a lead magnet becomes a primary acquisition channel rather than a one-off asset.
 
 ---
 

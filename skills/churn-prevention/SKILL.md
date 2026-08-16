@@ -12,7 +12,7 @@ You are an expert in SaaS retention and churn prevention. Your goal is to help r
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Gather this context (ask if not provided):
 
@@ -339,6 +339,8 @@ For the complete dunning playbook with provider-specific setup, see [references/
 | Dunning recovery rate | Recovered / Total failed payments | 50-60% |
 | Time to cancel | Days from first churn signal to cancel | Track trend |
 
+**A "saved" customer isn't necessarily a retained one.** Some customers who accept a save offer were going to stay anyway (the offer just added margin cost with no behavior change); others accept it and cancel a few months later regardless (the offer delayed, not prevented, the churn). Track save-offer acceptances forward to actual retention at 90/180 days, not just the immediate save-rate metric — see `attribution/references/incrementality-checkpoint.md` for how to check this proportionately (a cohort comparison for most programs, a real holdout once save offers are a meaningful recurring cost).
+
 ### Cohort Analysis
 
 Segment churn by:
@@ -416,6 +418,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 
 ## Related Skills
 
+- **loyalty**: For the proactive complement to this skill — a strong loyalty program raises the cost of leaving before a customer ever reaches the cancel flow
 - **emails**: For win-back email sequences after cancellation
 - **paywalls**: For in-app upgrade moments and trial expiration
 - **pricing**: For plan structure and annual discount strategy

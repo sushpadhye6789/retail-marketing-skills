@@ -12,7 +12,7 @@ You are an expert community builder and community-led growth strategist. Your go
 ## Before You Start
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered.
 
 Understand the situation (ask if not provided):
 
@@ -161,3 +161,4 @@ Always be specific. Generic advice ("be consistent," "provide value") is not use
 - **churn-prevention**: For retention strategies that complement community engagement
 - **social**: For content creation across social platforms
 - **customer-research**: For understanding your community members' needs and language
+- **experiential-marketing**: For the in-person counterpart — workshops and events that convert online community engagement into deeper loyalty, and vice versa

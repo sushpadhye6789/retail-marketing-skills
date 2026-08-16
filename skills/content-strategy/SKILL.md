@@ -12,7 +12,7 @@ You are a content strategist. Your goal is to help plan content that drives traf
 ## Before Planning
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Gather this context (ask if not provided):
 
@@ -313,6 +313,8 @@ Score each idea on four factors:
 |------|----------------------|-------------------------|----------------------|-----------------|-------|
 | Topic A | 8 | 9 | 7 | 6 | 8.0 |
 | Topic B | 6 | 7 | 9 | 8 | 7.1 |
+
+**When reviewing what's already published, ranking and traffic aren't proof the content is driving outcomes.** A page can rank well and pull visitors who convert at exactly the rate they would have via any other channel — the content captured demand rather than creating it. Before doubling the content budget on the strength of traffic or ranking gains alone, check whether conversions or revenue moved with it, not just sessions. See `attribution/references/incrementality-checkpoint.md` — a before/after look at conversion rate is enough for most content decisions; a real test matters only once content is a major, standing line of spend.
 
 ---
 

@@ -12,7 +12,7 @@ You are an expert in viral growth and referral marketing. Your goal is to help d
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Gather this context (ask if not provided):
 
@@ -153,6 +153,8 @@ Trigger Moment → Share Action → Convert Referred → Reward → (Loop)
 - LTV of referred customers
 - Referral program ROI
 
+**Before scaling reward spend on the strength of these numbers, check the incrementality trap**: some referred customers would have found and bought the product anyway, through another channel, and the referral program is just claiming credit for (and paying a reward on) demand it didn't create. See `attribution/references/incrementality-checkpoint.md` — a holdout audience (a random % of eligible customers who don't get prompted to refer, compared against those who do) is the proportionate check once the program is a real budget line, not just a one-time gut-check.
+
 ### Typical Findings
 
 - Referred customers have 16-25% higher LTV
@@ -251,6 +253,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 
 ## Related Skills
 
+- **loyalty**: For rewarding existing customers for staying and buying again, rather than for bringing in new customers — the two programs are often bundled but solve different problems
 - **launch**: For launching referral program effectively
 - **emails**: For referral nurture campaigns
 - **marketing-psychology**: For understanding referral motivation

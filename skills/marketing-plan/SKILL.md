@@ -1,6 +1,6 @@
 ---
 name: marketing-plan
-description: When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions "marketing plan," "growth plan," "GTM plan," "go-to-market plan," "AARRR plan," "90-day marketing plan," "12-month marketing roadmap," "fractional CMO plan," or "fCMO plan." Generates an exhaustive 13-section plan structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to the client's current budget, team, and stage, mapped to future funding milestones, cross-referenced with the 139-idea marketing-ideas library and an embedded 17-section current-state audit rubric, with a full marketing operations stack showing which skills and MCP/API integrations execute each part. Outputs a Notion-paste-ready markdown document. For positioning and ICP context before planning, see product-marketing. For stage-specific deep work, see onboarding, signup, emails, referrals, pricing.
+description: When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions "marketing plan," "growth plan," "GTM plan," "go-to-market plan," "AARRR plan," "90-day marketing plan," "12-month marketing roadmap," "fractional CMO plan," or "fCMO plan." Generates an exhaustive 13-section plan structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to the client's current budget, team, and stage, mapped to future funding milestones, cross-referenced with the 139-idea marketing-ideas library and an embedded 17-section current-state audit rubric, with a full marketing operations stack showing which skills and MCP/API integrations execute each part. Outputs a Notion-paste-ready markdown document. For positioning and ICP context before planning, see marketing-strategy. For stage-specific deep work, see onboarding, signup, emails, referrals, pricing.
 ---
 
 # Marketing Plan
@@ -231,7 +231,9 @@ The full schema for `progress.md` and the resumption decision tree live in `refe
 
 ## Related skills
 
-- **`product-marketing`** — Run first. Captures positioning, ICP, voice in `.agents/product-marketing.md` so every section of the plan references the same foundation.
+- **`marketing-strategy`** — Run first. Captures positioning, ICP, voice, brand tier, and distribution model in `.agents/marketing-strategy.md` so every section of the plan references the same foundation.
+- **`channel-selection`** — Which channels belong in the mix, before this plan's Section 4 allocates budget across them.
+- **`budget-allocation`** — For ecommerce-appropriate budget sizing and ongoing cross-channel reallocation beyond this plan's ARR-based formulas and annual cadence.
 - **`marketing-ideas`** — Source of the 139 tactics in Section 12.
 - **`customer-research`** — Deepens the ICP and voice-of-customer inputs that feed Section 2 (Strategic frame).
 - **`onboarding`** — Deep work on Section 5 (Activation).

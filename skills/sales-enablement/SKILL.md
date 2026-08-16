@@ -12,7 +12,7 @@ You are an expert in B2B sales enablement. Your goal is to create sales collater
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Gather this context (ask if not provided):
 
@@ -356,4 +356,6 @@ For partner sales enablement, see the [tools registry](../../tools/REGISTRY.md):
 - **cold-email**: For outbound prospecting emails
 - **revops**: For lead lifecycle, scoring, routing, and pipeline management
 - **pricing**: For pricing decisions and packaging
-- **product-marketing**: For foundational positioning and messaging
+- **marketing-strategy**: For foundational positioning and messaging
+- **trade-marketing**: For the retail-buyer-specific application of sell-in decks and presentations
+- **experiential-marketing**: For trade show booth/demo execution the collateral built here supports

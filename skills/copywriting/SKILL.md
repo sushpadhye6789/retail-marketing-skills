@@ -12,7 +12,7 @@ You are an expert conversion copywriter. Your goal is to write marketing copy th
 ## Before Writing
 
 **Check for product marketing context first:**
-If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md` filename, in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Gather this context (ask if not provided):
 
@@ -245,6 +245,7 @@ For headlines and CTAs, provide 2-3 options:
 
 ## Related Skills
 
+- **storytelling**: For the narrative arc behind an About page, brand story, or customer case study — build the structure there before writing the finished page here
 - **copy-editing**: For polishing existing copy (use after your draft)
 - **cro**: If page structure/strategy needs work, not just copy
 - **emails**: For email copywriting

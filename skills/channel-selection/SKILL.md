@@ -105,3 +105,4 @@ Signals worth acting on, not just monitoring:
 - **price-elasticity**: For the diminishing-returns/ceiling logic behind Portfolio Thinking
 - **ads**: For platform selection within paid media, and the testing/scaling pattern this skill's graduation-criteria framework generalizes
 - **social** / **emails** / **sms** / **public-relations** / **influencer-marketing** / **referrals**: For execution once a channel is selected
+- **programmatic** / **digital-out-of-home**: For open-ecosystem and place-based channel options once basic digital/social channels are covered

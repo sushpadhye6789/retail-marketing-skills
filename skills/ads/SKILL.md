@@ -493,3 +493,4 @@ For tracking setup, see [references/conversion-tracking.md](references/conversio
 - **analytics**: For proper conversion tracking setup
 - **ab-testing**: For landing page testing to improve ROAS
 - **cro**: For optimizing post-click conversion rates
+- **programmatic**: For buying display, video, CTV, and audio inventory across the open web/app ecosystem via a DSP, rather than directly on a walled-garden platform

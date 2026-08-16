@@ -120,4 +120,5 @@ If a tentpole request comes in with too little lead time for real production, sa
 - **attribution**: For brand-lift and awareness measurement
 - **ad-creative** / **image** / **brand-guidelines**: For cross-channel creative production and consistency
 - **social** / **public-relations** / **emails** / **sms**: For channel-specific execution
+- **programmatic** / **digital-out-of-home**: For CTV, video, and premium place-based media bought as part of the campaign's reach plan
 - **supplier-funded-marketing**: For co-funded media or dealer-coordination funding, if applicable

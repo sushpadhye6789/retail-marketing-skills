@@ -1,13 +1,13 @@
 ---
 name: retail-media
-description: "When the user wants to plan or optimize advertising on a retailer's own platform — sponsored product listings, on-site display, or off-site extensions run through a retail media network. Also use when the user mentions 'retail media,' 'Amazon Ads,' 'Sponsored Products,' 'Sponsored Brands,' 'Walmart Connect,' 'Instacart Ads,' 'Target Roundel,' 'Kroger Precision Marketing,' 'retail media network,' 'RMN,' 'on-site retail advertising,' 'share of search,' or 'retail data clean room.' This is distinct from ads, which covers the open web and social platforms — retail media specifically means advertising inside a retailer's own site/app/in-store environment, reaching shoppers who are already in that retailer's shopping context. For the physical in-store counterpart, see pos-marketing. For the product data both retail media and your own feed depend on, see product-feed."
+description: "When the user wants to plan or optimize advertising, or organic visibility and the Buy Box, on a retailer's own platform. Also use when the user mentions 'retail media,' 'Amazon Ads,' 'Sponsored Products,' 'Walmart Connect,' 'Instacart Ads,' 'retail media network,' 'RMN,' 'share of search,' 'retail data clean room,' 'Buy Box,' 'marketplace ranking,' 'marketplace SEO,' or 'seller rating.' Distinct from ads, which covers the open web and social platforms — retail media means advertising and organic visibility inside a retailer's own site/app/in-store environment, reaching shoppers already in that retailer's shopping context. For the physical in-store counterpart, see pos-marketing. For the product data retail media depends on, see product-feed."
 metadata:
   version: 1.0.0
 ---
 
 # Retail Media
 
-You help users plan and optimize advertising that runs inside a retailer's own platform — their site, app, or in-store digital environment — reaching shoppers at or near the point of purchase, not on the open web.
+You help users plan and optimize both paid advertising and organic visibility inside a retailer's own platform — their site, app, or in-store digital environment — reaching shoppers at or near the point of purchase, not on the open web.
 
 **Scope note**: `ads` covers Google, Meta, LinkedIn, TikTok, and similar open-web/social platforms, where you reach people before or outside a specific shopping context. Retail media is different in kind, not just another platform: it's advertising *inside* a specific retailer's environment, to shoppers who are already there with purchase intent. The two are complementary, not interchangeable — a strong retail media strategy doesn't replace open-web paid media, and vice versa.
 
@@ -45,6 +45,20 @@ Major retail media networks include Amazon Ads, Walmart Connect, Instacart Ads, 
 
 ---
 
+## Organic Marketplace Ranking & the Buy Box
+
+Paid placement isn't the only lever inside a retailer's platform — organic ranking and (on marketplaces with a single-listing model, most notably Amazon) the Buy Box determine most of the visibility and sales a listing gets, and both are earned rather than bought:
+
+- **Listing content quality drives organic ranking directly** — title, bullet points, description, and backend search terms feeding the platform's own search algorithm, the same underlying discipline `product-feed` applies to Shopping/PMax feeds, adapted to each marketplace's specific ranking factors and character/format rules.
+- **Conversion rate is itself a ranking input on most marketplace algorithms** — a listing that converts well tends to rank better, which drives more traffic, which (if conversion holds) reinforces the ranking further; the inverse spiral is just as real, so a listing correction (better images, clearer content) can compound rather than just produce a one-time lift.
+- **Reviews and rating are both a trust signal and a ranking/eligibility factor** — velocity (a steady flow of new reviews, not just a high average) and recency matter alongside the average rating itself. Use only platform-compliant review-generation methods (post-purchase review requests through the platform's own tools); incentivized or manipulated reviews risk account-level consequences that dwarf any one listing's benefit. See `local-marketing`'s review-generation discipline for the same principle applied to physical-location reviews — the compliance logic is the same, just a different platform.
+- **The Buy Box** (the default "Add to Cart" placement on a shared listing, most relevant on Amazon-style marketplaces) is awarded algorithmically based on price competitiveness, fulfillment method and speed, seller performance metrics (order defect rate, shipping time, cancellation rate), and stock availability — not just lowest price. Losing the Buy Box on a listing with active advertising wastes that spend, since paid placement typically drives to the Buy Box winner's offer, not necessarily your own. Monitor Buy Box win rate as its own metric, not just sales.
+- **Seller performance metrics compound** — a seller account's own standing (not just any one listing's) affects Buy Box eligibility and overall visibility across the whole catalog; a fulfillment or service failure on one listing can suppress performance across others.
+
+This organic layer and the paid placements above interact directly — a strong organic/Buy Box position makes paid spend more efficient (less needed to win visibility that would already convert), while a weak one means paid spend is partly compensating for an organic gap that would be cheaper to fix directly.
+
+---
+
 ## Funding Through Co-Op / MDF
 
 Retail media spend is frequently funded, in whole or part, through supplier-funded marketing arrangements — a supplier provides MDF specifically earmarked for advertising on a retailer's platform, sometimes because the retailer requires or strongly incentivizes it. See `supplier-funded-marketing`'s receiving-side guidance directly: pre-approval requirements, brand compliance, and claims processes apply to retail media spend the same way they apply to any other co-funded campaign. Check whether retail media spend is eligible before assuming it comes entirely out of the core marketing budget.
@@ -68,6 +82,8 @@ Retail media's closed-loop nature (the ad and the purchase happen on the same pl
 - **Not checking for available co-op funding** before assuming retail media spend has to come entirely from the core budget — see Funding above.
 - **Only measuring on-platform attributed sales** and never checking for halo/incremental lift where the retailer offers it.
 - **Ignoring retail media entirely for a dealer-heavy distribution model** where it may be the only real lever available at that point of sale — see Before Starting.
+- **Running paid placement while losing the Buy Box** — advertising spend that drives traffic to an offer someone else is winning is largely wasted; check Buy Box win rate before scaling paid spend on a shared listing.
+- **Chasing reviews through incentivized or manipulated methods** — risks account-level consequences far larger than any single listing's benefit; see Organic Marketplace Ranking above.
 
 ---
 
@@ -78,6 +94,7 @@ Retail media's closed-loop nature (the ad and the purchase happen on the same pl
 3. Is the product listing data on that platform accurate and complete?
 4. What's the current share of search/shelf on that platform relative to competitors?
 5. How does this fit into the broader channel mix and budget (see `channel-selection`/`budget-allocation`)?
+6. For a Buy-Box-eligible marketplace: what's the current win rate, and is paid spend running against a listing that's actually losing it?
 
 ---
 

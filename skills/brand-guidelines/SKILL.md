@@ -162,3 +162,4 @@ If a skill's default output would visibly conflict with something captured here 
 - **social**: For on-brand social content
 - **copywriting** / **emails** / **popups**: For on-brand written output using the tone-by-channel section
 - **ads**: For creative-aesthetic alignment with campaign strategy
+- **supplier-funded-marketing**: This document is the compliance reference handed to dealers when providing co-op funds; a supplier's equivalent document is the reference when receiving funds from them

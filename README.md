@@ -76,7 +76,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [cro](skills/cro/) | When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage,... |
 | [customer-research](skills/customer-research/) | When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer... |
 | [directory-submissions](skills/directory-submissions/) | When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for... |
-| [discount-and-overstock](skills/discount-and-overstock/) | When the user wants to clear overstock, aging, or discontinued inventory, or decide how deep and how often to discount.... |
+| [discount-and-clearance](skills/discount-and-clearance/) | When the user wants to plan, structure, or message a discount or clearance event — sizing the depth, cadence, and... |
 | [emails](skills/emails/) | When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email... |
 | [free-tools](skills/free-tools/) | When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or... |
 | [image](skills/image/) | When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product... |
@@ -92,11 +92,13 @@ See each skill's **Related Skills** section for the full dependency map.
 | [marketing-strategy](skills/marketing-strategy/) | When the user wants to create or update their foundational marketing strategy and positioning context, or needs help... |
 | [offers](skills/offers/) | When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing,... |
 | [onboarding](skills/onboarding/) | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also... |
+| [overstock](skills/overstock/) | When the user has excess, aging, dead, or discontinued inventory and needs to diagnose why, and decide how to dispose... |
 | [paywalls](skills/paywalls/) | When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use... |
 | [popups](skills/popups/) | When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also... |
 | [price-elasticity](skills/price-elasticity/) | When the user wants to understand or estimate how demand responds to a price change, decide how much they can raise... |
 | [pricing](skills/pricing/) | When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions... |
 | [product-feed](skills/product-feed/) | When the user wants to build, audit, or optimize a product data feed for shopping ads or catalog-driven marketing. Also... |
+| [product-lifecycle](skills/product-lifecycle/) | When the user wants marketing guidance for a product moving through its lifecycle — beyond the initial launch. Also use... |
 | [programmatic-seo](skills/programmatic-seo/) | When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions... |
 | [prospecting](skills/prospecting/) | When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or... |
 | [public-relations](skills/public-relations/) | When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy... |
@@ -109,6 +111,8 @@ See each skill's **Related Skills** section for the full dependency map.
 | [site-architecture](skills/site-architecture/) | When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal... |
 | [sms](skills/sms/) | When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts,... |
 | [social](skills/social/) | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram,... |
+| [supplier-funded-marketing](skills/supplier-funded-marketing/) | When the user wants help with marketing development funds (MDF) or co-op advertising — either requesting and using... |
+| [tentpole-campaign](skills/tentpole-campaign/) | When the user wants to plan a major brand campaign tied to a calendar moment, cultural moment, or brand-owned milestone... |
 | [video](skills/video/) | When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use... |
 <!-- SKILLS:END -->
 
@@ -332,14 +336,18 @@ You can also invoke skills directly:
 - `marketing-ideas` - 140 marketing ideas
 - `marketing-psychology` - Mental models and psychology
 - `launch` - Product launches and announcements
+- `product-lifecycle` - Product transitions, phase-outs, and replacements after launch
+- `tentpole-campaign` - Major brand campaigns tied to a calendar or cultural moment
 - `pricing` - Pricing, packaging, and monetization
 - `price-elasticity` - Measuring and using demand response to price changes
 - `offers` - Value framing, bonus stacking, guarantees, scarcity/urgency
-- `discount-and-overstock` - Clearing inventory without training customers to wait for sales
+- `discount-and-clearance` - Sizing and messaging a discount or clearance event
+- `overstock` - Diagnosing excess/aging inventory and choosing a disposition channel
 
 ### Sales & RevOps
 - `revops` - Lead lifecycle, scoring, routing, pipeline management
 - `sales-enablement` - Sales decks, one-pagers, objection docs, demo scripts
+- `supplier-funded-marketing` - MDF/co-op advertising, receiving or providing dealer marketing funds
 
 ## Contributing
 

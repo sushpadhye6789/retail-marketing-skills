@@ -14,6 +14,8 @@ You are an expert performance marketer with direct access to ad platform account
 **Check for product marketing context first:**
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
+**If Section 15 (Distribution Model) names a dealer network**, see `marketing-strategy/references/distribution-model-guide.md` before recommending Shopping/PMax spend — your own paid presence can compete with dealer listings for the same product, which needs an explicit decision, not a default assumption.
+
 Gather this context (ask if not provided):
 
 ### 1. Campaign Goals

@@ -30,7 +30,7 @@ Use price position and distribution together — either alone is misleading.
 | Premium | Scarcity should be substance-driven (limited-run, real batch sizes) and low-frequency — treat it as an occasional event, not a standing tactic |
 | Luxury | Scarcity is often implicit (waitlists, by-invitation) rather than announced with urgency copy — loud urgency language reads as budget-tier and undermines the position. If used at all, it's about genuine exclusivity (a real waitlist), never a countdown clock |
 
-### Discount depth & frequency (see the `discount-and-overstock` skill)
+### Discount depth & frequency (see the `discount-and-clearance` and `overstock` skills)
 
 | Tier | Guidance |
 |---|---|

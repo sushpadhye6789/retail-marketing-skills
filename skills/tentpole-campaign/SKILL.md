@@ -135,3 +135,5 @@ A tentpole is planned months out, which means the world can change between the c
 - **programmatic** / **digital-out-of-home**: For CTV, video, and premium place-based media bought as part of the campaign's reach plan
 - **media-plan**: For the reach/frequency goal, flighting pattern, and channel weighting/sequencing that turns the channel list into an actual media buy
 - **supplier-funded-marketing**: For co-funded media or dealer-coordination funding, if applicable
+- **visual-merchandising**: For coordinating window/hero display timing with the campaign in physical retail
+- **experiential-marketing**: For a physical event or activation as part of the campaign

@@ -161,3 +161,4 @@ Always be specific. Generic advice ("be consistent," "provide value") is not use
 - **churn-prevention**: For retention strategies that complement community engagement
 - **social**: For content creation across social platforms
 - **customer-research**: For understanding your community members' needs and language
+- **experiential-marketing**: For the in-person counterpart — workshops and events that convert online community engagement into deeper loyalty, and vice versa

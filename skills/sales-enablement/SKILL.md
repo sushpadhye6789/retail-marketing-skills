@@ -357,3 +357,5 @@ For partner sales enablement, see the [tools registry](../../tools/REGISTRY.md):
 - **revops**: For lead lifecycle, scoring, routing, and pipeline management
 - **pricing**: For pricing decisions and packaging
 - **marketing-strategy**: For foundational positioning and messaging
+- **trade-marketing**: For the retail-buyer-specific application of sell-in decks and presentations
+- **experiential-marketing**: For trade show booth/demo execution the collateral built here supports

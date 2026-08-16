@@ -117,3 +117,5 @@ This skill covers the marketing-relevant inputs and outputs of a range review (p
 - **marketing-strategy**: For strategic priorities, brand tier, and distribution-model constraints
 - **product-feed**: For the underlying SKU/performance data source
 - **launch**: For go-to-market once an "Add" decision results in a real new product
+- **trade-marketing**: For the mirror-image exercise from the seller's side — earning a place in a *retailer's* range, rather than reviewing your own
+- **visual-merchandising**: For which reviewed SKUs earn priority physical placement

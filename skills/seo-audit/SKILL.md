@@ -495,3 +495,4 @@ Same format as above
 - **schema**: For implementing structured data
 - **cro**: For optimizing pages for conversion (not just ranking)
 - **analytics**: For measuring SEO performance
+- **local-marketing**: For applying this skill's methodology to location-modified/"near me" queries and Google Business Profile optimization

@@ -2,7 +2,7 @@
 name: marketing-loops
 description: "When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when the user mentions 'marketing loop,' 'recurring marketing workflow,' 'automate my marketing,' 'marketing on autopilot,' 'weekly marketing review,' 'ad fatigue check,' 'content refresh loop,' 'churn watch,' 'ranking drop alert,' 'always-on marketing,' 'marketing automation workflow,' or 'run this every week.' Use this to pick, adapt, and schedule an ongoing marketing loop that orchestrates the other marketing skills. For one-off marketing ideas, see marketing-ideas. For the experimentation loop specifically, see ab-testing."
 metadata:
-  version: 1.2.0
+  version: 1.3.0
 ---
 
 # Marketing Loops
@@ -57,6 +57,17 @@ Match cadence to how fast the signal actually changes — not to how often you'd
 | Social listening / mentions | Daily | Engagement windows close fast |
 
 Over-frequent loops are the most common failure mode: they generate busywork, burn budget, and train you to ignore the output.
+
+## Goodhart's Law: measure the outcome, not the proxy
+
+"When a measure becomes a target, it ceases to be a good measure." A loop that runs on a schedule and repeatedly optimizes toward a metric will, eventually, find the cheapest way to move that metric — not the real outcome behind it. Over months of unattended runs, this is the single biggest way a loop stops being a marketing system and quietly becomes a metric-gaming system.
+
+- **Every loop's Purpose should name a business outcome, not a proxy.** Rankings, CTR, open rate, post count, and backlink count are all proxies for revenue, retention, or reach — never the target itself. Ad-fatigue is judged on revenue/ROAS, not CTR/CPA, for exactly this reason (see `references/loop-guardrails.md`).
+- **Watch for the loop finding a shortcut instead of the outcome.** A backlink loop that starts hitting link farms, a content-refresh loop that pads word count without adding value, a review-harvest loop that only surfaces 5-star reviews — all are the proxy being optimized in place of the outcome. The self-check should catch the shortcut, not just noise or seasonality.
+- **The more autonomous a loop is, the more it needs an outcome check, not just an activity check.** A loop running unattended for months is exactly where a proxy quietly decouples from the outcome it was meant to represent — nobody's watching each run to notice.
+- **Re-anchor periodically, not just at launch.** A metric that was a faithful proxy when the loop was authored can drift from the outcome as the loop — or the market — adapts around it. Revisit whether "Acts when" is still measuring the right thing.
+
+Thread this through **Purpose**, **Acts when**, and **Self-check** whenever you author or review a loop — see the Goodhart's Law guardrail in `references/loop-guardrails.md` for the harm-check-metric pattern.
 
 ## When NOT to loop
 

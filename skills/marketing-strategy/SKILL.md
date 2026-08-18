@@ -1,8 +1,8 @@
 ---
 name: marketing-strategy
-description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' 'brand tier,' 'are we a premium/luxury brand,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, and strategic-priority context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
+description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' 'brand tier,' 'are we a premium/luxury brand,' 'do we sell wholesale,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, strategic-priority, and B2B/wholesale-channel context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
 metadata:
-  version: 1.4.0
+  version: 1.5.0
 ---
 
 # Marketing Strategy
@@ -153,6 +153,11 @@ This section exists so downstream skills (`offers`, `discount-and-clearance`, `o
 - **Channel overlap**: does the ecom store (or paid search/shopping presence) compete directly with dealer listings for the same product, or are they kept separate (exclusive SKUs, different regions)?
 - **What this rules in or out**: this field changes default guidance in several skills — whether a public discount is even available as an option (`discount-and-clearance`, `overstock`), whether the paid feed needs to avoid cannibalizing dealer search/shopping presence (`ads`, `product-feed`), and whether a campaign needs dealer coordination (`tentpole-campaign`, `supplier-funded-marketing` if applicable). See [references/distribution-model-guide.md](references/distribution-model-guide.md).
 
+### 16. B2B / Wholesale Channel
+- **Does this apply?**: does the business also sell to other businesses — wholesale/bulk orders, trade or trade-account pricing, corporate/institutional buyers — alongside its consumer-facing model? This is a yes/no flag, not a replacement for Section 15: a business can be ecom-only *and* run a wholesale arm, or sell through dealers *and* also take direct wholesale accounts. Most retail/ecommerce businesses answer no here and can skip this section entirely.
+- **If yes**: what's sold through this channel (same catalog, a wholesale-specific subset, or bulk/case-pack SKUs), who the buyer is (independent retailers, corporate/institutional buyers, other businesses using the product operationally), and roughly how central it is to the business (a minor side channel vs. a real second business line).
+- **What this rules in or out**: a genuine subset of this repo's skills is written for exactly this channel — outbound sales to business buyers, sales collateral, and a CRM-style pipeline don't apply to a consumer storefront, but they're exactly right for a wholesale/trade-account motion. See [references/b2b-wholesale-guide.md](references/b2b-wholesale-guide.md) for which skills (and which specific reference tracks inside dual-scoped skills like `ads` and `attribution`) are this channel's toolkit, so they don't read as unconverted leftovers from a different kind of business.
+
 ---
 
 ## Reference Library
@@ -163,6 +168,7 @@ This section exists so downstream skills (`offers`, `discount-and-clearance`, `o
 | [prioritization.md](references/prioritization.md) | Filling in Section 12 when the draft priorities list is a wish list rather than a real set of choices — naming the binding constraint, scoring candidates, cutting the rest |
 | [brand-tier-guide.md](references/brand-tier-guide.md) | Filling in Section 14, and for any other skill checking how its default tactics should shift by tier |
 | [distribution-model-guide.md](references/distribution-model-guide.md) | Filling in Section 15, and for any skill checking channel-conflict, MAP, or dealer-coordination constraints before recommending a tactic |
+| [b2b-wholesale-guide.md](references/b2b-wholesale-guide.md) | Filling in Section 16, and for identifying which skills/reference tracks in this repo serve a wholesale/B2B-selling channel specifically |
 | [examples.md](references/examples.md) | Weak-vs-strong worked examples for Sections 5, 6, and 12, for both an ecommerce/DTC and a B2B SaaS business |
 
 ---
@@ -280,6 +286,11 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
 **MAP/dealer constraints:**
 **Channel overlap:**
 
+## B2B / Wholesale Channel
+**Applies?:**
+**What's sold / to whom:**
+**How central to the business:**
+
 ## Changelog
 *Newest first. One line per revision: what changed and why.*
 - v1 ([date]) — Initial context.
@@ -323,3 +334,4 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
 - **pricing** / **offers**: For monetization decisions that should trace back to Section 13's priorities
 - **discount-and-clearance** / **overstock** / **brand-guidelines** / **loyalty** / **ads**: For skills that check Section 14's brand tier before applying tactics that diverge by tier (see [references/brand-tier-guide.md](references/brand-tier-guide.md))
 - **discount-and-clearance** / **overstock** / **ads** / **product-feed** / **retail-media** / **pos-marketing**: For skills that check Section 15's distribution model before recommending a tactic that could conflict with dealer channels (see [references/distribution-model-guide.md](references/distribution-model-guide.md))
+- **cold-email** / **sales-enablement** / **revops** / **prospecting**: The B2B/wholesale toolkit Section 16 flags — relevant only if that channel applies, not part of the default consumer-facing workflow (see [references/b2b-wholesale-guide.md](references/b2b-wholesale-guide.md))

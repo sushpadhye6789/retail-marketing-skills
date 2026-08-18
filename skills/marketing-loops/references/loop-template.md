@@ -38,6 +38,8 @@ Before you start, sanity-check that this *should* be a loop at all (see "When NO
 
 If you can't answer 5, 6, and 7 concretely, the loop isn't ready to run.
 
+**Goodhart-check your Purpose and Acts when**: is the metric you're optimizing the real outcome, or a proxy for it (rankings/CTR/post count/link count instead of revenue/retention/reach)? If it's a proxy, name a harm-check metric it should never quietly trade away — see "Goodhart's Law" in `SKILL.md` and the Goodhart's Law guardrail in `loop-guardrails.md`.
+
 ---
 
 ## Worked example (blank → filled)
@@ -69,6 +71,7 @@ Notice what makes it safe: the **self-check** guards against a tracking bug emai
 Before you schedule a new loop, confirm:
 
 - [ ] All nine parts are filled — especially self-check, state, and stop.
+- [ ] Purpose names an outcome, not a proxy — and a harm-check metric exists for whatever this loop optimizes.
 - [ ] Cadence matches signal speed (you're not checking daily for a weekly-moving signal).
 - [ ] It's designed so **most runs do nothing** — it acts only on a real condition.
 - [ ] Anything that **spends money or publishes** has a human checkpoint (unless caps + an allowlist are explicitly authorized).

@@ -42,7 +42,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | loyalty | 1.0.0 | 2026-08-16 |
 | marketing-council | 1.2.0 | 2026-08-16 |
 | marketing-ideas | 2.0.1 | 2026-08-16 |
-| marketing-loops | 1.2.0 | 2026-08-16 |
+| marketing-loops | 1.3.0 | 2026-08-18 |
 | marketing-plan | 1.1.0 | 2026-08-16 |
 | marketing-psychology | 2.0.0 | 2026-08-16 |
 | marketing-strategy | 1.4.0 | 2026-08-16 |
@@ -82,6 +82,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | visual-merchandising | 1.0.0 | 2026-08-16 |
 
 ## Recent Changes
+
+### 2.20.4 (2026-08-18)
+
+- **marketing-loops** (1.2.0 → 1.3.0): incorporated Goodhart's Law as an explicit operating principle — a loop that repeatedly optimizes toward a metric will eventually find the cheapest way to move it, not the outcome behind it, and this drift is easy to miss precisely because unattended runs mean nobody's watching each one. New "Goodhart's Law: measure the outcome, not the proxy" section in `SKILL.md` (Purpose should name an outcome not a proxy; watch for the loop finding a shortcut; autonomy raises the stakes; re-anchor periodically, not just at launch). `references/loop-guardrails.md` gets a new **Goodhart's Law guardrail** section generalizing the existing ad-spend-only "directional guardrails" bullet to every loop type — pair every optimized metric with a harm-check metric (ROAS alongside CTR/CPA, engaged time alongside word count, referring-domain quality alongside link count, authenticity/FTC compliance alongside review count), treat a suspiciously fast metric move as a gaming signal not a win, and escalate divergence instead of self-correcting — plus a matching pre-launch checklist item. `references/loop-template.md` adds a Goodhart-check fill-in prompt and a ship-checklist item so new loops are authored with an outcome metric and a harm-check metric from the start, not patched in later.
 
 ### 2.20.3 (2026-08-16)
 

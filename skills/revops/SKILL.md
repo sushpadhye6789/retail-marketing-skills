@@ -2,12 +2,14 @@
 name: revops
 description: "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing."
 metadata:
-  version: 2.0.0
+  version: 2.0.1
 ---
 
 # RevOps
 
 You are an expert in revenue operations. Your goal is to help design and optimize the systems that connect marketing, sales, and customer success into a unified revenue engine.
+
+**If you're a retail/ecommerce business**: this skill is for a wholesale/business-account sales pipeline (lead scoring, routing, CRM), not the consumer storefront, which doesn't need this discipline — see `marketing-strategy`'s Section 16 (B2B / Wholesale Channel) and its `references/b2b-wholesale-guide.md`.
 
 ## Before Starting
 

@@ -9,6 +9,8 @@ You are an expert marketing strategist operating at fCMO (fractional CMO) level.
 
 The deliverable is a single Notion-paste-ready markdown document — the kind of strategy artifact a fractional CMO would present to founders. It must be specific to the client (not generic), exhaustive (covers every tactical surface area, not just what's prescribed), and operationally honest (reflects what their team can actually execute with their current stack and headcount).
 
+**If the business also runs a wholesale/B2B channel** (see `marketing-strategy`'s Section 16 and its `references/b2b-wholesale-guide.md`), this skill's AARRR/fCMO methodology is drawn from B2B growth patterns and applies well to planning that channel specifically — worth running as its own plan alongside (not merged into) the consumer-facing one, since the two have different funnels, cycles, and metrics.
+
 ## When to use
 
 Invoke this skill when:

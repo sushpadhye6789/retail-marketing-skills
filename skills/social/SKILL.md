@@ -2,7 +2,7 @@
 name: social
 description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engagement triage. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' 'create a reel,' 'social listening,' 'brand mentions,' 'competitor monitoring,' 'top posts to comment on,' 'find people asking for,' 'carousel,' 'slide-by-slide,' or 'document post.' Use this for social media content creation, repurposing, scheduling, short-form video scripting, and social listening. For broader content strategy, see content-strategy. For paid ads, see ad-creative. For earned media, see public-relations."
 metadata:
-  version: 2.3.1
+  version: 2.3.2
 ---
 
 # Social Content
@@ -13,6 +13,8 @@ You are an expert social media strategist. Your goal is to help create engaging 
 
 **Check for product marketing context first:**
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
+
+**If this work is part of a multi-channel campaign**, check `.agents/campaigns/` for an active Campaign Brief before drafting — match its message, offer, and featured products rather than improvising your own version (see `compound-marketing`'s Cross-Channel Consistency Check). No brief there isn't a blocker; it just means this is standalone work.
 
 Gather this context (ask if not provided):
 

@@ -5,8 +5,8 @@ Current versions of all skills. Agents can compare against local versions to che
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
 | ab-testing | 2.0.2 | 2026-08-18 |
-| ad-creative | 2.8.1 | 2026-08-18 |
-| ads | 2.4.1 | 2026-08-18 |
+| ad-creative | 2.8.2 | 2026-08-19 |
+| ads | 2.4.2 | 2026-08-19 |
 | ai-seo | 2.2.2 | 2026-08-19 |
 | analytics | 2.0.2 | 2026-08-18 |
 | aso | 2.0.1 | 2026-08-18 |
@@ -23,16 +23,16 @@ Current versions of all skills. Agents can compare against local versions to che
 | competitor-profiling | 2.0.1 | 2026-08-18 |
 | competitors | 2.0.2 | 2026-08-18 |
 | compliance | 1.0.1 | 2026-08-18 |
-| compound-marketing | 1.2.0 | 2026-08-19 |
+| compound-marketing | 1.3.0 | 2026-08-19 |
 | content-strategy | 2.0.1 | 2026-08-18 |
 | copy-editing | 2.0.1 | 2026-08-18 |
-| copywriting | 2.0.2 | 2026-08-18 |
+| copywriting | 2.0.3 | 2026-08-19 |
 | cro | 2.1.2 | 2026-08-19 |
 | customer-research | 2.0.2 | 2026-08-18 |
 | digital-out-of-home | 1.0.1 | 2026-08-18 |
 | directory-submissions | 2.0.1 | 2026-08-18 |
 | discount-and-clearance | 1.0.1 | 2026-08-18 |
-| emails | 2.1.1 | 2026-08-18 |
+| emails | 2.1.2 | 2026-08-19 |
 | experiential-marketing | 1.0.1 | 2026-08-18 |
 | free-tools | 2.0.1 | 2026-08-18 |
 | growth-playbooks | 1.0.1 | 2026-08-19 |
@@ -55,7 +55,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | overstock | 1.0.1 | 2026-08-18 |
 | paywalls | 2.0.1 | 2026-08-18 |
 | popups | 2.0.1 | 2026-08-18 |
-| pos-marketing | 1.0.2 | 2026-08-19 |
+| pos-marketing | 1.0.3 | 2026-08-19 |
 | price-elasticity | 1.0.1 | 2026-08-18 |
 | pricing | 2.2.1 | 2026-08-18 |
 | product-feed | 1.0.1 | 2026-08-18 |
@@ -75,8 +75,8 @@ Current versions of all skills. Agents can compare against local versions to che
 | signup | 2.0.1 | 2026-08-18 |
 | site-architecture | 2.0.1 | 2026-08-18 |
 | specialist-lenses | 2.0.0 | 2026-08-19 |
-| sms | 1.0.1 | 2026-08-18 |
-| social | 2.3.1 | 2026-08-18 |
+| sms | 1.0.2 | 2026-08-19 |
+| social | 2.3.2 | 2026-08-19 |
 | storytelling | 1.0.1 | 2026-08-18 |
 | supplier-funded-marketing | 1.0.1 | 2026-08-18 |
 | tentpole-campaign | 1.1.0 | 2026-08-19 |
@@ -85,6 +85,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | visual-merchandising | 1.0.1 | 2026-08-18 |
 
 ## Recent Changes
+
+### 2.23.3 (2026-08-19)
+
+- Made the Cross-Channel Consistency Check genuinely automatic instead of something a human has to remember to trigger at finalization. Two parts: **compound-marketing** (1.2.0 → 1.3.0) gives the Campaign Brief a canonical, checkable location — `.agents/campaigns/<campaign-slug>.md` (gitignored, one file per campaign, same convention as the learnings and expert-notes files) — so any skill can check "is there an active brief for this work" without anyone announcing it. Previously the brief was just a template with nowhere fixed to live, which made automatic checking impossible. **ads, ad-creative, emails, sms, social, pos-marketing, and copywriting** (each patch-bumped) now check `.agents/campaigns/` as a standing step before drafting — the same way they already check `marketing-strategy.md` and `marketing-learnings.md` without being asked to. The check runs at the *start* of drafting rather than only at finalization, which catches drift before it's created instead of after. No brief present is a no-op, not a blocker — single-channel work and informally-run campaigns aren't gated by this.
 
 ### 2.23.2 (2026-08-19)
 

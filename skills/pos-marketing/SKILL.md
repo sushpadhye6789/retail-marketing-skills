@@ -2,7 +2,7 @@
 name: pos-marketing
 description: "When the user wants to plan point-of-sale or point-of-purchase marketing materials — in-store signage, shelf talkers, displays, or other physical/in-store marketing at the moment of purchase. Also use when the user mentions 'POS,' 'point of sale,' 'point of purchase,' 'POP display,' 'shelf talker,' 'end cap,' 'in-store signage,' 'in-store display,' or 'store display.' Scope note: this covers point-of-sale marketing materials and execution, not point-of-sale transaction systems/software — if the request is actually about POS system data or checkout software, that's outside this repo's marketing scope. For the digital retail-platform counterpart, see retail-media."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Point-of-Sale (POS) Marketing
@@ -18,6 +18,8 @@ Also check `.agents/marketing-learnings.md` if it exists — past entries tagged
 If `.agents/marketing-strategy.md` exists, read it. Two fields drive most of this skill's guidance:
 - **Section 14 (Brand Tier)** — see `marketing-strategy/references/brand-tier-guide.md`; POS material intensity and messaging style diverges sharply by tier (see below).
 - **Section 15 (Distribution Model)** — see `distribution-model-guide.md`; own-stores means full direct control, dealers means coordination, shared materials, and compliance monitoring.
+
+**If this work is part of a multi-channel campaign**, check `.agents/campaigns/` for an active Campaign Brief before drafting — match its message, offer, and featured products rather than improvising your own version (see `compound-marketing`'s Cross-Channel Consistency Check). No brief there isn't a blocker; it just means this is standalone work.
 
 Gather this context (ask if not provided):
 

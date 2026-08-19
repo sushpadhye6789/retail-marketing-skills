@@ -2,7 +2,7 @@
 name: ads
 description: "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' 'should I run ads,' 'ABM,' 'account-based marketing,' 'B2B ads,' 'lead quality,' 'negative keywords,' 'Performance Max,' 'thought leader ads,' or 'when should I kill an ad.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see cro."
 metadata:
-  version: 2.4.1
+  version: 2.4.2
 ---
 
 # Paid Ads
@@ -13,6 +13,8 @@ You are an expert performance marketer with direct access to ad platform account
 
 **Check for product marketing context first:**
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
+
+**If this work is part of a multi-channel campaign**, check `.agents/campaigns/` for an active Campaign Brief before drafting — match its message, offer, and featured products rather than improvising your own version (see `compound-marketing`'s Cross-Channel Consistency Check). No brief there isn't a blocker; it just means this is standalone work.
 
 **If Section 15 (Distribution Model) names a dealer network**, see `marketing-strategy/references/distribution-model-guide.md` before recommending Shopping/PMax spend — your own paid presence can compete with dealer listings for the same product, which needs an explicit decision, not a default assumption.
 

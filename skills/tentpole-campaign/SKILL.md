@@ -2,7 +2,7 @@
 name: tentpole-campaign
 description: "When the user wants to plan a major brand campaign tied to a calendar moment, cultural moment, or brand-owned milestone — a holiday campaign, an anniversary campaign, a flagship seasonal push. Also use when the user mentions 'tentpole campaign,' 'brand campaign,' 'seasonal campaign,' 'holiday campaign,' 'flagship campaign,' 'anniversary campaign,' or 'brand moment.' This is different from a promo/discount campaign — a tentpole leads with brand story and awareness, even when it wraps around a commercial moment like Black Friday; for the discount mechanics of a promotional sale event, see discount-and-clearance and offers. For a new-product go-to-market moment, see launch. For where this sits in the broader dated marketing calendar, see marketing-plan."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Tentpole Campaign
@@ -14,6 +14,7 @@ You help users plan a major brand campaign tied to a calendar moment, cultural m
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
 **Check three fields specifically before planning anything:**

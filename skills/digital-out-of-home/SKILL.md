@@ -2,7 +2,7 @@
 name: digital-out-of-home
 description: "When the user wants to plan out-of-home (OOH) or digital out-of-home (DOOH) advertising — billboards, transit ads, place-based screens, or programmatically-bought digital signage reaching people in the physical world. Also use when the user mentions 'out of home,' 'OOH,' 'DOOH,' 'billboard,' 'transit advertising,' 'digital billboard,' 'street furniture,' 'place-based media,' 'programmatic DOOH,' 'pDOOH,' or 'airport/mall/gym advertising.' This covers both traditional static OOH and programmatically-bought digital OOH. For the buying mechanics that apply once DOOH is bought through a DSP, see programmatic. For the point-of-purchase counterpart inside a store, see pos-marketing."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Digital Out-of-Home (DOOH) & Out-of-Home (OOH)
@@ -14,6 +14,7 @@ You help users plan out-of-home advertising — billboards, transit, and place-b
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
 Gather this context (ask if not provided):

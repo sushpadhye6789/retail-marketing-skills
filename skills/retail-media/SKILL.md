@@ -2,7 +2,7 @@
 name: retail-media
 description: "When the user wants to plan or optimize advertising, or organic visibility and the Buy Box, on a retailer's own platform. Also use when the user mentions 'retail media,' 'Amazon Ads,' 'Sponsored Products,' 'Walmart Connect,' 'Instacart Ads,' 'retail media network,' 'RMN,' 'share of search,' 'retail data clean room,' 'Buy Box,' 'marketplace ranking,' 'marketplace SEO,' or 'seller rating.' Distinct from ads, which covers the open web and social platforms — retail media means advertising and organic visibility inside a retailer's own site/app/in-store environment, reaching shoppers already in that retailer's shopping context. For the physical in-store counterpart, see pos-marketing. For the product data retail media depends on, see product-feed."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Retail Media
@@ -14,6 +14,7 @@ You help users plan and optimize both paid advertising and organic visibility in
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it. **Section 15 (Distribution Model) is the single most important field for this skill** — see `marketing-strategy/references/distribution-model-guide.md`:
 - If the business sells through dealers/retailers, retail media is often the *only* way to influence the purchase decision at that specific point of sale — your own DTC ads can't follow a shopper into a competitor's marketplace or a retailer's app.
 - If ecom-only, retail media is only relevant to the extent the business also lists on a marketplace (which then functions as a retail channel) — check `channel-selection` for whether that's even in the mix.

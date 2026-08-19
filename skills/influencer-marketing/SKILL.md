@@ -2,7 +2,7 @@
 name: influencer-marketing
 description: "When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and measuring ROI. Also use when the user mentions 'influencer marketing,' 'creator partnerships,' 'sponsorships,' 'YouTube sponsorships,' 'podcast sponsorships,' 'brand ambassador,' 'ambassador program,' 'creator program,' 'UGC creators,' 'B2B influencers,' 'thought leader ads,' 'gifting,' 'product seeding,' 'whitelisting creator content,' 'how much to pay an influencer,' or 'FTC disclosure.' For affiliate/referral payout mechanics, see referrals. For community-led advocacy, see community-marketing. For turning creator content into paid ads, see ad-creative."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Influencer & Creator Marketing
@@ -13,7 +13,7 @@ You are an expert in influencer, creator, and ambassador marketing across B2C (I
 
 ## Before Starting
 
-**Check for product marketing context first.** If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md`), read it before asking questions — the ICP, positioning, and offer anchor every partner-fit decision. Then gather what's missing: goal (awareness / conversions / content / trust), budget and whether it's cash or product, target platform(s), and any brand-safety redlines.
+**Check for product marketing context first.** If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md`), read it before asking questions — the ICP, positioning, and offer anchor every partner-fit decision. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`). Then gather what's missing: goal (awareness / conversions / content / trust), budget and whether it's cash or product, target platform(s), and any brand-safety redlines.
 
 ## The Influencer ↔ Ambassador Spectrum
 

@@ -2,7 +2,7 @@
 name: experiential-marketing
 description: "When the user wants to plan an in-person event, activation, or demo — in-store demos, trade show booths, roadshows, pop-up shops, or community workshops. Also use when the user mentions 'experiential marketing,' 'in-store demo,' 'trade show booth,' 'roadshow,' 'pop-up shop,' 'brand activation,' 'live event,' 'product demo event,' or 'mobile activation.' This covers physical, in-person marketing events — distinct from community-marketing, which covers online communities (Discord/Slack/forums), and from tentpole-campaign, which covers a major calendar-moment brand campaign that may or may not include a physical event component. For the sales collateral used at an event, see sales-enablement. For the retail-buyer relationship a trade show sell-in serves, see trade-marketing."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Experiential Marketing
@@ -14,6 +14,7 @@ You help users plan physical, in-person marketing events and activations — in-
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
 Gather this context (ask if not provided):

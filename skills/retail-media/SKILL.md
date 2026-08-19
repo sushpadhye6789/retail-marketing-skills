@@ -2,7 +2,7 @@
 name: retail-media
 description: "When the user wants to plan or optimize advertising, or organic visibility and the Buy Box, on a retailer's own platform. Also use when the user mentions 'retail media,' 'Amazon Ads,' 'Sponsored Products,' 'Walmart Connect,' 'Instacart Ads,' 'retail media network,' 'RMN,' 'share of search,' 'retail data clean room,' 'Buy Box,' 'marketplace ranking,' 'marketplace SEO,' or 'seller rating.' Distinct from ads, which covers the open web and social platforms — retail media means advertising and organic visibility inside a retailer's own site/app/in-store environment, reaching shoppers already in that retailer's shopping context. For the physical in-store counterpart, see pos-marketing. For the product data retail media depends on, see product-feed."
 metadata:
-  version: 1.0.3
+  version: 1.1.0
 ---
 
 # Retail Media
@@ -96,6 +96,20 @@ Retail media's closed-loop nature (the ad and the purchase happen on the same pl
 4. What's the current share of search/shelf on that platform relative to competitors?
 5. How does this fit into the broader channel mix and budget (see `channel-selection`/`budget-allocation`)?
 6. For a Buy-Box-eligible marketplace: what's the current win rate, and is paid spend running against a listing that's actually losing it?
+
+---
+
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key retail media networks:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Amazon Ads** | Sponsored Products/Brands/Display on the largest retail media network | - | [amazon-ads.md](../../tools/integrations/amazon-ads.md) |
+| **Walmart Connect** | Sponsored listings on Walmart's marketplace | - | See `tools/REGISTRY.md` for current guide status |
+| **Instacart Ads** | Grocery/delivery-context sponsored placements | - | See `tools/REGISTRY.md` for current guide status |
+
+For the product listing data these campaigns depend on, see [google-merchant-center.md](../../tools/integrations/google-merchant-center.md) and the `product-feed` skill.
 
 ---
 

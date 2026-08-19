@@ -2,7 +2,7 @@
 name: loyalty
 description: "When the user wants to design, launch, or improve a customer loyalty or rewards program, or a subscribe-and-save/replenishment/box subscription program. Also use when the user mentions 'loyalty program,' 'rewards program,' 'points program,' 'VIP program,' 'loyalty tiers,' 'membership program,' 'punch card,' 'paid membership,' 'loyalty points,' 'rewards points,' 'customer loyalty,' 'repeat purchase program,' 'subscribe and save,' 'subscription box,' 'replenishment program,' 'recurring order,' 'skip a shipment,' or 'how do I get customers to come back.' Use this whenever the goal is rewarding and retaining existing customers through a structured program (points, tiers, paid membership, or an automated recurring subscription) — not a one-time discount or a program aimed at acquiring new customers via existing ones (see referrals for that). For save offers and cancellation flows on subscription churn, see churn-prevention."
 metadata:
-  version: 1.0.3
+  version: 1.1.0
 ---
 
 # Loyalty & Rewards Programs
@@ -227,6 +227,18 @@ Don't assume a member-vs-non-member gap is *caused* by the program — your most
 4. Existing program or starting from scratch — if existing, what's underperforming?
 5. What tools/platforms are you using or considering?
 6. If subscription commerce: what's the actual usage cadence data, and is skip/pause/swap genuinely self-service today?
+
+---
+
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key loyalty platforms:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Smile.io** | Points/tiers, common on Shopify | - | [smile-io.md](../../tools/integrations/smile-io.md) |
+| **LoyaltyLion** | Points/tiers with deeper segmentation | - | See `tools/REGISTRY.md` for current guide status |
+| **Yotpo Loyalty** | Combined loyalty + reviews/UGC platform | - | See `tools/REGISTRY.md` for current guide status |
 
 ---
 

@@ -50,7 +50,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | marketing-strategy | 1.5.1 | 2026-08-18 |
 | media-plan | 1.0.2 | 2026-08-19 |
 | moat-builder | 1.0.3 | 2026-08-19 |
-| offers | 1.1.2 | 2026-08-19 |
+| offers | 1.1.3 | 2026-08-19 |
 | onboarding | 2.0.2 | 2026-08-18 |
 | overstock | 1.0.2 | 2026-08-19 |
 | paywalls | 2.0.1 | 2026-08-18 |
@@ -85,6 +85,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | visual-merchandising | 1.0.2 | 2026-08-19 |
 
 ## Recent Changes
+
+### 2.23.6 (2026-08-19)
+
+- **offers** (1.1.2 → 1.1.3): ran a real skill-creator eval pilot on this skill (4 test cases, with-skill vs. baseline, graded against the existing `evals/evals.json` assertions) to demonstrate the eval loop end-to-end. Honest result: with-skill scored 75% (12/16 assertions) vs. baseline's 81% (13/16) — the skill did NOT uniformly outperform a generic well-informed baseline on the literal checklist. Two of the misses were assertions neither run could satisfy (a "reference brand tier" check with no `.agents/marketing-strategy.md` present in the repo to reference — correctly not fabricated by either run). One real, validated gap: the fake-scarcity-refusal case showed the baseline citing FTC/UK CMA/EU/ACCC regulatory risk on manufactured urgency, while the with-skill run — despite correctly refusing the fake-scarcity request — never mentioned the regulatory angle at all, because `references/scarcity-urgency.md` covered trust cost extensively but had zero mention of compliance/regulatory risk. Fixed by adding an explicit regulatory-risk paragraph pointing to `compliance`, closing the loop this pilot was meant to demonstrate (eval → finding → fix). Full outputs and grading are viewable in the generated benchmark viewer from this run.
 
 ### 2.23.5 (2026-08-19)
 

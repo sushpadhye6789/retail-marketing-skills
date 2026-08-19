@@ -2,7 +2,7 @@
 name: brand-guidelines
 description: "When the user wants to create, update, or apply visual brand identity guidelines — logo usage, color palette, typography, imagery style — so every asset (ads, social, email, packaging, site) stays consistent without a designer reviewing each one. Also use when the user mentions 'brand guidelines,' 'brand identity,' 'brand book,' 'style guide,' 'brand colors,' 'typography,' 'logo usage,' 'visual identity,' or 'brand kit.' Covers visual identity specifically — for verbal brand voice (tone, personality, words to use/avoid), see marketing-strategy Section 10, which this skill reads rather than duplicating. This document is meant to be read by other skills (ad-creative, image, social, copywriting, popups) before they generate visual or written output."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Brand Guidelines
@@ -16,7 +16,7 @@ The document is stored at `.agents/brand-guidelines.md`.
 ## Before Starting
 
 **Check for existing context first:**
-If `.agents/marketing-strategy.md` exists, read it — especially **Section 14 (Brand Tier & Price Positioning)** if present. The tier should be reflected in the visual identity, and a real mismatch (a brand claiming "premium" positioning with budget-tier stock photography, for instance) is worth surfacing directly to the user as a finding, not silently accommodating.
+If `.agents/marketing-strategy.md` exists, read it — especially **Section 14 (Brand Tier & Price Positioning)** if present. The tier should be reflected in the visual identity, and a real mismatch (a brand claiming "premium" positioning with budget-tier stock photography, for instance) is worth surfacing directly to the user as a finding, not silently accommodating. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 Then check if `.agents/brand-guidelines.md` already exists.
 

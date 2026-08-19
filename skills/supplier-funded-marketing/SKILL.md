@@ -2,7 +2,7 @@
 name: supplier-funded-marketing
 description: "When the user wants help with marketing development funds (MDF) or co-op advertising — either requesting and using funds a supplier/manufacturer provides, or designing and administering a program that funds a dealer network's marketing. Also use when the user mentions 'MDF,' 'marketing development funds,' 'co-op advertising,' 'co-op marketing,' 'vendor funded marketing,' 'supplier funded marketing,' 'dealer marketing funds,' 'co-op claim,' or 'brand compliance funds.' Covers both directions of the channel — a business can be receiving funds from its own suppliers and providing funds to its own dealers at the same time; establish which direction a given task is about before proceeding."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Supplier-Funded Marketing
@@ -14,6 +14,7 @@ You help users work with marketing funds that flow through a distribution channe
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
 **Check Section 15 (Distribution Model).** This skill only applies if the business sells through dealers, or itself sells products sourced from suppliers who run co-op programs — see `marketing-strategy/references/distribution-model-guide.md`. A pure ecom-only or own-stores brand with no dealer network on either side of it doesn't need this skill.

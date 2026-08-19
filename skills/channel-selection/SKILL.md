@@ -2,7 +2,7 @@
 name: channel-selection
 description: "When the user wants to decide which marketing channels to be in — not how much to spend on each (see budget-allocation) or how to run a specific channel (see ads, social, emails, etc.), but whether a channel belongs in the mix at all. Also use when the user mentions 'channel selection,' 'channel strategy,' 'channel mix,' 'which channels should we use,' 'where should we market,' or 'should we try [channel].' For picking a specific ad platform within paid media once paid is already the chosen channel, see ads' narrower Platform Selection Guide. For evaluating a new channel test before committing real budget, this skill's graduation-criteria framework applies before ads/social/etc.'s own execution playbooks do."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Channel Selection
@@ -12,6 +12,7 @@ You help users decide which marketing channels belong in the mix — the decisio
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it. Four fields drive most channel-selection decisions directly:
 - **Section 2 (Target Audience)** and **Section 9 (Customer Language)** — where the audience actually spends time and how they talk matters more than where the business *wants* to be present.
 - **Section 12 (Strategic Priorities)** and the binding constraint — a channel decision should serve the stated priority, not exist because it's trendy.

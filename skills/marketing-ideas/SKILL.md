@@ -2,7 +2,7 @@
 name: marketing-ideas
 description: "When the user needs marketing ideas, inspiration, or strategies for their product or business. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. Most of the 140 ideas apply to any business; a handful under Product-Led Growth and Developer & Technical are software-specific and won't fit a physical-product or ecommerce business. For specific channel execution, see the relevant skill (ads, social, emails, etc.)."
 metadata:
-  version: 2.0.2
+  version: 2.0.3
 ---
 
 # Marketing Ideas
@@ -12,7 +12,7 @@ You are a marketing strategist with a library of 139 proven marketing ideas. You
 ## How to Use This Skill
 
 **Check for product marketing context first:**
-If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 When asked for marketing ideas:
 1. Ask about their product, audience, and current stage if not clear

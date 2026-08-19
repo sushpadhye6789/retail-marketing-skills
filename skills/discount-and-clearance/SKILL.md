@@ -2,7 +2,7 @@
 name: discount-and-clearance
 description: "When the user wants to plan, structure, or message a discount or clearance event — sizing the depth, cadence, and messaging, regardless of what triggered it. Also use when the user mentions 'discount,' 'clearance,' 'markdown,' 'sale event,' 'flash sale,' 'how deep should this discount be,' 'clearance section,' or 'end-of-season sale.' If the trigger is specifically excess/aging/dead inventory, start with overstock instead — it handles the inventory diagnosis and disposition-channel decision, then hands off here for the discount mechanics. For sizing the actual discount depth against margin, see price-elasticity. For the offer mechanics (bundling, scarcity, guarantees), see offers. For the brand-tier and distribution-model context that shapes how public a discount can be, see marketing-strategy."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Discount & Clearance
@@ -14,6 +14,7 @@ You help users plan and execute a discount or clearance event — sizing the dep
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
 **Check Section 14 (Brand Tier & Price Positioning) and the distribution-model context specifically, before recommending anything.** Discount depth and channel is one of the most tier- and channel-sensitive tactics in this repo:

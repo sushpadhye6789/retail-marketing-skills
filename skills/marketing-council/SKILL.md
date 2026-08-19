@@ -2,7 +2,7 @@
 name: marketing-council
 description: "When the user wants multiple expert perspectives on a marketing question — either a simulated board of legendary marketers (Seth Godin, Ogilvy, Schwartz, Dunford, Hormozi, and more) applying documented frameworks, or a domain-agnostic Decision Council (Contrarian, First Principles Thinker, Expansionist, Outsider, Executor) that stress-tests the idea. Also use when the user mentions 'marketing council,' 'advisory board,' 'boardroom,' 'audit this,' 'tear this apart,' 'grade this ad,' 'what would Seth Godin say,' 'channel Hormozi,' 'debate this,' 'decision council,' 'contrarian take,' 'stress-test this,' or 'first-principles this.' The marketer bench surfaces documented disagreement; Decision Council catches fatal flaws, wrong framing, undersold upside, curse-of-knowledge blind spots, and feasibility gaps. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill."
 metadata:
-  version: 1.2.1
+  version: 1.2.2
 ---
 
 # Marketing Council
@@ -17,6 +17,7 @@ They answer different questions and can be run standalone or stacked — see Ses
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md`), read it before asking questions.
 
 Then clarify (ask only for what's missing):

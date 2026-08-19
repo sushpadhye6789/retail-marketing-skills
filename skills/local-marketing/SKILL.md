@@ -2,7 +2,7 @@
 name: local-marketing
 description: "When the user wants to market a physical store location, dealer, or multi-location business to people searching or browsing nearby. Also use when the user mentions 'local marketing,' 'Google Business Profile,' 'GBP,' 'Google My Business,' 'near me,' 'local SEO,' 'store locator,' 'local search,' 'geo-targeted campaign,' 'hyperlocal,' 'multi-location marketing,' or 'store visibility.' This covers driving discovery of and visits to a specific physical location — distinct from seo-audit/ai-seo, which cover general organic search strategy, and from pos-marketing, which covers materials inside the store once someone has already arrived. For paid advertising inside a retailer's own platform, see retail-media."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Local Marketing
@@ -12,6 +12,7 @@ You help users market a physical store, dealer location, or multi-location busin
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
 **Section 15 (Distribution Model) is the field that determines almost everything else here** — see `marketing-strategy/references/distribution-model-guide.md`:

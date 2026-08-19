@@ -2,7 +2,7 @@
 name: compliance
 description: "When the user wants to check a marketing decision, claim, or campaign for compliance risk — advertising claims, required disclosures, email/SMS consent, data privacy, or pricing-claim accuracy. Also use when the user mentions 'marketing compliance,' 'advertising compliance,' 'FTC disclosure,' 'ad claims,' 'substantiation,' 'email compliance,' 'CAN-SPAM,' 'GDPR,' 'data privacy marketing,' 'cookie consent,' 'was/now pricing,' 'drip pricing,' 'affiliate disclosure,' 'influencer disclosure,' or 'accessibility compliance.' This skill flags where a marketing decision touches a compliance-risk area and what the general principle is — it is not legal advice and does not assert jurisdiction-specific legal thresholds, which change over time and vary by region. Route anything with real stakes to qualified legal/compliance counsel before publishing."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Marketing Compliance
@@ -14,6 +14,7 @@ You help users spot where a marketing decision, claim, or campaign touches compl
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it. **Check Section 15 (Distribution Model)** — if the business sells through dealers, dealer-executed marketing carries its own compliance exposure (co-op/MDF-funded creative, dealer-made claims about the brand's products) that's worth naming explicitly — see `supplier-funded-marketing`'s compliance-enforcement discipline.
 
 Gather this context (ask if not provided):

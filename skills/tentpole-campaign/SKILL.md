@@ -2,7 +2,7 @@
 name: tentpole-campaign
 description: "When the user wants to plan a major brand campaign tied to a calendar moment, cultural moment, or brand-owned milestone — a holiday campaign, an anniversary campaign, a flagship seasonal push. Also use when the user mentions 'tentpole campaign,' 'brand campaign,' 'seasonal campaign,' 'holiday campaign,' 'flagship campaign,' 'anniversary campaign,' or 'brand moment.' This is different from a promo/discount campaign — a tentpole leads with brand story and awareness, even when it wraps around a commercial moment like Black Friday; for the discount mechanics of a promotional sale event, see discount-and-clearance and offers. For a new-product go-to-market moment, see launch. For where this sits in the broader dated marketing calendar, see marketing-plan."
 metadata:
-  version: 1.0.1
+  version: 1.1.0
 ---
 
 # Tentpole Campaign
@@ -75,9 +75,13 @@ If a tentpole request comes in with too little lead time for real production, sa
 ## Cross-Channel Orchestration
 
 - **Hero creative + cutdowns**: one core concept/asset, adapted (not just resized) for each channel's native format — see `ad-creative` and `image` for execution, `brand-guidelines` for visual consistency across all of them
-- **Paid + organic + PR + email/SMS alignment**: the same message and creative concept should be recognizable across `ads`, `social`, `public-relations`, `emails`, and `sms` during the window — a tentpole where each channel is telling a different story dilutes the brand impact it's meant to build
+- **Paid + organic + PR + email/SMS + in-store alignment**: the same message and creative concept should be recognizable across `ads`, `social`, `public-relations`, `emails`, `sms`, and — for any retailer with physical stores — `pos-marketing` during the window. A tentpole where each channel is telling a different story dilutes the brand impact it's meant to build, and in-store signage is the channel most likely to get left out of a digital-first orchestration pass despite being the closest touchpoint to the actual purchase.
+- **Offer consistency, if a promotional layer is involved**: the exact same terms, depth, and dates across every channel and every piece of in-store signage — a POS sign showing a different discount deadline than the eDM or website is a common, damaging failure mode that reads as either a mistake or a bait-and-switch to the customer who notices.
+- **Featured product consistency**: the same hero SKUs featured across web, ads, eDM, and POS displays — not each channel or each store manager picking their own "best sellers." Name the specific products in the brief, don't leave it to inference.
 - **Timing**: decide whether the campaign has a teaser/build phase before the main date or launches as a single moment, and make sure every channel's timeline matches that decision
 - **Reach, frequency, and flighting**: for the actual mechanics of sizing the reach/frequency goal, weighting channels by role, and sequencing spend across the flight, see `media-plan` — this section covers message and timing alignment, that skill covers the media math underneath it
+
+For the actual working document that carries the message, offer, and featured-product decisions to every channel team, see `compound-marketing`'s Campaign Brief template (`references/campaign-brief-template.md`) — built for any multi-channel campaign, tentpole-sized or not.
 
 ---
 
@@ -132,7 +136,8 @@ A tentpole is planned months out, which means the world can change between the c
 - **launch**: For a new-product go-to-market moment, if this campaign is tied to one
 - **attribution**: For brand-lift and awareness measurement
 - **ad-creative** / **image** / **brand-guidelines**: For cross-channel creative production and consistency
-- **social** / **public-relations** / **emails** / **sms**: For channel-specific execution
+- **social** / **public-relations** / **emails** / **sms** / **pos-marketing**: For channel-specific execution, including in-store signage for any retailer with physical stores
+- **compound-marketing**: For the general brief → draft → execute → analyse → optimise → compound loop this campaign runs through, and its lighter-weight Multi-Channel Campaigns section for ordinary (non-tentpole) multi-channel promotions
 - **programmatic** / **digital-out-of-home**: For CTV, video, and premium place-based media bought as part of the campaign's reach plan
 - **media-plan**: For the reach/frequency goal, flighting pattern, and channel weighting/sequencing that turns the channel list into an actual media buy
 - **supplier-funded-marketing**: For co-funded media or dealer-coordination funding, if applicable

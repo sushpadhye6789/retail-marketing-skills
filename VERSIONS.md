@@ -74,7 +74,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | seo-audit | 2.0.1 | 2026-08-18 |
 | signup | 2.0.1 | 2026-08-18 |
 | site-architecture | 2.0.1 | 2026-08-18 |
-| specialist-lenses | 1.0.0 | 2026-08-19 |
+| specialist-lenses | 2.0.0 | 2026-08-19 |
 | sms | 1.0.1 | 2026-08-18 |
 | social | 2.3.1 | 2026-08-18 |
 | storytelling | 1.0.1 | 2026-08-18 |
@@ -85,6 +85,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | visual-merchandising | 1.0.1 | 2026-08-18 |
 
 ## Recent Changes
+
+### 2.23.1 (2026-08-19)
+
+- **specialist-lenses** (1.0.0 → 2.0.0): expanded from the 4-person pilot batch to a full 39-specialist library across 12 domains — the maintainer's complete master directory. Each of the 35 newly-added entries was researched via live web search (not training-data recall) and follows the same grounding discipline as the pilot: cited sources, honest confidence flagging where a framework name couldn't be independently confirmed (`daniel-cmejla.md`, `lenny-rachitsky.md`, and the Val Geisler half of `eli-weiss.md` all say so explicitly rather than asserting unconfirmed attributions). Two names from the original list — April Dunford and Ann Handley — were deliberately **not** duplicated here since they already have deeper, independently-researched dossiers in `marketing-council/references/advisors/`; the roster table points there instead. New specialists span brand strategy (Mark Ritson, Jonah Berger, Joey Coleman, Bozoma Saint John), B2B/content (Ross Simmonds, Joanna Wiebe, Sangram Vajre, Marcus Andrews), performance (Chris Walker, Kasim Aslam, Thomas Petit), SEO/AI (Rand Fishkin, Aleyda Solis, Mike King, Christopher S. Penn, Paul Roetzer, Julia McCoy, Justine Moore, Kartik Hosanagar), martech/systems (Scott Brinker, Lenny Rachitsky, Chad S. White, Daniel Cmejla, Avinash Kaushik, Gini Dietrich), social/influencer (Brendan Gahan, Lindsey Gamble, Jon Youshaei), ecommerce/retail (Taylor Holiday, Jason Goldberg, Eli Weiss, Savannah Sanchez, Steven Pope), plus Simo Ahava and Mike Rhodes from the maintainer's earlier, non-master-list roster. Major version bump reflects the scale of the expansion, not a breaking change. The private roster in `compound-marketing`'s Expert Notes File (`.agents/expert-notes.md`, gitignored) is updated to mark the full list as built, closing out the Path B sequencing decision from the prior release.
 
 ### 2.23.0 (2026-08-19)
 

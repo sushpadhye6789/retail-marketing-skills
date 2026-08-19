@@ -107,10 +107,27 @@ Quick reference for AI agents to discover tool capabilities and integration meth
 | strapi | Headless CMS | ✓ | - | ✓ | ✓ | [strapi.md](integrations/strapi.md) |
 | composio | Integration Layer | ✓ | ✓ | ✓ | ✓ | [composio.md](integrations/composio.md) |
 | cogny | Integration Layer | - | ✓ | - | - | [cogny.md](integrations/cogny.md) |
+| google-business-profile | Local Marketing | ✓ | - | [✓](clis/google-business-profile.js) | ✓ | [google-business-profile.md](integrations/google-business-profile.md) |
+| google-merchant-center | Product Feed | ✓ | - | [✓](clis/google-merchant-center.js) | ✓ | [google-merchant-center.md](integrations/google-merchant-center.md) |
+| amazon-ads | Retail Media | ✓ | - | [✓](clis/amazon-ads.js) | ✓ | [amazon-ads.md](integrations/amazon-ads.md) |
+| smile-io | Loyalty | ✓ | - | [✓](clis/smile-io.js) | - | [smile-io.md](integrations/smile-io.md) |
 
 ---
 
 ## By Category
+
+### Retail
+
+Tools specific to physical/local retail, retail media, product feeds, and loyalty — the ecommerce-and-retail layer this repo focuses on.
+
+| Tool | Best For | Notes |
+|------|----------|-------|
+| **google-business-profile** | Local listing data, NAP consistency, local posts | See `local-marketing`; requires Google approval for API access |
+| **google-merchant-center** | Shopping feed data (products, disapprovals, custom labels) | See `product-feed`; requires a verified Merchant Center account |
+| **amazon-ads** | Sponsored Products/Brands/Display performance and bid management | See `retail-media`; requires Amazon advertising API approval |
+| **smile-io** | Points/tiers loyalty program data | See `loyalty`; lower API-surface confidence, verify against current docs |
+
+**Agent recommendation**: Google Business Profile and Google Merchant Center are the two highest-leverage integrations for a retailer with any physical presence or Shopping ads — both are free APIs (subject to Google's approval process) covering data most retailers already maintain by hand. Amazon Ads is the natural next step for any brand selling on Amazon. Loyalty platform APIs (Smile.io shown here; LoyaltyLion, Yotpo Loyalty, and Rivo are common alternatives named in the `loyalty` skill) vary more in API maturity — verify capability before committing an integration to one.
 
 ### Analytics
 

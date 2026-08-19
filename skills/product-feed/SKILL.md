@@ -2,7 +2,7 @@
 name: product-feed
 description: "When the user wants to build, audit, or optimize a product data feed for shopping ads or catalog-driven marketing. Also use when the user mentions 'product feed,' 'Merchant Center,' 'Google Shopping feed,' 'Meta catalog,' 'catalog feed,' 'feed disapprovals,' 'feed optimization,' 'feed rules,' 'supplemental feed,' 'GTIN,' 'feed errors,' or 'my products aren't showing in Shopping.' Covers the product data layer that Shopping/PMax, Meta/Instagram catalog ads, and (via schema) some organic search surfaces all consume. For running the campaigns that use the feed, see ads. For the structured-data/schema markup version of the same product attributes, see schema."
 metadata:
-  version: 1.0.2
+  version: 1.1.0
 ---
 
 # Product Feed
@@ -146,6 +146,17 @@ Feed health metrics to track (no universal benchmark numbers here — track your
 3. Any current disapprovals or known errors to start from?
 4. Does the catalog need margin-tier, bestseller, or clearance segmentation for campaign structure?
 5. Is organic schema markup pulling from the same source data, or maintained separately?
+
+---
+
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key feed platforms:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Google Merchant Center** | Shopping/PMax feed data — products, disapprovals, custom labels | - | [google-merchant-center.md](../../tools/integrations/google-merchant-center.md) |
+| **Meta Commerce Manager** | Catalog for Meta/Instagram shopping ads | - | See `tools/REGISTRY.md` for current guide status |
 
 ---
 

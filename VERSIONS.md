@@ -40,8 +40,8 @@ Current versions of all skills. Agents can compare against local versions to che
 | influencer-marketing | 1.0.1 | 2026-08-18 |
 | launch | 2.0.2 | 2026-08-18 |
 | lead-magnets | 2.0.1 | 2026-08-18 |
-| local-marketing | 1.0.2 | 2026-08-19 |
-| loyalty | 1.0.3 | 2026-08-19 |
+| local-marketing | 1.1.0 | 2026-08-19 |
+| loyalty | 1.1.0 | 2026-08-19 |
 | marketing-council | 1.2.3 | 2026-08-19 |
 | marketing-ideas | 2.0.4 | 2026-08-18 |
 | marketing-loops | 1.3.3 | 2026-08-18 |
@@ -58,7 +58,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | pos-marketing | 1.0.4 | 2026-08-19 |
 | price-elasticity | 1.0.2 | 2026-08-19 |
 | pricing | 2.2.1 | 2026-08-18 |
-| product-feed | 1.0.2 | 2026-08-19 |
+| product-feed | 1.1.0 | 2026-08-19 |
 | product-lifecycle | 1.0.2 | 2026-08-19 |
 | programmatic-seo | 2.0.1 | 2026-08-18 |
 | programmatic | 1.0.2 | 2026-08-19 |
@@ -67,7 +67,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | range-review | 1.0.2 | 2026-08-19 |
 | referrals | 2.0.1 | 2026-08-18 |
 | repositioning | 1.0.2 | 2026-08-19 |
-| retail-media | 1.0.3 | 2026-08-19 |
+| retail-media | 1.1.0 | 2026-08-19 |
 | revops | 2.0.2 | 2026-08-18 |
 | sales-enablement | 2.0.3 | 2026-08-18 |
 | schema | 2.0.1 | 2026-08-18 |
@@ -85,6 +85,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | visual-merchandising | 1.0.2 | 2026-08-19 |
 
 ## Recent Changes
+
+### 2.23.5 (2026-08-19)
+
+- Added direct tool integrations for four retail-specific skills that previously had none, following the existing `ads`/`emails` Tool Integrations pattern: **local-marketing** (1.0.2 → 1.1.0) → Google Business Profile API; **product-feed** (1.0.2 → 1.1.0) → Google Merchant Center Content API for Shopping; **retail-media** (1.0.3 → 1.1.0) → Amazon Advertising API; **loyalty** (1.0.3 → 1.1.0) → Smile.io. Each ships a new `tools/integrations/<tool>.md` guide (auth, base URLs, common operations, and which of this repo's skill sections the data feeds directly) and a matching zero-dependency `tools/clis/<tool>.js` script, plus new rows in `tools/REGISTRY.md` under a new "Retail" category. Google Business Profile and Google Merchant Center are documented with higher confidence (major, well-established Google APIs); Smile.io's guide is flagged lower-confidence and points to verifying current docs, consistent with this repo's existing honesty discipline about unconfirmed specifics. This is a scoped pilot on 4 of the ~63 retail-relevant skills without integration coverage yet — a wider rollout is a follow-up, not done in this pass.
 
 ### 2.23.4 (2026-08-19)
 

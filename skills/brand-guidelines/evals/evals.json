@@ -1,0 +1,66 @@
+{
+  "skill_name": "brand-guidelines",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We don't have a brand guidelines doc yet. Can you help me put one together? We're a mid-market outdoor gear brand, sell mostly on our own site plus a few REI-style retailers.",
+      "expected_output": "Should check for existing marketing-strategy.md/product-marketing.md context first. Should offer the auto-draft-from-existing-assets option before starting from scratch, since site/social/packaging likely already show a de facto identity. Should flag any inconsistencies found across existing assets (e.g., different blues used as 'brand blue') rather than silently picking one. Should cover logo usage, color palette, typography, and imagery style. Should note this is the visual-identity counterpart to marketing-strategy Section 10 (voice), not a duplicate of it.",
+      "assertions": [
+        "Checks for marketing-strategy.md context first",
+        "Offers auto-draft-from-existing-assets as the recommended path",
+        "Flags inconsistencies found in existing assets rather than picking silently",
+        "Covers logo, color, typography, and imagery style",
+        "Distinguishes visual identity from marketing-strategy Section 10 (voice)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "quick q - is #E8622C close enough to our brand orange or should it be exact? designer keeps using slightly different shades",
+      "expected_output": "Should treat this as exactly the kind of drift the skill exists to prevent. Should recommend locking to one exact hex value (with accessible variants for light/dark contexts if relevant) rather than allowing 'close enough.' Should explain why small shade drift compounds across many assets into a visibly inconsistent brand. Should point to updating/creating the brand-guidelines doc as the actual fix, not just answering the one-off color question.",
+      "assertions": [
+        "Recommends locking to one exact hex value, not 'close enough'",
+        "Explains why shade drift compounds across assets",
+        "Points to the brand-guidelines document as the systemic fix",
+        "Addresses the casual/quick phrasing without losing rigor"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We're a luxury skincare brand. Someone on the team wants to use a bright neon green for our Black Friday banner because 'it converts better.' Thoughts?",
+      "expected_output": "Should flag the brand-tier conflict directly — a neon, discount-signal color actively undercuts a luxury visual identity, even if it lifts short-term CTR. Should check marketing-strategy Section 14 (Brand Tier) if available. Should explain the tradeoff: short-term conversion vs. long-term brand equity erosion. Should offer a tier-appropriate alternative (restrained, on-palette treatment) that still signals urgency.",
+      "assertions": [
+        "Flags the brand-tier conflict between neon/discount signaling and luxury positioning",
+        "References or asks about marketing-strategy Section 14 (Brand Tier)",
+        "Explains the short-term-conversion vs. long-term-equity tradeoff",
+        "Offers a tier-appropriate alternative rather than just saying no"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Can you review our current homepage screenshot against brand guidelines and tell me what's off?",
+      "expected_output": "Should check whether a brand-guidelines.md document already exists before reviewing — can't check consistency against a standard that hasn't been defined. If it doesn't exist, should say so and offer to create it first (possibly from this very screenshot as a starting reference). If it exists, should systematically check logo usage, color accuracy, typography, and imagery style against the documented standard, calling out specific deviations rather than a vague overall impression.",
+      "assertions": [
+        "Checks whether brand-guidelines.md already exists before reviewing",
+        "Offers to create the document first if missing, rather than reviewing against nothing",
+        "If reviewing, checks logo/color/typography/imagery systematically",
+        "Calls out specific deviations, not just a vague impression"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "We're launching a sub-brand for a younger audience. Should it get its own brand guidelines or extend the main ones?",
+      "expected_output": "Should recognize this as a brand-architecture question that intersects with brand-management (house of brands vs. branded house decisions). Should ask whether the sub-brand is meant to feel like a clear extension of the parent (shared guidelines with variance notes) or a genuinely distinct identity (its own document). Should flag that inconsistent answer here creates confusion later — the decision should be made deliberately, not by default.",
+      "assertions": [
+        "Recognizes the brand-architecture dimension and references brand-management",
+        "Distinguishes shared-guidelines-with-variance vs. fully separate document",
+        "Frames this as a deliberate decision, not a default",
+        "Asks clarifying questions rather than assuming the answer"
+      ],
+      "files": []
+    }
+  ]
+}

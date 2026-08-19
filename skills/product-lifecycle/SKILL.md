@@ -2,7 +2,7 @@
 name: product-lifecycle
 description: "When the user wants marketing guidance for a product moving through its lifecycle — beyond the initial launch. Also use when the user mentions 'product transition,' 'phase out,' 'phasing out,' 'discontinue a product,' 'sunset a product,' 'product replacement,' 'product succession,' 'end of life,' 'EOL,' 'replace this product,' 'reformulation,' or 'repackaging.' Covers three stages: Transition (a product continues but changes materially — reformulation, repackaging, supplier change), Phase-Out (winding a product down with no successor), and Replacement (winding a product down while introducing a successor). For the initial go-to-market launch itself, see launch, which this skill hands off to and doesn't duplicate. For disposing of the resulting excess inventory, see overstock."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Product Lifecycle

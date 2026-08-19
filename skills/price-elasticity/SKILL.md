@@ -2,7 +2,7 @@
 name: price-elasticity
 description: "When the user wants to understand or estimate how demand responds to a price change, decide how much they can raise prices, size a discount, or reason about willingness-to-pay data as an economic effect rather than just a survey result. Also use when the user mentions 'price elasticity,' 'elastic demand,' 'inelastic demand,' 'price sensitivity,' 'demand curve,' 'how much can I raise prices,' 'will a price increase hurt sales,' 'how deep should this discount be,' 'cross-price elasticity,' or 'price test.' For willingness-to-pay research methods (Van Westendorp, MaxDiff) and tier structure, see pricing — this skill covers the causal, measured relationship between price and quantity, not stated preference. For sizing a specific markdown, see discount-and-clearance; for an inventory liquidation/disposition decision, see overstock. Both use this skill's method."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Price Elasticity

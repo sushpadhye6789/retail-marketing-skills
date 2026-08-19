@@ -1,0 +1,53 @@
+{
+  "skill_name": "overstock",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We have excess inventory. Let's just run a sale to clear it.",
+      "expected_output": "Should push back on defaulting straight to a sale and instead walk through diagnosing the cause first (one-time over-order, seasonal slow mover, discontinued/end-of-line, chronically slow SKU, or damaged/returned/near-expiry) since different causes call for different dispositions. Should ask which cause applies before recommending a channel.",
+      "assertions": [
+        "Pushes back on defaulting to a public sale without diagnosis",
+        "Walks through the named cause categories to diagnose",
+        "Explains that different causes call for different dispositions",
+        "Asks which cause applies before recommending next steps"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're a luxury brand with some overstocked inventory. Can we just put it on our own site at 50% off?",
+      "expected_output": "Should flag that luxury tier should avoid public discounting entirely where possible, per the tier-to-disposition table, and recommend discreet channels instead (off-price/liquidation wholesale partners, employee/insider sales, or write-off/donation). Should explain why a public 50% off sale conflicts with luxury positioning.",
+      "assertions": [
+        "Flags that luxury tier should avoid public discounting",
+        "Recommends discreet disposition channels as the alternative",
+        "References the tier-to-disposition table logic",
+        "Explains the positioning conflict of a public luxury discount"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We sell through dealers and want to liquidate excess stock through an off-price wholesale partner in the same city as one of our dealers. Any concerns?",
+      "expected_output": "Should flag the channel-conflict risk directly — liquidating into the same geographic/retail market as an active dealer can create the exact conflict a MAP agreement exists to prevent. Should recommend checking dealer agreements first before proceeding with that specific liquidation channel.",
+      "assertions": [
+        "Flags the channel-conflict risk with the dealer in the same market",
+        "References MAP agreement / distribution-model concerns explicitly",
+        "Recommends checking dealer agreements before proceeding",
+        "Does not simply approve the liquidation plan without this check"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "This is the third time this year we've had to clear excess stock of the same product category. What should we do?",
+      "expected_output": "Should flag this explicitly as a recurring pattern signaling a buying/forecasting problem, not a marketing problem, and say this plainly to the user rather than just executing another disposition. Should ask what's driving the recurring over-order and note the compounding cost of repeatedly treating the symptom, including the discount-training risk from discount-and-clearance.",
+      "assertions": [
+        "Flags the recurring pattern as a buying/forecasting issue, not a marketing one",
+        "States this plainly rather than just running another clearance",
+        "Asks what's driving the recurring over-order",
+        "References the compounding cost of repeatedly treating the symptom"
+      ],
+      "files": []
+    }
+  ]
+}

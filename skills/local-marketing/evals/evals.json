@@ -1,0 +1,53 @@
+{
+  "skill_name": "local-marketing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're a pure ecommerce brand with no physical presence at all. Should we invest in local marketing?",
+      "expected_output": "Should recognize this skill mostly doesn't apply to an ecom-only business and redirect to seo-audit/ads instead, per the skill's explicit guidance. Should ask if there's any specific local component (a warehouse showroom, a pop-up) before fully ruling it out, but should not force a local marketing plan onto a business with no physical footprint.",
+      "assertions": [
+        "Recognizes local marketing mostly doesn't apply without a physical presence",
+        "Redirects to seo-audit/ads as the appropriate alternative",
+        "Checks for any specific local component before fully dismissing it",
+        "Does not force a full local marketing plan onto a pure ecom business"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We have 50 dealer locations. Can we just require every dealer to post the exact same content on their Google Business Profile?",
+      "expected_output": "Should push back on a rigid one-size-fits-all approach, recommending a corporate template + local flexibility model instead — consistent baseline (brand voice, NAP format, approved standards) while giving room for genuinely local content. Should note that a rigid template performs worse than one with real local texture, per Multi-Location Coordination guidance.",
+      "assertions": [
+        "Pushes back on a fully rigid, identical-everywhere content requirement",
+        "Recommends the corporate template + local flexibility model",
+        "Explains why rigid templates underperform ones with local texture",
+        "References the multi-location coordination guidance"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Our reviews have gotten a bit stale. Should we offer customers a discount for leaving a positive review?",
+      "expected_output": "Should refuse to recommend incentivizing specifically for positive reviews, flagging this as dishonest, a platform policy violation risking the whole profile, and potentially a compliance issue depending on jurisdiction. Should recommend building a systematic, non-incentivized review-request habit into the natural post-purchase moment instead.",
+      "assertions": [
+        "Refuses to recommend incentivizing positive-only reviews",
+        "Flags the platform policy and compliance risk explicitly",
+        "Recommends a systematic non-incentivized review-request process instead",
+        "Does not simply comply with the discount-for-review request"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We have 200 locations but only budget to really focus on a handful this quarter. How do we pick?",
+      "expected_output": "Should recommend prioritizing by opportunity rather than treating every location identically — triage by revenue potential, current visibility gap, and competitive local density, per the Multi-Location Coordination guidance. Should flag treating every location the same as a named common mistake to avoid.",
+      "assertions": [
+        "Recommends prioritizing by opportunity (revenue potential, visibility gap, competitive density)",
+        "Explicitly avoids recommending equal treatment across all 200 locations",
+        "References the multi-location prioritization guidance",
+        "Flags treating every location identically as a mistake to avoid"
+      ],
+      "files": []
+    }
+  ]
+}

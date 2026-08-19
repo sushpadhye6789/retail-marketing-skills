@@ -1,0 +1,53 @@
+{
+  "skill_name": "media-plan",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We want 100 GRPs for our campaign launch. Is that good?",
+      "expected_output": "Should explain that a GRP total alone doesn't specify the audience experience — 100 GRPs could mean 100% reach at 1x frequency or 50% reach at 2x, very different outcomes. Should recommend unpacking the GRP target into actual reach and frequency numbers appropriate to the objective before finalizing the plan, per the skill's explicit caution against this exact mistake.",
+      "assertions": [
+        "Explains that a single GRP number can represent very different reach/frequency combinations",
+        "Recommends unpacking GRPs into actual reach and frequency before finalizing",
+        "Ties the right reach/frequency balance to the campaign's actual objective",
+        "Does not just validate the GRP number without unpacking it"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're launching a totally new product to a cold audience. Should we spread the budget evenly across all our channels the whole month?",
+      "expected_output": "Should push back on running all channels concurrently regardless of funnel role when the audience needs introducing to the message first — retargeting/lower-funnel channels before anyone has seen the primary message wastes spend. Should recommend sequencing upper-funnel reach channels before frequency/conversion channels, and consider a flighting pattern (teaser burst, build, moment) rather than flat continuous spend.",
+      "assertions": [
+        "Flags the risk of running all channels concurrently for a cold, new-to-market audience",
+        "Recommends sequencing upper-funnel reach before lower-funnel/retargeting",
+        "Suggests a non-continuous flighting pattern appropriate to a launch",
+        "Explains why retargeting before reach wastes spend on an unreached audience"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We want to book a premium CTV placement and also run some flexible paid social. Does the order we book these in matter?",
+      "expected_output": "Should flag that premium/traditional placements (guaranteed CTV, premium DOOH, PR embargo timing) typically need longer lead times than flexible programmatic/social, and recommend building the plan backward from the longest lead-time commitment. Should also recommend leaving a flexible-budget reserve in fast-adjustable channels so the plan can respond to early performance without unwinding the locked-in premium buy.",
+      "assertions": [
+        "Flags that premium/CTV placements need longer lead times than flexible channels",
+        "Recommends building the plan backward from the longest lead-time commitment",
+        "Recommends leaving a flexible-budget reserve in adjustable channels",
+        "Distinguishes locked-in vs. adjustable placements explicitly"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Our campaign ran across CTV, social, and search. Search converted the most on last-touch, so it gets credit for the whole campaign's success, right?",
+      "expected_output": "Should push back on crediting the plan's overall lift to a single channel by last-touch alone — a coordinated multi-channel plan is designed as a system where reach channels create the awareness that conversion channels later capture, and last-touch structurally overcredits whichever channel runs closest to conversion. Should recommend a holdout-geo or matched-market comparison of the whole plan, referencing attribution's incrementality-checkpoint guidance, rather than accepting the last-touch read.",
+      "assertions": [
+        "Pushes back on crediting the whole campaign's lift to search via last-touch alone",
+        "Explains that reach channels create the awareness conversion channels later capture",
+        "Recommends a holdout-geo or matched-market check instead",
+        "References attribution's incrementality methodology"
+      ],
+      "files": []
+    }
+  ]
+}

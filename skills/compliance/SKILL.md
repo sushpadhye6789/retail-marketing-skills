@@ -2,7 +2,7 @@
 name: compliance
 description: "When the user wants to check a marketing decision, claim, or campaign for compliance risk — advertising claims, required disclosures, email/SMS consent, data privacy, or pricing-claim accuracy. Also use when the user mentions 'marketing compliance,' 'advertising compliance,' 'FTC disclosure,' 'ad claims,' 'substantiation,' 'email compliance,' 'CAN-SPAM,' 'GDPR,' 'data privacy marketing,' 'cookie consent,' 'was/now pricing,' 'drip pricing,' 'affiliate disclosure,' 'influencer disclosure,' or 'accessibility compliance.' This skill flags where a marketing decision touches a compliance-risk area and what the general principle is — it is not legal advice and does not assert jurisdiction-specific legal thresholds, which change over time and vary by region. Route anything with real stakes to qualified legal/compliance counsel before publishing."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Marketing Compliance

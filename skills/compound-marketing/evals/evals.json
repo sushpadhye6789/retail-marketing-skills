@@ -1,0 +1,53 @@
+{
+  "skill_name": "compound-marketing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We just fixed a typo in an ad that's already running. Should we run this through the full Brief-Draft-Execute-Analyse-Optimise-Compound loop?",
+      "expected_output": "Should recognize this as a small, reversible tweak that can skip straight to Draft/Execute per the 'When NOT to Run the Full Loop' guidance, not needing a full Brief or Compound entry. Should explain the loop is reserved for work with real budget, reach, or repeatability, not a comma/typo fix.",
+      "assertions": [
+        "Recognizes the typo fix as skippable of the full loop",
+        "References the explicit small-reversible-tweak exception",
+        "Explains the loop is reserved for higher-stakes, repeatable work",
+        "Does not force a full Brief/Compound cycle for a typo fix"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Our email campaign got a lot of clicks this week. Should we write that up as a win in the learnings file and move on?",
+      "expected_output": "Should push back on judging success by clicks (a proxy) rather than the outcome metric actually named in the Brief (revenue, retention, qualified reach). Should reference the Goodhart's Law guardrail explicitly and ask what the Brief's actual outcome metric was before declaring a win.",
+      "assertions": [
+        "Pushes back on clicks as the metric to judge success on",
+        "References the Goodhart's Law guardrail explicitly",
+        "Asks what the Brief's real outcome metric was",
+        "Does not endorse writing up a win based on a proxy metric alone"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We're running a campaign across our website, ads, email, and in-store signage. Do we need anything beyond each channel just drafting its own version?",
+      "expected_output": "Should flag the need for a single Campaign Brief every channel drafts from, plus the automatic Cross-Channel Consistency Check, to avoid drift (different headlines, different offer deadlines, different featured products across channels). Should specifically call out that pos-marketing/in-store signage is not optional in this check and is the channel most likely to get left out of a digital-first pass.",
+      "assertions": [
+        "Recommends a single Campaign Brief for all channels to draft from",
+        "Explains the Cross-Channel Consistency Check and what it catches",
+        "Specifically flags pos-marketing/in-store signage as not optional",
+        "Warns against each channel independently drafting its own version"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "This campaign flopped pretty badly. Not much point writing it up, right?",
+      "expected_output": "Should push back firmly, explaining the Compound stage is non-negotiable even on a loss — a campaign that failed and got written up is worth more to the next cycle than one that succeeded and left no trace. Should recommend writing the entry to the learnings file using the template regardless of the outcome.",
+      "assertions": [
+        "Pushes back on skipping the write-up because the campaign failed",
+        "Explains that a documented loss is more valuable than an undocumented outcome",
+        "States the Compound stage is non-negotiable, even on failure",
+        "Recommends actually writing the learnings entry"
+      ],
+      "files": []
+    }
+  ]
+}

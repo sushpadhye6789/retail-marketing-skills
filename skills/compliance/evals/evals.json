@@ -1,0 +1,65 @@
+{
+  "skill_name": "compliance",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Can we say our supplement 'cures anxiety' in the ad copy? It's technically helped some customers based on reviews.",
+      "expected_output": "Should flag this as a high-risk health/medical claim, not a stylistic copy choice. Should explain that anecdotal customer reviews don't substantiate a medical claim like 'cures.' Should distinguish supportable language (e.g., customer testimonials about how it made them feel, with appropriate disclaimers) from a disallowed disease-claim. Should recommend caution and suggest the user consult legal/regulatory counsel for anything health-adjacent rather than the skill making a final call.",
+      "assertions": [
+        "Flags this as a high-risk medical/health claim",
+        "Explains why anecdotal reviews don't substantiate a 'cures' claim",
+        "Distinguishes supportable testimonial language from disease-claim language",
+        "Recommends legal/regulatory consultation rather than a unilateral green light"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Our dealer network keeps advertising our products at prices below what our MAP policy allows. Is that our compliance problem or theirs?",
+      "expected_output": "Should recognize this as a MAP (minimum advertised price) compliance issue tied to the distribution model (dealers), referencing marketing-strategy Section 15. Should clarify that while the dealer is the one advertising the price, the brand has real exposure (channel conflict, other dealers' trust, potential legal terms in the dealer agreement) and isn't just a bystander. Should suggest concrete next steps (review dealer agreement terms, escalate through account management) rather than treating it as purely the dealer's problem.",
+      "assertions": [
+        "Identifies this as a MAP compliance issue tied to distribution model",
+        "References marketing-strategy Section 15 (Distribution Model) or dealer context",
+        "Clarifies the brand has real exposure, not just the dealer",
+        "Suggests concrete next steps rather than deflecting"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "we want to run a giveaway where people have to follow us, tag 3 friends, and share to their story to enter. is that fine?",
+      "expected_output": "Should flag platform-specific promotion rules (many platforms restrict or discourage 'tag to enter' and incentivized sharing mechanics) as a real compliance concern, not just a marketing tactic question. Should note that giveaway/sweepstakes rules vary significantly by jurisdiction (official rules, no-purchase-necessary language, eligibility, odds disclosure) and this needs real legal review for anything beyond a small informal giveaway. Should not just approve the casual-phrased request without flagging the risk.",
+      "assertions": [
+        "Flags platform-specific promotion-mechanic rules as a concern",
+        "Notes giveaway/sweepstakes legal requirements vary by jurisdiction",
+        "Recommends legal review rather than a simple yes",
+        "Takes the casual phrasing seriously rather than under-flagging risk because of tone"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Is it okay to use a customer's Instagram photo of our product in an ad if they tagged us?",
+      "expected_output": "Should flag that a public tag is not the same as usage permission/consent for paid advertising use — this needs explicit permission from the creator, not just an assumption based on the tag. Should note FTC/disclosure considerations if any compensation or product was provided in exchange for the post. Should recommend a documented permission-request process rather than a blanket policy.",
+      "assertions": [
+        "Distinguishes a public tag from actual usage permission for paid ads",
+        "Flags FTC/disclosure considerations if compensation was involved",
+        "Recommends a documented permission process",
+        "Does not treat the tag alone as sufficient consent"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "We want to advertise a 'was $199, now $99' discount but the product has never actually sold at $199.",
+      "expected_output": "Should flag this immediately as a false reference-price / fictitious pricing claim, a well-documented FTC and consumer-protection risk area. Should explain the legal exposure (deceptive pricing claims) clearly rather than softening it. Should recommend either using an accurate reference price or restructuring the offer entirely (e.g., a genuine introductory price framing) rather than trying to find a workaround for the false claim.",
+      "assertions": [
+        "Flags this as a false/fictitious reference-price claim",
+        "Explains the legal exposure clearly, not softened",
+        "Recommends an accurate reference price or a restructured offer",
+        "Does not help find a workaround for the false claim"
+      ],
+      "files": []
+    }
+  ]
+}

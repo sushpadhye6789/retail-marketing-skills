@@ -1,0 +1,54 @@
+{
+  "skill_name": "budget-allocation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're a SaaS company with $5M ARR trying to figure out our marketing budget for next year.",
+      "expected_output": "Should recognize this is a SaaS business with ARR to anchor against and route to marketing-plan's Revenue-Based or Goal-Based ARR formulas rather than duplicating or inventing a new sizing method here. Should clarify this skill's role is ecommerce-appropriate sizing and ongoing reallocation discipline, not re-deriving SaaS formulas that already exist elsewhere.",
+      "assertions": [
+        "Recognizes this is a SaaS/ARR business and routes to marketing-plan's formulas",
+        "Does not invent or duplicate a new ARR-based sizing method",
+        "Clarifies this skill's own scope (ecommerce sizing + ongoing reallocation)",
+        "Does not apply an ecommerce % of revenue method to a SaaS business"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Our Facebook ads show a great ROAS so we want to shift most of our budget there from other channels.",
+      "expected_output": "Should caution against allocating budget based on platform-reported ROAS alone, explaining that platform numbers are structurally inflated (self-attribution, branded search, direct traffic) and that comparing platform dashboards against each other over-funds whichever channel is best at claiming credit. Should recommend anchoring on incrementality/MMM data where available, and treating platform-reported comparisons as a hypothesis to validate rather than a final allocation.",
+      "assertions": [
+        "Flags platform-reported ROAS as structurally inflated and not a safe sole basis for reallocation",
+        "Recommends incrementality/MMM data as the primary input instead",
+        "Explains the self-attribution/branded-search inflation mechanism",
+        "Does not simply endorse shifting budget based on the ROAS number alone"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Corporate just told us we need to cut marketing spend by 40% immediately due to a cash crunch. What do we cut?",
+      "expected_output": "Should recognize this as the Emergency Mid-Flight Cuts case, distinct from normal reallocation cadence, and shift the goal to minimizing damage under a hard constraint fast. Should recommend protecting committed/hard-to-reverse spend first, cutting by graduation status (test/early-stage before proven channels) rather than an even percentage cut, preserving retention/owned-channel spend (email/SMS, loyalty) disproportionately, and communicating the cut's expected impact honestly rather than presenting it as costless.",
+      "assertions": [
+        "Recognizes this as an emergency cut scenario, not normal reallocation",
+        "Recommends protecting committed/hard-to-reverse spend first",
+        "Recommends cutting by graduation status rather than an even percentage across the board",
+        "Recommends preserving retention/owned-channel spend disproportionately",
+        "Recommends communicating the cut's real impact rather than presenting it as costless"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Our paid social channel has been crushing it lately, way better than anything else. Should we just keep pouring more budget into it?",
+      "expected_output": "Should flag diminishing returns / channel saturation — every channel has a spend ceiling past which incremental return drops, and once incremental CPA trends toward its breakeven ceiling, the same dollars are more efficient elsewhere. Should recommend checking incremental (not blended) performance before scaling further, and consider funding the test/growth layer in other channels instead of over-concentrating.",
+      "assertions": [
+        "Flags diminishing returns / spend ceiling risk explicitly",
+        "Distinguishes incremental performance from blended platform-reported numbers",
+        "Recommends checking headroom before scaling further into one channel",
+        "Suggests diversifying into growth/test layer channels rather than over-concentrating"
+      ],
+      "files": []
+    }
+  ]
+}

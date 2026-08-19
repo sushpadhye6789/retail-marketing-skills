@@ -2,7 +2,7 @@
 name: moat-builder
 description: "When the user wants to identify a durable competitive advantage (a moat) and direct marketing investment to build or widen it, rather than just message around current differentiation. Also use when the user mentions 'moat,' 'competitive moat,' 'economic moat,' 'competitive advantage,' 'defensibility,' 'sustainable advantage,' 'build a moat,' or 'widen the moat.' Scope note: marketing-strategy Section 6 (Differentiation) captures current differentiation for positioning and messaging purposes — this skill goes further, identifying which differentiators are actually structural and durable (get stronger or at least don't erode over time, hard for a competitor to copy quickly) versus temporary, and biasing strategic priorities and budget toward reinforcing the real ones."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Moat Builder

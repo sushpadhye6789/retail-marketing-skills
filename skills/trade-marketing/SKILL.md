@@ -2,7 +2,7 @@
 name: trade-marketing
 description: "When the user wants to get a retail buyer, distributor, or dealer to list, stock, or feature a product — sell-in materials, buyer presentations, category management conversations, or trade show sell-in. Also use when the user mentions 'trade marketing,' 'sell-in,' 'sell-in deck,' 'buyer presentation,' 'category management,' 'category captain,' 'line review,' 'range review with a retailer,' 'planogram negotiation,' or 'getting listed.' This is the retailer-facing counterpart to consumer marketing — it targets the buyer/category manager who decides what goes on shelf, not the end shopper. For the co-op funding compliance side once a listing already exists, see supplier-funded-marketing. For paid advertising inside a retailer's own platform, see retail-media. For general B2B sales collateral mechanics, see sales-enablement, which this skill's deck-building borrows from."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Trade Marketing

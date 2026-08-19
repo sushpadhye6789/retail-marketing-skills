@@ -1,0 +1,53 @@
+{
+  "skill_name": "moat-builder",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Our competitive advantage is that our customer service is really good. Is that a real moat?",
+      "expected_output": "Should apply the moat-type framework (network effects, switching costs, brand, proprietary data, cost/scale, exclusive distribution, regulatory/IP) and test whether 'good customer service' fits any of them structurally, versus being a temporary advantage anyone with enough investment could copy. Should push back gently: service quality alone is rarely a durable moat unless it compounds into something structural (e.g., proprietary process data, a switching cost from an embedded support relationship). Should ask what specifically makes it hard to copy, not just good.",
+      "assertions": [
+        "Applies the named moat-type framework rather than accepting the claim at face value",
+        "Distinguishes a durable structural advantage from a temporary, copyable one",
+        "Pushes back on 'good service' as automatically being a moat",
+        "Asks what specifically makes it hard for a competitor to replicate"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're a small brand with basically no moat right now. Is that a problem?",
+      "expected_output": "Should give honest guidance for the no-moat-yet case rather than forcing a moat narrative onto an early-stage business. Should distinguish 'no moat yet, building toward one deliberately' from 'no moat and no plan,' and help identify which moat type is most realistically buildable given the business's actual assets (data accumulation, community, distribution relationships) rather than aspiring to one that doesn't fit the business model.",
+      "assertions": [
+        "Gives honest, non-alarmist guidance for a genuinely early-stage no-moat business",
+        "Distinguishes deliberate moat-building-in-progress from no plan at all",
+        "Identifies which moat type is realistically buildable given the actual business assets",
+        "Doesn't force an ill-fitting moat narrative"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We just read about Dropbox's referral loop in growth-playbooks and want to copy it. Would that be our moat?",
+      "expected_output": "Should clarify the distinction this skill exists to draw: a borrowed growth mechanic is not automatically a moat, even a very effective one. Should explain that a referral loop can drive growth without being defensible — a competitor can copy the same mechanic. Should ask what would make the copied mechanic durable in this specific business (e.g., does it compound into a proprietary data or network-effect advantage over time, or is it just an acquisition channel).",
+      "assertions": [
+        "Distinguishes a borrowed growth mechanic from a durable moat",
+        "Explains that an effective growth loop can still be copyable and non-defensible",
+        "References growth-playbooks appropriately as the source of the mechanic",
+        "Asks what would make this specific implementation durable, not just effective"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Which of our differentiators from our positioning doc should we actually invest marketing budget in widening?",
+      "expected_output": "Should read marketing-strategy Section 6 (Differentiation) and Section 12 (Strategic Priorities) as direct inputs. Should score or rank the listed differentiators against the moat-type framework, separating the ones that are structural/compounding from the ones that are just current features. Should recommend prioritizing investment toward the moat-eligible ones, and flag if none of the current differentiators are structural (a real finding worth surfacing, not glossing over).",
+      "assertions": [
+        "Reads marketing-strategy Sections 6 and 12 as direct inputs",
+        "Scores/ranks differentiators against the moat-type framework",
+        "Separates structural/compounding advantages from surface-level features",
+        "Flags honestly if no current differentiator is actually moat-eligible"
+      ],
+      "files": []
+    }
+  ]
+}

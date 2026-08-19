@@ -1,0 +1,53 @@
+{
+  "skill_name": "programmatic",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We want to try programmatic but only have about $2K to test it with.",
+      "expected_output": "Should flag that programmatic generally has a higher minimum viable spend than a single-platform campaign, since auction dynamics and data activation both need volume to work efficiently, and a tiny budget spread across open exchange often underperforms buying directly via ads. Should ask whether the budget genuinely supports efficient programmatic scale before recommending it, and suggest ads as a possible better fit at this budget level.",
+      "assertions": [
+        "Flags that this budget may be too small for efficient programmatic scale",
+        "Explains why small programmatic budgets underperform",
+        "Asks whether the budget supports efficient scale before proceeding",
+        "Suggests ads as a possible better fit at this budget level"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We want to run a big brand-sensitive CTV campaign tied to our major holiday moment. Should we just buy on the open exchange to save money?",
+      "expected_output": "Should push back on defaulting to open exchange for a brand-sensitive campaign, recommending PMP or programmatic guaranteed instead since open exchange carries higher inventory-quality and brand-safety risk. Should note programmatic guaranteed is often used for premium placements tied to a tentpole-campaign moment specifically.",
+      "assertions": [
+        "Pushes back on open exchange for a brand-sensitive buy",
+        "Recommends PMP or programmatic guaranteed instead",
+        "Explains the inventory-quality/brand-safety tradeoff of open exchange",
+        "Connects the premium-placement use case to tentpole-campaign moments"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Our view-through conversion numbers look great on our CTV buy. Should we scale spend based on that?",
+      "expected_output": "Should caution against trusting view-through conversion as causal, explaining it's the programmatic metric most prone to overstating impact since people exposed to thousands of impressions were often already likely to convert regardless of any single impression. Should recommend a PSA/ghost-ad test or holdout geo before scaling spend on the strength of view-through numbers.",
+      "assertions": [
+        "Cautions against treating view-through conversion as causal",
+        "Explains why view-through overstates impact specifically",
+        "Recommends a PSA/ghost-ad test or holdout geo before scaling",
+        "Does not endorse scaling spend based on view-through alone"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We're already retargeting the same audience on Meta and Google. Should we also add the same retargeting audience programmatically through a DSP as a completely separate effort?",
+      "expected_output": "Should flag the risk of treating programmatic and walled-garden (ads) budgets as separate silos rather than coordinating reach and frequency across both — a shopper retargeted on both simultaneously is one audience, not two. Should recommend coordinating frequency/reach across both channels rather than running them as fully independent efforts.",
+      "assertions": [
+        "Flags the risk of treating programmatic and ads budgets as separate silos",
+        "Explains the one-audience-not-two framing for overlapping retargeting",
+        "Recommends coordinating reach/frequency across both channels",
+        "Does not endorse running them as fully independent, uncoordinated efforts"
+      ],
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "skill_name": "price-elasticity",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Is our product elastic or inelastic? We sell premium coffee grinders.",
+      "expected_output": "Should refuse to assert an elasticity number or classification for the category — elasticity varies by brand, substitutability, and market conditions and would be fabricated if stated without data. Should instead walk through the structural drivers (substitutes, budget share, necessity vs. discretionary, habit) as a way to form a hypothesis, and ask what data actually exists (price-change history, tests, margin) to measure it for real.",
+      "assertions": [
+        "Refuses to assert a specific elasticity number or classification without data",
+        "Explains why elasticity can't be asserted generically for a category",
+        "Walks through structural drivers to form a hypothesis instead",
+        "Asks what real data (history, tests, margin) is available to measure it"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're a luxury brand and want to cut prices 20% to move more volume. Elasticity should mean more volume covers it, right?",
+      "expected_output": "Should flag the Tier and elasticity section explicitly — premium/luxury brands can show flatter or inverted demand patterns where a public discount depresses demand from status-driven buyers even while attracting new price-sensitive ones. Should check marketing-strategy Section 14 for brand tier before accepting the standard elastic-demand assumption. Should caution against assuming a clean cut-to-volume relationship without testing, and suggest alternatives (price increase test, value-add) as sometimes more appropriate at this tier.",
+      "assertions": [
+        "Flags the premium/luxury tier risk of inverted or flat demand patterns",
+        "References checking marketing-strategy Section 14 (Brand Tier)",
+        "Cautions against assuming the standard elastic-demand curve without testing",
+        "Suggests a tier-appropriate alternative to a straightforward price cut"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We ran a 10% price cut last month and sales went up 15%. Good elasticity, right? Should we cut prices again?",
+      "expected_output": "Should flag this as a single before/after comparison that doesn't control for other factors that moved at the same time (seasonality, concurrent promotions, competitor moves) — a common mistake this skill explicitly warns against. Should recommend a controlled test (geo-holdout or audience-split) for a more consequential repeated cut, and note that elasticity isn't necessarily constant across further price moves. Should also ask about margin before treating a revenue-positive result as a profit-positive one.",
+      "assertions": [
+        "Flags the before/after comparison as not controlling for confounds",
+        "Recommends a controlled/holdout test for the next decision",
+        "Notes elasticity may not be constant across further price moves",
+        "Asks about margin to translate the revenue result into a profit decision"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We have a brand-new SKU with only 3 weeks of sales. Can you tell me its elasticity?",
+      "expected_output": "Should recognize this as the low-data case this skill explicitly addresses — too little volume/history for any of the four estimation methods to produce a trustworthy number. Should recommend the fallback approaches: borrowing from a comparable SKU/category as a rough prior, widening test increments, extending the test window, or falling back to stated-preference/competitive signals — while being explicit that any resulting number is a judgment call, not a measured elasticity.",
+      "assertions": [
+        "Recognizes the low-data/low-volume constraint explicitly",
+        "Recommends borrowing from a comparable SKU as a rough prior",
+        "Offers at least one other fallback (wider test increments, longer window, stated preference)",
+        "Is explicit that the result is a judgment call, not a measured figure"
+      ],
+      "files": []
+    }
+  ]
+}

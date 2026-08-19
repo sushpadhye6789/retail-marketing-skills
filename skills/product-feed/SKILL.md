@@ -2,7 +2,7 @@
 name: product-feed
 description: "When the user wants to build, audit, or optimize a product data feed for shopping ads or catalog-driven marketing. Also use when the user mentions 'product feed,' 'Merchant Center,' 'Google Shopping feed,' 'Meta catalog,' 'catalog feed,' 'feed disapprovals,' 'feed optimization,' 'feed rules,' 'supplemental feed,' 'GTIN,' 'feed errors,' or 'my products aren't showing in Shopping.' Covers the product data layer that Shopping/PMax, Meta/Instagram catalog ads, and (via schema) some organic search surfaces all consume. For running the campaigns that use the feed, see ads. For the structured-data/schema markup version of the same product attributes, see schema."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Product Feed

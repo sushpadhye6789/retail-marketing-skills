@@ -2,7 +2,7 @@
 name: compound-marketing
 description: "When the user wants to run a marketing unit of work — a campaign, page, email, ad, or launch — so that it makes the next one easier instead of starting from scratch. Also use when the user mentions 'compound marketing,' 'compounding engineering for marketing,' 'brief draft execute analyse optimise,' 'marketing learnings,' 'don't repeat the same mistake,' 'apply what we learned,' 'marketing operating system,' or wants briefing, drafting, execution, analysis, and optimization tied together across channels/skills instead of run as disconnected one-offs. This is the general work loop for any marketing unit — one-off or recurring. For the scheduling/automation mechanics of running this loop on a cadence, see marketing-loops. For the rigorous, statistically-driven version of the Optimise stage specifically, see ab-testing."
 metadata:
-  version: 1.3.0
+  version: 1.3.1
 ---
 
 # Compound Marketing

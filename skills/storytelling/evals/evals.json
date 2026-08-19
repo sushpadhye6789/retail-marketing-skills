@@ -1,0 +1,53 @@
+{
+  "skill_name": "storytelling",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Help me write our About page story. We're the best in the industry at what we do and I want that to come through.",
+      "expected_output": "Should flag the most common storytelling mistake this skill names explicitly: making the brand the hero instead of the guide. Should redirect toward the Customer-as-Hero, Brand-as-Guide structure, positioning the customer as the hero with a problem and the brand as the guide with a plan, rather than a self-congratulatory 'we're the best' narrative. Should also note that finished page copy is copywriting's job, this skill builds the arc.",
+      "assertions": [
+        "Flags making the brand the hero as the mistake to avoid",
+        "Redirects to the Customer-as-Hero, Brand-as-Guide framework",
+        "Distinguishes this skill's arc-building role from copywriting's page-level execution",
+        "Does not simply write flattering brand-centric copy as requested"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Can you write up our founder's origin story? It's not that interesting honestly — she just started making candles in her kitchen because she couldn't find ones she liked.",
+      "expected_output": "Should resist manufacturing a tidier or more dramatic story than what actually happened, per the skill's explicit guidance that a genuine, slightly messy origin story reads as more credible than a polished myth. Should work with the Origin/Founder Story Structure (the moment, the insight, the decision, the mission) using the real, specific details rather than inventing drama, and push for more specificity (what exactly didn't she like, what was the specific moment) rather than embellishment.",
+      "assertions": [
+        "Does not manufacture drama or embellish beyond what actually happened",
+        "Applies the Origin/Founder Story Structure to the real details given",
+        "Pushes for more specific concrete detail rather than inventing a more dramatic version",
+        "Notes authenticity is more credible than a polished myth"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We want a customer case study but we don't have a real customer willing to go on record yet — can you just write a realistic composite example?",
+      "expected_output": "Should push back on writing an invented or composite customer story, referencing compliance's testimonial-authenticity principle and this skill's explicit caution against fabricating customer stories. Should explain the compliance risk of an invented testimonial and suggest either waiting for a real customer, using anonymized-but-real data, or building a different content type in the meantime rather than fabricating one.",
+      "assertions": [
+        "Pushes back on writing a fabricated or composite customer story",
+        "References compliance's testimonial-authenticity concern",
+        "Explains the risk of an invented testimonial rather than just complying",
+        "Offers an honest alternative instead of fabricating the story"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We need a story for a 15-second video ad and also want the full brand story for a documentary-style YouTube video. Same approach?",
+      "expected_output": "Should distinguish the two formats explicitly: the Before-After-Bridge compressed structure for the tight 15-second format versus the full Customer-as-Hero/Brand-as-Guide arc with room to build tension and stakes for the longer documentary-style video. Should note both hand off to video for script/production execution, and should check brand tier/pacing guidance (premium/luxury slower and cinematic vs. budget/mid-market punchier) if relevant.",
+      "assertions": [
+        "Distinguishes Before-After-Bridge (compressed) from the full hero/guide arc by format",
+        "Matches structure choice to the space/time constraint of each format",
+        "Notes video as the execution handoff for both",
+        "References tier-based pacing guidance where relevant"
+      ],
+      "files": []
+    }
+  ]
+}

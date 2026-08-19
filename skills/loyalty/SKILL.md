@@ -2,7 +2,7 @@
 name: loyalty
 description: "When the user wants to design, launch, or improve a customer loyalty or rewards program, or a subscribe-and-save/replenishment/box subscription program. Also use when the user mentions 'loyalty program,' 'rewards program,' 'points program,' 'VIP program,' 'loyalty tiers,' 'membership program,' 'punch card,' 'paid membership,' 'loyalty points,' 'rewards points,' 'customer loyalty,' 'repeat purchase program,' 'subscribe and save,' 'subscription box,' 'replenishment program,' 'recurring order,' 'skip a shipment,' or 'how do I get customers to come back.' Use this whenever the goal is rewarding and retaining existing customers through a structured program (points, tiers, paid membership, or an automated recurring subscription) — not a one-time discount or a program aimed at acquiring new customers via existing ones (see referrals for that). For save offers and cancellation flows on subscription churn, see churn-prevention."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Loyalty & Rewards Programs

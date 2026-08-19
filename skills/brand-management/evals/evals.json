@@ -1,0 +1,65 @@
+{
+  "skill_name": "brand-management",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We have three product lines that feel disconnected from each other. Should we put them all under one brand name or keep them separate?",
+      "expected_output": "Should frame this explicitly as a house-of-brands vs. branded-house vs. hybrid decision, not just a naming question. Should ask about the actual reason the lines feel disconnected (different audiences? different price points? different positioning?) before recommending a structure, since the right architecture depends on that. Should note the tradeoffs: branded house compounds marketing investment into one name but risks brand dilution if lines target very different segments; house of brands protects each line's positioning but multiplies marketing spend.",
+      "assertions": [
+        "Frames the question as a brand-architecture decision (house of brands vs. branded house vs. hybrid)",
+        "Asks why the lines feel disconnected before recommending a structure",
+        "Explains the branded-house tradeoff (compounding investment vs. dilution risk)",
+        "Explains the house-of-brands tradeoff (protected positioning vs. multiplied spend)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "how do we even know if our brand is healthy? feels like a fuzzy question but the CEO wants a number",
+      "expected_output": "Should acknowledge the CEO's instinct is reasonable even if 'brand health' resists a single number. Should propose a small set of trackable proxies (aided/unaided awareness, consideration, NPS or a loyalty-adjacent metric, share of voice) rather than inventing one composite score. Should caution against treating any single metric as definitive, and note that brand health tracking needs a consistent cadence to be meaningful (one-off measurement is close to useless).",
+      "assertions": [
+        "Proposes a small set of concrete trackable metrics rather than one invented composite score",
+        "Mentions awareness (aided/unaided) as a component",
+        "Cautions against over-indexing on any single metric",
+        "Notes the need for consistent measurement cadence, not a one-off snapshot"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We just had a product recall go badly on social media. How do we handle the brand side of this?",
+      "expected_output": "Should trigger the Reputational Crisis Recovery guidance rather than generic brand advice. Should distinguish this skill's brand-recovery angle from public-relations' crisis-response mechanics (the actual press/statement handling) and product-lifecycle's recall-process mechanics — brand-management's job here is the longer-arc trust-rebuilding work after the immediate crisis is contained. Should ask whether the immediate crisis response (PR, product-lifecycle) is already underway before jumping to brand recovery.",
+      "assertions": [
+        "Triggers Reputational Crisis Recovery guidance specifically",
+        "Distinguishes from public-relations' immediate crisis-response mechanics",
+        "Distinguishes from product-lifecycle's recall-process mechanics",
+        "Asks whether immediate crisis response is already underway"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Our brand guidelines say one thing but half our dealers use their own logos and colors when they advertise us. Is that a big deal?",
+      "expected_output": "Should identify this as a governance/consistency-enforcement problem across dealer-executed marketing, not just a documentation gap. Should reference brand-guidelines as the standard being violated and note that brand-management's job is enforcing it, not redefining it. Should ask about the distribution model (see marketing-strategy Section 15) since dealer-executed marketing compliance mechanisms differ for owned-stores vs. dealer networks. Should suggest concrete enforcement levers (co-op fund conditions, approved-asset kits) rather than just flagging the problem.",
+      "assertions": [
+        "Identifies this as a governance/enforcement problem, not a documentation gap",
+        "References brand-guidelines as the standard and this skill as the enforcement layer",
+        "Asks about distribution model / dealer network context",
+        "Suggests concrete enforcement mechanisms (e.g., co-op fund conditions)"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "We're thinking about extending our brand into a completely new product category. How do we know if that's a good idea or brand dilution?",
+      "expected_output": "Should treat this as a brand-extension decision requiring a real fit test, not a gut call. Should ask what makes the brand distinctive today (ties to marketing-strategy Section 6, differentiation) and whether the new category can credibly carry that same distinctiveness. Should flag the dilution risk explicitly: extending into an unrelated category can weaken what the core brand stands for even if the new line succeeds commercially. Should reference moat-builder if the extension is being justified by a competitive-advantage argument.",
+      "assertions": [
+        "Treats this as requiring a real fit test, not a gut call",
+        "Asks what makes the brand distinctive today, tied to differentiation",
+        "Explicitly flags brand dilution risk as a real cost, not just an afterthought",
+        "References moat-builder when a competitive-advantage argument is involved"
+      ],
+      "files": []
+    }
+  ]
+}

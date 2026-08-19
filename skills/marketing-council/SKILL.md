@@ -2,7 +2,7 @@
 name: marketing-council
 description: "When the user wants multiple expert perspectives on a marketing question — either a simulated board of legendary marketers (Seth Godin, Ogilvy, Schwartz, Dunford, Hormozi, and more) applying documented frameworks, or a domain-agnostic Decision Council (Contrarian, First Principles Thinker, Expansionist, Outsider, Executor) that stress-tests the idea. Also use when the user mentions 'marketing council,' 'advisory board,' 'boardroom,' 'audit this,' 'tear this apart,' 'grade this ad,' 'what would Seth Godin say,' 'channel Hormozi,' 'debate this,' 'decision council,' 'contrarian take,' 'stress-test this,' or 'first-principles this.' The marketer bench surfaces documented disagreement; Decision Council catches fatal flaws, wrong framing, undersold upside, curse-of-knowledge blind spots, and feasibility gaps. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill."
 metadata:
-  version: 1.2.0
+  version: 1.2.1
 ---
 
 # Marketing Council
@@ -207,6 +207,7 @@ Users can extend the bench ("add my own advisor"). Create a dossier following th
 
 ## Related Skills
 
+- **compound-marketing**: Boardroom mode is a natural pre-Execute gate in that skill's loop — a multi-advisor review of the finished Draft before it ships.
 - **marketing-strategy**: When Dunford's take wins — execute the positioning work (see its `references/positioning-methodology.md`)
 - **offers** / **pricing**: When Hormozi/Halbert direction wins — build the offer
 - **copywriting** / **copy-editing**: When the council reviewed copy — execute revisions

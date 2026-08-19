@@ -2,7 +2,7 @@
 name: marketing-strategy
 description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' 'brand tier,' 'are we a premium/luxury brand,' 'do we sell wholesale,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, strategic-priority, and B2B/wholesale-channel context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
 metadata:
-  version: 1.5.0
+  version: 1.5.1
 ---
 
 # Marketing Strategy
@@ -327,6 +327,7 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
 
 ## Related Skills
 
+- **compound-marketing**: Every Brief in that skill's loop starts by reading this document — it's the foundational grounding every campaign, page, or ad is briefed against.
 - **repositioning**: For the prioritized cascade audit of everything downstream that needs updating after a material change to Sections 5, 6, or 14 — run this after saving a real positioning change, not just when it happens to come up
 - **moat-builder**: For testing whether Section 6's differentiators are actually durable, structural advantages worth prioritizing in Section 12, not just positioning material
 - **marketing-plan**: For the dated, channel-by-channel 90-day/12-month execution plan built from this document's positioning and priorities

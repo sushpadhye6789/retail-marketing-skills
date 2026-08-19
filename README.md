@@ -57,6 +57,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [competitor-profiling](skills/competitor-profiling/) | When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions... |
 | [competitors](skills/competitors/) | When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when... |
 | [compliance](skills/compliance/) | When the user wants to check a marketing decision, claim, or campaign for compliance risk — advertising claims,... |
+| [compound-marketing](skills/compound-marketing/) | When the user wants to run a marketing unit of work — a campaign, page, email, ad, or launch — so that it makes the... |
 | [content-strategy](skills/content-strategy/) | When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also... |
 | [copy-editing](skills/copy-editing/) | When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the... |
 | [copywriting](skills/copywriting/) | When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages,... |
@@ -235,6 +236,7 @@ You can also invoke skills directly:
 
 ### Strategy & Foundation
 - `marketing-strategy` - Foundational positioning, audience, brand tier, distribution model, and strategic priorities
+- `compound-marketing` - The general brief → draft → execute → analyse → optimise → compound loop for any marketing unit of work, with a durable learnings file so each cycle starts smarter than the last
 - `repositioning` - Cascading a material positioning change through everything built on the old one
 - `marketing-plan` - Comprehensive AARRR-structured marketing plan
 - `marketing-ideas` - 140 marketing ideas

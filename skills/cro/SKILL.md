@@ -2,7 +2,7 @@
 name: cro
 description: "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, product pages, cart, checkout, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'cart abandonment,' 'checkout friction,' 'nobody's converting,' 'low conversion rate,' or 'this page needs work.' Use this even if the user just shares a URL and asks for feedback. For signup/registration flows, see signup. For post-signup activation, see onboarding. For popups/modals, see popups."
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # Conversion Rate Optimization (CRO)
@@ -198,6 +198,7 @@ When recommending experiments, consider tests for:
 
 ## Related Skills
 
+- **specialist-lenses**: For Talia Wolf's Emotional Targeting Framework — the customer-emotion research layer underneath *why* a structural fix works, before deciding what to test.
 - **signup**: If the issue is in the signup process itself
 - **popups**: If considering popups as part of the strategy
 - **copywriting**: If the page needs a complete copy rewrite

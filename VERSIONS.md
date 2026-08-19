@@ -7,7 +7,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | ab-testing | 2.0.2 | 2026-08-18 |
 | ad-creative | 2.8.1 | 2026-08-18 |
 | ads | 2.4.1 | 2026-08-18 |
-| ai-seo | 2.2.1 | 2026-08-18 |
+| ai-seo | 2.2.2 | 2026-08-19 |
 | analytics | 2.0.2 | 2026-08-18 |
 | aso | 2.0.1 | 2026-08-18 |
 | attribution | 1.3.1 | 2026-08-18 |
@@ -23,11 +23,11 @@ Current versions of all skills. Agents can compare against local versions to che
 | competitor-profiling | 2.0.1 | 2026-08-18 |
 | competitors | 2.0.2 | 2026-08-18 |
 | compliance | 1.0.1 | 2026-08-18 |
-| compound-marketing | 1.1.0 | 2026-08-19 |
+| compound-marketing | 1.1.1 | 2026-08-19 |
 | content-strategy | 2.0.1 | 2026-08-18 |
 | copy-editing | 2.0.1 | 2026-08-18 |
 | copywriting | 2.0.2 | 2026-08-18 |
-| cro | 2.1.1 | 2026-08-18 |
+| cro | 2.1.2 | 2026-08-19 |
 | customer-research | 2.0.2 | 2026-08-18 |
 | digital-out-of-home | 1.0.1 | 2026-08-18 |
 | directory-submissions | 2.0.1 | 2026-08-18 |
@@ -35,14 +35,14 @@ Current versions of all skills. Agents can compare against local versions to che
 | emails | 2.1.1 | 2026-08-18 |
 | experiential-marketing | 1.0.1 | 2026-08-18 |
 | free-tools | 2.0.1 | 2026-08-18 |
-| growth-playbooks | 1.0.0 | 2026-08-18 |
+| growth-playbooks | 1.0.1 | 2026-08-19 |
 | image | 2.0.2 | 2026-08-18 |
 | influencer-marketing | 1.0.1 | 2026-08-18 |
 | launch | 2.0.2 | 2026-08-18 |
 | lead-magnets | 2.0.1 | 2026-08-18 |
 | local-marketing | 1.0.1 | 2026-08-18 |
-| loyalty | 1.0.1 | 2026-08-18 |
-| marketing-council | 1.2.2 | 2026-08-18 |
+| loyalty | 1.0.2 | 2026-08-19 |
+| marketing-council | 1.2.3 | 2026-08-19 |
 | marketing-ideas | 2.0.4 | 2026-08-18 |
 | marketing-loops | 1.3.3 | 2026-08-18 |
 | marketing-plan | 1.1.0 | 2026-08-16 |
@@ -67,13 +67,14 @@ Current versions of all skills. Agents can compare against local versions to che
 | range-review | 1.0.1 | 2026-08-18 |
 | referrals | 2.0.1 | 2026-08-18 |
 | repositioning | 1.0.1 | 2026-08-18 |
-| retail-media | 1.0.1 | 2026-08-18 |
+| retail-media | 1.0.2 | 2026-08-19 |
 | revops | 2.0.2 | 2026-08-18 |
 | sales-enablement | 2.0.3 | 2026-08-18 |
 | schema | 2.0.1 | 2026-08-18 |
 | seo-audit | 2.0.1 | 2026-08-18 |
 | signup | 2.0.1 | 2026-08-18 |
 | site-architecture | 2.0.1 | 2026-08-18 |
+| specialist-lenses | 1.0.0 | 2026-08-19 |
 | sms | 1.0.1 | 2026-08-18 |
 | social | 2.3.1 | 2026-08-18 |
 | storytelling | 1.0.1 | 2026-08-18 |
@@ -84,6 +85,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | visual-merchandising | 1.0.1 | 2026-08-18 |
 
 ## Recent Changes
+
+### 2.23.0 (2026-08-19)
+
+- Added **`specialist-lenses`** — a small, deliberately-scoped pilot: 4 living, narrow-domain marketing specialists (Talia Wolf — CRO emotional targeting; Kevin Indig — AI-search visibility/GEO via Growth Memo; Adam Posner — loyalty-program differentiation; Elizabeth Marsten — retail-media portfolio strategy), one per domain, each researched via live web search rather than relying on training-data familiarity, since every entry describes a living person's current public work. Distinct from `marketing-council`: that skill runs a boardroom debate among broadly-known "legendary marketer" personas across general marketing questions; this skill applies one specialist's narrow-domain framework directly to a specific tactical problem, and carries a stricter Grounding Rules section than `marketing-council`'s (public content only, cited sources, explicit confidence flagging — see `adam-posner.md` for where research confidence was lower and the file says so rather than asserting false authority, and `kevin-indig.md` for flagging time-sensitive stats as snapshots). Each of the 4 reference files ends with a Sources list of the pages actually consulted. Deliberately capped at 4 to prove the pattern before scaling — the full ~40-specialist candidate list (received from the maintainer as a master directory) is tracked privately in `compound-marketing`'s Expert Notes File, not in this public repo, with sequencing left as an open decision rather than built all at once (see `marketing-loops`' own anti-pattern list: "Building 10 loops at once"). Bidirectionally cross-referenced into `cro`, `ai-seo`, `loyalty`, `retail-media` (the channel skill each current specialist extends), `marketing-council`, `growth-playbooks` (the person-level sibling of that skill's brand-level pattern), and `compound-marketing` (a Brief-stage input alongside `marketing-ideas` and `growth-playbooks`). Total skills: 79.
 
 ### 2.22.1 (2026-08-19)
 

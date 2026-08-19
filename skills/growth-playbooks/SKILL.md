@@ -2,7 +2,7 @@
 name: growth-playbooks
 description: "When the user wants to apply proven growth mechanics from well-known brands to their own business — a referral loop, a flywheel, a scarcity drop, a community-led growth model — adapted for retail and updated for the AI era (AI shopping agents, AI-generated content, agentic commerce). Also use when the user mentions 'growth playbook,' 'growth loop,' 'flywheel,' 'how did [brand] grow,' 'growth hacking,' 'scale growth,' 'proven growth strategies,' or names a brand (Dropbox, Airbnb, Costco, Glossier, Supreme, Duolingo, etc.) and asks how to apply what they did. For a broader list of one-off tactics not tied to a named brand mechanic, see marketing-ideas. For testing whether a differentiator is durable rather than borrowed, see moat-builder. For running any of these as the actual work, see compound-marketing."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Growth Playbooks
@@ -49,6 +49,7 @@ Apply these five as a lens across every entry below, not just where called out e
 
 - **compound-marketing**: Where a chosen playbook actually gets briefed, drafted, executed, analysed, optimised, and compounded — this skill picks the mechanic; that skill runs the work.
 - **marketing-ideas**: The broader library of one-off tactics not tied to a specific named-brand mechanic. Use this skill when a proven, compounding loop is the goal; use `marketing-ideas` for a wider net of individual tactics.
+- **specialist-lenses**: The person-level sibling of this skill's brand-level pattern — a named specialist's public framework instead of a named brand's growth mechanic.
 - **marketing-loops**: For scheduling the recurring mechanics (referral nudges, loyalty renewal checks) rather than re-deciding each time.
 - **moat-builder**: A borrowed growth mechanic is not the same as a durable competitive advantage — use this to check whether what you're building compounds into something a competitor can't just copy.
 - **marketing-strategy**: Brand tier and distribution model gate which playbooks are even appropriate to run — check Sections 14 and 15 before adopting one.

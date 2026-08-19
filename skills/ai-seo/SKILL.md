@@ -2,7 +2,7 @@
 name: ai-seo
 description: "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' 'optimize for Claude/Gemini,' 'llms.txt,' 'OKF,' 'Open Knowledge Format,' 'knowledge bundle,' or 'agent-readable site.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema."
 metadata:
-  version: 2.2.1
+  version: 2.2.2
 ---
 
 # AI SEO
@@ -484,6 +484,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 
 ## Related Skills
 
+- **specialist-lenses**: For Kevin Indig's AI-search-visibility research (Growth Memo) applied directly — the brand-visibility argument for why this work matters, grounded in current public data.
 - **seo-audit**: For traditional technical and on-page SEO audits
 - **schema**: For implementing structured data that helps AI understand your content
 - **content-strategy**: For planning what content to create

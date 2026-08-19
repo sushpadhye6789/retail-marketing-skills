@@ -10,6 +10,19 @@ Want help with your marketing, or want to automate it? [Reach out to Sush on Lin
 
 Run into a problem or have a question? [Open an issue](https://github.com/sushpadhye6789/retail-marketing-skills/issues).
 
+## Why This Repo
+
+This isn't just a prompt library — it's a marketing operating system for AI agents:
+
+- **Shared context, not one-off answers.** Every skill reads `marketing-strategy` first — your brand tier, distribution model, audience, and priorities — so a CRO recommendation, an email sequence, and a paid-ads plan all stay consistent instead of contradicting each other.
+- **A real dependency graph.** Skills cross-reference each other by design (see "How Skills Work Together" below), so asking one question can correctly pull in the adjacent disciplines it actually touches.
+- **Scheduled, self-running work.** `marketing-loops` catalogs 43 recurring workflows — ranking watches, ad-fatigue checks, churn-signal monitors — each with guardrails, state/idempotency, and a stop condition, wired to real scheduling mechanisms (Claude Code's `/loop`, `ScheduleWakeup`, `CronCreate`, or plain cron).
+- **Multi-perspective pressure-testing.** `marketing-council` runs a simulated board of marketer personas — plus a domain-agnostic Decision Council — against a question or a finished asset before you commit to it.
+- **Real tool execution.** `tools/` ([registry](tools/REGISTRY.md)) has zero-dependency CLIs and integration guides for GA4, Stripe, Mailchimp, Google Ads, HubSpot, Semrush, and 45+ other marketing tools — so an agent can query your analytics or push a change, not just describe one.
+- **Retail-specific depth** most generic marketing prompting skips: POS/point-of-purchase, trade-marketing sell-in, dealer/distribution-model nuance, visual merchandising, brand-tier signage rules.
+
+Compared to asking a plain AI chat assistant for marketing advice, this gives an agent persistent business context it never needs re-explained, the ability to act on real tools instead of only describing what to do, and scheduled autonomy that keeps working after the conversation ends.
+
 ## What are Skills?
 
 Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. When you add these to your project, your agent can recognize when you're working on a marketing task and apply the right frameworks and best practices.

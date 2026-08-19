@@ -110,6 +110,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [site-architecture](skills/site-architecture/) | When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal... |
 | [sms](skills/sms/) | When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts,... |
 | [social](skills/social/) | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram,... |
+| [specialist-lenses](skills/specialist-lenses/) | When the user wants a specific, narrow-domain specialist's public perspective applied to a retail marketing problem — a... |
 | [storytelling](skills/storytelling/) | When the user wants to construct a brand, founder, product, or customer narrative — the underlying story arc, not the... |
 | [supplier-funded-marketing](skills/supplier-funded-marketing/) | When the user wants help with marketing development funds (MDF) or co-op advertising — either requesting and using... |
 | [tentpole-campaign](skills/tentpole-campaign/) | When the user wants to plan a major brand campaign tied to a calendar moment, cultural moment, or brand-owned milestone... |
@@ -244,6 +245,7 @@ You can also invoke skills directly:
 - `growth-playbooks` - Proven, compounding growth-loop mechanics grounded in named-brand examples (referral loops, flywheels, loyalty, community-led growth), translated for retail and updated for AI-agent-driven discovery
 - `marketing-psychology` - Mental models and psychology
 - `marketing-council` - Boardroom mode — multi-advisor review of a finished asset or decision
+- `specialist-lenses` - Narrow-domain specialists' public frameworks (CRO, AI search, loyalty, retail media, and a growing roster) applied directly to a tactical problem
 - `moat-builder` - Identifying and widening durable competitive advantages, not just messaging around them
 - `customer-research` - Conducting and synthesizing customer research
 - `competitor-profiling` - Researching and profiling competitors from their URLs

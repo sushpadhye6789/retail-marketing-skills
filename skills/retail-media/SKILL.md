@@ -2,7 +2,7 @@
 name: retail-media
 description: "When the user wants to plan or optimize advertising, or organic visibility and the Buy Box, on a retailer's own platform. Also use when the user mentions 'retail media,' 'Amazon Ads,' 'Sponsored Products,' 'Walmart Connect,' 'Instacart Ads,' 'retail media network,' 'RMN,' 'share of search,' 'retail data clean room,' 'Buy Box,' 'marketplace ranking,' 'marketplace SEO,' or 'seller rating.' Distinct from ads, which covers the open web and social platforms — retail media means advertising and organic visibility inside a retailer's own site/app/in-store environment, reaching shoppers already in that retailer's shopping context. For the physical in-store counterpart, see pos-marketing. For the product data retail media depends on, see product-feed."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Retail Media
@@ -101,6 +101,7 @@ Retail media's closed-loop nature (the ad and the purchase happen on the same pl
 
 ## Related Skills
 
+- **specialist-lenses**: For Elizabeth Marsten's portfolio-level, cross-network measurement lens — deciding budget across multiple retail media networks rather than optimizing one in isolation.
 - **marketing-strategy**: For the distribution-model context that determines how central retail media is to the strategy
 - **product-feed**: For the underlying product listing data retail media depends on
 - **supplier-funded-marketing**: For co-op/MDF funding of retail media spend

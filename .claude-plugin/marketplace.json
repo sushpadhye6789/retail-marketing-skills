@@ -6,13 +6,13 @@
   },
   "metadata": {
     "description": "Retail & ecommerce marketing skills for AI agents — CRO, copywriting, SEO, paid ads, retail/dealer marketing, and growth. Forked from Corey Haines' marketingskills.",
-    "version": "2.22.1",
+    "version": "2.23.0",
     "repository": "https://github.com/sushpadhye6789/retail-marketing-skills"
   },
   "plugins": [
     {
       "name": "marketing-skills",
-      "description": "78 marketing skills for technical marketers and founders: CRO, copywriting, cold email, prospecting, SEO, AI SEO, paid ads, SMS, ad creative, video production, image generation, co-marketing, churn prevention, pricing, referrals, revenue operations, sales enablement, customer research, site architecture, comprehensive AARRR-structured marketing plans, public relations and earned media, offer design, and more",
+      "description": "79 marketing skills for technical marketers and founders: CRO, copywriting, cold email, prospecting, SEO, AI SEO, paid ads, SMS, ad creative, video production, image generation, co-marketing, churn prevention, pricing, referrals, revenue operations, sales enablement, customer research, site architecture, comprehensive AARRR-structured marketing plans, public relations and earned media, offer design, and more",
       "source": "./"
     }
   ]

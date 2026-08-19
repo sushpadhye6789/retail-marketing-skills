@@ -2,7 +2,7 @@
 name: compound-marketing
 description: "When the user wants to run a marketing unit of work — a campaign, page, email, ad, or launch — so that it makes the next one easier instead of starting from scratch. Also use when the user mentions 'compound marketing,' 'compounding engineering for marketing,' 'brief draft execute analyse optimise,' 'marketing learnings,' 'don't repeat the same mistake,' 'apply what we learned,' 'marketing operating system,' or wants briefing, drafting, execution, analysis, and optimization tied together across channels/skills instead of run as disconnected one-offs. This is the general work loop for any marketing unit — one-off or recurring. For the scheduling/automation mechanics of running this loop on a cadence, see marketing-loops. For the rigorous, statistically-driven version of the Optimise stage specifically, see ab-testing."
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Compound Marketing
@@ -19,7 +19,7 @@ This skill closes that loop. It's the marketing translation of **compounding eng
 
 | Stage | What happens | Skills it orchestrates |
 |-------|---------------|-------------------------|
-| **Brief** | Define the outcome metric (the real one, not a proxy), audience, channel, and constraints. Read `marketing-strategy` and the learnings file (below) first — don't brief blind. | `marketing-strategy`, `marketing-ideas` (if starting from nothing), `growth-playbooks` (if reaching for a proven, compounding loop mechanic rather than a one-off tactic), `customer-research` |
+| **Brief** | Define the outcome metric (the real one, not a proxy), audience, channel, and constraints. Read `marketing-strategy` and the learnings file (below) first — don't brief blind. | `marketing-strategy`, `marketing-ideas` (if starting from nothing), `growth-playbooks` (if reaching for a proven, compounding loop mechanic rather than a one-off tactic), `specialist-lenses` (if a narrow-domain specialist's framework fits the problem), `customer-research` |
 | **Draft** | Produce the actual asset. | `copywriting`, `ad-creative`, `emails`, `social`, `pos-marketing`, `sms`, or whichever channel skill fits |
 | **Execute** | Stage for approval and ship. Never auto-publish without explicit authorization — see `marketing-loops`' two-tier action model (`references/loop-guardrails.md`) for the Tier 1 (autonomous-safe) vs. Tier 2 (gated) split. | The channel skill's own publishing step, `marketing-council` (Boardroom mode) as an optional pre-ship pressure-test |
 | **Analyse** | Read what actually happened — the outcome metric from Brief, not whatever's easiest to pull. | `analytics`, `attribution` (apply the incrementality checkpoint — would this have happened anyway?) |
@@ -87,5 +87,6 @@ This loop reuses guardrail thinking already established there rather than invent
 - **marketing-council**: Boardroom mode is a natural pre-Execute gate — a multi-advisor review of the finished Draft before it ships.
 - **marketing-ideas**: A good input to Brief when starting from nothing rather than from a known gap.
 - **growth-playbooks**: A good input to Brief when the goal is a proven, compounding growth mechanic (a referral loop, a flywheel, a loyalty program) rather than a one-off tactic — pick the mechanic there, run it through this loop.
+- **specialist-lenses**: A good input to Brief when a narrow-domain specialist's public framework (CRO, AI search, loyalty, retail media, and a growing roster) applies directly to the problem.
 - **analytics** / **attribution**: The Analyse stage's toolkit — measurement setup and the incrementality checkpoint (would this have happened anyway?).
 - **cro** / **copy-editing**: Common Optimise-stage actions once a real gap is identified.

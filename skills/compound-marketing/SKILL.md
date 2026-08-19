@@ -2,7 +2,7 @@
 name: compound-marketing
 description: "When the user wants to run a marketing unit of work — a campaign, page, email, ad, or launch — so that it makes the next one easier instead of starting from scratch. Also use when the user mentions 'compound marketing,' 'compounding engineering for marketing,' 'brief draft execute analyse optimise,' 'marketing learnings,' 'don't repeat the same mistake,' 'apply what we learned,' 'marketing operating system,' or wants briefing, drafting, execution, analysis, and optimization tied together across channels/skills instead of run as disconnected one-offs. This is the general work loop for any marketing unit — one-off or recurring. For the scheduling/automation mechanics of running this loop on a cadence, see marketing-loops. For the rigorous, statistically-driven version of the Optimise stage specifically, see ab-testing."
 metadata:
-  version: 1.2.0
+  version: 1.3.0
 ---
 
 # Compound Marketing
@@ -60,11 +60,15 @@ One artifact, written once at Brief time, that every channel's Draft stage reads
 - **Featured products** — the specific SKUs this campaign is built around, so the website hero, the ad creative, the eDM, and the POS display all lead with the same products instead of each channel picking its own.
 - **Visual direction** — a pointer to `brand-guidelines`, plus anything campaign-specific (a seasonal palette, a limited-time motif) layered on top of the standing brand identity.
 
+**Canonical path: `.agents/campaigns/<campaign-slug>.md`** — one file per campaign (gitignored, same as the learnings and expert-notes files), created from `references/campaign-brief-template.md` on the first Brief step of a multi-channel campaign. The date range in the brief is what makes this checkable automatically: any channel skill can look in `.agents/campaigns/` for a brief whose dates cover now (or the work at hand) without anyone having to announce "this is part of the spring campaign." A campaign that's wrapped stays in the directory as a record — the learnings file is where its outcome gets written up, this file is just the brief itself.
+
 See `references/campaign-brief-template.md` for the fill-in template and a worked example.
 
 ### The Cross-Channel Consistency Check
 
-Before Execute stages or ships anything, check every channel's draft against the Campaign Brief on all four dimensions above. This is a fast check for drift, not a full review of each draft's quality — a different offer end date on one channel, a hero product missing from one channel's creative, messaging that's technically on-brand but tells a different story than the other channels. Catching this here is cheaper than a customer noticing the website says one thing and the in-store sign says another.
+**This runs automatically, not on request.** Every channel-execution skill this repo ships (`ads`, `ad-creative`, `emails`, `sms`, `social`, `pos-marketing`, `copywriting`) checks `.agents/campaigns/` for an active brief as a standing step before drafting — the same way every skill already checks `marketing-strategy.md` and `marketing-learnings.md` without being asked to. Nobody has to remember to trigger this at finalization; it's checked at the start of the work instead, which also catches drift before it's created rather than after.
+
+Before Execute stages or ships anything, check every channel's draft against the Campaign Brief on all four dimensions above as a final pass. This is a fast check for drift, not a full review of each draft's quality — a different offer end date on one channel, a hero product missing from one channel's creative, messaging that's technically on-brand but tells a different story than the other channels. Catching this here is cheaper than a customer noticing the website says one thing and the in-store sign says another. If no `.agents/campaigns/` brief exists for the work at hand, this check is a no-op — it doesn't block single-channel work or campaigns nobody chose to brief formally.
 
 **`pos-marketing` is not optional in this check** for any retailer with physical stores — it's the channel most likely to get left out of a digital-first consistency pass, and the one customers experience closest to the moment of purchase.
 

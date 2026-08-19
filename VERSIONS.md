@@ -23,7 +23,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | competitor-profiling | 2.0.1 | 2026-08-18 |
 | competitors | 2.0.2 | 2026-08-18 |
 | compliance | 1.0.1 | 2026-08-18 |
-| compound-marketing | 1.1.1 | 2026-08-19 |
+| compound-marketing | 1.2.0 | 2026-08-19 |
 | content-strategy | 2.0.1 | 2026-08-18 |
 | copy-editing | 2.0.1 | 2026-08-18 |
 | copywriting | 2.0.2 | 2026-08-18 |
@@ -55,7 +55,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | overstock | 1.0.1 | 2026-08-18 |
 | paywalls | 2.0.1 | 2026-08-18 |
 | popups | 2.0.1 | 2026-08-18 |
-| pos-marketing | 1.0.1 | 2026-08-18 |
+| pos-marketing | 1.0.2 | 2026-08-19 |
 | price-elasticity | 1.0.1 | 2026-08-18 |
 | pricing | 2.2.1 | 2026-08-18 |
 | product-feed | 1.0.1 | 2026-08-18 |
@@ -79,12 +79,18 @@ Current versions of all skills. Agents can compare against local versions to che
 | social | 2.3.1 | 2026-08-18 |
 | storytelling | 1.0.1 | 2026-08-18 |
 | supplier-funded-marketing | 1.0.1 | 2026-08-18 |
-| tentpole-campaign | 1.0.1 | 2026-08-18 |
+| tentpole-campaign | 1.1.0 | 2026-08-19 |
 | trade-marketing | 1.0.1 | 2026-08-18 |
 | video | 2.1.1 | 2026-08-18 |
 | visual-merchandising | 1.0.1 | 2026-08-18 |
 
 ## Recent Changes
+
+### 2.23.2 (2026-08-19)
+
+- **compound-marketing** (1.1.1 → 1.2.0): added a **Multi-Channel Campaigns** section closing a real gap — the loop had no mechanism for keeping messaging, offer terms, featured products, and visual direction consistent across channels running the same campaign at once. Introduces the **Campaign Brief** (one artifact every channel's Draft stage reads from, covering the message traced to `marketing-strategy`, the offer traced to `offers`/`discount-and-clearance`, the specific featured SKUs, and visual direction from `brand-guidelines`) and the **Cross-Channel Consistency Check** run before Execute ships anything — a fast drift check, not a full review, explicitly calling out `pos-marketing` as the channel most likely to get left out of a digital-first pass despite being closest to the actual purchase. New `references/campaign-brief-template.md` (fill-in prompts + a worked Spring Clearance Weekend example, matching the repo's established template pattern). For tentpole-scale campaigns specifically, points to `tentpole-campaign`'s heavier version of the same discipline rather than duplicating it.
+- **tentpole-campaign** (1.0.1 → 1.1.0): its Cross-Channel Orchestration section covered message and creative alignment but not offer terms or featured-product consistency, and its channel list (`ads`/`social`/`public-relations`/`emails`/`sms`) omitted `pos-marketing` entirely despite in-store signage being explicitly retail-relevant to this repo. Added both gaps directly, and pointed to `compound-marketing`'s new Campaign Brief template as the actual working document that carries these decisions to channel teams.
+- **pos-marketing** (1.0.1 → 1.0.2): added a `compound-marketing` cross-reference for the same reason — in-store signage needs to be an explicit participant in cross-channel consistency checks, not an afterthought.
 
 ### 2.23.1 (2026-08-19)
 

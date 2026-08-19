@@ -2,7 +2,7 @@
 name: compound-marketing
 description: "When the user wants to run a marketing unit of work — a campaign, page, email, ad, or launch — so that it makes the next one easier instead of starting from scratch. Also use when the user mentions 'compound marketing,' 'compounding engineering for marketing,' 'brief draft execute analyse optimise,' 'marketing learnings,' 'don't repeat the same mistake,' 'apply what we learned,' 'marketing operating system,' or wants briefing, drafting, execution, analysis, and optimization tied together across channels/skills instead of run as disconnected one-offs. This is the general work loop for any marketing unit — one-off or recurring. For the scheduling/automation mechanics of running this loop on a cadence, see marketing-loops. For the rigorous, statistically-driven version of the Optimise stage specifically, see ab-testing."
 metadata:
-  version: 1.1.1
+  version: 1.2.0
 ---
 
 # Compound Marketing
@@ -47,6 +47,29 @@ Not every unit of work earns all six stages:
 - **A recurring check** (weekly ranking scan, ad-fatigue watch) is this loop running on a schedule — hand it to `marketing-loops` rather than re-running Brief from scratch every time. `marketing-loops`' nine-part loop anatomy (cadence, acts-when, self-check, state) is the scheduling layer; this skill is the work-shape underneath it.
 - **A single A/B test in isolation** is the Optimise stage done rigorously — go straight to `ab-testing` when that's the whole task.
 
+## Multi-Channel Campaigns
+
+When a campaign runs across more than one channel at once (website + POS + ads + eDM + in-store, or any subset), the loop needs one more thing: a single **Campaign Brief** every channel drafts from, and a **Cross-Channel Consistency Check** before anything ships. Without both, each channel's Draft stage runs independently and drifts — a different headline on the eDM than the ad, a different discount deadline on the POS sign than the website banner, a homepage hero featuring different products than the email.
+
+### The Campaign Brief
+
+One artifact, written once at Brief time, that every channel's Draft stage reads before producing anything:
+
+- **The message** — the one core claim/hook, traced back to `marketing-strategy`'s positioning (Sections 5/6) — not each channel inventing its own angle.
+- **The offer** — if there is one: terms, depth, dates, and where it does and doesn't apply. Traces to `offers` or `discount-and-clearance`.
+- **Featured products** — the specific SKUs this campaign is built around, so the website hero, the ad creative, the eDM, and the POS display all lead with the same products instead of each channel picking its own.
+- **Visual direction** — a pointer to `brand-guidelines`, plus anything campaign-specific (a seasonal palette, a limited-time motif) layered on top of the standing brand identity.
+
+See `references/campaign-brief-template.md` for the fill-in template and a worked example.
+
+### The Cross-Channel Consistency Check
+
+Before Execute stages or ships anything, check every channel's draft against the Campaign Brief on all four dimensions above. This is a fast check for drift, not a full review of each draft's quality — a different offer end date on one channel, a hero product missing from one channel's creative, messaging that's technically on-brand but tells a different story than the other channels. Catching this here is cheaper than a customer noticing the website says one thing and the in-store sign says another.
+
+**`pos-marketing` is not optional in this check** for any retailer with physical stores — it's the channel most likely to get left out of a digital-first consistency pass, and the one customers experience closest to the moment of purchase.
+
+**For a major, calendar/cultural-moment campaign specifically**, `tentpole-campaign`'s Cross-Channel Orchestration section covers this same discipline at that campaign's scale — use that skill directly when the campaign is tentpole-sized; use this section's lighter version for an ordinary multi-channel promotion.
+
 ## The Learnings File
 
 Canonical path: **`.agents/marketing-learnings.md`**. One growing document, newest entries first — the same pattern `marketing-strategy.md` already uses for its own Changelog, so it's one convention across the repo, not two.
@@ -90,3 +113,5 @@ This loop reuses guardrail thinking already established there rather than invent
 - **specialist-lenses**: A good input to Brief when a narrow-domain specialist's public framework (CRO, AI search, loyalty, retail media, and a growing roster) applies directly to the problem.
 - **analytics** / **attribution**: The Analyse stage's toolkit — measurement setup and the incrementality checkpoint (would this have happened anyway?).
 - **cro** / **copy-editing**: Common Optimise-stage actions once a real gap is identified.
+- **tentpole-campaign**: The heavier-weight version of this skill's Multi-Channel Campaigns section, for a major calendar/cultural-moment campaign specifically.
+- **brand-guidelines** / **offers** / **pos-marketing**: The three sources a Campaign Brief traces back to — visual identity, offer construction, and the physical-retail channel most likely to get left out of a digital-first consistency check.

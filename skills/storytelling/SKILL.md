@@ -2,7 +2,7 @@
 name: storytelling
 description: "When the user wants to construct a brand, founder, product, or customer narrative — the underlying story arc, not the finished page copy. Also use when the user mentions 'storytelling,' 'brand story,' 'narrative,' 'founder story,' 'origin story,' 'story arc,' 'narrative framework,' 'tell a story,' or 'case study story.' This is the narrative-construction layer that feeds copywriting (page-level execution), video (script/production), social (carousel/post narrative), tentpole-campaign (brand campaign story), and public-relations (press narrative) — it doesn't write the finished page itself. For the finished page copy itself, see copywriting; for a video script's production, see video."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Storytelling

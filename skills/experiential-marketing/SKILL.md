@@ -2,7 +2,7 @@
 name: experiential-marketing
 description: "When the user wants to plan an in-person event, activation, or demo — in-store demos, trade show booths, roadshows, pop-up shops, or community workshops. Also use when the user mentions 'experiential marketing,' 'in-store demo,' 'trade show booth,' 'roadshow,' 'pop-up shop,' 'brand activation,' 'live event,' 'product demo event,' or 'mobile activation.' This covers physical, in-person marketing events — distinct from community-marketing, which covers online communities (Discord/Slack/forums), and from tentpole-campaign, which covers a major calendar-moment brand campaign that may or may not include a physical event component. For the sales collateral used at an event, see sales-enablement. For the retail-buyer relationship a trade show sell-in serves, see trade-marketing."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Experiential Marketing

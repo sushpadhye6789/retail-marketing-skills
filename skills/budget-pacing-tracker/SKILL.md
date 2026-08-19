@@ -2,7 +2,7 @@
 name: budget-pacing-tracker
 description: "When the user wants to track whether actual spend is on pace against a planned budget within a period, catch over/underspending early, or set up a recurring pacing check. Also use when the user mentions 'budget pacing,' 'spend pacing,' 'are we on pace,' 'burn rate,' 'budget tracking,' 'overspending,' 'underspending,' 'monthly spend pace,' or 'pacing report.' Scope note: budget-allocation decides how much a channel or campaign gets for a period; this skill tracks whether actual spend within that period is tracking to plan at the right rate over time, and flags it early if not. This skill assumes budget-allocation's split already exists — it doesn't re-decide the allocation itself."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Budget Pacing Tracker

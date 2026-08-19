@@ -2,7 +2,7 @@
 name: programmatic
 description: "When the user wants to plan or optimize programmatic media buying — automated, auction-based ad buying across display, video, CTV/OTT, or audio inventory through a demand-side platform (DSP). Also use when the user mentions 'programmatic,' 'DSP,' 'demand-side platform,' 'real-time bidding,' 'RTB,' 'The Trade Desk,' 'DV360,' 'private marketplace,' 'PMP,' 'programmatic guaranteed,' 'CTV advertising,' 'connected TV ads,' 'header bidding,' 'ad exchange,' or 'open exchange buying.' This is distinct from ads, which covers buying directly on walled-garden platforms (Google, Meta, LinkedIn) through their own ad managers — programmatic means buying inventory across the open web/app/CTV ecosystem through a DSP, often from publishers you don't have a direct relationship with. For the physical-world, place-based counterpart, see digital-out-of-home. For the retailer-owned-inventory counterpart, see retail-media."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Programmatic Media Buying

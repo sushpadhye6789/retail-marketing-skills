@@ -1,0 +1,53 @@
+{
+  "skill_name": "product-feed",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Our Shopping ads just aren't converting well. We think we need to raise bids or rewrite the ad copy.",
+      "expected_output": "Should redirect first to checking the feed before touching bidding or campaign creative, per the skill's core philosophy that most 'why isn't Shopping working' problems are feed problems, not bidding or creative problems. Should ask about titles, images, identifiers, category mapping, and price/availability sync accuracy before assuming the campaign layer is the issue.",
+      "assertions": [
+        "Redirects to checking the feed before recommending bid or ad-copy changes",
+        "Explains that feed quality is diagnosed differently from and often precedes bidding/creative issues",
+        "Asks about specific feed quality dimensions (titles, images, identifiers, sync)",
+        "Does not jump straight to bidding or creative fixes"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Can you write catchy, punchy titles for our Shopping feed like 'The Best Earbuds You'll Ever Own'?",
+      "expected_output": "Should push back on a marketing-tagline-style title and explain that Shopping titles are matched against search queries, not judged as persuasive ad copy — recommend front-loading brand + product type + key differentiating attribute instead (the skill's own earbuds example). Should warn against ALL-CAPS and keyword-stuffing as both a policy risk and a poor-matching outcome.",
+      "assertions": [
+        "Pushes back on a tagline-style title as poor Shopping search matching",
+        "Recommends the brand + product type + key attribute title structure",
+        "Explains titles are matched to search queries, not judged as ad copy",
+        "Warns against keyword-stuffing/ALL-CAPS"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Half our SKUs are handmade one-off items with no GTINs. Can we just claim the identifier exemption for our whole catalog to be safe?",
+      "expected_output": "Should distinguish which products genuinely qualify for the identifier exemption (unique/custom/handmade goods) from those that don't, and warn against claiming an exemption for products that don't actually qualify, since misuse risks the whole feed's standing, not just the affected items. Should recommend providing real identifiers wherever the product actually has them.",
+      "assertions": [
+        "Distinguishes genuinely exemption-eligible products from those that aren't",
+        "Warns against blanket-claiming the exemption across the whole catalog",
+        "Explains the risk to the whole feed's standing from misuse",
+        "Recommends real identifiers wherever they genuinely exist"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We sell through dealers in most regions. Should we aggressively push our own Shopping feed everywhere?",
+      "expected_output": "Should flag that an aggressive feed/Shopping presence can compete directly with dealer listings for the same product where a dealer network exists, referencing marketing-strategy's distribution-model-guide. Should frame this as a strategic decision to make explicitly rather than a default, and ask about the distribution model before recommending an aggressive rollout.",
+      "assertions": [
+        "Flags the risk of competing with dealer listings via an aggressive feed presence",
+        "References the distribution-model-guide / dealer network context",
+        "Frames this as a deliberate strategic decision, not a default",
+        "Asks about distribution model before recommending an aggressive rollout"
+      ],
+      "files": []
+    }
+  ]
+}

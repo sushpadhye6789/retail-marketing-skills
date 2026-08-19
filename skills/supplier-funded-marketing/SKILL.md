@@ -2,7 +2,7 @@
 name: supplier-funded-marketing
 description: "When the user wants help with marketing development funds (MDF) or co-op advertising — either requesting and using funds a supplier/manufacturer provides, or designing and administering a program that funds a dealer network's marketing. Also use when the user mentions 'MDF,' 'marketing development funds,' 'co-op advertising,' 'co-op marketing,' 'vendor funded marketing,' 'supplier funded marketing,' 'dealer marketing funds,' 'co-op claim,' or 'brand compliance funds.' Covers both directions of the channel — a business can be receiving funds from its own suppliers and providing funds to its own dealers at the same time; establish which direction a given task is about before proceeding."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Supplier-Funded Marketing

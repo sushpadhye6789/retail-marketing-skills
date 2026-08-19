@@ -2,7 +2,7 @@
 name: tentpole-campaign
 description: "When the user wants to plan a major brand campaign tied to a calendar moment, cultural moment, or brand-owned milestone — a holiday campaign, an anniversary campaign, a flagship seasonal push. Also use when the user mentions 'tentpole campaign,' 'brand campaign,' 'seasonal campaign,' 'holiday campaign,' 'flagship campaign,' 'anniversary campaign,' or 'brand moment.' This is different from a promo/discount campaign — a tentpole leads with brand story and awareness, even when it wraps around a commercial moment like Black Friday; for the discount mechanics of a promotional sale event, see discount-and-clearance and offers. For a new-product go-to-market moment, see launch. For where this sits in the broader dated marketing calendar, see marketing-plan."
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Tentpole Campaign

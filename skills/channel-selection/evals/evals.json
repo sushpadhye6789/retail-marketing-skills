@@ -1,0 +1,53 @@
+{
+  "skill_name": "channel-selection",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "TikTok is huge right now. We should probably be on it too, right?",
+      "expected_output": "Should not default to entering a channel just because it's trendy or a competitor might be there. Should walk through the selection criteria (audience fit, product fit, brand tier fit, distribution-model fit, competitive presence, resource fit) before recommending entry. Should ask whether the target audience actually spends meaningful time there and whether the team has the capability to execute it well, per the Common Mistakes warning against entering a channel just because it's trendy.",
+      "assertions": [
+        "Does not default to recommending entry just because the channel is trendy",
+        "Applies the named selection criteria (audience fit, product fit, tier fit, resource fit, etc.)",
+        "Asks about audience presence and execution capability specifically",
+        "Flags the risk of entering without genuine fit"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're a luxury watch brand and our team wants to run aggressive direct-response paid social. Good idea?",
+      "expected_output": "Should flag the brand-tier fit concern directly — a channel that works well for direct response isn't automatically right if its native aesthetic conflicts with luxury positioning. Should reference marketing-strategy Section 14 / brand-tier-guide.md, and note that a luxury brand's deliberately limited direct-response paid social presence is a channel-selection decision, not a missed opportunity, per the skill's explicit example.",
+      "assertions": [
+        "Flags the brand-tier conflict between aggressive direct-response social and luxury positioning",
+        "References marketing-strategy Section 14 / brand-tier-guide.md",
+        "Uses the skill's own framing that limited presence can be a deliberate choice, not an oversight",
+        "Does not simply approve the aggressive approach without raising the tier concern"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We want to test a new channel — YouTube Shorts ads. How do we know if it's actually working before committing real budget?",
+      "expected_output": "Should apply the New Channel Evaluation Framework: state the hypothesis first, define numeric graduation criteria (target CPA, minimum volume, timeframe) up front before spending, time-box and budget-cap the test, and graduate or exit strictly on the pre-defined criteria rather than sentiment. Should warn against deciding graduation criteria after seeing results, which invites motivated reasoning.",
+      "assertions": [
+        "Recommends stating a hypothesis before spending",
+        "Recommends defining numeric graduation criteria up front, before results come in",
+        "Recommends time-boxing and budget-capping the test",
+        "Warns against deciding criteria after the fact or graduating on sentiment"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We sell through a strong dealer network. Should we push hard into paid Shopping/PMax for our own site?",
+      "expected_output": "Should flag the distribution-model fit concern — a candidate channel like aggressive paid Shopping/PMax can create channel conflict with dealer relationships rather than incremental reach. Should reference marketing-strategy's distribution-model-guide.md and recommend checking whether this would compete with dealer listings before entering aggressively, rather than treating it as a purely additive channel decision.",
+      "assertions": [
+        "Flags the distribution-model/dealer-conflict risk explicitly",
+        "References distribution-model-guide.md",
+        "Recommends checking for channel conflict with dealers before proceeding",
+        "Does not treat the channel as purely incremental without this check"
+      ],
+      "files": []
+    }
+  ]
+}

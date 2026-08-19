@@ -2,7 +2,7 @@
 name: digital-out-of-home
 description: "When the user wants to plan out-of-home (OOH) or digital out-of-home (DOOH) advertising — billboards, transit ads, place-based screens, or programmatically-bought digital signage reaching people in the physical world. Also use when the user mentions 'out of home,' 'OOH,' 'DOOH,' 'billboard,' 'transit advertising,' 'digital billboard,' 'street furniture,' 'place-based media,' 'programmatic DOOH,' 'pDOOH,' or 'airport/mall/gym advertising.' This covers both traditional static OOH and programmatically-bought digital OOH. For the buying mechanics that apply once DOOH is bought through a DSP, see programmatic. For the point-of-purchase counterpart inside a store, see pos-marketing."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Digital Out-of-Home (DOOH) & Out-of-Home (OOH)

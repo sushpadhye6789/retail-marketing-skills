@@ -2,7 +2,7 @@
 name: local-marketing
 description: "When the user wants to market a physical store location, dealer, or multi-location business to people searching or browsing nearby. Also use when the user mentions 'local marketing,' 'Google Business Profile,' 'GBP,' 'Google My Business,' 'near me,' 'local SEO,' 'store locator,' 'local search,' 'geo-targeted campaign,' 'hyperlocal,' 'multi-location marketing,' or 'store visibility.' This covers driving discovery of and visits to a specific physical location — distinct from seo-audit/ai-seo, which cover general organic search strategy, and from pos-marketing, which covers materials inside the store once someone has already arrived. For paid advertising inside a retailer's own platform, see retail-media."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Local Marketing

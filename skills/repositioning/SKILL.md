@@ -2,7 +2,7 @@
 name: repositioning
 description: "When a material positioning change has just been made in marketing-strategy and the user needs to know everything else that now needs to be revisited as a result. Also use when the user mentions 'repositioning,' 'we changed our positioning,' 'positioning change,' 'rebrand rollout,' 'update everything for our new positioning,' or 'positioning cascade.' This skill does not do the positioning work itself — that happens in marketing-strategy, using references/positioning-methodology.md. This skill activates after that change is captured and produces a prioritized audit of every customer-facing and internal surface that was built on the old positioning and now needs updating, sequenced by exposure risk."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Repositioning

@@ -2,7 +2,7 @@
 name: media-plan
 description: "When the user wants to build a media plan — sequencing and weighting paid media across channels, over time, to hit a reach and frequency goal. Also use when the user mentions 'media plan,' 'media planning,' 'reach and frequency,' 'flighting,' 'GRPs,' 'TRPs,' 'media calendar,' 'channel weighting,' 'media mix,' or 'how should we phase this campaign across channels.' This sits below channel-selection (which channels are eligible at all) and budget-allocation (how much total budget and its high-level split) and above individual channel execution (ads, social, programmatic, etc.) — it answers how much reach/frequency you need, which channels carry which role, and how the buy is sequenced over the flight. Commonly used for a tentpole-campaign or launch, but applies to any large, time-bound, multi-channel push."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Media Plan

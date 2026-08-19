@@ -2,7 +2,7 @@
 name: budget-allocation
 description: "When the user wants to size a total marketing budget or decide how to split it across channels/campaigns, including reallocating an existing budget based on performance. Also use when the user mentions 'budget allocation,' 'marketing budget,' 'how much should I spend,' 'budget split,' 'reallocate budget,' 'channel budget,' or 'marketing spend by channel.' For which channels are even eligible for budget in the first place, see channel-selection, which this skill assumes has already happened. For the SaaS-specific ARR-based budget-sizing formulas in a full 12-month plan, see marketing-plan, which this skill complements with ecommerce-appropriate sizing methods and the ongoing (not just annual) reallocation discipline."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Budget Allocation

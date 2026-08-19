@@ -2,7 +2,7 @@
 name: channel-selection
 description: "When the user wants to decide which marketing channels to be in — not how much to spend on each (see budget-allocation) or how to run a specific channel (see ads, social, emails, etc.), but whether a channel belongs in the mix at all. Also use when the user mentions 'channel selection,' 'channel strategy,' 'channel mix,' 'which channels should we use,' 'where should we market,' or 'should we try [channel].' For picking a specific ad platform within paid media once paid is already the chosen channel, see ads' narrower Platform Selection Guide. For evaluating a new channel test before committing real budget, this skill's graduation-criteria framework applies before ads/social/etc.'s own execution playbooks do."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Channel Selection

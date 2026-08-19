@@ -1,0 +1,53 @@
+{
+  "skill_name": "retail-media",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Our Amazon Sponsored Products ads aren't converting well even though our bids are competitive. What's wrong?",
+      "expected_output": "Should ask whether the listing is winning the Buy Box before assuming a bid problem — paid placement typically drives to the Buy Box winner's offer, so advertising while losing the Buy Box largely wastes the spend. Should also check product listing content quality (title, images, backend search terms) since organic ranking and conversion rate feed into visibility too, not just paid bid competitiveness.",
+      "assertions": [
+        "Asks about Buy Box win rate before assuming a pure bidding issue",
+        "Explains that advertising while losing the Buy Box wastes spend",
+        "Checks listing content quality as a contributing factor, not just bids",
+        "Does not treat this as purely a bid-competitiveness problem"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're getting a lot of reviews requests going unanswered — should we just offer a discount code for leaving a 5-star review to speed things up?",
+      "expected_output": "Should refuse to recommend incentivizing specifically for positive reviews, flagging this as a platform policy violation that risks account-level consequences far larger than any single listing's benefit. Should recommend platform-compliant review-generation methods instead (post-purchase review requests through the platform's own tools) and note review velocity/recency matters, not just volume.",
+      "assertions": [
+        "Refuses to recommend incentivizing positive-only reviews",
+        "Flags the account-level policy risk explicitly",
+        "Recommends compliant review-generation methods instead",
+        "Notes review velocity/recency as the legitimate goal"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We sell exclusively DTC through our own site, no marketplaces. Do we need a retail media strategy?",
+      "expected_output": "Should check the distribution model and recognize that retail media is only relevant to the extent the business also lists on a marketplace — for an ecom-only, no-marketplace business, this channel largely doesn't apply. Should redirect to channel-selection to confirm whether a marketplace presence is even in the mix rather than forcing a retail media plan onto a business without a marketplace presence.",
+      "assertions": [
+        "Recognizes retail media doesn't apply without a marketplace/retailer presence",
+        "Checks distribution model before recommending a retail media strategy",
+        "Redirects to channel-selection for whether a marketplace is even in the mix",
+        "Does not force a retail media plan onto a pure DTC-only business"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Our on-platform attributed sales from Sponsored Products look great. Should we scale spend aggressively?",
+      "expected_output": "Should caution that on-platform attributed sales, while more trustworthy than open-web attribution due to the closed-loop nature, aren't automatically incremental — a shopper who was going to buy anyway still counts as a conversion. Should recommend checking halo/incremental measurement where the retailer offers it before scaling aggressively, applying the same discipline attribution uses for a holdout test.",
+      "assertions": [
+        "Notes on-platform attribution is more trustworthy but not automatically incremental",
+        "Recommends checking halo/incremental measurement before scaling",
+        "References attribution's incrementality discipline",
+        "Does not endorse aggressive scaling based on attributed sales alone"
+      ],
+      "files": []
+    }
+  ]
+}

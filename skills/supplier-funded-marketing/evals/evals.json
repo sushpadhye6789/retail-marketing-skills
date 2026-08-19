@@ -1,0 +1,53 @@
+{
+  "skill_name": "supplier-funded-marketing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We already ran the campaign and spent the money. Now we want to submit a claim to get reimbursed by our supplier's co-op program.",
+      "expected_output": "Should flag that pre-approval is usually required before spending, not after, and that spend which skipped pre-approval is often non-reimbursable regardless of how compliant the creative turned out to be. Should ask whether pre-approval was actually obtained before the spend, and warn this specific claim may be at real risk of rejection.",
+      "assertions": [
+        "Flags that pre-approval is typically required before spending, not after",
+        "Warns the claim may be non-reimbursable due to missing pre-approval",
+        "Asks whether pre-approval was actually secured before spend happened",
+        "Does not assume the claim will be approved just because creative is compliant"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're a supplier and want to launch an MDF program. Should we just give every dealer a flat amount regardless of how much they buy from us?",
+      "expected_output": "Should walk through the fund structure options (accrual-based, flat allocation, matching funds, and the franchise national ad fund) and explain their different incentive effects rather than defaulting to flat allocation. Should ask what behavior the program is actually meant to encourage before recommending a structure, noting flat allocation is simpler to administer but less tied to dealer performance.",
+      "assertions": [
+        "Presents multiple fund structure options, not just flat allocation",
+        "Explains the different incentive effects of each structure",
+        "Asks what behavior the program should encourage before recommending one",
+        "Notes the tradeoff of flat allocation specifically (simplicity vs. no performance link)"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Our co-op-funded campaign got approved and paid out three months ago. Can we delete the tearsheets and invoices now to clean up our files?",
+      "expected_output": "Should warn against deleting the proof-of-performance documentation, explaining that many programs reserve the right to audit funded claims after payment and claw back funds found non-compliant, even after initial approval and reimbursement. Should recommend retaining records for the program's stated audit window or a reasonable default if none is stated.",
+      "assertions": [
+        "Warns against deleting proof-of-performance documentation after payment",
+        "Explains the post-payment audit/clawback risk explicitly",
+        "Recommends retaining records for the program's audit window",
+        "Does not simply endorse deleting the files"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We're funded by three different suppliers and just reused one supplier's approved ad template for a campaign funded by a different supplier to save time. Is that a problem?",
+      "expected_output": "Should flag this as a common, specific compliance mistake — conflating multiple suppliers' programs (using one supplier's approved creative template for another's funded campaign) — named explicitly in the skill's Multi-supplier coordination guidance. Should recommend tracking each program's rules, deadlines, and compliance requirements separately.",
+      "assertions": [
+        "Flags reusing one supplier's template for another's funded campaign as a compliance mistake",
+        "References the multi-supplier coordination guidance explicitly",
+        "Recommends tracking each supplier's requirements separately",
+        "Does not treat this as a harmless shortcut"
+      ],
+      "files": []
+    }
+  ]
+}

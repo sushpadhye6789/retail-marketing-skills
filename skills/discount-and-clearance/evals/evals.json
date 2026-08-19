@@ -1,0 +1,53 @@
+{
+  "skill_name": "discount-and-clearance",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We have a bunch of aging inventory we need to clear out with a big sale.",
+      "expected_output": "Should recognize the trigger is excess/aging inventory specifically and redirect to overstock first, since it handles the diagnosis (why it's stuck) and disposition-channel decision before this skill's mechanics apply. Should explain that using this skill alone for an overstock situation skips the diagnosis that determines whether a public discount is even the right move.",
+      "assertions": [
+        "Recognizes the inventory trigger and redirects to overstock first",
+        "Explains why the overstock diagnosis needs to happen before discount mechanics",
+        "Does not jump straight into sizing/structuring the sale without that diagnosis",
+        "Notes this skill picks up only after overstock's disposition decision"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're a premium brand. Marketing wants to run a public 40% off flash sale this weekend. What should we know?",
+      "expected_output": "Should flag the brand-tier sensitivity of a deep public discount for a premium brand, referencing brand-tier-guide.md, and note it could meaningfully damage positioning even though it's routine for a budget brand. Should also raise the distribution-model/MAP angle if dealers are involved, and suggest tier-appropriate alternatives like loyalty-tier early access or a more restrained approach.",
+      "assertions": [
+        "Flags the brand-tier risk of a deep public discount for a premium brand",
+        "References brand-tier-guide.md's discounting row",
+        "Raises the MAP/distribution-model consideration if relevant",
+        "Suggests a tier-appropriate alternative (e.g., loyalty-tier early access)"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "This item isn't discontinued, just slow this month, but let's say 'last chance, gone forever' to create urgency.",
+      "expected_output": "Should refuse to recommend false 'last chance' urgency messaging for something that will restock, flagging this as the exact fake-scarcity pattern the skill explicitly warns against. Should explain that customers who feel misled by clearance messaging are unlikely to buy at full price later, and recommend messaging matched to the real reason instead (a calendar event framing or genuine discount, not false permanence).",
+      "assertions": [
+        "Refuses to endorse false 'last chance' messaging for restocking inventory",
+        "Explains the trust-damage consequence of misleading urgency",
+        "Matches recommended messaging to the real (non-permanent) reason",
+        "References the fake-scarcity guidance explicitly"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We run a discount event almost every month now because it always drives a sales bump. Any concerns?",
+      "expected_output": "Should flag the 'everything's always on sale' trap — frequent discounting teaches price-sensitive customers to wait for the next sale, effectively lowering the real full price permanently. Should ask about brand tier (this matters more for mid-market/premium than budget) and recommend checking whether the recurring trigger is actually an inventory/forecasting problem that should be routed back through overstock.",
+      "assertions": [
+        "Flags the risk of training customers to wait for sales",
+        "Explains the tier-dependent severity of this risk",
+        "Recommends checking whether the recurring cause is really an inventory/forecasting issue",
+        "Recommends routing a recurring inventory cause back to overstock"
+      ],
+      "files": []
+    }
+  ]
+}

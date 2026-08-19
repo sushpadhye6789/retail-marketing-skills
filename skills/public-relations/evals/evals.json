@@ -1,0 +1,53 @@
+{
+  "skill_name": "public-relations",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're pre-launch, don't really have a story yet beyond 'we're building something new,' and nobody on the team has time to pitch journalists for the next couple months. Should we start a PR push now?",
+      "expected_output": "Should recommend skipping PR for now, matching the skill's explicit 'When to skip PR' criteria — no story beyond 'we exist' and no sustained team capacity for the multi-week pitching effort PR requires. Should explain PR is a momentum game and suggest revisiting once there's a real story and dedicated time.",
+      "assertions": [
+        "Recommends skipping PR for now rather than starting a push",
+        "References the specific 'no story yet' and 'no sustained capacity' criteria",
+        "Explains PR requires sustained momentum, not a one-off effort",
+        "Suggests revisiting once conditions change"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Draft me a pitch email calling our product 'revolutionary' and 'a total game-changer for the industry.'",
+      "expected_output": "Should push back on using 'revolutionary' and 'game-changing,' referencing the explicit Pitch Quality Bar checklist that flags these exact words. Should redirect toward a more specific, newsworthy hook the journalist could actually build a story from, keeping the pitch under 150 words.",
+      "assertions": [
+        "Pushes back on the flagged buzzwords 'revolutionary'/'game-changing'",
+        "References the pitch quality bar checklist explicitly",
+        "Redirects toward a specific, concrete news hook instead",
+        "Notes the under-150-word guideline"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Sales are up nicely this month right after a nice press placement. Should we credit the placement and budget more toward PR next quarter?",
+      "expected_output": "Should caution against assuming the sales bump was caused by the placement alone — seasonality, a concurrent paid push, or an unrelated launch could produce the same bump. Should recommend checking brand search lift as a better (though still proxy) signal, and applying the incrementality-checkpoint discipline before sizing next quarter's PR budget off this single data point.",
+      "assertions": [
+        "Cautions against assuming causation from the sales bump alone",
+        "Names other plausible explanations (seasonality, concurrent campaigns)",
+        "Recommends brand search lift as a better proxy signal",
+        "References the incrementality-checkpoint before committing budget"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "A journalist just reached out asking about a complaint that's starting to spread on social media. What's our move?",
+      "expected_output": "Should recommend triaging first — is this a real story with legs or a single complaint that would resolve with normal customer service — before activating a full crisis response. Should recommend getting facts internally before responding externally, using a holding statement if needed, and routing all external response through one spokesperson rather than multiple people responding independently.",
+      "assertions": [
+        "Recommends triaging severity before activating a full crisis response",
+        "Recommends confirming facts internally before responding externally",
+        "Suggests a holding statement as an option",
+        "Recommends routing response through one spokesperson"
+      ],
+      "files": []
+    }
+  ]
+}

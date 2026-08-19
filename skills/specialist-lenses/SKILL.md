@@ -2,7 +2,7 @@
 name: specialist-lenses
 description: "When the user wants a specific, narrow-domain specialist's public perspective applied to a retail marketing problem — a CRO read from a conversion specialist, an AI-search read from an SEO researcher, a loyalty-program audit from a loyalty strategist. Also use when the user names a marketing specialist by name and asks how they'd approach something, or mentions 'specialist lens,' 'what would [name] say,' or wants a domain expert's public framework applied to their situation. Distinct from marketing-council: that skill runs a boardroom debate among broadly-known 'legendary marketer' personas across general marketing questions; this skill applies one living, actively-publishing specialist's narrow-domain framework to a specific tactical problem. For proven growth-loop mechanics from named brands (not individual specialists), see growth-playbooks."
 metadata:
-  version: 2.0.0
+  version: 2.0.1
 ---
 
 # Specialist Lenses

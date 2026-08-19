@@ -23,7 +23,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | competitor-profiling | 2.0.1 | 2026-08-18 |
 | competitors | 2.0.2 | 2026-08-18 |
 | compliance | 1.0.1 | 2026-08-18 |
-| compound-marketing | 1.0.0 | 2026-08-18 |
+| compound-marketing | 1.0.1 | 2026-08-18 |
 | content-strategy | 2.0.1 | 2026-08-18 |
 | copy-editing | 2.0.1 | 2026-08-18 |
 | copywriting | 2.0.2 | 2026-08-18 |
@@ -35,6 +35,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | emails | 2.1.1 | 2026-08-18 |
 | experiential-marketing | 1.0.1 | 2026-08-18 |
 | free-tools | 2.0.1 | 2026-08-18 |
+| growth-playbooks | 1.0.0 | 2026-08-18 |
 | image | 2.0.2 | 2026-08-18 |
 | influencer-marketing | 1.0.1 | 2026-08-18 |
 | launch | 2.0.2 | 2026-08-18 |
@@ -42,13 +43,13 @@ Current versions of all skills. Agents can compare against local versions to che
 | local-marketing | 1.0.1 | 2026-08-18 |
 | loyalty | 1.0.1 | 2026-08-18 |
 | marketing-council | 1.2.2 | 2026-08-18 |
-| marketing-ideas | 2.0.3 | 2026-08-18 |
-| marketing-loops | 1.3.2 | 2026-08-18 |
+| marketing-ideas | 2.0.4 | 2026-08-18 |
+| marketing-loops | 1.3.3 | 2026-08-18 |
 | marketing-plan | 1.1.0 | 2026-08-16 |
 | marketing-psychology | 2.0.1 | 2026-08-18 |
 | marketing-strategy | 1.5.1 | 2026-08-18 |
 | media-plan | 1.0.1 | 2026-08-18 |
-| moat-builder | 1.0.1 | 2026-08-18 |
+| moat-builder | 1.0.2 | 2026-08-18 |
 | offers | 1.1.1 | 2026-08-18 |
 | onboarding | 2.0.2 | 2026-08-18 |
 | overstock | 1.0.1 | 2026-08-18 |
@@ -83,6 +84,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | visual-merchandising | 1.0.1 | 2026-08-18 |
 
 ## Recent Changes
+
+### 2.22.0 (2026-08-18)
+
+- Added **`growth-playbooks`** — proven growth mechanics from well-known brands, catalogued not as trivia ("Dropbox did a referral program") but as the reusable loop underneath each: 13 archetypes in `references/playbook-catalog.md` (Viral & Referral Loops, Marketplace & Network-Effect Flywheels, Membership & Loyalty Flywheels, Community-Led & UGC Flywheels, Scarcity & Drop Marketing, Friction-Removal & Trial Loops, Content & SEO Flywheels, Brand-as-Activism & Earned Media, Customer-Service-as-Marketing, Subscription & Personalization Loops, Gamification & Habit Loops, No-Loyalty-Program Word of Mouth, and Live & Social Commerce), each grounded in a real, publicly documented brand mechanic (Dropbox, PayPal, Hotmail, Amazon, Airbnb, Costco, Sephora, Starbucks, Glossier, Gymshark, Lululemon, Supreme, Nike SNKRS, Warby Parker, Zappos, Patagonia, REI, Chewy, Stitch Fix, Trader Joe's, Duolingo, McDonald's, TikTok Shop/Whatnot), with an explicit retail translation and AI-era delta per entry. `SKILL.md` names five cross-cutting AI-era shifts most growth-hacking references miss entirely: agentic discovery changes what "SEO" has to optimize for, AI content commoditizes volume-based content flywheels so first-party proof becomes the moat, authenticity becomes a premium as generic AI content floods every channel, first-party data collected for personalization now doubles as model-training data, and scarcity/drop mechanics need an explicit anti-bot layer against AI purchasing agents. A Grounding Rule (mirroring `marketing-council`'s discipline) requires citing only widely-documented mechanics and figures — never a fabricated stat to make an entry more persuasive. Bidirectionally cross-referenced into `compound-marketing` (an input to the Brief stage alongside `marketing-ideas`), `marketing-ideas` (explicit scope boundary: one-off tactics vs. named compounding mechanics), `marketing-loops` (scheduling the recurring ones), and `moat-builder` (a borrowed mechanic isn't automatically a durable moat). Total skills: 78.
 
 ### 2.21.1 (2026-08-18)
 

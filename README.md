@@ -69,6 +69,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [emails](skills/emails/) | When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email... |
 | [experiential-marketing](skills/experiential-marketing/) | When the user wants to plan an in-person event, activation, or demo — in-store demos, trade show booths, roadshows,... |
 | [free-tools](skills/free-tools/) | When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or... |
+| [growth-playbooks](skills/growth-playbooks/) | When the user wants to apply proven growth mechanics from well-known brands to their own business — a referral loop, a... |
 | [image](skills/image/) | When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product... |
 | [influencer-marketing](skills/influencer-marketing/) | When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and... |
 | [launch](skills/launch/) | When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user... |
@@ -240,6 +241,7 @@ You can also invoke skills directly:
 - `repositioning` - Cascading a material positioning change through everything built on the old one
 - `marketing-plan` - Comprehensive AARRR-structured marketing plan
 - `marketing-ideas` - 140 marketing ideas
+- `growth-playbooks` - Proven, compounding growth-loop mechanics grounded in named-brand examples (referral loops, flywheels, loyalty, community-led growth), translated for retail and updated for AI-agent-driven discovery
 - `marketing-psychology` - Mental models and psychology
 - `marketing-council` - Boardroom mode — multi-advisor review of a finished asset or decision
 - `moat-builder` - Identifying and widening durable competitive advantages, not just messaging around them

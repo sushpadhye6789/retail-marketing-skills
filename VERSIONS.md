@@ -4,7 +4,7 @@ Current versions of all skills. Agents can compare against local versions to che
 
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
-| ab-testing | 2.0.0 | 2026-08-16 |
+| ab-testing | 2.0.1 | 2026-08-18 |
 | ad-creative | 2.8.0 | 2026-08-16 |
 | ads | 2.4.0 | 2026-08-16 |
 | ai-seo | 2.2.0 | 2026-08-16 |
@@ -23,6 +23,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | competitor-profiling | 2.0.0 | 2026-08-16 |
 | competitors | 2.0.1 | 2026-08-16 |
 | compliance | 1.0.0 | 2026-08-16 |
+| compound-marketing | 1.0.0 | 2026-08-18 |
 | content-strategy | 2.0.0 | 2026-08-16 |
 | copy-editing | 2.0.0 | 2026-08-16 |
 | copywriting | 2.0.1 | 2026-08-16 |
@@ -40,12 +41,12 @@ Current versions of all skills. Agents can compare against local versions to che
 | lead-magnets | 2.0.0 | 2026-08-16 |
 | local-marketing | 1.0.0 | 2026-08-16 |
 | loyalty | 1.0.0 | 2026-08-16 |
-| marketing-council | 1.2.0 | 2026-08-16 |
-| marketing-ideas | 2.0.1 | 2026-08-16 |
-| marketing-loops | 1.3.0 | 2026-08-18 |
+| marketing-council | 1.2.1 | 2026-08-18 |
+| marketing-ideas | 2.0.2 | 2026-08-18 |
+| marketing-loops | 1.3.1 | 2026-08-18 |
 | marketing-plan | 1.1.0 | 2026-08-16 |
 | marketing-psychology | 2.0.0 | 2026-08-16 |
-| marketing-strategy | 1.4.0 | 2026-08-16 |
+| marketing-strategy | 1.5.1 | 2026-08-18 |
 | media-plan | 1.0.0 | 2026-08-16 |
 | moat-builder | 1.0.0 | 2026-08-16 |
 | offers | 1.1.0 | 2026-08-16 |
@@ -82,6 +83,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | visual-merchandising | 1.0.0 | 2026-08-16 |
 
 ## Recent Changes
+
+### 2.21.0 (2026-08-18)
+
+- Added **`compound-marketing`** — the marketing translation of "compounding engineering" (Every/CE's plan → work → review → codify loop): a general **brief → draft → execute → analyse → optimise → compound** work-shape for any marketing unit, one-off or recurring. The distinguishing stage is the last one, which almost every ad-hoc marketing workflow skips — after Optimise, append a dated entry to a new canonical file, `.agents/marketing-learnings.md` (one growing document, newest-first, mirroring `marketing-strategy.md`'s own Changelog convention), so the next Brief reads it as grounding instead of re-deriving the same lesson. Reuses rather than reinvents: Brief reads `marketing-strategy` first, Execute follows `marketing-loops`' two-tier action model, Optimise applies `marketing-loops`' Goodhart's Law guardrail (judge the outcome metric, not a proxy), and Boardroom mode in `marketing-council` is offered as an optional pre-Execute review gate. `references/learning-entry-template.md` gives the compound-step format with fill-in prompts and two worked examples (a win and a loss — the loss entry is arguably more valuable since it turns a bad outcome into a permanent process fix). Explicitly scoped against `marketing-loops` (this skill is the work-shape; that skill is the scheduling/automation layer that makes it recurring) and `ab-testing` (the statistically rigorous version of the Optimise stage specifically). Bidirectionally cross-referenced into `marketing-loops`, `marketing-strategy`, `ab-testing`, `marketing-council`, and `marketing-ideas`. Total skills: 77.
 
 ### 2.20.4 (2026-08-18)
 

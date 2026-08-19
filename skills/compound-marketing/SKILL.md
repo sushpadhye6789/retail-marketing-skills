@@ -2,7 +2,7 @@
 name: compound-marketing
 description: "When the user wants to run a marketing unit of work — a campaign, page, email, ad, or launch — so that it makes the next one easier instead of starting from scratch. Also use when the user mentions 'compound marketing,' 'compounding engineering for marketing,' 'brief draft execute analyse optimise,' 'marketing learnings,' 'don't repeat the same mistake,' 'apply what we learned,' 'marketing operating system,' or wants briefing, drafting, execution, analysis, and optimization tied together across channels/skills instead of run as disconnected one-offs. This is the general work loop for any marketing unit — one-off or recurring. For the scheduling/automation mechanics of running this loop on a cadence, see marketing-loops. For the rigorous, statistically-driven version of the Optimise stage specifically, see ab-testing."
 metadata:
-  version: 1.0.1
+  version: 1.1.0
 ---
 
 # Compound Marketing
@@ -30,7 +30,7 @@ The **Compound** stage is what distinguishes this from just doing the work well 
 
 ## How to Use This Skill
 
-1. **Read grounding first.** Before drafting a brief, read `.agents/marketing-strategy.md` (foundation: who we are, who we sell to) and `.agents/marketing-learnings.md` (what's already been tried and proven, in this channel or an adjacent one). Neither existing yet isn't a blocker — note it and proceed, but say so.
+1. **Read grounding first.** Before drafting a brief, read `.agents/marketing-strategy.md` (foundation: who we are, who we sell to), `.agents/marketing-learnings.md` (what's already been tried and proven, in this channel or an adjacent one), and `.agents/expert-notes.md` if it exists (personal operating principles and specialist-sourced judgment, kept private and gitignored — never repo content). None existing yet isn't a blocker — note it and proceed, but say so.
 2. **Write the Brief.** Name the outcome metric explicitly, and name it as an outcome, not a proxy (revenue/retention/qualified reach — not "clicks" or "posts published"). If a past learnings entry is directly relevant, cite it in the brief instead of re-deriving it.
 3. **Draft**, using the channel skill that fits. Cross-reference the Related Skills list of whichever channel skill you're in — this loop doesn't replace those skills, it sequences them.
 4. **Execute** through a human checkpoint for anything that spends or publishes, per the two-tier action model. Drafting and staging are always safe; publishing and spending are gated by default.
@@ -56,6 +56,12 @@ Canonical path: **`.agents/marketing-learnings.md`**. One growing document, newe
 **Every Brief stage should skim it first** — not the whole history, just entries tagged to the same channel or a closely adjacent one. A learnings file nobody rereads is worse than not having one: it creates the appearance of institutional memory without the substance. If the file is getting long enough that skimming is slow, that's a signal to prune stale or superseded entries (note the supersession, don't just delete silently) rather than to stop reading it.
 
 See `references/learning-entry-template.md` for the entry format, fill-in prompts, and a worked example.
+
+## The Expert Notes File
+
+Canonical path: **`.agents/expert-notes.md`** — always gitignored (`.agents/` is excluded repo-wide), never committed. This is where personal operating principles and specialist-sourced judgment live: takeaways from a paid subscription (in your own words — never the specialist's paywalled content itself, which is copyrighted and not yours to redistribute) alongside accumulated operating rules that aren't documented anywhere else in this repo.
+
+This is distinct from the learnings file: `marketing-learnings.md` records what happened when *you* ran something through this loop; `expert-notes.md` records judgment you're bringing in from outside it. Both get read at Brief time, but only the learnings file gets written to by this skill's Compound stage — the expert notes file is maintained by you directly, on your own schedule, whenever you read something worth applying.
 
 ## Guardrails Carried Over From `marketing-loops`
 

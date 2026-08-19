@@ -23,7 +23,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | competitor-profiling | 2.0.1 | 2026-08-18 |
 | competitors | 2.0.2 | 2026-08-18 |
 | compliance | 1.0.1 | 2026-08-18 |
-| compound-marketing | 1.0.1 | 2026-08-18 |
+| compound-marketing | 1.1.0 | 2026-08-19 |
 | content-strategy | 2.0.1 | 2026-08-18 |
 | copy-editing | 2.0.1 | 2026-08-18 |
 | copywriting | 2.0.2 | 2026-08-18 |
@@ -84,6 +84,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | visual-merchandising | 1.0.1 | 2026-08-18 |
 
 ## Recent Changes
+
+### 2.22.1 (2026-08-19)
+
+- **compound-marketing** (1.0.1 → 1.1.0): added a third grounding file to the Brief stage — `.agents/expert-notes.md`, always gitignored and never committed, for personal operating principles and specialist-sourced judgment (a paid subscription's takeaway written in your own words, never the specialist's copyrighted content itself). New "The Expert Notes File" section distinguishes it from the learnings file: `marketing-learnings.md` records what happened when you ran something through this loop; `expert-notes.md` records judgment brought in from outside it, maintained by the user directly rather than written by this skill's Compound stage. Supports the Path A / B / C approach to incorporating specialist paid content (Kevin Indig, Mike Rhodes, Mike King, Adam Posner, Simo Ahava, etc.) discussed with the maintainer: Path A (this) captures private synthesis; Path B (future work) builds public-repo skill content only from what a specialist has published for free; Path C is a pointer/lens layer. No repo content added for any specialist — their paid material stays out of this MIT-licensed repo entirely.
 
 ### 2.22.0 (2026-08-18)
 

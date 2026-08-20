@@ -102,5 +102,5 @@ Each top target rationale names the trigger and decision-maker: "Hired new VP of
 2. **Trying to verify private company revenue precisely** — most public databases approximate. Use size bands, not point estimates.
 3. **Ignoring procurement complexity** at enterprise scale — your prospect contact list may not include the actual approver.
 4. **Cold-emailing executive assistants** — they're not the buyer and they will flag your outreach as spam.
-5. **Source URL hygiene** — without source lineage, you can't defend a contact under GDPR DSAR or CAN-SPAM challenge.
+5. **Source URL hygiene** — without source lineage, you can't defend a contact under an AU/NZ Privacy Act request, a GDPR DSAR, or a CAN-SPAM challenge.
 6. **Stopping at one source** — Apollo can be 60% accurate on small businesses. Cross-verify with LinkedIn or the business website.

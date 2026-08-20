@@ -2,7 +2,7 @@
 name: churn-prevention
 description: "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see emails. For in-app upgrade paywalls, see paywalls."
 metadata:
-  version: 2.0.2
+  version: 2.0.3
 ---
 
 # Churn Prevention
@@ -369,7 +369,7 @@ Test one variable at a time:
 ## Common Mistakes
 
 - **No cancel flow at all** — Instant cancel leaves money on the table. Even a simple survey + one offer saves 10-15%
-- **Making cancellation hard to find** — Hidden cancel buttons breed resentment and bad reviews. Many jurisdictions require easy cancellation (FTC Click-to-Cancel rule) — route the cancel flow's step count and friction level through `compliance` before launch, not just the copy tone
+- **Making cancellation hard to find** — Hidden cancel buttons breed resentment and bad reviews. Many jurisdictions require easy cancellation — Australia's ACCC has targeted subscription "traps" under the Australian Consumer Law, New Zealand's Fair Trading Act carries the same principle, and the US has its own click-to-cancel rules — route the cancel flow's step count and friction level through `compliance` before launch, not just the copy tone
 - **Same offer for every reason** — A blanket discount doesn't address "missing feature" or "not using it"
 - **Discounts too deep** — 50%+ discounts train customers to cancel-and-return for deals
 - **Ignoring involuntary churn** — Often 30-50% of total churn and the easiest to fix

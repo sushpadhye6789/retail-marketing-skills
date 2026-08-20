@@ -2,7 +2,7 @@
 name: paywalls
 description: When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade screen," "upgrade modal," "upsell," "feature gate," "convert free to paid," "freemium conversion," "trial expiration screen," "limit reached screen," "plan upgrade prompt," "in-app pricing," "free users won't upgrade," "trial to paid conversion," or "how do I get users to pay." Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing.
 metadata:
-  version: 2.0.2
+  version: 2.0.3
 ---
 
 # Paywall and Upgrade Screen CRO
@@ -170,7 +170,7 @@ What you've accomplished:
 - Confirmation and receipt
 - Guide to new features
 
-**If the upgrade is a subscription with auto-renewal or a pre-selected annual plan**, disclosure and easy-cancellation requirements (e.g., the US FTC's negative-option/click-to-cancel rules and equivalents elsewhere) apply before launch — see `compliance`. This is distinct from the dark-pattern anti-patterns below: even an honest, non-manipulative flow can still be legally non-compliant if renewal terms aren't disclosed clearly enough.
+**If the upgrade is a subscription with auto-renewal or a pre-selected annual plan**, disclosure and easy-cancellation requirements apply before launch — Australia's ACCC has targeted subscription "traps" under the Australian Consumer Law's unfair-trading-practices provisions, New Zealand's Fair Trading Act carries the same underlying principle, and equivalent negative-option/auto-renewal rules exist in the US, UK, and EU. See `compliance`. This is distinct from the dark-pattern anti-patterns below: even an honest, non-manipulative flow can still be legally non-compliant if renewal terms aren't disclosed clearly enough.
 
 ---
 

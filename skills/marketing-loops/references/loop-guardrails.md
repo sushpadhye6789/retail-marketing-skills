@@ -18,7 +18,7 @@ A Tier-2 action may run without a per-action human check only if the user has **
 
 Any loop that repeatedly optimizes toward a metric will eventually find the cheapest way to move that metric, not the outcome it stands for. That's a guardrail issue, not just a design nicety: a loop that's "working" (metric moving) while quietly doing harm (revenue down, list quality down, brand damaged) is exactly the failure mode guardrails exist to catch — and it's easy to miss because nothing looks broken.
 
-- **Pair every optimized metric with a harm-check metric.** Ad loops: ROAS/revenue alongside CTR/CPA. Content loops: engaged time or conversions alongside word count/publish cadence. Backlink loops: referring-domain quality alongside link count. Review-harvest loops: authenticity/FTC compliance alongside review count.
+- **Pair every optimized metric with a harm-check metric.** Ad loops: ROAS/revenue alongside CTR/CPA. Content loops: engaged time or conversions alongside word count/publish cadence. Backlink loops: referring-domain quality alongside link count. Review-harvest loops: authenticity/regulator compliance (ACCC in Australia, Commerce Commission in NZ, FTC in the US) alongside review count.
 - **Treat a metric moving suspiciously fast as a signal to check for gaming, not a win to report.** A sudden favorable swing is more often a shortcut than a breakthrough.
 - **Escalate instead of self-correcting** when the optimized metric and its harm-check metric diverge (metric up, outcome flat or down) — this belongs on the always-escalate list below, not something the loop tries to fix on its own.
 
@@ -40,9 +40,9 @@ Any loop that repeatedly optimizes toward a metric will eventually find the chea
 
 Match each rule to the loops it governs:
 
-- **CAN-SPAM / CASL (email/SMS loops — lifecycle, re-engagement, churn, trial, dunning, referral)**: honor unsubscribes immediately and permanently; include a working unsubscribe + physical address; identify the sender; don't email/text without a lawful basis or consent; scrub against suppression every send.
-- **GDPR / CCPA (any loop touching personal data)**: process on a lawful basis; get consent for EU marketing; honor deletion and opt-out requests; minimize data pulled and retained; don't repurpose data beyond its collected purpose.
-- **FTC (review-and-UGC-harvest, referral, social)**: disclose material connections and incentives (#ad, "I was compensated"); only use testimonials with permission; no fabricated or cherry-picked-to-mislead claims.
+- **Spam Act 2003 (AU) / Unsolicited Electronic Messages Act 2007 (NZ), alongside CAN-SPAM (US) / CASL (Canada) (email/SMS loops — lifecycle, re-engagement, churn, trial, dunning, referral)**: honor unsubscribes immediately and permanently; include a working unsubscribe + accurate sender identification; don't email/text without consent or a lawful basis — Australia and NZ both default to requiring opt-in consent, stricter than the US's opt-out model; scrub against suppression every send.
+- **Privacy Act 1988 (AU) / Privacy Act 2020 (NZ), alongside GDPR / CCPA elsewhere (any loop touching personal data)**: process on a lawful basis; get consent where the applicable regime requires it; honor deletion and opt-out requests; minimize data pulled and retained; don't repurpose data beyond its collected purpose.
+- **ACCC / Ad Standards (AU), ASA (NZ), alongside the FTC (US) and equivalents elsewhere (review-and-UGC-harvest, referral, social)**: disclose material connections and incentives (#ad, "I was compensated"); only use testimonials with permission; no fabricated or cherry-picked-to-mislead claims.
 - **Platform ToS (social-listening, community-engagement, review-site-management, scraping-based loops)**: respect rate limits and automation rules; follow review-platform response policies; don't scrape or auto-act where prohibited.
 
 When a loop can't confirm consent, permission, or ToS-compatibility, its stop condition is **don't act** — stage for a human instead.
@@ -76,7 +76,7 @@ Before scheduling any loop that sends, spends, publishes, or touches personal da
 - [ ] Tier-2 actions are staged for approval — or bounded by explicit authorization + caps + allowlist.
 - [ ] Spend loops have a hard cap and a per-run change limit.
 - [ ] Send loops check suppression/unsubscribe and have volume caps.
-- [ ] Applicable compliance rules (CAN-SPAM/GDPR/FTC/ToS) are satisfied, with "don't act" as the fallback.
+- [ ] Applicable compliance rules (Spam Act/Privacy Act in AU, Unsolicited Electronic Messages Act/Privacy Act in NZ, and CAN-SPAM/GDPR/FTC/ToS elsewhere) are satisfied, with "don't act" as the fallback.
 - [ ] No raw PII in state or logs.
 - [ ] The always-escalate cases route to a human.
 - [ ] There's a documented kill switch.

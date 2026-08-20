@@ -2,7 +2,7 @@
 name: overstock
 description: "When the user has excess, aging, dead, or discontinued inventory and needs to diagnose why, and decide how to dispose of it. Also use when the user mentions 'overstock,' 'excess inventory,' 'dead stock,' 'aging inventory,' 'slow-moving inventory,' 'liquidation,' 'outlet strategy,' 'end of line,' or 'how do I clear this inventory.' This skill covers the inventory diagnosis and disposition-channel decision (public discount vs. discreet liquidation vs. write-off). For the actual discount mechanics, cadence, and messaging once a public-discount disposition is chosen, see discount-and-clearance, which this skill hands off to."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Overstock
@@ -116,3 +116,4 @@ If the same SKU or category keeps generating overstock, the actual fix isn't a b
 - **marketing-strategy**: For the brand tier and distribution model fields that drive the disposition decision here
 - **offers**: For bundle mechanics if bundling is used as part of a disposition
 - **analytics**: For tracking sell-through and recurrence
+- **compliance**: For substantiating any "discontinued" / "last chance" / "while supplies last" claim used in disposition messaging

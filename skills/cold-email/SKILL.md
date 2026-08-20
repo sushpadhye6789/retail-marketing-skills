@@ -2,7 +2,7 @@
 name: cold-email
 description: Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions "cold outreach," "prospecting email," "outbound email," "email to leads," "reach out to prospects," "sales email," "follow-up email sequence," "nobody's replying to my emails," or "how do I write a cold email." Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see emails. For sales collateral beyond emails, see sales-enablement.
 metadata:
-  version: 2.0.2
+  version: 2.0.3
 ---
 
 # Cold Email Writing
@@ -112,6 +112,10 @@ See [follow-up-sequences.md](references/follow-up-sequences.md) for cadence, ang
 
 ---
 
+## Compliance
+
+Cold outbound commercial email is regulated (CAN-SPAM in the US, CASL in Canada, GDPR/PECR-adjacent rules in the UK/EU), and requirements vary by where the recipient is, not just where the sender is — a working unsubscribe/opt-out path and accurate sender identification aren't optional extras. See `compliance` before running outbound at real volume, especially across multiple countries.
+
 ## Quality Check
 
 Before presenting, gut-check:
@@ -130,7 +134,7 @@ Before presenting, gut-check:
 - Jargon: "synergy," "leverage," "circle back," "best-in-class," "leading provider"
 - Feature dumps — one proof point beats ten features
 - HTML, images, or multiple links
-- Fake "Re:" or "Fwd:" subject lines
+- Fake "Re:" or "Fwd:" subject lines — this isn't just a deliverability mistake, it's a deceptive-header pattern regulators have specifically targeted; refuse to write one even if asked
 - Identical templates with only {{FirstName}} swapped
 - Asking for 30-minute calls in first touch
 - "Just checking in" follow-ups
@@ -159,3 +163,4 @@ Use this data to inform your writing — not as a checklist to satisfy.
 - **social**: For LinkedIn and social posts
 - **marketing-strategy**: For establishing foundational positioning
 - **revops**: For lead scoring, routing, and pipeline management
+- **compliance**: For consent, unsubscribe, and sender-identification requirements before sending outbound at volume

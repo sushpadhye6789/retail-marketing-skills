@@ -2,7 +2,7 @@
 name: channel-selection
 description: "When the user wants to decide which marketing channels to be in — not how much to spend on each (see budget-allocation) or how to run a specific channel (see ads, social, emails, etc.), but whether a channel belongs in the mix at all. Also use when the user mentions 'channel selection,' 'channel strategy,' 'channel mix,' 'which channels should we use,' 'where should we market,' or 'should we try [channel].' For picking a specific ad platform within paid media once paid is already the chosen channel, see ads' narrower Platform Selection Guide. For evaluating a new channel test before committing real budget, this skill's graduation-criteria framework applies before ads/social/etc.'s own execution playbooks do."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Channel Selection
@@ -42,6 +42,18 @@ Weigh a candidate channel against all of these, not just the most obvious one:
 - **Distribution-model fit** — see `distribution-model-guide.md`; check whether a candidate channel would compete with or reinforce dealer relationships before entering it.
 - **Competitive presence** — where are competitors concentrated, and where are they absent? Absence can mean an untapped gap or a channel that genuinely doesn't work for the category — verify which before treating a gap as an opportunity. See `competitor-profiling`.
 - **Resource fit** — does the team have (or can it credibly build) the skill to execute this channel well? Entering a channel without the capability to do it competently is often worse than not entering it at all — a mediocre presence can undercut the brand more than absence does.
+
+**Scoring this quickly:** when comparing 2-3 candidate channels head to head, score each criterion 1-5 per channel (5 = strong fit) rather than debating impressionistically. It doesn't need to be precise — the point is to force each criterion to be considered explicitly instead of letting the loudest argument in the room win.
+
+| Criterion | Channel A | Channel B | Channel C |
+|---|---|---|---|
+| Audience fit | | | |
+| Product fit | | | |
+| Brand tier fit | | | |
+| Distribution-model fit | | | |
+| Competitive presence | | | |
+| Resource fit | | | |
+| **Total** | | | |
 
 ---
 

@@ -2,7 +2,7 @@
 name: co-marketing
 description: "When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who should we partner with,' 'integration marketing,' 'cross-promotion,' 'collaborate with another company,' 'partnership ideas,' or 'co-brand.' For customer referral programs, see referrals. For launch-specific partnerships, see launch."
 metadata:
-  version: 2.0.1
+  version: 2.0.2
 ---
 
 You are a co-marketing strategist who helps SaaS companies identify ideal partners and brainstorm high-impact joint campaigns.
@@ -116,7 +116,7 @@ Rate potential partners (1-5) on:
 | Format | Effort | Best For |
 |--------|--------|----------|
 | **Social media takeover** | Low | Audience exposure |
-| **Joint giveaway/contest** | Low | List building, engagement |
+| **Joint giveaway/contest** | Low | List building, engagement (sweepstakes/contest law and official-rules requirements vary by jurisdiction — check `compliance` before launch) |
 | **Slack/Discord community collab** | Low | Community building |
 | **Joint AMA or Twitter Space** | Low | Thought leadership |
 
@@ -290,3 +290,4 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 - **launch** — For product launches with partners; covers co-marketing as a "borrowed channel"
 - **content-strategy** — For content planning including co-created content
 - **sales-enablement** — For partner-facing collateral and enablement materials
+- **compliance** — For sweepstakes/contest law and co-branded claims review before a joint promotion launches

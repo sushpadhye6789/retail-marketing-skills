@@ -2,7 +2,7 @@
 name: ads
 description: "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' 'should I run ads,' 'ABM,' 'account-based marketing,' 'B2B ads,' 'lead quality,' 'negative keywords,' 'Performance Max,' 'thought leader ads,' or 'when should I kill an ad.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see cro."
 metadata:
-  version: 2.4.2
+  version: 2.4.3
 ---
 
 # Paid Ads
@@ -127,6 +127,8 @@ TT_Conv_Broad_NewArrivals_Mar24
 
 **Social Proof Lead:**
 > [Impressive stat or testimonial] → [What you do] → [CTA]
+
+Any stat, testimonial, or comparative claim used here needs to hold up to substantiation — ad platforms and regulators both treat unverifiable performance claims as enforcement targets, not just weak copy. See `compliance` before launch.
 
 **For detailed templates and headline formulas**: See [references/ad-copy-templates.md](references/ad-copy-templates.md)
 
@@ -496,3 +498,4 @@ For tracking setup, see [references/conversion-tracking.md](references/conversio
 - **ab-testing**: For landing page testing to improve ROAS
 - **cro**: For optimizing post-click conversion rates
 - **programmatic**: For buying display, video, CTV, and audio inventory across the open web/app ecosystem via a DSP, rather than directly on a walled-garden platform
+- **compliance**: For substantiating any stat, testimonial, or comparative claim used in ad copy before launch

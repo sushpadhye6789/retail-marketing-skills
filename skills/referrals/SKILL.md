@@ -2,7 +2,7 @@
 name: referrals
 description: "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch."
 metadata:
-  version: 2.0.1
+  version: 2.0.2
 ---
 
 # Referral & Affiliate Programs
@@ -222,6 +222,8 @@ They get [their reward] too.
 
 **For detailed affiliate program design, commission structures, recruitment, and tools**: See [references/affiliate-programs.md](references/affiliate-programs.md)
 
+Affiliates and compensated ambassadors are generally required to disclose the relationship when they promote the product (the FTC endorsement guidelines and equivalent rules elsewhere) — build the disclosure requirement into program terms and creator briefs from the start, not as a fix after an undisclosed post draws attention. See `compliance`.
+
 ---
 
 ## Task-Specific Questions
@@ -258,3 +260,4 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 - **emails**: For referral nurture campaigns
 - **marketing-psychology**: For understanding referral motivation
 - **analytics**: For tracking referral attribution
+- **compliance**: For affiliate/ambassador disclosure requirements on compensated promotion

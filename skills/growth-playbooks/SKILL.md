@@ -2,7 +2,7 @@
 name: growth-playbooks
 description: "When the user wants to apply proven growth mechanics from well-known brands to their own business — a referral loop, a flywheel, a scarcity drop, a community-led growth model — adapted for retail and updated for the AI era (AI shopping agents, AI-generated content, agentic commerce). Also use when the user mentions 'growth playbook,' 'growth loop,' 'flywheel,' 'how did [brand] grow,' 'growth hacking,' 'scale growth,' 'proven growth strategies,' or names a brand (Dropbox, Airbnb, Costco, Glossier, Supreme, Duolingo, etc.) and asks how to apply what they did. For a broader list of one-off tactics not tied to a named brand mechanic, see marketing-ideas. For testing whether a differentiator is durable rather than borrowed, see moat-builder. For running any of these as the actual work, see compound-marketing."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Growth Playbooks
@@ -43,6 +43,7 @@ Apply these five as a lens across every entry below, not just where called out e
 - **Ignoring brand tier and distribution model.** A premium/luxury brand running an aggressive PayPal-style "pay people to sign up" mechanic undercuts the exact positioning it's trying to build. Check `marketing-strategy` Section 14 before adopting anything scarcity- or discount-flavored.
 - **Treating AI content as a shortcut to the content flywheel.** Publishing AI-generated volume to chase an old SEO playbook is exactly the failure mode Delta #2 above describes — it competes against an internet that already has more of that than anyone can read.
 - **Running a scarcity mechanic with no bot defense** and being surprised when human customers can't get in — see Delta #5.
+- **Running a scarcity/drop mechanic that isn't real** — quantity or timing claims about a drop need to be genuine; see `offers`' scarcity-urgency guidance and `compliance` before publishing manufactured urgency.
 - **Fabricating a growth number** because the real brand's stat isn't confirmable. Describe the mechanic; don't invent the metric.
 
 ## Related Skills
@@ -55,3 +56,4 @@ Apply these five as a lens across every entry below, not just where called out e
 - **marketing-strategy**: Brand tier and distribution model gate which playbooks are even appropriate to run — check Sections 14 and 15 before adopting one.
 - **ai-seo**: The mechanics of being discoverable and citable to an AI shopping agent, which the Content & SEO and agentic-discovery entries build on directly.
 - **loyalty** / **referrals** / **community-marketing** / **retail-media** / **pos-marketing**: The channel skills most of these playbooks are actually executed through.
+- **compliance**: For the claims-accuracy limits on scarcity/drop mechanics and incentivized-promotion disclosure before launch.

@@ -2,7 +2,7 @@
 name: sales-enablement
 description: "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps.' Use this for any document or asset that helps a sales team close deals. For competitor comparison pages and battle cards, see competitors. For marketing website copy, see copywriting. For cold outreach emails, see cold-email. For the offer being sold (bonuses, guarantees, pricing structure), see offers."
 metadata:
-  version: 2.0.3
+  version: 2.0.4
 ---
 
 # Sales Enablement
@@ -52,7 +52,7 @@ Tailor to persona, deal stage, and use case. A deck for a CTO should look differ
 Reps need information in 3 seconds, not 30. Use bold headers, short bullets, and visual hierarchy. If a rep can't find the answer mid-call, the doc has failed.
 
 ### Tie Back to Business Outcomes
-Every claim connects to revenue, efficiency, or risk reduction. Features mean nothing without the "so what." Replace "AI-powered analytics" with "cut reporting time by 80%."
+Every claim connects to revenue, efficiency, or risk reduction. Features mean nothing without the "so what." Replace "AI-powered analytics" with "cut reporting time by 80%." Any specific number used this way — in a deck, ROI calculator, or case study — needs to trace back to a real, defensible source; a rep repeating an invented stat in a live deal creates real liability. Flag unverified figures for `compliance` review before they go in front of a prospect.
 
 ---
 
@@ -361,3 +361,4 @@ For partner sales enablement, see the [tools registry](../../tools/REGISTRY.md):
 - **marketing-strategy**: For foundational positioning and messaging
 - **trade-marketing**: For the retail-buyer-specific application of sell-in decks and presentations
 - **experiential-marketing**: For trade show booth/demo execution the collateral built here supports
+- **compliance**: For substantiating ROI figures, proof points, and case-study metrics before they're used in a live deal

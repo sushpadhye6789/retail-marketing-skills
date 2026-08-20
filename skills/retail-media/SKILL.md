@@ -2,7 +2,7 @@
 name: retail-media
 description: "When the user wants to plan or optimize advertising, or organic visibility and the Buy Box, on a retailer's own platform. Also use when the user mentions 'retail media,' 'Amazon Ads,' 'Sponsored Products,' 'Walmart Connect,' 'Instacart Ads,' 'retail media network,' 'RMN,' 'share of search,' 'retail data clean room,' 'Buy Box,' 'marketplace ranking,' 'marketplace SEO,' or 'seller rating.' Distinct from ads, which covers the open web and social platforms — retail media means advertising and organic visibility inside a retailer's own site/app/in-store environment, reaching shoppers already in that retailer's shopping context. For the physical in-store counterpart, see pos-marketing. For the product data retail media depends on, see product-feed."
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Retail Media
@@ -127,3 +127,4 @@ For the product listing data these campaigns depend on, see [google-merchant-cen
 - **programmatic**: For open-ecosystem DSP buying, distinct from a retailer's own closed advertising platform (some retail media networks, like Amazon DSP, offer both)
 - **trade-marketing**: For earning the listing itself, the prerequisite this skill's advertising assumes has already happened
 - **local-marketing**: For the general/map-search counterpart to advertising inside a specific retailer's platform
+- **compliance**: For substantiating claims in sponsored listing copy and for the platform-compliant boundaries on review generation

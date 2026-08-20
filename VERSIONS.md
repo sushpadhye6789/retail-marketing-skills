@@ -6,7 +6,7 @@ Current versions of all skills. Agents can compare against local versions to che
 |-------|---------|--------------|
 | ab-testing | 2.0.2 | 2026-08-18 |
 | ad-creative | 2.8.2 | 2026-08-19 |
-| ads | 2.4.2 | 2026-08-19 |
+| ads | 2.4.3 | 2026-08-20 |
 | ai-seo | 2.2.2 | 2026-08-19 |
 | analytics | 2.0.2 | 2026-08-18 |
 | aso | 2.0.1 | 2026-08-18 |
@@ -15,27 +15,27 @@ Current versions of all skills. Agents can compare against local versions to che
 | brand-management | 1.0.2 | 2026-08-19 |
 | budget-allocation | 1.0.2 | 2026-08-19 |
 | budget-pacing-tracker | 1.0.2 | 2026-08-19 |
-| channel-selection | 1.0.2 | 2026-08-19 |
-| churn-prevention | 2.0.1 | 2026-08-18 |
-| co-marketing | 2.0.1 | 2026-08-18 |
-| cold-email | 2.0.2 | 2026-08-18 |
-| community-marketing | 2.0.1 | 2026-08-18 |
+| channel-selection | 1.0.3 | 2026-08-20 |
+| churn-prevention | 2.0.2 | 2026-08-20 |
+| co-marketing | 2.0.2 | 2026-08-20 |
+| cold-email | 2.0.3 | 2026-08-20 |
+| community-marketing | 2.0.2 | 2026-08-20 |
 | competitor-profiling | 2.0.1 | 2026-08-18 |
-| competitors | 2.0.2 | 2026-08-18 |
+| competitors | 2.0.3 | 2026-08-20 |
 | compliance | 1.0.2 | 2026-08-19 |
 | compound-marketing | 1.3.1 | 2026-08-19 |
 | content-strategy | 2.0.1 | 2026-08-18 |
 | copy-editing | 2.0.1 | 2026-08-18 |
-| copywriting | 2.0.3 | 2026-08-19 |
+| copywriting | 2.0.4 | 2026-08-20 |
 | cro | 2.1.2 | 2026-08-19 |
 | customer-research | 2.0.2 | 2026-08-18 |
 | digital-out-of-home | 1.0.2 | 2026-08-19 |
-| directory-submissions | 2.0.1 | 2026-08-18 |
-| discount-and-clearance | 1.0.2 | 2026-08-19 |
+| directory-submissions | 2.0.2 | 2026-08-20 |
+| discount-and-clearance | 1.0.3 | 2026-08-20 |
 | emails | 2.1.2 | 2026-08-19 |
 | experiential-marketing | 1.0.2 | 2026-08-19 |
 | free-tools | 2.0.1 | 2026-08-18 |
-| growth-playbooks | 1.0.2 | 2026-08-19 |
+| growth-playbooks | 1.0.3 | 2026-08-20 |
 | image | 2.0.2 | 2026-08-18 |
 | influencer-marketing | 1.0.1 | 2026-08-18 |
 | launch | 2.0.2 | 2026-08-18 |
@@ -45,16 +45,16 @@ Current versions of all skills. Agents can compare against local versions to che
 | marketing-council | 1.2.3 | 2026-08-19 |
 | marketing-ideas | 2.0.4 | 2026-08-18 |
 | marketing-loops | 1.3.3 | 2026-08-18 |
-| marketing-plan | 1.1.0 | 2026-08-16 |
-| marketing-psychology | 2.0.1 | 2026-08-18 |
+| marketing-plan | 1.1.1 | 2026-08-20 |
+| marketing-psychology | 2.0.2 | 2026-08-20 |
 | marketing-strategy | 1.5.1 | 2026-08-18 |
 | media-plan | 1.0.2 | 2026-08-19 |
 | moat-builder | 1.0.3 | 2026-08-19 |
 | offers | 1.1.3 | 2026-08-19 |
 | onboarding | 2.0.2 | 2026-08-18 |
-| overstock | 1.0.2 | 2026-08-19 |
-| paywalls | 2.0.1 | 2026-08-18 |
-| popups | 2.0.1 | 2026-08-18 |
+| overstock | 1.0.3 | 2026-08-20 |
+| paywalls | 2.0.2 | 2026-08-20 |
+| popups | 2.0.2 | 2026-08-20 |
 | pos-marketing | 1.0.4 | 2026-08-19 |
 | price-elasticity | 1.0.2 | 2026-08-19 |
 | pricing | 2.2.1 | 2026-08-18 |
@@ -65,26 +65,30 @@ Current versions of all skills. Agents can compare against local versions to che
 | prospecting | 1.1.2 | 2026-08-18 |
 | public-relations | 1.0.2 | 2026-08-19 |
 | range-review | 1.0.2 | 2026-08-19 |
-| referrals | 2.0.1 | 2026-08-18 |
+| referrals | 2.0.2 | 2026-08-20 |
 | repositioning | 1.0.2 | 2026-08-19 |
-| retail-media | 1.1.0 | 2026-08-19 |
+| retail-media | 1.1.1 | 2026-08-20 |
 | revops | 2.0.2 | 2026-08-18 |
-| sales-enablement | 2.0.3 | 2026-08-18 |
+| sales-enablement | 2.0.4 | 2026-08-20 |
 | schema | 2.0.1 | 2026-08-18 |
 | seo-audit | 2.0.1 | 2026-08-18 |
 | signup | 2.0.1 | 2026-08-18 |
 | site-architecture | 2.0.1 | 2026-08-18 |
 | specialist-lenses | 2.0.1 | 2026-08-19 |
 | sms | 1.0.2 | 2026-08-19 |
-| social | 2.3.2 | 2026-08-19 |
+| social | 2.3.3 | 2026-08-20 |
 | storytelling | 1.0.2 | 2026-08-19 |
 | supplier-funded-marketing | 1.0.2 | 2026-08-19 |
 | tentpole-campaign | 1.1.1 | 2026-08-19 |
 | trade-marketing | 1.0.2 | 2026-08-19 |
-| video | 2.1.1 | 2026-08-18 |
+| video | 2.1.2 | 2026-08-20 |
 | visual-merchandising | 1.0.2 | 2026-08-19 |
 
 ## Recent Changes
+
+### 2.23.7 (2026-08-20)
+
+- **Compliance cross-reference audit across 21 skills**: read all 79 skills against a 4-gap-pattern checklist (missing `compliance` cross-reference on claims/pricing/testimonial/endorsement/promotion content; missing refusal/escalation instruction for a deceptive request; weak/no named framework for a consequential decision; missing "not professional advice" disclaimer), grounded in a real, validated finding from an `offers` eval pilot where a with-skill run correctly refused a fake-scarcity request but never mentioned the regulatory angle a generic baseline caught. Each fix adds one substantive inline sentence at the relevant point in the skill body plus a corresponding `compliance` bullet in Related Skills — never a full duplication of compliance content, just a cross-reference and a one-sentence risk flag, following the precedent set by the `offers` fix in 2.23.6. Fixed: **ads** (2.4.2 → 2.4.3, testimonial/stat substantiation in ad copy), **channel-selection** (1.0.2 → 1.0.3, added a weighted scoring table to Selection Criteria), **churn-prevention** (2.0.1 → 2.0.2, cancel-flow legal-review routing), **co-marketing** (2.0.1 → 2.0.2, sweepstakes/contest law on joint giveaways), **cold-email** (2.0.2 → 2.0.3, new CAN-SPAM/CASL/GDPR-PECR Compliance section), **community-marketing** (2.0.1 → 2.0.2, ambassador-program endorsement disclosure), **competitors** (2.0.2 → 2.0.3, honesty/refusal instruction), **copywriting** (2.0.3 → 2.0.4, stat/testimonial substantiation), **directory-submissions** (2.0.1 → 2.0.2, disclosure requirement in the 10-in-30 protocol), **discount-and-clearance** (1.0.2 → 1.0.3, was/now pricing accuracy), **growth-playbooks** (1.0.2 → 1.0.3, scarcity/drop claims accuracy), **marketing-plan** (1.1.0 → 1.1.1, added a missing `metadata` block and a not-financial-advice disclaimer on the budget formulas), **marketing-psychology** (2.0.1 → 2.0.2, regulatory risk on the Scarcity/Urgency Heuristic), **overstock** (1.0.2 → 1.0.3, "discontinued"/"last chance" claims), **paywalls** (2.0.1 → 2.0.2, auto-renewal/negative-option disclosure), **popups** (2.0.1 → 2.0.2, fake-countdown risk on discount popups), **referrals** (2.0.1 → 2.0.2, affiliate/ambassador disclosure), **retail-media** (1.1.0 → 1.1.1, sponsored-listing claims substantiation), **sales-enablement** (2.0.3 → 2.0.4, ROI/case-study figure substantiation), **social** (2.3.2 → 2.3.3, claims/regulated-category review), **video** (2.1.1 → 2.1.2, AI-avatar endorsement disclosure and templated-testimonial fabrication risk). This closes the audit-pass phase of a broader "make the skills actually effective" pass; targeted eval pilots on skills where the audit result is still uncertain are a follow-up, not done in this pass.
 
 ### 2.23.6 (2026-08-19)
 

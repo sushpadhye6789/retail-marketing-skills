@@ -2,7 +2,7 @@
 name: directory-submissions
 description: When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions "directory submissions," "submit to directories," "backlinks from directories," "list my product," "submit to Product Hunt," "BetaList," "TAAFT," "Futurepedia," "G2 listing," "Capterra listing," "AlternativeTo," "SaaSHub," "AI directories," "MCP registry," "agent directory," "dofollow backlinks," "launch directories," or "directory tracker." Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo.
 metadata:
-  version: 2.0.1
+  version: 2.0.2
 ---
 
 # Directory Submissions
@@ -171,7 +171,7 @@ G2 and Capterra (now owned by G2 as of Feb 2026) listings are **worthless withou
 
 1. **Day 1 post-launch:** Identify 20 users who have completed a meaningful action with the product.
 2. **Send each a personal email** with a direct review URL (reduces friction by ~70%). No forms, no landing pages — direct link.
-3. **Offer a modest thank-you.** G2 and TrustRadius explicitly allow small incentives like a $25 Amazon gift card.
+3. **Offer a modest thank-you.** G2 and TrustRadius explicitly allow small incentives like a $25 Amazon gift card — but incentivized reviews typically carry a disclosure requirement (the reviewer must state the review was incentivized); confirm the current platform rule and see `compliance` before running this at scale.
 4. **Follow up once** after 5 days. Don't follow up twice — it becomes annoying and damages the relationship.
 5. **Target:** 50% conversion → 10 reviews from 20 asks.
 
@@ -379,3 +379,4 @@ Keep the plan actionable. Every item should be something the user can do today.
 - **free-tools** — lead magnets for destination pages
 - **community-marketing** — Reddit, Indie Hackers, Slack community mechanics
 - **schema** — FAQ + Product + Organization JSON-LD for GEO
+- **compliance** — disclosure requirements for incentivized reviews before running the 10-in-30 protocol at scale

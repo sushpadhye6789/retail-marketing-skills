@@ -2,7 +2,7 @@
 name: social
 description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engagement triage. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' 'create a reel,' 'social listening,' 'brand mentions,' 'competitor monitoring,' 'top posts to comment on,' 'find people asking for,' 'carousel,' 'slide-by-slide,' or 'document post.' Use this for social media content creation, repurposing, scheduling, short-form video scripting, and social listening. For broader content strategy, see content-strategy. For paid ads, see ad-creative. For earned media, see public-relations."
 metadata:
-  version: 2.3.2
+  version: 2.3.3
 ---
 
 # Social Content
@@ -427,3 +427,4 @@ Tools: CapCut (free), Descript, Captions.ai, Premiere Pro
 - **marketing-psychology**: For understanding what drives engagement
 - **channel-selection**: For the owned-vs-rented channel portfolio thinking behind not over-relying on any single platform
 - **influencer-marketing**: For disclosure and usage-rights discipline relevant to policy/takedown risk
+- **compliance**: For claims-accuracy and regulated-category review before posting content that could trigger a platform strike or a regulatory issue

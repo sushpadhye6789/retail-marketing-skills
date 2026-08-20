@@ -5,9 +5,9 @@ Current versions of all skills. Agents can compare against local versions to che
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
 | ab-testing | 2.0.2 | 2026-08-18 |
-| ad-creative | 2.8.2 | 2026-08-19 |
+| ad-creative | 2.8.3 | 2026-08-20 |
 | ads | 2.4.3 | 2026-08-20 |
-| ai-seo | 2.2.2 | 2026-08-19 |
+| ai-seo | 2.2.3 | 2026-08-20 |
 | analytics | 2.0.2 | 2026-08-18 |
 | aso | 2.0.1 | 2026-08-18 |
 | attribution | 1.3.1 | 2026-08-18 |
@@ -16,13 +16,13 @@ Current versions of all skills. Agents can compare against local versions to che
 | budget-allocation | 1.0.2 | 2026-08-19 |
 | budget-pacing-tracker | 1.0.2 | 2026-08-19 |
 | channel-selection | 1.0.3 | 2026-08-20 |
-| churn-prevention | 2.0.2 | 2026-08-20 |
+| churn-prevention | 2.0.3 | 2026-08-20 |
 | co-marketing | 2.0.2 | 2026-08-20 |
-| cold-email | 2.0.3 | 2026-08-20 |
+| cold-email | 2.0.4 | 2026-08-20 |
 | community-marketing | 2.0.2 | 2026-08-20 |
 | competitor-profiling | 2.0.1 | 2026-08-18 |
 | competitors | 2.0.3 | 2026-08-20 |
-| compliance | 1.0.2 | 2026-08-19 |
+| compliance | 1.0.3 | 2026-08-20 |
 | compound-marketing | 1.3.1 | 2026-08-19 |
 | content-strategy | 2.0.1 | 2026-08-18 |
 | copy-editing | 2.0.1 | 2026-08-18 |
@@ -32,28 +32,28 @@ Current versions of all skills. Agents can compare against local versions to che
 | digital-out-of-home | 1.0.2 | 2026-08-19 |
 | directory-submissions | 2.0.2 | 2026-08-20 |
 | discount-and-clearance | 1.0.3 | 2026-08-20 |
-| emails | 2.1.2 | 2026-08-19 |
+| emails | 2.1.3 | 2026-08-20 |
 | experiential-marketing | 1.0.2 | 2026-08-19 |
 | free-tools | 2.0.1 | 2026-08-18 |
 | growth-playbooks | 1.0.3 | 2026-08-20 |
 | image | 2.0.2 | 2026-08-18 |
-| influencer-marketing | 1.0.1 | 2026-08-18 |
+| influencer-marketing | 1.0.2 | 2026-08-20 |
 | launch | 2.0.2 | 2026-08-18 |
 | lead-magnets | 2.0.1 | 2026-08-18 |
 | local-marketing | 1.1.0 | 2026-08-19 |
 | loyalty | 1.1.0 | 2026-08-19 |
 | marketing-council | 1.2.3 | 2026-08-19 |
 | marketing-ideas | 2.0.4 | 2026-08-18 |
-| marketing-loops | 1.3.3 | 2026-08-18 |
+| marketing-loops | 1.3.4 | 2026-08-20 |
 | marketing-plan | 1.1.1 | 2026-08-20 |
-| marketing-psychology | 2.0.2 | 2026-08-20 |
+| marketing-psychology | 2.0.3 | 2026-08-20 |
 | marketing-strategy | 1.5.1 | 2026-08-18 |
 | media-plan | 1.0.2 | 2026-08-19 |
 | moat-builder | 1.0.3 | 2026-08-19 |
-| offers | 1.1.3 | 2026-08-19 |
+| offers | 1.1.4 | 2026-08-20 |
 | onboarding | 2.0.2 | 2026-08-18 |
 | overstock | 1.0.3 | 2026-08-20 |
-| paywalls | 2.0.2 | 2026-08-20 |
+| paywalls | 2.0.3 | 2026-08-20 |
 | popups | 2.0.2 | 2026-08-20 |
 | pos-marketing | 1.0.4 | 2026-08-19 |
 | price-elasticity | 1.0.2 | 2026-08-19 |
@@ -62,10 +62,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | product-lifecycle | 1.0.2 | 2026-08-19 |
 | programmatic-seo | 2.0.1 | 2026-08-18 |
 | programmatic | 1.0.2 | 2026-08-19 |
-| prospecting | 1.1.2 | 2026-08-18 |
+| prospecting | 1.1.3 | 2026-08-20 |
 | public-relations | 1.0.2 | 2026-08-19 |
 | range-review | 1.0.2 | 2026-08-19 |
-| referrals | 2.0.2 | 2026-08-20 |
+| referrals | 2.0.3 | 2026-08-20 |
 | repositioning | 1.0.2 | 2026-08-19 |
 | retail-media | 1.1.1 | 2026-08-20 |
 | revops | 2.0.2 | 2026-08-18 |
@@ -85,6 +85,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | visual-merchandising | 1.0.2 | 2026-08-19 |
 
 ## Recent Changes
+
+### 2.23.8 (2026-08-20)
+
+- **Australia/NZ-first regulatory ordering across 13 skills**: every place a skill named a specific regulator or law for claims-accuracy, disclosure, pricing, cancellation, or email/SMS consent previously led with the US FTC (or CAN-SPAM) and mentioned other jurisdictions, if at all, as an afterthought. Reordered these to name the Australian and New Zealand regulator/law first, with the US/UK/EU as the secondary global reference — matching how this repo's actual users (Australia/NZ-based) need the guidance framed, and adding the AU/NZ equivalent where it was missing entirely rather than just reordering. Key facts used: Australia's **ACCC** enforces the **Australian Consumer Law** (fake urgency/reviews, subscription traps, drip pricing) and, with **Ad Standards**, influencer/endorsement disclosure; the **Spam Act 2003 (Cth)** (ACMA) and **Privacy Act 1988 (Cth)** (OAIC) govern email/SMS consent and data privacy. New Zealand's **Commerce Commission** enforces the **Fair Trading Act 1986**; the **ASA** covers influencer/endorsement disclosure; the **Unsolicited Electronic Messages Act 2007** (DIA) and **Privacy Act 2020** (Office of the Privacy Commissioner) govern consent and data privacy. Both AU and NZ default to opt-in consent for commercial electronic messages, stricter than the US's opt-out model — flagged explicitly in `cold-email` and `emails`. Touched: **compliance** (1.0.2 → 1.0.3), **offers** (1.1.3 → 1.1.4, scarcity-urgency.md), **influencer-marketing** (1.0.1 → 1.0.2), **paywalls** (2.0.2 → 2.0.3), **marketing-psychology** (2.0.2 → 2.0.3), **marketing-loops** (1.3.3 → 1.3.4, loop-guardrails.md + loop-catalog.md), **ai-seo** (2.2.2 → 2.2.3, content-patterns.md), **churn-prevention** (2.0.2 → 2.0.3, cancel-flow-patterns.md — added a dedicated AU/NZ subscription-traps section ahead of the US click-to-cancel section), **referrals** (2.0.2 → 2.0.3), **ad-creative** (2.8.2 → 2.8.3, imessage-video-ads.md), **cold-email** (2.0.3 → 2.0.4), **emails** (2.1.2 → 2.1.3), **prospecting** (1.1.2 → 1.1.3, compliance.md — added a new Australia/NZ section ahead of the existing US/EU/Canada sections, + b2b-prospecting.md). Confirmed **programmatic** already exists as a skill (v1.0.2) — no gap to fill there.
 
 ### 2.23.7 (2026-08-20)
 

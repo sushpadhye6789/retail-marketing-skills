@@ -297,7 +297,13 @@ The most effective cancel flows use segmentation to show different offers to dif
 
 ## Compliance Notes
 
-### FTC Click-to-Cancel Rule (US)
+### Subscription Traps (Australia / New Zealand)
+- Australia's ACCC has made subscription "traps" — easy sign-up, deliberately hard cancellation — an enforcement priority under the Australian Consumer Law's unfair-trading-practices provisions
+- New Zealand's Fair Trading Act carries the same underlying principle via its misleading/deceptive-conduct and unsubstantiated-representations provisions
+- Neither regime currently codifies a specific "click-to-cancel" step-count rule the way the US does below, but the enforcement logic is the same: cancellation friction disproportionate to sign-up friction is the pattern regulators target
+- Route the cancel flow's step count and friction level through `compliance` before launch rather than assuming a US-style rule is the only bar to clear
+
+### Click-to-Cancel Rules (US)
 - Cancellation must be as easy as signup
 - Cannot require a phone call to cancel if signup was online
 - Cannot add excessive steps to discourage cancellation

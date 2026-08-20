@@ -2,7 +2,7 @@
 name: compliance
 description: "When the user wants to check a marketing decision, claim, or campaign for compliance risk — advertising claims, required disclosures, email/SMS consent, data privacy, or pricing-claim accuracy. Also use when the user mentions 'marketing compliance,' 'advertising compliance,' 'FTC disclosure,' 'ad claims,' 'substantiation,' 'email compliance,' 'CAN-SPAM,' 'GDPR,' 'data privacy marketing,' 'cookie consent,' 'was/now pricing,' 'drip pricing,' 'affiliate disclosure,' 'influencer disclosure,' or 'accessibility compliance.' This skill flags where a marketing decision touches a compliance-risk area and what the general principle is — it is not legal advice and does not assert jurisdiction-specific legal thresholds, which change over time and vary by region. Route anything with real stakes to qualified legal/compliance counsel before publishing."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Marketing Compliance
@@ -50,7 +50,7 @@ Paid partnerships, sponsored content, and affiliate relationships generally requ
 - **Understandable to an ordinary audience member** — jargon or ambiguous shorthand doesn't count as adequate disclosure.
 - **Made before the audience takes action** — a disclosure that appears after someone has already clicked through or purchased is too late.
 
-See `influencer-marketing` (which already flags FTC-style disclosure as a trigger) for the execution side — this skill is the compliance-awareness layer underneath that.
+See `influencer-marketing` (which already flags endorsement-disclosure requirements — ACCC/Ad Standards in Australia, ASA in New Zealand, FTC-style rules elsewhere — as a trigger) for the execution side — this skill is the compliance-awareness layer underneath that.
 
 **Flag for legal review**: any influencer/affiliate program's disclosure templates and placement, before scaling the program.
 

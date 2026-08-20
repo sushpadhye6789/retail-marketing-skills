@@ -561,7 +561,7 @@ Loops are grouped by function. Naming follows the "The X loop" convention.
   4. Flag anything negative for a human response.
 - **Self-check**: Is it genuinely strong and on-message? Don't force weak proof into prime placement.
 - **State / idempotency**: Track already-harvested items; never re-use the same one twice.
-- **Stop / bail-out**: **Verify consent and platform ToS before public reuse; add FTC-required disclosure for incentivized content.** No verifiable consent, or platform prohibits reuse → don't use. Negative/sensitive → escalate to a human, don't auto-publish.
+- **Stop / bail-out**: **Verify consent and platform ToS before public reuse; add the disclosure required by the applicable regulator (Australia's ACCC/Ad Standards, New Zealand's ASA, the US FTC, or equivalent) for incentivized content.** No verifiable consent, or platform prohibits reuse → don't use. Negative/sensitive → escalate to a human, don't auto-publish.
 - **Output**: New proof assets routed to their destinations.
 
 ### The review-site-management loop

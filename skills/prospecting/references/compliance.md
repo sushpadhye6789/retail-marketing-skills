@@ -2,7 +2,19 @@
 
 The legal and platform-ToS constraints that apply to prospect list building. Read first, every engagement.
 
-> Operational guidance, not legal advice. For high-volume programs or programs touching EU/UK residents, run your setup past a privacy attorney.
+> Operational guidance, not legal advice. For high-volume programs or programs touching EU/UK/AU/NZ residents, run your setup past a privacy attorney.
+
+---
+
+## Australia / New Zealand — Privacy Act & Spam Act (AU), Privacy Act & Unsolicited Electronic Messages Act (NZ)
+
+Both countries default to a consent-based (opt-in) model for commercial electronic messages, stricter than the US's opt-out standard below.
+
+- **Australia's Spam Act 2003 (Cth)**, enforced by the ACMA, requires consent — express or reasonably inferred from an existing business relationship or a publicly-published business contact intended for that purpose — before sending a commercial electronic message, plus a working unsubscribe and accurate sender identification.
+- **New Zealand's Unsolicited Electronic Messages Act 2007**, enforced by the Department of Internal Affairs, carries the same consent-based model.
+- **Australia's Privacy Act 1988 (Cth)** (OAIC) and **New Zealand's Privacy Act 2020** (Office of the Privacy Commissioner) govern collection and use of personal information — capture source, date, and the basis for collection for every contact, similar in spirit to the GDPR documentation requirements below.
+
+**For prospecting specifically**: because both AU and NZ default to opt-in, an existing business relationship or a contact's own publicly-published business details (posted for the purpose of receiving that kind of contact) is the most defensible basis for cold B2B outreach — closer to Canada's CASL model below than to the US's lighter opt-out standard. Capture source URL + date + the basis relied on for every AU/NZ contact.
 
 ---
 
@@ -72,7 +84,7 @@ Stricter than CAN-SPAM. Cold B2B outreach requires:
 - **Sales Navigator** as a research tool: fine
 - **Scraping LinkedIn at any scale**: explicit ToS violation. Banned accounts are permanent. Don't.
 - **Apollo, Clay, and ZoomInfo** claim LinkedIn-overlap data through various legitimate channels — verify their data sources before assuming compliance
-- **InMail and Connection Requests**: governed by LinkedIn's own messaging rules, not by CAN-SPAM/GDPR (because LinkedIn-internal)
+- **InMail and Connection Requests**: governed by LinkedIn's own messaging rules, not by the Spam Act/GDPR/CAN-SPAM (because LinkedIn-internal)
 
 ### Google Maps
 

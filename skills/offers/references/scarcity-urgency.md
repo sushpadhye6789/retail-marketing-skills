@@ -129,7 +129,7 @@ Real scarcity converts ~the same as fake scarcity at the moment of purchase. The
 
 If you have to fake it, you don't have an offer-design problem — you have a value-equation problem. Go back to [value-equation.md](value-equation.md).
 
-**This isn't only a trust-cost risk — it's a regulatory one.** Manufactured urgency and inventory claims are a specifically named enforcement target (the FTC's rules on fake urgency/reviews, similar guidance from the UK CMA, the EU, and Australia's ACCC), not just a marketing-fails story. See `compliance` before shipping any scarcity claim you couldn't produce evidence for if asked.
+**This isn't only a trust-cost risk — it's a regulatory one.** Manufactured urgency and inventory claims are a specifically named enforcement target — Australia's ACCC has pursued fake-urgency and fake-review cases under the Australian Consumer Law, New Zealand's Commerce Commission enforces the same principle under the Fair Trading Act, and similar guidance exists from the US FTC, the UK CMA, and the EU — not just a marketing-fails story. See `compliance` before shipping any scarcity claim you couldn't produce evidence for if asked.
 
 ---
 

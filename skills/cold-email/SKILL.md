@@ -2,7 +2,7 @@
 name: cold-email
 description: Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions "cold outreach," "prospecting email," "outbound email," "email to leads," "reach out to prospects," "sales email," "follow-up email sequence," "nobody's replying to my emails," or "how do I write a cold email." Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see emails. For sales collateral beyond emails, see sales-enablement.
 metadata:
-  version: 2.0.3
+  version: 2.0.4
 ---
 
 # Cold Email Writing
@@ -114,7 +114,7 @@ See [follow-up-sequences.md](references/follow-up-sequences.md) for cadence, ang
 
 ## Compliance
 
-Cold outbound commercial email is regulated (CAN-SPAM in the US, CASL in Canada, GDPR/PECR-adjacent rules in the UK/EU), and requirements vary by where the recipient is, not just where the sender is — a working unsubscribe/opt-out path and accurate sender identification aren't optional extras. See `compliance` before running outbound at real volume, especially across multiple countries.
+Cold outbound commercial email is regulated (the Spam Act 2003 in Australia, the Unsolicited Electronic Messages Act 2007 in New Zealand, CAN-SPAM in the US, CASL in Canada, GDPR/PECR-adjacent rules in the UK/EU), and requirements vary by where the recipient is, not just where the sender is. Australia and NZ both default to requiring consent (opt-in) rather than the US's opt-out model, so a list or program built around US assumptions isn't automatically compliant for AU/NZ recipients. A working unsubscribe/opt-out path and accurate sender identification aren't optional extras anywhere. See `compliance` before running outbound at real volume, especially across multiple countries.
 
 ## Quality Check
 

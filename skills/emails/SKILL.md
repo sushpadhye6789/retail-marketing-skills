@@ -2,7 +2,7 @@
 name: emails
 description: When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome sequence," "re-engagement emails," "email automation," "lifecycle emails," "trigger-based emails," "email funnel," "email workflow," "what emails should I send," "welcome series," or "email cadence." Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding.
 metadata:
-  version: 2.1.2
+  version: 2.1.3
 ---
 
 # Email Sequence Design
@@ -253,7 +253,7 @@ Key emails:
 
 Getting the sequence and copy right doesn't matter if the email never reaches the inbox, or if the program creates real legal exposure. This isn't optional groundwork — build it in from the first send, the same way `sms` treats TCPA/GDPR compliance as foundational rather than an afterthought:
 
-- **Consent and unsubscribe basics** — requirements vary by market (CAN-SPAM in the US, CASL in Canada, GDPR/PECR in the EU/UK, and others) and this repo doesn't assert specific legal thresholds — verify current requirements for the markets the business sends into, or consult counsel for anything ambiguous. The common floor across most regimes: a working one-click unsubscribe honored promptly, accurate sender identification, and not sending marketing email to someone who never opted in.
+- **Consent and unsubscribe basics** — requirements vary by market (the Spam Act 2003 in Australia and the Unsolicited Electronic Messages Act 2007 in New Zealand, both opt-in by default; CAN-SPAM in the US; CASL in Canada; GDPR/PECR in the EU/UK; and others) and this repo doesn't assert specific legal thresholds — verify current requirements for the markets the business sends into, or consult counsel for anything ambiguous. The common floor across most regimes: a working one-click unsubscribe honored promptly, accurate sender identification, and not sending marketing email to someone who never opted in.
 - **List hygiene protects deliverability, not just compliance** — suppress hard bounces immediately, watch spam-complaint rate (a level that's fine for one send can trigger blocklisting at higher volume), and remove or re-permission long-unengaged addresses before they drag down sender reputation for the whole list, not just themselves.
 - **Sender authentication (SPF, DKIM, DMARC)** should be configured correctly before meaningful volume goes out — misconfigured authentication is one of the most common causes of inbox providers routing legitimate campaigns to spam, and it's invisible until deliverability craters.
 - **If deliverability suddenly collapses** (open rates drop sharply with no content change, or a provider flags the domain), check spam-complaint rate and blocklist status first — this is usually a sender-reputation problem, not a subject-line problem, and no amount of copy optimization fixes a blocklisted domain.

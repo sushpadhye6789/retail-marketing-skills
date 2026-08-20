@@ -2,7 +2,7 @@
 name: marketing-loops
 description: "When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when the user mentions 'marketing loop,' 'recurring marketing workflow,' 'automate my marketing,' 'marketing on autopilot,' 'weekly marketing review,' 'ad fatigue check,' 'content refresh loop,' 'churn watch,' 'ranking drop alert,' 'always-on marketing,' 'marketing automation workflow,' or 'run this every week.' Use this to pick, adapt, and schedule an ongoing marketing loop that orchestrates the other marketing skills. For one-off marketing ideas, see marketing-ideas. For the experimentation loop specifically, see ab-testing."
 metadata:
-  version: 1.3.3
+  version: 1.3.4
 ---
 
 # Marketing Loops
@@ -78,7 +78,7 @@ Not everything should be automated on a cadence. Skip a loop — or add a mandat
 - **The signal is too sparse to be significant.** A weekly conversion-rate loop on 40 visitors/week is measuring noise.
 - **It's a vanity loop.** If nobody acts on the output, delete the loop. A loop that emails a dashboard nobody reads is worse than nothing.
 
-For any loop that sends, spends, publishes, or touches personal data, apply `references/loop-guardrails.md` — the two-tier action model (autonomous-safe vs. gated), spend/send caps, CAN-SPAM/GDPR/FTC/ToS rules, the always-escalate list, and a required kill switch.
+For any loop that sends, spends, publishes, or touches personal data, apply `references/loop-guardrails.md` — the two-tier action model (autonomous-safe vs. gated), spend/send caps, Spam Act/Privacy Act (AU) and Unsolicited Electronic Messages Act/Privacy Act (NZ) rules alongside CAN-SPAM/GDPR/FTC/ToS elsewhere, the always-escalate list, and a required kill switch.
 
 ## Scheduling a loop
 

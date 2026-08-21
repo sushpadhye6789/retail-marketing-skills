@@ -86,6 +86,10 @@ Current versions of all skills. Agents can compare against local versions to che
 
 ## Recent Changes
 
+### 2.23.10 (2026-08-21)
+
+- **`mcp-server` gains a remote (Streamable HTTP) transport for claude.ai web Connectors**: the server previously only spoke stdio (Claude Desktop config, `claude mcp add`), which claude.ai's web Connectors can't use — they need a URL to POST to, not a local process to spawn. Added a second transport, selected via `TRANSPORT=http`, following the MCP TypeScript SDK's stateless Streamable HTTP pattern (fresh transport per request, `POST /mcp`, plus a `GET /` health check and open CORS — safe here since every tool is read-only public skill content with no auth or secrets). Both transports share the same 4 tools and were verified end-to-end: stdio via the real MCP JSON-RPC protocol (as in 2.23.9), HTTP via `curl` against a running instance (health check, CORS preflight, initialize, tools/list, and a real tools/call). `mcp-server/README.md` now documents deployment to Render/Railway/Fly.io/a VPS and adding the resulting URL under claude.ai Settings → Connectors. `mcp-server` package bumped 1.0.0 → 1.1.0.
+
 ### 2.23.9 (2026-08-20)
 
 - **Repo AI-discoverability + MCP server**: added `llms.txt` at the repo root (per the [llmstxt.org](https://llmstxt.org) convention already documented in the `ai-seo` skill) and a new README section — "Using This Repo With Claude, ChatGPT, Copilot & Other AI Agents" — with copy-paste prompts for pulling a specific skill into a chat-based AI tool by URL. Checked the pasted GEO/AEO tactic list this was prompted by against the existing `ai-seo` skill first: comparison-content citation share, prompt-matched H2/H3 headers, `llms.txt`/`pricing.md` machine-readable files, and black-hat tactics to avoid were already covered there in more depth (Princeton GEO research citations, Google's official AI-features guidance, OKF) — so nothing was added to `ai-seo` itself; the two additions below are new because they're about *this repo's own* discoverability, not skill content for a retail brand's site.

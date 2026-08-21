@@ -15,7 +15,7 @@ It mirrors the Agent Skills spec's own progressive-disclosure model as MCP tools
 
 All four are read-only — this server only reads from the `skills/` directory; it never writes.
 
-## Install & Run
+## Install & Build
 
 ```bash
 cd mcp-server
@@ -23,7 +23,11 @@ npm install
 npm run build
 ```
 
-This produces `dist/index.js`, a stdio MCP server. Point your MCP client at it.
+This produces `dist/index.js`, which runs as either transport below depending on the `TRANSPORT` env var (default: `stdio`).
+
+## Local (stdio) — Claude Desktop, Claude Code
+
+Point your MCP client at the built file directly; it spawns the server as a child process.
 
 **Claude Desktop** (`claude_desktop_config.json`) or any client using the same config shape:
 
@@ -43,6 +47,29 @@ This produces `dist/index.js`, a stdio MCP server. Point your MCP client at it.
 ```bash
 claude mcp add retail-marketing -- node /absolute/path/to/retail-marketing-skills/mcp-server/dist/index.js
 ```
+
+## Remote (Streamable HTTP) — claude.ai Web Connectors
+
+claude.ai's web Connectors need a **URL**, not a local process — the browser can't spawn `node` on your machine. Run this server in HTTP mode instead, and host it somewhere reachable from the internet.
+
+**Run locally in HTTP mode** (for testing before you deploy):
+
+```bash
+npm run start:http          # or: TRANSPORT=http PORT=3000 node dist/index.js
+```
+
+This serves the MCP endpoint at `POST http://localhost:<PORT>/mcp` (default port `3000`), plus a `GET /` health check. It's stateless — a fresh transport per request — and CORS-open, since every tool here is read-only public skill content with no auth or secrets involved.
+
+**Deploy it**, then add the resulting URL (`https://your-host/mcp`) in claude.ai under **Settings → Connectors → Add custom connector**. Any host that runs a long-lived Node process works — this is a plain Express server, not a Cloudflare Workers/edge-function build, so pick one of:
+
+| Host | Notes |
+|---|---|
+| [Render](https://render.com) | Free-tier Web Service: build command `npm install && npm run build`, start command `npm run start:http` |
+| [Railway](https://railway.app) | Same build/start commands; auto-detects Node |
+| [Fly.io](https://fly.io) | `fly launch` from `mcp-server/`, set `PORT` and `TRANSPORT=http` as app env vars |
+| Your own VPS | `pm2 start dist/index.js --name retail-marketing-mcp -- ` with `TRANSPORT=http` in the environment, behind a reverse proxy (nginx/Caddy) for TLS |
+
+Whichever you pick, set the environment variables `TRANSPORT=http` and (if the platform doesn't inject its own) `PORT`. No API keys or secrets are needed — this server only reads local Markdown files and returns them; it doesn't call out to anything external.
 
 ## Configuration
 

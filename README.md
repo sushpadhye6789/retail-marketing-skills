@@ -234,6 +234,31 @@ You can also invoke skills directly:
 /seo-audit
 ```
 
+## Using This Repo With Claude, ChatGPT, Copilot & Other AI Agents
+
+This repo is built to be ingested as context, not just browsed. A few ways to pull it in directly:
+
+**In Claude Code**, install as a plugin (see [Installation](#installation)) and the skills trigger automatically — no extra prompting needed.
+
+**In any chat-based AI tool** (ChatGPT, Claude.ai, Copilot Chat), point it at a specific skill and ask it to apply that skill's framework:
+
+```
+Read https://raw.githubusercontent.com/sushpadhye6789/retail-marketing-skills/main/skills/cro/SKILL.md
+and use it to audit this product page: [paste URL or copy]
+
+Read https://raw.githubusercontent.com/sushpadhye6789/retail-marketing-skills/main/skills/ai-seo/SKILL.md
+and tell me what to fix so our comparison pages get cited by AI search engines
+
+Read https://raw.githubusercontent.com/sushpadhye6789/retail-marketing-skills/main/skills/marketing-strategy/SKILL.md
+and interview me to build our brand-tier and distribution-model context, like it describes
+```
+
+**For an AI agent evaluating this repo itself** (not applying its skills, but summarizing or citing it): start from [`llms.txt`](llms.txt) at the repo root for a structured overview, or the [Available Skills](#available-skills) table below for the full index with one-line descriptions per skill.
+
+**For coding agents other than Claude Code** (Cursor, Windsurf, OpenAI Codex, any [Agent Skills spec](https://agentskills.io)-compatible agent): copy or symlink the `skills/` directory into your project's `.agents/skills/` — see [Installation](#installation).
+
+**For any MCP-compatible client that doesn't read Agent Skills natively** (Claude Desktop, or a custom MCP host): run the included [`mcp-server/`](mcp-server/) — it exposes every skill as MCP tools (`retail_marketing_list_skills`, `retail_marketing_get_skill`, `retail_marketing_get_skill_file`, `retail_marketing_search_skills`) so the client can browse and load them the same progressive-disclosure way Claude Code does natively. See [mcp-server/README.md](mcp-server/README.md) for setup.
+
 ## Skill Categories
 
 ### Strategy & Foundation

@@ -257,7 +257,7 @@ and interview me to build our brand-tier and distribution-model context, like it
 
 **For coding agents other than Claude Code** (Cursor, Windsurf, OpenAI Codex, any [Agent Skills spec](https://agentskills.io)-compatible agent): copy or symlink the `skills/` directory into your project's `.agents/skills/` — see [Installation](#installation).
 
-**For any MCP-compatible client that doesn't read Agent Skills natively** (Claude Desktop, or a custom MCP host): run the included [`mcp-server/`](mcp-server/) — it exposes every skill as MCP tools (`retail_marketing_list_skills`, `retail_marketing_get_skill`, `retail_marketing_get_skill_file`, `retail_marketing_search_skills`) so the client can browse and load them the same progressive-disclosure way Claude Code does natively. See [mcp-server/README.md](mcp-server/README.md) for setup.
+**For any MCP-compatible client that doesn't read Agent Skills natively** (Claude Desktop, claude.ai web Connectors, or a custom MCP host): run the included [`mcp-server/`](mcp-server/) — it exposes every skill as MCP tools (`retail_marketing_list_skills`, `retail_marketing_get_skill`, `retail_marketing_get_skill_file`, `retail_marketing_search_skills`) so the client can browse and load them the same progressive-disclosure way Claude Code does natively. It runs as a local stdio server (Claude Desktop/Claude Code) or a Streamable HTTP server you deploy and add as a claude.ai web Connector by URL — see [mcp-server/README.md](mcp-server/README.md) for both setups.
 
 ## Skill Categories
 

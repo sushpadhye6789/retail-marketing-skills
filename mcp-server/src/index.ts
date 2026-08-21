@@ -11,6 +11,8 @@
 
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
+import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
+import express from "express";
 import { z } from "zod";
 import {
   SKILLS_ROOT,
@@ -186,11 +188,72 @@ Read-only. Does not modify anything.`,
   }
 );
 
-async function main() {
+// stdio: for local clients that spawn this as a child process (Claude Desktop
+// config, `claude mcp add`). One long-lived server/transport pair.
+async function runStdio() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error(`retail-marketing-mcp-server running (skills root: ${SKILLS_ROOT})`);
+  console.error(`retail-marketing-mcp-server running via stdio (skills root: ${SKILLS_ROOT})`);
 }
+
+// Streamable HTTP: for remote clients, including claude.ai's web Connectors,
+// which need a URL to POST to rather than a local process to spawn. Stateless:
+// a fresh transport per request, since these tools have no session state to
+// hold onto between calls — this is simpler to scale and matches the MCP
+// TypeScript SDK's own recommendation for remote servers.
+function corsHeaders(res: express.Response) {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+  res.setHeader(
+    "Access-Control-Allow-Headers",
+    "Content-Type, Mcp-Session-Id, mcp-protocol-version, Accept"
+  );
+}
+
+async function runHttp() {
+  const app = express();
+  app.use(express.json());
+
+  app.get("/", (_req, res) => {
+    res.status(200).json({
+      name: "retail-marketing-mcp-server",
+      status: "ok",
+      skillsRoot: SKILLS_ROOT,
+      mcpEndpoint: "/mcp",
+    });
+  });
+
+  app.options("/mcp", (_req, res) => {
+    corsHeaders(res);
+    res.status(204).end();
+  });
+
+  app.post("/mcp", async (req, res) => {
+    corsHeaders(res);
+    try {
+      const transport = new StreamableHTTPServerTransport({
+        sessionIdGenerator: undefined,
+        enableJsonResponse: true,
+      });
+      res.on("close", () => transport.close());
+      await server.connect(transport);
+      await transport.handleRequest(req, res, req.body);
+    } catch (err) {
+      console.error("Error handling /mcp request:", err);
+      if (!res.headersSent) {
+        res.status(500).json({ error: "Internal server error" });
+      }
+    }
+  });
+
+  const port = parseInt(process.env.PORT || "3000", 10);
+  app.listen(port, () => {
+    console.error(`retail-marketing-mcp-server running via HTTP on port ${port} (POST /mcp, skills root: ${SKILLS_ROOT})`);
+  });
+}
+
+const transportMode = process.env.TRANSPORT === "http" ? "http" : "stdio";
+const main = transportMode === "http" ? runHttp : runStdio;
 
 main().catch((err) => {
   console.error("Fatal error starting retail-marketing-mcp-server:", err);

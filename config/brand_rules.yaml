@@ -1,0 +1,33 @@
+# Brand and compliance rules for retail marketing
+character_limits:
+  subject_line: 50
+  preview_text: 90
+  hero_headline: 10
+  hero_body: 100
+  cta_button: 10
+
+banned_phrases:
+  - "click here"
+  - "game-changer"
+  - "synergy"
+  - "revolutionary"
+  - "groundbreaking"
+  - "best ever"
+  - "amazing"
+  - "incredible"
+
+brand_tone:
+  - authoritative
+  - clear
+  - metric-driven
+  - actionable
+  - benefit-focused
+
+compliance:
+  margin_guardrail: 30  # Maximum discount percentage without explicit approval
+  required_disclaimers:
+    - "Offer valid until [end_date]"
+    - "Selected styles only"
+    - "Cannot be combined with other offers"
+    - "[promo_code] must be entered at checkout"
+  pricing_clarity: true  # Require ex-GST vs inc-GST distinction

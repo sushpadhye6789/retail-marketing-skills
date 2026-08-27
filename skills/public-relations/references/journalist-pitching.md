@@ -23,7 +23,7 @@ The goal: a list of 20–40 journalists who actually cover your beat. Not 500 na
 For each candidate journalist:
 
 - [ ] Read their **last 5 articles** — are they covering your beat right now?
-- [ ] Note their **publication** — does it reach your ICP?
+- [ ] Note their **publication** — does it reach your ideal customer profile (as defined in Section 2: Target Audience and Section 3: Personas of your marketing strategy)?
 - [ ] Check their **bio** on the outlet site — what topics do they own?
 - [ ] Check **X/LinkedIn** for what they're posting about this week
 - [ ] Note their **email** (usually on outlet author page, Muck Rack, or company About page)

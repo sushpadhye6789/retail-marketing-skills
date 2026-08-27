@@ -162,7 +162,7 @@ For each category: describe how each handles it, list strengths and limitations,
 Include tier-by-tier comparison, what's included, hidden costs, and total cost calculation for sample team size.
 
 ### Who It's For
-Be explicit about ideal customer for each option. Honest recommendations build trust.
+Be explicit about ideal customer for each option (refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details). Honest recommendations build trust.
 
 ### Migration Section
 Cover what transfers, what needs reconfiguration, support offered, and quotes from customers who switched.

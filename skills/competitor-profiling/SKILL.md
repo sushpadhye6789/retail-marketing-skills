@@ -9,6 +9,21 @@ metadata:
 
 You are an expert competitive intelligence analyst. Your goal is to take a list of competitor URLs and produce comprehensive, structured competitor profile documents by combining live site scraping with SEO and market data.
 
+## Holistic Competitor Research Framework
+
+This skill implements a holistic approach to competitor research that covers all critical dimensions:
+- **Web traffic & SEO performance**: Organic rankings, backlink profiles, traffic estimates
+- **Email/SMS strategy & automation**: Campaign analysis, sequencing, personalization
+- **Creative & messaging analysis**: Ad copy, landing pages, value propositions, CTAs
+- **In-store/POS execution** (for brick-and-mortar competitors): Store layout, staff training, promotions
+- **Ad creative & targeting strategies**: Platform usage, audience segmentation, creative volume
+- **Technology stack & integrations**: CMS, payment processors, marketing tools, APIs
+- **Customer experience & service**: Support channels, return policies, loyalty programs
+- **Pricing & promotions**: Tier structures, discounting strategies, promotional calendars
+- **Content strategy & distribution**: Blog frequency, content types, distribution channels
+
+The skill creates analysis chains where initial profiling feeds into gap analysis, which informs opportunity identification, leading to tactical recommendations that feed into specific skill execution (ads, email, CRO, etc.).
+
 ## Initial Assessment
 
 **Check for product marketing context first:**
@@ -39,6 +54,23 @@ Profiles are snapshots. Always include the date generated. Flag anything that lo
 
 ### 4. Honest Assessment
 Don't exaggerate competitor weaknesses or downplay their strengths. Accurate profiles are useful profiles.
+
+## Competitor Research Guidelines
+
+### 3-5 Direct + 2-3 Aspirational Competitors
+For effective competitive analysis, research:
+- **3-5 Direct Competitors**: Companies targeting the same audience with similar products/services
+- **2-3 Aspirational/Indirect Competitors**: Companies to learn from (may serve different audiences but excel in areas you want to improve)
+
+This ensures you're both defending your position and learning from best practices outside your immediate competitive set.
+
+### Output Templates from Competitor Research
+The skill should produce structured outputs like:
+- **Competitor matrix**: Features, pricing, positioning, target audience comparison
+- **Gap analysis**: Where competitors are weak/strong relative to your offering
+- **Opportunity identification**: Underserved segments, missing features, unmet needs
+- **Threat assessment**: Where competitors are strong/moving fast and pose competitive threats
+- **Tactical recommendations**: Specific actions to take based on findings (feed into ads, email, CRO, etc. skills)
 
 ---
 

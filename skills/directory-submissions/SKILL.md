@@ -211,9 +211,9 @@ Each page needs: honest feature comparison table, "when to choose X over us," "w
 
 **Critical:** Be honest. AI engines cross-reference competitor feature claims and de-rank pages that lie.
 
-### 2. Use-case / ICP pages
+### 2. Use-case / Ideal Customer Profile pages
 
-Every ICP gets a dedicated landing page:
+Each ideal customer profile from `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) gets a dedicated landing page:
 - `/for/[audience]` — coaches, agencies, ecommerce, SaaS, consultants, etc.
 - `/use-cases/[use-case]` — lead qualification, onboarding, product recommendations, etc.
 

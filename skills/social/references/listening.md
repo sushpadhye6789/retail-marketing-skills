@@ -44,7 +44,7 @@ TOP 10 POSTS — 2026-06-05
 
 1. [Score 9/10] @author — LinkedIn — 2h ago
    "We just rolled out X and the team is loving it…"
-   Why: ICP fit (B2B SaaS, 50–200 employees), buying-intent signal
+   Why: Ideal customer profile fit (as defined in Section 2: Target Audience and Section 3: Personas of your marketing strategy) (B2B SaaS, 50–200 employees), buying-intent signal
    Suggested comment: [draft]
    Link: https://…
 ```
@@ -57,7 +57,7 @@ Score each post 1–10 across five dimensions, then sum and rank.
 
 | Dimension | What it measures | Weight |
 |-----------|------------------|--------|
-| **ICP fit** | Is the author your target customer / influencer? | 2x |
+| **Ideal customer profile fit** | Is the author your target customer / influencer? | 2x |
 | **Intent signal** | Are they expressing a problem, asking, or shopping? | 2x |
 | **Reach potential** | Is the post getting traction (likes/comments rising)? | 1x |
 | **Comment opportunity** | Can you say something genuinely useful, not generic? | 2x |
@@ -71,7 +71,7 @@ Score each post 1–10 across five dimensions, then sum and rank.
 - A complaint about a known competitor
 
 **Drop if any of these are true:**
-- Author isn't ICP and isn't an influencer
+- Author isn't ideal customer profile (as defined in Section 2: Target Audience and Section 3: Personas of your marketing strategy) and isn't an influencer
 - Post is >24h old and already has 50+ comments (your comment buries)
 - Generic motivational/AI-slop post
 - Self-promotion thread where comments don't get reach

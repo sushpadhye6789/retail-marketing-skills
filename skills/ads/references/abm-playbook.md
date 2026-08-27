@@ -17,7 +17,7 @@ Account-based marketing with ads: targeting named accounts on LinkedIn and Meta,
 
 Run paid ABM when: target account list ≥ ~1,000 companies (or you accept 1:1/1:few economics), deal size ~$25K+, sales cycle 60+ days, sales and marketing actually aligned on the list, and (for Meta) contact enrichment available.
 
-Skip it when: TAL under ~500 with no enrichment, no first-party data, budget under ~$3K/month, or a short transactional cycle — standard ICP targeting will outperform.
+Skip it when: TAL under ~500 with no enrichment, no first-party data, budget under ~$3K/month, or a short transactional cycle — standard ideal customer profile targeting (as defined in Section 2: Target Audience and Section 3: Personas of your marketing strategy) will outperform.
 
 ## LinkedIn ABM
 

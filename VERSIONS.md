@@ -7,6 +7,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | ab-testing | 2.0.2 | 2026-08-18 |
 | ad-creative | 2.8.3 | 2026-08-20 |
 | ads | 2.4.3 | 2026-08-20 |
+| ai-cmo-os | 1.1.0 | 2026-08-25 |
 | ai-seo | 2.2.3 | 2026-08-20 |
 | analytics | 2.0.2 | 2026-08-18 |
 | aso | 2.0.1 | 2026-08-18 |
@@ -19,6 +20,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | churn-prevention | 2.0.3 | 2026-08-20 |
 | co-marketing | 2.0.2 | 2026-08-20 |
 | cold-email | 2.0.4 | 2026-08-20 |
+| commercial-ops | 2.1.0 | 2026-08-25 |
 | community-marketing | 2.0.2 | 2026-08-20 |
 | competitor-profiling | 2.0.1 | 2026-08-18 |
 | competitors | 2.0.3 | 2026-08-20 |
@@ -56,6 +58,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | paywalls | 2.0.3 | 2026-08-20 |
 | popups | 2.0.2 | 2026-08-20 |
 | pos-marketing | 1.0.4 | 2026-08-19 |
+| post-purchase-experience | 2.1.0 | 2026-08-25 |
 | price-elasticity | 1.0.2 | 2026-08-19 |
 | pricing | 2.2.1 | 2026-08-18 |
 | product-feed | 1.1.0 | 2026-08-19 |
@@ -68,6 +71,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | referrals | 2.0.3 | 2026-08-20 |
 | repositioning | 1.0.2 | 2026-08-19 |
 | retail-media | 1.1.1 | 2026-08-20 |
+| retention-and-winback | 2.1.0 | 2026-08-25 |
 | revops | 2.0.2 | 2026-08-18 |
 | sales-enablement | 2.0.4 | 2026-08-20 |
 | schema | 2.0.1 | 2026-08-18 |
@@ -80,11 +84,16 @@ Current versions of all skills. Agents can compare against local versions to che
 | storytelling | 1.0.2 | 2026-08-19 |
 | supplier-funded-marketing | 1.0.2 | 2026-08-19 |
 | tentpole-campaign | 1.1.1 | 2026-08-19 |
+| trade-and-dealer-enablement | 2.1.0 | 2026-08-25 |
 | trade-marketing | 1.0.2 | 2026-08-19 |
 | video | 2.1.2 | 2026-08-20 |
 | visual-merchandising | 1.0.2 | 2026-08-19 |
 
 ## Recent Changes
+
+### 2.24.0 (2026-08-27)
+
+- **Knowledge integration systems, project management templates, and non-technical onboarding**: adds five new skills — `ai-cmo-os`, `commercial-ops`, `post-purchase-experience`, `retention-and-winback`, and `trade-and-dealer-enablement` — plus skill aliases, completed evaluations, a template package, a private repo access model, and fixes addressing Substack limitations.
 
 ### 2.23.10 (2026-08-21)
 

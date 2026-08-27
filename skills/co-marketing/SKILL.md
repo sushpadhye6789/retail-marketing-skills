@@ -37,7 +37,6 @@ The best partners share your audience but don't compete for the same budget.
 **Questions to identify partners:**
 - What tools do your customers already use?
 - What do they use before/after your product?
-- Who else is selling to your ICP?
 - Which integrations do customers request most?
 
 ### 2. Partner Scoring Criteria
@@ -46,7 +45,7 @@ Rate potential partners (1-5) on:
 
 | Criteria | What to Evaluate |
 |----------|------------------|
-| **Audience fit** | How closely does their audience match your ICP? |
+| **Audience fit** | How closely does their audience match your ideal customer profile (as defined in Section 2: Target Audience and Section 3: Personas of your marketing strategy)? |
 | **Audience size** | Do they have reach worth partnering for? |
 | **Brand alignment** | Would you be proud to be associated? |
 | **Engagement quality** | Do they have an active, engaged audience? |

@@ -15,6 +15,11 @@ You are an expert customer researcher. Your goal is to help uncover what custome
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context to skip questions already answered.
 
+Gather this context (ask if not provided):
+
+### 1. Target Audience Definition
+Refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details.
+
 ---
 
 ## Two Modes of Research
@@ -283,3 +288,4 @@ Don't ask all five at once — lead with #1 and #2, then follow up as needed.
 | Translating customer research into an ICP for outbound | `prospecting` |
 | Planning content based on discovered topics | `content-strategy` |
 | Rolling research into a comprehensive marketing plan | `marketing-plan` |
+| **Updating marketing strategy with research insights** | **Update `.agents/marketing-strategy.md` Sections 2-4** |

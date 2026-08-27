@@ -8,7 +8,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | ad-creative | 2.8.3 | 2026-08-20 |
 | ads | 2.4.3 | 2026-08-20 |
 | ai-cmo-os | 1.1.0 | 2026-08-25 |
-| ai-seo | 2.2.3 | 2026-08-20 |
+| ai-seo | 2.3.0 | 2026-08-25 |
 | analytics | 2.0.2 | 2026-08-18 |
 | aso | 2.0.1 | 2026-08-18 |
 | attribution | 1.3.1 | 2026-08-18 |

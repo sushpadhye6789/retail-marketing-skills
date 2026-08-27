@@ -35,7 +35,7 @@ PR is not a substitute for distribution. It's a multiplier for it.
 
 - Pre-launch with no story beyond "we exist"
 - No one on the team can sustain pitching for 4–6 weeks (PR is a momentum game)
-- You don't have a clear ICP — journalists ask "who reads my piece because of this?" and if you can't answer, neither can they
+- You don't have a clear ideal customer profile (refer to Section 2: Target Audience and Section 3: Personas of your marketing strategy) — journalists ask "who reads my piece because of this?" and if you can't answer, neither can they
 
 ---
 

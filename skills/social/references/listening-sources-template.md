@@ -12,9 +12,9 @@ Delete sections you don't use. Keep this short and current — stale sources are
 **Category:** [e.g., "AI writing assistant", "Postgres GUI"]
 **Goal:** [e.g., "find people switching from Notion", "engage with B2B SaaS founders 50-200 employees"]
 
-## ICP (for scoring)
+## Ideal Customer Profile (for scoring)
 
-Used by the [scoring rubric](listening.md#scoring-rubric) to judge ICP fit.
+Used by the [scoring rubric](listening.md#scoring-rubric) to judge ideal customer profile fit (as defined in Section 2: Target Audience and Section 3: Personas of your marketing strategy).
 
 - **Role:** [e.g., "founder, head of marketing, marketing ops lead"]
 - **Company stage:** [e.g., "seed to Series B SaaS, 10-200 employees"]

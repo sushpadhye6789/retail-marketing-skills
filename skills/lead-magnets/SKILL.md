@@ -18,7 +18,7 @@ Gather this context (ask if not provided):
 
 ### 1. Business Context
 - What does the company do?
-- Who is the ideal customer?
+Refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details.
 - What problems does your product solve?
 
 ### 2. Current Lead Generation

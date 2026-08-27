@@ -1,0 +1,557 @@
+---
+name: ai-cmo-os
+version: 1.0.0
+description: "When the user wants to build an AI Chief Marketing Officer operating system with autonomous and gated task tiers, agent runtime orchestration, state management, and supervision interfaces. Also use when the user mentions 'AI CMO,' 'marketing operating system,' 'autonomous marketing tasks,' 'gated marketing actions,' 'agent orchestration,' 'n8n integration,' 'Tier 1/2 tasks,' 'human-in-the-loop,' 'state graph,' 'context boundaries,' or 'marketing supervision UI.' Use this for building a complete AI-powered marketing operations platform that executes marketing tasks directly inside the repo."
+---
+
+# AI Chief Marketing Officer Operating System (v1.0.0)
+
+## Overview
+AI-powered marketing operations platform that orchestrates marketing tasks through autonomous agent workflows, human-in-the-loop approval gates, and integration with execution engines like n8n. Creates a scalable marketing OS that reads marketing strategy, recommends skill invocations, sequences them appropriately, and tracks execution.
+
+---
+
+## 1. AI CMO OS Architecture Overview
+
+### Core Components
+
+```
+                  ┌─────────────────────────────────┐
+                  │    Claude Code (AI CMO / Orchestrated Strategist)
+                  └────────────────┬────────────────┘
+                                   │
+              ┌────────────────────┴────────────────────┐
+              ▼                                         ▼
+   [Tier 1: Autonomous Tasks]             [Tier 2: Gated Tasks]
+   - Market Analysis                      - Ad Spend Changes
+   - Copy Generation                      - Live Publishing
+   - SEO Audits                           - Campaign Launches
+              │                                         │
+              └────────────────────┬────────────────────┘
+                                   │
+                                   ▼
+                   ┌────────────────────────────────┐
+                   │    n8n Execution Engine        │
+                   │    (Webhooks, OAuth, Meta, TikTok)
+                   └────────────────┬───────────────┘
+                                    │
+                                    ▼
+                   ┌────────────────────────────────┐
+                   │ Local Supervision UI           │
+                   │ (WebSocket CLI / Status Board) │
+                   └────────────────────────────────┘
+```
+
+### Two-Tier Execution Model
+
+**Tier 1 - Autonomous Tasks** (No human approval required):
+- Market research and analysis
+- Copy and content generation
+- SEO audits and optimizations
+- Data analysis and reporting
+- Schema generation and implementation
+- Competitive intelligence gathering
+- Trend analysis and forecasting
+- Internal linking suggestions
+- Content brief creation
+
+**Tier 2 - Gated Tasks** (Require human approval):
+- Advertising budget modifications
+- Live campaign publishing
+- Major website changes
+- Email blast distributions
+- Code commits to production
+- Financial commitments
+- Brand-affecting decisions
+
+### State Management & Context Boundaries
+- Strict input/output contracts between agents
+- Structured JSON schema state objects
+- Context isolation to prevent drift
+- Versioned state snapshots
+- Rollback capability for failed operations
+
+---
+
+## 2. Agent Runtime Engine
+
+### Orchestrator Configuration (Claude Code as AI CMO)
+
+**CLAUDE.md Configuration**:
+```markdown
+# AI CMO Operating System
+AI CMO Mode: Enabled
+Default Agent: orchestrator
+State Persistence: .agents/state/
+Execution Tiers:
+  Tier 1 (Autonomous): market-analysis, copy-generation, seo-audit, data-reporting
+  Tier 2 (Gated): ad-spend-changes, live-publishing, code-commits, email-blasts
+Approval Workflow:
+  - Tier 1 tasks execute immediately
+  - Tier 2 tasks require explicit approval
+  - Approval via: /approve <task-id> or UI confirmation
+State Graph:
+  - Nodes: task states with defined transitions
+  - Edges: approval gates and completion conditions
+  - Isolation: context boundaries between task types
+```
+
+### Agent Invocation Patterns
+
+**Sequential Orchestration**:
+```
+Strategy Agent → Audience Agent → Copy Agent → Design Agent → Review Agent
+```
+
+**Parallel Processing**:
+```
+[Market Research] + [Competitive Analysis] + [Trend Analysis] → Strategy Synthesis
+```
+
+**Conditional Branching**:
+```
+IF market opportunity > threshold THEN
+  Launch pilot campaign
+ELSE
+  Refine targeting and retry analysis
+END IF
+```
+
+### State Graph Implementation
+
+**State Object Structure**:
+```json
+{
+  "sessionId": "unique-session-identifier",
+  "timestamp": "ISO timestamp",
+  "marketingStrategy": {/* loaded from .agents/marketing-strategy.md */},
+  "activeTasks": [],
+  "completedTasks": [],
+  "tier1Queue": [],
+  "tier2Queue": [],
+  "context": {
+    "currentCampaign": null,
+    "targetAudience": null,
+    "budgetAllocation": {},
+    "performanceMetrics": {}
+  },
+  "approvals": {
+    "pending": [],
+    "approved": [],
+    "rejected": []
+  }
+}
+```
+
+**State Transitions**:
+1. **INITIALIZATION** → Load marketing strategy, set up context
+2. **TASK_QUEUEING** → Add tasks to appropriate tier queues
+3. **EXECUTION** → Run Tier 1 tasks autonomously, queue Tier 2 for approval
+4. **APPROVAL_GATE** → Human review for Tier 2 tasks
+5. **EXECUTION_ENGINE** → Route approved tasks to n8n/workflow engines
+6. **COMPLETION** → Update state, trigger next steps, notify stakeholders
+7. **ROLLBACK** → Revert changes on failure (where applicable)
+
+---
+
+## 3. n8n Execution Engine Integration
+
+### Webhook-Based Task Routing
+
+**n8n Workflow Structure**:
+```
+Webhook Trigger → Task Router → Service Integrations → Callback Handler
+```
+
+**Supported Integrations**:
+- **Meta Ads API** - Campaign creation, budget adjustments, targeting updates
+- **TikTok API** - Video ad campaigns, creative testing, audience targeting
+- **Google Ads** - Search, shopping, display, and video campaign management
+- **Klaviyo** - Email/SMS campaigns, segmentation, automation flows
+- **Shopify API** - Product updates, inventory management, order processing
+- **Google Merchant Center** - Product feed updates, promotional synchronization
+- **Google Analytics 4** - Event tracking, audience creation, conversion optimization
+- **Meta Conversions API** - Server-side event tracking for improved attribution
+- **PostgreSQL/MySQL** - Custom data storage for marketing metrics
+- **Redis** - Caching layer for real-time metrics and session state
+
+### Authentication & Security
+
+**OAuth 2.0 Flows**:
+- Pre-configured connections for each platform
+- Secure token storage via n8n credentials
+- Automatic token refresh where supported
+- Permission scoping to minimum required access
+
+**Webhook Security**:
+- HMAC signature validation for incoming requests
+- IP whitelisting for known services
+- Rate limiting to prevent abuse
+- Detailed logging for audit trails
+
+### Error Handling & Retry Logic
+
+**Retry Policies**:
+- Exponential backoff (1min, 2min, 4min, 8min, 15min)
+- Maximum 5 retries before escalation
+- Dead letter queue for persistent failures
+- Alerting on repeated failures
+
+**Circuit Breaker Pattern**:
+- Temporarily disable failing services
+- Automatic recovery testing after timeout
+- Fallback to manual execution when services unavailable
+
+---
+
+## 4. Local Supervision Interface
+
+### WebSocket-Based Status Board
+
+**Real-Time Monitoring**:
+- Active task execution status
+- Resource consumption (tokens, API calls)
+- Approval queue status
+- Performance metrics dashboard
+- System health indicators
+
+**Interface Components**:
+```
+┌─────────────────────────────────────────────────────────────┐
+│ AI CMO OPERATIONS DASHBOARD                                 │
+├─────────────────────┬─────────────────────┬─────────────────┤
+│ TIER 1 TASKS        │ TIER 2 TASKS        │ SYSTEM METRICS  │
+│ (Running/Queued)    │ (Pending Approval)  │                 │
+│ ┌─────────────┐     │ ┌─────────────┐     │ Tokens: 124,500 │
+│ │ market-res  │     │ │ ad-spend ↑  │     │ API Calls: 842  │
+│ │ copy-gen    │     │ │ publish IG  │     │ Errors: 0       │
+│ │ seo-audit   │     │ │ email blast │     │ Uptime: 99.8%   │
+│ └─────────────┘     │ └─────────────┘     │                 │
+├─────────────────────┴─────────────────────┴─────────────────┤
+│ APPROVAL QUEUE                                              │
+│ [ ] Ad budget increase: $5K → $10K (Meta Ads)               │
+│ [ ] Publish new landing page                                │
+│ [ ] Email blast to 50K subscribers                          │
+│                                                             │
+│ [ Approve All ] [ Reject All ] [ Refresh ]                  │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### CLI-Based Supervision
+
+**Command Interface**:
+```
+/ai-cmo status           # Show current system state
+/ai-cmo queue            # Display task queues
+/ai-cmo approve <id>     # Approve specific gated task
+/ai-cmo reject <id> <reason>  # Reject with reason
+/ai-cmo logs <task-id>   # View task execution logs
+/ai-cmo metrics          # Show performance metrics
+/ai-cmo strategy         # Display loaded marketing strategy
+```
+
+### Notification System
+
+**Real-Time Alerts**:
+- Task completion notifications
+- Approval requests requiring attention
+- System errors or warnings
+- Performance threshold breaches
+- Resource utilization alerts
+
+**Delivery Channels**:
+- Terminal notifications (during active sessions)
+- Email summaries (periodic)
+- Slack/Discord webhooks (configurable)
+- SMS for critical alerts (optional)
+
+---
+
+## 5. Implementation Process
+
+### Phase 1: Foundation & State Management
+
+**Week 1-2**:
+1. **State Infrastructure**:
+   - Create `.agents/state/` directory structure
+   - Implement state persistence and retrieval
+   - Design state schema and versioning
+   - Build state validation and recovery mechanisms
+
+2. **Orchestrator Setup**:
+   - Configure CLAUDE.md for AI CMO mode
+   - Define Tier 1/2 task classifications
+   - Implement basic task queuing system
+   - Create approval workflow primitives
+
+3. **Basic Monitoring**:
+   - Implement task execution logging
+   - Create simple status reporting
+   - Add basic error handling
+
+### Phase 2: Agent Orchestration Enhancement
+
+**Week 3-4**:
+1. **Advanced Orchestration Patterns**:
+   - Implement sequential agent chains
+   - Add parallel processing capabilities
+   - Build conditional branching logic
+   - Create complex workflow templates
+
+2. **Context Management**:
+   - Implement strict input/output contracts
+   - Add context isolation between task types
+   - Build state snapshot and rollback features
+   - Create context validation utilities
+
+3. **Approval Workflow Refinement**:
+   - Design approval request formatting
+   - Implement approval tracking and history
+   - Add escalation procedures for overdue approvals
+   - Create approval delegation capabilities
+
+### Phase 3: External Integration & Execution Engine
+
+**Week 5-6**:
+1. **n8n Integration**:
+   - Deploy n8n instance (self-hosted or cloud)
+   - Configure webhook endpoints for task routing
+   - Set up platform-specific integrations (Meta, TikTok, Google, etc.)
+   - Implement authentication and credential management
+
+2. **Execution Engine Adapters**:
+   - Build adapters for each marketing platform
+   - Create standardized task interfaces
+   - Implement error handling and retry logic
+   - Add validation for execution results
+
+3. **Security & Compliance**:
+   - Implement webhook security measures
+   - Set up OAuth 2.0 flows for each platform
+   - Create audit logging for all executions
+   - Add data protection and privacy controls
+
+### Phase 4: Supervision & Optimization
+
+**Week 7-8**:
+1. **Supervision Interface**:
+   - Build WebSocket-based status board
+   - Implement CLI supervision commands
+   - Create notification system
+   - Add real-time metrics dashboard
+
+2. **Performance Optimization**:
+   - Implement token usage tracking and optimization
+   - Add caching layers for frequent operations
+   - Implement batch processing where applicable
+   - Build performance profiling tools
+
+3. **Advanced Features**:
+   - Add machine learning for task prioritization
+   - Implement predictive resource allocation
+   - Create A/B testing framework for orchestration
+   - Add automated optimization recommendations
+
+---
+
+## 6. Data Architecture & Measurement
+
+### Essential AI CMO OS Data Points
+
+**System Health Metrics**:
+- Task execution success rates (by tier and type)
+- Average task completion time
+- Token consumption per task type
+- API call volume and costs
+- Approval latency and throughput
+- System uptime and availability
+
+**Marketing Performance Metrics**:
+- Campaign ROI and ROAS
+- Customer acquisition cost (CAC)
+- Lifetime value (LTV) trends
+- Conversion rate improvements
+- Engagement metrics by channel
+- Brand sentiment and awareness metrics
+
+**Operational Efficiency**:
+- Tasks automated vs. manual
+- Time saved through automation
+- Error reduction rates
+- Scalability metrics (tasks per hour)
+- Cost per marketing action
+
+### AI CMO OS Dashboard
+
+**Executive View**:
+- Marketing ROI trend
+- Automation efficiency (% tasks automated)
+- Token and cost efficiency
+- Approval backlog and SLA compliance
+- System health score
+
+**Operational View**:
+- Real-time task execution monitor
+- Resource utilization (tokens, API calls, compute)
+- Queue depths and processing rates
+- Error rates and failure patterns
+- Performance benchmarks
+
+**Marketing View**:
+- Channel performance comparison
+- Campaign pacing vs. goals
+- Audience engagement metrics
+- Creative performance rankings
+- Budget utilization and forecasting
+
+---
+
+## 7. Process Workflows
+
+### Task Execution Lifecycle
+
+**Phase 1: Task Initiation**:
+1. **Trigger**: User request, scheduled event, or system detection
+2. **Classification**: Determine if Tier 1 (autonomous) or Tier 2 (gated)
+3. **Context Loading**: Load relevant marketing strategy and state
+4. **Validation**: Verify prerequisites and resource availability
+
+**Phase 2: Orchestration & Execution**:
+1. **Agent Selection**: Choose appropriate skills/agents for task
+2. **Workflow Design**: Determine execution sequence and dependencies
+3. **State Preparation**: Prepare input state objects for agents
+4. **Execution**: Run agents via orchestrator (Tier 1) or queue for approval (Tier 2)
+
+**Phase 3: Approval & Routing**:
+1. **Tier 1**: Immediate execution with result validation
+2. **Tier 2**: 
+   - Format approval request with context and recommendations
+   - Notify stakeholders via supervision interface
+   - Wait for explicit approval or rejection
+   - Handle approval dependencies and escalations
+
+**Phase 4: Execution Engine Integration**:
+1. **Task Translation**: Convert agent outputs to platform-specific actions
+2. **Authentication**: Apply appropriate credentials for each platform
+3. **Execution**: Route to n8n or direct API calls as appropriate
+4. **Monitoring**: Track execution progress and capture results
+
+**Phase 5: Completion & Feedback**:
+1. **Result Processing**: Capture and validate execution outcomes
+2. **State Update**: Update system state with results and metrics
+3. **Learning Extraction**: Identify patterns for future optimization
+4. **Notification**: Inform stakeholders of completion and outcomes
+5. **Cleanup**: Remove temporary resources and reset state as needed
+
+### Continuous Improvement Cycle
+
+**Weekly Optimization**:
+1. **Performance Review**:
+   - Analyze task execution metrics
+   - Identify bottlenecks and failure points
+   - Measure token and cost efficiency
+   - Review approval latency and decision quality
+
+2. **Capability Assessment**:
+   - Evaluate agent performance and accuracy
+   - Identify gaps in skill coverage
+   - Assess integration effectiveness
+   - Review supervision interface usability
+
+3. **Process Refinement**:
+   - Adjust Tier 1/2 classifications based on experience
+   - Refine orchestration patterns for better efficiency
+   - Update approval workflows based on feedback
+   - Optimize n8n workflows for reliability and speed
+
+4. **Strategic Alignment**:
+   - Verify OS execution aligns with marketing strategy
+   - Update state management to reflect strategic shifts
+   - Adjust automation levels based on strategic priorities
+   - Ensure human oversight matches risk tolerance
+
+---
+
+## 8. Retail-Specific Questions & Context Gathering
+
+### Essential Discovery Questions
+
+1. **Marketing Strategy & Goals**:
+   - What is your current marketing strategy and tactical plan?
+   - What are your primary marketing goals and KPIs?
+   - What marketing channels are you currently active in?
+   - What is your typical marketing budget and allocation?
+
+2. **Current Automation & Tooling**:
+   - What marketing tasks are you currently automating?
+   - What tools and platforms do you use for marketing execution?
+   - Do you have existing workflow automation (Zapier, Make.com, etc.)?
+   - What manual marketing tasks consume the most time?
+
+3. **Team Structure & Approval Processes**:
+   - Who makes marketing decisions and approvals in your organization?
+   - What is your current approval process for marketing activities?
+   - What tasks could safely be automated vs. require human judgment?
+   - What is your risk tolerance for automated marketing actions?
+
+4. **Technical Infrastructure & Data**:
+   - What marketing data do you currently collect and track?
+   - What systems store your customer and campaign data?
+   - What APIs and integrations are currently available to you?
+   - What are your data security and compliance requirements?
+
+5. **Goals & Constraints for AI CMO OS**:
+   - What specific marketing outcomes do you want to improve?
+   - What is your timeline for implementing the AI CMO OS?
+   - What resources (budget, personnel) can you allocate to this initiative?
+   - What are your must-have features vs. nice-to-haves for the initial version?
+
+---
+
+## 9. Tool Integrations for AI CMO OS
+
+| Tool Category | Examples | AI CMO OS Use Case |
+|--------------|----------|-------------------|
+| **Workflow Orchestration** | n8n, Zapier, Make.com, Tray.io | External execution engine for platform integrations |
+| **Advertising Platforms** | Meta Ads, TikTok Ads, Google Ads, LinkedIn Ads | Tier 2 gated ad campaign management and optimization |
+| **Email/SMS Marketing** | Klaviyo, Mailchimp, PostScript, Braze | Automated campaign execution and segmentation |
+| **Ecommerce Platforms** | Shopify, WooCommerce, Magento, BigCommerce | Product updates, inventory management, order processing |
+| **Analytics & Attribution** | GA4, Adobe Analytics, Mixpanel, Segment | Performance tracking, audience insights, ROI measurement |
+| **Social Media Management** | Hootsuite, Buffer, Sprout Social, Later | Content scheduling, engagement monitoring, community management |
+| **SEO & Content Tools** | SEMrush, Ahrefs, Surfer SEO, Clearscope | Keyword research, content optimization, technical audits |
+| **Design & Creative** | Canva, Adobe Creative Cloud, Figma | Asset generation, template creation, brand compliance |
+| **Customer Data Platform** | Segment, mParticle, RudderStack | Unified customer view for personalization and targeting |
+| **Project Management** | Asana, Trello, Jira, Notion | Task tracking, dependency management, team coordination |
+| **Communication & Notification** | Slack, Discord, Microsoft Teams, Email | Team alerts, approval notifications, status updates |
+| **Monitoring & Observability** | Datadog, New Relic, Prometheus, Grafana | System performance tracking, error monitoring, resource usage |
+| **Authentication & Security** | Auth0, OAuth providers, Vault, AWS Secrets Manager | Secure credential management, access control, audit logging |
+
+---
+
+## 10. Related Skills
+
+- **marketing-strategy** - Foundational positioning and context that the AI CMO reads and executes against
+- **marketing-plan** - Tactical 90-day/12-month execution plan that informs AI CMO prioritization
+- **commercial-ops** - Retail financial metrics (GMROI, sell-through) that AI CMO optimizes toward
+- **post-purchase-experience** - Post-purchase touchpoints that AI CMO manages and optimizes
+- **retention-and-winback** - Retention strategies that AI CMO executes and measures
+- **trade-and-dealer-enablement** - Channel enablement that AI CMO orchestrates and tracks
+- **ai-seo** - AI search optimization that AI CMO implements and monitors
+- **cold-email** - Outreach sequences that AI CMO generates and personalizes
+- **sales-enablement** - Sales collateral that AI CMO creates and distributes
+- **content-strategy** - Content planning that AI CMO develops and executes
+- **copywriting** - Copy generation that AI CMO automates and tests
+- **analytics** - Performance measurement that AI CMO tracks and reports on
+- **emails** - Email campaigns that AI CMO automates and optimizes
+- **sms-marketing** - SMS campaigns that AI CMO manages and tracks
+- **social** - Social media management that AI CMO schedules and monitors
+- **video** - Video content creation that AI CMO coordinates and optimizes
+- **image** - Image generation and processing that AI CMO automates
+- **schema** - Structured data implementation that AI CMO generates and validates
+- **loyalty-programs** - Loyalty initiatives that AI CMO designs and tracks
+- **customer-research** - Research initiatives that AI CMO commissions and synthesizes
+- **experiential-marketing** - Events and experiences that AI CMO helps plan and execute
+- **influencer-marketing** - Influencer campaigns that AI CMO identifies and manages
+- **affiliate-marketing** - Affiliate programs that AI CMO optimizes and tracks
+- **referrals** - Referral programs that AI CMO designs and monitors
+- **compliance** - Regulatory compliance that AI CMO ensures and documents

@@ -39,6 +39,9 @@ Before creating a sequence, understand:
    - Segmentation goals
    - What defines success?
 
+4. **Audience Definition**
+   Refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details.
+
 ---
 
 ## Core Principles
@@ -311,6 +314,10 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key email
 | **Resend** | Developer-friendly transactional | ✓ | [resend.md](../../tools/integrations/resend.md) |
 | **SendGrid** | Transactional email at scale | - | [sendgrid.md](../../tools/integrations/sendgrid.md) |
 | **Kit** | Creator/newsletter focused | - | [kit.md](../../tools/integrations/kit.md) |
+
+---
+
+**Note for platform-specific implementations**: If your ecommerce platform references a specific platform in `.agents/marketing-strategy.md` under Tech Stack, prefer the platform-specific variants found in `references/platforms/[platform]/`. For example, if your tech stack indicates Shopify, use `references/platforms/shopify/klaviyo-best-practices.md` for Shopify-focused email and SMS guidance.
 
 ---
 

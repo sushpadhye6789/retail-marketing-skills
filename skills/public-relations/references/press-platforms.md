@@ -37,7 +37,7 @@ These platforms generate volume. Treat it like email triage — fast pass, deep 
 
 For each digest / request feed:
 - Drop everything where you don't have **direct experience or data**
-- Drop everything from outlets your ICP doesn't read
+- Drop everything from outlets your ideal customer profile (as defined in Section 2: Target Audience and Section 3: Personas of your marketing strategy) doesn't read
 - Drop everything with a deadline you can't meet
 - Keep only requests where you can give a **complete, named, on-the-record answer**
 

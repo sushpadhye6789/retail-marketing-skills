@@ -38,6 +38,9 @@ Gather this context (ask if not provided):
 - Drive activation (welcome, onboarding, milestone nudges)
 - Transactional (order updates, auth codes, alerts)
 
+5. **Audience Definition**
+   Refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details.
+
 ---
 
 ## When SMS Beats Email

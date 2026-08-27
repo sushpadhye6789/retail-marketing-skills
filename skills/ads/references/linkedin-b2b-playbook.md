@@ -38,7 +38,7 @@ Title targeting is precise but small and expensive. **Job function + seniority**
 Platform gotchas:
 - **Job-title targeting and seniority targeting are mutually exclusive** — you can't stack them. Entry-level exclusions only work under function/seniority targeting.
 - The **Business Development function includes many CEOs, CMOs, and managing directors.** Don't blanket-exclude BD if you sell to the C-suite — filter with seniority exclusions instead.
-- Leave **Audience Expansion OFF** (it quietly spends a meaningful share of budget on out-of-ICP members) and **Audience Network OFF** for B2B lead gen.
+- Leave **Audience Expansion OFF** (it quietly spends a meaningful share of budget on members outside your ideal customer profile (as defined in Section 2: Target Audience and Section 3: Personas of your marketing strategy)) and **Audience Network OFF** for B2B lead gen.
 
 ## Audience splitting rules
 

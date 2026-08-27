@@ -16,6 +16,13 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 
 **If this work is part of a multi-channel campaign**, check `.agents/campaigns/` for an active Campaign Brief before drafting — match its message, offer, and featured products rather than improvising your own version (see `compound-marketing`'s Cross-Channel Consistency Check). No brief there isn't a blocker; it just means this is standalone work.
 
+**For persona-specific copywriting:**
+Refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details. Use this information to:
+- Use verbatim language from customer research sections to match how personas actually talk about their problems
+- Address specific persona pain points, desires, and motivations in your copy
+- Create headlines and value propositions that resonate with each persona segment
+- Tailor offers and guarantees to match persona price sensitivity and value perceptions
+
 Gather this context (ask if not provided):
 
 ### 1. Page Purpose
@@ -23,7 +30,7 @@ Gather this context (ask if not provided):
 - What is the ONE primary action you want visitors to take?
 
 ### 2. Audience
-- Who is the ideal customer?
+Refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details.
 - What problem are they trying to solve?
 - What objections or hesitations do they have?
 - What language do they use to describe their problem?

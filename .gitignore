@@ -31,3 +31,10 @@ skills-lock.json
 *~
 .idea/
 .vscode/
+
+# Generated session summaries / working docs
+CONVERSATION_SUMMARY.md
+DETAILED_EXECUTIVE_SUMMARY.md
+EXECUTIVE_SUMMARY.md
+IMPLEMENTATION_ROADMAP.md
+PERMISSION_GUIDANCE.md

@@ -1,107 +1,142 @@
 #!/bin/bash
 # Skill Aliases for Retail Marketing Skills Repository
-# Provides easy-to-use shortcuts for invoking marketing skills
-
-# Source the RTK hook if available for token optimization
-if command -v rtk &> /dev/null; then
-    echo "RTK hook active - commands will be token-optimized"
-else
-    echo "Warning: RTK hook not found. Install for token optimization."
-fi
+# Shortcuts that launch Claude Code with a given marketing skill.
+#
+# Usage:  source skill-aliases.sh
+#         ads "Create a Facebook campaign for the winter range"
+#         ads                 # no args -> page through the SKILL.md
+#         ads --help          # usage
+#
+# Requires the `claude` CLI on PATH.
 
 # Function to check if we're in the repository directory
 check_repo() {
-    if [ ! -f ".agents/marketing-strategy.md" ] && [ ! -f "skills/customer-research/SKILL.md" ]; then
-        echo "Error: Please run this from the retail-marketing-skills repository root directory"
+    if [ -n "$SKILLS_REPO_ROOT" ] && [ -d "$SKILLS_REPO_ROOT/skills" ]; then
+        return 0
+    fi
+    local d="$PWD"
+    while [ "$d" != "/" ]; do
+        if [ -d "$d/skills" ] && [ -f "$d/VERSIONS.md" ]; then
+            SKILLS_REPO_ROOT="$d"
+            return 0
+        fi
+        d=$(dirname "$d")
+    done
+    echo "Error: not inside the retail-marketing-skills repository." >&2
+    echo "cd into it, or set SKILLS_REPO_ROOT=/path/to/retail-marketing-skills" >&2
+    return 1
+}
+
+# Shared dispatcher: every skill alias goes through this.
+_run_skill() {
+    local skill="$1"; shift
+    check_repo || return 1
+    local dir="$SKILLS_REPO_ROOT/skills/$skill"
+    if [ ! -f "$dir/SKILL.md" ]; then
+        echo "Error: no such skill '$skill' (expected $dir/SKILL.md)" >&2
         return 1
     fi
-    return 0
+    if [ "$1" = "--help" ] || [ "$1" = "-h" ]; then
+        echo "Usage: ${FUNCNAME[1]} \"<your request>\""
+        echo "  Launches Claude Code with the '$skill' skill."
+        echo "  No arguments: opens $dir/SKILL.md in your pager."
+        return 0
+    fi
+    if [ "$#" -eq 0 ]; then
+        "${PAGER:-less}" "$dir/SKILL.md"
+        return
+    fi
+    if ! command -v claude >/dev/null 2>&1; then
+        echo "Error: the 'claude' CLI was not found on PATH." >&2
+        return 1
+    fi
+    ( cd "$SKILLS_REPO_ROOT" && claude "Use the $skill skill (skills/$skill/SKILL.md in this repo). Task: $*" )
 }
 
 # Skill alias functions
 cr() {
     check_repo || return 1
-    rtk customer-research "$@"
+    _run_skill customer-research "$@"
 }
 
 copy() {
     check_repo || return 1
-    rtk copywriting "$@"
+    _run_skill copywriting "$@"
 }
 
 email() {
     check_repo || return 1
-    rtk email "$@"
+    _run_skill emails "$@"
 }
 
 sms() {
     check_repo || return 1
-    rtk sms "$@"
+    _run_skill sms "$@"
 }
 
 ads() {
     check_repo || return 1
-    rtk ads "$@"
+    _run_skill ads "$@"
 }
 
 cro() {
     check_repo || return 1
-    rtk cro "$@"
+    _run_skill cro "$@"
 }
 
 content() {
     check_repo || return 1
-    rtk content-strategy "$@"
+    _run_skill content-strategy "$@"
 }
 
 seo() {
     check_repo || return 1
-    rtk seo "$@"
+    _run_skill seo-audit "$@"
 }
 
 analytic() {
     check_repo || return 1
-    rtk analytics "$@"
+    _run_skill analytics "$@"
 }
 
 attrib() {
     check_repo || return 1
-    rtk attribution "$@"
+    _run_skill attribution "$@"
 }
 
 signup() {
     check_repo || return 1
-    rtk signup-optimization "$@"
+    _run_skill signup "$@"
 }
 
 onboard() {
     check_repo || return 1
-    rtk onboarding "$@"
+    _run_skill onboarding "$@"
 }
 
 retention() {
     check_repo || return 1
-    rtk retention-and-winback "$@"
+    _run_skill retention-and-winback "$@"
 }
 
 grill() {
     check_repo || return 1
-    rtk grill-me "$@"
+    _run_skill grill-me "$@"
 }
 
 compete() {
     check_repo || return 1
-    rtk competitor-profiling "$@"
+    _run_skill competitor-profiling "$@"
 }
 
 strategy() {
     check_repo || return 1
-    rtk marketing-strategy "$@"
+    _run_skill marketing-strategy "$@"
 }
 
 learnings() {
     check_repo || return 1
-    rtk marketing-learnings "$@"
+    _run_skill compound-marketing "$@"
 }
 
 # Utility functions
@@ -118,7 +153,7 @@ eval-skill() {
 
     if [ -f "$eval_file" ]; then
         echo "Opening existing evaluation: $eval_file"
-        $EDITOR "$eval_file"
+        "${EDITOR:-vi}" "$eval_file"
     else
         echo "Creating new evaluation template: $eval_file"
         mkdir -p evaluations
@@ -219,7 +254,7 @@ eval-skill() {
 *Next review recommended: [DATE]*
 *This evaluation feeds into: Skills improvement prioritization queue*
 EOF
-        $EDITOR "$eval_file"
+        "${EDITOR:-vi}" "$eval_file"
     fi
 }
 
@@ -230,7 +265,7 @@ list-skills() {
     echo "============================"
     for skilldir in skills/*/; do
         if [ -f "$skilldir/SKILL.md" ]; then
-            skillname=$(baseline "$skilldir")
+            skillname=$(basename "$skilldir")
             echo "- $skillname"
         fi
     done
@@ -239,21 +274,21 @@ list-skills() {
     echo "==============="
     echo "cr        - customer-research"
     echo "copy      - copywriting"
-    echo "email     - email"
+    echo "email     - emails"
     echo "sms       - sms"
     echo "ads       - ads"
     echo "cro       - cro"
     echo "content   - content-strategy"
-    echo "seo       - seo"
+    echo "seo       - seo-audit"
     echo "analytic  - analytics"
     echo "attrib    - attribution"
-    echo "signup    - signup-optimization"
+    echo "signup    - signup"
     echo "onboard   - onboarding"
     echo "retention - retention-and-winback"
     echo "grill     - grill-me"
     echo "compete   - competitor-profiling"
     echo "strategy  - marketing-strategy"
-    echo "learnings - marketing-learnings"
+    echo "learnings - compound-marketing"
     echo ""
     echo "Utility:"
     echo "--------"

@@ -1,0 +1,53 @@
+{
+  "skill_name": "trade-marketing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Help me write a sell-in deck for a big-box retailer. I want to really emphasize our brand story and how much customers love us.",
+      "expected_output": "Should push back on leading with brand story, explaining that buyers care about their own economics — sell-through velocity, margin, turn rate — not brand narrative, until the numbers earn the right to tell it. Should ask for real performance data (sales elsewhere, comparable benchmarks, a pilot) and recommend leading the deck with retailer economics instead.",
+      "assertions": [
+        "Pushes back on leading with brand story over retailer economics",
+        "Asks for real sell-through/margin/turn data",
+        "Explains why buyers prioritize their own economics over brand narrative",
+        "Recommends restructuring the pitch to lead with numbers"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Our new product would probably take some sales from our existing SKU on the same shelf. Should we bring that up with the buyer or hope they don't ask?",
+      "expected_output": "Should strongly recommend addressing cannibalization proactively rather than waiting to be asked, per the skill's explicit guidance — a buyer who discovers unaddressed cannibalization after listing loses trust fast. Should recommend naming it directly and showing the net category impact is still positive.",
+      "assertions": [
+        "Recommends addressing cannibalization proactively, not waiting to be asked",
+        "Explains the trust cost of a buyer discovering it later",
+        "Recommends showing net category impact rather than avoiding the topic",
+        "Does not endorse hoping the buyer doesn't ask"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We got listed last year. Is our job here basically done?",
+      "expected_output": "Should push back on treating the sell-in as a one-time event — getting listed is the start, not the finish, since most retail relationships include a recurring line review. Should recommend tracking shelf performance data continuously, understanding the retailer's review cadence, and preparing proactively to defend the listing.",
+      "assertions": [
+        "Pushes back on treating the listing as a finished, one-time job",
+        "References the ongoing category-management/line-review relationship",
+        "Recommends continuous performance tracking, not just pre-review",
+        "Recommends proactive preparation for the retailer's review cadence"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We want premium end-cap placement at a retailer. What should we bring to that conversation?",
+      "expected_output": "Should recommend bringing the same performance data used in the sell-in case (sell-through data) rather than requesting placement based on margin-per-shelf-space math alone, since the retailer already knows that math. Should hand off actual in-store execution (display design, signage) to visual-merchandising/pos-marketing once placement is secured, keeping this skill's scope to winning the negotiation.",
+      "assertions": [
+        "Recommends bringing sell-through performance data to the placement conversation",
+        "Explains why margin-math-alone requests are weaker",
+        "Distinguishes winning the negotiation from executing the display",
+        "References visual-merchandising/pos-marketing as the execution handoff"
+      ],
+      "files": []
+    }
+  ]
+}

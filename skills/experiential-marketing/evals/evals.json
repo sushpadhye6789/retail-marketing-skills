@@ -1,0 +1,53 @@
+{
+  "skill_name": "experiential-marketing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're planning an in-store demo day. We've got a great booth setup planned, and we'll just grab whoever's available from the team to run it.",
+      "expected_output": "Should push back on prioritizing setup over staffing quality — the demonstrator matters more than the setup, and a knowledgeable, engaging demonstrator with a modest setup consistently outperforms an elaborate setup with a weak one. Should recommend investing in training/briefing the demo staff before investing further in production value, and should also ask about a clear conversion path and trackable mechanism.",
+      "assertions": [
+        "Pushes back on prioritizing setup/production over staffing quality",
+        "Recommends investing in training/briefing the demonstrator",
+        "Asks about a clear conversion path from the demo moment",
+        "Asks about a trackable measurement mechanism"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Our pop-up shop last month captured hundreds of email signups. What now?",
+      "expected_output": "Should flag that a pop-up capturing an audience with no follow-up plan wastes most of its value, and recommend a deliberate post-event path (an email/SMS sequence) for the captured audience rather than treating capture as the end goal. Should reference emails/sms for the actual sequence.",
+      "assertions": [
+        "Flags that captured leads need a deliberate follow-up plan",
+        "Recommends an email/SMS sequence for the captured audience",
+        "Explains that capture alone wastes most of the event's value without follow-up",
+        "References emails/sms as the execution skill for the sequence"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Our roadshow last quarter drove a lot of sales in the cities it visited. Should we commit to doing this as a recurring quarterly series?",
+      "expected_output": "Should caution against crediting the roadshow with sales lift without a before/after or control comparison — some of that lift may have happened anyway from regular demand. Should recommend the incrementality checkpoint (a matched-location or before/after comparison) before committing to a recurring, budget-anchoring event series, per the Measurement section's explicit guidance for that scenario.",
+      "assertions": [
+        "Cautions against crediting the roadshow with sales lift without a control comparison",
+        "Recommends a before/after or matched-location incrementality check",
+        "Specifically flags that this matters more before committing to a recurring series",
+        "References attribution's incrementality-checkpoint approach"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We're doing a free educational workshop for customers, but honestly the real goal is to pitch our premium tier hard at the end.",
+      "expected_output": "Should flag the risk of a workshop reading as a thinly-veiled sales pitch, which undermines the trust dividend that makes the format work in the first place. Should recommend leading with genuine value and letting product interest follow naturally rather than building the event around a hard pitch.",
+      "assertions": [
+        "Flags the risk of the workshop reading as a disguised sales pitch",
+        "Explains this undermines the trust the format depends on",
+        "Recommends genuine value first, promotion second",
+        "Does not simply help structure the hard pitch as requested"
+      ],
+      "files": []
+    }
+  ]
+}

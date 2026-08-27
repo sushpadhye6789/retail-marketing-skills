@@ -2,7 +2,7 @@
 name: marketing-loops
 description: "When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when the user mentions 'marketing loop,' 'recurring marketing workflow,' 'automate my marketing,' 'marketing on autopilot,' 'weekly marketing review,' 'ad fatigue check,' 'content refresh loop,' 'churn watch,' 'ranking drop alert,' 'always-on marketing,' 'marketing automation workflow,' or 'run this every week.' Use this to pick, adapt, and schedule an ongoing marketing loop that orchestrates the other marketing skills. For one-off marketing ideas, see marketing-ideas. For the experimentation loop specifically, see ab-testing."
 metadata:
-  version: 1.2.0
+  version: 1.3.4
 ---
 
 # Marketing Loops
@@ -13,7 +13,7 @@ This is the operational cousin of `marketing-ideas`. Ideas tell you *what to try
 
 ## How to Use This Skill
 
-**Check for product marketing context first:** if `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md`), read it before asking questions. Use that context and only ask for what's missing.
+**Check for product marketing context first:** if `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md`), read it before asking questions. Use that context and only ask for what's missing. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to the loop's channel capture what already worked or failed; apply that before designing the loop body from scratch (see `compound-marketing`).
 
 Then:
 1. **Clarify the job.** What outcome should this loop protect or grow? (rankings, ad efficiency, activation, retention, revenue, referrals)
@@ -58,6 +58,17 @@ Match cadence to how fast the signal actually changes — not to how often you'd
 
 Over-frequent loops are the most common failure mode: they generate busywork, burn budget, and train you to ignore the output.
 
+## Goodhart's Law: measure the outcome, not the proxy
+
+"When a measure becomes a target, it ceases to be a good measure." A loop that runs on a schedule and repeatedly optimizes toward a metric will, eventually, find the cheapest way to move that metric — not the real outcome behind it. Over months of unattended runs, this is the single biggest way a loop stops being a marketing system and quietly becomes a metric-gaming system.
+
+- **Every loop's Purpose should name a business outcome, not a proxy.** Rankings, CTR, open rate, post count, and backlink count are all proxies for revenue, retention, or reach — never the target itself. Ad-fatigue is judged on revenue/ROAS, not CTR/CPA, for exactly this reason (see `references/loop-guardrails.md`).
+- **Watch for the loop finding a shortcut instead of the outcome.** A backlink loop that starts hitting link farms, a content-refresh loop that pads word count without adding value, a review-harvest loop that only surfaces 5-star reviews — all are the proxy being optimized in place of the outcome. The self-check should catch the shortcut, not just noise or seasonality.
+- **The more autonomous a loop is, the more it needs an outcome check, not just an activity check.** A loop running unattended for months is exactly where a proxy quietly decouples from the outcome it was meant to represent — nobody's watching each run to notice.
+- **Re-anchor periodically, not just at launch.** A metric that was a faithful proxy when the loop was authored can drift from the outcome as the loop — or the market — adapts around it. Revisit whether "Acts when" is still measuring the right thing.
+
+Thread this through **Purpose**, **Acts when**, and **Self-check** whenever you author or review a loop — see the Goodhart's Law guardrail in `references/loop-guardrails.md` for the harm-check-metric pattern.
+
 ## When NOT to loop
 
 Not everything should be automated on a cadence. Skip a loop — or add a mandatory human checkpoint — when:
@@ -67,7 +78,7 @@ Not everything should be automated on a cadence. Skip a loop — or add a mandat
 - **The signal is too sparse to be significant.** A weekly conversion-rate loop on 40 visitors/week is measuring noise.
 - **It's a vanity loop.** If nobody acts on the output, delete the loop. A loop that emails a dashboard nobody reads is worse than nothing.
 
-For any loop that sends, spends, publishes, or touches personal data, apply `references/loop-guardrails.md` — the two-tier action model (autonomous-safe vs. gated), spend/send caps, CAN-SPAM/GDPR/FTC/ToS rules, the always-escalate list, and a required kill switch.
+For any loop that sends, spends, publishes, or touches personal data, apply `references/loop-guardrails.md` — the two-tier action model (autonomous-safe vs. gated), spend/send caps, Spam Act/Privacy Act (AU) and Unsolicited Electronic Messages Act/Privacy Act (NZ) rules alongside CAN-SPAM/GDPR/FTC/ToS elsewhere, the always-escalate list, and a required kill switch.
 
 ## Scheduling a loop
 
@@ -101,6 +112,8 @@ Avoid: "set it and forget it," "fully autonomous marketing," "AI does everything
 
 ## Related Skills
 
+- **compound-marketing** — the general work-shape (brief → draft → execute → analyse → optimise → compound) this skill schedules and automates. Run `compound-marketing` for the shape; run this skill to make it recurring.
+- **growth-playbooks** — a source of proven loop mechanics (referral, loyalty, gamification) worth scheduling recurring checks around, once one is chosen and validated through `compound-marketing`.
 - **marketing-ideas** — one-off tactics and inspiration (what to try). Loops operationalize the ones worth repeating.
 - **ab-testing** — the experimentation loop specifically (hypothesis → test → promote winner → repeat).
 - **analytics** — most loops read from analytics to decide whether to act.

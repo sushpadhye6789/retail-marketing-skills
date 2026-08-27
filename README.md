@@ -10,6 +10,19 @@ Want help with your marketing, or want to automate it? [Reach out to Sush on Lin
 
 Run into a problem or have a question? [Open an issue](https://github.com/sushpadhye6789/retail-marketing-skills/issues).
 
+## Why This Repo
+
+This isn't just a prompt library — it's a marketing operating system for AI agents:
+
+- **Shared context, not one-off answers.** Every skill reads `marketing-strategy` first — your brand tier, distribution model, audience, and priorities — so a CRO recommendation, an email sequence, and a paid-ads plan all stay consistent instead of contradicting each other.
+- **A real dependency graph.** Skills cross-reference each other by design (see "How Skills Work Together" below), so asking one question can correctly pull in the adjacent disciplines it actually touches.
+- **Scheduled, self-running work.** `marketing-loops` catalogs 43 recurring workflows — ranking watches, ad-fatigue checks, churn-signal monitors — each with guardrails, state/idempotency, and a stop condition, wired to real scheduling mechanisms (Claude Code's `/loop`, `ScheduleWakeup`, `CronCreate`, or plain cron).
+- **Multi-perspective pressure-testing.** `marketing-council` runs a simulated board of marketer personas — plus a domain-agnostic Decision Council — against a question or a finished asset before you commit to it.
+- **Real tool execution.** `tools/` ([registry](tools/REGISTRY.md)) has zero-dependency CLIs and integration guides for GA4, Stripe, Mailchimp, Google Ads, HubSpot, Semrush, and 45+ other marketing tools — so an agent can query your analytics or push a change, not just describe one.
+- **Retail-specific depth** most generic marketing prompting skips: POS/point-of-purchase, trade-marketing sell-in, dealer/distribution-model nuance, visual merchandising, brand-tier signage rules.
+
+Compared to asking a plain AI chat assistant for marketing advice, this gives an agent persistent business context it never needs re-explained, the ability to act on real tools instead of only describing what to do, and scheduled autonomy that keeps working after the conversation ends.
+
 ## What are Skills?
 
 Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. When you add these to your project, your agent can recognize when you're working on a marketing task and apply the right frameworks and best practices.
@@ -44,6 +57,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [competitor-profiling](skills/competitor-profiling/) | When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions... |
 | [competitors](skills/competitors/) | When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when... |
 | [compliance](skills/compliance/) | When the user wants to check a marketing decision, claim, or campaign for compliance risk — advertising claims,... |
+| [compound-marketing](skills/compound-marketing/) | When the user wants to run a marketing unit of work — a campaign, page, email, ad, or launch — so that it makes the... |
 | [content-strategy](skills/content-strategy/) | When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also... |
 | [copy-editing](skills/copy-editing/) | When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the... |
 | [copywriting](skills/copywriting/) | When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages,... |
@@ -55,6 +69,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [emails](skills/emails/) | When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email... |
 | [experiential-marketing](skills/experiential-marketing/) | When the user wants to plan an in-person event, activation, or demo — in-store demos, trade show booths, roadshows,... |
 | [free-tools](skills/free-tools/) | When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or... |
+| [growth-playbooks](skills/growth-playbooks/) | When the user wants to apply proven growth mechanics from well-known brands to their own business — a referral loop, a... |
 | [image](skills/image/) | When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product... |
 | [influencer-marketing](skills/influencer-marketing/) | When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and... |
 | [launch](skills/launch/) | When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user... |
@@ -95,6 +110,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [site-architecture](skills/site-architecture/) | When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal... |
 | [sms](skills/sms/) | When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts,... |
 | [social](skills/social/) | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram,... |
+| [specialist-lenses](skills/specialist-lenses/) | When the user wants a specific, narrow-domain specialist's public perspective applied to a retail marketing problem — a... |
 | [storytelling](skills/storytelling/) | When the user wants to construct a brand, founder, product, or customer narrative — the underlying story arc, not the... |
 | [supplier-funded-marketing](skills/supplier-funded-marketing/) | When the user wants help with marketing development funds (MDF) or co-op advertising — either requesting and using... |
 | [tentpole-campaign](skills/tentpole-campaign/) | When the user wants to plan a major brand campaign tied to a calendar moment, cultural moment, or brand-owned milestone... |
@@ -218,15 +234,43 @@ You can also invoke skills directly:
 /seo-audit
 ```
 
+## Using This Repo With Claude, ChatGPT, Copilot & Other AI Agents
+
+This repo is built to be ingested as context, not just browsed. A few ways to pull it in directly:
+
+**In Claude Code**, install as a plugin (see [Installation](#installation)) and the skills trigger automatically — no extra prompting needed.
+
+**In any chat-based AI tool** (ChatGPT, Claude.ai, Copilot Chat), point it at a specific skill and ask it to apply that skill's framework:
+
+```
+Read https://raw.githubusercontent.com/sushpadhye6789/retail-marketing-skills/main/skills/cro/SKILL.md
+and use it to audit this product page: [paste URL or copy]
+
+Read https://raw.githubusercontent.com/sushpadhye6789/retail-marketing-skills/main/skills/ai-seo/SKILL.md
+and tell me what to fix so our comparison pages get cited by AI search engines
+
+Read https://raw.githubusercontent.com/sushpadhye6789/retail-marketing-skills/main/skills/marketing-strategy/SKILL.md
+and interview me to build our brand-tier and distribution-model context, like it describes
+```
+
+**For an AI agent evaluating this repo itself** (not applying its skills, but summarizing or citing it): start from [`llms.txt`](llms.txt) at the repo root for a structured overview, or the [Available Skills](#available-skills) table below for the full index with one-line descriptions per skill.
+
+**For coding agents other than Claude Code** (Cursor, Windsurf, OpenAI Codex, any [Agent Skills spec](https://agentskills.io)-compatible agent): copy or symlink the `skills/` directory into your project's `.agents/skills/` — see [Installation](#installation).
+
+**For any MCP-compatible client that doesn't read Agent Skills natively** (Claude Desktop, claude.ai web Connectors, or a custom MCP host): run the included [`mcp-server/`](mcp-server/) — it exposes every skill as MCP tools (`retail_marketing_list_skills`, `retail_marketing_get_skill`, `retail_marketing_get_skill_file`, `retail_marketing_search_skills`) so the client can browse and load them the same progressive-disclosure way Claude Code does natively. It runs as a local stdio server (Claude Desktop/Claude Code) or a Streamable HTTP server you deploy and add as a claude.ai web Connector by URL — see [mcp-server/README.md](mcp-server/README.md) for both setups.
+
 ## Skill Categories
 
 ### Strategy & Foundation
 - `marketing-strategy` - Foundational positioning, audience, brand tier, distribution model, and strategic priorities
+- `compound-marketing` - The general brief → draft → execute → analyse → optimise → compound loop for any marketing unit of work, with a durable learnings file so each cycle starts smarter than the last
 - `repositioning` - Cascading a material positioning change through everything built on the old one
 - `marketing-plan` - Comprehensive AARRR-structured marketing plan
 - `marketing-ideas` - 140 marketing ideas
+- `growth-playbooks` - Proven, compounding growth-loop mechanics grounded in named-brand examples (referral loops, flywheels, loyalty, community-led growth), translated for retail and updated for AI-agent-driven discovery
 - `marketing-psychology` - Mental models and psychology
 - `marketing-council` - Boardroom mode — multi-advisor review of a finished asset or decision
+- `specialist-lenses` - Narrow-domain specialists' public frameworks (CRO, AI search, loyalty, retail media, and a growing roster) applied directly to a tactical problem
 - `moat-builder` - Identifying and widening durable competitive advantages, not just messaging around them
 - `customer-research` - Conducting and synthesizing customer research
 - `competitor-profiling` - Researching and profiling competitors from their URLs

@@ -2,7 +2,7 @@
 name: directory-submissions
 description: When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions "directory submissions," "submit to directories," "backlinks from directories," "list my product," "submit to Product Hunt," "BetaList," "TAAFT," "Futurepedia," "G2 listing," "Capterra listing," "AlternativeTo," "SaaSHub," "AI directories," "MCP registry," "agent directory," "dofollow backlinks," "launch directories," or "directory tracker." Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo.
 metadata:
-  version: 2.0.0
+  version: 2.0.2
 ---
 
 # Directory Submissions
@@ -12,7 +12,7 @@ You are an expert in directory-driven distribution for software products. Your g
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 ---
 
@@ -171,7 +171,7 @@ G2 and Capterra (now owned by G2 as of Feb 2026) listings are **worthless withou
 
 1. **Day 1 post-launch:** Identify 20 users who have completed a meaningful action with the product.
 2. **Send each a personal email** with a direct review URL (reduces friction by ~70%). No forms, no landing pages — direct link.
-3. **Offer a modest thank-you.** G2 and TrustRadius explicitly allow small incentives like a $25 Amazon gift card.
+3. **Offer a modest thank-you.** G2 and TrustRadius explicitly allow small incentives like a $25 Amazon gift card — but incentivized reviews typically carry a disclosure requirement (the reviewer must state the review was incentivized); confirm the current platform rule and see `compliance` before running this at scale.
 4. **Follow up once** after 5 days. Don't follow up twice — it becomes annoying and damages the relationship.
 5. **Target:** 50% conversion → 10 reviews from 20 asks.
 
@@ -211,9 +211,9 @@ Each page needs: honest feature comparison table, "when to choose X over us," "w
 
 **Critical:** Be honest. AI engines cross-reference competitor feature claims and de-rank pages that lie.
 
-### 2. Use-case / ICP pages
+### 2. Use-case / Ideal Customer Profile pages
 
-Every ICP gets a dedicated landing page:
+Each ideal customer profile from `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) gets a dedicated landing page:
 - `/for/[audience]` — coaches, agencies, ecommerce, SaaS, consultants, etc.
 - `/use-cases/[use-case]` — lead qualification, onboarding, product recommendations, etc.
 
@@ -379,3 +379,4 @@ Keep the plan actionable. Every item should be something the user can do today.
 - **free-tools** — lead magnets for destination pages
 - **community-marketing** — Reddit, Indie Hackers, Slack community mechanics
 - **schema** — FAQ + Product + Organization JSON-LD for GEO
+- **compliance** — disclosure requirements for incentivized reviews before running the 10-in-30 protocol at scale

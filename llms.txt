@@ -1,0 +1,31 @@
+# Retail & Ecommerce Marketing Skills for AI Agents
+
+> A collection of 79+ Agent Skills (per the [Agent Skills spec](https://agentskills.io)) that give AI coding agents — Claude Code, OpenAI Codex, Cursor, Windsurf, and any compatible agent — specialized, cross-referenced knowledge for retail and ecommerce marketing: conversion optimization, copywriting, SEO, paid ads, retail/dealer marketing, and growth engineering.
+
+Maintained by Sush Padhye. Forked from and substantially extended beyond [Corey Haines' marketingskills](https://github.com/coreyhaines31/marketingskills), adding retail/ecommerce-specific depth (POS marketing, retail media, local marketing, trade marketing, visual merchandising, distribution-model and brand-tier classification) that generic SaaS-focused marketing prompt libraries skip.
+
+Every skill reads a shared `marketing-strategy` context file first (brand tier, distribution model, audience, priorities) so recommendations across skills stay consistent instead of contradicting each other. Skills cross-reference each other directly — see each skill's own "Related Skills" section for the dependency map.
+
+## Core Docs
+
+- [README](https://github.com/sushpadhye6789/retail-marketing-skills/blob/main/README.md): Full installation, usage, and skill-category index
+- [AGENTS.md](https://github.com/sushpadhye6789/retail-marketing-skills/blob/main/AGENTS.md): Contributor/agent guidelines for working in this repo (spec compliance, versioning, writing style)
+- [VERSIONS.md](https://github.com/sushpadhye6789/retail-marketing-skills/blob/main/VERSIONS.md): Per-skill version history and changelog
+- [CONTRIBUTING.md](https://github.com/sushpadhye6789/retail-marketing-skills/blob/main/CONTRIBUTING.md): How to propose a new skill or improve an existing one
+
+## Skills
+
+The canonical, always-current skill index (79+ skills, one-line description each) is the table in [README.md § Available Skills](https://github.com/sushpadhye6789/retail-marketing-skills/blob/main/README.md#available-skills) — grouped by category in [README.md § Skill Categories](https://github.com/sushpadhye6789/retail-marketing-skills/blob/main/README.md#skill-categories) (Strategy & Foundation, Channel Strategy/Budget/Measurement, Conversion Optimization, Content & Copy, SEO & Discovery, Paid Media, Retail & Physical Marketing, Growth & Retention, Commercial & Monetization, Compliance, Sales & RevOps).
+
+Each skill lives at `skills/<skill-name>/SKILL.md` with optional `references/`, `scripts/`, and `assets/` subdirectories loaded on demand — see [Agent Skills spec](https://agentskills.io/specification.md) for the loading model.
+
+Foundational skill worth starting from: [marketing-strategy](https://github.com/sushpadhye6789/retail-marketing-skills/blob/main/skills/marketing-strategy/SKILL.md) — every other skill checks it first.
+
+## Tools
+
+- [tools/REGISTRY.md](https://github.com/sushpadhye6789/retail-marketing-skills/blob/main/tools/REGISTRY.md): Index of zero-dependency CLIs and integration guides for GA4, Stripe, Mailchimp, Google Ads, HubSpot, Semrush, and 45+ other marketing tools an agent can query or act on directly.
+
+## Optional
+
+- [.claude-plugin/marketplace.json](https://github.com/sushpadhye6789/retail-marketing-skills/blob/main/.claude-plugin/marketplace.json): Claude Code plugin marketplace manifest — install via `/plugin marketplace add sushpadhye6789/retail-marketing-skills`
+- [CLAUDE.md](https://github.com/sushpadhye6789/retail-marketing-skills/blob/main/CLAUDE.md): Claude Code-specific repo instructions (mirrors AGENTS.md)

@@ -1,0 +1,53 @@
+{
+  "skill_name": "budget-pacing-tracker",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're 5 days into a 30-day, $60K campaign and we've spent $14K. Are we overspending?",
+      "expected_output": "Should compute planned pace (linear baseline: $60K × 5/30 = $10K) and flag actual $14K as ahead of naive pace, but should ask whether a known campaign spike (a tentpole moment, a promo) within this window explains the front-loading before treating it as a problem — a flat linear assumption is often wrong per Non-Linear Pacing. Should not declare a firm verdict without checking for a planned non-linear curve first.",
+      "assertions": [
+        "Computes or references the naive linear planned pace correctly",
+        "Flags the actual spend as ahead of the naive baseline",
+        "Asks whether a known spend spike explains the variance before concluding it's a problem",
+        "Does not treat a flat linear plan as automatically correct"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're 3% over pace on day 2 of a 30-day period. Should we panic and cut spend?",
+      "expected_output": "Should explain that early-period variance on a small number of days is usually noise, not signal, and that tolerance should be weighted by how far into the period you are — the same 3% later in the period with little runway left would be a real signal. Should recommend checking the trend across several checkpoints rather than reacting to one early data point.",
+      "assertions": [
+        "Explains that early-period variance is more likely noise than late-period variance",
+        "References weighting tolerance by how far into the period you are",
+        "Recommends checking trend across multiple checkpoints, not reacting to one snapshot",
+        "Does not recommend an immediate spend cut based on this single early data point"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "One of our campaigns is on track to blow through its whole budget by day 20 of a 30-day flight. What's the risk?",
+      "expected_output": "Should flag the overspend risk explicitly: the campaign exhausting budget early and pausing, which resets platform learning per ads' decision-system guidance, making a restart costly beyond just the missed remaining days. Should recommend catching and acting on this well before the campaign is actually at risk of pausing — either slowing spend deliberately or making the case for additional budget through budget-allocation's reallocation triggers.",
+      "assertions": [
+        "Flags the overspend-to-pause risk and its consequence (learning-phase reset)",
+        "Recommends acting before the campaign actually exhausts budget",
+        "Offers concrete options: slow spend deliberately or seek additional budget",
+        "References budget-allocation's reallocation triggers appropriately"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We have a co-op fund from a supplier that we haven't spent much of, and it expires end of month. Does that matter for pacing?",
+      "expected_output": "Should flag this as a use-it-or-lose-it underspend risk specific to co-op/MDF funds, referencing supplier-funded-marketing, and note this wastes real committed opportunity, not just theoretical upside. Should recommend checking the claim deadline explicitly and prioritizing spend against that fund before it expires, distinct from normal pacing tolerance for regular budget.",
+      "assertions": [
+        "Flags the use-it-or-lose-it co-op fund risk explicitly",
+        "References supplier-funded-marketing for deadline/claim context",
+        "Distinguishes this urgency from normal pacing tolerance",
+        "Recommends concrete action to use the fund before the deadline"
+      ],
+      "files": []
+    }
+  ]
+}

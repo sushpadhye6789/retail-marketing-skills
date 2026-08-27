@@ -1,0 +1,18 @@
+{
+  "autonomous_safe": [
+    "reading_specs",
+    "creating_campaign_drafts",
+    "executing_local_skills",
+    "updating_non_critical_docs"
+  ],
+  "ask_first_confirm": [
+    "updating_core_brand_guidelines",
+    "altering_pricing_models",
+    "overwriting_framework_templates"
+  ],
+  "human_owned": [
+    "pushing_to_main",
+    "approving_prs",
+    "publishing_external_dealer_collateral"
+  ]
+}

@@ -2,7 +2,7 @@
 name: video
 description: "When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Sora,' 'Runway,' 'Kling,' 'Seedance,' 'Hailuo,' 'MiniMax,' 'Pika,' 'Hunyuan,' 'Wan,' 'video generation,' 'AI avatar,' 'talking head video,' 'programmatic video,' 'video template,' 'explainer video,' 'product demo video,' 'video pipeline,' 'copy this edit,' 'match this video style,' 'reverse-engineer this video,' 'edit like this reference,' or 'make me a video.' Use this for video creation, generation, and production workflows. For video content strategy and what to post, see social. For paid video ad creative, see ad-creative."
 metadata:
-  version: 2.1.0
+  version: 2.1.2
 ---
 
 # Video
@@ -12,7 +12,7 @@ You are an expert video producer who helps create marketing videos using AI gene
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 Gather this context (ask if not provided):
 
@@ -206,6 +206,8 @@ Full-body avatars with expressive body language. Built-in script generation from
 
 **Best for:** Corporate training, compliance videos, enterprise presentations where professional tone > realism.
 
+An AI avatar delivering a testimonial, review, or endorsement — rather than presenting as the brand itself — needs the same disclosure treatment as any other endorsement, and some platforms/jurisdictions additionally require disclosing that a video is AI-generated/synthetic media at all. Check `compliance` before publishing, especially for a custom avatar built to look like a real person.
+
 ### When to Use Avatars vs. Other Approaches
 
 | Scenario | Use Avatar | Use Instead |
@@ -272,7 +274,7 @@ To replicate the *style* of a video edit you admire — the cut rhythm, caption 
 ### Batch Social Clips
 
 1. **Create master template** in Hyperframes/Remotion
-2. **Feed data** — product features, testimonials, stats
+2. **Feed data** — product features, testimonials, stats (use real, verifiable testimonials and stats only — a templated batch makes it easy to quietly scale a fabricated one across dozens of variants; see `compliance`)
 3. **Render batch** — one template, many variations
 4. **Add platform-specific captions** via CapCut or Captions.ai
 5. **Schedule** across platforms
@@ -344,3 +346,4 @@ Output: Ready-to-publish video
 - **ad-creative**: For paid video ad creative and iteration
 - **copywriting**: For video scripts and messaging
 - **marketing-psychology**: For hooks and persuasion in video
+- **compliance**: For testimonial substantiation and AI-generated/synthetic-media disclosure requirements

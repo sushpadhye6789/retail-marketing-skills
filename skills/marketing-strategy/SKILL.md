@@ -2,7 +2,7 @@
 name: marketing-strategy
 description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' 'brand tier,' 'are we a premium/luxury brand,' 'do we sell wholesale,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, strategic-priority, and B2B/wholesale-channel context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
 metadata:
-  version: 1.5.0
+  version: 1.5.1
 ---
 
 # Marketing Strategy
@@ -70,10 +70,18 @@ Push for verbatim customer language — exact phrases are more valuable than pol
 - Jobs to be done (2-3 things customers "hire" you for)
 - Specific use cases or scenarios
 
-### 3. Personas (B2B only)
+### 3. Personas (B2B and B2C)
+
+#### B2B Personas (if applicable):
 If multiple stakeholders are involved in buying, capture for each:
 - User, Champion, Decision Maker, Financial Buyer, Technical Influencer
 - What each cares about, their challenge, and the value you promise them
+
+#### B2C Personas (for end consumers):
+If selling directly to consumers or through retail channels, capture:
+- **Primary Consumer Persona**: Main end-user demographic/psychographic profile
+- **Secondary Personas**: Important segments (gift buyers, luxury seekers, value shoppers, etc.)
+- For each: demographics, psychographics, purchase motivations, pain points, preferred channels, brand relationships
 
 ### 4. Problems & Pain Points
 - Core challenge customers face before finding you
@@ -307,7 +315,7 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
   - **Updating an existing document:** increment the version (v2 → v3 …), update `Last updated` to today, and **prepend a new Changelog entry** at the top of the list (newest first) summarizing *what changed and why* in one line. Never rewrite or reorder past entries.
   - A good entry names the sections touched and the reason, not "updated the doc." Examples:
     - `- v3 (2026-07-16) — Repositioned from "email tool" to "deliverability platform"; added RevOps to the ICP.`
-    - `- v2 (2026-06-02) — Rewrote value prop and objections after 5 customer interviews; added competitor Acme.`
+    - `- v2 (2026-06-02) — Rewrote value prop and objections after 5 customer interviews; added competitor Acme; clarified ICP definition aligns with Section 2 Target Audience and Section 3 Personas`
   - Use today's date in ISO form (YYYY-MM-DD) for the entry and `Last updated`.
   - **Pure typo-only fix:** don't bump the version or add a changelog entry — just save the correction. Every other change bumps the version and gets an entry. When the change is a real repositioning or priority shift, say so plainly — downstream skills will now generate against the new context.
 - Save to `.agents/marketing-strategy.md`
@@ -327,6 +335,7 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
 
 ## Related Skills
 
+- **compound-marketing**: Every Brief in that skill's loop starts by reading this document — it's the foundational grounding every campaign, page, or ad is briefed against.
 - **repositioning**: For the prioritized cascade audit of everything downstream that needs updating after a material change to Sections 5, 6, or 14 — run this after saving a real positioning change, not just when it happens to come up
 - **moat-builder**: For testing whether Section 6's differentiators are actually durable, structural advantages worth prioritizing in Section 12, not just positioning material
 - **marketing-plan**: For the dated, channel-by-channel 90-day/12-month execution plan built from this document's positioning and priorities

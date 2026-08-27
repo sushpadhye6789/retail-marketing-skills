@@ -27,7 +27,7 @@ Credit: this reference distills the format popularized by Shiv Sakhuja and the G
 
 ## Compliance and Grounding
 
-This is a **dramatization** — a scripted conversation, not a real one. That's a standard, legitimate ad device, but two rules keep it honest and on the right side of FTC guidance:
+This is a **dramatization** — a scripted conversation, not a real one. That's a standard, legitimate ad device, but two rules keep it honest and on the right side of advertising-standards guidance (Australia's AANA Code of Ethics, New Zealand's ASA Codes, the US FTC's guidance, and equivalents elsewhere):
 
 1. **Every claim in the thread must be true of the product.** The race time, the savings math, the "5 minutes a day" — ground each one in a real customer result, review, or verifiable product fact, exactly as the Grounded Inputs rules in SKILL.md require. The conversation is fictional; the facts inside it can't be.
 2. **Don't present the thread as a real testimonial.** No real customer names, no "this is an actual text from a customer" framing, no fabricated endorsements. The format persuades through recognizability, not through pretending to be found footage.

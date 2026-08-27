@@ -21,7 +21,7 @@ A quantified kill/keep/scale engine for Meta ads. Every threshold derives from o
 
 ## TCPL: the anchor variable
 
-TCPL = **Target Cost Per Qualified Lead** (qualified = meets your ICP bar, not just a form-fill). Set it one of three ways:
+TCPL = **Target Cost Per Qualified Lead** (qualified = matches your ideal customer profile as defined in Section 2: Target Audience and Section 3: Personas of your marketing strategy, not just a form-fill). Set it one of three ways:
 
 1. **From deal math (best):** TCPL = target cost per demo × qualified-lead-to-demo rate. ($2,000/demo × 0.28 = $560.)
 2. **From history:** TCPL = trailing 30-day CPL(qualified) × 0.80 — a 20% improvement is achievable through operational cleanup alone (killing zero-QL ads, graduating winners). Once you have both, use whichever is tighter.
@@ -65,7 +65,7 @@ Run in order; stop at the first triggered action:
 2. **Zero pixel leads** at ≥3× TCPL → **swap and abandon the concept** (don't iterate a dead concept).
 3. **Quality check** (the layer Meta can't see — requires your CRM):
    - Pixel leads but zero qualified → swap; keep the format, change the angle.
-   - Qualified rate <40% → swap; the ad attracts the wrong people. Add ICP-filtering language. (At 40% QL rate, true cost per QL is 2.5× the pixel CPL you see in Ads Manager — two ads identical in-platform can differ 60%+ in real cost.)
+   - Qualified rate <40% → swap; the ad attracts the wrong people. Add ideal customer profile filtering language (refer to Section 2: Target Audience and Section 3: Personas of your marketing strategy). (At 40% QL rate, true cost per QL is 2.5× the pixel CPL you see in Ads Manager — two ads identical in-platform can differ 60%+ in real cost.)
    - 40–60% → monitor one more week. ≥60% → proceed.
 4. **Cost check:** cost per QL ≤ TCPL → candidate winner. 1–1.5× TCPL → monitor (normal variance). >1.5× TCPL → swap (structural underperformance, not noise).
 
@@ -95,7 +95,7 @@ For **scaling-campaign ads**, apply a deliberately stricter bar than the general
 
 ## Swap rules
 
-**Never pause without a replacement.** Keep 2–3 iterations staged; replacement live within 7 days, immediately for critical fatigue. If the pipeline is empty, redirect the budget to proven ads rather than leaving a zombie running. What to change depends on why it died: delivery kill → hook/visual; quality kill → angle and ICP language; cost kill → offer and audience; fatigue → fresh execution of the same proven concept.
+**Never pause without a replacement.** Keep 2–3 iterations staged; replacement live within 7 days, immediately for critical fatigue. If the pipeline is empty, redirect the budget to proven ads rather than leaving a zombie running. What to change depends on why it died: delivery kill → hook/visual; quality kill → angle and ideal customer profile language (as defined in Section 2: Target Audience and Section 3: Personas of your marketing strategy); cost kill → offer and audience; fatigue → fresh execution of the same proven concept.
 
 ## Creative production math
 

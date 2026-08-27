@@ -1,0 +1,53 @@
+{
+  "skill_name": "visual-merchandising",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Let's put our biggest discount bin right by the entrance so everyone sees it walking in.",
+      "expected_output": "Should flag the decompression zone concept — the area just inside the entrance is where shoppers are still adjusting and not yet in a purchasing mindset, so high-pressure placements like a discount bin tend to underperform there. Should recommend using that zone for a strong first impression (a hero display) instead and placing the discount offer further along the natural traffic flow.",
+      "assertions": [
+        "Flags the decompression zone concept explicitly",
+        "Explains why a discount bin underperforms right at the entrance",
+        "Recommends a hero/first-impression display for that zone instead",
+        "Suggests a better location further along traffic flow for the discount offer"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're a premium skincare brand. Can we cram as many products as possible onto the display to show off our full range?",
+      "expected_output": "Should push back on overcrowding, explaining that an overcrowded shelf reads as cluttered and cheap regardless of brand tier, and that appropriate white space scales with brand tier — premium/luxury needs more. Should check marketing-strategy Section 14 for brand tier and recommend a curated, spare layout instead of cramming in every product.",
+      "assertions": [
+        "Pushes back on overcrowding the display",
+        "Explains white space needs scale with brand tier, more for premium",
+        "References brand tier context (Section 14) explicitly",
+        "Recommends a curated layout over cramming in the full range"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Our facing counts on the shelf are just based on whatever inventory we happen to have on hand. Is that a problem?",
+      "expected_output": "Should flag this as a named common mistake — facing count should reflect actual sell-through, not just available inventory. Should explain that over-facing a slow mover wastes the shelf's highest-value asset (space) while under-facing a fast mover creates artificial stockout-feeling gaps that suppress sales.",
+      "assertions": [
+        "Flags inventory-based facing (rather than sell-through-based) as a mistake",
+        "Explains the over-facing-slow-movers problem",
+        "Explains the under-facing-fast-movers problem",
+        "Recommends basing facing count on actual sell-through data"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We have 30 dealer-operated showrooms. How do we make sure the merchandising is actually consistent across all of them?",
+      "expected_output": "Should recommend providing a clear planogram/reset kit (diagrams, fixture specs, a checklist) rather than a verbal description, referencing pos-marketing's dealer-compliance discipline and brand-management's governance role. Should recommend auditing against the plan (in-store or photo-based) rather than assuming intent translates to execution.",
+      "assertions": [
+        "Recommends a concrete planogram/reset kit rather than verbal guidance",
+        "References pos-marketing dealer-compliance and/or brand-management governance",
+        "Recommends auditing against the plan, not just trusting intent",
+        "Addresses the multi-location/dealer-execution consistency challenge directly"
+      ],
+      "files": []
+    }
+  ]
+}

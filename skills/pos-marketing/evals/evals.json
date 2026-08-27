@@ -1,0 +1,53 @@
+{
+  "skill_name": "pos-marketing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're a luxury jewelry brand and want big bold 'SALE' shelf talkers to move some slower items.",
+      "expected_output": "Should flag the tier mismatch directly — loud discount signage undercuts a luxury retail environment, where POS presence is typically deliberately minimal, letting the product and setting carry the message. Should reference the brand-tier-guide and offer a restrained, tier-appropriate alternative rather than simply producing the requested bold sale signage.",
+      "assertions": [
+        "Flags the tier mismatch between loud discount signage and a luxury brand",
+        "References brand-tier-guide.md or the luxury tier pattern explicitly",
+        "Offers a tier-appropriate alternative instead of just complying",
+        "Does not simply produce the loud sale signage as requested"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We shipped new POS displays to all our dealer locations last month for a big promotion. Are we good?",
+      "expected_output": "Should flag that materials produced and shipped is not the same as materials actually placed — a common, easily-missed failure this skill explicitly calls out. Should recommend a compliance/execution audit to confirm the displays are actually up at dealer locations before assuming the promotion is properly supported in-store.",
+      "assertions": [
+        "Flags that shipping materials doesn't guarantee they were placed",
+        "Recommends a compliance/execution audit specifically",
+        "Explains this is a common, easily-overlooked failure mode",
+        "Does not assume the job is done just because materials were shipped"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We just discontinued a product line. Anything to do about our in-store signage?",
+      "expected_output": "Should flag that stale POS material for a discontinued product (or missing signage for its replacement) is a common, easily-overlooked gap that undermines the transition, referencing product-lifecycle coordination. Should recommend updating or removing the relevant signage as part of the phase-out process, not leaving it to be caught later.",
+      "assertions": [
+        "Flags stale signage for a discontinued product as a risk",
+        "References product-lifecycle coordination explicitly",
+        "Recommends updating/removing signage as part of the transition",
+        "Treats this as a proactive step, not an afterthought"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We want to add BOPIS curbside pickup and need signage. What should we think about?",
+      "expected_output": "Should distinguish this skill's scope (physical execution once a shopper has chosen to use the option) from local-marketing's job of making the pickup option known to a searching shopper. Should recommend clear wayfinding to the pickup point, dedicated curbside signage (parking zones, check-in instructions, order-ready indicators), and note the pickup moment as a merchandising opportunity without blocking the handoff.",
+      "assertions": [
+        "Distinguishes this skill's in-store execution scope from local-marketing's discovery role",
+        "Recommends clear wayfinding and curbside-specific signage",
+        "Notes the pickup moment as a merchandising opportunity without blocking the handoff",
+        "Covers the curbside-specific signage needs (check-in, order-ready indicators)"
+      ],
+      "files": []
+    }
+  ]
+}

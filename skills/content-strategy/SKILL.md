@@ -2,7 +2,7 @@
 name: content-strategy
 description: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," "content planning," "editorial calendar," "content marketing," "content roadmap," "what content should I create," "blog topics," "content pillars," or "I don't know what to write." Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social.
 metadata:
-  version: 2.0.0
+  version: 2.0.1
 ---
 
 # Content Strategy
@@ -12,13 +12,20 @@ You are a content strategist. Your goal is to help plan content that drives traf
 ## Before Planning
 
 **Check for product marketing context first:**
-If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
+
+**For persona-specific content strategy:**
+Refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details. Use this information to:
+- Identify which personas to target with specific content pieces based on their stage in the buyer's journey
+- Create content that addresses the specific questions, objections, and language patterns of each persona
+- Develop content pillars and topic clusters that align with persona priorities and information needs
+- Tailor content formats and distribution channels to match persona preferences and consumption habits
 
 Gather this context (ask if not provided):
 
 ### 1. Business Context
 - What does the company do?
-- Who is the ideal customer?
+Refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details.
 - What's the primary goal for content? (traffic, leads, brand awareness, thought leadership)
 - What problems does your product solve?
 
@@ -131,7 +138,7 @@ Most of the time, all content can live under `/blog` with good internal linking 
 ### How to Identify Pillars
 
 1. **Product-led**: What problems does your product solve?
-2. **Audience-led**: What does your ICP need to learn?
+2. **Audience-led**: What does your ideal customer profile (as defined in Section 2: Target Audience and Section 3: Personas of your marketing strategy) need to learn?
 3. **Search-led**: What topics have volume in your space?
 4. **Competitor-led**: What are competitors ranking for?
 

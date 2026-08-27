@@ -248,7 +248,7 @@ Different content domains benefit from different authority signals.
 - Add "last reviewed" dates
 
 ### Financial Content
-- Reference regulatory bodies (SEC, FTC, etc.)
+- Reference regulatory bodies (ACCC/ASIC in Australia, Commerce Commission/FMA in New Zealand, SEC/FTC in the US, etc.)
 - Include specific numbers with timeframes
 - Note that information is educational, not advice
 - Cite recognized financial institutions

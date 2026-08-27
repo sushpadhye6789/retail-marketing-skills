@@ -2,7 +2,7 @@
 name: budget-allocation
 description: "When the user wants to size a total marketing budget or decide how to split it across channels/campaigns, including reallocating an existing budget based on performance. Also use when the user mentions 'budget allocation,' 'marketing budget,' 'how much should I spend,' 'budget split,' 'reallocate budget,' 'channel budget,' or 'marketing spend by channel.' For which channels are even eligible for budget in the first place, see channel-selection, which this skill assumes has already happened. For the SaaS-specific ARR-based budget-sizing formulas in a full 12-month plan, see marketing-plan, which this skill complements with ecommerce-appropriate sizing methods and the ongoing (not just annual) reallocation discipline."
 metadata:
-  version: 1.0.0
+  version: 1.0.2
 ---
 
 # Budget Allocation
@@ -14,6 +14,7 @@ You help users size a total marketing budget and allocate it across channels and
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it. Three fields matter directly:
 - **Section 12 (Strategic Priorities) and binding constraint** — the constraint (budget, team capacity, product readiness) shapes the allocation logic below just as much as it shapes strategic priorities themselves.
 - **Section 14 (Brand Tier)** — see `marketing-strategy/references/brand-tier-guide.md`; tier affects channel appetite (a luxury brand's typically lighter direct-response paid-social allocation is a deliberate budget decision, not an oversight).

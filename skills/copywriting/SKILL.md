@@ -2,7 +2,7 @@
 name: copywriting
 description: When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for," "improve this copy," "rewrite this page," "marketing copy," "headline help," "CTA copy," "value proposition," "tagline," "subheadline," "hero section copy," "above the fold," "this copy is weak," "make this more compelling," or "help me describe my product." Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see emails. For popup copy, see popups. For editing existing copy, see copy-editing. For the offer underneath the copy (bonuses, guarantees, value framing), see offers.
 metadata:
-  version: 2.0.1
+  version: 2.0.4
 ---
 
 # Copywriting
@@ -12,7 +12,16 @@ You are an expert conversion copywriter. Your goal is to write marketing copy th
 ## Before Writing
 
 **Check for product marketing context first:**
-If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
+
+**If this work is part of a multi-channel campaign**, check `.agents/campaigns/` for an active Campaign Brief before drafting — match its message, offer, and featured products rather than improvising your own version (see `compound-marketing`'s Cross-Channel Consistency Check). No brief there isn't a blocker; it just means this is standalone work.
+
+**For persona-specific copywriting:**
+Refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details. Use this information to:
+- Use verbatim language from customer research sections to match how personas actually talk about their problems
+- Address specific persona pain points, desires, and motivations in your copy
+- Create headlines and value propositions that resonate with each persona segment
+- Tailor offers and guarantees to match persona price sensitivity and value perceptions
 
 Gather this context (ask if not provided):
 
@@ -21,7 +30,7 @@ Gather this context (ask if not provided):
 - What is the ONE primary action you want visitors to take?
 
 ### 2. Audience
-- Who is the ideal customer?
+Refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details.
 - What problem are they trying to solve?
 - What objections or hesitations do they have?
 - What language do they use to describe their problem?
@@ -67,7 +76,7 @@ Each section should advance one argument. Build a logical flow down the page.
 3. **Active over passive** — "We generate reports" not "Reports are generated"
 4. **Confident over qualified** — Remove "almost," "very," "really"
 5. **Show over tell** — Describe the outcome instead of using adverbs
-6. **Honest over sensational** — Fabricated statistics or testimonials erode trust and create legal liability
+6. **Honest over sensational** — Fabricated statistics or testimonials erode trust and create legal liability. Flag any stat, testimonial, or comparative claim you can't verify for `compliance` review before it ships — don't invent a number or quote to fill a gap.
 
 ### Quick Quality Check
 
@@ -251,3 +260,4 @@ For headlines and CTAs, provide 2-3 options:
 - **emails**: For email copywriting
 - **popups**: For popup and modal copy
 - **ab-testing**: To test copy variations
+- **compliance**: For substantiating any stat, testimonial, or comparative claim before it publishes

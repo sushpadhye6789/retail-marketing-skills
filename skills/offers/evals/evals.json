@@ -1,0 +1,53 @@
+{
+  "skill_name": "offers",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We want to add a 'bonus' to our $49 course to make it feel like a better deal. Any ideas?",
+      "expected_output": "Should apply value-framing/bonus-stacking principles rather than suggesting a random freebie. Should ask what the customer's actual next friction point is after buying (so the bonus solves a real problem, not just pads perceived value). Should caution against bonus-stacking so much that it undermines the core offer's credibility (looks like a hard sell rather than a good product).",
+      "assertions": [
+        "Applies value-framing/bonus-stacking principles rather than a random suggestion",
+        "Asks what real problem the bonus should solve for the buyer",
+        "Cautions against over-stacking bonuses to the point of undermining credibility",
+        "Ties the recommendation back to what makes an offer genuinely stronger, not just longer"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "should we add a money back guarantee? worried people will just refund after using it",
+      "expected_output": "Should address the actual tradeoff: guarantees increase conversion by reducing purchase risk, and the abuse rate is usually much lower than founders fear, especially with a reasonable structure (time window, light conditions). Should distinguish guarantee aggressiveness by brand tier and category (a 100% no-questions-asked guarantee fits some categories, a conditional one fits others). Should reference marketing-strategy Section 14 (Brand Tier) if relevant.",
+      "assertions": [
+        "Addresses the actual conversion-vs-abuse tradeoff rather than just the fear",
+        "Notes that abuse rates are typically lower than founders expect",
+        "Distinguishes guarantee aggressiveness by brand tier/category",
+        "References brand tier context where relevant"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Our competitor offers a lifetime deal. Should we match it?",
+      "expected_output": "Should not default to matching — should evaluate whether a lifetime deal fits this business's own unit economics and long-term positioning rather than reactively copying a competitor. Should flag the real risk of lifetime deals (locking in low future revenue, attracting price-sensitive rather than loyal customers) and ask what problem matching is actually meant to solve (losing deals on price? losing deals on perceived value?).",
+      "assertions": [
+        "Does not default to matching the competitor without evaluation",
+        "Flags the unit-economics risk of lifetime deals specifically",
+        "Asks what underlying problem the competitive response is meant to solve",
+        "Considers whether a different offer structure solves the same problem more safely"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "How do we use scarcity in our offer without it feeling fake? We don't actually have limited stock.",
+      "expected_output": "Should take the 'without it feeling fake' concern seriously and refuse to help construct a genuinely false scarcity claim (ties to compliance's fictitious-claims guidance). Should distinguish real scarcity levers available even without limited physical stock (limited-time pricing with a real end date, a genuine cohort/capacity limit for a service, an early-access window) from fabricated ones. Should flag that fake scarcity, once discovered by customers, damages trust more than the lift it generates.",
+      "assertions": [
+        "Refuses to help construct a genuinely false scarcity claim",
+        "Distinguishes real scarcity levers from fabricated ones",
+        "Flags the trust cost of scarcity claims customers discover are fake",
+        "References compliance-adjacent honesty concerns appropriately"
+      ],
+      "files": []
+    }
+  ]
+}

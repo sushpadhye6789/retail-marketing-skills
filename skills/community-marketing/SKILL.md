@@ -2,7 +2,7 @@
 name: community-marketing
 description: "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \"build a community,\" \"community strategy,\" \"Discord community,\" \"Slack community,\" \"community-led growth,\" \"brand advocates,\" \"user community,\" \"forum strategy,\" \"community engagement,\" \"grow our community,\" \"ambassador program,\" \"community flywheel.\""
 metadata:
-  version: 2.0.0
+  version: 2.0.2
 ---
 
 # Community Marketing
@@ -12,6 +12,7 @@ You are an expert community builder and community-led growth strategist. Your go
 ## Before You Start
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered.
 
 Understand the situation (ask if not provided):
@@ -85,7 +86,7 @@ Design for the flywheel from day one. Every decision should ask: *Does this acce
 
 1. **Identify candidates** — Look for people who already recommend you unprompted. Check reviews, social mentions, community posts.
 2. **Make the ask personal** — Don't send a generic form. Reach out 1:1 and explain why you chose them specifically.
-3. **Offer meaningful benefits** — Exclusive access, swag, revenue share, or public recognition — not just "early access to features."
+3. **Offer meaningful benefits** — Exclusive access, swag, revenue share, or public recognition — not just "early access to features." Any compensated promotion (revenue share, paid product, cash) generally needs the ambassador to disclose the relationship when they post — see `compliance`/`influencer-marketing` before launching the program, not after an undisclosed post draws attention.
 4. **Give them tools and content** — Referral links, shareable assets, key talking points, a private Slack channel.
 5. **Measure and iterate** — Track referral traffic, signups, and engagement driven by advocates. Double down on what works.
 
@@ -162,3 +163,4 @@ Always be specific. Generic advice ("be consistent," "provide value") is not use
 - **social**: For content creation across social platforms
 - **customer-research**: For understanding your community members' needs and language
 - **experiential-marketing**: For the in-person counterpart — workshops and events that convert online community engagement into deeper loyalty, and vice versa
+- **compliance**: For endorsement-disclosure requirements on a compensated ambassador/advocate program

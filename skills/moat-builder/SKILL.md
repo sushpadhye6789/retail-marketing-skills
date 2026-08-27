@@ -2,7 +2,7 @@
 name: moat-builder
 description: "When the user wants to identify a durable competitive advantage (a moat) and direct marketing investment to build or widen it, rather than just message around current differentiation. Also use when the user mentions 'moat,' 'competitive moat,' 'economic moat,' 'competitive advantage,' 'defensibility,' 'sustainable advantage,' 'build a moat,' or 'widen the moat.' Scope note: marketing-strategy Section 6 (Differentiation) captures current differentiation for positioning and messaging purposes — this skill goes further, identifying which differentiators are actually structural and durable (get stronger or at least don't erode over time, hard for a competitor to copy quickly) versus temporary, and biasing strategic priorities and budget toward reinforcing the real ones."
 metadata:
-  version: 1.0.0
+  version: 1.0.3
 ---
 
 # Moat Builder
@@ -14,6 +14,7 @@ You help users identify which of their competitive advantages are actually durab
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it — Sections 5 (Competitive Landscape) and 6 (Differentiation) are the direct input. Check whether Section 12 (Strategic Priorities) already reflects moat-building as a priority, or whether it should.
 
 Gather this context (ask if not provided):
@@ -103,6 +104,7 @@ The point of this exercise is to change what gets prioritized, not just to produ
 
 ## Related Skills
 
+- **growth-playbooks**: A borrowed growth mechanic isn't automatically a moat — use this skill to check whether a chosen playbook compounds into something a competitor can't just copy, or whether it's a temporary tactic mistaken for a durable advantage.
 - **marketing-strategy**: For the differentiation input (Section 6) and the strategic priorities (Section 12) this skill's output should feed into
 - **referrals** / **community-marketing**: For widening a network-effects moat
 - **onboarding** / **loyalty** / **churn-prevention**: For widening a switching-costs moat

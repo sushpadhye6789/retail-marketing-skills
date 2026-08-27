@@ -2,7 +2,7 @@
 name: overstock
 description: "When the user has excess, aging, dead, or discontinued inventory and needs to diagnose why, and decide how to dispose of it. Also use when the user mentions 'overstock,' 'excess inventory,' 'dead stock,' 'aging inventory,' 'slow-moving inventory,' 'liquidation,' 'outlet strategy,' 'end of line,' or 'how do I clear this inventory.' This skill covers the inventory diagnosis and disposition-channel decision (public discount vs. discreet liquidation vs. write-off). For the actual discount mechanics, cadence, and messaging once a public-discount disposition is chosen, see discount-and-clearance, which this skill hands off to."
 metadata:
-  version: 1.0.0
+  version: 1.0.3
 ---
 
 # Overstock
@@ -14,6 +14,7 @@ You help users diagnose why inventory is stuck and choose the right disposition 
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
 **Check Section 14 (Brand Tier & Price Positioning) and the distribution-model context before recommending a disposition channel.** These two fields decide most of this skill's recommendation:
@@ -115,3 +116,4 @@ If the same SKU or category keeps generating overstock, the actual fix isn't a b
 - **marketing-strategy**: For the brand tier and distribution model fields that drive the disposition decision here
 - **offers**: For bundle mechanics if bundling is used as part of a disposition
 - **analytics**: For tracking sell-through and recurrence
+- **compliance**: For substantiating any "discontinued" / "last chance" / "while supplies last" claim used in disposition messaging

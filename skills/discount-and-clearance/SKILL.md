@@ -2,7 +2,7 @@
 name: discount-and-clearance
 description: "When the user wants to plan, structure, or message a discount or clearance event — sizing the depth, cadence, and messaging, regardless of what triggered it. Also use when the user mentions 'discount,' 'clearance,' 'markdown,' 'sale event,' 'flash sale,' 'how deep should this discount be,' 'clearance section,' or 'end-of-season sale.' If the trigger is specifically excess/aging/dead inventory, start with overstock instead — it handles the inventory diagnosis and disposition-channel decision, then hands off here for the discount mechanics. For sizing the actual discount depth against margin, see price-elasticity. For the offer mechanics (bundling, scarcity, guarantees), see offers. For the brand-tier and distribution-model context that shapes how public a discount can be, see marketing-strategy."
 metadata:
-  version: 1.0.0
+  version: 1.0.3
 ---
 
 # Discount & Clearance
@@ -14,6 +14,7 @@ You help users plan and execute a discount or clearance event — sizing the dep
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
 **Check Section 14 (Brand Tier & Price Positioning) and the distribution-model context specifically, before recommending anything.** Discount depth and channel is one of the most tier- and channel-sensitive tactics in this repo:
@@ -45,6 +46,8 @@ Gather this context (ask if not provided):
 A common structural pattern (illustrative, not a rule — adapt the specific percentages and timing to your own margin and urgency): a step-down cadence over a defined window — a first markdown, a deeper one after a set period if sell-through targets aren't hit, and a final clearance depth as the deadline approaches. The structure — start shallower, deepen only if needed, reserve the deepest cut for genuinely final clearance — matters more than the specific percentages, because it avoids giving away margin on units that would have sold at a shallower discount anyway.
 
 **Set a floor before starting.** For a fixed-date event this is straightforward; for a rolling clearance, decide in advance what happens to anything unsold at the deadline (hand off to `overstock` for the disposition decision) rather than deciding under deadline pressure.
+
+**Any "was $X, now $Y" framing needs the "was" price to be genuine and recently charged** — this is a specifically named, actively enforced deceptive-pricing pattern, not just a copywriting choice. Route it through `compliance` before publishing rather than assuming the comparison is safe because "everyone frames markdowns this way."
 
 ---
 
@@ -117,3 +120,4 @@ Match urgency language to the real reason:
 - **emails** / **sms** / **popups**: For the execution channels that announce a discount event
 - **marketing-psychology**: For the anchoring and sale-fatigue effects behind "Avoiding the Trap" above
 - **analytics**: For tracking sell-through and full-price cannibalization
+- **compliance**: For confirming any "was/now" reference price is genuine before it ships

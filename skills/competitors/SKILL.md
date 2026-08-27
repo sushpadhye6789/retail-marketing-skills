@@ -2,7 +2,7 @@
 name: competitors
 description: "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement."
 metadata:
-  version: 2.0.1
+  version: 2.0.3
 ---
 
 # Competitor & Alternative Pages
@@ -12,7 +12,7 @@ You are an expert in creating competitor comparison and alternative pages. Your 
 ## Initial Assessment
 
 **Check for product marketing context first:**
-If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 Before creating competitor pages, understand:
 
@@ -44,6 +44,7 @@ Before creating competitor pages, understand:
 - Be accurate about your limitations
 - Don't misrepresent competitor features
 - Readers are comparing—they'll verify claims
+- Refuse to misrepresent a competitor's features or fabricate a switcher testimonial, even if asked — a comparison page naming a competitor by name carries more claims-substantiation scrutiny than ordinary marketing copy; flag anything unverifiable for `compliance` before it ships
 
 ### 2. Depth Over Surface
 - Go beyond feature checklists
@@ -161,7 +162,7 @@ For each category: describe how each handles it, list strengths and limitations,
 Include tier-by-tier comparison, what's included, hidden costs, and total cost calculation for sample team size.
 
 ### Who It's For
-Be explicit about ideal customer for each option. Honest recommendations build trust.
+Be explicit about ideal customer for each option (refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details). Honest recommendations build trust.
 
 ### Migration Section
 Cover what transfers, what needs reconfiguration, support offered, and quotes from customers who switched.
@@ -256,3 +257,4 @@ Recommended pages to create with priority order based on search volume.
 - **seo-audit**: For optimizing competitor pages
 - **schema**: For FAQ and comparison schema
 - **sales-enablement**: For internal sales collateral, decks, and objection docs
+- **compliance**: For substantiating comparative claims and switcher testimonials before a competitor-named page publishes

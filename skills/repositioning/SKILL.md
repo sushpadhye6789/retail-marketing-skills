@@ -2,7 +2,7 @@
 name: repositioning
 description: "When a material positioning change has just been made in marketing-strategy and the user needs to know everything else that now needs to be revisited as a result. Also use when the user mentions 'repositioning,' 'we changed our positioning,' 'positioning change,' 'rebrand rollout,' 'update everything for our new positioning,' or 'positioning cascade.' This skill does not do the positioning work itself — that happens in marketing-strategy, using references/positioning-methodology.md. This skill activates after that change is captured and produces a prioritized audit of every customer-facing and internal surface that was built on the old positioning and now needs updating, sequenced by exposure risk."
 metadata:
-  version: 1.0.0
+  version: 1.0.2
 ---
 
 # Repositioning
@@ -14,6 +14,7 @@ You help users cascade a positioning change through everything downstream of it.
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 `.agents/marketing-strategy.md` should exist with a recent changelog entry describing the change — read the entry and, ideally, diff it against the previous version of Sections 5/6 (Competitive Landscape, Differentiation) and Section 14 (Brand Tier, if that changed too). If there's no marketing-strategy document, or no changelog entry describing a real positioning shift, stop and redirect there first — this skill has nothing to cascade without a captured "before" and "after."
 
 Gather this context (ask if not provided):

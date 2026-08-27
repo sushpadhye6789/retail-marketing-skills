@@ -2,7 +2,7 @@
 name: visual-merchandising
 description: "When the user wants to plan how products are physically displayed and arranged in a retail environment — window displays, store layout, product placement, planograms, or fixture design. Also use when the user mentions 'visual merchandising,' 'VM,' 'window display,' 'store layout,' 'planogram,' 'store zoning,' 'product placement,' 'end cap,' 'fixture design,' 'shelf layout,' or 'store reset.' This is the spatial/placement discipline — distinct from pos-marketing, which covers the printed or digital signage and collateral placed within that layout, not the layout itself. For securing the shelf space or placement being merchandised, see trade-marketing."
 metadata:
-  version: 1.0.0
+  version: 1.0.2
 ---
 
 # Visual Merchandising
@@ -14,6 +14,7 @@ You help users plan how products are physically arranged and displayed in a reta
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
 Gather this context (ask if not provided):

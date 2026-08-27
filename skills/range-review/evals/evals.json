@@ -1,0 +1,53 @@
+{
+  "skill_name": "range-review",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "This SKU has low revenue, let's just cut it.",
+      "expected_output": "Should push back on cutting based on revenue alone and ask about the SKU's range role first (hero/traffic-driver, margin-driver, range-completeness, or genuinely declining with no role) — a low-revenue SKU can still be doing real strategic work. Should recommend checking margin contribution and cannibalization before deciding.",
+      "assertions": [
+        "Pushes back on cutting based on revenue alone",
+        "Asks about the SKU's range role before deciding",
+        "Names at least one non-obvious role (hero/traffic-driver or range-completeness)",
+        "Recommends checking margin/cannibalization before the cut decision"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We only sell one product. Should we do a full range review to see what to cut?",
+      "expected_output": "Should recognize the catalog is too small for a meaningful cross-SKU comparative review, per the skill's explicit guidance, and redirect the underlying questions to variant/configuration level if applicable. Should reframe 'should we add a second product' as a launch/marketing-strategy Section 12 decision rather than a range-review exercise, and note a full periodic cadence isn't warranted at this scale.",
+      "assertions": [
+        "Recognizes the catalog is too small for a comparative range review",
+        "Redirects to variant-level questions if relevant",
+        "Reframes 'add a second product' as a strategic/launch decision, not a range-review one",
+        "Notes a full recurring cadence isn't warranted at this scale"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We want to add three new products to the line this quarter.",
+      "expected_output": "Should push back on adding without a plan to cut anything, flagging that range bloat compounds inventory complexity and dilutes marketing attention. Should ask what, if anything, each new addition should replace, per the named Common Mistake about adding without a cutting plan.",
+      "assertions": [
+        "Pushes back on adding without considering what to cut",
+        "Explains the range-bloat risk explicitly",
+        "Asks what each addition should replace, if anything",
+        "References this as a named common mistake"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "One of our dealers' contracts requires us to keep carrying a SKU that's honestly a poor performer with no real strategic role. What do we do?",
+      "expected_output": "Should flag the tension explicitly between the contractual dealer range requirement and the SKU's poor performance/no strategic role, rather than silently either cutting it (breaching the contract) or ignoring the performance issue. Should recommend surfacing this tension directly to the user as a genuine constraint worth naming.",
+      "assertions": [
+        "Flags the tension between contractual requirement and poor performance explicitly",
+        "Does not recommend silently cutting a contractually-required SKU",
+        "Does not ignore the performance issue either",
+        "Recommends surfacing the tension directly rather than hiding it"
+      ],
+      "files": []
+    }
+  ]
+}

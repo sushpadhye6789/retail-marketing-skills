@@ -2,7 +2,7 @@
 name: storytelling
 description: "When the user wants to construct a brand, founder, product, or customer narrative — the underlying story arc, not the finished page copy. Also use when the user mentions 'storytelling,' 'brand story,' 'narrative,' 'founder story,' 'origin story,' 'story arc,' 'narrative framework,' 'tell a story,' or 'case study story.' This is the narrative-construction layer that feeds copywriting (page-level execution), video (script/production), social (carousel/post narrative), tentpole-campaign (brand campaign story), and public-relations (press narrative) — it doesn't write the finished page itself. For the finished page copy itself, see copywriting; for a video script's production, see video."
 metadata:
-  version: 1.0.0
+  version: 1.0.2
 ---
 
 # Storytelling
@@ -12,6 +12,7 @@ You help users construct a narrative arc — for the brand, a founder, a product
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it — it's the raw material this skill shapes into a story:
 - **Section 4 (Problems & Pain Points)** is the story's problem/tension.
 - **Section 6 (Differentiation)** and **Section 8 (Switching Dynamics)** are the guide's plan and the stakes.

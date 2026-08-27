@@ -2,7 +2,7 @@
 name: prospecting
 description: When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions "prospecting," "build a prospect list," "find prospects," "find leads," "lead gen list," "find SaaS companies that," "find B2B companies," "find local businesses," "ICP-fit accounts," "who should we go after," "outbound list," "target account list," "find clients near me," "businesses without websites," "prospect research," "qualified leads," "find my first customers," "early adopters," "design partners," "beta users," or "who has this problem." Use this for the list-building and qualification phase. For writing the outbound copy after the list is built, see cold-email. For deep competitive research on specific accounts, see competitor-profiling.
 metadata:
-  version: 1.1.1
+  version: 1.1.3
 ---
 
 # Prospecting
@@ -14,7 +14,7 @@ You are an expert at building qualified prospect lists across four motions: B2B 
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 ## Pick the Branch
 
@@ -106,13 +106,13 @@ These apply to every branch. **Read first, every engagement.**
 1. **No bulk scraping** of LinkedIn, Google Maps, paywalled sites, or rate-limited APIs. Browser is an assisted research tool, not a scraper.
 2. **No CAPTCHA, login wall, or bot protection bypass.** If a site requires it, work with what's publicly visible.
 3. **Public business contact channels only.** Use info@, hello@, contact@, and named-role emails (founder, owner) where they're published on the business's own site. Personal/private emails require a lawful basis (existing relationship, opt-in, etc.).
-4. **GDPR / CAN-SPAM / CASL aware.** Capture and retain the source URL and date for every contact you add to a list — required for downstream outreach compliance.
+4. **Privacy Act / Spam Act (AU), Privacy Act / Unsolicited Electronic Messages Act (NZ), GDPR / CAN-SPAM / CASL aware.** Capture and retain the source URL and date for every contact you add to a list — required for downstream outreach compliance.
 5. **No reselling extracted data** from Google Maps, LinkedIn, or any platform whose terms prohibit it. List building for the user's own outreach is fine; productizing the list to sell is not.
 6. **Rate limit yourself.** Even on public sources, space requests. Don't fingerprint as a bot.
 7. **No breached, leaked, or unprovenanced data.** Don't source prospects from breached datasets, scraped-contact marketplaces, or list brokers with no source lineage. Licensed B2B data providers (Apollo, ZoomInfo, Clearbit, Clay) are fine when used within their ToS and with a lawful basis — the ban is on illicit/unprovenanced data, not on legitimate enrichment vendors.
 8. **Never target or infer sensitive traits.** Don't qualify, segment, or personalize on health, financial hardship, political belief, sexuality, religion, or other protected/sensitive attributes — even when a public post reveals them.
 
-For the full compliance reference (GDPR, CAN-SPAM, CASL, LinkedIn ToS, Google Maps ToS, Clay/Apollo/ZoomInfo use restrictions): see [references/compliance.md](references/compliance.md).
+For the full compliance reference (Australia's Privacy Act/Spam Act, New Zealand's Privacy Act/Unsolicited Electronic Messages Act, GDPR, CAN-SPAM, CASL, LinkedIn ToS, Google Maps ToS, Clay/Apollo/ZoomInfo use restrictions): see [references/compliance.md](references/compliance.md).
 
 ---
 
@@ -201,7 +201,7 @@ score,business,category,area,distance_km,website_status,website_url,social_urls,
 - [ ] No lead labeled "Hot" lacks a clear buying signal
 - [ ] Confidence levels honest — "High" requires 2 independent sources, not just two of your own searches
 - [ ] No leads sourced from prohibited scraping (LinkedIn at scale, Google Maps bulk extract, etc.)
-- [ ] Source URL + date captured for every contact (GDPR / CAN-SPAM lineage)
+- [ ] Source URL + date captured for every contact (AU/NZ Privacy Act, GDPR, and CAN-SPAM lineage)
 - [ ] Final count matches user's request, or you've explained why it's smaller (quality bar)
 
 ---
@@ -216,7 +216,7 @@ score,business,category,area,distance_km,website_status,website_url,social_urls,
 6. **"Hot" labels without buying signals**. ICP fit alone is not enough — the signal is what makes the timing right.
 7. **No source URLs**. Every claim should be traceable to a public source. Future outreach depends on this lineage.
 8. **Ignoring quiet hours / time zone** when scheduling the downstream outreach (handoff to cold-email).
-9. **Forgetting to retain consent / lineage records**. Required for GDPR DSARs and CAN-SPAM audits.
+9. **Forgetting to retain consent / lineage records**. Required for AU/NZ Privacy Act access requests, GDPR DSARs, and CAN-SPAM audits.
 
 ---
 

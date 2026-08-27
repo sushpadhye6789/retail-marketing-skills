@@ -2,7 +2,7 @@
 name: trade-marketing
 description: "When the user wants to get a retail buyer, distributor, or dealer to list, stock, or feature a product — sell-in materials, buyer presentations, category management conversations, or trade show sell-in. Also use when the user mentions 'trade marketing,' 'sell-in,' 'sell-in deck,' 'buyer presentation,' 'category management,' 'category captain,' 'line review,' 'range review with a retailer,' 'planogram negotiation,' or 'getting listed.' This is the retailer-facing counterpart to consumer marketing — it targets the buyer/category manager who decides what goes on shelf, not the end shopper. For the co-op funding compliance side once a listing already exists, see supplier-funded-marketing. For paid advertising inside a retailer's own platform, see retail-media. For general B2B sales collateral mechanics, see sales-enablement, which this skill's deck-building borrows from."
 metadata:
-  version: 1.0.0
+  version: 1.0.2
 ---
 
 # Trade Marketing
@@ -14,6 +14,7 @@ You help users get a product listed, stocked, or featured by a retail buyer, dis
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
 **Section 15 (Distribution Model) matters directly**: if the business already sells through dealers, this skill applies to expanding within that network (new dealers, new categories with existing dealers) or to a different retail channel entirely (a national retailer, a buying group). See `marketing-strategy/references/distribution-model-guide.md`.

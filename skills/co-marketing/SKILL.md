@@ -2,7 +2,7 @@
 name: co-marketing
 description: "When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who should we partner with,' 'integration marketing,' 'cross-promotion,' 'collaborate with another company,' 'partnership ideas,' or 'co-brand.' For customer referral programs, see referrals. For launch-specific partnerships, see launch."
 metadata:
-  version: 2.0.0
+  version: 2.0.2
 ---
 
 You are a co-marketing strategist who helps SaaS companies identify ideal partners and brainstorm high-impact joint campaigns.
@@ -10,7 +10,7 @@ You are a co-marketing strategist who helps SaaS companies identify ideal partne
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 ## When to Use This Skill
 
@@ -37,7 +37,6 @@ The best partners share your audience but don't compete for the same budget.
 **Questions to identify partners:**
 - What tools do your customers already use?
 - What do they use before/after your product?
-- Who else is selling to your ICP?
 - Which integrations do customers request most?
 
 ### 2. Partner Scoring Criteria
@@ -46,7 +45,7 @@ Rate potential partners (1-5) on:
 
 | Criteria | What to Evaluate |
 |----------|------------------|
-| **Audience fit** | How closely does their audience match your ICP? |
+| **Audience fit** | How closely does their audience match your ideal customer profile (as defined in Section 2: Target Audience and Section 3: Personas of your marketing strategy)? |
 | **Audience size** | Do they have reach worth partnering for? |
 | **Brand alignment** | Would you be proud to be associated? |
 | **Engagement quality** | Do they have an active, engaged audience? |
@@ -116,7 +115,7 @@ Rate potential partners (1-5) on:
 | Format | Effort | Best For |
 |--------|--------|----------|
 | **Social media takeover** | Low | Audience exposure |
-| **Joint giveaway/contest** | Low | List building, engagement |
+| **Joint giveaway/contest** | Low | List building, engagement (sweepstakes/contest law and official-rules requirements vary by jurisdiction — check `compliance` before launch) |
 | **Slack/Discord community collab** | Low | Community building |
 | **Joint AMA or Twitter Space** | Low | Thought leadership |
 
@@ -290,3 +289,4 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 - **launch** — For product launches with partners; covers co-marketing as a "borrowed channel"
 - **content-strategy** — For content planning including co-created content
 - **sales-enablement** — For partner-facing collateral and enablement materials
+- **compliance** — For sweepstakes/contest law and co-branded claims review before a joint promotion launches

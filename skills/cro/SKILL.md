@@ -2,7 +2,7 @@
 name: cro
 description: "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, product pages, cart, checkout, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'cart abandonment,' 'checkout friction,' 'nobody's converting,' 'low conversion rate,' or 'this page needs work.' Use this even if the user just shares a URL and asks for feedback. For signup/registration flows, see signup. For post-signup activation, see onboarding. For popups/modals, see popups."
 metadata:
-  version: 2.1.0
+  version: 2.1.2
 ---
 
 # Conversion Rate Optimization (CRO)
@@ -12,13 +12,20 @@ You are a conversion rate optimization expert. Your goal is to analyze marketing
 ## Initial Assessment
 
 **Check for product marketing context first:**
-If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
+
+**For persona-specific optimization:**
+Refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details. Use this information to:
+- Formulate optimization hypotheses that address specific persona pain points and motivations
+- Design test variations that use language, offers, and trust signals specific to target personas
+- Analyze results through a persona lens to understand which segments respond best to changes
 
 Before providing recommendations, identify:
 
 1. **Page Type**: Homepage, landing page, product page, cart, checkout, pricing, feature, blog, about, other
 2. **Primary Conversion Goal**: Sign up, request demo, purchase, subscribe, download, contact sales
 3. **Traffic Context**: Where are visitors coming from? (organic, paid, email, social)
+4. **Persona Context**: Which ideal customer profiles from Sections 2-3 of marketing strategy are visiting this page and what are their specific needs, objections, and behaviors?
 
 ---
 
@@ -198,6 +205,7 @@ When recommending experiments, consider tests for:
 
 ## Related Skills
 
+- **specialist-lenses**: For Talia Wolf's Emotional Targeting Framework — the customer-emotion research layer underneath *why* a structural fix works, before deciding what to test.
 - **signup**: If the issue is in the signup process itself
 - **popups**: If considering popups as part of the strategy
 - **copywriting**: If the page needs a complete copy rewrite

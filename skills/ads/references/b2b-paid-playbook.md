@@ -84,7 +84,7 @@ The platform can't see lead quality — score it yourself and rank ads by it:
 
 - **Urgency** (0–3): 0 browsing → 3 burning need with timeline
 - **Budget** (0–3): 0 none/no authority → 3 approved and ready
-- **Fit** (0–3): 0 not ICP → 3 perfect ICP
+- **Fit** (0–3): 0 not ideal customer profile (as defined in Section 2: Target Audience and Section 3: Personas of your marketing strategy) → 3 perfect ICP
 
 Whoever runs the sales calls scores each lead (max 9) and logs it against the originating ad. After ~20 scored calls, **rank ads by average quality score, not CPL or CTR** — the ad with the best CPL is regularly the one producing 3/9 leads. Scale the high-score ads; kill variations whose average drops below ~5.
 
@@ -106,9 +106,9 @@ Before scaling spend, score yourself 1–3 on each: blended pipeline dashboard; 
 
 ## Channel selection
 
-Five channel families: paid social, paid search, **paid review listings** (G2, Capterra, Software Advice — often skipped, high intent), programmatic (display, audio, CTV, native), and sponsorships (newsletters, podcasts, events, creators). Evaluate on four axes: can you actually target your ICP; media cost (CPC/CPM); reach at your targeting; platform policy for your industry.
+Five channel families: paid social, paid search, **paid review listings** (G2, Capterra, Software Advice — often skipped, high intent), programmatic (display, audio, CTV, native), and sponsorships (newsletters, podcasts, events, creators). Evaluate on four axes: can you actually target your ideal customer profile (defined in Section 2: Target Audience and Section 3: Personas of your marketing strategy); media cost (CPC/CPM); reach at your targeting; platform policy for your industry.
 
-Before committing to a new channel, **run a ~$100 test campaign** to learn its real CPC/CPM for your targeting — platform estimates and published benchmarks are consistently wrong for specific ICPs.
+Before committing to a new channel, **run a ~$100 test campaign** to learn its real CPC/CPM for your targeting — platform estimates and published benchmarks are consistently wrong for specific customer profiles defined in your marketing strategy's Target Audience and Personas sections.
 
 ---
 

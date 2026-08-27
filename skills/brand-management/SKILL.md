@@ -2,7 +2,7 @@
 name: brand-management
 description: "When the user wants to track brand health, decide on brand architecture (house of brands vs. branded house vs. sub-brands), evaluate a brand extension, or govern brand consistency across teams, channels, and dealers over time. Also use when the user mentions 'brand management,' 'brand health,' 'brand equity,' 'brand tracking,' 'brand architecture,' 'sub-brand,' 'house of brands,' 'branded house,' 'brand extension,' 'brand governance,' 'brand consistency,' or 'brand audit.' Scope note: marketing-strategy defines positioning and brand-guidelines defines visual/verbal identity, each largely as a point-in-time capture exercise; this skill is the ongoing discipline of tracking whether the brand is actually landing as intended, staying consistent everywhere it appears, and evolving deliberately as the business changes — it reads both rather than duplicating them. For initial positioning capture, see marketing-strategy; for the visual identity document itself, see brand-guidelines."
 metadata:
-  version: 1.0.0
+  version: 1.0.2
 ---
 
 # Brand Management
@@ -14,6 +14,7 @@ You help users manage a brand as an ongoing discipline — tracking whether it's
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it — this skill's work should be checked against Section 5/6 (positioning), Section 14 (brand tier), and Section 15 (distribution model) throughout.
 
 **Check `.agents/brand-guidelines.md`** — the artifact this skill's governance work measures actual execution against.

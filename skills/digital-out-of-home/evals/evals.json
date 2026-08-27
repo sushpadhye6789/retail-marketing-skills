@@ -1,0 +1,53 @@
+{
+  "skill_name": "digital-out-of-home",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're a budget/value brand but want to do a big highway billboard takeover downtown to look impressive.",
+      "expected_output": "Should flag the brand-tier signal risk explicitly — premium DOOH placements (highway billboards, takeovers) send a positioning signal that a budget-tier brand's other marketing may not support. Should check marketing-strategy Section 14 and reference brand-tier-guide.md, and question whether this placement fits the brand's actual tier before proceeding.",
+      "assertions": [
+        "Flags the brand-tier mismatch risk of premium DOOH for a budget-tier brand",
+        "References marketing-strategy Section 14 / brand-tier-guide.md",
+        "Questions the placement choice rather than simply executing it",
+        "Explains the positioning-signal risk clearly"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Can you write billboard copy that explains our three key product benefits in detail?",
+      "expected_output": "Should push back on a detailed, multi-benefit message for a billboard format, explaining the extremely short dwell time constraint (2-3 seconds) and the one-idea, minimal-text (often 5-7 word) guideline. Should recommend picking a single idea and a large, legible headline instead of trying to convey three benefits.",
+      "assertions": [
+        "Pushes back on a detailed multi-benefit billboard message",
+        "Explains the short dwell time / minimal text constraint specifically",
+        "Recommends narrowing to one clear idea",
+        "Does not simply write the requested multi-point copy as-is"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We ran a geofenced DOOH campaign and mobile data shows a lot of foot traffic near the billboard afterward. Should we scale this up?",
+      "expected_output": "Should caution against treating geofenced foot-traffic correlation as proof the placement caused the visits, noting this is a correlation not causation and referencing the incrementality-checkpoint. Should recommend a matched control area comparison before crediting DOOH with driving the traffic, especially before committing to a recurring/scaled placement based on it.",
+      "assertions": [
+        "Distinguishes correlation (foot traffic near billboard) from proof of causation",
+        "References the incrementality-checkpoint / control-area comparison",
+        "Recommends this check specifically before scaling or recurring commitment",
+        "Does not endorse scaling based on the geofencing data alone"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We need to book a billboard for a launch happening in two weeks.",
+      "expected_output": "Should flag the lead-time risk explicitly — traditional/printed OOH generally requires longer lead time for booking and creative production (printed vinyl) than a two-week window typically allows. Should recommend either a programmatic DOOH (pDOOH) alternative for more flexibility and speed, or flag the timeline risk clearly if traditional format is required.",
+      "assertions": [
+        "Flags the lead-time constraint of traditional/printed OOH for a two-week timeline",
+        "Recommends pDOOH as a faster alternative where speed matters",
+        "Does not assume a traditional billboard booking is achievable in two weeks without flagging risk",
+        "Distinguishes traditional vs. programmatic buying timelines"
+      ],
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "skill_name": "loyalty",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're a small early-stage store just getting started. Let's build a full points program with tiers, multipliers, and a paid membership tier all at once.",
+      "expected_output": "Should push back on starting with a complex hybrid program, recommending starting simple (a punch card or basic points program) and adding complexity only once the simpler version is proven working. Should explain that a simple program customers understand beats a complex one nobody understands.",
+      "assertions": [
+        "Pushes back on launching a complex multi-mechanic program from day one",
+        "Recommends starting with a simpler program type",
+        "Explains the 'earn the complexity' principle",
+        "Does not simply design the full complex program as requested"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We want to launch a subscribe-and-save program for an unpredictable, one-off purchase category (custom furniture).",
+      "expected_output": "Should flag that subscription commerce only fits consumable, replenishable products with a real predictable usage cycle, and that forcing it onto a one-off or unpredictable-cadence category creates friction without retention benefit. Should recommend against this specific application or ask what genuine recurring need it would actually serve.",
+      "assertions": [
+        "Flags that subscription models don't fit unpredictable, one-off purchase categories",
+        "Explains the friction-without-benefit risk explicitly",
+        "Questions or pushes back on this specific application",
+        "Does not simply proceed with designing the subscription program"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "A subscriber wants to skip this month's shipment because they have too much product. Should we push them toward a discount to keep them?",
+      "expected_output": "Should distinguish 'too much product' churn (a cadence problem) from 'don't want this anymore' churn (a genuine save-offer situation), and recommend a skip/pause or cadence-extension prompt rather than a discount for this specific reason. Should explain that a discount save offer for an overstock reason misses the actual fix and burns margin for nothing.",
+      "assertions": [
+        "Distinguishes cadence-related churn from genuine disinterest churn",
+        "Recommends skip/pause or cadence adjustment for this specific case, not a discount",
+        "Explains why a discount save offer is the wrong tool here",
+        "Treats skip as a save mechanism, not a loss"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Our loyalty program members buy way more than non-members. The program is clearly driving huge incremental revenue, right?",
+      "expected_output": "Should caution against assuming causation from a simple member-vs-non-member comparison — the most engaged customers were likely to join and buy more anyway, regardless of the program. Should recommend a holdout group or before/after cohort comparison to isolate the program's actual incremental lift, referencing the incrementality-checkpoint principle.",
+      "assertions": [
+        "Cautions against assuming the member/non-member gap is fully caused by the program",
+        "Explains the self-selection bias (engaged customers join and buy more anyway)",
+        "Recommends a holdout or before/after cohort comparison instead",
+        "References the incrementality-checkpoint approach"
+      ],
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "skill_name": "repositioning",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We just decided we want to reposition our brand for a totally different audience. Can you help cascade that?",
+      "expected_output": "Should check whether the positioning work is actually already done and captured in marketing-strategy's changelog before proceeding — this skill assumes the positioning decision is finished, not still being made. If there's no marketing-strategy document or changelog entry describing the change, should redirect to marketing-strategy and its positioning-methodology reference first rather than attempting to cascade something that hasn't been decided yet.",
+      "assertions": [
+        "Checks whether the positioning change is already captured in marketing-strategy's changelog",
+        "Recognizes this skill doesn't do the positioning work itself",
+        "Redirects to marketing-strategy/positioning-methodology if the change isn't yet captured",
+        "Does not attempt to cascade an undefined or in-progress positioning change"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We tightened our tagline wording slightly but the core idea and audience are the same. Do we need to redo everything?",
+      "expected_output": "Should classify this explicitly as a Minor refinement per the Severity table, not a Major repositioning. Should explain that minor refinements need low cascade effort — new work should use the new language, but a full retroactive audit of every surface isn't warranted. Should state the severity explicitly before recommending next steps, per Step 1.",
+      "assertions": [
+        "Classifies the change as a Minor refinement using the skill's severity table",
+        "Explains minor refinements don't need a full retroactive audit",
+        "States severity explicitly before recommending action",
+        "Distinguishes this from a moderate or major cascade"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We changed our target audience and category completely — full repositioning. What do we update first?",
+      "expected_output": "Should classify this as a Major repositioning requiring the full cascade. Should sequence by exposure risk per Step 3: live/active surfaces (ads, in-flight campaigns, active email/SMS sequences, homepage) first, then owned long-shelf-life content (SEO, pricing page, offers), then partner-facing materials with advance notice, then earned/third-party last. Should not recommend updating everything simultaneously.",
+      "assertions": [
+        "Classifies this as a Major repositioning needing the full cascade",
+        "Prioritizes live/active surfaces (ads, campaigns, email/SMS, homepage) first",
+        "Sequences owned content, then partner-facing, then earned/third-party in that order",
+        "Explicitly avoids recommending simultaneous updates to everything"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We sell through a dealer network and just repositioned. Anything special to consider?",
+      "expected_output": "Should flag that dealers need advance notice before customer-facing repositioning affects shared or co-branded materials, referencing marketing-strategy's distribution-model-guide. Should note dealer-facing materials and POS materials as part of the Sales and partner-facing tier of the cascade, and that a dealer caught off guard is a relationship cost on top of the marketing cost.",
+      "assertions": [
+        "Flags the need for advance dealer notice before shared materials change",
+        "References the distribution-model-guide / dealer coordination context",
+        "Identifies dealer-facing and POS materials as part of the cascade",
+        "Notes the relationship cost of not notifying dealers in advance"
+      ],
+      "files": []
+    }
+  ]
+}

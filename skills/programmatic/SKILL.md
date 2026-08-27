@@ -2,7 +2,7 @@
 name: programmatic
 description: "When the user wants to plan or optimize programmatic media buying — automated, auction-based ad buying across display, video, CTV/OTT, or audio inventory through a demand-side platform (DSP). Also use when the user mentions 'programmatic,' 'DSP,' 'demand-side platform,' 'real-time bidding,' 'RTB,' 'The Trade Desk,' 'DV360,' 'private marketplace,' 'PMP,' 'programmatic guaranteed,' 'CTV advertising,' 'connected TV ads,' 'header bidding,' 'ad exchange,' or 'open exchange buying.' This is distinct from ads, which covers buying directly on walled-garden platforms (Google, Meta, LinkedIn) through their own ad managers — programmatic means buying inventory across the open web/app/CTV ecosystem through a DSP, often from publishers you don't have a direct relationship with. For the physical-world, place-based counterpart, see digital-out-of-home. For the retailer-owned-inventory counterpart, see retail-media."
 metadata:
-  version: 1.0.0
+  version: 1.0.2
 ---
 
 # Programmatic Media Buying
@@ -14,6 +14,7 @@ You help users plan, execute, and optimize programmatic advertising — automate
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered.
 
 Gather this context (ask if not provided):

@@ -4,84 +4,163 @@ Current versions of all skills. Agents can compare against local versions to che
 
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
-| ab-testing | 2.0.0 | 2026-08-16 |
-| ad-creative | 2.8.0 | 2026-08-16 |
-| ads | 2.4.0 | 2026-08-16 |
-| ai-seo | 2.2.0 | 2026-08-16 |
-| analytics | 2.0.1 | 2026-08-16 |
-| aso | 2.0.0 | 2026-08-16 |
-| attribution | 1.3.0 | 2026-08-16 |
-| brand-guidelines | 1.0.0 | 2026-08-16 |
-| brand-management | 1.0.0 | 2026-08-16 |
-| budget-allocation | 1.0.0 | 2026-08-16 |
-| budget-pacing-tracker | 1.0.0 | 2026-08-16 |
-| channel-selection | 1.0.0 | 2026-08-16 |
-| churn-prevention | 2.0.0 | 2026-08-16 |
-| co-marketing | 2.0.0 | 2026-08-16 |
-| cold-email | 2.0.0 | 2026-08-16 |
-| community-marketing | 2.0.0 | 2026-08-16 |
-| competitor-profiling | 2.0.0 | 2026-08-16 |
-| competitors | 2.0.1 | 2026-08-16 |
-| compliance | 1.0.0 | 2026-08-16 |
-| content-strategy | 2.0.0 | 2026-08-16 |
-| copy-editing | 2.0.0 | 2026-08-16 |
-| copywriting | 2.0.1 | 2026-08-16 |
-| cro | 2.1.0 | 2026-08-16 |
-| customer-research | 2.0.1 | 2026-08-16 |
-| digital-out-of-home | 1.0.0 | 2026-08-16 |
-| directory-submissions | 2.0.0 | 2026-08-16 |
-| discount-and-clearance | 1.0.0 | 2026-08-16 |
-| emails | 2.1.0 | 2026-08-16 |
-| experiential-marketing | 1.0.0 | 2026-08-16 |
-| free-tools | 2.0.0 | 2026-08-16 |
-| image | 2.0.1 | 2026-08-16 |
-| influencer-marketing | 1.0.0 | 2026-08-16 |
-| launch | 2.0.1 | 2026-08-16 |
-| lead-magnets | 2.0.0 | 2026-08-16 |
-| local-marketing | 1.0.0 | 2026-08-16 |
-| loyalty | 1.0.0 | 2026-08-16 |
-| marketing-council | 1.2.0 | 2026-08-16 |
-| marketing-ideas | 2.0.1 | 2026-08-16 |
-| marketing-loops | 1.2.0 | 2026-08-16 |
-| marketing-plan | 1.1.0 | 2026-08-16 |
-| marketing-psychology | 2.0.0 | 2026-08-16 |
-| marketing-strategy | 1.4.0 | 2026-08-16 |
-| media-plan | 1.0.0 | 2026-08-16 |
-| moat-builder | 1.0.0 | 2026-08-16 |
-| offers | 1.1.0 | 2026-08-16 |
-| onboarding | 2.0.1 | 2026-08-16 |
-| overstock | 1.0.0 | 2026-08-16 |
-| paywalls | 2.0.0 | 2026-08-16 |
-| popups | 2.0.0 | 2026-08-16 |
-| pos-marketing | 1.0.0 | 2026-08-16 |
-| price-elasticity | 1.0.0 | 2026-08-16 |
-| pricing | 2.2.0 | 2026-08-16 |
-| product-feed | 1.0.0 | 2026-08-16 |
-| product-lifecycle | 1.0.0 | 2026-08-16 |
-| programmatic-seo | 2.0.0 | 2026-08-16 |
-| programmatic | 1.0.0 | 2026-08-16 |
-| prospecting | 1.1.0 | 2026-08-16 |
-| public-relations | 1.0.0 | 2026-08-16 |
-| range-review | 1.0.0 | 2026-08-16 |
-| referrals | 2.0.0 | 2026-08-16 |
-| repositioning | 1.0.0 | 2026-08-16 |
-| retail-media | 1.0.0 | 2026-08-16 |
-| revops | 2.0.0 | 2026-08-16 |
-| sales-enablement | 2.0.1 | 2026-08-16 |
-| schema | 2.0.0 | 2026-08-16 |
-| seo-audit | 2.0.0 | 2026-08-16 |
-| signup | 2.0.0 | 2026-08-16 |
-| site-architecture | 2.0.0 | 2026-08-16 |
-| sms | 1.0.0 | 2026-08-16 |
-| social | 2.3.0 | 2026-08-16 |
-| storytelling | 1.0.0 | 2026-08-16 |
-| supplier-funded-marketing | 1.0.0 | 2026-08-16 |
-| tentpole-campaign | 1.0.0 | 2026-08-16 |
-| trade-marketing | 1.0.0 | 2026-08-16 |
-| video | 2.1.0 | 2026-08-16 |
-| visual-merchandising | 1.0.0 | 2026-08-16 |
+| ab-testing | 2.0.2 | 2026-08-18 |
+| ad-creative | 2.8.3 | 2026-08-20 |
+| ads | 2.4.3 | 2026-08-20 |
+| ai-cmo-os | 1.1.0 | 2026-08-25 |
+| ai-seo | 2.3.0 | 2026-08-25 |
+| analytics | 2.0.2 | 2026-08-18 |
+| aso | 2.0.1 | 2026-08-18 |
+| attribution | 1.3.1 | 2026-08-18 |
+| brand-guidelines | 1.0.2 | 2026-08-19 |
+| brand-management | 1.0.2 | 2026-08-19 |
+| budget-allocation | 1.0.2 | 2026-08-19 |
+| budget-pacing-tracker | 1.0.2 | 2026-08-19 |
+| channel-selection | 1.0.3 | 2026-08-20 |
+| churn-prevention | 2.0.3 | 2026-08-20 |
+| co-marketing | 2.0.2 | 2026-08-20 |
+| cold-email | 2.0.4 | 2026-08-20 |
+| commercial-ops | 2.1.0 | 2026-08-25 |
+| community-marketing | 2.0.2 | 2026-08-20 |
+| competitor-profiling | 2.0.1 | 2026-08-18 |
+| competitors | 2.0.3 | 2026-08-20 |
+| compliance | 1.0.3 | 2026-08-20 |
+| compound-marketing | 1.3.1 | 2026-08-19 |
+| content-strategy | 2.0.1 | 2026-08-18 |
+| copy-editing | 2.0.1 | 2026-08-18 |
+| copywriting | 2.0.4 | 2026-08-20 |
+| cro | 2.1.2 | 2026-08-19 |
+| customer-research | 2.0.2 | 2026-08-18 |
+| digital-out-of-home | 1.0.2 | 2026-08-19 |
+| directory-submissions | 2.0.2 | 2026-08-20 |
+| discount-and-clearance | 1.0.3 | 2026-08-20 |
+| emails | 2.1.3 | 2026-08-20 |
+| experiential-marketing | 1.0.2 | 2026-08-19 |
+| free-tools | 2.0.1 | 2026-08-18 |
+| growth-playbooks | 1.0.3 | 2026-08-20 |
+| image | 2.0.2 | 2026-08-18 |
+| influencer-marketing | 1.0.2 | 2026-08-20 |
+| launch | 2.0.2 | 2026-08-18 |
+| lead-magnets | 2.0.1 | 2026-08-18 |
+| local-marketing | 1.1.0 | 2026-08-19 |
+| loyalty | 1.1.0 | 2026-08-19 |
+| marketing-council | 1.2.3 | 2026-08-19 |
+| marketing-ideas | 2.0.4 | 2026-08-18 |
+| marketing-loops | 1.3.4 | 2026-08-20 |
+| marketing-plan | 1.1.1 | 2026-08-20 |
+| marketing-psychology | 2.0.3 | 2026-08-20 |
+| marketing-strategy | 1.5.1 | 2026-08-18 |
+| media-plan | 1.0.2 | 2026-08-19 |
+| moat-builder | 1.0.3 | 2026-08-19 |
+| offers | 1.1.4 | 2026-08-20 |
+| onboarding | 2.0.2 | 2026-08-18 |
+| overstock | 1.0.3 | 2026-08-20 |
+| paywalls | 2.0.3 | 2026-08-20 |
+| popups | 2.0.2 | 2026-08-20 |
+| pos-marketing | 1.0.4 | 2026-08-19 |
+| post-purchase-experience | 2.1.0 | 2026-08-25 |
+| price-elasticity | 1.0.2 | 2026-08-19 |
+| pricing | 2.2.1 | 2026-08-18 |
+| product-feed | 1.1.0 | 2026-08-19 |
+| product-lifecycle | 1.0.2 | 2026-08-19 |
+| programmatic-seo | 2.0.1 | 2026-08-18 |
+| programmatic | 1.0.2 | 2026-08-19 |
+| prospecting | 1.1.3 | 2026-08-20 |
+| public-relations | 1.0.2 | 2026-08-19 |
+| range-review | 1.0.2 | 2026-08-19 |
+| referrals | 2.0.3 | 2026-08-20 |
+| repositioning | 1.0.2 | 2026-08-19 |
+| retail-media | 1.1.1 | 2026-08-20 |
+| retention-and-winback | 2.1.0 | 2026-08-25 |
+| revops | 2.0.2 | 2026-08-18 |
+| sales-enablement | 2.0.4 | 2026-08-20 |
+| schema | 2.0.1 | 2026-08-18 |
+| seo-audit | 2.0.1 | 2026-08-18 |
+| signup | 2.0.1 | 2026-08-18 |
+| site-architecture | 2.0.1 | 2026-08-18 |
+| specialist-lenses | 2.0.1 | 2026-08-19 |
+| sms | 1.0.2 | 2026-08-19 |
+| social | 2.3.3 | 2026-08-20 |
+| storytelling | 1.0.2 | 2026-08-19 |
+| supplier-funded-marketing | 1.0.2 | 2026-08-19 |
+| tentpole-campaign | 1.1.1 | 2026-08-19 |
+| trade-and-dealer-enablement | 2.1.0 | 2026-08-25 |
+| trade-marketing | 1.0.2 | 2026-08-19 |
+| video | 2.1.2 | 2026-08-20 |
+| visual-merchandising | 1.0.2 | 2026-08-19 |
 
 ## Recent Changes
+
+### 2.24.0 (2026-08-27)
+
+- **Knowledge integration systems, project management templates, and non-technical onboarding**: adds five new skills — `ai-cmo-os`, `commercial-ops`, `post-purchase-experience`, `retention-and-winback`, and `trade-and-dealer-enablement` — plus skill aliases, completed evaluations, a template package, a private repo access model, and fixes addressing Substack limitations.
+
+### 2.23.10 (2026-08-21)
+
+- **`mcp-server` gains a remote (Streamable HTTP) transport for claude.ai web Connectors**: the server previously only spoke stdio (Claude Desktop config, `claude mcp add`), which claude.ai's web Connectors can't use — they need a URL to POST to, not a local process to spawn. Added a second transport, selected via `TRANSPORT=http`, following the MCP TypeScript SDK's stateless Streamable HTTP pattern (fresh transport per request, `POST /mcp`, plus a `GET /` health check and open CORS — safe here since every tool is read-only public skill content with no auth or secrets). Both transports share the same 4 tools and were verified end-to-end: stdio via the real MCP JSON-RPC protocol (as in 2.23.9), HTTP via `curl` against a running instance (health check, CORS preflight, initialize, tools/list, and a real tools/call). `mcp-server/README.md` now documents deployment to Render/Railway/Fly.io/a VPS and adding the resulting URL under claude.ai Settings → Connectors. `mcp-server` package bumped 1.0.0 → 1.1.0.
+
+### 2.23.9 (2026-08-20)
+
+- **Repo AI-discoverability + MCP server**: added `llms.txt` at the repo root (per the [llmstxt.org](https://llmstxt.org) convention already documented in the `ai-seo` skill) and a new README section — "Using This Repo With Claude, ChatGPT, Copilot & Other AI Agents" — with copy-paste prompts for pulling a specific skill into a chat-based AI tool by URL. Checked the pasted GEO/AEO tactic list this was prompted by against the existing `ai-seo` skill first: comparison-content citation share, prompt-matched H2/H3 headers, `llms.txt`/`pricing.md` machine-readable files, and black-hat tactics to avoid were already covered there in more depth (Princeton GEO research citations, Google's official AI-features guidance, OKF) — so nothing was added to `ai-seo` itself; the two additions below are new because they're about *this repo's own* discoverability, not skill content for a retail brand's site.
+  - Added `mcp-server/` — a TypeScript MCP server exposing the skills as MCP tools (`retail_marketing_list_skills`, `retail_marketing_get_skill`, `retail_marketing_get_skill_file`, `retail_marketing_search_skills`) for MCP-compatible clients that don't read Agent Skills natively (Claude Desktop, custom MCP hosts) — Claude Code and other Agent-Skills-aware tools continue to read `skills/` directly and don't need it. Read-only, stdio transport, built and smoke-tested against the real MCP JSON-RPC protocol (initialize, tools/list, and all 4 tools/call paths, including the error path for an invalid skill name) before committing. See `mcp-server/README.md` for setup.
+
+### 2.23.8 (2026-08-20)
+
+- **Australia/NZ-first regulatory ordering across 13 skills**: every place a skill named a specific regulator or law for claims-accuracy, disclosure, pricing, cancellation, or email/SMS consent previously led with the US FTC (or CAN-SPAM) and mentioned other jurisdictions, if at all, as an afterthought. Reordered these to name the Australian and New Zealand regulator/law first, with the US/UK/EU as the secondary global reference — matching how this repo's actual users (Australia/NZ-based) need the guidance framed, and adding the AU/NZ equivalent where it was missing entirely rather than just reordering. Key facts used: Australia's **ACCC** enforces the **Australian Consumer Law** (fake urgency/reviews, subscription traps, drip pricing) and, with **Ad Standards**, influencer/endorsement disclosure; the **Spam Act 2003 (Cth)** (ACMA) and **Privacy Act 1988 (Cth)** (OAIC) govern email/SMS consent and data privacy. New Zealand's **Commerce Commission** enforces the **Fair Trading Act 1986**; the **ASA** covers influencer/endorsement disclosure; the **Unsolicited Electronic Messages Act 2007** (DIA) and **Privacy Act 2020** (Office of the Privacy Commissioner) govern consent and data privacy. Both AU and NZ default to opt-in consent for commercial electronic messages, stricter than the US's opt-out model — flagged explicitly in `cold-email` and `emails`. Touched: **compliance** (1.0.2 → 1.0.3), **offers** (1.1.3 → 1.1.4, scarcity-urgency.md), **influencer-marketing** (1.0.1 → 1.0.2), **paywalls** (2.0.2 → 2.0.3), **marketing-psychology** (2.0.2 → 2.0.3), **marketing-loops** (1.3.3 → 1.3.4, loop-guardrails.md + loop-catalog.md), **ai-seo** (2.2.2 → 2.2.3, content-patterns.md), **churn-prevention** (2.0.2 → 2.0.3, cancel-flow-patterns.md — added a dedicated AU/NZ subscription-traps section ahead of the US click-to-cancel section), **referrals** (2.0.2 → 2.0.3), **ad-creative** (2.8.2 → 2.8.3, imessage-video-ads.md), **cold-email** (2.0.3 → 2.0.4), **emails** (2.1.2 → 2.1.3), **prospecting** (1.1.2 → 1.1.3, compliance.md — added a new Australia/NZ section ahead of the existing US/EU/Canada sections, + b2b-prospecting.md). Confirmed **programmatic** already exists as a skill (v1.0.2) — no gap to fill there.
+
+### 2.23.7 (2026-08-20)
+
+- **Compliance cross-reference audit across 21 skills**: read all 79 skills against a 4-gap-pattern checklist (missing `compliance` cross-reference on claims/pricing/testimonial/endorsement/promotion content; missing refusal/escalation instruction for a deceptive request; weak/no named framework for a consequential decision; missing "not professional advice" disclaimer), grounded in a real, validated finding from an `offers` eval pilot where a with-skill run correctly refused a fake-scarcity request but never mentioned the regulatory angle a generic baseline caught. Each fix adds one substantive inline sentence at the relevant point in the skill body plus a corresponding `compliance` bullet in Related Skills — never a full duplication of compliance content, just a cross-reference and a one-sentence risk flag, following the precedent set by the `offers` fix in 2.23.6. Fixed: **ads** (2.4.2 → 2.4.3, testimonial/stat substantiation in ad copy), **channel-selection** (1.0.2 → 1.0.3, added a weighted scoring table to Selection Criteria), **churn-prevention** (2.0.1 → 2.0.2, cancel-flow legal-review routing), **co-marketing** (2.0.1 → 2.0.2, sweepstakes/contest law on joint giveaways), **cold-email** (2.0.2 → 2.0.3, new CAN-SPAM/CASL/GDPR-PECR Compliance section), **community-marketing** (2.0.1 → 2.0.2, ambassador-program endorsement disclosure), **competitors** (2.0.2 → 2.0.3, honesty/refusal instruction), **copywriting** (2.0.3 → 2.0.4, stat/testimonial substantiation), **directory-submissions** (2.0.1 → 2.0.2, disclosure requirement in the 10-in-30 protocol), **discount-and-clearance** (1.0.2 → 1.0.3, was/now pricing accuracy), **growth-playbooks** (1.0.2 → 1.0.3, scarcity/drop claims accuracy), **marketing-plan** (1.1.0 → 1.1.1, added a missing `metadata` block and a not-financial-advice disclaimer on the budget formulas), **marketing-psychology** (2.0.1 → 2.0.2, regulatory risk on the Scarcity/Urgency Heuristic), **overstock** (1.0.2 → 1.0.3, "discontinued"/"last chance" claims), **paywalls** (2.0.1 → 2.0.2, auto-renewal/negative-option disclosure), **popups** (2.0.1 → 2.0.2, fake-countdown risk on discount popups), **referrals** (2.0.1 → 2.0.2, affiliate/ambassador disclosure), **retail-media** (1.1.0 → 1.1.1, sponsored-listing claims substantiation), **sales-enablement** (2.0.3 → 2.0.4, ROI/case-study figure substantiation), **social** (2.3.2 → 2.3.3, claims/regulated-category review), **video** (2.1.1 → 2.1.2, AI-avatar endorsement disclosure and templated-testimonial fabrication risk). This closes the audit-pass phase of a broader "make the skills actually effective" pass; targeted eval pilots on skills where the audit result is still uncertain are a follow-up, not done in this pass.
+
+### 2.23.6 (2026-08-19)
+
+- **offers** (1.1.2 → 1.1.3): ran a real skill-creator eval pilot on this skill (4 test cases, with-skill vs. baseline, graded against the existing `evals/evals.json` assertions) to demonstrate the eval loop end-to-end. Honest result: with-skill scored 75% (12/16 assertions) vs. baseline's 81% (13/16) — the skill did NOT uniformly outperform a generic well-informed baseline on the literal checklist. Two of the misses were assertions neither run could satisfy (a "reference brand tier" check with no `.agents/marketing-strategy.md` present in the repo to reference — correctly not fabricated by either run). One real, validated gap: the fake-scarcity-refusal case showed the baseline citing FTC/UK CMA/EU/ACCC regulatory risk on manufactured urgency, while the with-skill run — despite correctly refusing the fake-scarcity request — never mentioned the regulatory angle at all, because `references/scarcity-urgency.md` covered trust cost extensively but had zero mention of compliance/regulatory risk. Fixed by adding an explicit regulatory-risk paragraph pointing to `compliance`, closing the loop this pilot was meant to demonstrate (eval → finding → fix). Full outputs and grading are viewable in the generated benchmark viewer from this run.
+
+### 2.23.5 (2026-08-19)
+
+- Added direct tool integrations for four retail-specific skills that previously had none, following the existing `ads`/`emails` Tool Integrations pattern: **local-marketing** (1.0.2 → 1.1.0) → Google Business Profile API; **product-feed** (1.0.2 → 1.1.0) → Google Merchant Center Content API for Shopping; **retail-media** (1.0.3 → 1.1.0) → Amazon Advertising API; **loyalty** (1.0.3 → 1.1.0) → Smile.io. Each ships a new `tools/integrations/<tool>.md` guide (auth, base URLs, common operations, and which of this repo's skill sections the data feeds directly) and a matching zero-dependency `tools/clis/<tool>.js` script, plus new rows in `tools/REGISTRY.md` under a new "Retail" category. Google Business Profile and Google Merchant Center are documented with higher confidence (major, well-established Google APIs); Smile.io's guide is flagged lower-confidence and points to verifying current docs, consistent with this repo's existing honesty discipline about unconfirmed specifics. This is a scoped pilot on 4 of the ~63 retail-relevant skills without integration coverage yet — a wider rollout is a follow-up, not done in this pass.
+
+### 2.23.4 (2026-08-19)
+
+- Added `evals/evals.json` coverage to the 32 skills that previously had none: brand-guidelines, brand-management, budget-allocation, budget-pacing-tracker, channel-selection, compliance, compound-marketing, digital-out-of-home, discount-and-clearance, experiential-marketing, growth-playbooks, local-marketing, loyalty, media-plan, moat-builder, offers, overstock, pos-marketing, price-elasticity, product-feed, product-lifecycle, programmatic, public-relations, range-review, repositioning, retail-media, specialist-lenses, storytelling, supplier-funded-marketing, tentpole-campaign, trade-marketing, and visual-merchandising (each patch-bumped). Every skill in the repo now ships with 4-5 eval cases grounded directly in that skill's own SKILL.md content — testing whether the skill applies its own named frameworks, guardrails, and cross-references correctly rather than generic marketing competence. Written as prompt/expected-output/assertion sets per the `skill-creator` schema, ready to run through that skill's benchmark harness (parallel with-skill vs. baseline subagent runs, graded against the assertions) — writing the eval cases closes the coverage gap; actually running them per skill against a baseline to confirm the skill measurably improves results is a separate, human-in-the-loop step not done in this pass.
+
+### 2.23.3 (2026-08-19)
+
+- Made the Cross-Channel Consistency Check genuinely automatic instead of something a human has to remember to trigger at finalization. Two parts: **compound-marketing** (1.2.0 → 1.3.0) gives the Campaign Brief a canonical, checkable location — `.agents/campaigns/<campaign-slug>.md` (gitignored, one file per campaign, same convention as the learnings and expert-notes files) — so any skill can check "is there an active brief for this work" without anyone announcing it. Previously the brief was just a template with nowhere fixed to live, which made automatic checking impossible. **ads, ad-creative, emails, sms, social, pos-marketing, and copywriting** (each patch-bumped) now check `.agents/campaigns/` as a standing step before drafting — the same way they already check `marketing-strategy.md` and `marketing-learnings.md` without being asked to. The check runs at the *start* of drafting rather than only at finalization, which catches drift before it's created instead of after. No brief present is a no-op, not a blocker — single-channel work and informally-run campaigns aren't gated by this.
+
+### 2.23.2 (2026-08-19)
+
+- **compound-marketing** (1.1.1 → 1.2.0): added a **Multi-Channel Campaigns** section closing a real gap — the loop had no mechanism for keeping messaging, offer terms, featured products, and visual direction consistent across channels running the same campaign at once. Introduces the **Campaign Brief** (one artifact every channel's Draft stage reads from, covering the message traced to `marketing-strategy`, the offer traced to `offers`/`discount-and-clearance`, the specific featured SKUs, and visual direction from `brand-guidelines`) and the **Cross-Channel Consistency Check** run before Execute ships anything — a fast drift check, not a full review, explicitly calling out `pos-marketing` as the channel most likely to get left out of a digital-first pass despite being closest to the actual purchase. New `references/campaign-brief-template.md` (fill-in prompts + a worked Spring Clearance Weekend example, matching the repo's established template pattern). For tentpole-scale campaigns specifically, points to `tentpole-campaign`'s heavier version of the same discipline rather than duplicating it.
+- **tentpole-campaign** (1.0.1 → 1.1.0): its Cross-Channel Orchestration section covered message and creative alignment but not offer terms or featured-product consistency, and its channel list (`ads`/`social`/`public-relations`/`emails`/`sms`) omitted `pos-marketing` entirely despite in-store signage being explicitly retail-relevant to this repo. Added both gaps directly, and pointed to `compound-marketing`'s new Campaign Brief template as the actual working document that carries these decisions to channel teams.
+- **pos-marketing** (1.0.1 → 1.0.2): added a `compound-marketing` cross-reference for the same reason — in-store signage needs to be an explicit participant in cross-channel consistency checks, not an afterthought.
+
+### 2.23.1 (2026-08-19)
+
+- **specialist-lenses** (1.0.0 → 2.0.0): expanded from the 4-person pilot batch to a full 39-specialist library across 12 domains — the maintainer's complete master directory. Each of the 35 newly-added entries was researched via live web search (not training-data recall) and follows the same grounding discipline as the pilot: cited sources, honest confidence flagging where a framework name couldn't be independently confirmed (`daniel-cmejla.md`, `lenny-rachitsky.md`, and the Val Geisler half of `eli-weiss.md` all say so explicitly rather than asserting unconfirmed attributions). Two names from the original list — April Dunford and Ann Handley — were deliberately **not** duplicated here since they already have deeper, independently-researched dossiers in `marketing-council/references/advisors/`; the roster table points there instead. New specialists span brand strategy (Mark Ritson, Jonah Berger, Joey Coleman, Bozoma Saint John), B2B/content (Ross Simmonds, Joanna Wiebe, Sangram Vajre, Marcus Andrews), performance (Chris Walker, Kasim Aslam, Thomas Petit), SEO/AI (Rand Fishkin, Aleyda Solis, Mike King, Christopher S. Penn, Paul Roetzer, Julia McCoy, Justine Moore, Kartik Hosanagar), martech/systems (Scott Brinker, Lenny Rachitsky, Chad S. White, Daniel Cmejla, Avinash Kaushik, Gini Dietrich), social/influencer (Brendan Gahan, Lindsey Gamble, Jon Youshaei), ecommerce/retail (Taylor Holiday, Jason Goldberg, Eli Weiss, Savannah Sanchez, Steven Pope), plus Simo Ahava and Mike Rhodes from the maintainer's earlier, non-master-list roster. Major version bump reflects the scale of the expansion, not a breaking change. The private roster in `compound-marketing`'s Expert Notes File (`.agents/expert-notes.md`, gitignored) is updated to mark the full list as built, closing out the Path B sequencing decision from the prior release.
+
+### 2.23.0 (2026-08-19)
+
+- Added **`specialist-lenses`** — a small, deliberately-scoped pilot: 4 living, narrow-domain marketing specialists (Talia Wolf — CRO emotional targeting; Kevin Indig — AI-search visibility/GEO via Growth Memo; Adam Posner — loyalty-program differentiation; Elizabeth Marsten — retail-media portfolio strategy), one per domain, each researched via live web search rather than relying on training-data familiarity, since every entry describes a living person's current public work. Distinct from `marketing-council`: that skill runs a boardroom debate among broadly-known "legendary marketer" personas across general marketing questions; this skill applies one specialist's narrow-domain framework directly to a specific tactical problem, and carries a stricter Grounding Rules section than `marketing-council`'s (public content only, cited sources, explicit confidence flagging — see `adam-posner.md` for where research confidence was lower and the file says so rather than asserting false authority, and `kevin-indig.md` for flagging time-sensitive stats as snapshots). Each of the 4 reference files ends with a Sources list of the pages actually consulted. Deliberately capped at 4 to prove the pattern before scaling — the full ~40-specialist candidate list (received from the maintainer as a master directory) is tracked privately in `compound-marketing`'s Expert Notes File, not in this public repo, with sequencing left as an open decision rather than built all at once (see `marketing-loops`' own anti-pattern list: "Building 10 loops at once"). Bidirectionally cross-referenced into `cro`, `ai-seo`, `loyalty`, `retail-media` (the channel skill each current specialist extends), `marketing-council`, `growth-playbooks` (the person-level sibling of that skill's brand-level pattern), and `compound-marketing` (a Brief-stage input alongside `marketing-ideas` and `growth-playbooks`). Total skills: 79.
+
+### 2.22.1 (2026-08-19)
+
+- **compound-marketing** (1.0.1 → 1.1.0): added a third grounding file to the Brief stage — `.agents/expert-notes.md`, always gitignored and never committed, for personal operating principles and specialist-sourced judgment (a paid subscription's takeaway written in your own words, never the specialist's copyrighted content itself). New "The Expert Notes File" section distinguishes it from the learnings file: `marketing-learnings.md` records what happened when you ran something through this loop; `expert-notes.md` records judgment brought in from outside it, maintained by the user directly rather than written by this skill's Compound stage. Supports the Path A / B / C approach to incorporating specialist paid content (Kevin Indig, Mike Rhodes, Mike King, Adam Posner, Simo Ahava, etc.) discussed with the maintainer: Path A (this) captures private synthesis; Path B (future work) builds public-repo skill content only from what a specialist has published for free; Path C is a pointer/lens layer. No repo content added for any specialist — their paid material stays out of this MIT-licensed repo entirely.
+
+### 2.22.0 (2026-08-18)
+
+- Added **`growth-playbooks`** — proven growth mechanics from well-known brands, catalogued not as trivia ("Dropbox did a referral program") but as the reusable loop underneath each: 13 archetypes in `references/playbook-catalog.md` (Viral & Referral Loops, Marketplace & Network-Effect Flywheels, Membership & Loyalty Flywheels, Community-Led & UGC Flywheels, Scarcity & Drop Marketing, Friction-Removal & Trial Loops, Content & SEO Flywheels, Brand-as-Activism & Earned Media, Customer-Service-as-Marketing, Subscription & Personalization Loops, Gamification & Habit Loops, No-Loyalty-Program Word of Mouth, and Live & Social Commerce), each grounded in a real, publicly documented brand mechanic (Dropbox, PayPal, Hotmail, Amazon, Airbnb, Costco, Sephora, Starbucks, Glossier, Gymshark, Lululemon, Supreme, Nike SNKRS, Warby Parker, Zappos, Patagonia, REI, Chewy, Stitch Fix, Trader Joe's, Duolingo, McDonald's, TikTok Shop/Whatnot), with an explicit retail translation and AI-era delta per entry. `SKILL.md` names five cross-cutting AI-era shifts most growth-hacking references miss entirely: agentic discovery changes what "SEO" has to optimize for, AI content commoditizes volume-based content flywheels so first-party proof becomes the moat, authenticity becomes a premium as generic AI content floods every channel, first-party data collected for personalization now doubles as model-training data, and scarcity/drop mechanics need an explicit anti-bot layer against AI purchasing agents. A Grounding Rule (mirroring `marketing-council`'s discipline) requires citing only widely-documented mechanics and figures — never a fabricated stat to make an entry more persuasive. Bidirectionally cross-referenced into `compound-marketing` (an input to the Brief stage alongside `marketing-ideas`), `marketing-ideas` (explicit scope boundary: one-off tactics vs. named compounding mechanics), `marketing-loops` (scheduling the recurring ones), and `moat-builder` (a borrowed mechanic isn't automatically a durable moat). Total skills: 78.
+
+### 2.21.1 (2026-08-18)
+
+- Made `compound-marketing`'s learnings file self-reinforcing instead of opt-in: extended the "check for product marketing context first" step — already present in every skill, checking `.agents/marketing-strategy.md` — to also check `.agents/marketing-learnings.md` when it exists, in the same step, before asking questions or drafting. Threaded into 74 of 77 skills (every skill that reads `marketing-strategy.md`, deliberately excluding `marketing-plan` — which references `marketing-strategy` as an upstream input skill rather than checking it live — and `marketing-strategy`/`compound-marketing` themselves, which already handle it natively). This closes the gap flagged when `compound-marketing` shipped: a loop that writes learnings but nothing ever reads compounds nothing. No new mechanism — this reuses the exact pattern already established for `marketing-strategy.md`, just extended to the second shared-context file. Each touched skill patch-bumped.
+
+### 2.21.0 (2026-08-18)
+
+- Added **`compound-marketing`** — the marketing translation of "compounding engineering" (Every/CE's plan → work → review → codify loop): a general **brief → draft → execute → analyse → optimise → compound** work-shape for any marketing unit, one-off or recurring. The distinguishing stage is the last one, which almost every ad-hoc marketing workflow skips — after Optimise, append a dated entry to a new canonical file, `.agents/marketing-learnings.md` (one growing document, newest-first, mirroring `marketing-strategy.md`'s own Changelog convention), so the next Brief reads it as grounding instead of re-deriving the same lesson. Reuses rather than reinvents: Brief reads `marketing-strategy` first, Execute follows `marketing-loops`' two-tier action model, Optimise applies `marketing-loops`' Goodhart's Law guardrail (judge the outcome metric, not a proxy), and Boardroom mode in `marketing-council` is offered as an optional pre-Execute review gate. `references/learning-entry-template.md` gives the compound-step format with fill-in prompts and two worked examples (a win and a loss — the loss entry is arguably more valuable since it turns a bad outcome into a permanent process fix). Explicitly scoped against `marketing-loops` (this skill is the work-shape; that skill is the scheduling/automation layer that makes it recurring) and `ab-testing` (the statistically rigorous version of the Optimise stage specifically). Bidirectionally cross-referenced into `marketing-loops`, `marketing-strategy`, `ab-testing`, `marketing-council`, and `marketing-ideas`. Total skills: 77.
+
+### 2.20.4 (2026-08-18)
+
+- **marketing-loops** (1.2.0 → 1.3.0): incorporated Goodhart's Law as an explicit operating principle — a loop that repeatedly optimizes toward a metric will eventually find the cheapest way to move it, not the outcome behind it, and this drift is easy to miss precisely because unattended runs mean nobody's watching each one. New "Goodhart's Law: measure the outcome, not the proxy" section in `SKILL.md` (Purpose should name an outcome not a proxy; watch for the loop finding a shortcut; autonomy raises the stakes; re-anchor periodically, not just at launch). `references/loop-guardrails.md` gets a new **Goodhart's Law guardrail** section generalizing the existing ad-spend-only "directional guardrails" bullet to every loop type — pair every optimized metric with a harm-check metric (ROAS alongside CTR/CPA, engaged time alongside word count, referring-domain quality alongside link count, authenticity/FTC compliance alongside review count), treat a suspiciously fast metric move as a gaming signal not a win, and escalate divergence instead of self-correcting — plus a matching pre-launch checklist item. `references/loop-template.md` adds a Goodhart-check fill-in prompt and a ship-checklist item so new loops are authored with an outcome metric and a harm-check metric from the start, not patched in later.
 
 ### 2.20.3 (2026-08-16)
 

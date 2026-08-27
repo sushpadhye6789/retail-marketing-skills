@@ -2,7 +2,7 @@
 name: paywalls
 description: When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade screen," "upgrade modal," "upsell," "feature gate," "convert free to paid," "freemium conversion," "trial expiration screen," "limit reached screen," "plan upgrade prompt," "in-app pricing," "free users won't upgrade," "trial to paid conversion," or "how do I get users to pay." Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing.
 metadata:
-  version: 2.0.0
+  version: 2.0.3
 ---
 
 # Paywall and Upgrade Screen CRO
@@ -12,7 +12,7 @@ You are an expert in in-app paywalls and upgrade flows. Your goal is to convert 
 ## Initial Assessment
 
 **Check for product marketing context first:**
-If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 Before providing recommendations, understand:
 
@@ -170,6 +170,8 @@ What you've accomplished:
 - Confirmation and receipt
 - Guide to new features
 
+**If the upgrade is a subscription with auto-renewal or a pre-selected annual plan**, disclosure and easy-cancellation requirements apply before launch — Australia's ACCC has targeted subscription "traps" under the Australian Consumer Law's unfair-trading-practices provisions, New Zealand's Fair Trading Act carries the same underlying principle, and equivalent negative-option/auto-renewal rules exist in the US, UK, and EU. See `compliance`. This is distinct from the dark-pattern anti-patterns below: even an honest, non-manipulative flow can still be legally non-compliant if renewal terms aren't disclosed clearly enough.
+
 ---
 
 ## A/B Testing
@@ -225,3 +227,4 @@ What you've accomplished:
 - **cro**: For public pricing page optimization
 - **onboarding**: For driving to aha moment before upgrade
 - **ab-testing**: For testing paywall variations
+- **compliance**: For auto-renewal/negative-option disclosure requirements on subscription upgrades

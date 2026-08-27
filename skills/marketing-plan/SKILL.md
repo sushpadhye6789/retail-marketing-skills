@@ -1,6 +1,8 @@
 ---
 name: marketing-plan
 description: When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions "marketing plan," "growth plan," "GTM plan," "go-to-market plan," "AARRR plan," "90-day marketing plan," "12-month marketing roadmap," "fractional CMO plan," or "fCMO plan." Generates an exhaustive 13-section plan structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to the client's current budget, team, and stage, mapped to future funding milestones, cross-referenced with the 139-idea marketing-ideas library and an embedded 17-section current-state audit rubric, with a full marketing operations stack showing which skills and MCP/API integrations execute each part. Outputs a Notion-paste-ready markdown document. For positioning and ICP context before planning, see marketing-strategy. For stage-specific deep work, see onboarding, signup, emails, referrals, pricing.
+metadata:
+  version: 1.1.1
 ---
 
 # Marketing Plan
@@ -139,6 +141,8 @@ The funding-stage anchors above tell you *what's in the ballpark*. To set the ac
 Always add **10–20% experimental budget** on top — CAC is the main dependency, and the experimental layer is what funds the next-channel investment before the current one plateaus.
 
 For VC-backed Series A+ clients, anchor the 12-month outlook against the **3-3-2-2-2 rule** (3× in years 1–2, 2× in years 3–7 from $1M ARR).
+
+These formulas are marketing-planning heuristics, not financial or accounting advice — for fundraising models, board-level financial projections, or anything a CFO/accountant needs to sign off on, route the actual numbers through a qualified finance professional.
 
 ## Growth patterns — the real shape of SaaS growth
 

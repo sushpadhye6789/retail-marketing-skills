@@ -2,7 +2,7 @@
 name: ads
 description: "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' 'should I run ads,' 'ABM,' 'account-based marketing,' 'B2B ads,' 'lead quality,' 'negative keywords,' 'Performance Max,' 'thought leader ads,' or 'when should I kill an ad.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see cro."
 metadata:
-  version: 2.4.0
+  version: 2.4.3
 ---
 
 # Paid Ads
@@ -12,7 +12,9 @@ You are an expert performance marketer with direct access to ad platform account
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
+
+**If this work is part of a multi-channel campaign**, check `.agents/campaigns/` for an active Campaign Brief before drafting — match its message, offer, and featured products rather than improvising your own version (see `compound-marketing`'s Cross-Channel Consistency Check). No brief there isn't a blocker; it just means this is standalone work.
 
 **If Section 15 (Distribution Model) names a dealer network**, see `marketing-strategy/references/distribution-model-guide.md` before recommending Shopping/PMax spend — your own paid presence can compete with dealer listings for the same product, which needs an explicit decision, not a default assumption.
 
@@ -30,10 +32,7 @@ Gather this context (ask if not provided):
 - What makes this offer compelling?
 
 ### 3. Audience
-- Who is the ideal customer?
-- What problem does your product solve for them?
-- What are they searching for or interested in?
-- Do you have existing customer data for lookalikes?
+Refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details.
 
 ### 4. Current State
 - Have you run ads before? What worked/didn't?
@@ -51,7 +50,7 @@ This skill's depth lives in references — load by intent. For **any operational
 | Meta operations for ecommerce/DTC: when to kill/graduate/scale an ad, fatigue, testing structure | [meta-decision-system-ecommerce.md](references/meta-decision-system-ecommerce.md) | Breakeven-CPA-anchored decision tree, ad-count ceiling, 80/20 CBO structure, fatigue detection, Advantage+ transition |
 | Google Search for ecommerce/DTC: what to spend on first, Shopping/PMax, structure, match types, negatives | [google-search-playbook-ecommerce.md](references/google-search-playbook-ecommerce.md) | Intent ladder with Shopping as day-one infra, account structure, product feed & revenue data, PMax guardrails |
 | PMax operations: asset group structure, listing groups, audience signals, campaign segmentation, reading the black box | [pmax-playbook-ecommerce.md](references/pmax-playbook-ecommerce.md) | Split-vs-consolidate decision, asset group theming, brand exclusions in practice, new-customer-acquisition goal, Insights tab |
-| Advantage+ Shopping Campaign operations: catalog-driven structure, product sets, when to opt out | [advantage-plus-shopping-ecommerce.md](references/advantage-plus-shopping-ecommerce.md) | ASC vs. manual tradeoff, campaign segmentation, supplementary creative, new-customer emphasis |
+| Advantage+ Shopping Campaign operations: catalog-driven structure, product sets, when to opt out | [advantage-plus-shopping-ecommerce.md](references/advantage-plus-shopping-ecommerce.md) | ASC vs. manual tradeoff, campaign segmentation, supplementary creative, new-customer-emphasis |
 | Meta operations for a B2B/lead-gen account (demo or CRM-based funnel) | [meta-decision-system.md](references/meta-decision-system.md) | TCPL-anchored decision tree, ad-count ceiling, 80/20 CBO structure, fatigue bands, lead forms, Advantage+ transition |
 | Google Search for a B2B/lead-gen account | [google-search-playbook.md](references/google-search-playbook.md) | Intent ladder, account structure, match-type gates, negatives, bidding by volume, offline/CRM conversion import, PMax-earned-not-default guardrails |
 | B2B strategy, funnel stages, budget splits, kill rules, lead quality, breakeven math | [b2b-paid-playbook.md](references/b2b-paid-playbook.md) | Demand lifecycle, leading/lagging signals, kill rules, offline conversion loop, U/B/F lead scoring, scaling quadrant |
@@ -59,6 +58,8 @@ This skill's depth lives in references — load by intent. For **any operational
 | Named-account targeting, pipeline acceleration, cross-channel retargeting (B2B) | [abm-playbook.md](references/abm-playbook.md) | LinkedIn/Meta ABM, list mechanics, acceleration campaigns, UTM cross-channel remarketing, ABM measurement |
 | Generating Google RSAs | [rsa-output-spec.md](references/rsa-output-spec.md) | Mandatory output spec — limits, sidecars, template, self-check |
 | Audience setup, tracking setup, launch checklists, copy formulas | [audience-targeting.md](references/audience-targeting.md) · [conversion-tracking.md](references/conversion-tracking.md) · [platform-setup-checklists.md](references/platform-setup-checklists.md) · [ad-copy-templates.md](references/ad-copy-templates.md) | Existing foundations |
+
+**Note for platform-specific implementations**: If your ecommerce platform references a specific platform in `.agents/marketing-strategy.md` under Tech Stack, prefer the platform-specific variants found in `references/platforms/[platform]/`. For example, if your tech stack indicates Shopify, use `references/platforms/shopify/meta-decision-system-ecommerce.md` for Shopify-focused Meta ads decisions.
 
 ---
 
@@ -125,6 +126,8 @@ TT_Conv_Broad_NewArrivals_Mar24
 
 **Social Proof Lead:**
 > [Impressive stat or testimonial] → [What you do] → [CTA]
+
+Any stat, testimonial, or comparative claim used here needs to hold up to substantiation — ad platforms and regulators both treat unverifiable performance claims as enforcement targets, not just weak copy. See `compliance` before launch.
 
 **For detailed templates and headline formulas**: See [references/ad-copy-templates.md](references/ad-copy-templates.md)
 
@@ -494,3 +497,4 @@ For tracking setup, see [references/conversion-tracking.md](references/conversio
 - **ab-testing**: For landing page testing to improve ROAS
 - **cro**: For optimizing post-click conversion rates
 - **programmatic**: For buying display, video, CTV, and audio inventory across the open web/app ecosystem via a DSP, rather than directly on a walled-garden platform
+- **compliance**: For substantiating any stat, testimonial, or comparative claim used in ad copy before launch

@@ -2,7 +2,7 @@
 name: popups
 description: When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions "exit intent," "popup conversions," "modal optimization," "lead capture popup," "email popup," "announcement banner," "overlay," "collect emails with a popup," "exit popup," "scroll trigger," "sticky bar," or "notification bar." Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see cro. For general page conversion optimization, see cro.
 metadata:
-  version: 2.0.0
+  version: 2.0.2
 ---
 
 # Popup CRO
@@ -12,7 +12,7 @@ You are an expert in popup and modal optimization. Your goal is to create popups
 ## Initial Assessment
 
 **Check for product marketing context first:**
-If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 Before providing recommendations, understand:
 
@@ -127,7 +127,7 @@ Before providing recommendations, understand:
 
 **Best practices:**
 - Clear discount (10%, $20, free shipping)
-- Deadline creates urgency
+- Deadline creates urgency — only if the deadline is real; a fake countdown is a compliance risk, not just a trust one (see `compliance`)
 - Single use per visitor
 - Easy to apply code
 
@@ -452,3 +452,4 @@ Ideas to A/B test with expected outcomes
 - **cro**: For the page context around popups
 - **emails**: For what happens after popup conversion
 - **ab-testing**: For testing popup variations
+- **compliance**: For deadline/urgency claims accuracy and privacy-consent language beyond the basics covered above

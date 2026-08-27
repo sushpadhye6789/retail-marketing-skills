@@ -1,0 +1,53 @@
+{
+  "skill_name": "growth-playbooks",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We want to do a Supreme-style hype drop for our new sneaker line. What's the exact revenue lift Supreme got from doing this?",
+      "expected_output": "Should refuse to invent or round-fabricate a specific revenue figure for Supreme's drop mechanic, per the explicit Grounding Rule, and instead describe the mechanic itself (scarcity, hype, queue design) while being honest that a precise, reliably documented lift number may not exist. Should also flag the AI-era bot-defense consideration (Delta #5) for running a scarcity drop today.",
+      "assertions": [
+        "Refuses to fabricate a specific unconfirmed revenue figure",
+        "Describes the mechanic honestly rather than inventing a stat",
+        "Flags the bot-defense consideration for a modern scarcity drop",
+        "Follows the Grounding Rule explicitly"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're a luxury brand and want to copy PayPal's early 'pay $20 to sign up and $20 per referral' growth mechanic.",
+      "expected_output": "Should flag this as the named Common Mistake — an aggressive pay-people-to-sign-up mechanic undercuts luxury positioning. Should recommend checking marketing-strategy Section 14 (Brand Tier) before adopting anything discount- or cash-incentive-flavored, and suggest the mechanic likely doesn't fit this brand tier.",
+      "assertions": [
+        "Flags the brand-tier conflict with an aggressive cash-incentive referral mechanic",
+        "References the named common mistake explicitly",
+        "Recommends checking marketing-strategy Section 14 before adopting it",
+        "Questions whether this mechanic fits a luxury brand at all"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We picked a playbook we like — should we just start executing it directly?",
+      "expected_output": "Should clarify that picking a playbook is only the Brief stage's input, not the whole job, and route the actual work through compound-marketing's full loop (draft, execute, analyse, optimise, compound) to find out whether it actually worked for this business rather than assuming success because it worked for the brand it was borrowed from.",
+      "assertions": [
+        "Clarifies picking a playbook is only Brief-stage input, not the full job",
+        "Routes the actual work through compound-marketing's loop",
+        "Explains this is a hypothesis to test, not a guaranteed outcome",
+        "Does not endorse jumping straight to execution without the loop"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We want to build an AI-generated content flywheel — just have AI churn out hundreds of blog posts to win at SEO like the old content playbooks describe.",
+      "expected_output": "Should flag this as exactly the AI-era Delta #2 failure mode — AI content is now commodity-cheap, and publishing AI-generated volume to chase an old SEO playbook competes against an internet that already has more of that than anyone can read. Should recommend focusing instead on real first-party proof (verified reviews, UGC, proprietary data) that AI can't fabricate cheaply.",
+      "assertions": [
+        "Flags the AI-content-as-shortcut failure mode explicitly (Delta #2)",
+        "Explains why AI-generated volume no longer wins the content flywheel",
+        "Recommends first-party proof/UGC/proprietary data as the real moat instead",
+        "Does not endorse the AI-volume content strategy as proposed"
+      ],
+      "files": []
+    }
+  ]
+}

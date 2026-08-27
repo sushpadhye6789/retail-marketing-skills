@@ -1,0 +1,53 @@
+{
+  "skill_name": "product-lifecycle",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're quietly discontinuing a subscription product next month. Do we need to tell anyone?",
+      "expected_output": "Should strongly push back on silent discontinuation, flagging it as the single most damaging mistake this skill names explicitly. Should require direct, proactive notice to subscription/repeat-purchase customers with enough lead time to adjust, explaining the churn and trust-damage consequences of a silent stop.",
+      "assertions": [
+        "Pushes back strongly on silent discontinuation of a subscription product",
+        "Requires direct, proactive customer notice with lead time",
+        "Explains the trust/churn consequence of silence",
+        "Flags this as the skill's single most damaging named mistake"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We had a safety issue found in one of our products and need to pull it. What's the marketing plan?",
+      "expected_output": "Should recognize this as the Emergency Phase-Out (recall/safety) case, distinct from a normal gradual wind-down, and defer to legal/compliance as the lead function rather than drafting recall language itself. Should recommend immediate campaign/ad pulls, coordinated PR if the story is public, and direct unambiguous customer notification with no promotional framing — and should explicitly warn against folding the disposition into routine overstock/clearance channels.",
+      "assertions": [
+        "Recognizes this as the emergency/recall case, distinct from normal phase-out",
+        "Defers recall notice drafting to legal/compliance rather than authoring it",
+        "Recommends immediate pulling of live campaigns/ads",
+        "Warns against folding disposal into routine overstock/clearance channels"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We're launching a replacement product. The old one still has a lot of unsold inventory. Should we just go full-throttle marketing the new one right away?",
+      "expected_output": "Should flag the cannibalization/internal-competition risk of pushing the successor at full volume while the predecessor still has significant unsold stock. Should recommend coordinating the sell-through timeline with overstock and deciding deliberately between a hard cutover and a parallel-availability window rather than defaulting to full-throttle promotion of the new product.",
+      "assertions": [
+        "Flags the risk of cannibalizing predecessor sell-through with full-throttle new promotion",
+        "Recommends coordinating with overstock on the outgoing product's timeline",
+        "Presents the hard-cutover vs. parallel-availability decision explicitly",
+        "Does not simply endorse full-throttle promotion of the successor immediately"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We're changing our packaging design slightly but the product formula is exactly the same. Do we need a new SKU and a big announcement?",
+      "expected_output": "Should recommend matching disclosure to the actual change — a packaging redesign with no functional change needs minimal explanation, not a big announcement. Should note the tradeoff of a new SKU/GTIN resetting accumulated review history and ad learning data, and recommend keeping the same SKU if the change doesn't legally or practically require a new one.",
+      "assertions": [
+        "Recommends minimal disclosure for a purely cosmetic change",
+        "Explains the cost of unnecessarily resetting SKU/GTIN history",
+        "Recommends keeping the same SKU where the change doesn't require a new one",
+        "Distinguishes this from a case requiring proactive, detailed communication"
+      ],
+      "files": []
+    }
+  ]
+}

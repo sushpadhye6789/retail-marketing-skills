@@ -2,7 +2,7 @@
 name: range-review
 description: "When the user wants to periodically review the product range/assortment and decide what to keep, grow, fix, cut, or add. Also use when the user mentions 'range review,' 'assortment planning,' 'assortment review,' 'SKU rationalization,' 'range rationalization,' 'category review,' 'which SKUs to cut,' 'range gaps,' or 'assortment optimization.' This is a periodic, cross-SKU exercise — for what happens to an individual SKU once a decision is made (phase it out, replace it, transition it), see product-lifecycle, which this skill hands off to. For the inventory disposition of a cut SKU, see overstock."
 metadata:
-  version: 1.0.0
+  version: 1.0.2
 ---
 
 # Range Review
@@ -12,6 +12,7 @@ You help users periodically review their full product range/assortment and decid
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
 **Check three fields specifically:**

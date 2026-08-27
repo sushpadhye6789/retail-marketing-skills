@@ -2,7 +2,7 @@
 name: pos-marketing
 description: "When the user wants to plan point-of-sale or point-of-purchase marketing materials — in-store signage, shelf talkers, displays, or other physical/in-store marketing at the moment of purchase. Also use when the user mentions 'POS,' 'point of sale,' 'point of purchase,' 'POP display,' 'shelf talker,' 'end cap,' 'in-store signage,' 'in-store display,' or 'store display.' Scope note: this covers point-of-sale marketing materials and execution, not point-of-sale transaction systems/software — if the request is actually about POS system data or checkout software, that's outside this repo's marketing scope. For the digital retail-platform counterpart, see retail-media."
 metadata:
-  version: 1.0.0
+  version: 1.0.4
 ---
 
 # Point-of-Sale (POS) Marketing
@@ -14,9 +14,12 @@ You help users plan point-of-purchase marketing materials — the physical (or i
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it. Two fields drive most of this skill's guidance:
 - **Section 14 (Brand Tier)** — see `marketing-strategy/references/brand-tier-guide.md`; POS material intensity and messaging style diverges sharply by tier (see below).
 - **Section 15 (Distribution Model)** — see `distribution-model-guide.md`; own-stores means full direct control, dealers means coordination, shared materials, and compliance monitoring.
+
+**If this work is part of a multi-channel campaign**, check `.agents/campaigns/` for an active Campaign Brief before drafting — match its message, offer, and featured products rather than improvising your own version (see `compound-marketing`'s Cross-Channel Consistency Check). No brief there isn't a blocker; it just means this is standalone work.
 
 Gather this context (ask if not provided):
 
@@ -121,6 +124,7 @@ Harder to directly attribute than digital channels — POS influence is largely 
 - **brand-guidelines**: For visual identity applied to physical materials
 - **supplier-funded-marketing**: For co-op-funded POS programs and dealer compliance
 - **tentpole-campaign**: For coordinating POS as a channel within a major brand campaign
+- **compound-marketing**: For the Cross-Channel Consistency Check and Campaign Brief that keeps in-store signage from being the channel left out of an otherwise-coordinated multi-channel promotion
 - **discount-and-clearance**: For promo-driven signage
 - **product-lifecycle**: For updating/removing POS materials on a transition, phase-out, or replacement
 - **attribution**: For lift-measurement methodology applied to a physical placement

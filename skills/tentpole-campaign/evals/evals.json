@@ -1,0 +1,53 @@
+{
+  "skill_name": "tentpole-campaign",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We want to run a big Black Friday tentpole campaign — basically our biggest discount of the year with a ton of media spend behind it.",
+      "expected_output": "Should flag that 'big discount, more media spend' is a scaled-up promo campaign, not a tentpole, per the skill's explicit scope note distinguishing the two. Should ask whether there's a real creative concept/brand story beyond the discount, and offer to route to discount-and-clearance if the actual need is promo mechanics rather than a brand-led campaign.",
+      "assertions": [
+        "Flags that a discount-led plan is a promo campaign, not a tentpole",
+        "References the explicit tentpole-vs-promo scope distinction",
+        "Asks whether there's a real creative concept beyond the discount",
+        "Offers to route to discount-and-clearance if that's the actual need"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We want to launch a major holiday tentpole campaign in three weeks with full hero video production.",
+      "expected_output": "Should flag the lead-time mismatch directly — tentpole campaigns need much longer lead time for hero video production and channel cutdowns than three weeks typically allows, per Planning Cadence. Should say so directly rather than silently compressing scope, and recommend either extending the timeline or scaling down production ambitions honestly.",
+      "assertions": [
+        "Flags the lead-time mismatch for a three-week major production tentpole",
+        "States this directly rather than silently compressing scope",
+        "References the Planning Cadence guidance",
+        "Offers a realistic alternative (extend timeline or scale down)"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Our tentpole campaign ran during the holiday window and ROAS during the week was mediocre. Was it a failure?",
+      "expected_output": "Should push back on judging a tentpole purely on in-window ROAS, explaining that brand impact is the leading objective and the real commercial effect (the halo) often shows up as a lift persisting in the weeks after the window, not just a spike during it. Should recommend checking leading indicators (reach, brand lift, engagement) and post-window sales lift before calling it a failure.",
+      "assertions": [
+        "Pushes back on judging success by in-window ROAS alone",
+        "Explains the post-window halo effect concept",
+        "Recommends checking brand-lift/leading indicators too",
+        "Does not simply agree the campaign failed based on in-window ROAS"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "A tragic news event just happened right before our planned holiday tentpole launch, and the creative has a celebratory tone. What do we do?",
+      "expected_output": "Should recommend a go/no-go checkpoint close to launch given the real-world disruption, and distinguish between pausing (low-cost, reversible) and fully pulling (a real cost, reserved for genuine incompatibility) rather than defaulting to either extreme. Should flag that if this becomes a live PR situation, it needs public-relations Crisis & Reactive PR coordination through one spokesperson.",
+      "assertions": [
+        "Recommends a go/no-go checkpoint given the real-world disruption",
+        "Distinguishes pausing from fully pulling, with different cost/reversibility",
+        "Does not default automatically to the most extreme option",
+        "Flags the public-relations crisis coordination angle if it becomes a live PR situation"
+      ],
+      "files": []
+    }
+  ]
+}

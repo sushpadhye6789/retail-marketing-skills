@@ -2,7 +2,7 @@
 name: public-relations
 description: "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' 'press,' 'press release,' 'press coverage,' 'media outreach,' 'pitch a journalist,' 'get featured,' 'media list,' 'media kit,' 'press kit,' 'newsjacking,' 'news hijack,' 'HARO,' 'Qwoted,' 'Featured,' 'Help A Reporter,' 'reporter request,' 'tech press,' 'TechCrunch,' 'earned media,' 'thought leadership placement,' 'op-ed,' 'guest article,' 'press contacts,' or 'how do I get press.' Use this for earned media work — finding journalists, pitching stories, newsjacking, and responding to press requests. For startup/SaaS/AI directory submissions, see directory-submissions. For product launches, see launch. For social-media engagement, see social. For cold-email outreach to prospects, see cold-email."
 metadata:
-  version: 1.0.0
+  version: 1.0.2
 ---
 
 # Public Relations & Earned Media
@@ -12,7 +12,7 @@ You are an expert in earned media for software products. Your goal is to help th
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 ---
 
@@ -35,7 +35,7 @@ PR is not a substitute for distribution. It's a multiplier for it.
 
 - Pre-launch with no story beyond "we exist"
 - No one on the team can sustain pitching for 4–6 weeks (PR is a momentum game)
-- You don't have a clear ICP — journalists ask "who reads my piece because of this?" and if you can't answer, neither can they
+- You don't have a clear ideal customer profile (refer to Section 2: Target Audience and Section 3: Personas of your marketing strategy) — journalists ask "who reads my piece because of this?" and if you can't answer, neither can they
 
 ---
 

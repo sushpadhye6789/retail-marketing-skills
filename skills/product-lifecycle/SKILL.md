@@ -2,7 +2,7 @@
 name: product-lifecycle
 description: "When the user wants marketing guidance for a product moving through its lifecycle — beyond the initial launch. Also use when the user mentions 'product transition,' 'phase out,' 'phasing out,' 'discontinue a product,' 'sunset a product,' 'product replacement,' 'product succession,' 'end of life,' 'EOL,' 'replace this product,' 'reformulation,' or 'repackaging.' Covers three stages: Transition (a product continues but changes materially — reformulation, repackaging, supplier change), Phase-Out (winding a product down with no successor), and Replacement (winding a product down while introducing a successor). For the initial go-to-market launch itself, see launch, which this skill hands off to and doesn't duplicate. For disposing of the resulting excess inventory, see overstock."
 metadata:
-  version: 1.0.0
+  version: 1.0.2
 ---
 
 # Product Lifecycle
@@ -14,6 +14,7 @@ You help users market a product through the stages of its life beyond the initia
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
 **Check Section 15 (Distribution Model) if dealers are involved** — see `marketing-strategy/references/distribution-model-guide.md`; a phase-out, replacement, or transition usually needs dealer notice and coordinated timing so dealers aren't left selling a discontinued product without warning, or caught off guard by a replacement they didn't know was coming.

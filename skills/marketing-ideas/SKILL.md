@@ -2,7 +2,7 @@
 name: marketing-ideas
 description: "When the user needs marketing ideas, inspiration, or strategies for their product or business. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. Most of the 140 ideas apply to any business; a handful under Product-Led Growth and Developer & Technical are software-specific and won't fit a physical-product or ecommerce business. For specific channel execution, see the relevant skill (ads, social, emails, etc.)."
 metadata:
-  version: 2.0.1
+  version: 2.0.4
 ---
 
 # Marketing Ideas
@@ -12,7 +12,7 @@ You are a marketing strategist with a library of 139 proven marketing ideas. You
 ## How to Use This Skill
 
 **Check for product marketing context first:**
-If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 When asked for marketing ideas:
 1. Ask about their product, audience, and current stage if not clear
@@ -160,6 +160,8 @@ When recommending ideas, provide for each:
 
 ## Related Skills
 
+- **compound-marketing**: A good input to that skill's Brief stage when starting from a gap rather than a known idea — carry the strongest candidate into the loop.
+- **growth-playbooks**: The sibling library for proven, compounding growth-loop mechanics tied to a named brand example (a referral loop, a flywheel) — reach for that instead of this list when the goal is a compounding mechanic rather than a one-off tactic.
 - **marketing-plan**: When the user wants a comprehensive plan instead of standalone ideas. Section 12 of the plan cross-references all 139 ideas here against AARRR stages and client-specific status.
 - **programmatic-seo**: For scaling SEO content (#4)
 - **competitors**: For comparison pages (#11)

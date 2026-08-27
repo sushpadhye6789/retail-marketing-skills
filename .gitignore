@@ -1,6 +1,9 @@
 # Dependencies
 node_modules/
 
+# MCP server build output
+mcp-server/dist/
+
 # Skill install artifacts (npx skills add)
 .agents/
 .claude/
@@ -28,3 +31,14 @@ skills-lock.json
 *~
 .idea/
 .vscode/
+
+# Generated session summaries / working docs
+CONVERSATION_SUMMARY.md
+DETAILED_EXECUTIVE_SUMMARY.md
+EXECUTIVE_SUMMARY.md
+IMPLEMENTATION_ROADMAP.md
+PERMISSION_GUIDANCE.md
+
+# Editor/tool backup files
+*.bak
+*.orig

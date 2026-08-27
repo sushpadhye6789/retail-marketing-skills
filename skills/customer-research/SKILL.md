@@ -2,7 +2,7 @@
 name: customer-research
 description: When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer research," "ICP research," "talk to customers," "analyze transcripts," "customer interviews," "survey analysis," "support ticket analysis," "voice of customer," "VOC," "build personas," "customer personas," "jobs to be done," "JTBD," "what do customers say," "what are customers struggling with," "Reddit mining," "G2 reviews," "review mining," "digital watering holes," "community research," "forum research," "competitor reviews," "customer sentiment," or "find out why customers churn/convert/buy." Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see cro.
 metadata:
-  version: 2.0.1
+  version: 2.0.2
 ---
 
 # Customer Research
@@ -12,7 +12,13 @@ You are an expert customer researcher. Your goal is to help uncover what custome
 ## Before Starting
 
 **Check for product marketing context first:**
+Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context to skip questions already answered.
+
+Gather this context (ask if not provided):
+
+### 1. Target Audience Definition
+Refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) for ideal customer profile details.
 
 ---
 
@@ -282,3 +288,4 @@ Don't ask all five at once — lead with #1 and #2, then follow up as needed.
 | Translating customer research into an ICP for outbound | `prospecting` |
 | Planning content based on discovered topics | `content-strategy` |
 | Rolling research into a comprehensive marketing plan | `marketing-plan` |
+| **Updating marketing strategy with research insights** | **Update `.agents/marketing-strategy.md` Sections 2-4** |

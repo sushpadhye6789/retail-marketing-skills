@@ -1,0 +1,30 @@
+# Patterns that must never appear on the public main branch.
+# One extended-regex pattern per line, matched against each added/modified
+# file path in a push or PR. Blank lines and lines starting with # are ignored.
+#
+# These correspond 1:1 to what was moved to retail-marketing-skills-private
+# on 2026-08-28. If you're intentionally adding a new private/paid-tier file
+# that should stay out of this repo, add its exact pattern here instead of
+# committing it here "just this once."
+
+^PRIVATE_REPO_ACCESS_MODEL\.md$
+^TEMPLATE_PACKAGE_.*\.md$
+^UPDATE_AUTOMATION\.md$
+^EVALUATION_SUMMARY\.md$
+^EVALUATION_COMPLETED_SUMMARY\.md$
+^SKILL_UPDATES_SUMMARY\.md$
+^KNOWLEDGE_INTEGRATION_SUMMARY\.md$
+^SKILL_IMPROVEMENT_PRIORITIZATION\.md$
+^SUBSTACK_.*\.md$
+^REVIEW\.md$
+^ROADMAP\.md$
+^memory\.md$
+^src/
+^routines/
+^scripts/(batch_lead_enricher\.py|bulk_ad_generator\.js)$
+
+# Completed evaluations (real dates, "-sample-", "-example-", or "-update"
+# in the name) are private proof-of-ROI content. Blank fill-in-the-blank
+# templates (e.g. evaluations/ads-skill-eval.md) are meant to stay public —
+# this pattern only matches the filled-in ones.
+^evaluations/.*(20[0-9]{2}-[0-9]{2}-[0-9]{2}|-sample|-example|-update)\.md$

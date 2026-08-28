@@ -1,0 +1,65 @@
+name: Block Private-Tier Content
+
+# Fails the build if a push or PR to main adds/modifies a file matching a
+# pattern in .github/private-content-patterns.txt — content that belongs in
+# retail-marketing-skills-private, not here. See that file to add or adjust
+# patterns.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: no-private-content-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-slim
+    if: github.event.pull_request.draft != true && github.actor != 'dependabot[bot]'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Check changed files against private-content patterns
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            BASE=${{ github.event.pull_request.base.sha }}
+            HEAD=${{ github.event.pull_request.head.sha }}
+          else
+            BASE=${{ github.event.before }}
+            HEAD=${{ github.event.after }}
+          fi
+
+          # Skip on the initial push of a new branch (before == all-zero sha)
+          if [[ "$BASE" =~ ^0+$ ]]; then
+            echo "New branch push, nothing to diff against — skipping."
+            exit 0
+          fi
+
+          CHANGED=$(git diff --name-only --diff-filter=ACMR "$BASE" "$HEAD")
+          PATTERNS=$(grep -vE '^\s*(#|$)' .github/private-content-patterns.txt)
+
+          FAILED=0
+          while IFS= read -r pattern; do
+            [ -z "$pattern" ] && continue
+            MATCHES=$(echo "$CHANGED" | grep -E "$pattern" || true)
+            if [ -n "$MATCHES" ]; then
+              echo "::error::These file(s) match a private-content pattern ($pattern) and must not be on the public repo:"
+              echo "$MATCHES" | sed 's/^/::error::   /'
+              FAILED=1
+            fi
+          done <<< "$PATTERNS"
+
+          if [ "$FAILED" -eq 1 ]; then
+            echo ""
+            echo "Move the flagged file(s) to retail-marketing-skills-private instead,"
+            echo "or edit .github/private-content-patterns.txt if this is a deliberate exception."
+            exit 1
+          fi
+
+          echo "No private-content matches. Clear to merge."

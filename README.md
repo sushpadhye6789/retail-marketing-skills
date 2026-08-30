@@ -23,7 +23,7 @@ This isn't just a prompt library — it's a marketing operating system for AI ag
 
 Compared to asking a plain AI chat assistant for marketing advice, this gives an agent persistent business context it never needs re-explained, the ability to act on real tools instead of only describing what to do, and scheduled autonomy that keeps working after the conversation ends.
 
-## Private / Pro Content
+## Private Content (Paid)
 
 This public repo is the free core of the framework. A private companion repo holds the paid-tier material this repo references but doesn't include:
 

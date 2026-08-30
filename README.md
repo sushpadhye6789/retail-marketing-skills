@@ -4,7 +4,7 @@ A collection of AI agent skills for retail and ecommerce marketing. Built for te
 
 Maintained by Sush Padhye ([GitHub](https://github.com/sushpadhye6789) · [LinkedIn](https://www.linkedin.com/in/sushpadhye)). This is a fork of [Corey Haines' marketingskills](https://github.com/coreyhaines31/marketingskills), substantially extended with retail/ecommerce-specific skills (POS marketing, retail media, local marketing, trade marketing, visual merchandising, experiential marketing, distribution-model and brand-tier classification, and more) beyond the original SaaS-leaning skill set.
 
-Want help with your marketing, or want to automate it? [Reach out to Sush on LinkedIn](https://www.linkedin.com/in/sushpadhye).
+Want help with your marketing, or want to automate it? [Reach out to Sush on LinkedIn](https://www.linkedin.com/in/sushpadhye) — happy to talk about taking your skills and retail marketing operating system to the next level.
 
 **Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).
 
@@ -22,6 +22,18 @@ This isn't just a prompt library — it's a marketing operating system for AI ag
 - **Retail-specific depth** most generic marketing prompting skips: POS/point-of-purchase, trade-marketing sell-in, dealer/distribution-model nuance, visual merchandising, brand-tier signage rules.
 
 Compared to asking a plain AI chat assistant for marketing advice, this gives an agent persistent business context it never needs re-explained, the ability to act on real tools instead of only describing what to do, and scheduled autonomy that keeps working after the conversation ends.
+
+## Private / Pro Content
+
+This public repo is the free core of the framework. A private companion repo holds the paid-tier material this repo references but doesn't include:
+
+- Complete skill implementations with real-world campaign examples
+- Industry-specific template packages (full worked retail examples)
+- Completed evaluation results with real before/after business metrics
+- The framework's underlying implementation code (the Harness → Loop → Graph engine)
+- Automation and integration scripts
+
+[Reach out to Sush on LinkedIn](https://www.linkedin.com/in/sushpadhye) to get access, or to talk about taking your skills and retail marketing operating system to the next level.
 
 ## What are Skills?
 

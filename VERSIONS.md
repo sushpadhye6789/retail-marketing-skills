@@ -46,6 +46,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | loyalty | 1.1.0 | 2026-08-19 |
 | marketing-council | 1.2.3 | 2026-08-19 |
 | marketing-ideas | 2.0.4 | 2026-08-18 |
+| marketing-brief-template | 1.0.0 | 2026-08-30 |
 | marketing-loops | 1.3.4 | 2026-08-20 |
 | marketing-plan | 1.1.1 | 2026-08-20 |
 | marketing-psychology | 2.0.3 | 2026-08-20 |

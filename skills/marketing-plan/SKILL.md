@@ -238,6 +238,7 @@ The full schema for `progress.md` and the resumption decision tree live in `refe
 ## Related skills
 
 - **`marketing-strategy`** — Run first. Captures positioning, ICP, voice, brand tier, and distribution model in `.agents/marketing-strategy.md` so every section of the plan references the same foundation.
+- **`marketing-brief-template`** — For a single campaign/initiative brief rather than the full roadmap; use this when you need a focused brief for a specific launch or quarter's effort.
 - **`channel-selection`** — Which channels belong in the mix, before this plan's Section 4 allocates budget across them.
 - **`budget-allocation`** — For ecommerce-appropriate budget sizing and ongoing cross-channel reallocation beyond this plan's ARR-based formulas and annual cadence.
 - **`marketing-ideas`** — Source of the 139 tactics in Section 12.

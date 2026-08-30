@@ -91,6 +91,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [lead-magnets](skills/lead-magnets/) | When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the... |
 | [local-marketing](skills/local-marketing/) | When the user wants to market a physical store location, dealer, or multi-location business to people searching or... |
 | [loyalty](skills/loyalty/) | When the user wants to design, launch, or improve a customer loyalty or rewards program, or a... |
+| [marketing-brief-template](skills/marketing-brief-template/) | When the user needs to create a standardized marketing brief to align team members, guide campaign execution, or... |
 | [marketing-council](skills/marketing-council/) | When the user wants multiple expert perspectives on a marketing question — either a simulated board of legendary... |
 | [marketing-ideas](skills/marketing-ideas/) | When the user needs marketing ideas, inspiration, or strategies for their product or business. Also use when the user... |
 | [marketing-loops](skills/marketing-loops/) | When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a... |

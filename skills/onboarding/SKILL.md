@@ -2,7 +2,7 @@
 name: onboarding
 description: When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions "onboarding flow," "activation rate," "user activation," "first-run experience," "empty states," "onboarding checklist," "aha moment," "new user experience," "users aren't activating," "nobody completes setup," "low activation rate," "users sign up but don't use the product," "time to value," or "first session experience." Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup. For ongoing email sequences, see emails.
 metadata:
-  version: 2.0.2
+  version: 2.0.3
 ---
 
 # Onboarding CRO
@@ -217,5 +217,5 @@ When recommending experiments, consider tests for:
 
 - **signup**: For optimizing the signup before onboarding
 - **emails**: For onboarding email series
-- **paywalls**: For converting to paid during/after onboarding
+- **paywalls**: For revealing trade/member pricing once a B2B account is verified during onboarding
 - **ab-testing**: For testing onboarding changes

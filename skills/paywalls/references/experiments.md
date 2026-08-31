@@ -1,164 +1,131 @@
-# Paywall Experiment Ideas
+# Gated-Access Screen Experiment Ideas
 
-Comprehensive list of A/B tests and experiments for paywall optimization.
+Comprehensive list of A/B tests and experiments for retail/ecom gate and unlock screens.
 
 ## Contents
-- Trigger & Timing Experiments (When to Show, Trigger Type)
-- Paywall Design Experiments (Layout & Format, Value Presentation, Visual Elements)
-- Pricing Presentation Experiments (Price Display, Plan Options, Discounts & Offers)
+- Trigger & Timing Experiments (When to Show, Gate Type)
+- Gate Design Experiments (Layout & Format, Value Preview, Visual Elements)
+- Price-Reveal Experiments (Preview Depth, Trust Signals)
 - Copy & Messaging Experiments (Headlines, CTAs, Objection Handling)
-- Trial & Conversion Experiments (Trial Structure, Trial Expiration, Upgrade Path)
-- Personalization Experiments (Usage-Based, Segment-Specific)
-- Frequency & UX Experiments (Frequency Capping, Dismiss Behavior)
+- Unlock Flow Experiments (Field Count, Verification Path)
+- Segment Experiments (Trade vs. Retail, New vs. Returning)
+- Frequency & UX Experiments (Frequency Capping, Decline Behavior)
 
 ## Trigger & Timing Experiments
 
 ### When to Show
-- Test trigger timing: after aha moment vs. at feature attempt
-- Early trial reminder (7 days) vs. late reminder (1 day before)
-- Show after X actions completed vs. after X days
-- Test soft prompts at different engagement thresholds
-- Trigger based on usage patterns vs. time-based only
+- Trade/wholesale gate at first product view vs. only at checkout
+- Early-access gate timing: 24 hours before open vs. 3 days before
+- Quantity-break unlock shown always in cart vs. only near a threshold
+- Restock gate immediately on out-of-stock page vs. after a "sold out" banner is dismissed
 
-### Trigger Type
-- Hard gate (can't proceed) vs. soft gate (preview + prompt)
-- Feature lock vs. usage limit as primary trigger
-- In-context modal vs. dedicated upgrade page
-- Banner reminder vs. modal prompt
-- Exit-intent on free plan pages
+### Gate Type
+- Hard gate (must unlock to proceed) vs. soft gate (preview + prompt, browsing still allowed)
+- Full account requirement vs. email-only for early-access gates
+- In-context inline unlock vs. dedicated gate page
+- Modal gate vs. full product-page takeover
 
 ---
 
-## Paywall Design Experiments
+## Gate Design Experiments
 
 ### Layout & Format
-- Full-screen paywall vs. modal overlay
-- Minimal paywall (CTA-focused) vs. feature-rich paywall
-- Single plan display vs. plan comparison
-- Image/preview included vs. text-only
-- Vertical layout vs. horizontal layout on desktop
+- Full-page gate vs. modal overlay for trade-price verification
+- Minimal gate (CTA-focused) vs. detail-rich gate (full value preview)
+- Single unlock path vs. multiple options (sign in / apply / continue as retail)
+- Product imagery included vs. text-only for early-access teasers
 
-### Value Presentation
-- Feature list vs. benefit statements
-- Show what they'll lose (loss aversion) vs. what they'll gain
-- Personalized value summary based on usage
-- Before/after demonstration
-- ROI calculator or value quantification
+### Value Preview
+- Exact price range vs. "% off" framing vs. no number shown before unlock
+- Show stock count ("3 left") vs. no stock indicator
+- Countdown to early-access open vs. static date/time
+- Teaser image/video for upcoming drop vs. text description only
 
 ### Visual Elements
-- Add product screenshots or previews
-- Include short demo video or GIF
-- Test illustration vs. product imagery
-- Animated vs. static paywall
-- Progress visualization (what they've accomplished)
+- Lock icon vs. no icon on gated price display
+- Product photo behind a blur/preview vs. fully hidden
+- Progress bar toward next quantity-break tier vs. text-only
+- Animated reveal on unlock vs. instant reveal
 
 ---
 
-## Pricing Presentation Experiments
+## Price-Reveal Experiments
 
-### Price Display
-- Show monthly vs. annual vs. both with toggle
-- Highlight savings for annual ($ amount vs. % off)
-- Price per day framing ("Less than a coffee")
-- Show price after trial vs. emphasize "Start Free"
-- Display price prominently vs. de-emphasize until click
+### Preview Depth
+- "From $X" range vs. exact discount percentage vs. "Save up to Y%"
+- Show trade price only after full verification vs. show an estimate pre-verification
+- Display standard price alongside gated price vs. hide standard price entirely
+- Price-per-unit framing at each quantity tier vs. total-order framing
 
-### Plan Options
-- Single recommended plan vs. multiple tiers
-- Add "Most Popular" badge to target plan
-- Test number of visible plans (2 vs. 3)
-- Show enterprise/custom tier vs. hide it
-- Include one-time purchase option alongside subscription
-
-### Discounts & Offers
-- First month/year discount for conversion
-- Limited-time upgrade offer with countdown
-- Loyalty discount based on free usage duration
-- Bundle discount for annual commitment
-- Referral discount for social proof
+### Trust Signals
+- Real account-count social proof ("12,000+ trade accounts") vs. none
+- Testimonial from a verified trade customer vs. generic copy
+- Verification-time expectation set ("approved within 1 business day") vs. no timeline given
+- Security/privacy reassurance near the unlock form vs. omitted
 
 ---
 
 ## Copy & Messaging Experiments
 
 ### Headlines
-- Benefit-focused ("Unlock unlimited projects") vs. feature-focused ("Get Pro features")
-- Question format ("Ready to do more?") vs. statement format
-- Urgency-based ("Don't lose your work") vs. value-based
-- Personalized headline with user's name or usage data
-- Social proof headline ("Join 10,000+ Pro users")
+- Benefit-focused ("See Your Trade Price") vs. exclusivity-focused ("Members Only")
+- Question format ("Want early access?") vs. statement format
+- Urgency-based ("Opens in 2 hours") vs. value-based, for genuine time-limited gates only
+- Personalized headline for returning trade accounts vs. generic
 
 ### CTAs
-- "Start Free Trial" vs. "Upgrade Now" vs. "Continue with Pro"
-- First person ("Start My Trial") vs. second person ("Start Your Trial")
-- Value-specific ("Unlock Unlimited") vs. generic ("Upgrade")
-- Add urgency ("Upgrade Today") vs. no pressure
-- Include price in CTA vs. separate price display
+- "See My Price" vs. "Unlock Trade Pricing" vs. "Sign In"
+- "Get Early Access" vs. "Join Free" vs. "Notify Me"
+- Value-specific CTA vs. generic "Continue"
+- Price shown in CTA vs. price revealed only after click
 
 ### Objection Handling
-- Add money-back guarantee messaging
-- Show "Cancel anytime" prominently
-- Include FAQ on paywall
-- Address specific objections based on feature gated
-- Add chat/support option on paywall
+- FAQ on the gate screen for trade-account applicants vs. none
+- "No spam, one-time alert" reassurance on restock gates vs. omitted
+- Clarify data use for age-verification gates vs. silent collection
+- Chat/support link on trade-verification gate vs. self-serve only
 
 ---
 
-## Trial & Conversion Experiments
+## Unlock Flow Experiments
 
-### Trial Structure
-- 7-day vs. 14-day vs. 30-day trial length
-- Credit card required vs. not required for trial
-- Full-access trial vs. limited feature trial
-- Trial extension offer for engaged users
-- Second trial offer for expired/churned users
+### Field Count
+- Email-only unlock for restock alerts vs. email + name
+- Existing-account login vs. new lightweight registration for early access
+- Full trade-account application vs. instant provisional access pending verification
+- Guest-compatible unlock (no password required) vs. account creation required
 
-### Trial Expiration
-- Countdown timer visibility (always vs. near end)
-- Email reminders: frequency and timing
-- Grace period after expiration vs. immediate downgrade
-- "Last chance" offer with discount
-- Pause option vs. immediate cancellation
-
-### Upgrade Path
-- One-click upgrade from paywall vs. separate checkout
-- Pre-filled payment info for returning users
-- Multiple payment methods offered
-- Quarterly plan option alongside monthly/annual
-- Team invite flow for solo-to-team conversion
+### Verification Path
+- Manual trade-account approval vs. instant domain/ABN-based verification
+- SSO/social login option vs. email/password only
+- Pre-filled fields for returning shoppers vs. blank form every time
+- Mobile-optimized single-column form vs. desktop-style multi-column
 
 ---
 
-## Personalization Experiments
+## Segment Experiments
 
-### Usage-Based
-- Personalize paywall copy based on features used
-- Highlight most-used premium features
-- Show usage stats ("You've created 50 projects")
-- Recommend plan based on behavior patterns
-- Dynamic feature emphasis based on user segment
+### Trade vs. Retail
+- Different gate copy for known trade-domain visitors vs. unknown visitors
+- Show trade gate proactively to logged-out B2B traffic source vs. only on request
+- Separate landing experience for trade vs. consumer traffic
 
-### Segment-Specific
-- Different paywall for power users vs. casual users
-- B2B vs. B2C messaging variations
-- Industry-specific value propositions
-- Role-based feature highlighting
-- Traffic source-based messaging
+### New vs. Returning
+- Different early-access teaser for past-purchaser segment vs. new visitors
+- Skip re-verification for recently-verified trade accounts
+- Personalize restock-alert confirmation based on purchase history
 
 ---
 
 ## Frequency & UX Experiments
 
 ### Frequency Capping
-- Test number of prompts per session
-- Cool-down period after dismiss (hours vs. days)
-- Escalating urgency over time vs. consistent messaging
-- Once per feature vs. consolidated prompts
-- Re-show rules after major engagement
+- Number of times a declined gate re-appears in a session (zero vs. one more prompt)
+- Cool-down period before re-showing an early-access gate after decline
+- Consolidate multiple gates (e.g. trade price + newsletter) into one prompt vs. separate
 
-### Dismiss Behavior
-- "Maybe later" vs. "No thanks" vs. "Remind me tomorrow"
-- Ask reason for declining
-- Offer alternative (lower tier, annual discount)
-- Exit survey on dismiss
+### Decline Behavior
+- "Continue at standard price" vs. "Not now" vs. "Skip" wording
+- Offer to remind later (email/SMS) on decline vs. no follow-up offered
+- Exit path that returns to the exact product vs. redirects to a category page
 - Friendly vs. neutral decline copy

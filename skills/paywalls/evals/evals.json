@@ -3,89 +3,80 @@
   "evals": [
     {
       "id": 1,
-      "prompt": "Help me design the upgrade paywall for our project management tool. Free users can have 3 projects, and we want to show an upgrade screen when they try to create a 4th project.",
-      "expected_output": "Should check for product-marketing.md first. Should identify this as a usage limit trigger point. Should apply the paywall screen components: headline (communicate the value of upgrading, not just the limit), value demonstration (show what they get with paid plan), plan comparison (free vs paid), social proof, CTA (specific and action-oriented), and escape hatch (option to go back). Should provide specific copy recommendations. Should address the emotional state of the user at this moment (frustrated by the limit). Should warn against anti-patterns.",
+      "prompt": "We're a building supplies retailer. Right now anyone can see our prices online, but we want to hide them behind a 'sign in to see trade price' gate for verified trade accounts only. Help me design that screen.",
+      "expected_output": "Should check for marketing-strategy.md first. Should identify this as a trade/wholesale price gate trigger. Should apply the gate screen components: headline focused on what unlocking gets them, a value preview (price range or savings %), a fast verify/sign-in path, a trust signal, a specific CTA, and an escape hatch to continue as a retail customer. Should provide specific copy recommendations. Should NOT recommend building a paid membership/points program (that's loyalty's territory).",
       "assertions": [
-        "Checks for product-marketing.md",
-        "Identifies as usage limit trigger",
-        "Applies paywall screen components framework",
-        "Includes headline, value demo, comparison, social proof, CTA",
+        "Checks for marketing-strategy.md",
+        "Identifies as trade/wholesale price gate",
+        "Applies gate screen components framework",
+        "Includes headline, value preview, unlock action, trust signal, CTA",
+        "Includes escape hatch to standard/retail price",
         "Provides specific copy recommendations",
-        "Addresses user's emotional state at the limit",
-        "Includes escape hatch option",
-        "Warns against anti-patterns"
+        "Does not conflate this with a paid loyalty program"
       ],
       "files": []
     },
     {
       "id": 2,
-      "prompt": "Our free trial expires in 14 days and users see a generic 'Your trial has expired' screen. Upgrade rate from this screen is only 2%. How do we improve it?",
-      "expected_output": "Should identify this as a trial expiration trigger. Should apply the trial expiration paywall type guidance. Should recommend: show what they've built/accomplished during the trial (endowment effect), highlight specific features they used, show the value they'd lose, provide clear plan options, include social proof from similar users who upgraded. Should diagnose why 2% is low: likely a weak value prop, no personalization, no urgency or loss framing. Should provide specific redesign recommendations.",
+      "prompt": "In our cart, we want to show customers that if they add more units they'll unlock a cheaper price per unit. How should that work?",
+      "expected_output": "Should identify this as a quantity/bulk-break unlock trigger. Should recommend showing the current tier and the next tier live in cart, updating as quantity changes, with clear math (e.g. 'add 3 more to unlock $X/unit') rather than requiring the buyer to calculate it themselves. Should reference the quantity break unlock example format. Should not treat this as a full re-gate requiring a separate unlock action.",
       "assertions": [
-        "Identifies as trial expiration trigger",
-        "Applies trial expiration paywall guidance",
-        "Recommends showing user's accomplishments during trial",
-        "Uses loss framing (what they'd lose)",
-        "Provides clear plan options",
-        "Includes social proof",
-        "Diagnoses why current 2% rate is low",
-        "Provides specific redesign recommendations"
+        "Identifies as quantity/bulk-break unlock trigger",
+        "Recommends showing current and next tier live in cart",
+        "Recommends clear 'add X more to unlock' framing",
+        "Does not require a separate registration/unlock step",
+        "References the cart-level example pattern"
       ],
       "files": []
     },
     {
       "id": 3,
-      "prompt": "when should we show upgrade prompts? we don't want to be annoying but we also need to convert free users to paid.",
-      "expected_output": "Should trigger on casual phrasing. Should apply the timing and frequency rules. Should recommend trigger points from the skill: feature gates (when they try a paid feature), usage limits (when they hit a threshold), value moments (when they've just experienced success), and natural transition points. Should address frequency capping to avoid being annoying. Should recommend the anti-patterns to avoid (blocking basic functionality, too frequent popups, dark patterns). Should provide a balanced approach that respects user experience while driving upgrades.",
+      "prompt": "We want our Black Friday sale to open to registered members 24 hours before everyone else. This isn't a paid program, just free sign-up for early access. How do we design the gate?",
+      "expected_output": "Should identify this as a members-only early access gate, explicitly distinct from a paid loyalty/rewards program (should reference loyalty and clarify the difference). Should recommend previewing what's coming without giving away full details, being explicit about when it opens to everyone, and applying the gate screen components. Should recommend an escape hatch (e.g. 'remind me when it opens to everyone').",
       "assertions": [
-        "Triggers on casual phrasing",
-        "Applies timing and frequency rules",
-        "Recommends specific trigger points",
-        "Addresses frequency capping",
-        "Warns against anti-patterns",
-        "Balances user experience with conversion goals",
-        "Provides specific recommendations for each trigger type"
+        "Identifies as members-only early access gate",
+        "Explicitly distinguishes this from a paid loyalty program and references loyalty",
+        "Recommends a teaser/preview before the full reveal",
+        "Recommends stating clearly when it opens to everyone",
+        "Includes an escape hatch option"
       ],
       "files": []
     },
     {
       "id": 4,
-      "prompt": "Design a feature gate paywall. When free users click on 'Advanced Analytics' in our dashboard, we want to show them an upgrade prompt.",
-      "expected_output": "Should identify this as a feature gate trigger. Should apply the feature lock paywall type guidance. Should recommend: show a preview or screenshot of the advanced analytics feature, explain the specific benefit (not just 'this is a paid feature'), include a plan comparison relevant to analytics, provide a clear CTA to upgrade, and include an escape hatch to go back to basic analytics. Should recommend showing what insights they're missing. Should provide copy recommendations for the paywall screen.",
+      "prompt": "An item is out of stock. We want to let people enter their email to get notified when it's back, but I've heard we need to be careful about consent if we also want to market to them later.",
+      "expected_output": "Should identify this as a restock/waitlist gate. Should recommend a simple single-field unlock (email) and confirming what happens next. Should flag the compliance point directly: a one-time restock notification tied to that product is not the same as ongoing marketing consent, and if the retailer wants to also send marketing, that requires separate clear consent under Spam Act 2003 (AU) / Unsolicited Electronic Messages Act 2007 (NZ) or equivalent (CAN-SPAM, PECR, ePrivacy). Should reference compliance.",
       "assertions": [
-        "Identifies as feature gate trigger",
-        "Applies feature lock paywall guidance",
-        "Recommends showing preview of the feature",
-        "Explains specific benefit of the feature",
-        "Includes relevant plan comparison",
-        "Provides clear CTA and escape hatch",
-        "Provides copy recommendations"
+        "Identifies as restock/waitlist gate",
+        "Recommends simple single-field (email) unlock",
+        "Distinguishes one-time restock notification from ongoing marketing consent",
+        "Cites AU/NZ consent regulations first, with US/UK/EU as secondary reference",
+        "References the compliance skill"
       ],
       "files": []
     },
     {
       "id": 5,
-      "prompt": "What are common mistakes to avoid with in-app paywalls? I don't want to be pushy or make users feel tricked.",
-      "expected_output": "Should apply the anti-patterns section. Should cover: dark patterns (making it hard to find the close button, confusing opt-out language), conversion killers (blocking basic functionality, showing paywalls too early before value is demonstrated, no escape hatch), frequency issues (too many prompts, showing the same paywall repeatedly). Should provide positive alternatives for each anti-pattern. Should emphasize that good paywalls feel helpful, not pushy.",
+      "prompt": "What are common mistakes retailers make with these kinds of gated-access screens? We don't want to trick customers or get in trouble.",
+      "expected_output": "Should apply the anti-patterns section. Should cover dark patterns (inflating the 'standard' price to make the gated price look better, fake or non-resetting scarcity/countdowns, requiring full account creation for something that only needs an email) and conversion killers (gating content that didn't need gating, repeated re-prompting, hard-to-find escape hatch). Should flag that false scarcity/urgency claims can trigger regulatory action (ACCC/Ad Standards, Commerce Commission/ASA, FTC) and reference compliance.",
       "assertions": [
         "Applies anti-patterns section",
-        "Covers dark patterns to avoid",
+        "Covers dark patterns specific to retail gates (inflated standard price, fake scarcity, unnecessary account creation)",
         "Covers conversion killers",
-        "Covers frequency issues",
-        "Provides positive alternatives for each",
-        "Emphasizes helpful over pushy approach"
+        "Flags regulatory risk of false scarcity/urgency claims",
+        "References the compliance skill"
       ],
       "files": []
     },
     {
       "id": 6,
-      "prompt": "Can you help me optimize our public pricing page? We want more visitors to choose the Pro plan over the Basic plan.",
-      "expected_output": "Should recognize this is a public pricing page optimization task, not an in-app paywall task. Should defer to or cross-reference the cro skill for pricing page CRO. Paywall-upgrade-cro specifically handles in-app upgrade prompts for existing users, not public-facing pricing pages.",
+      "prompt": "We want to launch a paid VIP membership program where customers pay $99/year for free shipping, early access, and bonus points on every purchase. Can you help design this?",
+      "expected_output": "Should recognize this is the design of an ongoing paid membership/rewards program, not a one-time gate/unlock screen, and defer to or cross-reference the loyalty skill instead of attempting to design it within paywalls. Should explain the distinction: paywalls covers the interaction design of a gate moment (price reveal, early-access unlock, restock alert), while loyalty covers the structure of the program itself (tiers, points, paid membership benefits).",
       "assertions": [
-        "Recognizes this as public pricing page optimization",
-        "References or defers to cro skill",
-        "Explains that paywalls is for in-app upgrade prompts",
-        "Does not attempt public pricing page optimization"
+        "Recognizes this as ongoing paid membership/rewards program design, not a gate screen",
+        "Defers to or references the loyalty skill",
+        "Explains the distinction between paywalls (gate moments) and loyalty (program design)",
+        "Does not attempt to design the membership program within paywalls"
       ],
       "files": []
     }

@@ -1,13 +1,13 @@
 ---
 name: paywalls
-description: When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade screen," "upgrade modal," "upsell," "feature gate," "convert free to paid," "freemium conversion," "trial expiration screen," "limit reached screen," "plan upgrade prompt," "in-app pricing," "free users won't upgrade," "trial to paid conversion," or "how do I get users to pay." Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing.
+description: When the user wants to design or optimize a screen where price, stock, or access is withheld until the shopper acts — trade/wholesale price gates, quantity-break unlocks, members-only early access, restock/waitlist gates, or age/regulated-product verification. Also use when the user mentions "sign in to see price," "trade account login," "wholesale login," "unlock trade pricing," "members-only access," "VIP early access," "request a quote," "call for pricing," "notify me when back in stock," "join the waitlist," "unlock bulk pricing," "quantity break," or "age verification gate." Distinct from an ongoing loyalty/paid-membership program (see loyalty), overall pricing strategy (see pricing), general email-capture popups (see popups), and trade sell-in strategy (see trade-marketing) — this is the interaction design of the gate/unlock moment itself, where something real is withheld until the shopper acts.
 metadata:
-  version: 2.0.3
+  version: 3.0.0
 ---
 
-# Paywall and Upgrade Screen CRO
+# Paywalls & Gated-Access Screens (Retail/Ecom)
 
-You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the commitment.
+You are an expert in retail and ecommerce access gates — the screens and moments where a shopper can't see a price, can't add to cart, or can't get in, until they do something. Your goal is to get the shopper to unlock (register, verify, provide an email, hit a quantity threshold) at the moment they're most motivated to, without feeling tricked or blocked from browsing altogether.
 
 ## Initial Assessment
 
@@ -16,125 +16,117 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 
 Before providing recommendations, understand:
 
-1. **Upgrade Context** - Freemium → Paid? Trial → Paid? Tier upgrade? Feature upsell? Usage limit?
+1. **Gate Type** - Trade/wholesale price gate? Quantity-break unlock? Members-only early access? Restock waitlist? Age/regulated-product verification?
 
-2. **Product Model** - What's free? What's behind paywall? What triggers prompts? Current conversion rate?
+2. **Distribution Model** - B2C direct, B2B/wholesale, or both? Does this gate exist because of a genuine channel-conflict or compliance reason, or is it a growth/conversion lever?
 
-3. **User Journey** - When does this appear? What have they experienced? What are they trying to do?
+3. **What's Actually Withheld** - The real price? The ability to add to cart? Early access to inventory? Legal permission to view/purchase? Be precise — the right gate design depends on what's genuinely behind it.
 
 ---
 
 ## Core Principles
 
-### 1. Value Before Ask
-- User should have experienced real value first
-- Upgrade should feel like natural next step
-- Timing: After "aha moment," not before
+### 1. Real Value Withheld, Not a Trick
+- What's behind the gate must be genuinely worth unlocking — a real trade price, real early access, a real restock alert
+- Never gate something that doesn't need gating just to force registration (that's a `popups` email-capture problem, not this)
 
 ### 2. Show, Don't Just Tell
-- Demonstrate the value of paid features
-- Preview what they're missing
-- Make the upgrade feel tangible
+- Give a preview before the unlock: a price range or "from $X," the product photo, "3 left in your size"
+- Make the value of unlocking tangible before asking for the action
 
-### 3. Friction-Free Path
-- Easy to upgrade when ready
-- Don't make them hunt for pricing
+### 3. Friction-Free Unlock
+- Ask for the minimum required to unlock (email only, not a full account, unless the gate is legally or operationally required)
+- Don't make a wholesale buyer re-enter information you already verified once
 
 ### 4. Respect the No
-- Don't trap or pressure
-- Make it easy to continue free
-- Maintain trust for future conversion
+- Always offer a way to keep browsing at standard price/access, unless the gate is a hard legal requirement (age verification)
+- Don't trap or repeatedly re-prompt after a decline
 
 ---
 
-## Paywall Trigger Points
+## Gate Trigger Points
 
-### Feature Gates
-When user clicks a paid-only feature:
-- Clear explanation of why it's paid
-- Show what the feature does
-- Quick path to unlock
-- Option to continue without
+### Trade / Wholesale Price Gates
+When a B2B or dealer buyer needs to see negotiated or trade pricing:
+- Clear reason the price is hidden ("Trade pricing — verified accounts only")
+- Fast path to verify (existing account login, or a short application if new)
+- Preview enough (a "from $X" range, or "save up to Y%") to justify verifying
 
-### Usage Limits
-When user hits a limit:
-- Clear indication of limit reached
-- Show what upgrading provides
-- Don't block abruptly
+### Quantity & Bulk-Break Unlocks
+When pricing improves at a quantity threshold:
+- Show the current tier and the next one clearly in cart ("Add 2 more to unlock $8/unit")
+- Don't force a full re-gate — this should update live as quantity changes
+- Make the math obvious, not something the buyer has to calculate themselves
 
-### Trial Expiration
-When trial is ending:
-- Early warnings (7, 3, 1 day)
-- Clear "what happens" on expiration
-- Summarize value received
+### Members-Only Early Access Gates
+When a sale, drop, or collection is visible only to registered/logged-in shoppers:
+- Distinct from a paid loyalty tier (see `loyalty`) — this is a free registration wall for early access, not an ongoing rewards program
+- Preview what's coming (teaser imagery, category, start time) before asking for signup
+- Be explicit about when it opens to everyone, if it does
 
-### Time-Based Prompts
-After X days of free use:
-- Gentle upgrade reminder
-- Highlight unused paid features
-- Easy to dismiss
+### Restock & Waitlist Gates
+When an item is out of stock and the shopper wants to be notified:
+- Simple, single-field unlock (email, or SMS if that's the channel)
+- Confirm what happens next ("We'll email you the moment it's back")
+- Don't bundle this with unrelated marketing opt-in without separate, clear consent
 
----
-
-## Paywall Screen Components
-
-1. **Headline** - Focus on what they get: "Unlock [Feature] to [Benefit]"
-
-2. **Value Demonstration** - Preview, before/after, "With Pro you could..."
-
-3. **Feature Comparison** - Highlight key differences, current plan marked
-
-4. **Pricing** - Clear, simple, annual vs. monthly options
-
-5. **Social Proof** - Customer quotes, "X teams use this"
-
-6. **CTA** - Specific and value-oriented: "Start Getting [Benefit]"
-
-7. **Escape Hatch** - Clear "Not now" or "Continue with Free"
+### Age & Regulated-Product Verification Gates
+When local law requires confirming age or eligibility before showing price or allowing purchase (alcohol, certain tools, restricted categories):
+- This is a compliance requirement, not a conversion lever — see `compliance` for the applicable regulator/law before finalizing copy or the verification method
+- No escape hatch here; this is the one gate type that can legitimately block browsing entirely
 
 ---
 
-## Specific Paywall Types
+## Gate Screen Components
 
-### Feature Lock Paywall
+1. **Headline** - Focus on what unlocking gets them: "See Your Trade Price" / "Get Early Access to This Drop"
+
+2. **Value Preview** - A price range, product imagery, stock count, or "starts in" countdown — enough to justify the action
+
+3. **Unlock Action** - Exactly what's required, stated plainly (verify trade account / register free / enter email)
+
+4. **Trust Signal** - "12,000+ trade accounts buy at these prices" / "Join 40,000 members" — real proof, not invented numbers
+
+5. **CTA** - Specific and action-oriented: "See My Price" / "Get Early Access" / "Notify Me"
+
+6. **Escape Hatch** - "Continue browsing at standard price" / "Skip for now" (omit only for legally required gates)
+
+---
+
+## Specific Gate Types
+
+### Trade / Wholesale Price Gate
 ```
-[Lock Icon]
-This feature is available on Pro
+[Lock Icon]  Trade Pricing — Verified Accounts Only
 
-[Feature preview/screenshot]
+Save up to 30% off retail on this item.
 
-[Feature name] helps you [benefit]:
-• [Capability]
-• [Capability]
+[Sign in to your trade account]
+[Apply for a trade account]
 
-[Upgrade to Pro - $X/mo]
-[Maybe Later]
+Browsing as a retail customer? [See retail price]
 ```
 
-### Usage Limit Paywall
+### Quantity Break Unlock (Cart)
 ```
-You've reached your free limit
+Bulk Pricing
 
-[Progress bar at 100%]
+  1-11 units   $12.00/unit
+  12-49 units  $9.50/unit   ← you're 3 away
+  50+ units    $8.00/unit
 
-Free: 3 projects | Pro: Unlimited
-
-[Upgrade to Pro]  [Delete a project]
+[Add 3 more to unlock $9.50/unit]
 ```
 
-### Trial Expiration Paywall
+### Members-Only Early Access Gate
 ```
-Your trial ends in 3 days
+Members get in first.
 
-What you'll lose:
-• [Feature used]
-• [Data created]
+Our Spring Clearance opens to members 24 hours early.
+Opens to everyone on Friday 9am.
 
-What you've accomplished:
-• Created X projects
-
-[Continue with Pro]
-[Remind me later]  [Downgrade]
+[Join free — see it now]
+[Remind me Friday instead]
 ```
 
 ---
@@ -142,54 +134,46 @@ What you've accomplished:
 ## Timing and Frequency
 
 ### When to Show
-- After value moment, before frustration
-- After activation/aha moment
-- When hitting genuine limits
+- Trade/wholesale gates: at the first product page or price display, not buried at checkout
+- Quantity-break unlocks: live in cart, updated as quantity changes
+- Early-access gates: with enough lead time to actually register before the window opens
+- Restock gates: immediately on the out-of-stock product page, not after browsing away
 
 ### When NOT to Show
-- During onboarding (too early)
-- When they're in a flow
-- Repeatedly after dismissal
-
-### Frequency Rules
-- Limit per session
-- Cool-down after dismiss (days, not hours)
-- Track annoyance signals
+- Don't gate the same content repeatedly after a shopper has already declined once in a session
+- Don't stack an early-access gate on top of an unrelated popup on the same page load
 
 ---
 
-## Upgrade Flow Optimization
+## Unlock Flow Optimization
 
-### From Paywall to Payment
-- Minimize steps
-- Keep in-context if possible
-- Pre-fill known information
+### From Gate to Unlocked
+- Minimize fields — email-only where that's sufficient, not a full account for a restock alert
+- Pre-fill anything already known (returning trade accounts, logged-in shoppers)
+- Keep the unlock in-context where possible rather than a full page redirect
 
-### Post-Upgrade
-- Immediate access to features
-- Confirmation and receipt
-- Guide to new features
+### After Unlocking
+- Immediate access to the price/content/cart action — no additional delay
+- Confirm what was unlocked and, for waitlist/restock gates, what happens next
 
-**If the upgrade is a subscription with auto-renewal or a pre-selected annual plan**, disclosure and easy-cancellation requirements apply before launch — Australia's ACCC has targeted subscription "traps" under the Australian Consumer Law's unfair-trading-practices provisions, New Zealand's Fair Trading Act carries the same underlying principle, and equivalent negative-option/auto-renewal rules exist in the US, UK, and EU. See `compliance`. This is distinct from the dark-pattern anti-patterns below: even an honest, non-manipulative flow can still be legally non-compliant if renewal terms aren't disclosed clearly enough.
+**If a gate collects an email or phone number for marketing purposes (not just a one-time restock alert), consent requirements apply before you can send follow-up marketing** — Australia's Spam Act 2003 and New Zealand's Unsolicited Electronic Messages Act 2007 require clear, specific consent (and an unsubscribe path) for commercial messages, with equivalent rules under the US CAN-SPAM Act, UK PECR, and EU ePrivacy Directive. See `compliance`. A restock notification that's genuinely one-time and tied to that product isn't the same as ongoing marketing consent — don't conflate the two in the same checkbox.
 
 ---
 
 ## A/B Testing
 
 ### What to Test
-- Trigger timing
-- Headline/copy variations
-- Price presentation
-- Trial length
-- Feature emphasis
-- Design/layout
+- Preview depth (exact price range vs. "save up to X%" vs. no number at all)
+- Unlock field count (email only vs. email + name vs. full account)
+- Headline framing (benefit-led vs. exclusivity-led)
+- Trust-signal presence and phrasing
+- Escape-hatch wording and placement
 
 ### Metrics to Track
-- Paywall impression rate
-- Click-through to upgrade
-- Completion rate
-- Revenue per user
-- Churn rate post-upgrade
+- Gate impression → unlock rate
+- Unlock → purchase conversion (does unlocking actually lead to a sale?)
+- Time-to-unlock (friction indicator)
+- Decline rate and what shoppers do after declining (do they leave, or convert at standard price?)
 
 **For comprehensive experiment ideas**: See [references/experiments.md](references/experiments.md)
 
@@ -198,33 +182,33 @@ What you've accomplished:
 ## Anti-Patterns to Avoid
 
 ### Dark Patterns
-- Hiding the close button
-- Confusing plan selection
-- Guilt-trip copy
+- Hiding or inflating the "standard" price to make the gated price look better than it is
+- Fake scarcity or countdowns that reset or aren't real ("Only 1 left!" shown to every visitor) — beyond being poor practice, false scarcity/urgency claims can trigger ACCC/Ad Standards (AU), Commerce Commission/ASA (NZ), FTC, or equivalent misleading-advertising action; see `compliance`
+- Requiring full account creation for a gate that only needs an email
 
 ### Conversion Killers
-- Asking before value delivered
-- Too frequent prompts
-- Blocking critical flows
-- Complicated upgrade process
+- Gating content that didn't need gating in the first place (no real value withheld)
+- Re-prompting the same gate repeatedly after a decline
+- Making the escape hatch hard to find or use
 
 ---
 
 ## Task-Specific Questions
 
-1. What's your current free → paid conversion rate?
-2. What triggers upgrade prompts today?
-3. What features are behind the paywall?
-4. What's your "aha moment" for users?
-5. What pricing model? (per seat, usage, flat)
-6. Mobile app, web app, or both?
+1. What exactly is being withheld — price, cart access, early access, or legal eligibility?
+2. Is this a B2C, B2B/wholesale, or mixed audience?
+3. What's the minimum information needed to unlock it?
+4. Is there a genuine trust signal (real numbers) available to use?
+5. Does this gate also need to satisfy a compliance requirement (age verification, marketing consent)?
+6. What's the current unlock rate, if this gate already exists?
 
 ---
 
 ## Related Skills
 
-- **churn-prevention**: For cancel flows, save offers, and reducing churn post-upgrade
-- **cro**: For public pricing page optimization
-- **onboarding**: For driving to aha moment before upgrade
-- **ab-testing**: For testing paywall variations
-- **compliance**: For auto-renewal/negative-option disclosure requirements on subscription upgrades
+- **loyalty**: For the ongoing design of a paid membership or rewards program — not a one-time registration/verification gate
+- **pricing**: For overall pricing strategy and structure — this skill is about the screen that reveals a price, not what the price should be
+- **popups**: For general email-capture overlays and announcements not tied to withholding real value
+- **trade-marketing**: For the sell-in strategy and dealer relationship behind a trade-pricing gate
+- **compliance**: For age-verification requirements and marketing-consent rules on any gate that collects contact information
+- **cro**: For general page and cart conversion optimization beyond the gate moment itself

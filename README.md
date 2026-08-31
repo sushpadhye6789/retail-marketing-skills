@@ -103,7 +103,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [offers](skills/offers/) | When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing,... |
 | [onboarding](skills/onboarding/) | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also... |
 | [overstock](skills/overstock/) | When the user has excess, aging, dead, or discontinued inventory and needs to diagnose why, and decide how to dispose... |
-| [paywalls](skills/paywalls/) | When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use... |
+| [paywalls](skills/paywalls/) | When the user wants to design or optimize a screen where price, stock, or access is withheld until the shopper acts —... |
 | [popups](skills/popups/) | When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also... |
 | [pos-marketing](skills/pos-marketing/) | When the user wants to plan point-of-sale or point-of-purchase marketing materials — in-store signage, shelf talkers,... |
 | [post-purchase-experience](skills/post-purchase-experience/) | When the user wants to optimize post-purchase experience, improve unboxing design, increase product registration, or... |

@@ -2,7 +2,7 @@
 name: ads
 description: "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' 'should I run ads,' 'ABM,' 'account-based marketing,' 'B2B ads,' 'lead quality,' 'negative keywords,' 'Performance Max,' 'thought leader ads,' or 'when should I kill an ad.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see cro."
 metadata:
-  version: 2.4.3
+  version: 2.5.0
 ---
 
 # Paid Ads
@@ -47,6 +47,7 @@ This skill's depth lives in references — load by intent. For **any operational
 
 | User intent | Load | Covers |
 |---|---|---|
+| "Can I afford this channel?", payback math, budgeting per category, whether LTV:CAC lies | [payback-period.md](references/payback-period.md) | Why LTV:CAC is useless (4 flaws, retail-adapted), Payback = CAC ÷ (margin/order × purchase frequency), Discounted Payback, category worked examples (consumable/apparel/durable), when to fall back to first-order breakeven instead |
 | Meta operations for ecommerce/DTC: when to kill/graduate/scale an ad, fatigue, testing structure | [meta-decision-system-ecommerce.md](references/meta-decision-system-ecommerce.md) | Breakeven-CPA-anchored decision tree, ad-count ceiling, 80/20 CBO structure, fatigue detection, Advantage+ transition |
 | Google Search for ecommerce/DTC: what to spend on first, Shopping/PMax, structure, match types, negatives | [google-search-playbook-ecommerce.md](references/google-search-playbook-ecommerce.md) | Intent ladder with Shopping as day-one infra, account structure, product feed & revenue data, PMax guardrails |
 | PMax operations: asset group structure, listing groups, audience signals, campaign segmentation, reading the black box | [pmax-playbook-ecommerce.md](references/pmax-playbook-ecommerce.md) | Split-vs-consolidate decision, asset group theming, brand exclusions in practice, new-customer-acquisition goal, Insights tab |
@@ -398,6 +399,8 @@ The most common scaling failure: a business at a 40 ROAS spending $5k/month, ref
 2. That's your break-even ROAS / CPA ceiling
 3. **Scale until you approach that ceiling**, not until your ad-account ROAS drops below an arbitrary preference
 
+If you're deliberately acquiring below first-order breakeven because you're counting on repeat purchases to make up the gap, don't lean on blended LTV:CAC to justify it — see [payback-period.md](references/payback-period.md) for why that ratio hides more than it reveals, and for the AOV/margin/repeat-rate math that replaces it.
+
 **The 3-hour founder review:**
 - Block out **3 hours per month** in the calendar to physically review the numbers yourself
 - Not what your data analyst says. Not what your media buyer says. You, going through the actual data
@@ -490,7 +493,9 @@ For tracking setup, see [references/conversion-tracking.md](references/conversio
 ## Related Skills
 
 - **ad-creative**: For generating and iterating ad headlines, descriptions, and creative at scale
-- **attribution**: For reconciling platform-reported ROAS against blended CAC and real revenue
+- **attribution**: For reconciling platform-reported ROAS against blended CAC and real revenue, and for the CAC inputs behind [payback-period.md](references/payback-period.md)
+- **pricing** / **price-elasticity**: For the AOV, margin, and category-repurchase context that drives [payback-period.md](references/payback-period.md)'s math
+- **budget-allocation**: For using the payback/breakeven gate to size the total channel budget, not just judge a single decision
 - **customer-research**: For the voice-of-customer inputs that feed ad copy and creative angles
 - **copywriting**: For landing page copy that converts ad traffic
 - **analytics**: For proper conversion tracking setup

@@ -6,7 +6,7 @@ Current versions of all skills. Agents can compare against local versions to che
 |-------|---------|--------------|
 | ab-testing | 2.0.2 | 2026-08-18 |
 | ad-creative | 2.8.3 | 2026-08-20 |
-| ads | 2.4.3 | 2026-08-20 |
+| ads | 2.5.0 | 2026-08-31 |
 | ai-cmo-os | 1.1.0 | 2026-08-25 |
 | ai-seo | 2.3.0 | 2026-08-25 |
 | analytics | 2.0.2 | 2026-08-18 |
@@ -14,7 +14,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | attribution | 1.3.1 | 2026-08-18 |
 | brand-guidelines | 1.0.2 | 2026-08-19 |
 | brand-management | 1.0.2 | 2026-08-19 |
-| budget-allocation | 1.0.2 | 2026-08-19 |
+| budget-allocation | 1.0.3 | 2026-08-31 |
 | budget-pacing-tracker | 1.0.2 | 2026-08-19 |
 | channel-selection | 1.0.3 | 2026-08-20 |
 | churn-prevention | 2.0.4 | 2026-08-31 |

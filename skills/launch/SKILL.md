@@ -2,7 +2,7 @@
 name: launch
 description: "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas. For the offer being launched (bonuses, guarantees, scarcity, naming), see offers."
 metadata:
-  version: 2.0.2
+  version: 2.1.0
 ---
 
 # Launch Strategy
@@ -99,6 +99,34 @@ Tap into someone else's audience to shortcut the hardest part—getting noticed.
 Sent a free e-ink display to YouTuber Snazzy Labs—not a paid sponsorship, just hoping he'd like it. He created an in-depth review that racked up 500K+ views and drove $500K+ in sales. They also set up an affiliate program for ongoing promotion.
 
 Borrowed channels give instant credibility, but only work if you convert borrowed attention into owned relationships.
+
+---
+
+## Readiness Gate: Are You Ready to Launch?
+
+Run this **before** the phased mechanics. Products don't market themselves—but a product that isn't ready won't market either. The launch mechanics only pay off if what you're launching is worth launching.
+
+Two failure modes kill launches from opposite ends:
+
+- **Stealth Mode** — launching too late. "Procrastination in a fancy suit." You keep polishing in private, waiting for the collection/store/product to be perfect. It never ships, and nobody learns you exist.
+- **"Just One More SKU"** — never launching. Every proposed launch date gets pushed for one more product line, one more finish, one more feature. The scope creeps forever; the launch never comes.
+
+The middle path is **SLC — Simple, Lovable, Complete** (Jason Cohen), the antidote to shipping a bare-bones assortment that's minimal but unlovable. Don't launch a stub nobody wants; don't wait for a bloated full-catalog rollout. A launchable v1 is:
+
+- **Simple** — it does *one* thing. A focused core assortment or a single hero product/collection, not a sprawling catalog launched half-finished.
+- **Lovable** — customers *want* it, not just tolerate it. Don't ask early buyers to settle for a stripped-down range "to test demand." SLC gives them something they'd choose. If nobody would be disappointed to see it discontinued, it isn't lovable yet.
+- **Complete** — it's a *whole* experience for that one thing, not a stub with obvious holes: sizes/variants in stock, packaging finished, checkout and fulfillment working end to end. Complete at its chosen scope, not a teaser of a bigger range to come.
+
+**The gate:** If it's not yet Simple, Lovable, and Complete, you're in "Just One More SKU" territory only when adding scope is what's missing—otherwise you're in Stealth Mode and should ship. Cut scope until one collection/product is lovable and complete, then launch that. SLC gives you a real launch now instead of a perfect launch never.
+
+**Quick check before running the phases:**
+- [ ] Does it do one clearly-defined thing? (Simple)
+- [ ] Would a target customer *choose* it, not just endure it? (Lovable)
+- [ ] Is that one thing a whole experience, with no glaring stubs (stock, variants, fulfillment)? (Complete)
+- [ ] Are you polishing past this bar? → Stop. You're in Stealth Mode. Ship.
+- [ ] Are you still adding new SKUs/variants to the launch scope? → Stop. You're in "Just One More SKU." Cut back to SLC.
+
+Pass the gate, then run the phases below.
 
 ---
 

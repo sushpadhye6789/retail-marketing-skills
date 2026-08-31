@@ -40,7 +40,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | growth-playbooks | 1.0.3 | 2026-08-20 |
 | image | 2.0.2 | 2026-08-18 |
 | influencer-marketing | 1.0.2 | 2026-08-20 |
-| launch | 2.0.2 | 2026-08-18 |
+| launch | 2.1.0 | 2026-08-31 |
 | lead-magnets | 2.0.1 | 2026-08-18 |
 | local-marketing | 1.1.0 | 2026-08-19 |
 | loyalty | 1.1.0 | 2026-08-19 |
@@ -48,7 +48,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | marketing-council | 1.2.3 | 2026-08-19 |
 | marketing-ideas | 2.0.4 | 2026-08-18 |
 | marketing-loops | 1.3.4 | 2026-08-20 |
-| marketing-plan | 1.1.1 | 2026-08-20 |
+| marketing-plan | 1.2.0 | 2026-08-31 |
 | marketing-psychology | 2.0.3 | 2026-08-20 |
 | marketing-strategy | 1.5.1 | 2026-08-18 |
 | media-plan | 1.0.2 | 2026-08-19 |

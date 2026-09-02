@@ -24,8 +24,9 @@ The repository implements a three-layer architecture:
 ## Getting Started as a Team Member
 
 ### 1. Prerequisites
-- Claude Code installed (RTK, a planned token-optimization hook, isn't built yet — see `RTK.md` — not required to get started)
+- Claude Code installed
 - Access to this repository
+- Optional: if you want to make sure you're always working off the latest committed skills, add a shell alias like `alias claude-fresh='git pull -q && claude'` and use it instead of `claude` directly — a plain freshness check, not a special tool (see `RTK.md` for why this repo isn't building a dedicated hook for it)
 - Basic understanding of your role's marketing domain (ads, email, CRO etc.)
 
 ### 2. Daily Workflow
@@ -39,7 +40,7 @@ ls .agents/marketing-strategy.md
 If missing, run the marketing-strategy skill to create/update it.
 
 **Step 2: Invoke the Relevant Skill**
-Use Claude Code naturally (RTK's automatic token optimization is planned but not yet built — see `RTK.md`):
+Use Claude Code naturally:
 ```bash
 # Example: Creating ad copy for new campaign
 ads "Create Google Search ads for Fall Collection targeting eco-conscious parents"
@@ -114,7 +115,7 @@ The skills are platform-agnostic but include platform-specific references:
 
 ### 7. Troubleshooting
 - **Missing Context**: If skill asks for ICP details, verify `.agents/marketing-strategy.md` exists and is current
-- **Token Issues**: RTK isn't built yet (see `RTK.md`) — `which rtk` returning nothing is expected, not a sign of a broken setup
+- **Missing skills after a teammate's update**: run `git pull` — see `RTK.md` for why this repo relies on a plain `git pull` here rather than a dedicated freshness tool
 - **Workflow Confusion**: Reference skill descriptions' "Workflow Context" section
 - **Evaluation Questions**: Consult `/evaluations/framework.md` or ask in team sync
 

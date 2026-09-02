@@ -2,7 +2,7 @@
 name: marketing-strategy
 description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' 'brand tier,' 'are we a premium/luxury brand,' 'do we sell wholesale,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, strategic-priority, and B2B/wholesale-channel context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
 metadata:
-  version: 1.5.1
+  version: 1.6.0
 ---
 
 # Marketing Strategy
@@ -163,8 +163,11 @@ This section exists so downstream skills (`offers`, `discount-and-clearance`, `o
 
 ### 16. B2B / Wholesale Channel
 - **Does this apply?**: does the business also sell to other businesses — wholesale/bulk orders, trade or trade-account pricing, corporate/institutional buyers — alongside its consumer-facing model? This is a yes/no flag, not a replacement for Section 15: a business can be ecom-only *and* run a wholesale arm, or sell through dealers *and* also take direct wholesale accounts. Most retail/ecommerce businesses answer no here and can skip this section entirely.
-- **If yes**: what's sold through this channel (same catalog, a wholesale-specific subset, or bulk/case-pack SKUs), who the buyer is (independent retailers, corporate/institutional buyers, other businesses using the product operationally), and roughly how central it is to the business (a minor side channel vs. a real second business line).
-- **What this rules in or out**: a genuine subset of this repo's skills is written for exactly this channel — outbound sales to business buyers, sales collateral, and a CRM-style pipeline don't apply to a consumer storefront, but they're exactly right for a wholesale/trade-account motion. See [references/b2b-wholesale-guide.md](references/b2b-wholesale-guide.md) for which skills (and which specific reference tracks inside dual-scoped skills like `ads` and `attribution`) are this channel's toolkit, so they don't read as unconverted leftovers from a different kind of business.
+- **If yes, name which segment(s) apply** — the two have different sales motions, content needs, and decision processes, and conflating them produces generic B2B advice that fits neither well:
+  - **Business (small/medium)**: independent retailers, small trade/tradesperson accounts, single-location boutiques, small institutional buyers. Typically self-serve or lightly rep-assisted, lower order minimums, shorter decision cycles, price/catalog-driven.
+  - **Commercial (large)**: national/regional chains, large distributors, corporate or government procurement, category-managed accounts. Typically RFP/tender-driven or named-account sales-led, higher order volumes and longer contract cycles, requires formal proposals, compliance documentation, and often a buying committee rather than a single decision-maker.
+  - A business can run both segments at once (e.g., an SMB-focused wholesale catalog alongside a handful of large national accounts) — if so, note both and roughly what share of B2B revenue each represents, since it changes which toolkit below to lean on for a given task.
+- **What this rules in or out**: a genuine subset of this repo's skills is written for exactly this channel — outbound sales to business buyers, sales collateral, and a CRM-style pipeline don't apply to a consumer storefront, but they're exactly right for a wholesale/trade-account motion. See [references/b2b-wholesale-guide.md](references/b2b-wholesale-guide.md) for which skills (and which specific reference tracks inside dual-scoped skills like `ads` and `attribution`) are this channel's toolkit, broken out by Business vs. Commercial segment, so they don't read as unconverted leftovers from a different kind of business.
 
 ---
 

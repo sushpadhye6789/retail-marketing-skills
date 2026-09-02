@@ -1,384 +1,236 @@
 ---
 name: directory-submissions
-description: When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions "directory submissions," "submit to directories," "backlinks from directories," "list my product," "submit to Product Hunt," "BetaList," "TAAFT," "Futurepedia," "G2 listing," "Capterra listing," "AlternativeTo," "SaaSHub," "AI directories," "MCP registry," "agent directory," "dofollow backlinks," "launch directories," or "directory tracker." Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo.
+description: When the user wants to get a retail/ecommerce brand listed in gift guides, deal aggregators, review platforms, and industry/vertical directories for backlinks, discovery, and AI-shopping-assistant citation. Also use when the user mentions "directory submissions," "backlinks," "gift guide," "get featured in a gift guide," "deal aggregator," "RetailMeNot," "Honey," "Trustpilot listing," "Sitejabber," "B Corp directory," "sustainability directory," "best of listicle," "comparison shopping engine," or "directory tracker." Use this whenever someone is planning the directory/listicle layer of a launch or an ongoing backlink and AI-citation campaign for a retail brand. For local/location-level citations (Google Business Profile, NAP), see local-marketing. For marketplace/shopping-feed listings (Google Shopping, Amazon), see product-feed. For the broader launch moment, see launch. For AI citation optimization, see ai-seo.
 metadata:
-  version: 2.0.3
+  version: 3.0.0
 ---
 
-# Directory Submissions
+# Directory Submissions (Retail/Ecommerce)
 
-You are an expert in directory-driven distribution for software products. Your goal is to help the user build a compounding backlink + discovery foundation by submitting to the right directories, in the right order, with the right positioning — and to make sure that foundation actually produces leads instead of vanity backlinks.
+You are an expert in directory-driven distribution for retail and ecommerce brands. Your goal is to help the user build a compounding backlink + discovery foundation by getting listed in the right gift guides, deal aggregators, review platforms, and vertical directories — with the right positioning — and to make sure that foundation actually produces traffic and sales, not vanity backlinks.
 
-**Retail applicability note**: This skill is built around startup/SaaS/AI directories (Product Hunt, G2, Capterra, SaaSHub, MCP registries) and doesn't have a real retail equivalent — a physical or ecommerce product isn't submitted to backlink directories the way software is. If the request is about getting a retail brand found, the real retail counterparts are: `local-marketing`'s Local Citations section (NAP-consistent listings across local/industry directories) for store discovery, and `product-feed` for marketplace/comparison-shopping-engine listings (Google Shopping, Amazon, etc.), which is a fundamentally different mechanic (product feed placement, not DR/backlink accumulation). Use this skill as written only if the business also has a genuine software product (a companion app, an internal tool being spun out) to submit.
+**Distinct from three adjacent skills** — don't duplicate their territory:
+- `local-marketing` owns location-level citations (Google Business Profile, NAP consistency across local directories) — this skill is brand-level, not per-store.
+- `product-feed` owns marketplace/shopping-feed listings (Google Shopping, Meta catalog, Amazon) — a data-feed mechanic, not an editorial/backlink one.
+- `public-relations` owns journalist pitching and earned press — this skill covers directories, listicles, and aggregators a brand can submit to or get included in without a full press pitch.
 
 ## Before Starting
 
 **Check for product marketing context first:**
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
+**If Section 16 (B2B/Wholesale) applies**, this skill's consumer-facing tiers (gift guides, deal aggregators, lifestyle/vertical directories) aren't the right toolkit for the wholesale side — trade/industry-association directories and B2B marketplace listings (Faire, Ankorstore) are the equivalent there; see `marketing-strategy/references/b2b-wholesale-guide.md`.
+
 ---
 
 ## Core Philosophy
 
-Directory submissions are the **foundation layer** of distribution — never the whole strategy. They do three things well:
+Directory and listicle placements are the **foundation layer** of distribution — never the whole strategy. They do three things well:
 
-1. **Pass dofollow backlinks** from high domain-rating sites into your marketing pages. This raises your DR, which makes your entire site easier to rank for competitive keywords.
-2. **Create discovery surface area** — people browsing AI/SaaS directories are in-market buyers, not random traffic.
-3. **Get cited by AI engines** — ChatGPT, Claude, Perplexity, and Google AI Overviews all pull heavily from high-DR directories when answering "what's the best [category]?" queries. AI-referred traffic converts **6–27× higher** than traditional search traffic.
+1. **Pass dofollow backlinks** from high domain-rating sites into your product/collection pages. This raises your domain rating (DR), which makes your entire site easier to rank for competitive category keywords.
+2. **Create discovery surface area at high purchase intent** — someone browsing a curated gift guide or deal aggregator is closer to a buying decision than someone hitting a generic ad.
+3. **Get cited by AI shopping assistants** — ChatGPT, Claude, Perplexity, and Google AI Overviews increasingly answer "what's the best [category] for [use case]?" and "best gifts for [person]" by pulling from exactly these curated sources (editorial gift guides, review aggregators, "best of" roundups) rather than crawling every brand site directly.
 
-But directories alone will not generate meaningful leads. They exist to pass link equity into the pages that DO generate leads — template galleries, comparison pages, alternative pages, blog posts. **Build the destination pages first, then submit to directories so the link equity has somewhere useful to land.**
-
-The full directory catalog lives in `references/directory-list.md`. The positioning variant library lives in `references/positioning-variations.md`. The submission tracker template lives in `references/submission-tracker-template.csv`.
+But directories alone will not generate meaningful sales. They exist to pass link equity and discovery traffic into pages that convert — collection pages, comparison/buying-guide content, and your own "best of" posts. **Build the destination pages first, then pursue placements so the traffic has somewhere useful to land.**
 
 ---
 
 ## The Three Hard Rules
 
 ### Rule 1: Foundation before submission
-Never submit to a directory until the landing page it will link to is live, indexed, and has:
-- A single `<h1>` and sequential heading hierarchy — pages with clean hierarchy have **2.8× higher AI citation rates**, and 87% of ChatGPT-cited pages use a single H1.
-- A real pricing page (even "free while in beta" counts — most Tier 1 directories require one).
-- Privacy policy + terms.
-- Logo assets in PNG + SVG + square 1024×1024 + favicon.
-- 5–8 real product screenshots at 1920×1080 (not marketing mockups).
-- A 60–90 second demo video — products with video on Product Hunt get **2.7× more upvotes**.
-- FAQ schema markup (AI engines heavily weight `FAQPage` JSON-LD for answer extraction).
-- Structured data: `Organization`, `Product`, `SoftwareApplication`.
+Never submit to a directory or pitch a listicle inclusion until the destination page is live, indexed, and has:
+- A single `<h1>` and sequential heading hierarchy — pages with clean structure get cited more reliably by AI engines (see `ai-seo`).
+- Real product photography (not stock) — 5–8 images minimum per hero product, including on-model/in-use shots where the category calls for it.
+- Clear pricing, sizing/variant info, and a visible return/shipping policy — aggregators and gift-guide editors both check for this before including a product, and it's also what an AI shopping assistant needs to answer a follow-up question confidently.
+- Visible customer reviews/ratings on the page itself — schema markup (`Product`, `Review`, `AggregateRating` — see `schema`) plus a real review count.
+- FAQ content with schema markup where it fits naturally (sizing, materials, care, shipping).
 
 ### Rule 2: Destination pages before directories
-Directories are the *source* of link equity. You need *destinations* that can convert the resulting traffic. Minimum destinations before submitting to anything:
-- 3–5 competitor alternative pages (`/alternatives/[competitor]`) targeting "[competitor] alternative" keywords. Comparison/alternative pages convert at **5–15%** vs 0.5–2% for generic content.
-- 3–5 use-case pages (`/for/[audience]` or `/use-cases/[use-case]`).
-- Template gallery with 20+ entries (if applicable — this was Typeform's largest SEO growth driver, generating 30K non-branded signups and $3M/year LTV).
-- 1 "best of" blog post you wrote yourself about your own category, including honest coverage of competitors.
+Directories and listicles are the *source* of link equity and referral traffic. You need *destinations* that can convert it. Minimum destinations before pursuing placements:
+- Strong collection/category pages for whatever gift guides or aggregators would plausibly link to.
+- 2–4 comparison or buying-guide pages of your own (`/guides/[category]-buying-guide`, `/[category-a]-vs-[category-b]`) — the retail equivalent of a SaaS "alternatives" page, and exactly the content format AI shopping assistants cite when comparing options.
+- Your own "best of" or gift-guide-style post about your category, written honestly (including where a competitor's product might genuinely be a better fit for a specific need) — see `content-strategy`'s Link-Earning Formats section on why curated/roundup content earns more links than any other format.
 
-### Rule 3: Positioning varies by directory type
-Never copy-paste the same description everywhere. AI engines penalize duplicate content, and each directory audience responds to different framing. See `references/positioning-variations.md` for the full variant library. Short version:
+### Rule 3: Positioning varies by placement type
+Never send the identical pitch/blurb everywhere. Each surface's audience and editorial bar differs:
 
 | Surface | Lead with | Why |
 |---|---|---|
-| Startup directories | **Outcome** | Audience is other founders. They care what it does. |
-| SaaS directories | **Alternative framing** | People search "[competitor] alternative" — meet them there. |
-| AI directories | **AI-first architecture** | TAAFT/Futurepedia audiences explicitly want AI tools. |
-| Agent/MCP directories | **Agent/MCP angle** | Niche but high-intent. A real moat. |
-| No-code directories | **Ease + power** | Audience values speed-to-build over depth. |
-| Dev directories | **Technical depth** | Dev audiences reward technical substance. |
-| B2B review sites | **ROI + use case** | Buyers want outcomes and case studies. |
+| Gift guide editors | The specific gift-giving occasion/recipient fit | Editors are assembling a themed list, not evaluating the brand generally |
+| Deal aggregators | The actual discount mechanics and code | Their audience is there to compare offers, not read a brand story |
+| Review platforms (Trustpilot, Sitejabber) | Real customer proof | These sites exist to verify legitimacy — lead with social proof, not marketing copy |
+| Sustainability/certification directories | The specific credential (B Corp, Fair Trade, 1% for the Planet, materials sourcing) | Their whole value is credential verification — vague "sustainable" claims get rejected |
+| Industry/vertical directories | Category expertise and differentiation | A niche audience already knows the category; lead with what's actually different |
+| AI shopping assistants (indirect, via the sources above) | Specific, factual, comparison-ready claims | AI engines lift concrete, citable statements — "true to size," "machine washable," "ships in 2 days" — not vague brand voice |
 
 ---
 
-## Workflow
+## Placement Tiers
 
-### Step 1: Readiness assessment (Phase 0)
-
-Ask the user these 9 questions. If any are "no", they're not ready — help them build the missing piece first.
-
-1. Is the product publicly accessible (no password wall)?
-2. Is there a pricing page (even "free while in beta")?
-3. Are privacy policy + terms live?
-4. Logo assets in PNG + SVG + square + favicon?
-5. 5–8 real screenshots + 60–90s demo video?
-6. Landing pages GEO-ready (single H1, sequential hierarchy, FAQ schema, structured data)?
-7. At least 3 alternative pages and 3 use-case pages live and indexed?
-8. Template gallery or lead magnet asset (if applicable to category)?
-9. At least 20 beta/early users who could leave a review on G2?
-
-A "no" on any of 1–7 is a hard block. A "no" on 8–9 is a soft block: you can launch but will lose Tier 2 review value and Typeform-style compounding.
-
-### Step 2: Choose the tiers
-
-Full catalog in `references/directory-list.md`. Summary:
-
-| Tier | When | Examples | Typical count |
+| Tier | When | Examples | Notes |
 |---|---|---|---|
-| **Tier 1 — Flagship launch** | Launch week only | Product Hunt (anchor), BetaList, HN Show HN, Fazier, DevHunt | ~15 |
-| **Tier 2 — Startup/SaaS** | Week 1 + rolling | AlternativeTo, SaaSHub, G2, Capterra, F6S, SourceForge, Slashdot | ~50 |
-| **Tier 3 — AI directories** | Week 1–3 | TAAFT, Futurepedia, Toolify, Future Tools, aitools.inc, AIStage | ~40 |
-| **Tier 4 — Agent/MCP registries** | Week 1–3 (if MCP) | Glama, APITracker, LF MCP Registry, AI Agents List | ~10 |
-| **Tier 5 — No-code directories** | Week 1–3 (if no-code) | NoCodeFinder, No Code MBA, We Are No Code, MakerPad | ~8 |
-| **Tier 6 — "Best of" listicles** | Rolling outreach | Cold outreach to DR 40+ blog posts | ~10 inclusions |
-| **Tier 7 — Integration marketplaces** | When integrations ship | Zapier, HubSpot, Slack, Airtable, Notion | ~5 |
-| **Tier 8 — Profile & content platforms** | Rolling | GitHub, WordPress.com, Substack, Dev.to, SlideShare, Behance | ~50 |
-| **Tier 9 — Local business directories** | Rolling (if applicable) | Manta, Hotfrog, Locanto, MerchantCircle | ~20 |
-| **Tier 10 — Forums & communities** | Rolling (participate first) | SitePoint, GrowthHackers, Warrior Forum, Designer News | ~13 |
-| **Tier 11 — Press release & article sites** | Launch + milestones | PRLog, PR.com, EzineArticles, Feedspot | ~25 |
-| **Tier 12 — Social bookmarking** | Rolling | Scoop.it, Diigo, Pearltrees | ~5 |
-| **Tier 13 — Niche vertical directories** | When vertical fits | Justia (legal), Porch (home), LandBook (design), etc. | ~20 |
+| **Tier 1 — Seasonal gift guides** | 8–12 weeks before the relevant gifting window (holiday, Mother's/Father's Day, graduation, Valentine's) | Major publication gift guides, category-specific blogger roundups, local/regional "gift guide" posts | The single highest-leverage tier for a consumer brand — see Deep Dive below |
+| **Tier 2 — Deal & coupon aggregators** | Ongoing, refresh around sale events | RetailMeNot, Honey, Slickdeals, CouponFollow, Rakuten | Real backlink value; also increasingly a source AI shopping assistants cite for "is there a discount code for X" |
+| **Tier 3 — Review/reputation platforms** | Once there's a baseline of genuine reviews to seed | Trustpilot, Sitejabber, BBB | Brand-level trust signal, distinct from per-location Google reviews (`local-marketing`) |
+| **Tier 4 — Sustainability/certification directories** | If the brand genuinely holds the credential | B Corp Directory, Good On You, 1% for the Planet, Fair Trade directories | Only pursue if the credential is real and current — a rejected or revoked claim is a compliance and trust risk, see `compliance` |
+| **Tier 5 — Vertical/lifestyle directories** | Rolling, category-dependent | Category-specific directories (home/design: Houzz; beauty: credentialed clean-beauty directories; outdoor: gear-specific roundup sites) | Pick 5–10 genuinely relevant ones rather than a long generic list — irrelevant listings dilute authority signal |
+| **Tier 6 — Marketplace/creator storefronts** | If the brand sells or is stocked there | LTK (LiketoKnow.it), ShopStyle Collective, Faire/Ankorstore storefront (B2B side) | Distinct from `product-feed`'s ad-feed listings — these are discovery/affiliate surfaces, not paid shopping feeds |
+| **Tier 7 — Press-adjacent roundups** | Rolling outreach | Cold outreach to DR 40+ lifestyle/category blogs and "best of [category]" posts | Coordinate with `public-relations` rather than duplicating outreach |
+| **Tier 8 — Chamber/BBB/trade association** (B2B side only) | If Section 16 applies | Local Chamber of Commerce, BBB, industry trade association directories | Relevant to the wholesale/trade-account side, not the consumer storefront |
 
-**Triage rule:** Only submit where the product is a genuine fit. Forcing a listing into the wrong category burns the first-submission advantage and gets rejected by moderators.
-
-### Step 3: Prepare asset variations
-
-For each tier, prep a distinct description variant (pulled from `references/positioning-variations.md`):
-- **Tagline** under 10 words
-- **Short description** at 60 chars
-- **Long description** at 150 words
-- **5–8 category tags**
-- **Logo** assets
-- **Screenshots** + demo video URL
-- **Founder story** (2–3 sentences)
-
-**Critical:** Don't copy-paste the same long description into every directory. Vary the opening sentence, the feature emphasis, and the audience framing per tier. AI engines cross-reference and down-weight duplicate content.
-
-### Step 4: Batch submit
-
-Set up the tracker spreadsheet (`references/submission-tracker-template.csv`). Work left-to-right through it. 2–3 hours per batch is realistic.
-
-Per submission:
-1. Copy the tier-appropriate positioning variant.
-2. Fill in the form.
-3. Upload assets.
-4. Submit.
-5. Log: date, URL, status, moderator notes.
-6. Once live, verify the backlink exists and is dofollow: `curl -sIL https://directory.com/your-listing | grep -i rel=`. If absent, the link is dofollow.
+**Triage rule:** Only pursue placements where the product is a genuine fit for the audience/occasion. A rejected or ignored pitch into the wrong list burns the relationship for next season.
 
 ---
 
-## Product Hunt Deep Dive (The Anchor Event)
+## Gift Guide Deep Dive (The Anchor Tactic)
 
-Product Hunt is the single highest-leverage submission but also the most easily wasted. The 2026 PH algorithm weights **comment quality** more than upvote count — a post with 50 upvotes + 30 genuine comments ranks above one with 200 upvotes + 5 comments. **80% of failed launches** fail because they launched without a warm audience OR asked for upvotes instead of feedback.
+Gift guides are the retail equivalent of a flagship launch-directory push — the single highest-leverage placement type, and the most commonly wasted through late or generic outreach.
 
-### 3-week prep timeline
+### 8–12 week prep timeline
 
-- **Day -21 to -14:** Warm up hunter account. Upvote + thoughtfully comment on 3 launches/day. Follow 100+ active makers. Build history so your account looks real to the algorithm.
-- **Day -14:** Create "Upcoming" page on PH. Drive traffic to it to collect "notify on launch" subscribers.
-- **Day -10:** (Optional) book a hunter. Don't pay cash — trade a feature, shoutout, or intro. A known hunter adds ~15% to day-one momentum but isn't required.
-- **Day -7:** Draft launch-day assets: gallery images (1270×760), tagline, 260-char description, first comment from you, first comment from a customer.
-- **Day -3:** Email list warm-up. "We're launching Tuesday. Here's what to expect. Reply if you want a heads up."
-- **Day -1:** Final check — product works in incognito, video autoplays, CTA goes to signup, PH listing preview looks right.
+- **Week -12 to -10:** Build the target list — publications, bloggers, and creators who run a gift guide relevant to the category, sized by realistic outreach capacity (see `public-relations`'s media-list discipline). Note last year's guide, if it exists, to understand format and deadline pattern.
+- **Week -10 to -8:** Prepare a **press/sample kit**: high-quality product photography, a one-line "why this makes a great gift" angle per product, pricing, and a direct purchase link. If budget allows, a physical sample for higher-tier editors — the retail equivalent of a demo video.
+- **Week -8:** First outreach wave. Editors work weeks ahead of publish date; a pitch that lands after their guide is locked is wasted regardless of quality.
+- **Week -6:** Follow up once with anyone who hasn't responded — a single, polite follow-up, not a chase.
+- **Week -4 to -2:** Expect placements to start publishing. Track every inclusion (see KPIs).
+- **Ongoing:** Log which editors/publications included the brand — this list compounds year over year and is the single most valuable asset this tactic produces.
 
-### Launch day execution
+### What editors actually want
+- A genuinely giftable angle (a specific recipient — "for the home barista," "for the new parent" — not just "our product")
+- High-resolution, on-brand photography ready to drop into their layout without editing
+- A direct, trackable purchase link (UTM-tagged — see `analytics`)
+- Fast response time when they ask a follow-up question — guides get finalized on tight editorial deadlines
 
-- **Launch at 12:01 AM Pacific Time.** Tuesday, Wednesday, or Thursday only — weekend launches get 60–70% less traffic. The 12:01 AM PT start maximizes your 24-hour window.
-- **First 2 hours are everything.** Need 50+ supporters in the first 2 hours to trigger algorithmic distribution.
-- **Post the first comment yourself** with the story: why you built it, what's different, what to try first.
-- **Reply to every comment** in under 30 minutes. PH measures maker responsiveness.
-- **Share the link to:** Twitter/X thread, LinkedIn long-form post, personal Slack/Discord communities, your email list, Indie Hackers, every power user via DM.
-- **Never ask for upvotes.** Ask for **feedback**. "Would love your honest take on the positioning" converts 3× better than "support us!" and doesn't trigger the algorithm's anti-manipulation filters.
-- **Don't message strangers.** The community flags this and moderators will hide your post.
-
-### Post-launch
-
-- Write a launch recap blog post with numbers + lessons. Honest, not bragging. Publish on day 2.
-- Cross-post the recap to Indie Hackers and r/SaaS (where promotion is allowed).
-- Only submit to Show HN if you have a *technical* angle to share (architecture, DSL, novel approach). A generic "we launched a SaaS" post will get flagged to death.
+### What fails
+- Generic "please feature us" pitches with no angle
+- Pitching after the guide's editorial deadline (ask, don't assume — deadlines vary widely by publication)
+- No sample/imagery ready when asked
+- Only pitching the flagship product instead of a range that fits multiple price points/recipients in the same guide
 
 ---
 
-## Reviews Playbook (G2 / Capterra / TrustRadius)
+## Reviews Playbook (Trustpilot / Sitejabber)
 
-G2 and Capterra (now owned by G2 as of Feb 2026) listings are **worthless without reviews**. 10 reviews is the magic threshold for Grid appearance. Run the 10-in-30 protocol during launch month.
+Brand-level review platforms are close to worthless below a real review baseline — a 3-review listing looks worse than no listing at all. Distinct from Google Business Profile reviews (`local-marketing`'s territory, tied to a physical location); these are brand-wide.
 
-### The 10-in-30 protocol
+### Seeding protocol
+1. Identify a recent window of customers who received their order and had a normal (not escalated-support) experience.
+2. Send a direct review request with a one-click link — the same friction-reduction principle as any review ask (see `customer-research`'s PMF survey guidance on keeping the ask short).
+3. Time it to land after the product has actually been used, not immediately at delivery — a review of packaging alone is thinner signal than a review of the product itself.
+4. Never incentivize a review for being positive specifically, and disclose any incentive offered for leaving *a* review regardless of sentiment — see `compliance` for the platform-specific and jurisdictional rules (FTC/ACCC-equivalent) before running this at any scale.
+5. Respond to every review, positive and negative — the same discipline `local-marketing` applies to Google reviews.
 
-1. **Day 1 post-launch:** Identify 20 users who have completed a meaningful action with the product.
-2. **Send each a personal email** with a direct review URL (reduces friction by ~70%). No forms, no landing pages — direct link.
-3. **Offer a modest thank-you.** G2 and TrustRadius explicitly allow small incentives like a $25 Amazon gift card — but incentivized reviews typically carry a disclosure requirement (the reviewer must state the review was incentivized); confirm the current platform rule and see `compliance` before running this at scale.
-4. **Follow up once** after 5 days. Don't follow up twice — it becomes annoying and damages the relationship.
-5. **Target:** 50% conversion → 10 reviews from 20 asks.
-
-### Critical deadlines
-
-- **G2 Summer reports:** cut off ~April 28. Plan review drives to land before this.
-- **G2 Fall reports:** cut off ~July 28.
-- Missing a cutoff means waiting 3 months for the next grid update.
-
-### Badges and paid plans
-
-- **"Users Love Us" badge** is still free: requires 20 reviews at 4.0+ average.
-- **Grid, Momentum, Index, and Award badges** require a paid G2 plan ($2,999+/year starting Summer 2025).
-- **Do not spend on paid G2 in year one.** The free listing + Users Love Us badge is sufficient.
-
-### Cross-platform
-
-- TrustRadius follows similar mechanics but smaller volume.
-- Capterra auto-syncs from Gartner Digital Markets in some categories — may populate without direct action.
+### Cross-platform notes
+- Trustpilot has the broadest consumer recognition; prioritize it if only running one.
+- Sitejabber and BBB accreditation matter more for a newer or lesser-known brand where trust is the binding constraint on conversion.
 
 ---
 
-## Destination Pages Strategy (What the Backlinks Point At)
+## Destination Pages Strategy (What the Links Point At)
 
-Directories are useless if the backlinks land on a generic homepage. Build these destination pages *before* submitting:
+Directories and gift-guide links are wasted if they land on a generic homepage. Build these first:
 
-### 1. Alternative pages (highest ROI)
+### 1. Comparison / buying-guide pages (highest ROI)
+The retail equivalent of a SaaS "alternatives" page — and exactly the content format AI shopping assistants lift when comparing options:
+- `/guides/[category]-buying-guide` — "How to choose the right [category]," covering the genuine decision factors (size, material, use case).
+- `/[category]-vs-[category]` — an honest comparison between two of your own product lines, or your category vs. an alternative approach (not a direct competitor-bash — see `compliance` on comparative-claims risk).
 
-Competitor alternative pages convert at **5–15%**, often hitting 15–30% for bottom-of-funnel queries. One page per top competitor:
+### 2. Occasion / recipient pages
+- `/gifts-for/[occasion]` — Mother's Day, housewarming, the person who has everything, etc.
+- `/collections/[use-case]` — "for small spaces," "for beginners," etc.
 
-- `/alternatives/[competitor-1]`
-- `/alternatives/[competitor-2]`
-- `/alternatives/[competitor-3]`
-- `/alternatives/[competitor-4]`
+### 3. Your own "best of" content
+Write an honest roundup of your own category, including real alternatives — this is exactly the citable, link-earning format `content-strategy`'s Link-Earning Formats data points to (stat/data roundups earn ~4x the backlinks of any other format).
 
-Each page needs: honest feature comparison table, "when to choose X over us," "when to choose us over X," pricing comparison, 3–5 use-case examples, strong FAQ with schema.
-
-**Critical:** Be honest. AI engines cross-reference competitor feature claims and de-rank pages that lie.
-
-### 2. Use-case / Ideal Customer Profile pages
-
-Each ideal customer profile from `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Personas) gets a dedicated landing page:
-- `/for/[audience]` — coaches, agencies, ecommerce, SaaS, consultants, etc.
-- `/use-cases/[use-case]` — lead qualification, onboarding, product recommendations, etc.
-
-### 3. Template / asset gallery (if applicable)
-
-Typeform's template library generated **30,000 non-branded organic signups and $3M/year LTV**. The pattern:
-- One indexable page per template at `/templates/[slug]`.
-- H1 with the keyword, 150+ word description, screenshot, "when to use this," "use this template" CTA.
-- Related templates at the bottom of each page (internal linking = SEO compounding).
-- 100 templates by day 30, 300 by day 90 is the realistic target.
-
-### 4. "Best of" listicles you wrote yourself
-
-Write honest roundups of your own category: `/blog/best-[category]-tools-2026`. Include yourself + 10 competitors with real reviews. These rank for category queries AND serve as canonical references AI engines cite.
-
-### 5. Integration pages (when integrations ship)
-
-Every integration = one landing page at `/integrations/[partner]`. Follows the Zapier playbook: Zapier gets **~2.6M monthly organic visits** from programmatic integration pages (~15% of their total organic traffic).
+### 4. Sustainability/credential pages (if applicable)
+A dedicated page documenting materials sourcing, certifications, and supply chain — this is what a sustainability directory checks before listing, and what an AI assistant cites when asked "is [brand] sustainable."
 
 ---
 
-## GEO (Generative Engine Optimization)
+## GEO (Generative Engine Optimization) for Retail
 
-In 2026, 30–50% of "research a tool" queries happen inside ChatGPT, Claude, Perplexity, or Google AI Overviews without ever touching a traditional search page. Directories matter here too — AI engines pull heavily from high-DR directories when generating answers. But the *destination pages* also need to be GEO-optimized.
+A growing share of "what should I buy" and "best gift for X" queries happen inside ChatGPT, Claude, Perplexity, or Google AI Overviews without ever reaching a traditional search results page. Directories and gift guides matter here too — AI engines pull heavily from curated, high-trust sources when generating shopping answers.
 
-### Tactics that get pages cited
-
-1. **One H1 per page, sequential heading hierarchy.** 2.8× higher citation rate. 87% of cited pages use a single H1.
-2. **Dense, factual content with citable stats.** AI engines prefer specific numbers ("3× faster than X") over vague claims.
-3. **FAQ schema on every landing page.** AI engines heavily weight `FAQPage` JSON-LD for answer extraction.
-4. **Comparison tables.** Extractable, structured — exactly what an AI answer needs.
-5. **Explicit "what it is" paragraph in the first 100 words.**
-6. **Get cited on Reddit and Hacker News.** Claude and Perplexity index these heavily. Genuine mentions on r/SaaS and HN count as training fuel.
-7. **Publish original research.** "We analyzed 10,000 [things] and found X" becomes the primary citation for anyone writing about that topic.
-8. **Claim Crunchbase, LinkedIn company page, and Wikidata entries.** All three feed AI training corpora.
-9. **If applicable, list on MCP registries with A/B grades** (Glama in particular). LLMs pull from these when answering MCP questions.
+### Tactics that get retail pages cited
+1. **One H1 per page, sequential heading hierarchy** on every product and guide page.
+2. **Dense, factual, comparison-ready content** — exact sizing, materials, care instructions, and price, not vague brand-voice copy. AI engines prefer specific claims ("true to size," "hand-wash only") over marketing adjectives.
+3. **Product/Review/AggregateRating schema on every product page** — see `schema`.
+4. **Comparison tables on buying-guide pages** — extractable, structured, exactly what an AI shopping answer needs.
+5. **Get included in gift guides and "best of" roundups** — these are disproportionately what AI shopping assistants cite as their source, more than a brand's own product pages.
+6. **Publish original data** ("we surveyed 1,000 shoppers about X") — becomes the primary citation for anyone (human or AI) writing about the category, per `content-strategy`'s Link-Earning Formats.
 
 ### Measurement
-
-Manually check monthly: ask ChatGPT, Claude, and Perplexity "what are the best [category] tools?" and log where the product appears. Free GEO tracking tools (GeoTracker, llmrefs) automate this.
-
----
-
-## Community & Ongoing Distribution
-
-Directories are one-shot. Community is ongoing. Both feed the same funnel.
-
-### Reddit (90/10 rule)
-
-90% of activity must be genuinely helpful; only 10% promotional. Violating this gets shadowbanned.
-
-**High-value subs (ranked):**
-- **r/SideProject** (200K+) — friendly to promo, launch announcements welcome.
-- **r/SaaS** (300K+) — "Share Your SaaS" threads are explicit promo windows.
-- **r/startups** (1.7M) — Feedback Friday thread.
-- **r/Entrepreneur** (3.5M) — weekly promo thread.
-- **r/nocode**, **r/IndieHackers**, **r/alphaandbetausers** — friendly.
-- **r/webdev**, **r/artificial**, **r/LocalLLaMA** — strict, technical only.
-
-**What wins:** real numbers (MRR, signups, churn), screenshots, "what I tried / what happened / what I'd do differently" structure, mini case studies with a clear lesson. **What fails:** hype, vague claims, "check out my new tool" posts, asking for upvotes.
-
-### LinkedIn (B2B primary channel)
-
-80% of B2B social leads come from LinkedIn. Cadence: **3–5 posts/week** — fewer loses momentum, more causes fatigue.
-
-Content types ranked by 2026 engagement:
-1. Personal stories with business lessons (1.5–2× avg engagement)
-2. Original data / research (1.3–1.5×)
-3. Contrarian industry takes (1.2–1.5×)
-4. Document carousels with 8–12 slides (1.3–1.8×)
-
-### Twitter/X (indie hacker + dev channel)
-
-Build-in-public threads on architecture, revenue, decisions. Technical deep-dives get indexed by Google + Claude + Perplexity → indirect GEO.
-
-### Indie Hackers
-
-- Launch a build-in-public thread on PH launch day.
-- Post weekly updates: revenue, ships, lessons. Zero-revenue posts work if the lesson is honest.
-- Comment 10× more than you post to build karma before your own links.
-
-### Dev.to + Hashnode
-
-Every substantial technical post = dofollow backlink + dev audience reach. Cross-post with canonical URL back to main blog.
+Manually check periodically: ask ChatGPT, Claude, and Perplexity "what's the best [category] for [use case]?" and "best gifts for [recipient type]," and log where the brand appears and which source it's citing (a specific gift guide, a review platform, the brand's own page).
 
 ---
 
 ## KPIs & Tracking
 
-Track weekly. If a number isn't moving, investigate — don't just submit more directories.
+Track monthly, more frequently around a seasonal gift-guide push. If a number isn't moving, investigate — don't just pursue more placements.
 
-| Metric | Day 0 | Day 30 target | Day 90 target |
-|---|---|---|---|
-| Domain Rating (DR) | 0 | 20 | 30+ |
-| Referring domains | 0 | 30 | 80+ |
-| Indexed pages | — | 50 | 200+ |
-| Organic clicks/day | 0 | 30 | 200+ |
-| Directory listings live | 0 | 50 | 70+ |
-| G2 reviews | 0 | 10 | 25 |
-| Capterra reviews | 0 | 5 | 15 |
-| AI citations (manual check) | 0 | 3 | 15+ |
-| Signups from directory referrals | 0 | 50 | 300 |
-| Signups from alt/use-case pages | 0 | 20 | 300 |
+| Metric | Baseline | Notes |
+|---|---|---|
+| Domain Rating (DR) | Set at start | Directional; track trend, not the raw number |
+| Referring domains | Set at start | Quality over quantity — 10 relevant gift-guide links outweigh 50 low-quality directory links |
+| Gift guide / listicle inclusions | 0 | The primary Tier 1 KPI, tracked per season |
+| Trustpilot/Sitejabber review count + rating | Current | Below the platform's own display threshold, the listing itself has near-zero value |
+| Referral traffic from placements | Set at start | Segment by tier — gift guides should convert meaningfully higher than generic directories |
+| AI citations (manual check) | 0 | Directional signal, not a precise metric |
+| Revenue/conversions attributed to placement referral traffic | Set at start | The number that actually justifies the outreach effort — see `attribution` |
 
 ---
 
 ## What NOT to Do
 
-1. **Don't pay for directory submission services** ($60–$200 packages). The whole point is these are free. It's an afternoon of copy-paste.
-2. **Don't submit to spam directories** (DR under 10, no traffic, no editorial quality). They dilute your backlink profile and Google's spam detection can penalize you.
-3. **Don't submit with the wrong positioning.** Re-read the positioning table per tier. Generic descriptions waste the listing.
-4. **Don't treat directories as your entire GTM.** They're the foundation. Content + community + reviews are what actually convert.
-5. **Don't skip reviews on G2/Capterra.** Zero-review listings are dead. Run the 10-in-30 protocol or don't submit.
-6. **Don't ask for upvotes on Product Hunt.** The 2026 algorithm penalizes it. Ask for **feedback**.
-7. **Don't amend old directory listings every week.** Submit once, check quarterly.
-8. **Don't submit before the destination page exists.** Link equity needs a destination.
-9. **Don't duplicate descriptions across directories.** AI engines penalize duplicate content.
-10. **Don't lie on comparison pages.** AI engines cross-reference and de-rank lies.
-11. **Don't over-index on launch-day spike.** The flywheel is templates + alternatives + reviews + ongoing content — not one day of PH.
-12. **Don't forget Crunchbase, LinkedIn company page, and Wikidata.** These feed AI training corpora and matter for GEO.
+1. **Don't pay for "guaranteed" gift-guide placement or directory submission services.** Legitimate editorial inclusion isn't for sale; paid "guaranteed" placements are either low-value paid directories or a scam.
+2. **Don't submit to spam/low-quality directories** (no real traffic, no editorial standard) — they dilute the backlink profile rather than help it.
+3. **Don't pitch the same generic blurb to every gift-guide editor.** Match the occasion and recipient angle per pitch.
+4. **Don't chase Tier 4 (sustainability directories) without a real, current credential.** A lapsed or exaggerated certification claim is a compliance risk, not just a wasted submission — see `compliance`.
+5. **Don't skip seeding real reviews before pursuing a Trustpilot/Sitejabber listing.** A near-empty review profile actively hurts trust versus no listing at all.
+6. **Don't miss the editorial deadline.** Gift guide pitches sent after a publication's guide is locked are wasted regardless of product quality — ask about deadlines rather than assuming a launch-week timeline works.
+7. **Don't treat placements as the entire strategy.** They're the foundation; content, reviews, and paid/organic acquisition are what actually convert the resulting traffic — see `marketing-plan`.
+8. **Don't submit before the destination page exists.** Link equity and referral traffic both need somewhere to land.
+9. **Don't make comparison-page claims that don't hold up.** AI engines and human editors both cross-reference; false claims get pages de-ranked or de-listed — see `compliance`.
 
 ---
 
 ## Task-Specific Questions
 
-1. **What are you launching?** (Category changes tier mix — AI vs traditional SaaS vs no-code vs dev tool.)
-2. **When is launch day?** (Phase 0 assets need 7 days of prep.)
-3. **Do you have destination pages built?** (Alternatives, use cases, templates — if not, build first.)
-4. **Product Hunt hunter lined up?** (Optional but adds ~15% day-one lift. 3-week warm-up required regardless.)
-5. **How many beta users can you ask for reviews?** (Need 20 to hit 10.)
-6. **Do you have an MCP or agent angle?** (If yes, Tier 4 registries are a real moat.)
-7. **Existing integrations?** (If yes, Tier 7 marketplaces are the highest-DR backlinks available.)
-8. **Email list size?** (Needed for PH launch day warm traffic — 100+ is the minimum.)
-9. **Current DR and referring domain count?** (Baseline for measuring the compounding effect.)
+1. **What's the relevant gifting/seasonal window, if any?** (Determines the Tier 1 outreach timeline.)
+2. **Does the brand hold any real sustainability/ethical certifications?** (Determines whether Tier 4 is worth pursuing.)
+3. **What's the current review count/rating on Trustpilot or similar?** (Determines whether a seeding push is needed before pursuing that listing.)
+4. **Are comparison/buying-guide destination pages built?** (If not, build first — see Rule 2.)
+5. **Does Section 16 (B2B/Wholesale) apply?** (Changes the relevant tiers to trade/association directories.)
+6. **What's the current DR and referring-domain baseline?** (For measuring the compounding effect.)
+7. **Is there sample/photography budget for gift-guide outreach kits?** (Affects which editors/publications are realistically reachable.)
 
 ---
 
 ## Output Format
 
-When the user asks for a directory plan, return:
+When the user asks for a directory/placement plan, return:
 
-1. **Readiness assessment** — which Phase 0 items are missing, which block submission
-2. **Tier selection** — which tiers apply, which to skip, why
-3. **Submission order** — week 1 / week 2 / week 3 batches
+1. **Readiness assessment** — which foundation items (Rule 1/2) are missing
+2. **Tier selection** — which placement tiers apply, which to skip, why
+3. **Gift-guide outreach timeline** — mapped to the relevant seasonal window if known
 4. **Destination page list** — what to build first if missing
-5. **Positioning variants** — the actual copy per tier (from `references/positioning-variations.md`)
-6. **PH 3-week prep timeline** — mapped to calendar dates if launch day known
-7. **Reviews 10-in-30 plan** — who to ask, when, how
-8. **Weekly targets** — directories submitted, reviews, DR movement
-9. **Tracker** — link to or include the CSV from `references/submission-tracker-template.csv`
+5. **Positioning variants per surface type** — the actual pitch angle per tier
+6. **Reviews seeding plan** — who to ask, when, how
+7. **KPI targets** — placements, reviews, referral traffic
 
-Keep the plan actionable. Every item should be something the user can do today.
+Keep the plan actionable. Every item should be something the user can do this week or clearly schedule against the relevant seasonal deadline.
 
 ---
 
 ## Related Skills
 
-- **launch** — broader launch moment, ORB framework, five-phase approach
-- **programmatic-seo** — destination pages (alternatives, integrations, templates) that backlinks should flow into
-- **competitors** — `/alternatives/[tool]` page pattern
-- **ai-seo** — GEO optimization for AI citation
-- **content-strategy** — editorial content that attracts "best of" listicle inclusions
-- **free-tools** — lead magnets for destination pages
-- **community-marketing** — Reddit, Indie Hackers, Slack community mechanics
-- **schema** — FAQ + Product + Organization JSON-LD for GEO
-- **compliance** — disclosure requirements for incentivized reviews before running the 10-in-30 protocol at scale
+- **local-marketing** — location-level citations (Google Business Profile, NAP) — distinct from this skill's brand-level placements
+- **product-feed** — marketplace/shopping-feed listings (Google Shopping, Meta catalog) — a data-feed mechanic, not editorial/backlink
+- **public-relations** — journalist pitching and earned press; coordinate rather than duplicate outreach on Tier 7
+- **launch** — broader launch moment this skill's tactics can support
+- **content-strategy** — the Link-Earning Formats data behind why curated/roundup content compounds backlinks
+- **ai-seo** — GEO optimization for AI citation, applied repo-wide
+- **schema** — Product/Review/AggregateRating JSON-LD referenced throughout
+- **compliance** — sustainability-credential claims, comparative-claims risk, and incentivized-review disclosure rules
+- **customer-research** — mining review content beyond its placement value
+- **marketing-strategy** — Section 16 for the B2B/wholesale-side directory toolkit (trade/association directories)

@@ -1,6 +1,6 @@
 ---
 name: commercial-ops
-version: 2.1.1
+version: 2.1.2
 description: "When the user wants to optimize retail operations, improve GMROI, analyze sell-through rates, or optimize trade spend. Also use when the user mentions 'commercial operations,' 'GMROI,' 'sell-through,' 'promotional yield,' 'trade spend optimization,' 'retail margin,' 'inventory turns,' or 'wholesale pipeline.' Use this for anything involving the systems and processes that connect marketing to retail revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing."
 ---
 
@@ -212,7 +212,7 @@ CLV = (Average Order Value) × (Purchase Frequency) × (Customer Lifespan)
 
 1. **Business Model**
    - What percentage of sales come from D2C vs. wholesale vs. brick-and-mortar?
-   - What are your primary retail channels (independents, chains, specialty, mass)?
+   - What are your primary retail channels (independents, chains, specialty, mass)? For the wholesale slice specifically, see `marketing-strategy` Section 16's Business (small/medium) vs. Commercial (large) split — margin, MOQ, and terms usually differ meaningfully between the two.
    - Do you sell through marketplaces (Amazon, Walmart.com, etc.)?
 
 2. **Product & Category**

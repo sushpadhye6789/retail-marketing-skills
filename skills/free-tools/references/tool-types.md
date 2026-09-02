@@ -195,12 +195,23 @@ Detailed guide to each type of marketing tool you can build.
 - Cost estimator
 - Proposal generator
 
-### E-commerce
-- Product finder quiz
-- Comparison tool
-- Size/fit calculator
-- Savings calculator
-- Gift finder
+### Retail & Ecommerce
+
+Retail has more free-tool surface area than most categories realize — the physical/sensory nature of the products creates real pre-purchase uncertainty (will it fit, will it suit me, will it work for my space) that a tool can resolve better than a product description alone.
+
+| Tool | What it does | Why it works |
+|---|---|---|
+| **Virtual try-on** | Shopper uploads a photo (or uses live camera) and sees the product — clothing, glasses, makeup, jewelry — rendered on themselves | Directly resolves the single biggest online-purchase hesitation for appearance-driven categories; also reduces returns, which is a real cost saving worth quantifying alongside the lead-gen value |
+| **Size/fit finder** | A short quiz (brand comparisons, body measurements, or "fits like" reference) outputs a recommended size | Sizing inconsistency across brands is a top cause of cart abandonment and returns in apparel/footwear; a good fit-finder tool doubles as a returns-reduction tool, not just a lead magnet |
+| **Custom product configurator** ("flavor generator," "build your own," scent/color/material picker) | Shopper answers a few preference questions and gets a personalized product recommendation or a genuinely custom SKU | High engagement, naturally shareable results ("I got the [flavor name]"), and doubles as a taste/preference-data collection mechanism the brand can use for future product development |
+| **Room/space visualizer** | Upload a photo of a room and preview furniture, paint color, or decor in it (AR or simple overlay) | Same mechanism as virtual try-on applied to home/furniture categories — resolves "will this look right in my space" |
+| **Gift finder quiz** | A few questions about the recipient (occasion, interests, budget) output a curated shortlist | High share-worthiness around gifting seasons; naturally cross-sells across the catalog rather than pushing one SKU |
+| **Savings/cost calculator** (e.g., a "how much you'll save switching to X" or a seasonal tax-time savings calculator tied to a relevant purchase category) | Personalized dollar output based on the shopper's own inputs | Concrete numbers are inherently shareable and give sales/finance-adjacent content a reason to exist outside the obvious sale-event calendar |
+| **Sustainability/impact calculator** | Estimates the environmental impact avoided by a purchase choice (materials, packaging, longevity vs. disposable alternatives) | Only credible if the underlying claims are real and sourced — see `compliance` before publishing any specific environmental-impact number |
+| **Registry/gift-list builder** | Lets a shopper (or someone shopping for them) build and share a curated list | Naturally viral — every share is a referral to people who didn't arrive via a normal acquisition channel; see `referrals`' gifting exposure-loop framing |
+| **Comparison tool** | Side-by-side comparison across the brand's own product lines (not just vs. competitors) | Helps a shopper self-select the right product in a range with several similar options, reducing pre-purchase support questions |
+
+Several of these (virtual try-on, room visualizer) require meaningfully more build investment than a calculator or quiz — weigh that against the Evaluation Scorecard in the main skill file before committing, and consider a no-code/embed option (see Build vs. Buy) for a first version rather than a custom build.
 
 ### Developer Tools
 - Code snippet library

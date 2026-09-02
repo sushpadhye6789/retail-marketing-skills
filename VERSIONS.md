@@ -20,7 +20,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | churn-prevention | 2.1.0 | 2026-09-02 |
 | co-marketing | 2.0.3 | 2026-09-02 |
 | cold-email | 2.0.4 | 2026-08-20 |
-| commercial-ops | 2.1.1 | 2026-09-02 |
+| commercial-ops | 2.1.2 | 2026-09-02 |
 | community-marketing | 2.0.3 | 2026-09-02 |
 | competitor-profiling | 2.0.1 | 2026-08-18 |
 | competitors | 2.0.3 | 2026-08-20 |
@@ -32,17 +32,17 @@ Current versions of all skills. Agents can compare against local versions to che
 | cro | 2.1.2 | 2026-08-19 |
 | customer-research | 2.1.0 | 2026-09-02 |
 | digital-out-of-home | 1.0.2 | 2026-08-19 |
-| directory-submissions | 2.0.3 | 2026-09-02 |
+| directory-submissions | 3.0.0 | 2026-09-02 |
 | discount-and-clearance | 1.0.3 | 2026-08-20 |
 | emails | 2.1.4 | 2026-09-02 |
 | experiential-marketing | 1.0.2 | 2026-08-19 |
-| free-tools | 2.0.1 | 2026-08-18 |
+| free-tools | 2.1.0 | 2026-09-02 |
 | growth-playbooks | 1.0.3 | 2026-08-20 |
 | image | 2.0.2 | 2026-08-18 |
 | influencer-marketing | 1.0.2 | 2026-08-20 |
-| launch | 2.1.0 | 2026-08-31 |
+| launch | 3.0.0 | 2026-09-02 |
 | lead-magnets | 2.0.1 | 2026-08-18 |
-| local-marketing | 1.1.0 | 2026-08-19 |
+| local-marketing | 1.1.1 | 2026-09-02 |
 | loyalty | 1.1.0 | 2026-08-19 |
 | marketing-brief-template | 1.0.0 | 2026-08-30 |
 | marketing-council | 1.2.4 | 2026-09-02 |
@@ -50,9 +50,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | marketing-loops | 1.3.5 | 2026-09-02 |
 | marketing-plan | 1.3.0 | 2026-09-02 |
 | marketing-psychology | 2.0.3 | 2026-08-20 |
-| marketing-strategy | 1.5.1 | 2026-08-18 |
+| marketing-strategy | 1.6.0 | 2026-09-02 |
 | media-plan | 1.0.2 | 2026-08-19 |
 | moat-builder | 1.0.4 | 2026-09-02 |
+| new-store-launch | 1.0.0 | 2026-09-02 |
 | offers | 1.1.5 | 2026-08-31 |
 | onboarding | 2.0.3 | 2026-08-31 |
 | overstock | 1.0.3 | 2026-08-20 |
@@ -67,7 +68,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | programmatic-seo | 2.0.1 | 2026-08-18 |
 | programmatic | 1.0.2 | 2026-08-19 |
 | prospecting | 1.1.3 | 2026-08-20 |
-| public-relations | 1.0.2 | 2026-08-19 |
+| public-relations | 1.0.3 | 2026-09-02 |
 | range-review | 1.0.2 | 2026-08-19 |
 | referrals | 2.1.0 | 2026-09-02 |
 | repositioning | 1.0.2 | 2026-08-19 |
@@ -81,12 +82,12 @@ Current versions of all skills. Agents can compare against local versions to che
 | site-architecture | 2.0.1 | 2026-08-18 |
 | specialist-lenses | 2.0.1 | 2026-08-19 |
 | sms | 1.0.3 | 2026-09-02 |
-| social | 2.3.3 | 2026-08-20 |
+| social | 2.3.4 | 2026-09-02 |
 | storytelling | 1.0.2 | 2026-08-19 |
 | supplier-funded-marketing | 1.0.2 | 2026-08-19 |
 | tentpole-campaign | 1.1.1 | 2026-08-19 |
-| trade-and-dealer-enablement | 2.1.1 | 2026-09-02 |
-| trade-marketing | 1.0.2 | 2026-08-19 |
+| trade-and-dealer-enablement | 2.1.2 | 2026-09-02 |
+| trade-marketing | 1.0.3 | 2026-09-02 |
 | video | 2.1.2 | 2026-08-20 |
 | visual-merchandising | 1.0.2 | 2026-08-19 |
 

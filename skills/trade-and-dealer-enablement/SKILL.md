@@ -1,6 +1,6 @@
 ---
 name: trade-and-dealer-enablement
-version: 2.1.1
+version: 2.1.2
 description: "When the user wants to enable retail buyers and dealers, create line sheets, set up co-op advertising, or design dealer incentive programs. Also use when the user mentions 'trade enablement,' 'dealer enablement,' 'line sheet,' 'co-op advertising,' 'dealer incentives,' 'stockist training,' 'wholesale pipeline,' or 'retail buyer pitch.' Use this for anything involving selling products through retail channels, wholesale distribution, and dealer networks. For cold outreach emails, see cold-email. For sales collateral beyond emails, see sales-enablement. For retail financial mechanics, see commercial-ops."
 ---
 
@@ -563,6 +563,7 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 
 3. **Channel Structure & Partners**
    - What percentage of sales go through different channels (independents, chains, specialty, mass, D2C)?
+   - **Business (small/medium) vs. Commercial (large) split**: roughly what share of wholesale/dealer revenue comes from independent/small accounts (self-serve or lightly rep-assisted, catalog-driven) vs. large chain/commercial accounts (RFP/tender-driven, formal proposals, buying committees)? See `marketing-strategy`'s Section 16 (`references/b2b-wholesale-guide.md`) — line sheets and stockist kits usually serve the Business segment well as-is, while a Commercial account typically needs a formal category business case on top.
    - What types of distributors or wholesalers do you work with?
    - Do you work with brokers, agents, or manufacturer's representatives?
    - What geographic territories do you cover and how are they structured?

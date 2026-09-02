@@ -2,7 +2,7 @@
 name: trade-marketing
 description: "When the user wants to get a retail buyer, distributor, or dealer to list, stock, or feature a product — sell-in materials, buyer presentations, category management conversations, or trade show sell-in. Also use when the user mentions 'trade marketing,' 'sell-in,' 'sell-in deck,' 'buyer presentation,' 'category management,' 'category captain,' 'line review,' 'range review with a retailer,' 'planogram negotiation,' or 'getting listed.' This is the retailer-facing counterpart to consumer marketing — it targets the buyer/category manager who decides what goes on shelf, not the end shopper. For the co-op funding compliance side once a listing already exists, see supplier-funded-marketing. For paid advertising inside a retailer's own platform, see retail-media. For general B2B sales collateral mechanics, see sales-enablement, which this skill's deck-building borrows from."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Trade Marketing
@@ -23,6 +23,7 @@ Gather this context (ask if not provided):
 
 ### 1. The Target
 - Which retailer, distributor, or buying group — and do you know who the actual decision-maker (buyer, category manager) is?
+- **Independent/small retailer or a large chain/commercial account?** The two pitches differ: an independent store owner often decides fast on relationship and margin alone, while a national chain's category manager runs a formal review process, wants comparable-category data and category-level (not just SKU-level) impact, and answers to a buying committee. Don't reuse a one-page independent-retailer pitch for a chain's category review, or over-build a formal category business case for a single-location buyer who just wants to know the margin and MOQ. See `marketing-strategy`'s Section 16 Business/Commercial framing (`references/b2b-wholesale-guide.md`) if this sits alongside a broader wholesale motion.
 - New listing (cold sell-in) or defending/growing an existing one (a line review or category reset)?
 
 ### 2. The Case

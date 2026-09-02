@@ -1,0 +1,41 @@
+{
+  "skill_name": "new-store-launch",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're opening our second store in a new city in 10 weeks. What should our marketing timeline look like?",
+      "expected_output": "Should check for marketing-strategy.md first. Should sequence the timeline backward from the opening date: foundation work (Google Business Profile claim/verification, location page, local press list building, deciding the opening promotion) at 8-12 weeks out, event/list-building at 4-6 weeks out, opening week execution, and a post-opening handoff to local-marketing's ongoing motion. Should flag that GBP verification lead time makes starting it during opening week risky. Should recommend a soft-open buffer before the public event. Should distinguish this from a product launch (no beta/waitlist phases).",
+      "assertions": [
+        "Checks for marketing-strategy.md",
+        "Sequences a backward timeline from the opening date with foundation/event/opening-week/handoff phases",
+        "Flags Google Business Profile verification lead time specifically",
+        "Recommends a soft-open buffer",
+        "Distinguishes from a product launch's phased beta/waitlist approach"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're opening 4 stores in the same city over the next 2 months. How should we sequence the marketing?",
+      "expected_output": "Should identify this as a multi-location rollout and recommend building a repeatable opening playbook after the first location while preserving local texture. Should specifically warn about press/attention cannibalization from opening multiple locations in the same media market too close together, and recommend deliberate spacing or a bundled regional campaign instead. Should recommend centralizing brand assets/national press strategy while localizing the press list, event guest list, and local partnerships per location.",
+      "assertions": [
+        "Identifies this as a multi-location rollout scenario",
+        "Warns about press/attention cannibalization across same-market openings",
+        "Recommends deliberate spacing or a bundled regional campaign",
+        "Recommends centralizing what should be centralized and localizing what should be localized"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Is this the same as planning a product launch?",
+      "expected_output": "Should clarify this skill is for a physical-location opening, distinct from `launch` (a product/feature go-to-market with a phased beta/waitlist approach that doesn't fit a store opening's fixed-date, permit/build-out-driven timeline). Should note the two can coincide (a flagship opening built around a new collection) and both skills would apply in that case.",
+      "assertions": [
+        "Distinguishes new-store-launch from launch",
+        "Explains why launch's phased beta/waitlist approach doesn't fit a store opening",
+        "Notes the two skills can be used together when a collection launches alongside an opening"
+      ],
+      "files": []
+    }
+  ]
+}

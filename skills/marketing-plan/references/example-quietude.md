@@ -250,7 +250,7 @@ Held until seed funding lands. Initial test budget: $5–10K/mo split across App
 
 ### Skills + tools
 
-- **Skills:** `seo-audit`, `ai-seo`, `programmatic-seo`, `schema`, `content-strategy`, `competitors`, `launch`, `ads`, `ad-creative`, `social`, `typefully`, `analytics`, `copywriting`, `marketing-website-design`, `free-tools`
+- **Skills:** `seo-audit`, `ai-seo`, `programmatic-seo`, `schema`, `content-strategy`, `competitors`, `launch`, `ads`, `ad-creative`, `social`, `typefully`, `analytics`, `copywriting`, `site-architecture`, `free-tools`
 - **MCPs / APIs:** Ahrefs API, DataForSEO API, Typefully MCP (LinkedIn scheduling), GA4 MCP (when wired), GitHub MCP (`quietude-promo` repo work), Notion (knowledge directory), Stripe MCP (LTV / paid-CAC math), `agent-browser` (LinkedIn drafting + testing), `defuddle` (research)
 
 ---
@@ -306,7 +306,7 @@ What's the current trial structure? Length, paywall trigger, intro pricing? When
 
 ### Skills + tools
 
-- **Skills:** `onboarding`, `signup`, `cro`, `cro`, `paywalls`, `popups`, `copywriting`, `copy-editing`, `copycraft`, `marketing-website-design`, `ab-testing`, `marketing-psychology`
+- **Skills:** `onboarding`, `signup`, `cro`, `paywalls`, `popups`, `copywriting`, `copy-editing`, `site-architecture`, `ab-testing`, `marketing-psychology`
 - **MCPs / APIs:** App Store Connect (manual + `dev-browser` for screenshot automation), GitHub MCP (`quietude-app` app repo for onboarding code), Figma / Pencil MCP (for onboarding screen design), Customer.io MCP (for any in-app/email coordination), GA4 MCP (activation events)
 
 ---
@@ -412,7 +412,7 @@ Hardware referral is rare and powerful. *"Send a friend an Quietude eye mask. Th
 
 ### Skills + tools
 
-- **Skills:** `referrals`, `social`, `copywriting`, `marketing-website-design` (per-ambassador landing pages)
+- **Skills:** `referrals`, `social`, `copywriting`, `site-architecture` (per-ambassador landing pages)
 - **MCPs / APIs:** Dub.co (attribution — already in stack), Stripe MCP (commission accounting + payouts), GitHub MCP (landing page deployment in `quietude-promo` or new `quietude-ambassadors` repo), Customer.io MCP (ambassador lifecycle: onboarding, monthly performance digest, payout notification)
 
 ---
@@ -627,10 +627,10 @@ The fCMO's job is to:
 
 | Stage | Primary skills | Supporting skills |
 |---|---|---|
-| **Acquisition** | `seo-audit`, `ai-seo`, `programmatic-seo`, `schema`, `content-strategy`, `competitors`, `ads`, `ad-creative`, `social`, `typefully` | `launch`, `free-tools`, `analytics`, `cold-email`, `copywriting`, `marketing-website-design` |
-| **Activation** | `onboarding`, `signup`, `paywalls`, `cro`, `copywriting`, `copy-editing`, `copycraft` | `marketing-website-design`, `ab-testing`, `marketing-psychology`, `cro`, `popups` |
+| **Acquisition** | `seo-audit`, `ai-seo`, `programmatic-seo`, `schema`, `content-strategy`, `competitors`, `ads`, `ad-creative`, `social`, `typefully` | `launch`, `free-tools`, `analytics`, `cold-email`, `copywriting`, `site-architecture` |
+| **Activation** | `onboarding`, `signup`, `paywalls`, `cro`, `copywriting`, `copy-editing` | `site-architecture`, `ab-testing`, `marketing-psychology`, `popups` |
 | **Retention** | `emails`, `churn-prevention` | `copywriting`, `copy-editing`, `ab-testing`, `paywalls` |
-| **Referral** | `referrals`, `social` | `copywriting`, `marketing-website-design`, `emails` |
+| **Referral** | `referrals`, `social` | `copywriting`, `site-architecture`, `emails` |
 | **Revenue** | `pricing`, `paywalls`, `sales-enablement`, `revops` | `ab-testing`, `copywriting` |
 | **Cross-cutting** (brand, intelligence) | `marketing-strategy`, `customer-research`, `marketing-psychology` | `marketing-ideas`, `diagram-maker` |
 

@@ -21,7 +21,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | co-marketing | 2.1.0 | 2026-09-02 |
 | cold-email | 2.1.1 | 2026-09-02 |
 | commercial-ops | 2.1.3 | 2026-09-02 |
-| community-marketing | 2.1.0 | 2026-09-02 |
+| community-marketing | 2.1.1 | 2026-09-02 |
 | competitor-profiling | 2.0.1 | 2026-08-18 |
 | competitors | 2.0.3 | 2026-08-20 |
 | compliance | 1.0.3 | 2026-08-20 |
@@ -49,7 +49,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | marketing-council | 1.2.4 | 2026-09-02 |
 | marketing-ideas | 2.1.0 | 2026-09-02 |
 | marketing-loops | 1.3.5 | 2026-09-02 |
-| marketing-plan | 1.4.0 | 2026-09-02 |
+| marketing-plan | 1.4.1 | 2026-09-02 |
 | marketing-psychology | 2.0.3 | 2026-08-20 |
 | marketing-strategy | 1.6.1 | 2026-09-02 |
 | media-plan | 1.0.2 | 2026-08-19 |

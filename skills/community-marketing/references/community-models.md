@@ -2,7 +2,7 @@
 
 The Platform Selection Guide in the main skill file answers *where* to build (Discord, Slack, Circle, Reddit, etc.). This doc answers a question that comes first: *what kind of community is this, structurally* — because the platform choice, the content that sustains it, and the metrics that mean anything all follow from that answer. Picking a platform before naming the model is how a brand ends up with a Discord server that looks like every SaaS product's Discord server, regardless of whether that's the right shape for a retail audience.
 
-## The six models
+## The five models
 
 ### 1. VIP / Loyalty community
 
@@ -45,13 +45,9 @@ Built around the identity and interest the product serves, not the product itsel
 - **What it needs:** Real investment in content and events that serve the identity, not just the product (see `experiential-marketing`'s Community Workshops section for the in-person counterpart) — a running-shoe brand's community should behave like a running club that happens to sell shoes, not a shoe-launch-announcement channel.
 - **Watch out for:** The highest-effort, highest-payoff model on this list, and also the easiest to under-invest in and have fail quietly — don't start here unless there's real budget and content commitment behind it.
 
-### 6. Trade / Wholesale account community
+## A B2B/wholesale case that didn't make the list
 
-A private community for retail buyers, dealers, or wholesale accounts rather than end consumers — order updates, new-line previews, peer discussion among accounts who don't compete directly (different territories/channels).
-
-- **Best fit:** Brands with an active B2B/wholesale channel (see `marketing-strategy` Section 16) and enough accounts to make a shared space worthwhile — usually the Commercial segment rather than a handful of Business-segment accounts who are better served one-to-one.
-- **What it needs:** A platform buyers will actually check (Slack fits better than Discord for a professional-buyer audience — see the main skill file's Platform Selection Guide), genuinely useful content (sell-through data, early access to new lines, co-op marketing assets), and a clear boundary from the consumer-facing community.
-- **Watch out for:** Merging this with the consumer community "to keep things simple" — a wholesale buyer and a retail shopper want different content and different tone; see `marketing-strategy` Section 16's guidance on keeping B2C and B2B from interfering with each other.
+A private Slack or similar space for retail buyers, dealers, or wholesale accounts is a plausible sixth model — but it's left out here deliberately. Unlike the five above, this repo doesn't have a specific, verifiable example of a retail/CPG brand running a genuine ongoing community for its trade accounts (as opposed to a one-way B2B portal or EDI system), so including it as a named model would be presenting a hypothesis as an established pattern. If a B2B/wholesale channel needs an ongoing information or relationship layer for its accounts, that's better handled through the direct account relationship and existing co-op/enablement tooling — see `marketing-strategy` Section 16 and `trade-and-dealer-enablement` — rather than forcing it into the "community" frame this doc uses for the five models above. If real evidence of this pattern working as a genuine community (not just a broadcast channel) turns up, it's worth adding back with a citable example.
 
 ## Choosing a model
 
@@ -62,5 +58,5 @@ Most retail brands run more than one model at once, at different scales — a la
 - **loyalty** — Program mechanics for the VIP/Loyalty model
 - **referrals** — Structured incentive mechanics for the Ambassador/Advocate model
 - **experiential-marketing** — The in-person counterpart to the Category/Lifestyle model's content
-- **marketing-strategy** — Section 16's Business/Commercial segmentation for the Trade/Wholesale model
 - **retention-and-winback** — Repeat-purchase strategy that a VIP/Loyalty or Peer-support community reinforces
+- **marketing-strategy** / **trade-and-dealer-enablement** — For B2B/wholesale account relationships, handled directly rather than through a community model (see the note above)

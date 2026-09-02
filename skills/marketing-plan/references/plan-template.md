@@ -191,7 +191,7 @@ Quarter-by-quarter outcome state (Q1 / Q2 / Q3 / Q4).
 - Paywall + pricing review (often Activation × Revenue)
 
 ### Skills + tools
-`onboarding`, `signup`, `paywalls`, `copywriting`, `marketing-website-design`, `ab-testing`, etc.
+`onboarding`, `signup`, `paywalls`, `copywriting`, `site-architecture`, `ab-testing`, etc.
 
 ---
 
@@ -274,6 +274,14 @@ These feed the budget math in Section 10. If any of these are unknown, flag in S
 | Annual retention rate | X% | 1 − annual churn |
 
 Skip LTV/CAC as the headline health check either way — `ads/references/payback-period.md` explains why it's a destructive metric even in the recurring-revenue case; use payback period (or the ARPC/retention formula in `references/budget-planning.md`'s Recurring-Revenue Variant) instead.
+
+**If the plan is going to a board or investor who will ask for it anyway**, add one extra row rather than omitting the number outright:
+
+| Metric | Value | Note |
+|---|---|---|
+| LTV:CAC (narrative/board context only — not the channel-gating metric, see payback period above) | X:1 | Rough blended figure for external comparison; never used inside this plan to turn a channel on or off |
+
+Label it exactly that way in the plan, so a reader doesn't mistake it for the number driving the actual budget decisions in Section 10.
 
 ### Skills + tools
 `pricing`, `paywalls`, `sales-enablement`, `revops`, `ab-testing`, etc.

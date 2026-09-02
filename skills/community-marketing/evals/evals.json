@@ -4,13 +4,12 @@
     {
       "id": 1,
       "prompt": "We're a wholesale/B2B apparel brand with a growing network of independent boutique accounts. We want to start a community for our retail buyers. Should we use Discord or Slack?",
-      "expected_output": "Should check for product-marketing.md first. Should recognize this as a Trade/Wholesale account community model (see references/community-models.md) rather than a consumer community, and apply the platform selection guide accordingly. Should recommend Slack for a professional-buyer audience — familiar, business context — over Discord. Should note what this model needs to actually work: genuinely useful content for buyers (sell-through data, early access to new lines, co-op marketing assets), and a clear boundary from any consumer-facing community per marketing-strategy Section 16's B2C/B2B separation guidance. Should ask about the ideal community member and primary goal before fully committing.",
+      "expected_output": "Should check for product-marketing.md first. Should not force this into the five community-models.md structures, since none of them is built for a trade/wholesale account audience — the doc explicitly declined to include that as a model for lack of a verified example. Should instead point to marketing-strategy Section 16 and trade-and-dealer-enablement for how B2B/wholesale account relationships are actually handled (direct account relationship, co-op/enablement tooling), and note that if the user still wants a shared space, Slack fits a professional-buyer audience better than Discord — but flag this as an unproven pattern for this repo, not a validated model. Should ask about the ideal community member and primary goal before fully committing.",
       "assertions": [
         "Checks for product-marketing.md",
-        "Identifies this as a Trade/Wholesale community model",
-        "Recommends Slack over Discord for the professional-buyer context",
-        "Names useful content types for a buyer community (sell-through data, early access, co-op assets)",
-        "Flags keeping this separate from any consumer-facing community",
+        "Does not present a Trade/Wholesale community model as an established pattern",
+        "Points to marketing-strategy Section 16 / trade-and-dealer-enablement for how B2B/wholesale accounts are actually handled",
+        "If Slack vs Discord is still addressed, recommends Slack but flags it as unproven rather than a named model",
         "Asks about audience identity or goal"
       ],
       "files": []

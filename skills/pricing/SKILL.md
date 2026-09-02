@@ -2,7 +2,7 @@
 name: pricing
 description: "When the user wants help with pricing decisions, packaging, monetization strategy, or checking prices against competitors and dealers. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'competitor pricing,' 'price check,' 'MAP compliance,' 'annual vs monthly,' 'per seat pricing,' 'should I offer a free plan,' 'pricing page teardown,' 'pricing page audit,' 'is my pricing page AI-readable,' or 'can AI read my pricing.' Use this whenever someone is figuring out what to charge, how to structure their plans, wants to audit a pricing page, or wants to check pricing against competitors/dealers. For the gated price-reveal screen itself, see paywalls. For offer construction (bonuses, guarantees, value framing, naming) on services/courses/coaching/high-ticket B2B, see offers."
 metadata:
-  version: 2.2.2
+  version: 2.3.0
 ---
 
 # Pricing Strategy
@@ -64,6 +64,18 @@ Price should be based on value delivered, not cost to serve:
 - **Your cost to serve** — Only a baseline, not the basis
 
 **Key insight:** Price between the next best alternative and perceived value.
+
+### The Value/Price Ratio
+
+Aim for roughly a **10:1 value-to-price ratio** (Ryan Kulp): the customer should perceive about **10x more value than they pay**. This is the buffer that makes the purchase feel obvious rather than negotiated, and it leaves headroom to raise prices later as you add value (better materials, service, assortment depth).
+
+If you can't articulate 10x value, the problem is usually the offer or the positioning, not the price point — see `offers` before reaching for a discount.
+
+### The Low-Price / Discount-Asker Counterpoint
+
+Charging too little — or discounting to acquire — is not the safe choice. Patrick Campbell/ProfitWell data on subscription pricing found under-priced customers churn *more*, not less, because a low price signals low value and attracts the least-committed, most price-sensitive buyers. The retail read: **customers who negotiate or wait for a discount to buy tend to churn/lapse at roughly 2x the rate of full-price buyers** — discounting to close a first sale often buys a customer who was never going to be loyal at any price.
+
+**Implication:** don't reach for a permanent discount to fix soft conversion. Reserve real discounting for the moments it's actually earned — clearance/end-of-life stock (see `discount-and-clearance`), loyalty-tier rewards, and genuine seasonal windows — rather than a standing lever that trains your whole customer base to wait for the next markdown before they buy.
 
 ---
 
@@ -252,7 +264,9 @@ The AI-readiness fixes are usually high-impact, low-effort (put prices in text, 
 - **price-elasticity**: For sizing a pricing move against real demand response, not just a competitor comparison
 - **competitor-profiling** / **competitors**: For competitive context beyond price — positioning, features, messaging
 - **marketing-strategy**: For the distribution-model context (dealers/MAP) and competitive landscape this skill's monitoring checks against
-- **churn-prevention**: For cancel flows, save offers, and reducing revenue churn
+- **retention-and-winback** / **churn-prevention**: For reducing revenue churn — retention-and-winback for general repeat-purchase retention, churn-prevention for cancel flows/save offers on a recurring-billing program
+- **discount-and-clearance**: For where discounting is actually earned (clearance/end-of-life stock) vs. a standing acquisition lever
+- **offers**: For raising perceived value instead of cutting price when the value/price ratio isn't landing
 - **cro**: For optimizing pricing page conversion
 - **ai-seo**: For making the pricing page extractable/citable by AI (the teardown's AI-agent-readiness axis)
 - **schema**: For Product/Offer structured data so machines can read your tiers and prices

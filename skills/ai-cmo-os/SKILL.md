@@ -1,6 +1,6 @@
 ---
 name: ai-cmo-os
-version: 1.1.0
+version: 1.1.1
 description: "When the user wants to build an AI Chief Marketing Officer operating system with Claude Code orchestration, isolated secure execution, browser-based supervision, and human-in-the-loop strategic workflows that produce real business metrics. Also use when the user mentions 'AI CMO,' 'marketing operating system,' 'Claude Code orchestrator,' 'isolated server instances,' 'browser-based execution,' 'human-in-the-loop,' 'strategic business metrics,' 'no AI slop,' 'state graph,' 'context boundaries,' or 'marketing supervision UI.' Use this for building a secure, strategic AI-powered marketing operations platform that executes marketing workflows with Claude Code as the orchestrator."
 ---
 
@@ -435,17 +435,16 @@ Workflow Trigger →
 - **copywriting** - Copy generation that AI CMO automates for ads, emails, landing pages, and social
 - **analytics** - Performance measurement that AI CMO tracks to measure campaign effectiveness and ROI
 - **emails** - Email campaigns that AI CMO automates and optimizes for conversion and retention
-- **sms-marketing** - SMS campaigns that AI CMO manages for time-sensitive offers and alerts
+- **sms** - SMS campaigns that AI CMO manages for time-sensitive offers and alerts
 - **social** - Social media management that AI CMO schedules and monitors for engagement and brand building
 - **video** - Video content creation that AI CMO coordinates for ads, organic content, and testimonials
 - **image** - Image generation and processing that AI CMO automates for ad creatives and product images
 - **schema** - Structured data implementation that AI CMO generates and validates for rich snippets and AI understanding
-- **loyalty-programs** - Loyalty initiatives that AI CMO designs and tracks to increase customer retention and LTV
+- **loyalty** - Loyalty initiatives that AI CMO designs and tracks to increase customer retention and LTV
 - **customer-research** - Research initiatives that AI CMO commissions and synthesizes for strategy and targeting
 - **experiential-marketing** - Events and experiences that AI CMO helps plan and execute for brand engagement
 - **influencer-marketing** - Influencer campaigns that AI CMO identifies and manages for authentic reach
-- **affiliate-marketing** - Affiliate programs that AI CMO optimizes and tracks for performance-based partnerships
-- **referrals** - Referral programs that AI CMO designs and monitors for word-of-mouth and viral growth
+- **referrals** - Affiliate and referral programs that AI CMO designs, optimizes, and tracks for performance-based partnerships and word-of-mouth/viral growth
 - **compliance** - Regulatory compliance that AI CMO ensures and documents to prevent legal and reputational risk
 
 ## 14. Implementation Roadmap

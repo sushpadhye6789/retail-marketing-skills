@@ -1,6 +1,6 @@
 ---
 name: post-purchase-experience
-version: 2.1.0
+version: 2.1.1
 description: "When the user wants to optimize post-purchase experience, improve unboxing design, increase product registration, or boost repeat purchase rates. Also use when the user mentions 'post-purchase,' 'unboxing,' 'product registration,' 'cross-sell,' 'repeat purchase,' 'first-time buyer,' 'replenishment,' or 'customer retention.' Use this for anything involving the customer experience after purchase in retail and commerce. For signup flows, see signup. For ongoing email sequences, see emails."
 ---
 
@@ -348,11 +348,10 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 - **commercial-ops** - Retail financial mechanics including GMROI, sell-through analytics, and promotional yield
 - **retention-and-winback** - Replenishment cadence, LTV decay mitigation, win-back sequences for retail
 - **trade-and-dealer-enablement** - Retail buyer pitch kits, co-op advertising, dealer incentives programs
-- **loyalty-programs** - Points structures, tier benefits, redemption options, program optimization
+- **loyalty** - Points structures, tier benefits, redemption options, program optimization
 - **customer-research** - Post-purchase surveys, NPS programs, customer feedback collection
 - **emails** - Post-purchase email sequences, transactional messages, promotional triggers
-- **sms-marketing** - SMS notifications for shipping, delivery, replenishment reminders
-- **packaging-design** - Structural design, material selection, unboxing experience optimization
+- **sms** - SMS notifications for shipping, delivery, replenishment reminders
 - **visual-merchandising** - In-store execution that complements post-purchase experience
-- **social-media** - Encouraging and amplifying user-generated content, unboxing sharing
+- **social** - Encouraging and amplifying user-generated content, unboxing sharing
 - **content-strategy** - Educational content, usage tips, inspirational lifestyle content for post-purchase

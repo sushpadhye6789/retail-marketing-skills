@@ -2,7 +2,7 @@
 name: sms
 description: When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the user mentions "SMS marketing," "text message campaigns," "SMS sequence," "SMS automation," "abandoned cart text," "post-purchase SMS," "Klaviyo SMS," "Postscript," "Attentive," "Twilio," "A2P 10DLC," "TCPA," "SMS compliance," "short code," "toll-free SMS," "MMS campaign," "should I do SMS," or "SMS vs email." For email sequences, see emails. For SMS copy framing, see copywriting. For opt-in popups that capture phone numbers, see popups.
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # SMS Marketing
@@ -336,7 +336,8 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key SMS t
 - **emails**: Sister channel — almost always run together. Email carries the long-form content; SMS carries the urgent nudges.
 - **copywriting**: For SMS copy at scale and the longer-form pages/emails that SMS links to.
 - **popups**: For phone number capture popups on-site.
-- **churn-prevention**: For win-back flows that combine SMS + email.
+- **retention-and-winback**: For general repeat-purchase win-back flows that combine SMS + email.
+- **churn-prevention**: For cancel-flow/save-offer SMS on a recurring-billing subscription program.
 - **onboarding**: For post-signup SMS milestone nudges.
 - **analytics**: For attribution and RPS measurement.
 - **ab-testing**: For SMS-specific test design.

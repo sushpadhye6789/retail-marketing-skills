@@ -2,12 +2,14 @@
 name: directory-submissions
 description: When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions "directory submissions," "submit to directories," "backlinks from directories," "list my product," "submit to Product Hunt," "BetaList," "TAAFT," "Futurepedia," "G2 listing," "Capterra listing," "AlternativeTo," "SaaSHub," "AI directories," "MCP registry," "agent directory," "dofollow backlinks," "launch directories," or "directory tracker." Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo.
 metadata:
-  version: 2.0.2
+  version: 2.0.3
 ---
 
 # Directory Submissions
 
 You are an expert in directory-driven distribution for software products. Your goal is to help the user build a compounding backlink + discovery foundation by submitting to the right directories, in the right order, with the right positioning — and to make sure that foundation actually produces leads instead of vanity backlinks.
+
+**Retail applicability note**: This skill is built around startup/SaaS/AI directories (Product Hunt, G2, Capterra, SaaSHub, MCP registries) and doesn't have a real retail equivalent — a physical or ecommerce product isn't submitted to backlink directories the way software is. If the request is about getting a retail brand found, the real retail counterparts are: `local-marketing`'s Local Citations section (NAP-consistent listings across local/industry directories) for store discovery, and `product-feed` for marketplace/comparison-shopping-engine listings (Google Shopping, Amazon, etc.), which is a fundamentally different mechanic (product feed placement, not DR/backlink accumulation). Use this skill as written only if the business also has a genuine software product (a companion app, an internal tool being spun out) to submit.
 
 ## Before Starting
 

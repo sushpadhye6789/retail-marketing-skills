@@ -2,7 +2,7 @@
 name: moat-builder
 description: "When the user wants to identify a durable competitive advantage (a moat) and direct marketing investment to build or widen it, rather than just message around current differentiation. Also use when the user mentions 'moat,' 'competitive moat,' 'economic moat,' 'competitive advantage,' 'defensibility,' 'sustainable advantage,' 'build a moat,' or 'widen the moat.' Scope note: marketing-strategy Section 6 (Differentiation) captures current differentiation for positioning and messaging purposes — this skill goes further, identifying which differentiators are actually structural and durable (get stronger or at least don't erode over time, hard for a competitor to copy quickly) versus temporary, and biasing strategic priorities and budget toward reinforcing the real ones."
 metadata:
-  version: 1.0.3
+  version: 1.0.4
 ---
 
 # Moat Builder
@@ -38,7 +38,7 @@ The product or brand gets more valuable as more people use it (marketplaces, com
 
 ### Switching costs
 Customers face real friction leaving — data lock-in, learned habits, integrated workflows, accumulated loyalty status or history.
-**Widen it via**: `onboarding` depth (the more invested a customer becomes early, the higher the switching cost), `loyalty` program design (status and history that would be lost by switching), `churn-prevention`'s retention discipline more broadly.
+**Widen it via**: `onboarding` depth (the more invested a customer becomes early, the higher the switching cost), `loyalty` program design (status and history that would be lost by switching), `retention-and-winback`'s repeat-purchase discipline more broadly, and `churn-prevention` specifically where a subscribe-and-save or paid membership component is involved.
 
 ### Brand / intangible assets
 Trust, prestige, or perceived quality that commands a price premium or preference independent of feature comparison.
@@ -107,7 +107,7 @@ The point of this exercise is to change what gets prioritized, not just to produ
 - **growth-playbooks**: A borrowed growth mechanic isn't automatically a moat — use this skill to check whether a chosen playbook compounds into something a competitor can't just copy, or whether it's a temporary tactic mistaken for a durable advantage.
 - **marketing-strategy**: For the differentiation input (Section 6) and the strategic priorities (Section 12) this skill's output should feed into
 - **referrals** / **community-marketing**: For widening a network-effects moat
-- **onboarding** / **loyalty** / **churn-prevention**: For widening a switching-costs moat
+- **onboarding** / **loyalty** / **retention-and-winback** / **churn-prevention**: For widening a switching-costs moat
 - **brand-management** / **tentpole-campaign** / **storytelling** / **brand-guidelines**: For widening a brand moat
 - **attribution** / **emails** / **sms** / **customer-research**: For widening a proprietary-data moat
 - **supplier-funded-marketing**: For widening an exclusive-distribution moat

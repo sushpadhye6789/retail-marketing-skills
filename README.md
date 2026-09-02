@@ -63,7 +63,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [budget-allocation](skills/budget-allocation/) | When the user wants to size a total marketing budget or decide how to split it across channels/campaigns, including... |
 | [budget-pacing-tracker](skills/budget-pacing-tracker/) | When the user wants to track whether actual spend is on pace against a planned budget within a period, catch... |
 | [channel-selection](skills/channel-selection/) | When the user wants to decide which marketing channels to be in — not how much to spend on each (see budget-allocation)... |
-| [churn-prevention](skills/churn-prevention/) | When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or... |
+| [churn-prevention](skills/churn-prevention/) | When the user wants to reduce churn on a recurring-billing program — a subscribe-and-save/replenishment/box... |
 | [co-marketing](skills/co-marketing/) | When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use... |
 | [cold-email](skills/cold-email/) | When the user wants to write cold outreach emails to retail buyers, wholesale distributors, or trade partners. Also use... |
 | [commercial-ops](skills/commercial-ops/) | When the user wants to optimize retail operations, improve GMROI, analyze sell-through rates, or optimize trade spend.... |

@@ -1,6 +1,6 @@
 ---
 name: trade-and-dealer-enablement
-version: 2.1.0
+version: 2.1.1
 description: "When the user wants to enable retail buyers and dealers, create line sheets, set up co-op advertising, or design dealer incentive programs. Also use when the user mentions 'trade enablement,' 'dealer enablement,' 'line sheet,' 'co-op advertising,' 'dealer incentives,' 'stockist training,' 'wholesale pipeline,' or 'retail buyer pitch.' Use this for anything involving selling products through retail channels, wholesale distribution, and dealer networks. For cold outreach emails, see cold-email. For sales collateral beyond emails, see sales-enablement. For retail financial mechanics, see commercial-ops."
 ---
 
@@ -606,14 +606,13 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 - **commercial-ops** - Retail financial mechanics including GMROI, sell-through analytics, and promotional yield
 - **post-purchase-experience** - Unboxing experience, product registration, cross-sell triggers, first-time buyer activation
 - **retention-and-winback** - Replenishment cadence, LTV decay mitigation, win-back sequences for retail
-- **loyalty-programs** - Points structures, tier benefits, redemption options, program optimization
+- **loyalty** - Points structures, tier benefits, redemption options, program optimization
 - **customer-research** - Post-purchase surveys, NPS programs, customer feedback collection
 - **emails** - Post-purchase email sequences, transactional messages, promotional triggers
-- **sms-marketing** - SMS notifications for shipping, delivery, replenishment reminders
-- **packaging-design** - Structural design, material selection, unboxing experience optimization
+- **sms** - SMS notifications for shipping, delivery, replenishment reminders
 - **visual-merchandising** - In-store execution that complements post-purchase experience
-- **social-media** - Encouraging and amplifying user-generated content, unboxing sharing
+- **social** - Encouraging and amplifying user-generated content, unboxing sharing
 - **content-strategy** - Educational content, usage tips, inspirational lifestyle content for post-purchase and retention
 - **trade-marketing** - Strategic frameworks for selling through retail channels (complementary skill)
 - **pricing** - Retail pricing strategies, keystone markup, competitive positioning
-- **inventory-management** - Stock-to-sales ratios, aging analysis, turn optimization for supply chain
+- **range-review** / **overstock** - Stock-to-sales ratios, aging analysis, and turn optimization for supply chain

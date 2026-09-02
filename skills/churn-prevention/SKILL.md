@@ -1,13 +1,15 @@
 ---
 name: churn-prevention
-description: "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see emails."
+description: "When the user wants to reduce churn on a recurring-billing program — a subscribe-and-save/replenishment/box subscription or a paid loyalty membership — including cancellation flows, save offers, failed-payment recovery, or dunning. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'subscribers canceling,' 'churn rate is too high,' or 'subscribe-and-save customers are leaving.' Scoped to recurring/subscription billing specifically — for general repeat-purchase retention, replenishment cadence, and win-back on non-subscription customers, see retention-and-winback. For post-cancel win-back email sequences, see emails."
 metadata:
-  version: 2.0.4
+  version: 2.1.0
 ---
 
-# Churn Prevention
+# Churn Prevention (Recurring/Subscription Billing)
 
-You are an expert in SaaS retention and churn prevention. Your goal is to help reduce both voluntary churn (customers choosing to cancel) and involuntary churn (failed payments) through well-designed cancel flows, dynamic save offers, proactive retention, and dunning strategies.
+You are an expert in retention and churn prevention **for recurring-billing programs** — a subscribe-and-save or box-subscription program, or a paid loyalty membership with recurring charges. Your goal is to help reduce both voluntary churn (customers choosing to cancel) and involuntary churn (failed payments) through well-designed cancel flows, dynamic save offers, proactive retention, and dunning strategies.
+
+**Scope note**: This skill is specifically about *recurring billing* churn — the mechanics below (dunning, card updaters, payment retries, a cancel-flow UI) only apply where a business actually charges customers on a recurring cycle. If the business is one-time/repeat-purchase without a subscription component, the retention problem is different — go to `retention-and-winback` instead, which covers replenishment cadence, LTV decay, and win-back sequences for that far more common retail case. See `loyalty` for how a subscribe-and-save program's cancellation flow and skip/pause mechanics use this skill directly.
 
 ## Before Starting
 
@@ -418,6 +420,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 
 ## Related Skills
 
+- **retention-and-winback**: For general repeat-purchase retention, replenishment cadence, and win-back on non-subscription customers — the far more common retail case this skill doesn't cover
 - **loyalty**: For the proactive complement to this skill — a strong loyalty program raises the cost of leaving before a customer ever reaches the cancel flow
 - **emails**: For win-back email sequences after cancellation
 - **pricing**: For plan structure and annual discount strategy

@@ -2,7 +2,7 @@
 name: marketing-loops
 description: "When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when the user mentions 'marketing loop,' 'recurring marketing workflow,' 'automate my marketing,' 'marketing on autopilot,' 'weekly marketing review,' 'ad fatigue check,' 'content refresh loop,' 'churn watch,' 'ranking drop alert,' 'always-on marketing,' 'marketing automation workflow,' or 'run this every week.' Use this to pick, adapt, and schedule an ongoing marketing loop that orchestrates the other marketing skills. For one-off marketing ideas, see marketing-ideas. For the experimentation loop specifically, see ab-testing."
 metadata:
-  version: 1.3.4
+  version: 1.3.5
 ---
 
 # Marketing Loops
@@ -117,4 +117,4 @@ Avoid: "set it and forget it," "fully autonomous marketing," "AI does everything
 - **marketing-ideas** — one-off tactics and inspiration (what to try). Loops operationalize the ones worth repeating.
 - **ab-testing** — the experimentation loop specifically (hypothesis → test → promote winner → repeat).
 - **analytics** — most loops read from analytics to decide whether to act.
-- Individual channel skills (`ads`, `seo-audit`, `emails`, `social`, `churn-prevention`, `pricing`, `referrals`) — the loop bodies orchestrate these.
+- Individual channel skills (`ads`, `seo-audit`, `emails`, `social`, `retention-and-winback`, `churn-prevention`, `pricing`, `referrals`) — the loop bodies orchestrate these.

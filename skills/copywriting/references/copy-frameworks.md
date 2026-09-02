@@ -7,6 +7,7 @@ Headline formulas, page section types, and structural templates.
 - Landing Page Section Types (core sections, supporting sections)
 - Page Structure Templates (feature-heavy page, varied engaging page, compact landing page, enterprise/B2B landing page, product launch page)
 - Section Writing Tips (problem section, benefits section, how it works section, testimonial selection)
+- Clarity & Message-Market Fit (the "Now you can" test, Human Action Model, the Perception Gap, worked examples, clarity metrics)
 
 ## Headline Formulas
 
@@ -342,3 +343,92 @@ Avoid testimonials that just say:
 - "Great product!"
 - "Love it!"
 - "Easy to use!"
+
+---
+
+## Clarity & Message-Market Fit
+
+Headline formulas give you the shape of a line. These tools tell you whether the line is actually *working* — whether it's clear, whether it maps to how the shopper already thinks, and whether it lands with the right person. Positioning is the prologue to your novel: it sets up everything that follows. Get it clear and the rest of the page writes itself.
+
+### The "Now you can" Test
+
+A fast gut-check for any headline or benefit line. Mentally prefix it with **"Now you can…"**. If the result is both **compelling** and **true**, the line is doing its job. If it reads as vague, obvious, or a stretch, rewrite it.
+
+The test works because "Now you can…" forces the copy into the shopper's world — it has to name a concrete new ability or outcome they didn't have before. Feature-speak and buzzwords collapse under it.
+
+| Original line | "Now you can…" version | Verdict |
+|---------------|------------------------|---------|
+| "Premium quality materials" | Now you can… have premium quality materials | Fails — not a new ability, just a description |
+| "See exactly which size fits before you order" | Now you can… see exactly which size fits before you order | Works — compelling + true |
+| "Elevate your everyday" | Now you can… elevate your everyday | Fails — vague, unfalsifiable |
+| "Track your package hour-by-hour, not just day-by-day" | Now you can… track your package hour-by-hour, not just day-by-day | Works — concrete + true |
+
+Use it as a filter, not a formula: draft with the headline formulas above, then run each candidate through "Now you can…" and keep the survivors.
+
+### The Human Action Model (landing-page narrative spine)
+
+Ludwig von Mises' Human Action Model explains *why* anyone acts: a person acts only when three things line up. Every above-the-fold that converts follows the same three-beat spine:
+
+1. **Current discomfort** — the felt problem, named in the shopper's own words. They have to recognize their situation ("that's exactly me").
+2. **Better vision** — a clearly imagined, more satisfying state. What life looks like once the discomfort is gone.
+3. **Path to action** — the belief that *this specific product* closes the gap between the two. The product is the bridge, and the CTA is how they cross it.
+
+Miss any beat and the shopper stalls. No discomfort = no reason to move. No vision = no destination. No path = no reason to believe *this product* is the way there.
+
+**Mapping it onto the hero:**
+
+| Beat | Where it usually lives | Example |
+|------|------------------------|---------|
+| Current discomfort | Eyebrow, subhead, or problem-framed headline | "Tired of returning shoes that never fit right online?" |
+| Better vision | Headline or subhead | "The last pair you'll order without guessing your size" |
+| Path to action | CTA + supporting proof | "Find my fit — free size exchange" |
+
+This is the transformation spine underneath the "6 essential sections" of a landing/PDP page — hero, social proof, problem, solution, how-it-works, and final CTA. The hero states the transformation; the rest of the page substantiates each beat.
+
+### The Perception Gap
+
+The same benefit can read as a **selling point to one segment and a red flag to another**. The gap is between what *you* think you're saying and what a given shopper hears through their own price sensitivity and quality expectations.
+
+The fix isn't softer copy — it's **matching the value prop to the shopper's segment**. Segment first, then swap the framing.
+
+| Benefit as written | Value-conscious shopper hears | Premium/quality-conscious shopper hears |
+|--------------------|-------------------------------|--------------------------------|
+| "Lowest price guaranteed" | Great deal (✅) | Cheap, corner-cut (🚩) |
+| "Handcrafted, small-batch" | Overpriced for what it is (🚩) | Worth paying for (✅) |
+| "Built to last a lifetime" | Nice, but I don't need that (🚩 mild) | An investment piece (✅) |
+| "As seen at [mainstream big-box retailer]" | Familiar, reassuring (✅) | Not exclusive, not for me (🚩) |
+
+**Value-prop swap in practice** — same product, two segments:
+
+- *Value-tier page/listing:* "Everyday essentials at a price that doesn't require a second thought. Free returns if it's not right."
+- *Premium-tier page/listing:* "Small-batch, made to outlast the season. A piece you keep, not replace."
+
+When a brand has to serve both a value line and a premium line (or a retail vs. trade/wholesale buyer — see `marketing-strategy`'s distribution-model context), don't average them into mush — segment the traffic (separate pages/collections, or a persona split) and let each read its own version of the truth.
+
+### Worked Example — SavvyCal (message-market fit, cross-industry pattern)
+
+The clearest documented case of this method is SaaS (SavvyCal, a scheduling tool), but the mechanism is universal — worth knowing even outside retail. They originally led with feature-forward copy and rewrote the hero around a single felt discomfort:
+
+> **"You shouldn't have to feel awkward sending out your scheduling link."**
+
+That one line **roughly tripled (3×) conversions**. It works because it hits all three beats of the Human Action Model at once: the discomfort (small social awkwardness) named exactly as users felt it, the vision (scheduling that feels considerate to both people), and the path (their overlay-your-calendar mechanic as the obvious bridge).
+
+**Applying the same method to a retail hero** (illustrative pattern, not a documented case — run your own A/B test before claiming a lift):
+
+- Feature-forward (weak): "Premium organic cotton, ethically sourced, 12 color options."
+- Discomfort-named (stronger candidate): "Finally, a t-shirt that doesn't shrink two washes in."
+
+The lesson: message-market fit beats feature lists. The winning line usually isn't cleverer — it names a real feeling the shopper hasn't heard a brand in this category acknowledge before. Run your own hero through "Now you can…" and the Human Action Model to find that line, then validate it with a real test rather than assuming the pattern transfers 1:1.
+
+### Clarity Beats Cleverness (the metrics)
+
+When teams measure it, clarity — not wit — is what moves the numbers, in the SaaS data this is sourced from. Clearer positioning and copy is associated with:
+
+- **+81% conversions**
+- **−38% sales cycle** (shorter time to decision)
+- **−28% CAC** (lower customer acquisition cost)
+- **+175% referrals**
+
+These specific figures come from B2B SaaS research — treat the exact percentages as directional for retail rather than a guaranteed transfer, but the mechanism holds regardless of category: clear copy lets the *right* shopper self-qualify fast and the wrong one bounce early (onto a better-fit product or away before a costly return), so every downstream metric improves. Clever copy that requires decoding does the opposite — it adds a comprehension tax at the exact moment attention is scarcest, whether that's a scroll-past on a PDP or a bounce from a landing page.
+
+**Practical rule:** if a shopper has to pause to figure out what you mean, you've already lost. When forced to choose between a clever line and a clear one, ship the clear one — then use the tests above ("Now you can…", the Human Action Model, the Perception Gap) to make the clear line compelling too.

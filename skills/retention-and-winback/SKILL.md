@@ -1,6 +1,6 @@
 ---
 name: retention-and-winback
-version: 2.1.0
+version: 2.1.1
 description: "When the user wants to improve customer retention, increase repeat purchase rates, optimize replenishment cadence, or implement win-back campaigns. Also use when the user mentions 'retention,' 'repeat purchase,' 'replenishment,' 'LTV,' 'win-back,' 'lapsed customer,' 'customer churn,' or 'basket size.' Use this for anything involving keeping customers coming back and re-engaging lapsed buyers in retail and commerce. For post-purchase experience, see post-purchase-experience. For loyalty programs, see loyalty."
 ---
 
@@ -395,14 +395,11 @@ Define lapse based on product category and purchase patterns:
 - **commercial-ops** - Retail financial mechanics including GMROI, sell-through analytics, and promotional yield
 - **post-purchase-experience** - Unboxing experience, product registration, cross-sell triggers, first-time buyer activation
 - **trade-and-dealer-enablement** - Retail buyer pitch kits, co-op advertising, dealer incentives programs
-- **loyalty-programs** - Points structures, tier benefits, redemption options, program optimization
-- **customer-research** - Post-purchase surveys, NPS programs, customer feedback collection
+- **loyalty** - Points structures, tier benefits, redemption options, program optimization
+- **customer-research** - Post-purchase surveys, NPS programs, customer feedback collection, and segmentation/voice-of-customer inputs that target retention/win-back efforts
 - **emails** - Post-purchase email sequences, transactional messages, promotional triggers
-- **sms-marketing** - SMS notifications for shipping, delivery, replenishment reminders
-- **packaging-design** - Structural design, material selection, unboxing experience optimization
+- **sms** - SMS notifications for shipping, delivery, replenishment reminders
 - **visual-merchandising** - In-store execution that complements post-purchase experience
-- **social-media** - Encouraging and amplifying user-generated content, unboxing sharing
+- **social** - Encouraging and amplifying user-generated content, unboxing sharing
 - **content-strategy** - Educational content, usage tips, inspirational lifestyle content for post-purchase and retention
-- **subscription-management** - Setting up and managing auto-replenishment programs
-- **referral-programs** - Designing and optimizing customer referral programs
-- **customer-segmentation** - Advanced segmentation techniques for targeted retention efforts
+- **referrals** - Designing and optimizing customer referral programs

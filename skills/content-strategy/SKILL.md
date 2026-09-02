@@ -2,7 +2,7 @@
 name: content-strategy
 description: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," "content planning," "editorial calendar," "content marketing," "content roadmap," "what content should I create," "blog topics," "content pillars," or "I don't know what to write." Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social.
 metadata:
-  version: 2.0.1
+  version: 2.1.0
 ---
 
 # Content Strategy
@@ -123,7 +123,24 @@ High-intent keywords + product adoption.
 Structure: Challenge → Solution → Results → Key learnings
 
 **Meta Content**
-Behind-the-scenes transparency. "How We Got Our First $5k MRR," "Why We Chose Debt Over VC."
+Behind-the-scenes transparency. "How We Sourced This Collection," "Why We Switched Suppliers."
+
+### Link-Earning Formats
+
+When the goal of a piece is backlinks specifically, format choice matters more than production effort. Foundation Inc.'s B2B Backlink Intelligence Report (March 2026 — a single vendor study, so treat as directional) measured each format's share of backlinks relative to its share of pages:
+
+| Format | Backlinks vs. page share |
+|---|---|
+| Statistics / data roundups | **4.25x** |
+| Glossary / definition pages | 1.47x |
+| Interactive tools / calculators (see **free-tools**) | 1.38x |
+| How-to / tutorials | 1.36x |
+| Original research / reports | 0.80x |
+| Ultimate guides | 0.77x |
+| Thought leadership | 0.74x |
+| Templates / frameworks | 0.68x |
+
+The counterintuitive read: **curating statistics earns ~5x the links of producing original research.** Writers link to whatever makes citation easiest — a maintained stat-roundup page (category buying trends, sizing/fit data, sustainability figures) is citation infrastructure, while original research often gets cited *via* the roundups that aggregate it. Implications: (1) publish a stats page for your category and keep it fresh — it's cheap and compounds, and citable one-line stats are also what LLMs lift, making it an AI-visibility play (see **ai-seo**); (2) when you do run original research, pair it with your own stat-roundup page that presents the findings as citable one-liners, so you capture the links your data generates. The formats at the bottom aren't dead — guides, templates, and thought leadership earn their keep on rankings, conversions, and brand. Judge each piece by the job it's for, and don't expect links from formats that don't earn them.
 
 For programmatic content at scale, see **programmatic-seo** skill.
 
@@ -325,6 +342,29 @@ Score each idea on four factors:
 
 ---
 
+## Create Once, Distribute Twice
+
+Creating content is half the job—distribution is the other half, and most teams skip it. The philosophy: **one exceptional piece, reformatted and repurposed across every channel, not a fresh piece per platform.** Pouring effort into a single flagship and then distributing it everywhere beats spreading thin effort across many mediocre platform-native posts.
+
+Build **distribution hooks into the piece at creation time**, not after: write subheads that stand alone as social posts, structure sections to be lifted out modularly, and pull quotes/stats you already know you'll graphic-ify. A well-designed guide or lookbook is a distribution kit in disguise.
+
+**The ORB Framework as a funnel** — route attention from borrowed → rented → owned, which maps to discovery → engagement → conversion:
+
+- **Borrowed** (other people's audiences: guest content, influencer partnerships, PR) — discovery / breakthrough reach.
+- **Rented** (social platforms, ad networks, marketplaces) — engagement, but you don't own the audience or the algorithm.
+- **Owned** (email/SMS list, blog, community) — conversion and the only durable asset. Everything upstream should funnel here.
+
+ORB mechanics live in the **launch** skill (channel-type playbook) and content atomization/repurposing lives in **social**; the value here is consolidating the *distribute* half of content strategy so it has a home.
+
+**Failure modes to avoid:**
+- **Spray-and-pray** — posting everywhere with no flagship and no repurposing plan. Effort scatters, nothing compounds.
+- **Platform dependency** — building on rented land. Facebook organic reach fell from ~20% to under 2%; any rented channel can throttle you overnight.
+- **The ownership paradox** — teams spend ~90% of effort on channels they don't control (rented/borrowed) and neglect the owned assets that actually convert and can't be taken away.
+
+For the full distribution spine—the Content Distribution Flywheel, platform half-lives, and the atomization checklist—see [references/content-distribution.md](references/content-distribution.md).
+
+---
+
 ## Output Format
 
 When creating a content strategy, provide:
@@ -359,6 +399,7 @@ Visual or structured representation of how content interconnects.
 
 ## References
 
+- **[Content Distribution Spine](references/content-distribution.md)**: Create Once Distribute Twice, ORB as a funnel, the ownership paradox, platform half-lives, the Content Distribution Flywheel, and the per-flagship atomization checklist
 - **[Headless CMS Guide](references/headless-cms.md)**: CMS selection, content modeling for marketing, editorial workflows, platform comparison (Sanity, Contentful, Strapi)
 
 ---
@@ -369,6 +410,8 @@ Visual or structured representation of how content interconnects.
 - **seo-audit**: For technical SEO and on-page optimization
 - **ai-seo**: For optimizing content for AI search engines and getting cited by LLMs
 - **programmatic-seo**: For scaled content generation
+- **launch**: For the ORB channel-type playbook and launch-day distribution mechanics
+- **free-tools**: For interactive tools/calculators as a high-performing link-earning format
 - **site-architecture**: For page hierarchy, navigation design, and URL structure
 - **emails**: For email-based content
 - **social**: For social media content

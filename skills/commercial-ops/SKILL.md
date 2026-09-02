@@ -1,6 +1,6 @@
 ---
 name: commercial-ops
-version: 2.1.0
+version: 2.1.1
 description: "When the user wants to optimize retail operations, improve GMROI, analyze sell-through rates, or optimize trade spend. Also use when the user mentions 'commercial operations,' 'GMROI,' 'sell-through,' 'promotional yield,' 'trade spend optimization,' 'retail margin,' 'inventory turns,' or 'wholesale pipeline.' Use this for anything involving the systems and processes that connect marketing to retail revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing."
 ---
 
@@ -253,13 +253,10 @@ CLV = (Average Order Value) × (Purchase Frequency) × (Customer Lifespan)
 
 ## 8. Related Skills
 
-- **promotional-yield** - Measures effectiveness of trade spend and promotional activities
-- **sell-through-analytics** - Deep dive into velocity analysis and inventory productivity
-- **retail-margin-calculator** - Tools for GMROI, IMU, MMU, and pricing optimization
-- **dealer-pipeline** - Managing wholesale distributor relationships and performance
+- **pricing** / **price-elasticity** - GMROI, IMU, MMU, and pricing-optimization math this skill's margin metrics feed into
 - **post-purchase-experience** - Unboxing, registration, and repeat purchase triggers
 - **retention-and-winback** - Replenishment cadence, LTV decay mitigation, win-back sequences
-- **trade-and-dealer-enablement** - Retail buyer pitch kits, co-op advertising, dealer incentives
-- **inventory-management** - Stock-to-sales ratios, aging analysis, turn optimization
+- **trade-and-dealer-enablement** - Retail buyer pitch kits, co-op advertising, dealer incentives, wholesale/distributor relationship management
+- **range-review** / **overstock** - Stock-to-sales ratios, aging analysis, and turn optimization this skill's velocity metrics inform
 - **visual-merchandising** - Store execution, planogram compliance, display effectiveness
 - **marketing-strategy** - Section 16 (B2B / Wholesale Channel) for strategic alignment

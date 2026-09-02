@@ -3,42 +3,42 @@
   "evals": [
     {
       "id": 1,
-      "prompt": "We make a project management tool for design agencies. Who should we look for as co-marketing partners?",
-      "expected_output": "Should check for product-marketing.md first. Should apply the Partner Identification Framework with audience overlap analysis. Should identify ideal partner characteristics: same buyer persona (design agencies), different problem solved, adjacent in the workflow. Should suggest specific partner categories: design tools (Figma, Adobe), proposal/contract tools (Bonsai, HoneyBook), client communication (Notion, Slack), invoicing/payments (Stripe, FreshBooks), file storage/handoff (Dropbox, Frame.io). Should recommend audience scoring criteria. Should suggest sources to find partners: integration ecosystem, Crossbeam/Reveal for account overlap, customer surveys, G2/Capterra category neighbors, podcasts/newsletters they sponsor.",
+      "prompt": "We make mid-range hiking boots, direct-to-consumer. Who should we look for as co-marketing partners?",
+      "expected_output": "Should check for product-marketing.md first. Should name the likely partnership type(s) first (see references/partnership-types.md) — complementary-category bundle and local business cross-promotion are the strongest fits here. Should apply the Partner Identification Framework's audience overlap analysis: same buyer persona (hikers/outdoor enthusiasts), different problem solved, adjacent in the routine. Should suggest specific partner categories: hiking sock brands, backpack or trekking-pole brands, a waterproofing/material ingredient brand, local outdoor gear retailers or guided-hike operators. Should recommend scoring criteria. Should suggest retail-appropriate discovery sources: customer surveys, social audience-insight tools for follower overlap, stockist lists, trade show exhibitor lists — not SaaS-specific tools like Crossbeam or G2.",
       "assertions": [
         "Checks for product-marketing.md",
+        "Names the partnership type before suggesting partners",
         "Identifies same persona / different problem characteristic",
-        "Suggests specific partner categories in workflow",
-        "Mentions Crossbeam or account overlap data",
-        "Lists multiple sources to find partners",
+        "Suggests specific retail-appropriate partner categories",
+        "Suggests retail-appropriate discovery sources, not SaaS-specific tools",
         "Applies scoring criteria"
       ],
       "files": []
     },
     {
       "id": 2,
-      "prompt": "We're partnering with a competitor — wait, not a competitor, a complementary CRM company. Help us brainstorm 5 campaign ideas we could run together.",
-      "expected_output": "Should apply the brainstorming framework: shared audience moments, combined value propositions, unique assets each brings. Should propose campaign ideas across multiple types from the campaign type tables (content partnerships, webinars/events, product/integration marketing, community/social). Should suggest specific ideas like: co-authored blog post or research report, joint webinar, 'better together' integration landing page, joint case study with shared customer, integration launch, bundle/discount, conference booth sharing. Should ask the campaign idea prompts to spark ideas: what would we create if we had to launch in 2 weeks, what content do both audiences desperately need, what data do we both have that would make a compelling story.",
+      "prompt": "We're a specialty coffee roaster partnering with a local bakery down the street. Help us brainstorm 5 campaign ideas we could run together.",
+      "expected_output": "Should recognize this as a local business cross-promotion (references/partnership-types.md type 4) and calibrate to that type's low formality. Should apply the brainstorming framework: shared audience moments, combined value propositions, unique assets each brings. Should propose ideas across multiple campaign types: a co-hosted tasting/sampling event, a joint social content swap, a 'buy from us, get a discount at them' cross-referral offer, a bundle (coffee + pastry box), mutual window/counter signage. Should use the brainstorming prompts to spark ideas: what would we create if we had to launch in 2 weeks, what would make customers say 'finally, someone did this,' what data or story do we both have.",
       "assertions": [
+        "Recognizes this as a local business cross-promotion and calibrates formality accordingly",
         "Applies brainstorming framework",
-        "Proposes campaigns across multiple types (content, events, integration, community)",
-        "Suggests specific actionable ideas",
-        "Mentions integration or 'better together' angle",
+        "Proposes campaigns across multiple retail-appropriate formats",
+        "Suggests specific actionable ideas (event, bundle, cross-referral, content swap)",
         "Uses brainstorming prompts"
       ],
       "files": []
     },
     {
       "id": 3,
-      "prompt": "Draft a cold outreach email to a potential co-marketing partner. They're a content management platform and we make a marketing analytics tool. Both serve B2B marketing teams.",
-      "expected_output": "Should use the cold outreach template structure. Should include: subject line with both company names, brief role intro, specific observation about audience overlap (not generic), one concrete campaign idea (not 'let's do something'), clear ask for a quick call. Should keep it short and personal. Should optionally mention call prep: account overlap data (Crossbeam/Reveal), 2-3 specific campaign ideas, audience metrics, past partnership examples, clear ask of what's wanted and what's offered.",
+      "prompt": "Draft a cold outreach email to a potential co-marketing partner. They're a ceramics/mug brand and we make specialty coffee. Both sell to home-brew coffee enthusiasts.",
+      "expected_output": "Should use the cold outreach template structure. Should include: subject line with both company names, brief role intro, specific observation about audience overlap (not generic), one concrete campaign idea (not 'let's do something') — likely a bundle or complementary-category partnership per references/partnership-types.md type 2. Should keep it short and personal. Should optionally mention call prep: audience-overlap evidence (survey data or social audience insights, not SaaS-specific account-overlap tools), 2-3 specific campaign ideas, audience metrics, past partnership examples, clear ask of what's wanted and what's offered.",
       "assertions": [
         "Includes subject with both company names",
         "Specific observation about audience overlap",
-        "Includes one concrete campaign idea",
+        "Includes one concrete campaign idea framed as a bundle/complementary partnership",
         "Includes clear ask for a call",
         "Keeps it short and personal",
-        "Mentions what to prepare for the call"
+        "Mentions what to prepare for the call using retail-appropriate evidence"
       ],
       "files": []
     },
@@ -57,13 +57,14 @@
     },
     {
       "id": 5,
-      "prompt": "Our partnership webinar with another SaaS company got 200 signups. How do we split the leads?",
-      "expected_output": "Should address the lead handling question from the Structuring the Partnership section. Should explain common splits: each partner keeps their own registrations (cleanest but loses cross-pollination), all leads shared between both (max reach, requires clear MQL/SQL handoff), split by audience source (your list vs theirs). Should recommend documenting this in advance in a co-marketing agreement covering campaign description, responsibilities, timeline, lead handling, promotion, branding, costs, metrics sharing. Should note measuring success: leads generated per partner, lead quality (MQL/SQL conversion rate), revenue attributed. Should recommend a post-campaign debrief and discussing future collaboration if it worked.",
+      "prompt": "Our joint pop-up event with another local brand got 200 email signups at the door. How do we split the list?",
+      "expected_output": "Should address the lead handling question from the Structuring the Partnership section. Should explain common splits: each partner keeps their own sign-ups (cleanest but loses cross-pollination), all contacts shared between both (max reach, requires clear consent/opt-in handling), split by who each attendee came to see. Should recommend documenting this in advance in a co-marketing agreement covering campaign description, responsibilities, timeline, lead/contact handling, promotion, branding, costs, metrics sharing. Should note measuring success: signups per partner, conversion to an actual purchase (not a SaaS-style MQL/SQL funnel), revenue attributed — and should flag an opt-in/consent requirement before either partner emails a contact captured at the other's booth. Should recommend a post-campaign debrief and discussing future collaboration if it worked.",
       "assertions": [
-        "Explains lead split options",
+        "Explains contact-list split options",
+        "Flags consent/opt-in requirement before cross-emailing captured contacts",
         "Recommends documenting in agreement",
         "Lists agreement components",
-        "Mentions measuring lead quality not just volume",
+        "Mentions measuring conversion to purchase, not SaaS-style lead-scoring",
         "Recommends post-campaign debrief"
       ],
       "files": []

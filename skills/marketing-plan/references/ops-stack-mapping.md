@@ -12,7 +12,7 @@ The plan's Section 11 makes this thesis explicit by:
 1. Mapping skills to stages so the founder sees which skills execute which work
 2. Mapping MCPs/APIs to stages so the founder sees the tooling layer
 3. Naming a concrete operational example that proves the stack works
-4. Showing capability unlocks by funding stage (pre-seed → seed → Series A)
+4. Showing capability unlocks by capital stage (bootstrapped → first outside capital → scaling)
 
 ## Marketing skills mapped to AARRR
 
@@ -161,17 +161,17 @@ The plan's Section 11 makes this thesis explicit by:
 | **Pencil MCP** | Design files |
 | **Figma MCP** | Design files (if Figma) |
 
-## Capability unlocks by funding stage
+## Capability unlocks by capital stage
 
-The plan's Section 11 must include this table (or equivalent), specific to the client's current and projected funding stages.
+The plan's Section 11 must include this table (or equivalent), specific to the client's current and projected capital stages.
 
-| Stage | Headcount | Tooling | Channels live |
+| Tier | Headcount | Tooling | Channels live |
 |---|---|---|---|
-| **Pre-seed / bootstrapped** | fCMO + founder team | All current tooling + marketing-skills library + MCP layer | Organic only (SEO, content, App Store, founder-led social, events, WOM, ambassador) |
-| **Seed close** | + first marketing hire (lifecycle/content owner) | + paid ad accounts (Apple Search Ads, Meta, LinkedIn) + `ads` skill activated | + paid acquisition pilot ($5–15K/mo — see `funding-stage-unlocks.md` for canonical tiers) |
-| **Seed deployment** | + designer (potentially fractional) | + analytics expansion (Mixpanel / Amplitude if needed) | + paid scaling ($20–50K/mo) + first launches (PH, GA) |
-| **Series A** | + performance marketing lead + content lead | + dedicated tooling spend ($2–5K/mo software) + sponsored event budget | + paid scaling ($50–150K/mo) + international consideration + B2B vertical expansion |
-| **Series B+** | Full-stack marketing org (10+ people) | + agency partnerships + PR firm | + brand campaigns + acquisitions + sponsorships at category level |
+| **Tier 1 — Bootstrapped / self-funded** | fCMO + founder team | All current tooling + marketing-skills library + MCP layer | Organic only (SEO, content, social, local marketing, WOM, ambassador) |
+| **Tier 2 — First outside capital** | + first marketing hire (lifecycle/content owner) | + paid ad accounts (Meta, Google, TikTok) + `ads` skill activated | + paid acquisition pilot ($2–8K/mo — see `funding-stage-unlocks.md` for canonical tiers) |
+| **Tier 3 — Scaling with capital** | + designer (potentially fractional) | + analytics expansion beyond GA4 if needed | + paid scaling ($10–30K/mo) + first structured launches |
+| **Tier 4 — Growth capital** | + performance marketing lead + content lead | + dedicated tooling spend ($3–8K/mo software) + sponsored event budget | + paid scaling ($30–100K/mo) + new-market consideration + wholesale/B2B expansion |
+| **Tier 5 — Institutional scale** | Full-stack marketing org (10+ people) | + agency partnerships + PR firm | + brand campaigns + media/IP acquisitions + category-level sponsorships |
 
 ## The concrete-example test
 

@@ -123,13 +123,13 @@ For every gap in the materials, ask the user. The minimum intake covers ten topi
 - What's the funnel *shape* — is it bottle-necked at top, middle, or bottom?
 - What's the biggest leak?
 
-#### Intake 4 — Funding state
-- Current round (pre-seed / seed / Series A / etc.)?
-- Total raised to date?
-- Current burn / runway?
-- Active raise? Closing when?
-- Investors of note?
-- Permission to mention fCMO engagement in pitches?
+#### Intake 4 — Capital state
+- Capital source: bootstrapped/self-funded, a loan/line of credit, outside equity, or a mix? (See `funding-stage-unlocks.md` — most clients this plan serves are not raising VC-style funding rounds.)
+- Total capital raised or borrowed to date, if any?
+- Current cash position / runway?
+- Active raise or loan application? Closing when?
+- Investors or lenders of note?
+- Permission to mention fCMO engagement in investor/lender materials?
 
 #### Intake 5 — Team
 - Founders and what each owns (product, marketing, sales, etc.)?
@@ -142,9 +142,9 @@ For every gap in the materials, ask the user. The minimum intake covers ten topi
 #### Intake 6 — Budget
 - Current monthly marketing spend, broken down: paid acquisition, tools, retainers, headcount?
 - Budget tier this maps to (see `funding-stage-unlocks.md`)?
-- What budget unlocks when the next round closes?
+- What budget unlocks when the next round/loan closes?
 - Blended CAC if known (including salaries, content costs, tools, retainers — not just paid ad spend). If unknown, flag as the top Section 13 open decision — every revenue projection depends on it.
-- ARPC, annual retention rate (or churn rate), so the budget math in `budget-planning.md` can be applied to Section 8 (Revenue) and Section 10 (12-month outlook).
+- AOV, gross margin, purchase frequency, and repeat-purchase rate, so the order-based budget math in `budget-planning.md` can be applied to Section 8 (Revenue) and Section 10 (12-month outlook). If the client is genuinely recurring-revenue, pull ARPC and annual retention rate instead (see `budget-planning.md`'s Recurring-Revenue Variant).
 
 #### Intake 7 — Channels currently active
 - Acquisition: organic SEO, paid search, paid social, content, social, partnerships, events, PR, ambassadors, etc. — for each, status (live / paused / never tried)
@@ -196,8 +196,8 @@ Compile everything into `research.md` with this structure:
 
 ## Company snapshot
 - One-sentence description
-- Stage (pre-seed / seed / Series A / etc.)
-- Product status (beta / GA)
+- Capital-stage tier (see `funding-stage-unlocks.md`)
+- Product/launch status
 
 ## ICP
 - Primary ICP
@@ -356,8 +356,8 @@ If the user says *"redo Section X"* → uncheck that box in `progress.md`, delet
 ## Failure modes to watch for
 
 - **Skipping intake.** A plan written without proper intake is generic and won't survive contact with the founder. Always do the full ten-topic intake unless the user explicitly waives it.
-- **Pretending data exists.** If you can't confirm a number (current MRR, retention rate, etc.), don't guess. Mark it `[TBD — to confirm with team]` in the plan and add to open decisions.
+- **Pretending data exists.** If you can't confirm a number (AOV, purchase frequency, repeat-purchase rate, etc.), don't guess. Mark it `[TBD — to confirm with team]` in the plan and add to open decisions.
 - **Ignoring the brand voice.** If the client has a strong voice (most do), every section must respect it. Read the voice rules before drafting any copy-adjacent text.
 - **Padding the idea bank.** Section 12 is comprehensive only if it includes the skip list with reasons. Don't pad with ideas that clearly don't fit just to hit the 139.
-- **Glossing over uncomfortable metrics.** If churn is high or activation is low, name it in Current State. Founders read past sugar-coating.
-- **Forgetting funding-stage logic.** If the client is mid-raise, the plan must explain what changes when the round closes. Skipping this turns a plan into a wish-list.
+- **Glossing over uncomfortable metrics.** If repeat-purchase rate is weak or first-purchase conversion is low, name it in Current State. Founders read past sugar-coating.
+- **Forgetting capital-stage logic.** If the client is mid-raise or mid-loan-application, the plan must explain what changes when the capital closes. Skipping this turns a plan into a wish-list.

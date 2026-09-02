@@ -90,12 +90,12 @@ Be honest about gaps. If there's no dedicated marketing hire yet, name when one 
 - Retainers / fCMO: list
 - Headcount: list
 - Blended CAC: $X (must include salaries, content costs, tools, retainers — not just paid spend; see `references/budget-planning.md` for the calculation)
-- Current spend as % of ARR: X% (compare against 5–40% range)
+- Current spend as % of annual revenue: X% (compare against the 2–30% range in `references/budget-planning.md`)
 
-State the funding-stage tier this maps to (see `references/funding-stage-unlocks.md`). Implication: what 90-day plan must produce *without* lever pulls that require future budget.
+State the capital-stage tier this maps to (see `references/funding-stage-unlocks.md`). Implication: what 90-day plan must produce *without* lever pulls that require future budget.
 
-### Phase of SaaS growth
-Name the current phase: $0–10K ARR / $10K–100K / $100K–1M / $1M–$10M / $10M+. Each phase has its own binding constraint and dominant growth pattern (see `references/growth-patterns.md`). Section 10 sequences the move into the next phase.
+### Phase of growth
+Name the current phase: $0–250K / $250K–1.5M / $1.5M–10M / $10M+ annual revenue (see `references/growth-patterns.md`). If the client is genuinely recurring-revenue, use the same phase logic denominated in ARR instead of annual revenue — see `references/budget-planning.md`'s Recurring-Revenue Variant for the unit-economics implications. Each phase has its own binding constraint and dominant growth pattern. Section 10 sequences the move into the next phase.
 
 ### What's already done (acknowledge, then build on)
 Table:
@@ -252,17 +252,28 @@ Quarter-by-quarter outcome state (Q1 / Q2 / Q3 / Q4).
 - Long-term value pools (data licensing, enterprise expansion) — flagged not executed in 12-month plan
 
 ### Unit economics
-Required table:
+Required table (order-based — the default for retail/ecommerce/wholesale clients; see `ads/references/payback-period.md` for why LTV:CAC is deliberately not used here):
+
+| Metric | Value | Note |
+|---|---|---|
+| AOV (average order value) | $X | Pulled from ecommerce platform / POS |
+| Gross margin % | X% | On a typical order |
+| Blended CAC | $X | Includes all marketing costs, not just paid |
+| Blended annual purchase frequency | X | Across the whole new-customer cohort, one-time buyers included — see `references/budget-planning.md` |
+| Repeat-purchase rate | X% | Share of first-time buyers who order again within 12 months |
+| Payback period | X months | CAC ÷ (margin per order × monthly frequency), repeat-rate-discounted — see `ads/references/payback-period.md` |
+
+These feed the budget math in Section 10. If any of these are unknown, flag in Section 13 as top open decision.
+
+**If the client is genuinely recurring-revenue** (subscribe-and-save, membership, marketplace take-rate), use this table instead:
 
 | Metric | Value | Note |
 |---|---|---|
 | ARPC (avg monthly revenue per customer) | $X | Pulled from Stripe / billing |
 | Blended CAC | $X | Includes all marketing costs, not just paid |
 | Annual retention rate | X% | 1 − annual churn |
-| LTV (rough) | $X | ARPC × 12 / annual churn |
-| LTV / CAC | X | Health benchmark: > 3 |
 
-These feed the budget math in Section 10. If any of these are unknown, flag in Section 13 as top open decision.
+Skip LTV/CAC as the headline health check either way — `ads/references/payback-period.md` explains why it's a destructive metric even in the recurring-revenue case; use payback period (or the ARPC/retention formula in `references/budget-planning.md`'s Recurring-Revenue Variant) instead.
 
 ### Skills + tools
 `pricing`, `paywalls`, `sales-enablement`, `revops`, `ab-testing`, etc.
@@ -303,10 +314,10 @@ Second-order moves. Layered tactics. 90-day review prep.
 ### Framing (top of Section 10)
 
 State explicitly:
-- **Budget method used.** Method 1 (Revenue-Based 5–40% of ARR) or Method 2 (Goal-Based formula). See `references/budget-planning.md`. Show the math.
+- **Budget method used.** Method 1 (Revenue-Based 2–30% of annual revenue) or Method 2 (Goal-Based formula). See `references/budget-planning.md`. Show the math.
 - **Annual budget total** + the experimental buffer (+10–20%).
-- **Resulting end-of-year ARR goal.** Honest forecast, not a guarantee — see the forecasting reality check in `references/measurement-framework.md`.
-- **Growth pattern expected.** Linear (predictable $X MRR added per month), step-function (plateau between deliberate jumps), or layered S-curves. For VC-backed Series A+, anchor against 3-3-2-2-2 and show whether the plan matches it or explicitly chooses a different trajectory. See `references/growth-patterns.md`.
+- **Resulting end-of-year revenue goal.** Honest forecast, not a guarantee — see the forecasting reality check in `references/measurement-framework.md`.
+- **Growth pattern expected.** Linear (predictable $X new-customer revenue added per month), step-function (plateau between deliberate jumps), or layered S-curves. For a VC- or growth-equity-backed DTC client specifically, anchor against 3-3-2-2-2 and show whether the plan matches it or explicitly chooses a different trajectory; for the majority of clients (bootstrapped, self-funded, loan-financed), skip that benchmark entirely. See `references/growth-patterns.md`.
 
 ### Structure (per quarter)
 

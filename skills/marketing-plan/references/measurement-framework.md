@@ -3,8 +3,8 @@
 Every plan needs a measurement section that tells the team how to know if the plan is working. This doc is the source for Section 13's measurement subsection.
 
 **Related docs:**
-- `growth-patterns.md` — the 3-3-2-2-2 VC growth path (3× in years 1–2, 2× in years 3–7 from $1M ARR) and which phase of SaaS growth the company is in ($0–10K / $10K–100K / $100K–1M+)
-- `budget-planning.md` — CAC calculation (blended, not paid-only) and the forecasting reality check (forecasts under $100M ARR are educated guesses, not precise predictions)
+- `growth-patterns.md` — the funded-DTC growth path (3× in years 1–2, 2× in years 3–5 from $1M revenue, for VC/growth-equity-backed clients only) and which phase of growth the business is in ($0–250K / $250K–1.5M / $1.5M–10M / $10M+)
+- `budget-planning.md` — CAC calculation (blended, not paid-only) and the forecasting reality check (forecasts under $100M revenue are educated guesses, not precise predictions)
 
 ## The north-star principle
 
@@ -45,9 +45,9 @@ Don't default to "ARR" or "MRR" alone. Those are outcomes, not norths. Pick some
 - **Daily active readers / listeners × ad revenue per session** — captures both reach and monetization
 - Alternative: "Subscriber count × retention × ARPU"
 
-### Commerce (DTC, non-subscription)
+### Commerce (DTC, non-subscription — the default for this plan's typical client)
 - **Repeat purchase rate × AOV × frequency** — captures monetization layered on quality of customer
-- Alternative: "Customer LTV / CAC × payback period"
+- Alternative: "Discounted payback period by category" (see `ads/references/payback-period.md`) — deliberately not LTV/CAC, which that reference treats as a destructive metric for retail
 
 ## Leading indicators by AARRR stage
 
@@ -136,20 +136,20 @@ For each quarter in Section 10, the plan must include 3–5 specific KPI targets
 - Some *capability* metrics — what new things are live? "First Guides pilot launched."
 
 **Q4 (compound quarter):**
-- Mostly *compound* metrics — is the flywheel turning? "50%+ of new subs from non-paid channels." "Ambassador-driven 15–25% of new subs."
-- Some *narrative* metrics — does the Series A story write itself? "Blended LTV/CAC > 3."
+- Mostly *compound* metrics — is the flywheel turning? "50%+ of new customers from non-paid channels." "Referral-driven 15–25% of new customers."
+- Some *narrative* metrics — does the growth-capital story write itself? "Payback period holding under target across the top two channels."
 
-## Anchoring against the VC growth path
+## Anchoring against the funded-DTC growth path
 
-For VC-backed clients past $1M ARR, anchor 12-month and multi-year targets against the **3-3-2-2-2 rule** (3× in years 1 and 2, then 2× in years 3 through 7). Hitting it is rare; most companies don't. Anchoring against it forces the plan to either match it and show how, or explicitly defend choosing a slower trajectory. Full table and context in `growth-patterns.md`.
+For a VC- or growth-equity-backed DTC client specifically, past $1M annual revenue, anchor 12-month and multi-year targets against the **3-3-2-2-2 rule** (3× in years 1 and 2, then 2× in years 3 through 5). Hitting it is rare; most brands don't. Anchoring against it forces the plan to either match it and show how, or explicitly defend choosing a slower trajectory. Full table and context in `growth-patterns.md`.
 
-For non-VC-backed companies (bootstrapped, founder-funded, profit-focused), the 3-3-2-2-2 doesn't apply. Use linear-pattern targets ("$X MRR added per month") or step-function targets ("$Y revenue jump after the enterprise tier launches") instead.
+**For the majority of clients this plan serves** (bootstrapped, self-funded, loan-financed, profit-focused), the 3-3-2-2-2 doesn't apply at all. Use linear-pattern targets ("$X new-customer revenue added per month") or step-function targets ("$Y revenue jump after the wholesale/national-account channel launches") instead.
 
 ## Forecasting reality check
 
 A plan derives a budget and an annual goal. It does not produce a 12-month month-by-month forecast that's reliably accurate to the dollar.
 
-**Unless the company is publicly traded, all forecasts are educated guesses.** No startup under $100M ARR consistently hits month-by-month forecasts. Quarterly review is when the plan adjusts — not when variance is treated as failure.
+**Unless the company is publicly traded, all forecasts are educated guesses.** No business under $100M in annual revenue consistently hits month-by-month forecasts. Quarterly review is when the plan adjusts — not when variance is treated as failure.
 
 What the plan commits to honestly:
 - The annual goal is a defensible direction-of-travel

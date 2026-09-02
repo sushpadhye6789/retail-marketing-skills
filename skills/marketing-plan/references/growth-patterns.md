@@ -1,58 +1,58 @@
-# Growth Patterns — The Real Shape of SaaS Growth
+# Growth Patterns — The Real Shape of Retail/DTC Growth
 
-The 12-month outlook in every plan (Section 10) describes a trajectory. This doc names the shape of that trajectory honestly — what real SaaS growth looks like, when to expect plateaus, and how to plan for the next leg of growth before the current one stalls.
+The 12-month outlook in every plan (Section 10) describes a trajectory. This doc names the shape of that trajectory honestly — what real retail/DTC growth looks like, when to expect plateaus, and how to plan for the next leg of growth before the current one stalls.
 
-Excerpted and adapted from *Founding Marketing* by Corey Haines.
+Adapted from *Founding Marketing* by Corey Haines. The source material's phase thresholds are ARR-denominated (built for subscription/SaaS businesses); this version recalibrates them against annual revenue for a retail/DTC business with no recurring-revenue snapshot. If the client genuinely runs on recurring revenue (see `budget-planning.md`'s Recurring-Revenue Variant), the original ARR framing applies more directly — otherwise, use the revenue thresholds below as directional, not audited, figures; recalibrate against the client's own category and cost structure.
 
-## The long, slow SaaS ramp of death
+## The long, slow retail ramp of death
 
-Pitch decks show hockey sticks. Real growth shows a series of S-curves — each representing a distinct phase followed by a plateau that tests resolve and creativity.
+Pitch decks and brand launches show hockey sticks. Real growth shows a series of S-curves — each representing a distinct phase followed by a plateau that tests resolve and creativity.
 
-### Phase 1 — $0 → $10K ARR (the grueling phase)
+### Phase 1 — $0 → ~$250K annual revenue (the grueling phase)
 
-The hardest milestone. Every customer is a hard-won victory. Typical time: **6–12 months.** Most companies pivot the product multiple times during this phase.
+The hardest milestone. Every customer is a hard-won victory. Typical time: **6–12 months** for a new brand or a new location finding its footing. Most brands adjust product, assortment, or positioning multiple times during this phase.
 
 What it requires:
-- Runway long enough to keep experimenting until something clicks
-- A financial cushion or additional income sources (often the difference between success and shutdown)
-- Tolerance for ambiguity — the product positioning, the pricing, and the channel can all still be wrong at this stage
+- Runway (cash or inventory financing) long enough to keep experimenting until something clicks
+- A financial cushion or additional income sources for the founder — often the difference between success and shutdown
+- Tolerance for ambiguity — the product/assortment fit, pricing, and channel mix can all still be wrong at this stage
 
-### Phase 2 — $10K → $100K ARR (the treacherous middle)
+### Phase 2 — ~$250K → ~$1.5M annual revenue (the treacherous middle)
 
-The middle ground that kills most promising startups. The average company reaches ~$40K ARR in year one. The danger: enough revenue to prove the concept, not enough to support a team.
+The middle ground that kills most promising retail businesses. Enough revenue to prove the concept, not enough margin to support a real team.
 
-The threshold to watch for: **$8–10K MRR.** That's when founders can typically go full-time on the business without other income sources. Until then, careful cash management or side income carries the company through.
+The threshold to watch for: **the monthly gross margin dollars needed to cover a founder's own draw** — often somewhere in the $15–25K/month revenue range for a lean operation, depending on category margin. That's when founders can typically go full-time on the business without other income sources. Until then, careful cash and inventory management, or side income, carries the business through.
 
-Companies that flame out in Phase 2 usually run out of runway just as things start working.
+Businesses that flame out in Phase 2 usually run out of cash (often inventory-tied-up cash, not just operating cash — see `ads/references/payback-period.md` on why payback period matters more than LTV:CAC here) just as things start working.
 
-### Phase 3 — $100K → $1M ARR (the acceleration phase)
+### Phase 3 — ~$1.5M → ~$10M annual revenue (the acceleration phase)
 
-Where things get interesting. Typical time: nearly 2 years total to reach $1M. But there's an acceleration pattern: **once across $100K, companies often double from $100K → $200K in one-third the time it took to reach the first $100K.**
+Where things get interesting. There's an acceleration pattern: **once across ~$250K, revenue often doubles from there in one-third the time it took to reach that first $250K.**
 
-Why: critical mass kicks in. Word-of-mouth starts working. Early customers become your best salespeople. The product has proven itself, and growth becomes more about execution than experimentation.
+Why: critical mass kicks in. Word-of-mouth and repeat customers start carrying real weight. Early customers become the best salespeople. The product/assortment has proven itself, and growth becomes more about execution and repeat-purchase compounding than experimentation.
 
 This is the phase where the marketing plan's 90-day roadmap (Section 9) starts compounding instead of just covering ground.
 
 ## Two real growth patterns (and the exponential myth)
 
-The myth: successful SaaS companies grow exponentially, doubling revenue month over month like clockwork.
+The myth: successful retail/DTC brands grow exponentially, doubling revenue month over month like clockwork.
 
 The reality: two distinct patterns, often combining at scale to *look* exponential when zoomed out.
 
 ### Pattern 1 — Linear growth
 
-Build a predictable revenue machine. Find a channel that works (content, partnerships, paid, outbound) and steadily scale it. Some companies reliably add **$10K MRR per month** through a well-oiled marketing engine.
+Build a predictable revenue machine. Find a channel that works (content, partnerships, paid, wholesale accounts) and steadily scale it. Some brands reliably add a fixed dollar amount of new-customer revenue each month through a well-oiled acquisition engine.
 
-Less sexy than exponential. Far more sustainable. Crucially, **plannable**: when you know what you can count on adding each month, hiring decisions, product roadmap, and expansion planning all become tractable.
+Less sexy than exponential. Far more sustainable. Crucially, **plannable**: when you know what you can count on adding each month, inventory planning, hiring decisions, and expansion planning all become tractable.
 
 ### Pattern 2 — Step-function growth
 
 Periods of plateau followed by sudden jumps. Jumps aren't random — they're triggered by specific events:
-- Breaking into a new market segment (e.g., enterprise after starting SMB)
-- Launching a major product expansion (new feature line, new tier)
-- Cracking a new marketing channel that compounds
+- Breaking into a new channel or market segment (e.g., moving from ecom-only into wholesale/dealer distribution, or opening a first physical location — see `marketing-strategy` Section 15)
+- Launching a major product/collection expansion (a new category, a new tier, a flagship SKU)
+- Cracking a new marketing channel that compounds (a viral moment, a press hit that lands, an influencer partnership that sticks)
 
-Example: one founder saw revenue triple in two months after launching enterprise features — following six months of flat growth.
+Example: a brand seeing revenue jump sharply after landing its first major wholesale account or national retail placement — following months of flat direct-to-consumer growth.
 
 Key insight for the plan: **each step requires deliberate action and investment.** Steps don't happen by waiting. While standing on the current step, you have to be actively building the next one.
 
@@ -71,11 +71,11 @@ The secret to sustained growth isn't one perfect channel. It's orchestrating mul
 ### Channel S-curves
 
 Every marketing channel has its own lifecycle:
-- **SEO** — 6–12 months to mature; once it does, steady leads for years. Marathon runner.
-- **Paid ads** — quick wins; diminishing returns as you scale.
+- **SEO** — 6–12 months to mature; once it does, steady traffic for years. Marathon runner.
+- **Paid ads** — quick wins; diminishing returns as you scale (and payback period lengthens — see `ads/references/payback-period.md`).
 - **Content marketing** — slow to start, compounds beautifully over time.
-- **Partnerships / co-marketing** — episodic; high yield when the right partner aligns.
-- **Outbound** — predictable when calibrated; CAC-heavy and plateaus at team capacity.
+- **Partnerships / co-marketing / affiliate & influencer** — episodic; high yield when the right partner aligns.
+- **Wholesale/trade accounts** — predictable once the pipeline is calibrated (see `marketing-strategy` Section 16's Business/Commercial split); relationship-heavy and plateaus at account-management capacity.
 - **PR** — spike-driven; sustains awareness rather than direct conversion.
 
 **The rule:** start the next channel before the current one plateaus. Riding one channel to its ceiling before investing in the next produces a multi-month growth plateau that takes more effort to break out of than it would have taken to start the next channel earlier.
@@ -84,20 +84,18 @@ In the plan: Section 4 (Acquisition) names current channels, planned channels, a
 
 ### Product S-curves
 
-Your core product naturally hits a growth ceiling as you saturate the initial market. Pushing harder on the same features doesn't break through. What does:
+The core product/assortment naturally hits a growth ceiling as the initial market saturates. Pushing harder on the same SKUs doesn't break through. What does:
+- Adding products that target new use cases (a coffee brand launching a cold-brew concentrate)
+- Extending the line to serve adjacent needs (an apparel brand adding footwear or accessories to sell deeper into the same customer base)
+- Expanding into new customer segments (adding a wholesale/B2B line alongside a consumer-only assortment — see `marketing-strategy` Section 16)
 
-- Adding features that target new use cases
-- Extending the product line to serve adjacent needs
-- Expanding into new market segments (e.g., team collaboration added to a single-user tool — opens a new market)
-
-In the plan: Sections 5 (Activation) and 8 (Revenue) name where the product needs to grow to unlock the next growth tier.
+In the plan: Sections 5 (Activation) and 8 (Revenue) name where the product/assortment needs to grow to unlock the next tier.
 
 ### Market S-curves
 
-Every market segment has its own growth ceiling. Time the expansion into the next segment while the current segment is still showing strong growth. Common patterns:
-
-- SMB → mid-market → enterprise
-- Single vertical → adjacent verticals
+Every market segment or channel has its own growth ceiling. Time the expansion into the next one while the current segment is still showing strong growth. Common patterns:
+- Ecom-only → wholesale/dealer distribution → owned physical retail (see `marketing-strategy` Section 15's distribution model)
+- Single vertical/category → adjacent categories
 - Domestic → international
 
 Waiting until a segment is saturated makes the transition harder.
@@ -106,7 +104,7 @@ In the plan: Section 2 (Strategic frame) names current segment + future segments
 
 ### The orchestration
 
-The real magic: while SEO is maturing, you're using paid for quick wins. As those channels mature, you're developing product features that unlock enterprise. Meanwhile, the groundwork for international expansion is being laid for when domestic saturates.
+The real magic: while SEO is maturing, paid is delivering quick wins. As those channels mature, the product line is developing the next category that unlocks a new customer segment. Meanwhile, the groundwork for a wholesale channel or international expansion is being laid for when the domestic direct channel saturates.
 
 This is the operational thesis behind the AARRR mapping (Sections 4–8) and the 12-month outlook (Section 10): each section is a curve, and the plan sequences them so the next curve is ramping while the current one is still growing.
 
@@ -126,7 +124,7 @@ Why it matters for the plan:
 - It maps cleanly onto the **10–20% experimental budget buffer** in `budget-planning.md` — the experimental layer is the 10% here.
 - It gives Section 11 (Ops stack) and Section 10 (12-month outlook) a defensible allocation logic instead of dumping the whole budget into what's currently working.
 
-**In the plan:** Section 10 (12-month outlook) names what sits in each bucket now, and what's expected to graduate. Section 11 (Ops stack) shows the 70/20/10 split across the AARRR stages. Adjust the ratio by phase — Phase 1 companies (still hunting for any channel that works) may run closer to 40/30/30; Phase 3 companies with a proven engine can run 80/15/5.
+**In the plan:** Section 10 (12-month outlook) names what sits in each bucket now, and what's expected to graduate. Section 11 (Ops stack) shows the 70/20/10 split across the AARRR stages. Adjust the ratio by phase — Phase 1 businesses (still hunting for any channel that works) may run closer to 40/30/30; Phase 3 businesses with a proven engine can run 80/15/5.
 
 ## Weekly tracking cadence and plateau alerts
 
@@ -134,57 +132,45 @@ S-curve plateaus are the single most important thing to catch early — the whol
 
 ### The cadence
 
-- **Weekly** — review the leading indicators for each active S-curve (new signups per channel, content velocity, activation rate, MRR added). Weekly is frequent enough to spot a curve flattening while there's still time to act.
-- **Monthly** — roll the weeklies up; confirm which bucket (70/20/10) each initiative belongs in and whether anything should graduate or be cut.
+- **Weekly** — review the leading indicators for each active S-curve (new customers per channel, content velocity, first-purchase/activation rate, revenue added). Weekly is frequent enough to spot a curve flattening while there's still time to act.
+- **Monthly** — roll the weeklies up; confirm which bucket (70/20/10) each initiative belongs in and whether anything should graduate or be cut. Reconcile against seasonality — a retail business's monthly numbers move with the calendar (holiday, back-to-school, category-specific seasons) in ways a subscription business's don't; don't mistake a seasonal dip for a plateau or a seasonal spike for a breakout.
 - **Quarterly** — the plan itself adjusts (re-sequence Section 10, reallocate the budget).
 
 ### Plateau-indicator alerts
 
 Watch for these signals that a curve is topping out — each is a trigger to shift weight toward the next curve, not to push harder on the current one:
 
-- **Week-over-week additions flattening** — the channel is adding the same absolute numbers it did last month despite equal or greater effort (declining marginal return).
-- **Rising CAC on a formerly cheap channel** — paying more for the same result is the classic plateau tell.
-- **Engagement/activation softening at the top of the funnel** — the audience for this channel/message is saturating.
+- **Week-over-week additions flattening** — the channel is adding the same absolute numbers it did last month despite equal or greater effort (declining marginal return). Compare against the same period last year, not just last month, to rule out seasonality.
+- **Rising CAC on a formerly cheap channel**, or a payback period stretching past what the cash position can carry (see `ads/references/payback-period.md`) — paying more (or waiting longer) for the same result is the classic plateau tell.
+- **Engagement/first-purchase rate softening at the top of the funnel** — the audience for this channel/message is saturating.
 - **Effort up, output flat** — the team is working harder to hold the line rather than to grow it.
 
 When two or more fire on the same curve, that's the trigger to accelerate the **20% "next" bucket** — the plateau is the moment between two S-curves, and it should already have a successor ramping.
 
 **In the plan:** Section 13 (Measurement) names the weekly leading indicators per S-curve and the specific plateau thresholds that trigger the next move. This turns "watch for plateaus" from a platitude into an operational alert.
 
-## The 3-3-2-2-2 VC growth path
+## The funded-DTC growth path (3-3-2-2-2 rule)
 
-For companies that have crossed $1M ARR and raised institutional capital, the VC benchmark is:
+For a brand that has crossed roughly $1M in annual revenue and raised venture or growth-equity capital specifically, the investor benchmark is often the same revenue-multiple path SaaS companies are held to — see `budget-planning.md`'s "The funded-DTC growth path" section for the full table and reasoning.
 
-| Year | Multiple | Cumulative ARR (from $1M) |
-|---|---|---|
-| Year 0 | — | $1M |
-| Year +1 | 3× | $3M |
-| Year +2 | 3× | $9M |
-| Year +3 | 2× | $18M |
-| Year +4 | 2× | $36M |
-| Year +5 | 2× | $72M |
-| Year +6 | 2× | $144M |
-| Year +7 | 2× | $288M |
-
-Most companies don't hit this. Useful regardless — anchoring the 12-month outlook against this benchmark forces the plan to either (a) match it and show how, or (b) explicitly defend choosing a slower trajectory.
-
-For non-VC-backed (bootstrapped, founder-funded, profit-focused) companies, this curve doesn't apply. Use linear or step-function targeting instead.
+**Most retail clients this plan serves are not VC-backed.** For a bootstrapped, self-funded, or bank-financed business, this benchmark doesn't apply — use linear or step-function targeting instead, per the patterns above.
 
 ## How this informs the plan
 
 | Section | What to include |
 |---|---|
-| **3 (Current state)** | Where the company is on each S-curve (channel maturity, product maturity, market saturation). Name the current phase ($0–10K / $10K–100K / $100K–1M / $1M+). |
+| **3 (Current state)** | Where the business is on each S-curve (channel maturity, product/assortment maturity, market saturation). Name the current phase ($0–250K / $250K–1.5M / $1.5M–10M / $10M+). |
 | **4 (Acquisition)** | Current channels + their position on the S-curve (early / mature / plateauing). Next channel investment with rationale. |
-| **5–8 (AARRR)** | Each section names the binding constraint at the current phase. For Phase 2 companies, Activation is usually the leverage point. For Phase 3, Retention + Referral compound the existing growth. |
-| **9 (90-day roadmap)** | Linear-pattern moves dominate (predictable additions). Step-function setups (the build-up to a launch, an enterprise tier, a new market segment) live here. |
-| **10 (12-month outlook)** | Sequence channel S-curves, product S-curves, market S-curves. Apply the 70/20/10 split (current / next / experimental) so the next curve is funded before the current one plateaus. If VC-backed Series A+, anchor against 3-3-2-2-2. If not, name the linear or step-function targets. |
+| **5–8 (AARRR)** | Each section names the binding constraint at the current phase. For Phase 2 businesses, Activation (first-purchase conversion) is usually the leverage point. For Phase 3, Retention + Referral compound the existing growth. |
+| **9 (90-day roadmap)** | Linear-pattern moves dominate (predictable additions). Step-function setups (the build-up to a launch, a new distribution channel, a new market) live here. |
+| **10 (12-month outlook)** | Sequence channel S-curves, product S-curves, market S-curves. Apply the 70/20/10 split (current / next / experimental) so the next curve is funded before the current one plateaus. If VC/growth-equity-backed DTC, anchor against 3-3-2-2-2. If not, name the linear or step-function targets. |
 | **11 (Ops stack)** | Show the 70/20/10 allocation across the AARRR stages — what share protects what's working vs. builds the next curve vs. experiments. |
-| **13 (Measurement)** | The north-star metric reflects the current phase (Phase 1 is usually pure new-signup; Phase 3 is usually expansion ARR or NRR). Name the weekly leading indicators per S-curve and the plateau thresholds that trigger the next move. |
+| **13 (Measurement)** | The north-star metric reflects the current phase (Phase 1 is usually pure new-customer count; Phase 3 is usually repeat-purchase revenue or repeat rate). Name the weekly leading indicators per S-curve and the plateau thresholds that trigger the next move. |
 
 ## Operational guidance for the planner
 
-- **Don't promise exponential.** If the plan implies doubling every month, the founder will use it against you in 90 days. Linear + step-function is honest.
-- **Name the binding constraint.** Phase 1 binding constraint is finding any channel that works. Phase 2 is funding the team. Phase 3 is breaking the ceiling on whichever channel got you here.
+- **Don't promise exponential.** If the plan implies doubling every month, the founder will use it against the plan in 90 days. Linear + step-function is honest.
+- **Name the binding constraint.** Phase 1's binding constraint is finding any channel that works. Phase 2 is funding the team and the inventory. Phase 3 is breaking the ceiling on whichever channel got the business here.
 - **Plateaus aren't failures.** They're the moment between two S-curves. The plan should anticipate them and stage the next move.
-- **Don't conflate "growth" with "growth rate."** A company adding $20K MRR each month for 24 months has built a remarkable machine. The fact that the *percentage* growth rate declines as the base grows is arithmetic, not failure.
+- **Don't conflate "growth" with "growth rate."** A brand adding a steady amount of new-customer revenue each month for 24 months has built a remarkable machine. The fact that the *percentage* growth rate declines as the base grows is arithmetic, not failure.
+- **Don't mistake seasonality for a plateau or a breakout.** Retail revenue moves with the calendar in ways the original SaaS framing doesn't account for — always compare a suspected plateau against the same period a year prior before reallocating budget away from a channel that's simply in its off-season.

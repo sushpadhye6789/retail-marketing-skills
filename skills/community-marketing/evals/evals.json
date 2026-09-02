@@ -3,14 +3,14 @@
   "evals": [
     {
       "id": 1,
-      "prompt": "We're a B2B SaaS that wants to start a community. Should we use Discord or Slack?",
-      "expected_output": "Should check for product-marketing.md first. Should apply the platform selection guide. Should recommend Slack for B2B SaaS communities — familiar to SaaS buyers, professional context — but flag the trade-offs: free tier history limits, can feel like work. Should explain Discord is stronger for developer, gaming, or creator communities with real-time chat needs. Should consider the audience identity: if buyers are professionals during workday, Slack fits the moment; if they're hobbyists or developers, Discord may work. Should ask the user about their ideal community member and primary goal before fully committing. Should also note Circle as an alternative if they want clean UX without platform baggage.",
+      "prompt": "We're a wholesale/B2B apparel brand with a growing network of independent boutique accounts. We want to start a community for our retail buyers. Should we use Discord or Slack?",
+      "expected_output": "Should check for product-marketing.md first. Should recognize this as a Trade/Wholesale account community model (see references/community-models.md) rather than a consumer community, and apply the platform selection guide accordingly. Should recommend Slack for a professional-buyer audience — familiar, business context — over Discord. Should note what this model needs to actually work: genuinely useful content for buyers (sell-through data, early access to new lines, co-op marketing assets), and a clear boundary from any consumer-facing community per marketing-strategy Section 16's B2C/B2B separation guidance. Should ask about the ideal community member and primary goal before fully committing.",
       "assertions": [
         "Checks for product-marketing.md",
-        "Recommends Slack for B2B context",
-        "Notes Slack free tier limitations",
-        "Compares Discord use case",
-        "Mentions Circle or other alternatives",
+        "Identifies this as a Trade/Wholesale community model",
+        "Recommends Slack over Discord for the professional-buyer context",
+        "Names useful content types for a buyer community (sell-through data, early access, co-op assets)",
+        "Flags keeping this separate from any consumer-facing community",
         "Asks about audience identity or goal"
       ],
       "files": []
@@ -82,6 +82,19 @@
         "Mentions closing the loop with product",
         "Warns about unanswered questions threshold",
         "Notes peer support must feel valued, not used"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "We sell mid-range hiking and camping gear direct-to-consumer. We want to build 'a community' but I'm not sure what that should actually look like for us.",
+      "expected_output": "Should not jump straight to a platform recommendation. Should walk through the community-models taxonomy (references/community-models.md) and identify that this category plausibly fits multiple models — Peer-support (gear has a real learning curve: fit, maintenance, technique) and Category/Lifestyle (hiking/camping is a bigger identity than any one gear brand) are the strongest fits; UGC/Content is a reasonable secondary (trip photos, gear-in-use content). Should recommend naming a primary model rather than trying to be everything at once, and should ask about the primary community goal (retention, word-of-mouth, support deflection) to help narrow it. Should note that Category/Lifestyle is the highest-effort, highest-payoff option and shouldn't be the default without real content/budget commitment behind it.",
+      "assertions": [
+        "References the community-models taxonomy rather than jumping to a platform",
+        "Identifies Peer-support as a strong fit given the category's learning curve",
+        "Identifies Category/Lifestyle as a strong fit given the category's identity",
+        "Recommends naming a primary model rather than doing all of them at once",
+        "Flags that Category/Lifestyle needs real investment, not a default choice"
       ],
       "files": []
     }

@@ -2,7 +2,7 @@
 name: co-marketing
 description: "When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who should we partner with,' 'integration marketing,' 'cross-promotion,' 'collaborate with another company,' 'partnership ideas,' or 'co-brand.' For customer referral programs, see referrals. For launch-specific partnerships, see launch."
 metadata:
-  version: 2.0.3
+  version: 2.1.0
 ---
 
 You are a co-marketing strategist who helps retail and ecommerce brands identify ideal partners and brainstorm high-impact joint campaigns.
@@ -21,6 +21,10 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 - Structuring co-marketing agreements
 
 ---
+
+## Partnership Types
+
+Before identifying specific partners, name the *type* of partnership this is — a co-branded product collaboration, a complementary-category bundle, a local business cross-promotion, a wholesale/trade co-marketing arrangement, and several others each need different partners, different formality, and different success metrics. See `references/partnership-types.md` for the full retail-specific taxonomy. The framework below (audience overlap, scoring, where to find partners) applies across types, but calibrate effort and process to the type first.
 
 ## Partner Identification Framework
 
@@ -54,27 +58,27 @@ Rate potential partners (1-5) on:
 
 ### 3. Where to Find Partners
 
-**Integration ecosystem:**
-- Your existing integration partners
-- Tools in the same app marketplace category
-- Platforms your product plugs into
+**Adjacent categories** (see `references/partnership-types.md` types 1–3):
+- Products used before yours in the same routine/occasion
+- Products used after or alongside yours
+- Products bought by the same customer for a related need
 
-**Adjacent categories:**
-- Tools that solve the problem before yours
-- Tools that solve the problem after yours
-- Tools used by the same role but different workflow
+**Local and trade signals** (see `references/partnership-types.md` types 4 and 6):
+- Neighboring businesses in the same shopping district or center — see `local-marketing`
+- Who exhibits at the same trade shows? (see `experiential-marketing/references/event-portfolio-and-sponsorship.md`)
+- Suppliers/co-manufacturers whose name could carry weight on your packaging (ingredient partnerships)
+- Wholesale marketplaces (Faire and similar) surface brands already selling to a similar retailer base
 
-**Community signals:**
-- Who sponsors the same podcasts/newsletters?
-- Who exhibits at the same conferences?
-- Who's active in the same communities?
-- Whose content does your audience share?
+**Community and audience signals:**
+- Who sponsors the same local events or community groups?
+- Who's active in the same social/community spaces your customers are?
+- Whose content does your audience share or tag you alongside?
 
 **Data sources:**
-- Crossbeam or Reveal for account overlap
-- Customer surveys ("what else do you use?")
-- G2/Capterra category neighbors
-- Job postings mentioning your tool + others
+- Customer surveys ("what other brands do you buy from in this category?")
+- Social platform audience-insight tools for follower overlap
+- A prospective partner's own stockist/retailer list, if public
+- Trade show exhibitor lists in your category
 
 ---
 
@@ -100,15 +104,15 @@ Rate potential partners (1-5) on:
 | **Conference booth sharing** | Medium | Cost splitting, audience overlap |
 | **Joint happy hour/dinner** | Low | Relationship building at events |
 
-### Product & Integration Marketing
+### Product & Bundle Marketing
 
 | Format | Effort | Best For |
 |--------|--------|----------|
-| **Integration launch** | Medium | Existing integration partners |
-| **Joint case study** | Medium | Shared customers |
-| **"Better together" landing page** | Low | Integration discovery |
+| **Co-branded product launch** | High | A true co-branded collaboration (type 1) |
+| **Joint case study / customer story** | Medium | Shared customers, especially wholesale accounts |
+| **"Better together" landing page** | Low | Bundle or complementary-category discovery |
 | **Bundle or discount** | Medium | Conversion boost, cross-sell |
-| **In-app cross-promotion** | Medium | User activation |
+| **Checkout/packaging cross-promotion** | Low | Sampling or a discount code inserted in the partner's order/packaging |
 
 ### Community & Social
 
@@ -216,8 +220,8 @@ Would you be open to a quick call to explore?
 
 ### Quantitative Metrics
 
-- Leads generated (total and per partner)
-- Lead quality (MQL/SQL conversion rate)
+- Leads/signups generated (total and per partner)
+- Lead quality (conversion to purchase, or a signed wholesale account)
 - Revenue attributed
 - Audience growth (new subscribers, followers)
 - Content engagement (views, downloads, shares)
@@ -286,7 +290,11 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 ## Related Skills
 
 - **referrals** — For customer referral and affiliate programs (customers referring customers)
-- **launch** — For product launches with partners; covers co-marketing as a "borrowed channel"
+- **launch** — For product launches with partners; covers co-marketing as a "borrowed channel," and production/go-to-market sequencing for a co-branded product collaboration
 - **content-strategy** — For content planning including co-created content
 - **sales-enablement** — For partner-facing collateral and enablement materials
-- **compliance** — For sweepstakes/contest law and co-branded claims review before a joint promotion launches
+- **compliance** — For sweepstakes/contest law, co-branded claims review, and creator/cause-partnership disclosure requirements
+- **local-marketing** / **new-store-launch** — For the local-visibility context a local business cross-promotion sits inside (see `references/partnership-types.md`)
+- **marketing-strategy** / **supplier-funded-marketing** / **trade-and-dealer-enablement** — For the Business/Commercial segmentation and co-op funding mechanics behind a wholesale/trade co-marketing partnership (see `references/partnership-types.md`)
+- **influencer-marketing** — For a paid-sponsorship endorsement, distinct from a genuine creator co-brand collaboration (see `references/partnership-types.md`)
+- **attribution** — For incrementality discipline before crediting a partnership with sales it didn't actually cause

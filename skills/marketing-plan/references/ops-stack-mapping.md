@@ -33,7 +33,7 @@ The plan's Section 11 makes this thesis explicit by:
 | `cold-email` | Write B2B cold outreach + sequences | Outbound for B2B SaaS / hybrid businesses |
 | `analytics` | Set up tracking, GA4, conversion events | Funnel instrumentation |
 | `free-tools` | Plan engineering-as-marketing free tools | Build tools that generate links + leads |
-| `marketing-website-design` | Design marketing sites with intention | Pillar/landing page design |
+| `site-architecture` | Design site/page structure with intention | Pillar/landing page design |
 | `launch` | Plan and execute launches (Product Hunt, GA, feature launches) | GTM moments — strategy + tactical execution |
 
 ### Activation skills
@@ -45,10 +45,8 @@ The plan's Section 11 makes this thesis explicit by:
 | `cro` | Optimize any marketing page or form | Conversion testing across pages, forms, landing pages |
 | `paywalls` | Optimize paywalls and upgrade screens | Trial → paid conversion (also Revenue) |
 | `popups` | Optimize popups, modals, slide-ins | Lead capture + activation prompts |
-| `copywriting` | Write marketing copy | Onboarding screens, paywall copy, CTAs |
+| `copywriting` | Write marketing copy, including full website/landing-page copy | Onboarding screens, paywall copy, CTAs, site copy |
 | `copy-editing` | Edit and improve existing copy | Voice / clarity pass before ship |
-| `copycraft` | Real-time copy variation overlay | Live copy iteration during reviews |
-| `website-copy` | Write full website copy (stage-8 from CF process) | Comprehensive site copy production |
 | `ab-testing` | Plan A/B tests | Structure for onboarding variant tests |
 | `marketing-psychology` | Apply behavioral science to copy and CRO | Persuasion principles in activation moments |
 
@@ -69,7 +67,7 @@ The plan's Section 11 makes this thesis explicit by:
 | `referrals` | Plan and launch referral / affiliate / ambassador programs | Core skill for Section 7 |
 | `social` | Create ambassador-shareable content | Talking points, post templates |
 | `copywriting` | Ambassador / affiliate email copy | Recruitment, onboarding, communication |
-| `marketing-website-design` | Per-ambassador landing pages | Attribution surface |
+| `site-architecture` | Per-ambassador landing pages | Attribution surface |
 | `emails` | Ambassador lifecycle emails | Onboarding, monthly digest, payout notifications |
 
 ### Revenue skills
@@ -86,7 +84,7 @@ The plan's Section 11 makes this thesis explicit by:
 
 | Skill | What it does | Primary use |
 |---|---|---|
-| `product-marketing` | Set up the `.agents/product-marketing.md` context file (positioning, ICP, voice) | Foundational — run first; every section of the plan references this |
+| `marketing-strategy` | Set up the `.agents/marketing-strategy.md` context file (positioning, ICP, voice) | Foundational — run first; every section of the plan references this |
 | `customer-research` | Conduct customer interviews + surveys | Section 2 + Section 3 (Current state) |
 | `marketing-psychology` | Apply behavioral science | Cross-cuts copy, CRO, paywalls |
 | `marketing-ideas` | The 139-idea library | Section 12 of plan (Idea bank) |

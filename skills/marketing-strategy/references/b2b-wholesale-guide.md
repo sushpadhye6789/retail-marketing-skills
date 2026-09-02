@@ -10,7 +10,7 @@ Section 15 (Distribution Model — ecom-only / own stores / dealers) describes *
 
 ## Why this repo has B2B-flavored content at all
 
-This repo started as a SaaS/B2B marketing skill set and was substantially converted and extended for retail/ecommerce. Most of the original B2B content was either replaced, dual-scoped (the same skill now covers both, with clear routing — `ads`, `attribution`, `offers`, `pricing`), or left as a parallel track inside a skill rather than deleted, because it's exactly the right toolkit for a business that also sells wholesale. If you land in one of the skills below and it reads as B2B-focused, that's deliberate — it's there for the wholesale/business-buyer side of the business, not a leftover nobody got around to converting.
+This repo's B2B content is written for the wholesale/business-buyer side specifically, not adapted from an unrelated business model — `ads`, `attribution`, `offers`, and `pricing` each carry a dedicated wholesale/B2B track alongside their consumer-facing content, with clear routing between the two. If you land in one of the skills below and it reads as B2B-focused, that's deliberate — it's there for the wholesale/business-buyer side of the business, not a leftover nobody got around to converting.
 
 ## The two B2B segments — Business (SMB) vs. Commercial (large)
 
@@ -35,7 +35,7 @@ Running both segments at once is common — the toolkit below is tagged by which
 | `prospecting` | Finding and qualifying wholesale/trade-account prospects to reach out to | Business — building volume in a self-serve pipeline |
 | `sales-enablement` | Sell-in decks, one-pagers, and objection-handling docs for a sales rep working a wholesale/trade account, as distinct from `trade-marketing`'s retail-buyer sell-in (see below) | Both — a one-pager for a Business account, a full formal proposal for a Commercial one |
 | `revops` | Lead lifecycle, scoring, routing, and pipeline management for a wholesale/business-account sales motion — the CRM-pipeline discipline a consumer storefront doesn't need | Both — a lightweight scored pipeline for Business volume, an account-based/named-account pipeline for Commercial |
-| `marketing-plan` | Its AARRR-structured planning methodology is drawn from B2B/SaaS growth patterns; most useful for planning the wholesale side specifically, alongside (not instead of) the consumer-facing plan | Both |
+| `marketing-plan` | Its AARRR-structured planning methodology is drawn from B2B growth patterns; most useful for planning the wholesale side specifically, alongside (not instead of) the consumer-facing plan | Both |
 | `ads` → `references/b2b-paid-playbook.md`, `references/linkedin-b2b-playbook.md` | General B2B paid playbooks for reaching business buyers | Business — volume-oriented lead gen at a lower deal-size threshold |
 | `ads` → `references/abm-playbook.md` | Named-account targeting — the playbook's own go/no-go gate (deal size ~$25K+, target list ≥ ~1,000 or accepting 1:1/1:few economics, 60+ day cycle) is effectively a Commercial-segment filter | Commercial — skip entirely for a pure Business-segment motion, the economics don't clear |
 | `attribution` → the B2B track in `references/by-business-type.md` | Attribution modeling for a longer, sales-assisted B2B buying cycle, distinct from the ecommerce/DTC track in the same file | Both, weighted toward Commercial's longer cycle |

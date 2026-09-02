@@ -2,7 +2,7 @@
 name: loyalty
 description: "When the user wants to design, launch, or improve a customer loyalty or rewards program, or a subscribe-and-save/replenishment/box subscription program. Also use when the user mentions 'loyalty program,' 'rewards program,' 'points program,' 'VIP program,' 'loyalty tiers,' 'membership program,' 'punch card,' 'paid membership,' 'loyalty points,' 'rewards points,' 'customer loyalty,' 'repeat purchase program,' 'subscribe and save,' 'subscription box,' 'replenishment program,' 'recurring order,' 'skip a shipment,' or 'how do I get customers to come back.' Use this whenever the goal is rewarding and retaining existing customers through a structured program (points, tiers, paid membership, or an automated recurring subscription) — not a one-time discount or a program aimed at acquiring new customers via existing ones (see referrals for that). For save offers and cancellation flows on subscription churn, see churn-prevention."
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Loyalty & Rewards Programs
@@ -85,8 +85,8 @@ A structurally different retention mechanism from the reward programs above: ins
 
 ### Subscription-Specific Churn
 
-- **Distinguish "too much product" churn from "don't want this anymore" churn.** The first is a cadence problem, solvable with a skip/pause prompt or cadence extension; the second is a genuine save-offer or win-back situation. Treating the first like the second — a discount save offer to someone who just has too much product — misses the actual fix and burns margin for nothing; see `attribution/references/incrementality-checkpoint.md`'s save-offer trap, the same principle `churn-prevention` applies to SaaS save offers.
-- **Failed payment (involuntary churn) applies here exactly as `churn-prevention` describes for SaaS** — dunning, card updaters, and retry logic are just as relevant to a recurring physical-goods subscription as a software one; see `churn-prevention`'s Involuntary Churn: Payment Recovery section directly rather than re-deriving it here.
+- **Distinguish "too much product" churn from "don't want this anymore" churn.** The first is a cadence problem, solvable with a skip/pause prompt or cadence extension; the second is a genuine save-offer or win-back situation. Treating the first like the second — a discount save offer to someone who just has too much product — misses the actual fix and burns margin for nothing; see `attribution/references/incrementality-checkpoint.md`'s save-offer trap, the same principle `churn-prevention` applies to any recurring-billing save offer.
+- **Failed payment (involuntary churn) applies here exactly as `churn-prevention` describes** — dunning, card updaters, and retry logic are core to any recurring-billing program, subscribe-and-save included; see `churn-prevention`'s Involuntary Churn: Payment Recovery section directly rather than re-deriving it here.
 - **A cancel flow needs the same discipline `churn-prevention` applies generally** — understand the actual reason via an exit survey, offer a proportionate save (a skip/pause first, a discount only if the reason is genuinely price-sensitivity, not overstock), and don't make cancellation itself artificially difficult — a hard-to-cancel subscription creates the reputational and regulatory risk `compliance` flags for dark-pattern cancellation flows.
 
 ### Economics
@@ -246,7 +246,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key loyal
 
 - **specialist-lenses**: For Adam Posner's loyalty-differentiation lens — auditing whether a program design is genuinely differentiated or a "sea of sameness" points template.
 - **referrals**: For programs that reward bringing in *new* customers, rather than rewarding existing customers for staying — the two are often bundled but solve different problems
-- **churn-prevention**: For the cancellation/save-offer side of retention, in both SaaS and subscription-commerce businesses; loyalty is the proactive complement
+- **churn-prevention**: For the cancellation/save-offer side of a recurring-billing program; loyalty is the proactive complement
 - **emails** / **sms**: For point-balance reminders, tier-progress nudges, expiring-points sequences, and skip/pause reminders
 - **popups**: For enrollment prompts and progress-to-next-reward messaging
 - **pricing** / **offers**: For paid-membership tier design, reward-value framing, and subscribe-and-save discount depth

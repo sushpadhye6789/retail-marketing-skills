@@ -2,7 +2,7 @@
 name: referrals
 description: "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Referral & Affiliate Programs
@@ -247,9 +247,8 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 
 | Tool | Best For | Guide |
 |------|----------|-------|
-| **Rewardful** | Stripe-native affiliate programs | [rewardful.md](../../tools/integrations/rewardful.md) |
-| **Tolt** | SaaS affiliate programs | [tolt.md](../../tools/integrations/tolt.md) |
-| **Mention Me** | Enterprise referral programs | [mention-me.md](../../tools/integrations/mention-me.md) |
+| **Rewardful** | Stripe-native affiliate programs (subscribe-and-save/DTC brands on Stripe) | [rewardful.md](../../tools/integrations/rewardful.md) |
+| **Mention Me** | Referral programs for larger/Commercial-scale retail brands | [mention-me.md](../../tools/integrations/mention-me.md) |
 | **Dub.co** | Link tracking and attribution | [dub-co.md](../../tools/integrations/dub-co.md) |
 | **Stripe** | Payment processing (for commission tracking) | [stripe.md](../../tools/integrations/stripe.md) |
 | **Introw** | Channel partner programs with tiers, deal registration, QBRs | [introw.md](../../tools/integrations/introw.md) |

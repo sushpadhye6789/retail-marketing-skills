@@ -2,7 +2,7 @@
 name: visual-merchandising
 description: "When the user wants to plan how products are physically displayed and arranged in a retail environment — window displays, store layout, product placement, planograms, or fixture design. Also use when the user mentions 'visual merchandising,' 'VM,' 'window display,' 'store layout,' 'planogram,' 'store zoning,' 'product placement,' 'end cap,' 'fixture design,' 'shelf layout,' or 'store reset.' This is the spatial/placement discipline — distinct from pos-marketing, which covers the printed or digital signage and collateral placed within that layout, not the layout itself. For securing the shelf space or placement being merchandised, see trade-marketing."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Visual Merchandising
@@ -94,6 +94,7 @@ Gather this context (ask if not provided):
 ## Related Skills
 
 - **pos-marketing**: For the signage and printed/digital collateral placed within the layout this skill designs
+- **packaging-design**: For the product's own shelf-standout packaging design — a different lever from where it's placed
 - **trade-marketing**: For securing the shelf space or placement being merchandised in a third-party retailer
 - **marketing-strategy**: For brand-tier and distribution-model context shaping merchandising density and control
 - **brand-guidelines**: For visual identity consistency across displays

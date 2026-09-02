@@ -2,7 +2,7 @@
 name: site-architecture
 description: When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions "sitemap," "site map," "visual sitemap," "site structure," "page hierarchy," "information architecture," "IA," "navigation design," "URL structure," "breadcrumbs," "internal linking strategy," "website planning," "what pages do I need," "how should I organize my site," or "site navigation." Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema.
 metadata:
-  version: 2.0.1
+  version: 2.1.0
 ---
 
 # Site Architecture
@@ -27,11 +27,10 @@ Gather this context (ask if not provided):
 - Existing URLs that must be preserved (for redirects)?
 
 ### 3. Site Type
-- SaaS marketing site
+- E-commerce / DTC
 - Content/blog site
-- E-commerce
-- Documentation
-- Hybrid (SaaS + content)
+- Wholesale/B2B portal (see `marketing-strategy` Section 16)
+- Hybrid (ecommerce + content)
 - Small business / local
 
 ### 4. Content Inventory
@@ -45,11 +44,10 @@ Gather this context (ask if not provided):
 
 | Site Type | Typical Depth | Key Sections | URL Pattern |
 |-----------|--------------|--------------|-------------|
-| SaaS marketing | 2-3 levels | Home, Features, Pricing, Blog, Docs | `/features/name`, `/blog/slug` |
 | Content/blog | 2-3 levels | Home, Blog, Categories, About | `/blog/slug`, `/category/slug` |
 | E-commerce | 3-4 levels | Home, Categories, Products, Cart | `/category/subcategory/product` |
-| Documentation | 3-4 levels | Home, Guides, API Reference | `/docs/section/page` |
-| Hybrid SaaS+content | 3-4 levels | Home, Product, Blog, Resources, Docs | `/product/feature`, `/blog/slug` |
+| Wholesale/B2B portal | 3-4 levels | Home, Catalog, Account, Order History | `/catalog/category/product`, `/account/orders` |
+| Hybrid ecommerce+content | 3-4 levels | Home, Shop, Blog, Guides, About | `/shop/product`, `/blog/slug` |
 | Small business | 1-2 levels | Home, Services, About, Contact | `/services/name` |
 
 **For full page hierarchy templates**: See [references/site-type-templates.md](references/site-type-templates.md)
@@ -67,7 +65,7 @@ Users should reach any important page within 3 clicks from the homepage. This is
 | Approach | Best For | Tradeoff |
 |----------|----------|----------|
 | Flat (2 levels) | Small sites, portfolios | Simple but doesn't scale |
-| Moderate (3 levels) | Most SaaS, content sites | Good balance of depth and findability |
+| Moderate (3 levels) | Most content sites, small wholesale portals | Good balance of depth and findability |
 | Deep (4+ levels) | E-commerce, large docs | Scales but risks burying content |
 
 **Rule of thumb**: Go as flat as possible while keeping navigation clean. If a nav dropdown has 20+ items, add a level of hierarchy.
@@ -339,7 +337,7 @@ Mermaid diagram showing page relationships and navigation zones. Use `graph TD` 
 ## Task-Specific Questions
 
 1. Is this a new site or are you restructuring an existing one?
-2. What type of site is it? (SaaS, content, e-commerce, docs, hybrid, small business)
+2. What type of site is it? (ecommerce, content, wholesale/B2B portal, hybrid, small business)
 3. How many pages exist or are planned?
 4. What are the 5 most important pages on the site?
 5. Are there existing URLs that need to be preserved or redirected?

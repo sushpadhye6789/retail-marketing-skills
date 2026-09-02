@@ -176,10 +176,10 @@ Same total price, different structures convert very differently:
 |-----------|---------------|-----------|
 | **Pay in full** | High-trust buyers, lower price points | Highest perceived commitment, smallest buyer pool |
 | **Pay in 2-4 installments** | Mid-range price, hesitant buyers | More buyers, payment defaults |
-| **Monthly subscription** | SaaS, ongoing services | Annuity revenue, churn risk |
+| **Monthly subscription** | Subscribe-and-save, ongoing services | Annuity revenue, churn risk |
 | **Pay-after-results** | High-confidence delivery, sophisticated buyers | Cash flow lag, fewer disputes |
-| **Down payment + balance on delivery** | Services with milestone-based delivery | Balance risk on backend |
-| **Free trial → paid** | Low-friction SaaS, info products | Conversion drop-off |
+| **Down payment + balance on delivery** | Services with milestone-based delivery, large custom/wholesale orders | Balance risk on backend |
+| **Free sample/trial size → full purchase** | Low-friction info products, consumables where a small size de-risks the full-size buy | Conversion drop-off |
 
 Often the right move isn't lowering price — it's adding a payment plan. Same $6K price, "$6K today" vs "$2K × 3 monthly" converts very differently.
 

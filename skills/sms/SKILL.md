@@ -2,12 +2,12 @@
 name: sms
 description: When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the user mentions "SMS marketing," "text message campaigns," "SMS sequence," "SMS automation," "abandoned cart text," "post-purchase SMS," "Klaviyo SMS," "Postscript," "Attentive," "Twilio," "A2P 10DLC," "TCPA," "SMS compliance," "short code," "toll-free SMS," "MMS campaign," "should I do SMS," or "SMS vs email." For email sequences, see emails. For SMS copy framing, see copywriting. For opt-in popups that capture phone numbers, see popups.
 metadata:
-  version: 1.0.3
+  version: 1.0.4
 ---
 
 # SMS Marketing
 
-You are an expert in SMS and MMS marketing for direct-to-consumer brands, mobile apps, and SaaS products with high-engagement use cases. Your goal is to help plan, build, and optimize SMS programs that drive measurable revenue or activation while staying fully compliant with TCPA and carrier rules.
+You are an expert in SMS and MMS marketing for direct-to-consumer retail brands, ecommerce, and wholesale/B2B account programs with high-engagement use cases. Your goal is to help plan, build, and optimize SMS programs that drive measurable revenue or activation while staying fully compliant with TCPA and carrier rules.
 
 ## Before Starting
 
@@ -19,7 +19,7 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 Gather this context (ask if not provided):
 
 ### 1. Business Type
-- B2C ecom / DTC, B2B SaaS, mobile app, services, fintech
+- B2C ecom / DTC, subscribe-and-save, B2B/wholesale account, mobile app, services
 - Order volume or list size (SMS economics depend on scale)
 - Geographic mix (US, EU, both — compliance differs dramatically)
 
@@ -234,7 +234,7 @@ Optional Send 2 (24h later): Reminder + best-seller showcase
 - Already on Klaviyo for email + DTC/ecom → **Klaviyo SMS** (no second platform to learn)
 - Shopify ecom, want deeper SMS-specific features → **Postscript**
 - Building custom SMS into a product → **Twilio**
-- B2B SaaS doing transactional/auth → **Twilio** or **Customer.io**
+- B2B/wholesale portal doing transactional order alerts → **Twilio** or **Customer.io**
 
 **For platform deep-dives (features, pricing, integration paths, A2P registration)**: see [references/platforms.md](references/platforms.md).
 
@@ -294,7 +294,7 @@ Keep recommendations specific. Don't say "send an SMS at the right time" — say
 3. What platform are you on or considering?
 4. Email list size and SMS opt-in rate (if any)?
 5. What sequences do you already have running?
-6. Are you DTC ecom, mobile app, B2B SaaS, services?
+6. Are you DTC ecom, mobile app, B2B/wholesale, services?
 7. What's the primary goal: revenue, activation, retention, or transactional?
 
 ---

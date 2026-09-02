@@ -88,6 +88,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [image](skills/image/) | When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product... |
 | [influencer-marketing](skills/influencer-marketing/) | When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and... |
 | [launch](skills/launch/) | When the user wants to plan a product, collection, or new-store launch, or a major restock/drop announcement. Also use... |
+| [launch-project-management](skills/launch-project-management/) | When the user wants to coordinate a launch or major campaign across multiple internal functions (marketing, design,... |
 | [lead-magnets](skills/lead-magnets/) | When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the... |
 | [local-marketing](skills/local-marketing/) | When the user wants to market a physical store location, dealer, or multi-location business to people searching or... |
 | [loyalty](skills/loyalty/) | When the user wants to design, launch, or improve a customer loyalty or rewards program, or a... |
@@ -102,8 +103,9 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [moat-builder](skills/moat-builder/) | When the user wants to identify a durable competitive advantage (a moat) and direct marketing investment to build or... |
 | [new-store-launch](skills/new-store-launch/) | When the user wants to plan the marketing around opening a new physical retail location — a grand opening, a new store... |
 | [offers](skills/offers/) | When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing,... |
-| [onboarding](skills/onboarding/) | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also... |
+| [onboarding](skills/onboarding/) | When the user wants to optimize the first-run experience of a retailer's own app, account portal, or digital product —... |
 | [overstock](skills/overstock/) | When the user has excess, aging, dead, or discontinued inventory and needs to diagnose why, and decide how to dispose... |
+| [packaging-design](skills/packaging-design/) | When the user wants to design or evaluate product packaging — structural design, materials, sustainability, on-pack... |
 | [paywalls](skills/paywalls/) | When the user wants to design or optimize a screen where price, stock, or access is withheld until the shopper acts —... |
 | [popups](skills/popups/) | When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also... |
 | [pos-marketing](skills/pos-marketing/) | When the user wants to plan point-of-sale or point-of-purchase marketing materials — in-store signage, shelf talkers,... |
@@ -114,7 +116,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [product-lifecycle](skills/product-lifecycle/) | When the user wants marketing guidance for a product moving through its lifecycle — beyond the initial launch. Also use... |
 | [programmatic](skills/programmatic/) | When the user wants to plan or optimize programmatic media buying — automated, auction-based ad buying across display,... |
 | [programmatic-seo](skills/programmatic-seo/) | When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions... |
-| [prospecting](skills/prospecting/) | When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or... |
+| [prospecting](skills/prospecting/) | When the user wants to find, qualify, and build a list of prospects to reach out to — across wholesale/trade accounts,... |
 | [public-relations](skills/public-relations/) | When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy... |
 | [range-review](skills/range-review/) | When the user wants to periodically review the product range/assortment and decide what to keep, grow, fix, cut, or... |
 | [referrals](skills/referrals/) | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy.... |
@@ -125,7 +127,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [sales-enablement](skills/sales-enablement/) | When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also... |
 | [schema](skills/schema/) | When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user... |
 | [seo-audit](skills/seo-audit/) | When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO... |
-| [signup](skills/signup/) | When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the... |
+| [signup](skills/signup/) | When the user wants to optimize signup, registration, or account-creation flows — checkout account creation, loyalty... |
 | [site-architecture](skills/site-architecture/) | When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal... |
 | [sms](skills/sms/) | When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts,... |
 | [social](skills/social/) | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram,... |

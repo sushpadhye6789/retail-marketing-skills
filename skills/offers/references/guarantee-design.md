@@ -88,12 +88,6 @@ Decision tree:
 
 **For subscriptions specifically:** "Cancel or pause anytime, no questions asked" is the guarantee — the risk reversal is commitment-flexibility, not a refund. Making cancellation genuinely one click (not a retention phone call) is what makes this guarantee credible; a subscription that's hard to cancel turns its own guarantee into a weak one regardless of what the copy says.
 
-### SaaS
-
-**Strong:** Free trial *or* annual-prepay-with-money-back-in-first-30-days. Reduces friction without locking in unhappy users.
-
-**Weak:** "Cancel anytime" alone — not a guarantee, just standard SaaS terms.
-
 ### Direct response / paid traffic
 
 **Strong:** Double-your-money-back or comparable risk inversion. Direct-response buyers expect risk-reversal-heavy offers.

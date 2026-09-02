@@ -2,7 +2,7 @@
 name: tentpole-campaign
 description: "When the user wants to plan a major brand campaign tied to a calendar moment, cultural moment, or brand-owned milestone — a holiday campaign, an anniversary campaign, a flagship seasonal push. Also use when the user mentions 'tentpole campaign,' 'brand campaign,' 'seasonal campaign,' 'holiday campaign,' 'flagship campaign,' 'anniversary campaign,' or 'brand moment.' This is different from a promo/discount campaign — a tentpole leads with brand story and awareness, even when it wraps around a commercial moment like Black Friday; for the discount mechanics of a promotional sale event, see discount-and-clearance and offers. For a new-product go-to-market moment, see launch. For where this sits in the broader dated marketing calendar, see marketing-plan."
 metadata:
-  version: 1.1.1
+  version: 1.1.2
 ---
 
 # Tentpole Campaign
@@ -134,6 +134,7 @@ A tentpole is planned months out, which means the world can change between the c
 - **marketing-plan**: For where this sits in the broader dated marketing calendar
 - **discount-and-clearance** / **offers**: For the promotional/discount mechanics if a commercial layer is part of the campaign
 - **launch**: For a new-product go-to-market moment, if this campaign is tied to one
+- **launch-project-management**: For the cross-functional workback schedule and RACI a campaign spanning multiple teams or markets needs
 - **attribution**: For brand-lift and awareness measurement
 - **ad-creative** / **image** / **brand-guidelines**: For cross-channel creative production and consistency
 - **social** / **public-relations** / **emails** / **sms** / **pos-marketing**: For channel-specific execution, including in-store signage for any retailer with physical stores

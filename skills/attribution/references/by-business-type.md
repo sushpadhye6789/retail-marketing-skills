@@ -1,27 +1,27 @@
 # Attribution by Business Type
 
-Attribution defaults differ sharply by business model. The same "which channel drives revenue?" question wants a different source of truth, model, and paradigm depending on how long your cycle is, how many people are involved, and where your budget goes. Two playbooks: B2B SaaS and Ecommerce/DTC. Match the user's product to one (or blend, for PLG-with-sales).
+Attribution defaults differ sharply by business model. The same "which channel drives revenue?" question wants a different source of truth, model, and paradigm depending on how long your cycle is, how many people are involved, and where your budget goes. Two playbooks: B2B/Wholesale and Ecommerce/DTC. Match the user's product to one (or blend, for a business running both a self-serve Business-segment motion and a sales-assisted Commercial-segment motion — see `marketing-strategy` Section 16).
 
 ---
 
-## B2B SaaS (long cycle, sales-assisted)
+## B2B/Wholesale — Commercial accounts (long cycle, sales-assisted)
 
 **Shape of the problem:** journeys run weeks to months, span multiple people (champion, economic buyer, users), and include touches that never appear in web analytics — a conference conversation, a sales call, a Slack-community mention, a peer recommendation. Deal values are high and volume is low, so every deal matters and averages are noisy.
 
 **Why single-touch models mislead badly here:** with 15 touches over 3 months across 4 people, "last-touch = direct" and "first-touch = one LinkedIn ad" are both almost useless. The middle — and the offline — is where the deal was actually won.
 
-### The B2B playbook
+### The B2B/Wholesale playbook
 
-1. **Source of truth = the CRM**, not any analytics tool. Revenue is real in the CRM (closed-won, ARR); everything else explains where those deals came from. Pipeline and revenue attribution live in **revops** — attribution feeds it the "source" dimension.
+1. **Source of truth = the CRM**, not any analytics tool. Revenue is real in the CRM (closed-won, annual contract value); everything else explains where those deals came from. Pipeline and revenue attribution live in **revops** — attribution feeds it the "source" dimension.
 2. **Models: first-touch + position-based, shown together.** First-touch values demand creation (which channel *started* the accounts that became pipeline). Position-based credits the created-and-closed bookends, the two decisions you actually make. Last-touch alone will defund your top of funnel — don't lead with it.
-3. **Self-reported attribution is your strongest signal, not a nice-to-have.** Ask "How did you first hear about us?" on the **demo request / signup form** and again qualitatively on sales calls. For high word-of-mouth and dark-social-heavy B2B, this catches what tracking structurally can't (podcasts, communities, "my old coworker used you"). Weight it heavily.
-4. **Attribute to pipeline stages, not just the conversion.** The useful B2B question isn't "what drove the form fill" — it's "what drove *qualified pipeline* and *closed revenue*." Break down MQL→SQL→closed-won by first-touch channel; a channel that fills forms but never closes is a trap. (Stage mechanics → revops.)
+3. **Self-reported attribution is your strongest signal, not a nice-to-have.** Ask "How did you first hear about us?" on the **quote request / account-application form** and again qualitatively on sales calls. For high word-of-mouth and trade-show-heavy B2B, this catches what tracking structurally can't (a trade show conversation, an industry directory, "another store owner recommended you"). Weight it heavily.
+4. **Attribute to pipeline stages, not just the conversion.** The useful B2B question isn't "what drove the form fill" — it's "what drove *qualified pipeline* and *closed revenue*." Break down inquiry→qualified→closed-won by first-touch channel; a channel that fills forms but never closes is a trap. (Stage mechanics → revops.)
 5. **MTA is weakest here; incrementality is awkward but valuable.** Low volume makes data-driven attribution unreliable and geo-tests hard. Use **on/off tests** for big-ticket programs (turn off a channel for a quarter, watch pipeline) and lean on self-reported + first-touch for the rest.
 6. **Account-level, not just lead-level.** Attribution should roll touches up to the *account* (all the people at the buying company), or you'll credit whichever individual happened to fill the form. In practice one org is several people signing up with **mixed work *and* personal emails**, so person-level attribution scatters the story across records — match contacts to the account (email domain, enrichment, or your CRM's contact→account link) and attribute at the **account** level. That's where the signal has to land to be useful to a rep working the whole buying committee. Exclude free-mail domains (gmail/yahoo/outlook) from domain matching — they can't identify a company; fall back to enrichment or manual matching for personal-email signups. *(Production emphasis from Tessa Kriesel; the CRM-sync mechanics live in `first-party-tracking.md` Step 5.)*
 
-**Tooling:** CRM (HubSpot/Salesforce) as truth; a product-analytics tool identifying by user/account UUID for first-party first-touch (see `first-party-tracking.md`); self-reported fields written to the CRM; RB2B-style de-anonymization to catch un-formed account visits.
+**Tooling:** CRM (HubSpot/Salesforce) as truth; a web-analytics tool identifying by account/domain for first-party first-touch (see `first-party-tracking.md`); self-reported fields written to the CRM; visitor de-anonymization to catch account visits that never filled a form.
 
-**The B2B trap to name for the user:** branded search and direct will look like your best "channels" because that's where researched buyers convert. They're not channels — they're where demand *created elsewhere* cashes out. Segment branded vs. non-branded search and treat a big direct share as evidence your top-of-funnel is working, not as a channel to invest in.
+**The B2B/Wholesale trap to name for the user:** branded search and direct will look like your best "channels" because that's where researched buyers convert. They're not channels — they're where demand *created elsewhere* cashes out. Segment branded vs. non-branded search and treat a big direct share as evidence your top-of-funnel is working, not as a channel to invest in.
 
 ---
 
@@ -44,11 +44,11 @@ Attribution defaults differ sharply by business model. The same "which channel d
 
 ---
 
-## Blended / PLG-with-sales
+## Blended — Business (self-serve) + Commercial (sales-assisted)
 
-Many modern SaaS businesses are both: self-serve signups *and* a sales-assisted motion for larger accounts. Blend the playbooks:
+Many wholesale/B2B motions run both segments at once (see `marketing-strategy` Section 16): self-serve Business-segment ordering *and* a sales-assisted motion for Commercial/large accounts. Blend the playbooks:
 
-- Use the **DTC approach for the self-serve funnel** (fast, high-volume, first-party first-touch → conversion, defensible last-non-direct + survey).
-- Use the **B2B approach for the sales-assisted funnel** (CRM as truth, position-based, pipeline-stage attribution, self-reported at demo).
-- **Alias identities across the two** so a self-serve signup who later becomes a sales-assisted expansion keeps one journey (email↔UUID alias at signup — see `first-party-tracking.md`).
-- Report them **separately.** Blending a $50 self-serve signup and a $50k enterprise deal into one "attribution" number hides both stories.
+- Use the **DTC approach for the self-serve Business-segment funnel** (fast, high-volume, first-party first-touch → conversion, defensible last-non-direct + survey).
+- Use the **B2B/Wholesale approach for the sales-assisted Commercial-segment funnel** (CRM as truth, position-based, pipeline-stage attribution, self-reported at the quote-request stage).
+- **Alias identities across the two** so a self-serve Business account that grows into a sales-assisted Commercial relationship keeps one journey (email↔account alias at signup — see `first-party-tracking.md`).
+- Report them **separately.** Blending a small self-serve order and a large national-account deal into one "attribution" number hides both stories.

@@ -63,15 +63,15 @@ Pick the category that makes your Step 3 values the *obvious* basis for comparis
 4. **Who cares most:** People who've already bought 1-2 vitamin C serums that didn't visibly do anything — they're not new to the category, they're disappointed by it.
 5. **Category:** Not "skincare" (too broad, invites price comparison against drugstore brands) and not "clinical dermatology" (too narrow, sounds intimidating and expensive). Land on "clinically-proven active skincare" — narrow enough to signal potency, broad enough to still be a familiar shelf.
 
-## Worked example: B2B SaaS
+## Worked example: B2B/Wholesale
 
-**Product:** A customer feedback platform for product teams.
+**Product:** An activewear line selling wholesale to independent boutique fitness studios.
 
-1. **Alternatives:** A spreadsheet + Slack channel for tracking feedback, a generic survey tool repurposed for feedback, doing nothing and relying on sales team anecdotes.
-2. **Unique attributes:** Auto-clusters feedback by theme using the product's own taxonomy, pushes directly into the team's existing roadmap tool, shows revenue-at-risk per theme using CRM data.
-3. **Attributes → value:** Auto-clustering → hours saved per week not manually tagging feedback. Roadmap integration → feedback actually influences what gets built, instead of dying in a spreadsheet. Revenue-at-risk view → product prioritization decisions get made with a dollar figure attached, not just volume of complaints.
-4. **Who cares most:** Product teams at 50-500 person companies who already tried the spreadsheet approach and it broke down past a certain feedback volume — not teams who've never tried to track feedback at all.
-5. **Category:** Not "survey tool" (implies one-off data collection, undersells the ongoing roadmap integration) and not "product analytics" (too broad, wrong comparison set). Land on "customer feedback operations" — specific enough to signal the workflow, not just the data collection.
+1. **Alternatives:** A well-known national activewear brand the studio already stocks, a print-on-demand branded-merch vendor for studio logo gear, doing nothing and letting members buy activewear elsewhere.
+2. **Unique attributes:** Studio-exclusive colorways not sold direct-to-consumer, a 30-day sale-or-return trial with no minimum reorder commitment, size-inclusive fit (XS-3XL in every style, not just core sizes).
+3. **Attributes → value:** Studio-exclusive colorways → the studio can market it as "our own line," not just a rack of the same brand every other studio carries. Sale-or-return trial → the studio owner can stock it with near-zero financial risk instead of tying up cash in a full case order. Size-inclusive fit → the studio doesn't lose sales from members who don't fit the brand's core size run, a real and recurring complaint about the national brand.
+4. **Who cares most:** Independent studio owners currently stocking the national brand at thin margin who want a retail line that feels differentiated to their members — not studios with no retail program at all, who need a different, more basic pitch.
+5. **Category:** Not "activewear wholesale" (too broad, invites price comparison against the national brand on the same terms) and not "studio merch" (too narrow, sounds like logo gear, not real apparel). Land on "studio-exclusive retail program" — specific enough to signal the differentiation and the low-risk trial mechanic, not just another case of inventory.
 
 ---
 

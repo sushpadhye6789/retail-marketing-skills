@@ -8,10 +8,10 @@ Detailed navigation patterns for different site types and contexts.
 
 ### Simple Header (4-6 items)
 
-Best for: small businesses, simple SaaS, portfolios.
+Best for: small businesses, single-collection storefronts, portfolios.
 
 ```
-[Logo]   Features   Pricing   Blog   About   [CTA Button]
+[Logo]   Shop   Collections   Blog   About   [Cart]
 ```
 
 Rules:
@@ -22,7 +22,7 @@ Rules:
 
 ### Mega Menu Header
 
-Best for: SaaS with many features, e-commerce with categories, large content sites.
+Best for: e-commerce with many categories, wholesale portals with a large catalog, large content sites.
 
 ```
 [Logo]   Product ▾   Solutions ▾   Resources ▾   Pricing   Docs   [CTA]

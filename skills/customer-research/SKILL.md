@@ -2,7 +2,7 @@
 name: customer-research
 description: When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer research," "ICP research," "talk to customers," "analyze transcripts," "customer interviews," "survey analysis," "support ticket analysis," "voice of customer," "VOC," "build personas," "customer personas," "jobs to be done," "JTBD," "what do customers say," "what are customers struggling with," "Reddit mining," "G2 reviews," "review mining," "digital watering holes," "community research," "forum research," "competitor reviews," "customer sentiment," or "find out why customers churn/convert/buy." Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see cro.
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Customer Research
@@ -130,11 +130,10 @@ Choose sources based on your ICP type — then read `references/source-guides.md
 
 | ICP Type | Primary Sources |
 |----------|----------------|
-| B2B SaaS / technical buyers | Reddit (role-specific subs), G2/Capterra, Hacker News, LinkedIn, Indie Hackers, SparkToro |
-| SMB / founders | Reddit (r/entrepreneur, r/smallbusiness), Indie Hackers, Product Hunt, Facebook Groups, SparkToro |
-| Developer / DevOps | r/devops, r/programming, Hacker News, Stack Overflow, Discord servers |
-| B2C / consumer | App store reviews (1-3 star), Reddit hobby/lifestyle subs, YouTube comments, TikTok/Instagram comments |
-| Enterprise | LinkedIn, industry analyst reports, G2 Enterprise filter, job postings, SparkToro |
+| B2C / consumer retail buyer | App store reviews (1-3 star), Trustpilot/Sitejabber, Reddit hobby/lifestyle subs, YouTube comments, TikTok/Instagram comments |
+| Wholesale/trade buyer (Business segment — small/medium) | Industry trade publications, trade show forums/attendee chatter, LinkedIn, local business communities |
+| Wholesale/trade buyer (Commercial segment — large accounts) | LinkedIn, industry analyst/trade reports, category-manager-focused trade press, job postings (category management hires signal buying activity) |
+| Independent small-business owner | Reddit (r/smallbusiness, r/retail), local business Facebook groups, industry association forums |
 
 **Quick decision guide:**
 - Have a product category? → Start with G2/Capterra reviews (yours + competitors)
@@ -200,7 +199,7 @@ Personas should be built from research, not invented. Don't create a persona unt
 
 **Profile**
 - Title range: [e.g., "Marketing Manager to VP of Marketing"]
-- Company size: [e.g., "50–500 employees, Series A–C SaaS"]
+- Company/store size: [e.g., "5-20 locations, regional specialty retailer" or "single-location independent boutique"]
 - Industry: [if narrow]
 - Reports to: [who]
 - Team size managed: [if relevant]

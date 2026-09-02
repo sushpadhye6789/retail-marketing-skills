@@ -1,6 +1,6 @@
 ---
 name: cold-email
-version: 2.1.0
+version: 2.1.1
 description: "When the user wants to write cold outreach emails to retail buyers, wholesale distributors, or trade partners. Also use when the user mentions 'cold email,' 'outbound email,' 'wholesale outreach,' 'retail buyer outreach,' 'distributor outreach,' 'trade prospecting,' or 'follow-up email sequence.' Use this for writing B2B cold emails and follow-up sequences that get replies from retail and wholesale accounts."
 ---
 
@@ -14,15 +14,17 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 
 ---
 
-## 1. Core Frame Shift: B2B SaaS vs. Retail Trade
+## 1. The Retail Trade Pitch
 
-| Metric / Dimension | B2B SaaS Pitch | Retail Trade Pitch |
-| :--- | :--- | :--- |
-| **Primary Audience** | CTO, VP of Sales, HR Director | Category Manager, Independent Retail Buyer, Wholesale Distributor |
-| **Value Metric** | Software ROI, seat efficiency, workflow speed | Gross Margin %, GMROI, sell-through velocity, shelf yield |
-| **Key Assets** | Software demo, case study deck | Line sheet, sample kit, sell sheet, POP display plan |
-| **Primary Call-to-Action** | "Book a 15-minute demo" | "Request a digital line sheet or physical sample pack" |
-| **Hook Type** | Pain point / Process inefficiency | Shelf space opportunity / Category margin expansion |
+Cold outreach to a retail buyer, category manager, or wholesale distributor runs on different fundamentals than a typical outbound pitch — the audience, the value metric, and the assets all need to fit how a buyer actually evaluates a line, not a generic "let's connect" template. See `marketing-strategy` Section 16 for whether the target is a Business (small/medium, self-serve-ish) or Commercial (large, RFP/buying-committee) account — the pitch below flexes by which.
+
+| Dimension | Retail Trade Pitch |
+| :--- | :--- |
+| **Primary Audience** | Category Manager, Independent Retail Buyer, Wholesale Distributor |
+| **Value Metric** | Gross Margin %, GMROI, sell-through velocity, shelf yield |
+| **Key Assets** | Line sheet, sample kit, sell sheet, POP display plan |
+| **Primary Call-to-Action** | "Request a digital line sheet or physical sample pack" |
+| **Hook Type** | Shelf space opportunity / Category margin expansion |
 
 ---
 

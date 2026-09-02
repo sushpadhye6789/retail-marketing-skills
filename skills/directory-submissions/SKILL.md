@@ -48,7 +48,7 @@ Never submit to a directory or pitch a listicle inclusion until the destination 
 ### Rule 2: Destination pages before directories
 Directories and listicles are the *source* of link equity and referral traffic. You need *destinations* that can convert it. Minimum destinations before pursuing placements:
 - Strong collection/category pages for whatever gift guides or aggregators would plausibly link to.
-- 2–4 comparison or buying-guide pages of your own (`/guides/[category]-buying-guide`, `/[category-a]-vs-[category-b]`) — the retail equivalent of a SaaS "alternatives" page, and exactly the content format AI shopping assistants cite when comparing options.
+- 2–4 comparison or buying-guide pages of your own (`/guides/[category]-buying-guide`, `/[category-a]-vs-[category-b]`) — exactly the content format AI shopping assistants cite when comparing options.
 - Your own "best of" or gift-guide-style post about your category, written honestly (including where a competitor's product might genuinely be a better fit for a specific need) — see `content-strategy`'s Link-Earning Formats section on why curated/roundup content earns more links than any other format.
 
 ### Rule 3: Positioning varies by placement type
@@ -131,7 +131,7 @@ Brand-level review platforms are close to worthless below a real review baseline
 Directories and gift-guide links are wasted if they land on a generic homepage. Build these first:
 
 ### 1. Comparison / buying-guide pages (highest ROI)
-The retail equivalent of a SaaS "alternatives" page — and exactly the content format AI shopping assistants lift when comparing options:
+Exactly the content format AI shopping assistants lift when comparing options:
 - `/guides/[category]-buying-guide` — "How to choose the right [category]," covering the genuine decision factors (size, material, use case).
 - `/[category]-vs-[category]` — an honest comparison between two of your own product lines, or your category vs. an alternative approach (not a direct competitor-bash — see `compliance` on comparative-claims risk).
 

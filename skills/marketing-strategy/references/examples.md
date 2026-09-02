@@ -52,52 +52,52 @@ This is generic — "high-quality ingredients" and "great customer service" are 
 
 ---
 
-## Example 2: B2B SaaS — deliverability platform
+## Example 2: B2B/Wholesale — a specialty food line pitching independent grocers
 
 ### Weak version (first draft, unprompted)
 
 > **Competitive Landscape**
-> Direct: Other deliverability tools.
-> Secondary: Using your ESP's built-in analytics.
-> Indirect: Ignoring the problem.
+> Direct: Other specialty sauce brands.
+> Secondary: Store-brand/private-label options.
+> Indirect: Customers not buying anything in this category.
 >
 > **Differentiation**
-> We're more accurate and easier to use than competitors.
+> We're higher quality and taste better than competitors.
 >
 > **Strategic Priorities**
-> 1. Content marketing / SEO
-> 2. Outbound sales motion
-> 3. Product-led growth features
-> 4. Conference sponsorships
-> 5. Partner integrations
-> 6. Rebrand
-> 7. Improve onboarding
+> 1. Trade show presence
+> 2. Outbound cold-email to buyers
+> 3. Social media growth
+> 4. Retail media/co-op ads
+> 5. Rebrand packaging
+> 6. Expand SKU count
+> 7. Improve line sheet design
 
-"More accurate and easier to use" is an unfalsifiable claim every competitor also makes. Seven priorities, no constraint named, nothing cut.
+"Higher quality and tastes better" is an unfalsifiable claim every competitor also makes. Seven priorities, no constraint named, nothing cut.
 
 ### Strong version (after running the methodology)
 
 > **Competitive Landscape** *(via positioning-methodology.md)*
-> - Direct alternative: [Named competitor] — similar feature set, but requires a separate DNS/DMARC setup process most customers outsource to an agency
-> - Secondary alternative: The ESP's built-in analytics (Mailchimp, Klaviyo, etc.) — free, already in the workflow, but doesn't correlate deliverability drops to specific sending changes
-> - Indirect alternative: Ignoring it until a deliverability crisis forces action — the largest alternative; most prospects only start looking after inbox placement has already visibly dropped
+> - Direct alternative: [Named competitor brand] — similar flavor profile and price point, but requires a 500-unit minimum order most independent grocers can't commit to on an unproven line
+> - Secondary alternative: Store-brand/private-label — cheaper, already on shelf, but doesn't carry the "discovered a great small brand" story that drives repeat trips to a specialty grocer
+> - Indirect alternative: Not stocking anything new in this category — the largest alternative; most buyers only add a new line when a genuine gap or a customer request forces the decision
 >
 > **Differentiation**
-> - Attribute: automated DNS/DMARC setup with no agency required, plus a "what changed" timeline that correlates deliverability drops to specific sends
-> - Value: teams without a dedicated deliverability specialist get expert-level setup without hiring one, and can self-diagnose problems instead of guessing
-> - Who cares most: mid-market ecommerce and B2B marketing teams sending 500K+ emails/month without a dedicated deliverability hire — big enough to feel the pain, not big enough to have solved it with headcount
-> - Category: not "email analytics" (undersells the setup automation) and not "deliverability consulting" (implies a service, not a product) — "deliverability infrastructure," specific enough to signal it's the underlying plumbing, not another dashboard
+> - Attribute: a 12-unit case minimum with a 30-day sale-or-return trial period, plus a "what's selling" monthly report showing sell-through by SKU
+> - Value: a buyer without the shelf space or risk appetite for a 500-unit commitment can trial the line at near-zero downside, and self-diagnose which SKUs to reorder instead of guessing
+> - Who cares most: independent/specialty grocers with 1-3 locations who've been burned before by a slow-moving case of an untested brand — big enough to want new discovery items, not big enough to absorb dead stock
+> - Category: not "gourmet sauce" (undersells the low-risk trial mechanic) and not "artisanal condiments" (implies a farmers-market-only positioning, not a real wholesale line) — "low-risk trial-to-shelf specialty line," specific enough to signal the buying mechanic is the differentiator, not just the product
 >
 > **Strategic Priorities** *(via prioritization.md)*
-> Binding constraint: Sales cycle length — pipeline volume is adequate, but deals stall during the technical evaluation because prospects can't self-serve a proof-of-concept without our team's help.
+> Binding constraint: Buyer risk tolerance — trade show interest is strong, but conversations stall at the order-commitment stage because a 500-unit-equivalent case minimum is too much risk for an unproven line at a small independent grocer.
 >
-> 1. **Self-serve trial with automated DNS/DMARC setup** — directly addresses the constraint; today, setup requires a sales-assisted call, which is the stall point. High confidence (support tickets consistently cite setup complexity as the friction point).
-> 2. **"What changed" diagnostic as a free, ungated tool** — lets prospects self-diagnose a real problem before ever talking to sales, shortening the eval by giving them proof of value pre-call. Moderate confidence, high reach (works for anyone with a deliverability problem, not just active pipeline).
+> 1. **30-day sale-or-return trial with a 12-unit case minimum** — directly addresses the constraint; today, the standard case size is the stall point. High confidence (buyer conversations consistently cite minimum order size as the objection).
+> 2. **"What's selling" monthly sell-through report as a standard trial deliverable** — lets a buyer see real velocity data before committing to a full reorder, shortening the trial-to-standing-order decision. Moderate confidence, high reach (works for any trial account, not just trade-show leads).
 >
 > Explicitly deprioritized:
-> - Content marketing/SEO — real long-term lever, but doesn't address why deals *already in pipeline* are stalling; revisit once the self-serve trial ships.
-> - Rebrand — no evidence positioning/naming is the issue; the stall point is technical evaluation friction, not brand perception.
-> - Conference sponsorships, partner integrations — both are acquisition or distribution bets; same logic as content/SEO, they don't fix the stall point.
+> - Trade show presence — real long-term lever, but doesn't address why conversations *already happening* are stalling; revisit once the trial mechanic is live and proven.
+> - Rebrand packaging — no evidence packaging/positioning is the issue; the stall point is order-commitment risk, not shelf appeal.
+> - Retail media/co-op ads, SKU expansion — both are acquisition or range bets; same logic as trade shows, they don't fix the stall point.
 
 ---
 

@@ -1,0 +1,51 @@
+{
+  "skill_name": "packaging-design",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We sell both in physical stores and online. Do we need one package design or two?",
+      "expected_output": "Should identify this as the Two Packaging Contexts distinction — retail-shelf packaging (shelf standout, category cues, possible anti-theft features) and ecommerce shipping packaging (right-sizing against dimensional weight, protection, the reveal sequence) solve different problems. Should recommend clarifying whether one design can serve both or whether two are genuinely needed, and reference marketing-strategy Section 15 for the distribution-model context. Should not conflate this with post-purchase-experience's unboxing-journey scope.",
+      "assertions": [
+        "Identifies the retail-shelf vs ecommerce-shipping distinction",
+        "Explains that a single design may not serve both contexts well",
+        "References marketing-strategy Section 15 distribution model",
+        "Distinguishes this skill's package-design scope from post-purchase-experience's unboxing-journey scope"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Can we put a 'recyclable' badge on our packaging?",
+      "expected_output": "Should not simply approve the claim. Should flag that a sustainability claim needs to hold up to the specific jurisdiction's actual recycling infrastructure, not just material theory, and route to the compliance skill before finalizing the claim. Should note this is the same discipline directory-submissions' sustainability-directory tier applies to third-party credentials.",
+      "assertions": [
+        "Does not simply approve the recyclable claim without qualification",
+        "Flags jurisdiction-specific recycling infrastructure as the real test",
+        "References the compliance skill before finalizing the claim"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We're a small brand doing about 500 units a month. A supplier is pitching us a custom molded box design.",
+      "expected_output": "Should ask about the MOQ on the custom design and flag that a large MOQ may not be realistic at this volume, tying up cash in packaging inventory. Should recommend evaluating total landed cost (not just unit cost) and prototyping before committing to a full production run.",
+      "assertions": [
+        "Asks about or flags the MOQ relative to actual order volume",
+        "Warns about cash tied up in packaging inventory at low volume",
+        "Recommends evaluating total landed cost, not just unit material cost",
+        "Recommends prototyping before a full production commitment"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "How should we design the unboxing experience for our new candle line?",
+      "expected_output": "Should design the package itself (structural design, materials, on-pack branding, insert opportunities) but redirect the actual unboxing-moment journey design (sequence, reveal, tracking social shares) to post-purchase-experience, per the stated scope boundary. Should not attempt to own the full unboxing-journey design itself.",
+      "assertions": [
+        "Covers package-level design decisions (structure, materials, branding, inserts)",
+        "Redirects the unboxing-journey/sequence design specifically to post-purchase-experience",
+        "Respects the stated scope boundary rather than duplicating post-purchase-experience's territory"
+      ],
+      "files": []
+    }
+  ]
+}

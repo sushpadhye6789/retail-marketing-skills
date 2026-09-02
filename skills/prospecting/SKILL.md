@@ -1,13 +1,13 @@
 ---
 name: prospecting
-description: When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions "prospecting," "build a prospect list," "find prospects," "find leads," "lead gen list," "find SaaS companies that," "find B2B companies," "find local businesses," "ICP-fit accounts," "who should we go after," "outbound list," "target account list," "find clients near me," "businesses without websites," "prospect research," "qualified leads," "find my first customers," "early adopters," "design partners," "beta users," or "who has this problem." Use this for the list-building and qualification phase. For writing the outbound copy after the list is built, see cold-email. For deep competitive research on specific accounts, see competitor-profiling.
+description: When the user wants to find, qualify, and build a list of prospects to reach out to — across wholesale/trade accounts, general B2B, or local small businesses. Also use when the user mentions "prospecting," "build a prospect list," "find prospects," "find leads," "lead gen list," "find wholesale accounts," "find retail buyers," "find B2B companies," "find local businesses," "ICP-fit accounts," "who should we go after," "outbound list," "target account list," "find clients near me," "businesses without websites," "prospect research," "qualified leads," "find my first customers," "early adopters," "design partners," "beta testers," or "who has this problem." Use this for the list-building and qualification phase. For writing the outbound copy after the list is built, see cold-email. For deep competitive research on specific accounts, see competitor-profiling.
 metadata:
-  version: 1.1.3
+  version: 1.2.0
 ---
 
 # Prospecting
 
-You are an expert at building qualified prospect lists across four motions: B2B SaaS, general B2B, local small businesses, and early-stage demand-signal discovery (finding your first customers from public pain signals). Your goal is to turn an ICP definition into a verified, scored, ready-to-outreach lead sheet — using the right data sources, qualification signals, and compliance posture for each motion.
+You are an expert at building qualified prospect lists across four motions: wholesale/trade accounts, general B2B, local small businesses, and early-stage demand-signal discovery (finding your first customers from public pain signals). Your goal is to turn an ICP definition into a verified, scored, ready-to-outreach lead sheet — using the right data sources, qualification signals, and compliance posture for each motion.
 
 **If you're a retail/ecommerce business**: this skill is for finding prospective wholesale/trade-account buyers, not consumer shoppers — see `marketing-strategy`'s Section 16 (B2B / Wholesale Channel) and its `references/b2b-wholesale-guide.md`.
 
@@ -22,15 +22,15 @@ Prospecting motions differ enough that the workflow forks at intake. Pick **one*
 
 | Branch | Sell to | What "qualified" looks like | Primary sources |
 |--------|---------|----------------------------|----------------|
-| **SaaS** | Other SaaS companies / digital businesses | ICP fit + tech stack match + growth signals (funding, hiring, product velocity) | LinkedIn, BuiltWith, Crunchbase, Apollo, Clay, Clearbit, ProductHunt |
-| **B2B** | Non-SaaS B2B (services, manufacturers, enterprises, mid-market) | Industry + size + geographic fit + buying signals (trigger events, vendor changes) | Apollo, ZoomInfo, Clay, Clearbit, LinkedIn Sales Nav, industry directories |
+| **Wholesale/Trade** | Independent retailers, boutiques, distributors, trade accounts | Assortment fit + store/brand tier match + buying-readiness signals (range reviews, new openings, trade shows) | Trade show lists, industry directories, competitor stockist pages, LinkedIn, local business directories |
+| **B2B** | General B2B accounts (services, manufacturers, large/commercial accounts, mid-market) | Industry + size + geographic fit + buying signals (trigger events, vendor changes) | Apollo, ZoomInfo, Clay, Clearbit, LinkedIn Sales Nav, industry directories |
 | **Local SMB** | Local small businesses (shops, gyms, restaurants, clinics, salons, services) | Active business + website status + proximity + decision-maker access | Google Maps, Yelp, local directories, Facebook, business websites |
 | **Demand-signal** | Early-stage: your first customers, design partners, or beta users | Evidence of the exact pain/demand/timing signal — a cited public source, not just firmographic fit | Forums, communities, reviews, GitHub issues, job posts, launch announcements (via last30days, social-fetch, scraping) |
 
-If the user describes a hybrid motion (e.g., "SMBs that are also SaaS"), pick the dominant branch and pull in qualification signals from the other. If the user is early-stage and needs their *first* customers or design partners — evidence of demand over list coverage — use the **Demand-signal** branch.
+If the user describes a hybrid motion (e.g., "independent stores that are also part of a buying group"), pick the dominant branch and pull in qualification signals from the other. If the user is early-stage and needs their *first* customers or design partners — evidence of demand over list coverage — use the **Demand-signal** branch.
 
 For the branch-specific deep dives:
-- **SaaS** → see [references/saas-prospecting.md](references/saas-prospecting.md)
+- **Wholesale/Trade Accounts** → see [references/wholesale-prospecting.md](references/wholesale-prospecting.md)
 - **B2B** → see [references/b2b-prospecting.md](references/b2b-prospecting.md)
 - **Local SMB** → see [references/local-prospecting.md](references/local-prospecting.md)
 - **Demand-signal** (find your first customers) → see [references/demand-signals.md](references/demand-signals.md)
@@ -46,7 +46,7 @@ Every prospecting engagement follows the same five phases. Tools and qualificati
 Pull from `marketing-strategy.md` if available. Otherwise, gather:
 
 1. **Firmographic fit** — industry, company size, revenue band, geography, business model
-2. **Technographic fit** (SaaS branch) — what tools they already use, what they're missing
+2. **Assortment fit** (Wholesale branch) — what brands/categories they already carry, what gap this fills
 3. **Buying signal** — why now? (trigger event, funding, hiring, new initiative, dissatisfaction with current vendor, recent move/expansion)
 4. **Decision-maker profile** — role, seniority, what they care about
 5. **Disqualifiers** — what makes a prospect a clear "skip"
@@ -57,7 +57,8 @@ Output the ICP as a one-paragraph statement plus a checklist of pass/fail criter
 
 Source 2–3× more candidates than the user wants in the final list — qualification will cull aggressively.
 
-- **SaaS / B2B**: combine 2–3 sources for cross-verification. Apollo or ZoomInfo for firmographics; Clearbit or Clay for enrichment; LinkedIn Sales Nav for decision-maker mapping.
+- **B2B**: combine 2–3 sources for cross-verification. Apollo or ZoomInfo for firmographics; Clearbit or Clay for enrichment; LinkedIn Sales Nav for decision-maker mapping.
+- **Wholesale/Trade**: trade show exhibitor/attendee lists, industry trade publications, and a competitor's own stockist list (see [references/wholesale-prospecting.md](references/wholesale-prospecting.md)).
 - **Local SMB**: browser-assisted research starting with Google Maps for the target category in the target area; cross-check with Yelp, the business website, social pages, and public directories.
 
 If the user's list quality bar is high, smaller is better. 25 verified leads beats 250 mostly-junk ones.
@@ -71,11 +72,11 @@ Score every candidate against the ICP checklist. Add **evidence** (a source URL 
 - **Medium**: one credible source plus consistent search evidence
 - **Low**: incomplete or ambiguous evidence — flag what remains uncertain
 
-For email contacts (B2B / SaaS branches), **always verify deliverability before adding to the final list** — see Truelist integration in [references/data-sources.md](references/data-sources.md). Don't ship leads with invalid or risky emails.
+For email contacts (B2B / Wholesale branches), **always verify deliverability before adding to the final list** — see Truelist integration in [references/data-sources.md](references/data-sources.md). Don't ship leads with invalid or risky emails.
 
 ### Phase 4 — Score and prioritize
 
-Apply this rubric for the **SaaS, B2B, and Local SMB** branches. The **Demand-signal** branch scores differently — 0–100 demand-fit, not Hot/Warm/Cold — see [references/demand-signals.md](references/demand-signals.md).
+Apply this rubric for the **Wholesale, B2B, and Local SMB** branches. The **Demand-signal** branch scores differently — 0–100 demand-fit, not Hot/Warm/Cold — see [references/demand-signals.md](references/demand-signals.md).
 
 | Score | Definition |
 |-------|------------|
@@ -88,7 +89,7 @@ Branch-specific signals refine the scoring — see each reference file. Default 
 
 ### Phase 5 — Output the lead sheet
 
-(SaaS / B2B / Local SMB. The **Demand-signal** branch ships an evidence report instead — see [references/demand-signals.md](references/demand-signals.md).)
+(Wholesale / B2B / Local SMB. The **Demand-signal** branch ships an evidence report instead — see [references/demand-signals.md](references/demand-signals.md).)
 
 Default to a markdown table in chat. Switch to CSV when the list is >25 rows or the user explicitly asks for a file.
 
@@ -120,10 +121,10 @@ For the full compliance reference (Australia's Privacy Act/Spam Act, New Zealand
 
 If missing, ask once, then infer reasonable defaults and continue:
 
-- **Branch** (SaaS / B2B / Local SMB / Demand-signal) — usually inferable from context; pick Demand-signal for early-stage first-customer discovery
+- **Branch** (Wholesale / B2B / Local SMB / Demand-signal) — usually inferable from context; pick Demand-signal for early-stage first-customer discovery
 - **ICP description** — pull from `marketing-strategy.md` if present
-- **Target count** — default 25 for SaaS / B2B, 15 for Local SMB
-- **Geography** (essential for Local SMB; useful for B2B; less critical for SaaS)
+- **Target count** — default 25 for Wholesale / B2B, 15 for Local SMB
+- **Geography** (essential for Local SMB; useful for B2B and Wholesale — regional buying groups, trade show regions)
 - **Tools the user has access to** — Apollo? Clay? ZoomInfo? Hunter? Truelist? Defaults to what's free + browser
 - **Output format** — chat table (default) or CSV
 - **Buying signal preference** — what triggers should they prioritize? (funding rounds, hiring, recent move, etc.)
@@ -136,16 +137,14 @@ Full breakdown in [references/data-sources.md](references/data-sources.md). Quic
 
 | If the user has access to... | Use it for |
 |------------------------------|------------|
-| **Apollo** | B2B / SaaS firmographic + contact discovery |
+| **Apollo** | B2B firmographic + contact discovery |
 | **Clay** | Multi-source enrichment, waterfall lookups, custom scoring |
 | **Clearbit** | Email-to-company and company enrichment |
 | **ZoomInfo** | Enterprise B2B contact + intent data |
 | **Hunter or Snov** | Email pattern guessing and verification |
 | **Truelist** | Email deliverability validation (before adding to outreach list) |
 | **LinkedIn Sales Navigator** | Decision-maker mapping (manual, no scraping) |
-| **BuiltWith / Wappalyzer** | Tech stack qualification (SaaS branch) |
-| **Crunchbase** | Funding signals (SaaS branch) |
-| **GitHub** | Stargazers / forks of competitor or adjacent repos (dev-tool SaaS branch) |
+| **Crunchbase** | Funding/expansion signals for evaluating a Commercial-segment retail chain's growth capacity (B2B branch) |
 | **Google Maps + browser** | Local SMB discovery |
 | **Firecrawl / Browserbase** | Programmatic extraction from individual prospect websites — never from platforms |
 
@@ -157,7 +156,7 @@ Full breakdown in [references/data-sources.md](references/data-sources.md). Quic
 
 ### Default — chat table
 
-For SaaS / B2B (≤25 rows):
+For B2B / Wholesale (≤25 rows):
 
 ```
 | Score | Company | Industry | Size | Signal | Contact | Email status | Source | Confidence |
@@ -173,7 +172,7 @@ For Local SMB (≤15 rows) — port from the local-prospector reference:
 
 ### CSV — when >25 rows or user requests a file
 
-SaaS / B2B columns:
+B2B / Wholesale columns:
 
 ```csv
 score,company,domain,industry,size_band,country,signal,contact_name,contact_title,contact_email,email_status,linkedin,source_urls,why_prospect,confidence,verified_date,notes
@@ -195,7 +194,7 @@ score,business,category,area,distance_km,website_status,website_url,social_urls,
 
 ## Quality Checks (before finalizing)
 
-- [ ] Remove duplicates (by domain for SaaS/B2B, by business + address for Local SMB)
+- [ ] Remove duplicates (by domain for B2B/Wholesale, by business + address for Local SMB)
 - [ ] Every "Hot" lead has a verified contact + at least one source URL
 - [ ] No lead has an email that failed Truelist (or your validator) verification — move to a separate "invalid" bucket and flag for the user
 - [ ] No lead labeled "Hot" lacks a clear buying signal
@@ -212,7 +211,7 @@ score,business,category,area,distance_km,website_status,website_url,social_urls,
 2. **Treating data sources as authoritative without cross-checks**. Apollo and ZoomInfo are out of date often; verify before scoring as "Hot."
 3. **Adding contacts without email verification**. Cold email reputation tanks fast with bounces — always validate.
 4. **Bulk scraping LinkedIn or Google Maps**. Real risk: account suspension + ToS violation. Browser as an assisted tool only.
-5. **Mixing branches**. Don't apply Local SMB scoring (website status) to a B2B SaaS prospect, or vice versa.
+5. **Mixing branches**. Don't apply Local SMB scoring (website status) to a B2B/Wholesale prospect, or vice versa — and don't apply Business-segment volume tactics to a Commercial-segment target (see `marketing-strategy` Section 16).
 6. **"Hot" labels without buying signals**. ICP fit alone is not enough — the signal is what makes the timing right.
 7. **No source URLs**. Every claim should be traceable to a public source. Future outreach depends on this lineage.
 8. **Ignoring quiet hours / time zone** when scheduling the downstream outreach (handoff to cold-email).
@@ -222,7 +221,7 @@ score,business,category,area,distance_km,website_status,website_url,social_urls,
 
 ## Task-Specific Questions
 
-1. Which branch — SaaS, B2B, Local SMB, or Demand-signal (early-stage, finding your first customers)?
+1. Which branch — Wholesale/Trade, B2B, Local SMB, or Demand-signal (early-stage, finding your first customers)?
 2. What's your ICP? (Or: should I pull from your marketing-strategy context?)
 3. How many qualified leads do you want?
 4. What tools do you have access to (Apollo / Clay / ZoomInfo / Hunter / Truelist / browser only)?
@@ -238,7 +237,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key prosp
 
 | Tool | Best For | MCP | Guide |
 |------|----------|:---:|-------|
-| **Apollo** | B2B / SaaS firmographic + contact discovery | - | [apollo.md](../../tools/integrations/apollo.md) |
+| **Apollo** | B2B firmographic + contact discovery | - | [apollo.md](../../tools/integrations/apollo.md) |
 | **Clay** | Multi-source enrichment + waterfall | ✓ | [clay.md](../../tools/integrations/clay.md) |
 | **Clearbit** | Email-to-company enrichment | - | [clearbit.md](../../tools/integrations/clearbit.md) |
 | **ZoomInfo** | Enterprise B2B contact + intent | ✓ | [zoominfo.md](../../tools/integrations/zoominfo.md) |
@@ -247,7 +246,6 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key prosp
 | **Truelist** | Email deliverability validation | - | [truelist.md](../../tools/integrations/truelist.md) |
 | **Outreach** | Sales engagement (post-list) | ✓ | [outreach.md](../../tools/integrations/outreach.md) |
 | **RB2B** | Visitor identification (warm intent) | - | [rb2b.md](../../tools/integrations/rb2b.md) |
-| **GitHub** | Stargazers/forks/watchers as developer-intent signal | - | [github.md](../../tools/integrations/github.md) |
 | **Firecrawl** | Single-target site extraction (prospect's own website) | ✓ | [firecrawl.md](../../tools/integrations/firecrawl.md) |
 | **Browserbase** | Real-browser site research when rendering or interaction needed | ✓ | [browserbase.md](../../tools/integrations/browserbase.md) |
 
@@ -261,4 +259,5 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key prosp
 - **revops**: For lead routing, lifecycle, and CRM handoff after prospecting
 - **sales-enablement**: For battle cards and one-pagers used in the outreach
 - **directory-submissions**: For inbound discovery surfaces (the prospects might find you back)
-- **marketing-strategy**: For the ICP definition that anchors every prospecting engagement
+- **trade-marketing**: For the sell-in pitch itself once a wholesale/trade prospect is qualified
+- **marketing-strategy**: For the ICP definition and the Section 16 Business/Commercial split that anchors every wholesale prospecting engagement

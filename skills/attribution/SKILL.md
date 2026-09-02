@@ -2,7 +2,7 @@
 name: attribution
 description: When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions "attribution," "attribution model," "first-touch vs last-touch," "multi-touch," "which channel drives revenue," "what's my real CAC," "my dashboards disagree," "Google/Meta says X but GA says Y," "media mix model," "MMM," "incrementality," "brand lift," "geo lift," "holdout test," "how did you hear about us," "self-reported attribution," "dark social," or wants to instrument attribution themselves — "stitch my bookings to their source," "SavvyCal/Calendly attribution," "close the identify gap," "track conversions on a third-party domain," "first-party / self-hosted attribution." For event tracking setup and UTMs, see analytics. For ad-platform pixels/CAPI, see ads. For pipeline and CRM revenue reporting, see revops. For the AI-search attribution blind spot, see ai-seo.
 metadata:
-  version: 1.3.1
+  version: 1.4.0
 ---
 
 # Attribution
@@ -125,7 +125,7 @@ The through-line: **when "direct" and "branded search" dominate, your top of fun
 
 Defaults differ sharply. Summary here; full playbooks in `references/by-business-type.md`.
 
-- **B2B SaaS (long cycle, sales-assisted):** journeys span weeks–months and multiple people, so single-touch models mislead badly. Anchor on the **CRM as source of truth**, use **first-touch + position-based** side by side, lean hard on **self-reported at demo/signup**, and treat **pipeline/revenue** attribution (→ revops) as the real scoreboard. Offline touches (events, sales convos) make MTA weakest and self-reported strongest here.
+- **B2B/Wholesale — Commercial accounts (long cycle, sales-assisted):** journeys span weeks–months and multiple people (a buying committee), so single-touch models mislead badly. Anchor on the **CRM as source of truth**, use **first-touch + position-based** side by side, lean hard on **self-reported at the quote-request/account-application stage**, and treat **pipeline/revenue** attribution (→ revops) as the real scoreboard. Offline touches (trade shows, sales convos) make MTA weakest and self-reported strongest here.
 - **Ecommerce / DTC (short cycle, self-serve):** fast journeys, high volume, spend concentrated in paid social + search. Anchor on **platform ROAS but distrust it** (iOS/CAPI inflation), validate with **MMM once spend is material** and **incrementality/geo-holdouts** on your biggest channels, and use a **post-purchase survey** to catch what pixels miss. Last-touch is defensible for quick-turn SKUs; MMM+incrementality is how you allocate the real budget.
 
 ### 8. Measuring awareness, not just conversion
@@ -156,7 +156,7 @@ First-party attribution is one idea: **join anonymous browsing to the eventual c
 
 ### Closing the `identify()` gap
 
-The most common first-party failure: **nothing ever calls `identify()`**, so conversions never join to browsing history and every customer looks like they appeared from nowhere. (Framing adapted from Tessa Kriesel's PostHog approach.) The fix is to call identify at each real conversion. **Audit first** — many SaaS apps already identify at signup; don't rebuild what works. Find the *specific* un-instrumented conversions and close only those.
+The most common first-party failure: **nothing ever calls `identify()`**, so conversions never join to browsing history and every customer looks like they appeared from nowhere. (Framing adapted from Tessa Kriesel's PostHog approach.) The fix is to call identify at each real conversion. **Audit first** — many ecommerce platforms and loyalty apps already identify at signup/account-link; don't rebuild what works. Find the *specific* un-instrumented conversions and close only those.
 
 ### Stitching conversions on a third-party domain
 

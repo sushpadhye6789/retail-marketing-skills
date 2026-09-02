@@ -20,10 +20,10 @@ Everything below serves that join. If `identify()` never fires, every customer l
 
 ## Step 0 — Audit before you build
 
-The most expensive mistake is rebuilding attribution that already works. Many SaaS apps already `identify()` at signup and already carry first-touch on person profiles. **Check the live data first:**
+The most expensive mistake is rebuilding attribution that already works. Many ecommerce platforms and loyalty apps already `identify()` at signup/account-link and already carry first-touch on customer profiles. **Check the live data first:**
 
-- Do person profiles carry `$initial_utm_source` / `$initial_referring_domain`?
-- Does a conversion event (`Signed up`, `Converted to paid`) break down *cleanly* by channel, or is everything "Direct"?
+- Do customer profiles carry `$initial_utm_source` / `$initial_referring_domain`?
+- Does a conversion event (`Account created`, `First order`) break down *cleanly* by channel, or is everything "Direct"?
 - Is identity keyed by **email** or by an internal **UUID**? (This changes every guard below.)
 - Does cross-subdomain stitching work (marketing site → app.yourdomain.com)?
 

@@ -2,7 +2,7 @@
 name: seo-audit
 description: When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," "SEO health check," "my traffic dropped," "lost rankings," "not showing up in Google," "site isn't ranking," "Google update hit me," "page speed," "core web vitals," "crawl errors," or "indexing issues." Use this even if the user just says something vague like "my SEO is bad" or "help with SEO" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema. For AI search optimization, see ai-seo.
 metadata:
-  version: 2.0.1
+  version: 2.0.2
 ---
 
 # SEO Audit
@@ -17,7 +17,7 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 Before auditing, understand:
 
 1. **Site Context**
-   - What type of site? (SaaS, e-commerce, blog, etc.)
+   - What type of site? (ecommerce/DTC, marketplace, blog/content, local/store-locator, etc.)
    - What's the primary business goal for SEO?
    - What keywords/topics are priorities?
 
@@ -377,13 +377,6 @@ Three equivalent placement methods: HTML `<link>` in `<head>`, HTTP `Link` heade
 ---
 
 ## Common Issues by Site Type
-
-### SaaS/Product Sites
-- Product pages lack content depth
-- Blog not integrated with product pages
-- Missing comparison/alternative pages
-- Feature pages thin on content
-- No glossary/educational content
 
 ### E-commerce
 - Thin category pages

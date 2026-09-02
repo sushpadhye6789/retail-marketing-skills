@@ -2,7 +2,7 @@
 name: ai-seo
 description: "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' 'optimize for Claude/Gemini,' 'llms.txt,' 'OKF,' 'Open Knowledge Format,' 'knowledge bundle,' 'agent-readable site,' 'AI SEO growth tactics,' 'entity SEO,' 'topical authority,' or 'AI citation link-building.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema. For AI SEO growth tactics, see references/ai-seo-growth-tactics.md."
 metadata:
-  version: 2.3.0
+  version: 2.3.1
 ---
 
 # AI SEO
@@ -253,7 +253,7 @@ AI systems don't just cite your website — they cite where you appear.
 - Wikipedia mentions (7.8% of all ChatGPT citations)
 - Reddit discussions (1.8% of ChatGPT citations)
 - Industry publications and guest posts
-- Review sites (G2, Capterra, TrustRadius for B2B SaaS)
+- Review sites (Trustpilot, Sitejabber for consumer brands; trade directories/publications for B2B/wholesale)
 - YouTube (frequently cited by Google AI Overviews)
 - Quora answers
 
@@ -437,7 +437,7 @@ Google's guide calls these out explicitly — they hurt across both traditional 
 
 ## AI SEO by Content Type
 
-For tactical guidance on SaaS product pages, blog content, comparison/alternative pages, documentation, and local/ecom (Google's emphasis on Merchant Center + Business Profile), see [references/content-types.md](references/content-types.md).
+For tactical guidance on ecommerce product pages, blog content, comparison/buying-guide pages, and local/store pages (Google's emphasis on Merchant Center + Business Profile), see [references/content-types.md](references/content-types.md).
 
 ---
 

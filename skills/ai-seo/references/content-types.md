@@ -6,17 +6,17 @@ For the cross-cutting strategy, see [SKILL.md](../SKILL.md).
 
 ---
 
-## SaaS Product Pages
+## Ecommerce Product Pages
 
-**Goal:** Get cited in "What is [category]?" and "Best [category]" queries. (Citation is the realistic goal here; being *recommended* in the answer depends on offsite consensus — see [citations-vs-recommendations.md](citations-vs-recommendations.md).)
+**Goal:** Get cited in "Best [category] for [use case]" and "what should I buy for X" queries — the retail equivalent of a software category query. (Citation is the realistic goal here; being *recommended* in the answer depends on offsite consensus, including gift guides and review platforms — see [citations-vs-recommendations.md](citations-vs-recommendations.md) and `directory-submissions`.)
 
 **Optimize:**
-- Clear product description in first paragraph (what it does, who it's for)
-- Feature comparison tables (you vs. category, not just competitors)
-- Specific metrics ("processes 10,000 transactions/sec" not "blazing fast")
-- Customer count or social proof with numbers
-- Pricing transparency (AI cites pages with visible pricing) — add a `/pricing.md` file so AI agents can parse your plans without rendering your page (see "Machine-Readable Files" in the main skill)
-- FAQ section addressing common buyer questions
+- Clear product description in the first paragraph (what it is, who it's for, key materials/specs)
+- Comparison tables (this product vs. the category, not just named competitors)
+- Specific, factual claims ("machine washable, true to size" not "premium quality")
+- Review count and rating with real numbers, visible on the page (see `schema`'s Review/AggregateRating markup)
+- Pricing and availability transparency (AI cites pages with visible, unambiguous pricing) — never gate price behind "add to cart" or a login
+- FAQ section addressing common buyer questions (sizing, care, shipping, returns)
 
 ---
 

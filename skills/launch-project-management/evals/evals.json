@@ -1,0 +1,53 @@
+{
+  "skill_name": "launch-project-management",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're launching a new collection across marketing, design, and product in 8 weeks. Nobody knows who owns what. Help us get organized.",
+      "expected_output": "Should check for marketing-strategy.md first. Should build the three coordination artifacts: a workback schedule (working backward from the launch date by each workstream's own lead time to find the critical path), a RACI naming one Accountable owner per deliverable, and a dependency map showing what blocks what. Should distinguish this from the launch skill's marketing-mechanics content, and should recommend a check-in cadence and named escalation path.",
+      "assertions": [
+        "Checks for marketing-strategy.md",
+        "Builds a backward-dated workback schedule and identifies the critical path concept",
+        "Builds a RACI with a single Accountable owner per deliverable",
+        "Builds or describes a dependency map",
+        "Distinguishes itself from the launch skill's content mechanics",
+        "Recommends a check-in cadence and escalation path"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're rolling out a new product to 6 countries. Should we launch everywhere at once or stagger it?",
+      "expected_output": "Should present the three rollout patterns (simultaneous global, staggered/waved, hub-and-local) with their real tradeoffs — simultaneous requires equal readiness across all 6 markets or the slowest sets the date; staggered lets learnings feed forward but has lower initial impact; hub-and-local centralizes brand/campaign concept while localizing timing/claims/channel mix. Should ask about relative market readiness before recommending one. Should apply the centralize-vs-localize principle explicitly (what to centralize vs. localize).",
+      "assertions": [
+        "Presents simultaneous, staggered, and hub-and-local as distinct options with tradeoffs",
+        "Notes that simultaneous launch requires equal market readiness",
+        "Asks about relative market readiness before recommending",
+        "Applies the centralize-vs-localize principle explicitly"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "What needs sign-off before we can proceed vs what can our teams just run with?",
+      "expected_output": "Should walk through the Approval Gates section: items that proceed without a gate (asset production/copy within brand guidelines, internal iteration, standard localization from an approved template) vs. items needing explicit sign-off (legal/compliance-exposed claims or pricing, the launch date itself, market-specific exceptions to the brand/legal template, budget above threshold, PR/embargo timing). Should note this is adapted from the autonomous/gated task classification in ai-cmo-os's orchestration model, applied to a human team rather than AI agents.",
+      "assertions": [
+        "Distinguishes proceeds-without-gate items from needs-sign-off items with specific examples",
+        "Includes legal/compliance-exposed claims and the launch date itself as sign-off-gated",
+        "References the ai-cmo-os-derived tiering concept applied to a human team"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We're opening a new store and launching a new collection there at the same time. Which skill handles this?",
+      "expected_output": "Should clarify that this spans three skills working together: new-store-launch for the physical opening sequencing, launch for the collection's marketing mechanics, and this skill (launch-project-management) for coordinating the cross-functional workback schedule/RACI/dependencies across the teams executing both simultaneously.",
+      "assertions": [
+        "Identifies new-store-launch as owning the physical opening",
+        "Identifies launch as owning the collection's marketing mechanics",
+        "Positions launch-project-management as the cross-functional coordination layer tying both together"
+      ],
+      "files": []
+    }
+  ]
+}

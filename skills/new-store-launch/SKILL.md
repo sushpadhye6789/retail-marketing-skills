@@ -2,7 +2,7 @@
 name: new-store-launch
 description: "When the user wants to plan the marketing around opening a new physical retail location — a grand opening, a new store launch, a flagship opening, or expansion into a new market. Also use when the user mentions 'new store launch,' 'grand opening,' 'store opening marketing,' 'opening a new location,' 'flagship store opening,' 'ribbon cutting,' or 'expanding to a new city/market.' This sequences the pre-opening local-SEO setup, the opening event itself, launch-week promotions, and the handoff into ongoing local marketing — it's an orchestration layer over local-marketing, experiential-marketing, pos-marketing, and public-relations, not a replacement for any of them. For marketing a new product/collection (not a physical location), see launch. For the ongoing (ordinary-time) local visibility motion once the store is established, see local-marketing."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # New Store Launch
@@ -108,6 +108,7 @@ If this is one opening in a planned series (a regional or national rollout), don
 - **pos-marketing**: Owns in-store day-one signage and staff readiness
 - **public-relations**: Owns local press/media list building and pitching
 - **launch**: For a product/collection launch moment — distinct from a physical-location opening, though the two can coincide
+- **launch-project-management**: For the cross-functional coordination layer (workback schedule, RACI, dependency mapping) a multi-team or multi-location rollout needs on top of this skill's timeline
 - **discount-and-clearance** / **offers**: For the opening promotion mechanic
 - **content-strategy**: For turning opening-event content into ongoing distributed content
 - **site-architecture**: For the location page's fit into the broader site

@@ -1,13 +1,13 @@
 ---
 name: commercial-ops
-version: 2.1.2
+version: 2.1.3
 description: "When the user wants to optimize retail operations, improve GMROI, analyze sell-through rates, or optimize trade spend. Also use when the user mentions 'commercial operations,' 'GMROI,' 'sell-through,' 'promotional yield,' 'trade spend optimization,' 'retail margin,' 'inventory turns,' or 'wholesale pipeline.' Use this for anything involving the systems and processes that connect marketing to retail revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing."
 ---
 
 # Commercial Operations for Retail & Commerce (v2.1.0)
 
 ## Overview
-Retail-focused revenue operations framework replacing traditional B2B SaaS RevOps with metrics and processes optimized for product-based businesses selling through retail channels, direct-to-consumer (D2C), wholesale distribution, and brick-and-mortar storefronts.
+Retail-focused revenue operations framework — metrics and processes purpose-built for product-based businesses selling through retail channels, direct-to-consumer (D2C), wholesale distribution, and brick-and-mortar storefronts.
 
 **Check for product marketing context first:**
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
@@ -19,15 +19,15 @@ Refer to `.agents/marketing-strategy.md` Sections 2 (Target Audience) and 3 (Per
 
 ---
 
-## 1. Core Frame Shift: B2B SaaS RevOps → Retail Commercial Operations
+## 1. Retail Commercial Operations Fundamentals
 
-| Metric / Dimension | B2B SaaS RevOps | Retail Commercial Operations |
-| :--- | :--- | :--- |
-| **Primary Focus** | Subscription ARR, NRR, pipeline velocity | Product sell-through, inventory turns, margin optimization |
-| **Key Metrics** | MQL/SQL, ACR, LTV:CAC, churn rate | GMROI, STR, sell-through rate, UPT, ATV, markdown optimization |
-| **Data Sources** | CRM, marketing automation, billing systems | POS, inventory management, ERP, ecommerce platforms |
-| **Stakeholders** | Marketing, Sales, Customer Success | Merchandising, Buying, Store Ops, Supply Chain, Finance |
-| **Cycle Focus** | Lead-to-cash funnel | Assortment planning → receipt → sell-through → replenishment |
+| Dimension | Retail Commercial Operations |
+| :--- | :--- |
+| **Primary Focus** | Product sell-through, inventory turns, margin optimization |
+| **Key Metrics** | GMROI, STR, sell-through rate, UPT, ATV, markdown optimization |
+| **Data Sources** | POS, inventory management, ERP, ecommerce platforms |
+| **Stakeholders** | Merchandising, Buying, Store Ops, Supply Chain, Finance |
+| **Cycle Focus** | Assortment planning → receipt → sell-through → replenishment |
 
 ---
 

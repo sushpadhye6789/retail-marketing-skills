@@ -45,7 +45,7 @@ The first N buyers get a different price. After that, the price goes up.
 
 > "Founding pricing — $497/mo for the first 50 members. After we hit 50, the price moves to $797/mo."
 
-Works for: SaaS, communities, memberships. Critical: actually raise the price when you hit 50. Otherwise it was a lie.
+Works for: subscribe-and-save plans, communities, paid memberships. Critical: actually raise the price when you hit 50. Otherwise it was a lie.
 
 ### Inventory-based scarcity
 
@@ -67,7 +67,7 @@ Works for: tax, retail Q4, events, education enrollment, anything calendar-bound
 
 A bonus is available only until X date. The core offer stays the same; the *added value* expires.
 
-> "Order by Friday and the 1:1 onboarding session is included. After Friday, the offer is the same but onboarding is +$497."
+> "Order by Friday and free gift wrapping + a handwritten card is included. After Friday, the offer is the same but that add-on is +$15."
 
 Works for: anything with a launch window. Critical: actually remove the bonus when the date hits.
 
@@ -75,9 +75,9 @@ Works for: anything with a launch window. Critical: actually remove the bonus wh
 
 The price goes up on a date. Communicate it transparently.
 
-> "On November 1, the program moves from $1,997 to $2,497. Anyone enrolled before November 1 keeps the $1,997 price for life."
+> "On November 1, the collection moves from $1,997 to $2,497. Anyone who orders before November 1 keeps the launch price."
 
-Works for: courses, SaaS, communities. Builds credibility because the buyer can verify it later.
+Works for: courses, subscribe-and-save plans, communities, limited product drops. Builds credibility because the buyer can verify it later.
 
 ---
 

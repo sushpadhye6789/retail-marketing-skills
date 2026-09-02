@@ -1,28 +1,30 @@
 ---
 name: retention-and-winback
-version: 2.1.1
+version: 2.1.2
 description: "When the user wants to improve customer retention, increase repeat purchase rates, optimize replenishment cadence, or implement win-back campaigns. Also use when the user mentions 'retention,' 'repeat purchase,' 'replenishment,' 'LTV,' 'win-back,' 'lapsed customer,' 'customer churn,' or 'basket size.' Use this for anything involving keeping customers coming back and re-engaging lapsed buyers in retail and commerce. For post-purchase experience, see post-purchase-experience. For loyalty programs, see loyalty."
 ---
 
 # Retail Retention & Win-Back Strategies (v2.1.0)
 
 ## Overview
-Retail-focused retention and win-back framework replacing traditional B2B SaaS churn prevention with strategies optimized for product-based businesses selling through retail channels, direct-to-consumer (D2C), wholesale distribution, and brick-and-mortar storefronts.
+Retail-focused retention and win-back framework — strategies purpose-built for product-based businesses selling through retail channels, direct-to-consumer (D2C), wholesale distribution, and brick-and-mortar storefronts. For a recurring-billing subscription/membership program specifically, see `churn-prevention` alongside this skill.
 
 **Check for product marketing context first:**
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 ---
 
-## 1. Core Frame Shift: B2B SaaS Churn Prevention → Retail Retention & Win-Back
+## 1. Retail Retention & Win-Back Fundamentals
 
-| Metric / Dimension | B2B SaaS Churn Prevention | Retail Retention & Win-Back |
-| :--- | :--- | :--- |
-| **Primary Focus** | Subscription renewal, payment recovery, feature adoption | Repeat purchase behavior, replenishment triggers, customer lifetime value optimization |
-| **Key Metrics** | Churn rate, MRR expansion, NPS, feature adoption | Repeat purchase rate, time between purchases, basket size growth, customer lifetime value |
-| **Intervention Points** | Cancel flow, dunning, save offers | Post-purchase sequences, replenishment reminders, lapse detection, win-back campaigns |
-| **Customer Journey Stage** | Pre-cancel → cancellation → post-cancel | Post-purchase → active → at-risk → lapsed → win-back |
-| **Communication Channels** | In-app, email, in-product messaging | Email/SMS, direct mail, loyalty app notifications, package inserts |
+| Dimension | Retail Retention & Win-Back |
+| :--- | :--- |
+| **Primary Focus** | Repeat purchase behavior, replenishment triggers, customer lifetime value optimization |
+| **Key Metrics** | Repeat purchase rate, time between purchases, basket size growth, customer lifetime value |
+| **Intervention Points** | Post-purchase sequences, replenishment reminders, lapse detection, win-back campaigns |
+| **Customer Journey Stage** | Post-purchase → active → at-risk → lapsed → win-back |
+| **Communication Channels** | Email/SMS, direct mail, loyalty app notifications, package inserts |
+
+**If the business also runs a recurring-billing program** (subscribe-and-save, paid membership), the cancel-flow/dunning/save-offer intervention points for that specific billing relationship are `churn-prevention`'s territory — use both skills together rather than reinventing that half here.
 
 ---
 
@@ -392,6 +394,7 @@ Define lapse based on product category and purchase patterns:
 
 ## 9. Related Skills
 
+- **packaging-design** - Owns the package itself, distinct from this skill's replenishment/win-back focus
 - **commercial-ops** - Retail financial mechanics including GMROI, sell-through analytics, and promotional yield
 - **post-purchase-experience** - Unboxing experience, product registration, cross-sell triggers, first-time buyer activation
 - **trade-and-dealer-enablement** - Retail buyer pitch kits, co-op advertising, dealer incentives programs

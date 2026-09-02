@@ -2,7 +2,7 @@
 name: social
 description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engagement triage. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' 'create a reel,' 'social listening,' 'brand mentions,' 'competitor monitoring,' 'top posts to comment on,' 'find people asking for,' 'carousel,' 'slide-by-slide,' or 'document post.' Use this for social media content creation, repurposing, scheduling, short-form video scripting, and social listening. For broader content strategy, see content-strategy. For paid ads, see ad-creative. For earned media, see public-relations."
 metadata:
-  version: 2.3.4
+  version: 2.3.5
 ---
 
 # Social Content
@@ -389,8 +389,8 @@ Tools: CapCut (free), Descript, Captions.ai, Premiere Pro
 
 | Business Type | Video Ideas |
 |---------------|-------------|
-| SaaS | Feature demos (show outcome first), before/after, "Watch me do X in Y seconds" |
 | E-commerce | Unboxing, comparisons, how it's made, customer reviews |
+| Wholesale/B2B | Trade-show floor footage, buyer testimonials, "how this line performs on shelf" |
 | Services | Process reveals, client transformations, myth-busting |
 | Personal brand | Lessons learned, controversial takes, day-in-the-life |
 

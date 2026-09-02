@@ -1,8 +1,8 @@
 ---
 name: signup
-description: When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions "signup conversions," "registration friction," "signup form optimization," "free trial signup," "reduce signup dropoff," "account creation flow," "people aren't signing up," "signup abandonment," "trial conversion rate," "nobody completes registration," "too many steps to sign up," or "simplify our signup." Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding. For lead capture forms (not account creation), see cro.
+description: When the user wants to optimize signup, registration, or account-creation flows — checkout account creation, loyalty program signup, subscribe-and-save signup, or a B2B/wholesale account application. Also use when the user mentions "signup conversions," "registration friction," "signup form optimization," "guest checkout," "reduce signup dropoff," "account creation flow," "people aren't signing up," "signup abandonment," "nobody completes registration," "too many steps to sign up," or "simplify our signup." Use this whenever the user has a signup or registration flow that isn't performing. For what happens after signup on a genuine app/portal, see onboarding; for the physical-product post-purchase journey, see post-purchase-experience. For lead capture forms (not account creation), see cro.
 metadata:
-  version: 2.0.1
+  version: 3.0.0
 ---
 
 # Signup Flow CRO
@@ -17,11 +17,11 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 Before providing recommendations, understand:
 
 1. **Flow Type**
-   - Free trial signup
-   - Freemium account creation
-   - Paid account creation
-   - Waitlist/early access signup
-   - B2B vs B2C
+   - Checkout account creation (vs. guest checkout)
+   - Loyalty/rewards program signup
+   - Subscribe-and-save account creation
+   - B2B/wholesale account application
+   - Waitlist/early access signup (a launch or restock)
 
 2. **Current State**
    - How many steps/screens?
@@ -147,11 +147,11 @@ Every field reduces conversion. For each field, ask:
 ## Trust and Friction Reduction
 
 ### At the Form Level
-- "No credit card required" (if true)
-- "Free forever" or "14-day free trial"
+- "Guest checkout available" (if account creation isn't required to complete a purchase)
+- "Join free — [X]% off your first order" or the real loyalty-signup incentive, if there is one
 - Privacy note: "We'll never share your email"
-- Security badges if relevant
-- Testimonial near signup form
+- Security badges (secure checkout, payment provider logos) if relevant
+- Testimonial or review count near the signup form
 
 ### Error Handling
 - Inline validation (not just on submit)
@@ -240,25 +240,30 @@ Organized by:
 
 ## Common Signup Flow Patterns
 
-### B2B SaaS Trial
-1. Email + Password (or Google auth)
-2. Name + Company (optional: role)
-3. → Onboarding flow
+### Ecommerce Checkout Account
+1. Guest checkout as the default
+2. Account creation optional, offered post-purchase ("save your info for next time") rather than gating checkout
+3. OR social auth with a single click if an account is required
 
-### B2C App
-1. Google/Apple auth OR Email
-2. → Product experience
-3. Profile completion later
+### Loyalty/Rewards Program
+1. Email (or phone, if SMS-based) + name
+2. Optional: birthday, preferences (for personalized offers) — defer if not essential to the first reward
+3. → Onboarding flow (see `onboarding` if there's a real app; otherwise a simple confirmation + welcome email/SMS)
+
+### Subscribe-and-Save Account
+1. Product/plan selection + delivery cadence
+2. Email + payment method
+3. → Confirmation, with clear next-delivery date and how to skip/manage (see `loyalty` and `churn-prevention`)
+
+### B2B/Wholesale Account Application
+1. Business details (name, tax/resale ID if required, business type)
+2. Contact + intended order volume
+3. → Manual review/approval (not instant activation — see `marketing-strategy` Section 16) before trade pricing unlocks (see `paywalls`)
 
 ### Waitlist/Early Access
 1. Email only
-2. Optional: Role/use case question
-3. → Waitlist confirmation
-
-### E-commerce Account
-1. Guest checkout as default
-2. Account creation optional post-purchase
-3. OR Social auth with single click
+2. Optional: one qualifying question (size, preference, region)
+3. → Waitlist confirmation, feeding into `launch`'s early-access phase
 
 ---
 
@@ -298,8 +303,8 @@ Organized by:
 
 **Headlines & CTAs**
 - Test headline variations above signup form
-- CTA button text: "Create Account" vs. "Start Free Trial" vs. "Get Started"
-- Add clarity around trial length in CTA
+- CTA button text: "Create Account" vs. "Join & Save [X]%" vs. "Get Started"
+- Add clarity around the actual signup incentive in the CTA, if there is one
 - Test value proposition emphasis in form header
 
 **Microcopy**
@@ -316,19 +321,19 @@ Organized by:
 
 ---
 
-### Trial & Commitment Experiments
+### Account-Creation Commitment Experiments
 
-**Free Trial Variations**
-- Credit card required vs. not required for trial
-- Test trial length impact (7 vs. 14 vs. 30 days)
-- Freemium vs. free trial model
-- Trial with limited features vs. full access
+**Guest Checkout & Account Timing**
+- Guest checkout as default vs. account required to purchase
+- Account creation offered post-purchase vs. pre-purchase
+- Loyalty enrollment incentive (a discount, a bonus points offer) vs. no incentive, tested for both signup rate and its effect on margin
+- Auto-enroll in loyalty at checkout (opt-out) vs. explicit opt-in — check `compliance` before testing auto-enroll, since consent requirements apply if enrollment includes marketing messages
 
 **Friction Points**
 - Email verification required vs. delayed vs. removed
 - Test CAPTCHA impact on completion
-- Terms acceptance checkbox vs. implicit acceptance
-- Phone verification for high-value accounts
+- Terms/marketing-consent checkbox vs. implicit acceptance — see `compliance` for what actually requires explicit opt-in
+- Business-details verification timing for a B2B/wholesale application (upfront vs. after initial submission)
 
 ---
 
@@ -353,7 +358,10 @@ Organized by:
 
 ## Related Skills
 
-- **onboarding**: For optimizing what happens after signup
-- **cro**: For non-signup forms (lead capture, contact)
-- **cro**: For the landing page leading to signup
+- **onboarding**: For what happens after signup on a genuine app/portal (loyalty app, subscription portal, B2B ordering portal)
+- **post-purchase-experience**: For the physical-product journey once checkout is complete, when signup isn't tied to an app
+- **loyalty**: For the program structure a loyalty-signup flow is enrolling someone into
+- **paywalls**: For the trade/wholesale price-reveal gate a B2B account application unlocks once approved
+- **cro**: For non-signup forms (lead capture, contact) and for the landing page leading to signup
+- **compliance**: For marketing-consent requirements on any auto-enroll or checkbox default tested here
 - **ab-testing**: For testing signup flow changes

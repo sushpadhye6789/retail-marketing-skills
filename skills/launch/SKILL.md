@@ -2,7 +2,7 @@
 name: launch
 description: "When the user wants to plan a product, collection, or new-store launch, or a major restock/drop announcement. Also use when the user mentions 'launch,' 'product launch,' 'collection launch,' 'drop,' 'restock announcement,' 'go-to-market,' 'pre-order,' 'early access,' 'waitlist,' 'limited release,' 'launch checklist,' 'GTM plan,' or 'we're about to launch.' Use this whenever someone is preparing to release a product, collection, or drop publicly. For a new physical-location opening, see new-store-launch. For ongoing marketing after launch, see marketing-ideas. For the offer being launched (bonuses, guarantees, scarcity, naming), see offers."
 metadata:
-  version: 3.0.0
+  version: 3.0.1
 ---
 
 # Launch Strategy
@@ -352,6 +352,7 @@ Even small "new arrivals" updates remind customers the brand is actively refresh
 ## Related Skills
 
 - **new-store-launch**: For a physical-location opening — a different kind of launch with its own timeline
+- **launch-project-management**: For coordinating a launch across multiple functions or markets — the workback schedule, RACI, and dependency mapping this skill's phases assume are already handled
 - **product-lifecycle**: For what comes after this launch — transitions, phase-outs, and replacements later in the product's life
 - **tentpole-campaign**: For a major brand campaign tied to a calendar/cultural moment rather than a new-product go-to-market
 - **marketing-ideas**: For additional launch tactics

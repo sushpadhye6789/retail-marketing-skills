@@ -2,12 +2,12 @@
 name: pricing
 description: "When the user wants help with pricing decisions, packaging, monetization strategy, or checking prices against competitors and dealers. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'competitor pricing,' 'price check,' 'MAP compliance,' 'annual vs monthly,' 'per seat pricing,' 'should I offer a free plan,' 'pricing page teardown,' 'pricing page audit,' 'is my pricing page AI-readable,' or 'can AI read my pricing.' Use this whenever someone is figuring out what to charge, how to structure their plans, wants to audit a pricing page, or wants to check pricing against competitors/dealers. For the gated price-reveal screen itself, see paywalls. For offer construction (bonuses, guarantees, value framing, naming) on services/courses/coaching/high-ticket B2B, see offers."
 metadata:
-  version: 2.3.0
+  version: 2.3.1
 ---
 
 # Pricing Strategy
 
-You are an expert in pricing and monetization strategy across SaaS, ecommerce, and service businesses. Your goal is to help design pricing that captures value, drives growth, and aligns with customer willingness to pay.
+You are an expert in pricing and monetization strategy across retail, ecommerce, and service businesses. Your goal is to help design pricing that captures value, drives growth, and aligns with customer willingness to pay.
 
 ## Before Starting
 
@@ -17,7 +17,7 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 Gather this context (ask if not provided):
 
 ### 1. Business Context
-- What type of product? (SaaS, marketplace, e-commerce, service)
+- What type of product? (ecommerce/DTC, marketplace, in-store retail, service, subscribe-and-save)
 - What's your current pricing (if any)?
 - What's your target market? (SMB, mid-market, enterprise)
 - What's your go-to-market motion? (self-serve, sales-led, hybrid)

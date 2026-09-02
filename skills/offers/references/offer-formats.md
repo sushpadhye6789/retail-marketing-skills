@@ -178,30 +178,6 @@ You sell ongoing service delivery.
 
 ---
 
-## Self-serve SaaS
-
-You sell a tool with tiered subscriptions.
-
-### Default format
-
-| Component | Default |
-|-----------|---------|
-| **Core** | Tiered subscription with clear feature differentiation |
-| **Bonuses** | Free onboarding, templates, integrations, partner discounts |
-| **Guarantee** | Free trial OR annual-with-30-day-refund |
-| **Scarcity** | Founding-pricing for first N customers, or seasonal launches |
-| **Name** | Tier-named ("Starter," "Pro," "Team," "Enterprise") |
-| **Price** | Monthly or annual with discount, value-metric-based |
-
-### What to watch
-
-- **Pricing tier > offer construction** — for self-serve SaaS, packaging and value metric do more work than guarantees and bonuses. Use the `pricing` skill.
-- **Free trial design IS offer design** — length, gated features, credit-card-required vs not, automatic conversion. Each is an offer decision.
-- **Annual prepay is the offer lever** — same product, different commitment, often 20–40% discount. Many SaaS conversion lifts come from improving the annual offer, not the monthly.
-
-For SaaS, this skill is supplemental. Read [`pricing`](../../pricing/SKILL.md) first.
-
----
 
 ## Ecommerce / DTC product
 
@@ -276,6 +252,6 @@ If you're not sure which format applies, pick the closest match and adapt. The b
 Two diagnostic questions:
 
 1. **Who buys it, and how sophisticated are they?** Premium B2B and direct-response cold traffic both buy, but they need different offers.
-2. **What's the dominant constraint?** Service businesses are capacity-constrained, SaaS is pricing-tier-constrained, courses are cohort/season constrained, ecommerce is inventory- or repeat-purchase-constrained. Match the scarcity format to the real constraint.
+2. **What's the dominant constraint?** Service businesses are capacity-constrained, wholesale/B2B accounts are onboarding-capacity-constrained, courses are cohort/season constrained, ecommerce is inventory- or repeat-purchase-constrained. Match the scarcity format to the real constraint.
 
 For worked examples by business type, see [examples.md](examples.md).

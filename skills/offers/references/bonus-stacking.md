@@ -123,7 +123,7 @@ Order: strong core *first*, then bonuses to address specific objections.
 
 "BONUS! Private community access!" on every course in your category isn't a bonus, it's table stakes. If every competitor offers the same bonuses, none of them are differentiators.
 
-Find bonuses that are specific to your buyer's situation. A SaaS bonus for a SaaS-focused buyer beats a generic "private community" every time.
+Find bonuses that are specific to your buyer's situation. A care/styling kit specific to the exact product just bought beats a generic "free tote bag" every time.
 
 ---
 

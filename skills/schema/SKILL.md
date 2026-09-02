@@ -2,7 +2,7 @@
 name: schema
 description: When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "product schema," "review schema," "breadcrumb schema," "Google rich results," "knowledge panel," "star ratings in search," or "add structured data." Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.
 metadata:
-  version: 2.0.1
+  version: 2.0.2
 ---
 
 # Schema Markup
@@ -56,7 +56,7 @@ Before implementing schema, understand:
 | WebSite | Homepage (search box) | name, url |
 | Article | Blog posts, news | headline, image, datePublished, author |
 | Product | Product pages | name, image, offers |
-| SoftwareApplication | SaaS/app pages | name, offers |
+| SoftwareApplication | A companion/loyalty app's own listing page (rare — most retail sites don't need this type) | name, offers |
 | FAQPage | FAQ content | mainEntity (Q&A array) |
 | HowTo | Tutorials | name, step |
 | BreadcrumbList | Any page with breadcrumbs | itemListElement |

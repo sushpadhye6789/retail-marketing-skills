@@ -101,35 +101,35 @@ Same templates. ~2x close rate from the same traffic. The differentiator was the
 
 ---
 
-## Example 4: $50K B2B SaaS annual contract
+## Example 4: $50K wholesale/national-account annual contract
 
 ### Before
 
 **The offer:**
-> Enterprise plan: $50K/year. Includes unlimited users, all features, dedicated support.
+> National account program: $50K/year minimum commitment. Full catalog access, standard trade pricing, standard support.
 
 **Diagnostic:**
-- Dream outcome: 5 (features-listed, not outcome-framed)
-- Perceived likelihood: 5 (no roll-out plan, no time-to-value)
-- Time delay: 3 (unclear when value starts; sales says "implementation varies")
-- Effort & sacrifice: 4 (procurement + security review + IT integration + change management)
+- Dream outcome: 5 (catalog-and-terms-listed, not outcome-framed)
+- Perceived likelihood: 5 (no rollout plan, no time-to-shelf commitment)
+- Time delay: 3 (unclear when the first order ships; sales says "onboarding varies")
+- Effort & sacrifice: 4 (buyer committee approval + category review + POS/EDI integration + staff training)
 
-**Lowest binding constraint:** time delay. Enterprise buyers can't tolerate "implementation varies."
+**Lowest binding constraint:** time delay. A category manager evaluating shelf space can't tolerate "onboarding varies" when a competitor's line is ready to ship now.
 
 ### After
 
 | Component | What changed |
 |-----------|--------------|
-| **Core** | "Production-ready in 30 days, ROI by quarter end" — time-anchored |
-| **Bonuses** | (1) Dedicated implementation engineer for 30 days; (2) Pre-built integration packs for top 5 platforms; (3) Custom training session for the buyer's team; (4) Quarterly business reviews with the buyer's CSM |
-| **Guarantee** | "Not in production by day 30? You don't pay until you are." SLA-based. |
-| **Scarcity** | Capacity-based: "We onboard 4 enterprise accounts per quarter. Next slot starts [date]." |
-| **Name** | Tier name stayed "Enterprise" but added the engagement name "Strategic Onboarding" |
-| **Price** | $50K annual → $50K annual with quarterly billing + paid 30-day pilot |
+| **Core** | "First shipment on shelf in 30 days, full category reset support by quarter end" — time-anchored |
+| **Bonuses** | (1) Dedicated account manager for the first 30 days; (2) Pre-built planogram and category-reset kit; (3) Staff training session for the buyer's floor team; (4) Quarterly business reviews with sell-through data |
+| **Guarantee** | "Not on shelf by day 30? The first order ships free." Fulfillment-SLA-based. |
+| **Scarcity** | Capacity-based: "We onboard 4 national accounts per quarter — next slot starts [date]." (see `commercial-ops` for the account-onboarding capacity this scarcity claim has to actually reflect) |
+| **Name** | Tier name stayed "National Account" but added the engagement name "Priority Onboarding" |
+| **Price** | $50K annual commitment → $50K annual with quarterly billing + a paid 30-day trial order |
 
-Same product. ~30% higher close rate, 50% shorter sales cycle. The pilot + SLA combination removed the procurement objection.
+Same terms. Higher close rate, shorter buyer-committee cycle. The trial-order + fulfillment-SLA combination removed the category manager's real objection (will this actually be ready in time for the reset).
 
-**Lesson:** for enterprise B2B, time-to-value IS the offer. Solve it explicitly.
+**Lesson:** for a large commercial/national account (see `marketing-strategy`'s B2B Commercial segment), time-to-shelf IS the offer. Solve it explicitly — see `trade-marketing` for the sell-in case this offer structure supports.
 
 ---
 
@@ -239,7 +239,7 @@ Look at the changes side-by-side:
 | Fractional CMO | Named it, added scope | First-milestone guarantee |
 | Copywriting course | Outcome-framed, added proof | Case studies bonus |
 | Notion templates | "in one Saturday" anchor | First-step Loom bonus |
-| B2B SaaS | Time-to-value commitment | SLA-based guarantee + pilot |
+| Wholesale/national account | Time-to-shelf commitment | Fulfillment-SLA guarantee + trial order |
 | Coaching mastermind | Positioned the room, not the coach | 1-year alumni access bonus |
 | Agency retainer | Outcome + timeline framing | Paid pilot guarantee |
 | Ecommerce serum | Outcome + timeline in the name | Named, explicit subscription offer |

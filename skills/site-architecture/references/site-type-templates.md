@@ -4,38 +4,30 @@ Full page hierarchy templates with ASCII trees, URL maps, and navigation recomme
 
 ---
 
-## SaaS Marketing Site
+## Wholesale/B2B Portal Site
+
+See `marketing-strategy` Section 16 for when this applies — a dedicated trade/wholesale ordering site alongside (or instead of) a consumer storefront.
 
 ### Page Hierarchy
 
 ```
 Homepage (/)
-├── Features (/features)
-│   ├── Feature A (/features/feature-a)
-│   ├── Feature B (/features/feature-b)
-│   └── Feature C (/features/feature-c)
-├── Pricing (/pricing)
-├── Customers (/customers)
-│   ├── Case Study 1 (/customers/company-name)
-│   └── Case Study 2 (/customers/company-name-2)
+├── Catalog (/catalog)
+│   ├── Category A (/catalog/category-a)
+│   │   └── [Product] (/catalog/category-a/product-slug)
+│   └── Category B (/catalog/category-b)
+├── Trade Pricing (/trade-pricing) — gated, see `paywalls`
+├── Account (/account)
+│   ├── Order History (/account/orders)
+│   ├── Reorder (/account/reorder)
+│   └── Account Details (/account/details)
 ├── Resources (/resources)
-│   ├── Blog (/blog)
-│   │   └── [Posts] (/blog/post-slug)
-│   ├── Templates (/resources/templates)
-│   │   └── [Template] (/resources/templates/template-slug)
-│   └── Guides (/resources/guides)
-│       └── [Guide] (/resources/guides/guide-slug)
-├── Integrations (/integrations)
-│   └── [Integration] (/integrations/integration-name)
-├── Docs (/docs)
-│   ├── Getting Started (/docs/getting-started)
-│   ├── Guides (/docs/guides)
-│   └── API Reference (/docs/api)
+│   ├── Line Sheets (/resources/line-sheets)
+│   ├── Brand Guidelines (/resources/brand-guidelines)
+│   └── Marketing Assets (/resources/assets) — for co-op/MDF-funded materials, see `supplier-funded-marketing`
+├── Apply for an Account (/apply) — new trade-account application, see `signup`
 ├── About (/about)
-│   ├── Careers (/about/careers)
 │   └── Contact (/contact)
-├── Compare (/compare)
-│   └── [Competitor] (/compare/competitor-name)
 ├── Privacy (/privacy)
 └── Terms (/terms)
 ```
@@ -45,28 +37,24 @@ Homepage (/)
 | Page | URL | Nav Location | Priority |
 |------|-----|-------------|----------|
 | Homepage | `/` | Header (logo) | Critical |
-| Features | `/features` | Header | High |
-| Feature pages | `/features/{slug}` | Header dropdown | Medium |
-| Pricing | `/pricing` | Header | Critical |
-| Customers | `/customers` | Header | Medium |
-| Case studies | `/customers/{slug}` | Customers dropdown | Medium |
-| Blog | `/blog` | Header (Resources) | High |
-| Blog posts | `/blog/{slug}` | — | Medium |
-| Integrations | `/integrations` | Header | Medium |
-| Docs | `/docs` | Header | Medium |
-| Compare | `/compare/{slug}` | Footer | High (SEO) |
-| About | `/about` | Footer | Low |
-| Pricing CTA | `/pricing` | Header (CTA button) | Critical |
+| Catalog | `/catalog` | Header | Critical |
+| Category pages | `/catalog/{category}` | Header dropdown | High |
+| Trade pricing | `/trade-pricing` | Header (gated) | Critical |
+| Account/order history | `/account` | Header (post-login) | Critical |
+| Line sheets/resources | `/resources` | Header | High |
+| Apply for an account | `/apply` | Header (CTA, pre-login) | Critical |
+| About/contact | `/about` | Footer | Low |
 
 ### Navigation
 
-**Header (6 items + CTA)**: Features | Pricing | Customers | Resources | Integrations | Docs | [Get Started]
+**Header (pre-login)**: Catalog preview | Apply for an Account | Contact
+**Header (post-login)**: Catalog | Trade Pricing | Account/Orders | Resources | [Reorder]
 
 **Footer columns**:
-- Product: Features, Pricing, Integrations, Changelog, Security
-- Resources: Blog, Templates, Guides, Case Studies
-- Company: About, Careers, Contact, Press
-- Legal: Privacy, Terms, Security
+- Ordering: Catalog, Trade Pricing, Reorder, Apply
+- Resources: Line Sheets, Brand Guidelines, Marketing Assets
+- Company: About, Contact
+- Legal: Privacy, Terms
 
 ---
 
@@ -211,47 +199,41 @@ Docs Home (/docs)
 
 ---
 
-## Hybrid SaaS + Content
+## Hybrid Ecommerce + Content
+
+The most common real retail site type — a full storefront with an integrated content hub (buying guides, styling/usage content, brand storytelling) rather than a bare product catalog.
 
 ### Page Hierarchy
 
 ```
 Homepage (/)
-├── Product (/product)
-│   ├── Feature A (/product/feature-a)
-│   ├── Feature B (/product/feature-b)
-│   └── Feature C (/product/feature-c)
-├── Solutions (/solutions)
-│   ├── By Use Case (/solutions/use-case-slug)
-│   └── By Industry (/solutions/industry-slug)
-├── Pricing (/pricing)
+├── Shop (/shop)
+│   ├── Category A (/shop/category-a)
+│   │   └── [Product] (/shop/category-a/product-slug)
+│   └── Category B (/shop/category-b)
+├── Collections (/collections)
+│   ├── By Occasion (/collections/occasion-slug)
+│   └── Seasonal/Limited (/collections/seasonal-slug)
 ├── Blog (/blog)
 │   ├── [Category] (/blog/category/slug)
 │   └── [Posts] (/blog/post-slug)
-├── Resources (/resources)
-│   ├── Guides (/resources/guides)
-│   ├── Templates (/resources/templates)
-│   ├── Webinars (/resources/webinars)
-│   └── Case Studies (/resources/case-studies)
-├── Docs (/docs)
-│   ├── Getting Started (/docs/getting-started)
-│   └── API (/docs/api)
-├── Integrations (/integrations)
-│   └── [Integration] (/integrations/slug)
-├── Compare (/compare)
-│   └── [Competitor] (/compare/competitor-slug)
+├── Guides (/guides)
+│   ├── Buying Guides (/guides/buying-guide-slug)
+│   └── How-To/Care (/guides/care-slug)
 ├── About (/about)
-│   ├── Careers (/about/careers)
+│   ├── Our Story (/about/story)
+│   ├── Sustainability (/about/sustainability) — see `compliance` before publishing sustainability claims
 │   └── Contact (/contact)
+├── Loyalty (/loyalty) — if a program exists, see `loyalty`
 ├── Privacy (/privacy)
 └── Terms (/terms)
 ```
 
 ### Navigation
 
-**Header (7 items + CTA)**: Product | Solutions | Pricing | Resources | Blog | Docs | Integrations | [Start Free Trial]
+**Header (6 items + CTA)**: Shop | Collections | Guides | Blog | About | [Loyalty/Account] | [Cart]
 
-Use mega menus for Product (features list), Solutions (use cases + industries), and Resources (blog, guides, templates, webinars, case studies).
+Use mega menus for Shop (category list) and Collections (occasion/seasonal groupings) — see `visual-merchandising`'s spatial-layout logic for how this should mirror in-store category organization where relevant.
 
 ---
 

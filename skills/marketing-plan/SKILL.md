@@ -2,7 +2,7 @@
 name: marketing-plan
 description: When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions "marketing plan," "growth plan," "GTM plan," "go-to-market plan," "AARRR plan," "90-day marketing plan," "12-month marketing roadmap," "fractional CMO plan," or "fCMO plan." Generates an exhaustive 13-section plan structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to the client's current budget, team, and stage, mapped to future funding milestones, cross-referenced with the 139-idea marketing-ideas library and an embedded 17-section current-state audit rubric, with a full marketing operations stack showing which skills and MCP/API integrations execute each part. Outputs a Notion-paste-ready markdown document. For positioning and ICP context before planning, see marketing-strategy. For stage-specific deep work, see onboarding, signup, emails, referrals, pricing.
 metadata:
-  version: 1.3.0
+  version: 1.3.1
 ---
 
 # Marketing Plan
@@ -33,7 +33,7 @@ Invoke this skill when:
 
 Examples:
 - `/marketing-plan quietude.app`
-- `/marketing-plan acme-saas`
+- `/marketing-plan acme-wholesale`
 - `/marketing-plan` (will prompt for client name)
 
 On invocation, the skill reads `~/marketing-plans/{client-slug}/progress.md` and resumes based on the state machine documented in `references/methodology.md` Step 1.1.2 (fresh → INIT → REVIEW → FINALIZE → finalized). Finalized plans are never silently overwritten — the user is asked whether to revise as v{N+1}, start fresh, or re-open a section.
@@ -170,12 +170,12 @@ For VC-backed Series A+ clients, anchor the 12-month outlook against the **3-3-2
 
 These formulas are marketing-planning heuristics, not financial or accounting advice — for fundraising models, board-level financial projections, or anything a CFO/accountant needs to sign off on, route the actual numbers through a qualified finance professional.
 
-## Growth patterns — the real shape of SaaS growth
+## Growth patterns — the real shape of growth
 
-Pitch decks show hockey sticks. Real growth is a series of S-curves with plateaus between them. Full framework in `references/growth-patterns.md`. Key implications for the plan:
+Pitch decks show hockey sticks. Real growth is a series of S-curves with plateaus between them. Full framework in `references/growth-patterns.md` — note that framework's ARR-denominated phase thresholds and funding-stage language are carried over from the B2B/subscription growth research it's built on; recalibrate the dollar thresholds against revenue (not necessarily *annual recurring* revenue) for a non-subscription retail business. Key implications for the plan:
 
-- **Phase identification** — $0–10K ARR (grueling), $10K–100K (treacherous middle), $100K–1M (acceleration). Section 3 names the current phase; Section 10 sequences the next.
-- **Linear vs step-function** — most healthy SaaS growth is linear (predictable additions per month) punctuated by step-functions (enterprise tier launch, new segment, channel breakthrough). The plan should describe both honestly — not promise exponential.
+- **Phase identification** — early (grueling), scaling (treacherous middle), acceleration. Section 3 names the current phase; Section 10 sequences the next.
+- **Linear vs step-function** — most healthy growth is linear (predictable additions per month) punctuated by step-functions (a new collection launch, a new channel/market, a wholesale breakthrough account). The plan should describe both honestly — not promise exponential.
 - **S-curve layering** — Channel × Product × Market. Start the next S-curve while the current one is still growing. Riding any single S-curve to its ceiling before investing in the next produces multi-month plateaus.
 - **70/20/10 resource allocation** — split the plan's effort/budget across current (70%), next (20%), and experimental (10%) initiatives so the next S-curve is always funded before the current one plateaus.
 - **Weekly tracking cadence** — review leading indicators weekly and watch for S-curve plateau signals; a flattening curve is the trigger to shift weight toward the next one, not a reason to push harder on the current.
@@ -197,7 +197,7 @@ A generic plan is a failed plan. Every plan must explicitly customize for:
 3. **Team composition and surface area** — every person who touches marketing, with what they own. Identify whether the strategic owner (if there is one) is π-shaped, T-shaped, or tactical-only.
 4. **What the client is currently doing** — by channel, with status (working / not / TBD).
 5. **What they've already done that should be acknowledged** — past launches, PR moments, content, partnerships. Don't write a plan that ignores work they're proud of.
-6. **Phase of SaaS growth** — $0–10K ARR / $10K–100K / $100K–1M / $1M+. Each phase has its own binding constraint.
+6. **Growth phase** — early / scaling / acceleration (see `references/growth-patterns.md`). Each phase has its own binding constraint.
 7. **Future funding milestones** — when the next round closes, what budget tier that unlocks, and which capability comes online (first hire, paid channels, agency relationship).
 8. **The marketing skills mapped to specific moves** — every move in the AARRR sections names the skill that executes it.
 9. **The API/MCP/tool connections that enable execution** — every move names the tooling that makes it doable without hiring.
@@ -207,7 +207,7 @@ If you can't confirm any of these in INIT, list them in Section 13's "Open decis
 ## Common client-type variations
 
 Plan structure stays consistent. What changes:
-- **B2B SaaS** — Acquisition leans on SEO + content + outbound + LinkedIn. Activation = signup + product trial. Retention = product engagement + CSM motion. Referral = customer advocacy. Revenue = expansion / NRR.
+- **B2B/Wholesale** — Acquisition leans on trade shows + outbound + LinkedIn + industry directories. Activation = account application + first order. Retention = category performance + account management. Referral = trade referrals. Revenue = expansion / larger order volume (see `marketing-strategy` Section 16's Business/Commercial split).
 - **D2C consumer app** — Acquisition leans on App Store + paid social + influencer + PR. Activation = onboarding + first session + paywall. Retention = lifecycle email + push. Referral = sharing mechanics. Revenue = subscription + upsell.
 - **Hardware-led** — Acquisition leans on PR + retail + Amazon + Shopify SEO. Activation = unboxing + setup + first use. Retention = software companion + community. Referral = gifting + reviews. Revenue = blended LTV hardware + accessories + subscription.
 - **Marketplace** — Activation has two sides (supply + demand). Retention is repeat transaction frequency. Revenue is take-rate × GMV.
@@ -278,6 +278,7 @@ The full schema for `progress.md` and the resumption decision tree live in `refe
 - **`seo-audit`** / **`ai-seo`** / **`programmatic-seo`** — Deep work on the SEO portion of Section 4 (Acquisition).
 - **`ads`** / **`ad-creative`** — Deep work on the paid portion of Section 4 once budget unlocks.
 - **`launch`** — Deep work on launch moments inside Section 4 / Section 9.
+- **`launch-project-management`** — Cross-functional/cross-market workback schedule and RACI for a single launch, kept consistent with this plan's own Section 13 RACI rather than duplicating it.
 
 ## Task-specific questions (used during INIT)
 

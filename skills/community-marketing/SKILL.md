@@ -2,7 +2,7 @@
 name: community-marketing
 description: "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \"build a community,\" \"community strategy,\" \"Discord community,\" \"Slack community,\" \"community-led growth,\" \"brand advocates,\" \"user community,\" \"forum strategy,\" \"community engagement,\" \"grow our community,\" \"ambassador program,\" \"community flywheel.\""
 metadata:
-  version: 2.0.3
+  version: 2.0.4
 ---
 
 # Community Marketing
@@ -104,7 +104,7 @@ Design for the flywheel from day one. Every decision should ask: *Does this acce
 | Platform | Best For | Watch Out For |
 |----------|----------|---------------|
 | Discord | Developer, gaming, creator communities; real-time chat | High noise, hard to search, onboarding friction |
-| Slack | B2B / professional communities; familiar to SaaS buyers | Free tier limits history; feels like work |
+| Slack | B2B/wholesale trade communities; familiar to professional buyers | Free tier limits history; feels like work |
 | Circle | Creator or course-based communities; clean UX | Less organic discovery; requires driving traffic |
 | Reddit | High-volume public communities; SEO benefit | You don't own it; moderation is hard |
 | Facebook Groups | Consumer brands; older demographics | Declining organic reach; algorithm dependent |

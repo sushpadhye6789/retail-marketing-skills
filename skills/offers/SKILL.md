@@ -1,8 +1,8 @@
 ---
 name: offers
-description: "When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Also use when the user mentions 'offer,' 'offer design,' 'build an offer,' 'grand slam offer,' 'irresistible offer,' 'value stack,' 'bonus stack,' 'guarantee,' 'risk reversal,' 'money-back guarantee,' 'scarcity,' 'urgency,' 'high-ticket offer,' 'productize a service,' 'naming an offer,' 'payment plan,' 'down-sell,' 'upsell offer,' or 'why isn't my offer converting.' Best for ecommerce/DTC products, services, agencies, courses, coaching, info products, high-ticket B2B, and direct-response. If you run pure self-serve SaaS, read pricing first — tiers and packaging do more work there. For price level itself (tiers, freemium, value metric), see pricing. For the page that presents the offer, see copywriting. For the launch moment, see launch. For sales collateral, see sales-enablement."
+description: "When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Also use when the user mentions 'offer,' 'offer design,' 'build an offer,' 'grand slam offer,' 'irresistible offer,' 'value stack,' 'bonus stack,' 'guarantee,' 'risk reversal,' 'money-back guarantee,' 'scarcity,' 'urgency,' 'high-ticket offer,' 'productize a service,' 'naming an offer,' 'payment plan,' 'down-sell,' 'upsell offer,' or 'why isn't my offer converting.' Best for ecommerce/DTC products, services, agencies, courses, coaching, info products, high-ticket B2B/wholesale, and direct-response. If you run a subscribe-and-save program with tiered plans, read pricing first — plan structure and packaging do more work there. For price level itself (tiers, value metric), see pricing. For the page that presents the offer, see copywriting. For the launch moment, see launch. For sales collateral, see sales-enablement."
 metadata:
-  version: 1.1.5
+  version: 1.2.0
 ---
 
 # Offer Design
@@ -36,7 +36,7 @@ You sell:
 ### When `pricing` does more of the work
 
 You sell:
-- **Self-serve SaaS** with tiered subscriptions — the levers are mostly tier structure, value metric, and packaging; offer construction (bonuses, guarantees) is secondary
+- **Subscribe-and-save with tiered plans** — the levers are mostly plan structure, value metric, and packaging; offer construction (bonuses, guarantees) is secondary
 - **Marketplaces** — the offer is structural, not constructed
 
 Skim this skill in those cases for the value equation framing, then go to `pricing`.
@@ -96,7 +96,7 @@ Most weak offers fail on bonuses (none), guarantees (none or wrong type), or sca
 | [guarantee-design.md](references/guarantee-design.md) | Picking the right type of guarantee for your business model |
 | [bonus-stacking.md](references/bonus-stacking.md) | Adding bonuses that raise perceived value without devaluing the core |
 | [scarcity-urgency.md](references/scarcity-urgency.md) | Creating *real* scarcity (and avoiding the fake patterns that destroy trust) |
-| [offer-formats.md](references/offer-formats.md) | Format playbooks by business type — ecommerce/DTC (including one-time vs. Subscribe & Save), service, course, coaching, info product, SaaS lead magnet, agency retainer, high-ticket B2B, direct response |
+| [offer-formats.md](references/offer-formats.md) | Format playbooks by business type — ecommerce/DTC (including one-time vs. Subscribe & Save), service, course, coaching, info product, agency retainer, high-ticket B2B/wholesale, direct response |
 | [examples.md](references/examples.md) | Anonymized worked examples — before/after for each business type |
 
 ---
@@ -105,7 +105,7 @@ Most weak offers fail on bonuses (none), guarantees (none or wrong type), or sca
 
 When the user says "my offer isn't converting" or "I want to improve my offer":
 
-1. **Identify the business type** — ecommerce/DTC, service, course, coaching, info product, SaaS, agency, B2B. The right playbook is type-specific.
+1. **Identify the business type** — ecommerce/DTC, service, course, coaching, info product, agency, high-ticket B2B/wholesale. The right playbook is type-specific.
 2. **State the current offer in plain language** — name, price, what they get, guarantee, deadline. Write it down even if it lives in scattered places now.
 3. **Run the value equation** — score each of the four levers 1–10. The lowest is the binding constraint.
 4. **Audit the anatomy** — which of the six components is missing or weak?

@@ -24,7 +24,7 @@ The repository implements a three-layer architecture:
 ## Getting Started as a Team Member
 
 ### 1. Prerequisites
-- Claude Code installed (with RTK hook active for token optimization)
+- Claude Code installed (RTK, a planned token-optimization hook, isn't built yet — see `RTK.md` — not required to get started)
 - Access to this repository
 - Basic understanding of your role's marketing domain (ads, email, CRO etc.)
 
@@ -39,7 +39,7 @@ ls .agents/marketing-strategy.md
 If missing, run the marketing-strategy skill to create/update it.
 
 **Step 2: Invoke the Relevant Skill**
-Use Claude Code naturally - the RTK hook automatically optimizes tokens:
+Use Claude Code naturally (RTK's automatic token optimization is planned but not yet built — see `RTK.md`):
 ```bash
 # Example: Creating ad copy for new campaign
 ads "Create Google Search ads for Fall Collection targeting eco-conscious parents"
@@ -114,7 +114,7 @@ The skills are platform-agnostic but include platform-specific references:
 
 ### 7. Troubleshooting
 - **Missing Context**: If skill asks for ICP details, verify `.agents/marketing-strategy.md` exists and is current
-- **Token Issues**: Ensure RTK hook is active (`which rtk` should show path)
+- **Token Issues**: RTK isn't built yet (see `RTK.md`) — `which rtk` returning nothing is expected, not a sign of a broken setup
 - **Workflow Confusion**: Reference skill descriptions' "Workflow Context" section
 - **Evaluation Questions**: Consult `/evaluations/framework.md` or ask in team sync
 

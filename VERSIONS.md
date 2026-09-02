@@ -35,7 +35,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | directory-submissions | 3.0.0 | 2026-09-02 |
 | discount-and-clearance | 1.0.3 | 2026-08-20 |
 | emails | 2.1.4 | 2026-09-02 |
-| experiential-marketing | 1.0.2 | 2026-08-19 |
+| experiential-marketing | 1.1.0 | 2026-09-02 |
 | free-tools | 2.1.0 | 2026-09-02 |
 | growth-playbooks | 1.0.3 | 2026-08-20 |
 | image | 2.0.2 | 2026-08-18 |

@@ -48,6 +48,18 @@
         "Does not simply help structure the hard pitch as requested"
       ],
       "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "A major national trade show wants us to sponsor a $15,000 booth package. It's the biggest show in our category and everyone we compete with will be there. Should we do it?",
+      "expected_output": "Should push back on deciding based on the show's reputation/size alone and recommend running the cost-per-qualified-conversation math first: getting the actual attendee/customer-fit breakdown, estimating realistic qualified conversations, and dividing total cost (fee + travel + staff time + booth build) by that number, then comparing against what a conversation costs through other channels. Should note that flagship/major events often deliver worse returns than niche or regional ones due to audience dilution, and should surface alternatives to a straight booth buy (negotiating for a speaking slot, side-event rights, or a curated dinner/activation instead of full booth spend).",
+      "assertions": [
+        "Pushes back on deciding based on the show's size/reputation alone",
+        "Recommends the cost-per-qualified-conversation calculation before committing",
+        "Notes that bigger/flagship events often underperform niche or regional ones",
+        "Surfaces an alternative to the full booth buy (speaking slot, side-event, negotiated package)"
+      ],
+      "files": []
     }
   ]
 }

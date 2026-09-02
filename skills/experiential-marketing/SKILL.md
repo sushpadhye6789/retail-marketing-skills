@@ -2,7 +2,7 @@
 name: experiential-marketing
 description: "When the user wants to plan an in-person event, activation, or demo — in-store demos, trade show booths, roadshows, pop-up shops, or community workshops. Also use when the user mentions 'experiential marketing,' 'in-store demo,' 'trade show booth,' 'roadshow,' 'pop-up shop,' 'brand activation,' 'live event,' 'product demo event,' or 'mobile activation.' This covers physical, in-person marketing events — distinct from community-marketing, which covers online communities (Discord/Slack/forums), and from tentpole-campaign, which covers a major calendar-moment brand campaign that may or may not include a physical event component. For the sales collateral used at an event, see sales-enablement. For the retail-buyer relationship a trade show sell-in serves, see trade-marketing."
 metadata:
-  version: 1.0.2
+  version: 1.1.0
 ---
 
 # Experiential Marketing
@@ -36,6 +36,14 @@ Gather this context (ask if not provided):
 
 ---
 
+## Which Events to Invest In (Portfolio Strategy)
+
+Before planning any single event's execution, answer the question that sits above all the format sections below: **is this event worth being at, relative to everything else competing for the same budget and staff time?** Events are the most expensive, hardest-to-measure channel available — the leverage is in selection, not execution. A small number of events usually drive most of the results; a flagship conference or festival often underperforms a niche regional show or a recurring local activation once cost-per-qualified-conversation is worked out honestly.
+
+See `references/event-portfolio-and-sponsorship.md` for the full portfolio framework — when in-person is worth it at all (vs. spending on digital first), the 80/20 of event selection, why bigger events often deliver worse returns, and how to budget the full cost (not just the sticker price) of a booth or sponsorship.
+
+---
+
 ## In-Store Demos
 
 The highest-conversion experiential format when the product genuinely benefits from hands-on demonstration:
@@ -53,6 +61,8 @@ The highest-conversion experiential format when the product genuinely benefits f
 - **Design the booth for its actual job** — a consumer-style attention-grabbing booth and a buyer-focused meeting space serve different purposes; know which one the show calls for before designing it.
 - **Staff for quality of conversation, not just booth coverage** — a trade show is a high-density, high-cost-per-hour environment; understaffing loses opportunities, but staffing with people unable to speak credibly to a buyer's actual questions is just as costly.
 - **Fast follow-up wins deals** — see `trade-marketing`'s Common Mistakes; the show is the start of the relationship, not the close.
+
+**If the booth/sponsorship slot itself is still an open decision** — should we pay for this, how much, and is a booth even the right format — that's a separate evaluation from the execution guidance above. See `references/event-portfolio-and-sponsorship.md`'s "Sponsoring or Exhibiting at Someone Else's Event" section: the cost-per-qualified-conversation math to run before committing, what to negotiate for beyond price (a speaking slot, side-event rights, a real attendee list), and why a curated side-event often outperforms the booth itself. The same reference's "Speaking at Industry Events" section covers trading expertise for stage time as an alternative or complement to sponsoring — relevant when a founder or category lead can credibly pitch the audience's takeaway rather than the company.
 
 ---
 
@@ -105,10 +115,11 @@ Experiential events are notoriously under-measured relative to their cost — ap
 ## Task-Specific Questions
 
 1. What type of event, and what's the primary goal — conversion, leads, awareness, or trade relationships?
-2. Is the venue owned, a dealer/retailer's space, or a rented/public venue?
-3. Who's staffing it, and how well-briefed/trained are they on the product and the goal?
-4. What's the trackable mechanism for measuring this event's actual impact?
-5. If dealer-executed or co-funded: what guardrails and support does the dealer need?
+2. If this is a sponsorship/exhibit slot at someone else's event: has the cost-per-qualified-conversation math actually been run, or is the decision being made on the event's reputation alone?
+3. Is the venue owned, a dealer/retailer's space, or a rented/public venue?
+4. Who's staffing it, and how well-briefed/trained are they on the product and the goal?
+5. What's the trackable mechanism for measuring this event's actual impact?
+6. If dealer-executed or co-funded: what guardrails and support does the dealer need?
 
 ---
 
@@ -117,10 +128,14 @@ Experiential events are notoriously under-measured relative to their cost — ap
 - **trade-marketing**: For the buyer-conversation content and follow-up a trade show booth supports
 - **community-marketing**: For the online-community counterpart to an in-person workshop or activation
 - **tentpole-campaign**: For coordinating a physical event as part of a larger cross-channel brand moment
-- **local-marketing**: For pre-arrival local promotion of a roadshow stop or in-store demo
+- **local-marketing**: For pre-arrival local promotion of a roadshow stop or in-store demo, and the geo-targeted promotion that makes a B2C sponsorship or side-event worth attending
 - **sales-enablement**: For sales collateral used at trade shows and demos
 - **supplier-funded-marketing**: For co-funded dealer-hosted demo events
 - **pos-marketing** / **visual-merchandising**: For the physical setup and placement of an in-store demo or pop-up
+- **packaging-design**: For booth/display structural design when product samples or packaging factor into a trade show or sponsorship presence
 - **emails** / **sms**: For the follow-up sequence to audiences captured at an event
-- **attribution**: For applying incrementality discipline before crediting event-driven sales lift
-- **marketing-strategy**: For distribution-model context determining venue and dealer coordination
+- **attribution**: For applying incrementality discipline before crediting event-driven sales lift, and for the self-reported-attribution discipline around sponsorship results
+- **revops**: For routing and scoring leads/contacts captured at a sponsored event or trade show
+- **public-relations**: For press/media angles around a speaking slot or major sponsorship
+- **content-strategy** / **video** / **ai-seo**: For turning event or speaking content into a durable, citable asset
+- **marketing-strategy**: For distribution-model context determining venue and dealer coordination, and the Business/Commercial segmentation that shapes whether in-person B2B presence is worth the cost

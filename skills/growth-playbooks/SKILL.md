@@ -7,6 +7,9 @@ metadata:
 
 # Growth Playbooks
 
+**Check for product marketing context first:**
+If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
+
 Famous brand growth stories get told as trivia — "Dropbox did a referral program" — when the actually useful thing is the **mechanic underneath**: what loop made growth compound instead of needing to be re-earned every period. This skill catalogs those mechanics, grounded in what the brand actually did (not invented statistics), translated for retail, and updated for what changes when a meaningful share of discovery and purchase now runs through a customer's own AI agent rather than a human browsing a page.
 
 ## Grounding Rule

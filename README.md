@@ -35,6 +35,12 @@ This repo has no paid tier. Everything that used to live in a private companion 
 - `scripts/` — lead enrichment and bulk ad-generation automation
 - `examples/agents/memory.md` — the persistent-memory pattern for style rules, corrections, and execution patterns that survive across sessions (copy it to `.agents/memory.md` to use it — `.agents/` itself is gitignored, since it's where each install's own context lives, not shared repo content)
 
+## Role Packs & Weekly Routines
+
+Not new skills — one-page bundles of existing ones, organized around what a specific role actually owns. `packs/` has five: `campaign-manager.md`, `data-manager.md`, `merchandising-manager.md`, `seo-manager.md`, `paid-media-manager.md`. Each opens with the three metrics that role should watch, lists the skills it runs, states its Tier 2 gates, and closes with a weekly Monday/Friday rhythm and one concrete win to run this week.
+
+`routines/monday-plan.md` and `routines/friday-review.md` are the scheduled anchors for that rhythm — runnable via `claude -p` or as the first message of a session, referencing whichever pack matches the role running them. `templates/cross-department-update.md` is the shared answer to "what has marketing actually done" in finance/ops language, not a campaign narrative.
+
 ## What are Skills?
 
 Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. When you add these to your project, your agent can recognize when you're working on a marketing task and apply the right frameworks and best practices.

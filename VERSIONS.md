@@ -33,7 +33,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | customer-research | 2.0.2 | 2026-08-18 |
 | digital-out-of-home | 1.0.2 | 2026-08-19 |
 | directory-submissions | 2.0.2 | 2026-08-20 |
-| discount-and-clearance | 1.1.0 | 2026-09-04 |
+| discount-and-clearance | 1.2.0 | 2026-09-04 |
 | emails | 2.1.3 | 2026-08-20 |
 | experiential-marketing | 1.0.2 | 2026-08-19 |
 | free-tools | 2.0.1 | 2026-08-18 |

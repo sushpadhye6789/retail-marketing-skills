@@ -14,6 +14,7 @@ Run into a problem or have a question? [Open an issue](https://github.com/sushpa
 
 This isn't just a prompt library — it's a marketing operating system for AI agents:
 
+- **One front door.** Don't know which of 80+ skills applies? Run `start-here` and state a commercial outcome instead — "lift sell-through," "reduce CAC," "clear overstock" — and it returns the skill chain, the owner, the approval gate, and the metric that proves it worked. See [`ROUTES.yaml`](ROUTES.yaml) for the full route list.
 - **Shared context, not one-off answers.** Every skill reads `marketing-strategy` first — your brand tier, distribution model, audience, and priorities — so a CRO recommendation, an email sequence, and a paid-ads plan all stay consistent instead of contradicting each other.
 - **One brand voice everywhere.** Every asset-producing skill (copywriting, emails, sms, social, video, image, ad-creative, popups, content-strategy, influencer-marketing, product-feed, cro, launch, copy-editing) reads `brand-guidelines` before drafting, so messaging and visual identity stay consistent whether the output is a TikTok caption or a dealer email.
 - **A real dependency graph.** Skills cross-reference each other by design (see "How Skills Work Together" below), so asking one question can correctly pull in the adjacent disciplines it actually touches.
@@ -128,6 +129,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [sms](skills/sms/) | When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts,... |
 | [social](skills/social/) | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram,... |
 | [specialist-lenses](skills/specialist-lenses/) | When the user wants a specific, narrow-domain specialist's public perspective applied to a retail marketing problem — a... |
+| [start-here](skills/start-here/) | When the user states a commercial outcome or business goal rather than naming a specific marketing skill or tactic — 'I... |
 | [storytelling](skills/storytelling/) | When the user wants to construct a brand, founder, product, or customer narrative — the underlying story arc, not the... |
 | [supplier-funded-marketing](skills/supplier-funded-marketing/) | When the user wants help with marketing development funds (MDF) or co-op advertising — either requesting and using... |
 | [tentpole-campaign](skills/tentpole-campaign/) | When the user wants to plan a major brand campaign tied to a calendar moment, cultural moment, or brand-owned milestone... |

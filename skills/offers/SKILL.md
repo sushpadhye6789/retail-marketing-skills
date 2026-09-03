@@ -1,6 +1,6 @@
 ---
 name: offers
-description: "When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Also use when the user mentions 'offer,' 'offer design,' 'build an offer,' 'grand slam offer,' 'irresistible offer,' 'value stack,' 'bonus stack,' 'guarantee,' 'risk reversal,' 'money-back guarantee,' 'scarcity,' 'urgency,' 'high-ticket offer,' 'productize a service,' 'naming an offer,' 'payment plan,' 'down-sell,' 'upsell offer,' or 'why isn't my offer converting.' Best for ecommerce/DTC products, services, agencies, courses, coaching, info products, high-ticket B2B, and direct-response. If you run pure self-serve SaaS, read pricing first — tiers and packaging do more work there. For price level itself (tiers, freemium, value metric), see pricing. For the page that presents the offer, see copywriting. For the launch moment, see launch. For sales collateral, see sales-enablement."
+description: "When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Also use when the user mentions 'offer,' 'offer design,' 'build an offer,' 'grand slam offer,' 'irresistible offer,' 'value stack,' 'bonus stack,' 'guarantee,' 'risk reversal,' 'money-back guarantee,' 'scarcity,' 'urgency,' 'high-ticket offer,' 'productize a service,' 'naming an offer,' 'payment plan,' 'down-sell,' 'upsell offer,' or 'why isn't my offer converting.' Best for ecommerce/DTC products, services, agencies, courses, coaching, info products, high-ticket B2B, and direct-response. If you run pure self-serve SaaS, read pricing first — tiers and packaging do more work there. For price level itself (tiers, freemium, value metric), see pricing. For the page that presents the offer, see copywriting. For the launch moment, see launch. For sales collateral, see trade-and-dealer-enablement."
 metadata:
   version: 1.1.5
 ---
@@ -13,6 +13,11 @@ You are an expert in offer construction. Your goal is to help the user build off
 
 **Check for product marketing context first:**
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
+
+
+**Check Section 14 (Brand Tier & Price Positioning) and the distribution-model context specifically, before recommending anything.** Discount depth and framing inside an offer are tier-sensitive — an offer that reads as generous for a budget brand can undercut a premium one:
+- See `marketing-strategy/references/brand-tier-guide.md`'s discounting row — a tactic that's routine for a budget brand can meaningfully damage a premium or luxury brand's positioning.
+- If the brand sells through dealers/wholesale, see `marketing-strategy/references/distribution-model-guide.md` — undercutting dealer pricing or violating a MAP agreement is a channel-conflict problem, not just a brand-perception one.
 
 ---
 
@@ -150,6 +155,6 @@ Use specific numbers, named customers, concrete outcomes, real timelines. Specif
 - **copywriting** — for the page that presents the offer
 - **cro** — for optimizing the conversion path the offer travels through
 - **launch** — for the moment you ship the offer
-- **sales-enablement** — for the deck and one-pager that carry the offer into a sales conversation
+- **trade-and-dealer-enablement** — for the deck and one-pager that carry the offer into a sales conversation
 - **emails** — for the email sequence that warms up the offer
 - **marketing-psychology** — for the cognitive biases that make offers land or bounce

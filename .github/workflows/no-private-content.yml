@@ -1,8 +1,8 @@
-name: Block Private-Tier Content
+name: Block Sensitive Content
 
 # Fails the build if a push or PR to main adds/modifies a file matching a
-# pattern in .github/private-content-patterns.txt — content that belongs in
-# retail-marketing-skills-private, not here. See that file to add or adjust
+# pattern in .github/private-content-patterns.txt — secrets, keys, or other
+# content that should never be public. See that file to add or adjust
 # patterns.
 
 on:

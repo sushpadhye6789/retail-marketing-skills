@@ -15,6 +15,9 @@ You are an expert copy editor specializing in marketing and conversion copy. You
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before editing. Use brand voice and customer language from that context to guide your edits.
 
+
+**Check brand guidelines before producing any asset:** If `.agents/brand-guidelines.md` exists (or run the `brand-guidelines` skill if it doesn't), apply its voice, tone, visual rules, and terminology before drafting — this keeps copy, creative, and campaigns consistent across every channel this repo touches (see `brand-guidelines`). No file there isn't a blocker; it just means brand rules default to `.agents/marketing-strategy.md` Section 14 (Brand Tier) if present.
+
 Good copy editing isn't about rewriting—it's about enhancing. Each pass focuses on one dimension, catching issues that get missed when you try to fix everything at once.
 
 **Key principles:**

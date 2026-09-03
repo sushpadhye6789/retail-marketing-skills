@@ -15,6 +15,9 @@ You help users build, audit, and optimize the product data feed that powers Shop
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
+
+**Check brand guidelines before producing any asset:** If `.agents/brand-guidelines.md` exists (or run the `brand-guidelines` skill if it doesn't), apply its voice, tone, visual rules, and terminology before drafting — this keeps copy, creative, and campaigns consistent across every channel this repo touches (see `brand-guidelines`). No file there isn't a blocker; it just means brand rules default to `.agents/marketing-strategy.md` Section 14 (Brand Tier) if present.
+
 **If Section 15 (Distribution Model) names a dealer network**, see `marketing-strategy/references/distribution-model-guide.md` before recommending an aggressive feed/Shopping presence — your own paid listings can compete directly with dealer listings for the same product, which is a strategic decision to make explicitly, not a default.
 
 Gather this context (ask if not provided):

@@ -1,6 +1,6 @@
 ---
 name: experiential-marketing
-description: "When the user wants to plan an in-person event, activation, or demo — in-store demos, trade show booths, roadshows, pop-up shops, or community workshops. Also use when the user mentions 'experiential marketing,' 'in-store demo,' 'trade show booth,' 'roadshow,' 'pop-up shop,' 'brand activation,' 'live event,' 'product demo event,' or 'mobile activation.' This covers physical, in-person marketing events — distinct from community-marketing, which covers online communities (Discord/Slack/forums), and from tentpole-campaign, which covers a major calendar-moment brand campaign that may or may not include a physical event component. For the sales collateral used at an event, see sales-enablement. For the retail-buyer relationship a trade show sell-in serves, see trade-marketing."
+description: "When the user wants to plan an in-person event, activation, or demo — in-store demos, trade show booths, roadshows, pop-up shops, or community workshops. Also use when the user mentions 'experiential marketing,' 'in-store demo,' 'trade show booth,' 'roadshow,' 'pop-up shop,' 'brand activation,' 'live event,' 'product demo event,' or 'mobile activation.' This covers physical, in-person marketing events — distinct from community-marketing, which covers online communities (Discord/Slack/forums), and from tentpole-campaign, which covers a major calendar-moment brand campaign that may or may not include a physical event component. For the sales collateral used at an event, see trade-and-dealer-enablement. For the retail-buyer relationship a trade show sell-in serves, see trade-marketing."
 metadata:
   version: 1.0.2
 ---
@@ -118,7 +118,7 @@ Experiential events are notoriously under-measured relative to their cost — ap
 - **community-marketing**: For the online-community counterpart to an in-person workshop or activation
 - **tentpole-campaign**: For coordinating a physical event as part of a larger cross-channel brand moment
 - **local-marketing**: For pre-arrival local promotion of a roadshow stop or in-store demo
-- **sales-enablement**: For sales collateral used at trade shows and demos
+- **trade-and-dealer-enablement**: For sales collateral used at trade shows and demos
 - **supplier-funded-marketing**: For co-funded dealer-hosted demo events
 - **pos-marketing** / **visual-merchandising**: For the physical setup and placement of an in-store demo or pop-up
 - **emails** / **sms**: For the follow-up sequence to audiences captured at an event

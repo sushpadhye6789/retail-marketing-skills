@@ -15,6 +15,7 @@ Run into a problem or have a question? [Open an issue](https://github.com/sushpa
 This isn't just a prompt library — it's a marketing operating system for AI agents:
 
 - **Shared context, not one-off answers.** Every skill reads `marketing-strategy` first — your brand tier, distribution model, audience, and priorities — so a CRO recommendation, an email sequence, and a paid-ads plan all stay consistent instead of contradicting each other.
+- **One brand voice everywhere.** Every asset-producing skill (copywriting, emails, sms, social, video, image, ad-creative, popups, content-strategy, influencer-marketing, product-feed, cro, launch, copy-editing) reads `brand-guidelines` before drafting, so messaging and visual identity stay consistent whether the output is a TikTok caption or a dealer email.
 - **A real dependency graph.** Skills cross-reference each other by design (see "How Skills Work Together" below), so asking one question can correctly pull in the adjacent disciplines it actually touches.
 - **Scheduled, self-running work.** `marketing-loops` catalogs 43 recurring workflows — ranking watches, ad-fatigue checks, churn-signal monitors — each with guardrails, state/idempotency, and a stop condition, wired to real scheduling mechanisms (Claude Code's `/loop`, `ScheduleWakeup`, `CronCreate`, or plain cron).
 - **Multi-perspective pressure-testing.** `marketing-council` runs a simulated board of marketer personas — plus a domain-agnostic Decision Council — against a question or a finished asset before you commit to it.
@@ -23,17 +24,15 @@ This isn't just a prompt library — it's a marketing operating system for AI ag
 
 Compared to asking a plain AI chat assistant for marketing advice, this gives an agent persistent business context it never needs re-explained, the ability to act on real tools instead of only describing what to do, and scheduled autonomy that keeps working after the conversation ends.
 
-## Private Content (Paid)
+## Everything Is Public
 
-This public repo is the free core of the framework. A private companion repo holds the paid-tier material this repo references but doesn't include:
+This repo has no paid tier. Everything that used to live in a private companion repo — industry template packages, completed evaluations with real before/after metrics, the Harness → Loop → Graph implementation (`src/`), and automation scripts (`scripts/`) — is merged in and free:
 
-- Complete skill implementations with real-world campaign examples
-- Industry-specific template packages (full worked retail examples)
-- Completed evaluation results with real before/after business metrics
-- The framework's underlying implementation code (the Harness → Loop → Graph engine)
-- Automation and integration scripts
-
-[Reach out to Sush on LinkedIn](https://www.linkedin.com/in/sushpadhye) to get access, or to talk about taking your skills and retail marketing operating system to the next level.
+- `templates/` — industry-specific template packages (grocery, apparel, home goods, and more)
+- `evaluations/completed/` — worked evaluation results with real metrics, alongside the blank templates in `evaluations/`
+- `src/harness/`, `src/loops/`, `src/graph/` — the implementation behind the Harness → Loop → Graph architecture described in `ONBOARDING.md`
+- `scripts/` — lead enrichment and bulk ad-generation automation
+- `examples/agents/memory.md` — the persistent-memory pattern for style rules, corrections, and execution patterns that survive across sessions (copy it to `.agents/memory.md` to use it — `.agents/` itself is gitignored, since it's where each install's own context lives, not shared repo content)
 
 ## What are Skills?
 
@@ -44,6 +43,10 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 Skills reference each other and build on shared context. The `marketing-strategy` skill is the foundation — every other skill checks it first to understand your product, audience, brand tier, distribution model (ecom-only / own stores / dealers), and strategic priorities before doing anything. From there, skills group loosely into the categories below — conversion, content & copy, SEO, paid media, retail & physical marketing, growth & retention, commercial/monetization, and sales & RevOps — and cross-reference each other directly within and across those groups (e.g. `copywriting` ↔ `cro` ↔ `ab-testing`, `seo-audit` ↔ `schema` ↔ `ai-seo`, `pos-marketing` ↔ `retail-media` ↔ `local-marketing`).
 
 See each skill's **Related Skills** section for the full dependency map, and [Skill Categories](#skill-categories) below for the complete grouping.
+
+**Don't have a `.agents/marketing-strategy.md` yet?** [`examples/agents/marketing-strategy.md`](examples/agents/marketing-strategy.md) is a fully filled-out worked example (Cairnwood Trail Co, the same fictional brand used in `templates/cairnwood-trail-co.md`) — read it to see the pattern, then run the `marketing-strategy` skill to build your own at `.agents/marketing-strategy.md` before relying on any other skill's output. `.agents/` is gitignored on purpose: your own strategy doc is install-local context, not something this repo tracks for you.
+
+**When two skills disagree** — a promo tactic that helps one metric but contradicts a brand-tier guardrail, SEO and paid recommending different things — see [`CONFLICT.md`](CONFLICT.md) for the resolution order. Short version: cite Section 12's ranked priorities first, brand tier/distribution model second, and only escalate to a human if neither settles it.
 
 ## Available Skills
 
@@ -63,7 +66,6 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [budget-allocation](skills/budget-allocation/) | When the user wants to size a total marketing budget or decide how to split it across channels/campaigns, including... |
 | [budget-pacing-tracker](skills/budget-pacing-tracker/) | When the user wants to track whether actual spend is on pace against a planned budget within a period, catch... |
 | [channel-selection](skills/channel-selection/) | When the user wants to decide which marketing channels to be in — not how much to spend on each (see budget-allocation)... |
-| [churn-prevention](skills/churn-prevention/) | When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or... |
 | [co-marketing](skills/co-marketing/) | When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use... |
 | [cold-email](skills/cold-email/) | When the user wants to write cold outreach emails to retail buyers, wholesale distributors, or trade partners. Also use... |
 | [commercial-ops](skills/commercial-ops/) | When the user wants to optimize retail operations, improve GMROI, analyze sell-through rates, or optimize trade spend.... |
@@ -101,7 +103,6 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [media-plan](skills/media-plan/) | When the user wants to build a media plan — sequencing and weighting paid media across channels, over time, to hit a... |
 | [moat-builder](skills/moat-builder/) | When the user wants to identify a durable competitive advantage (a moat) and direct marketing investment to build or... |
 | [offers](skills/offers/) | When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing,... |
-| [onboarding](skills/onboarding/) | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also... |
 | [overstock](skills/overstock/) | When the user has excess, aging, dead, or discontinued inventory and needs to diagnose why, and decide how to dispose... |
 | [paywalls](skills/paywalls/) | When the user wants to design or optimize a screen where price, stock, or access is withheld until the shopper acts —... |
 | [popups](skills/popups/) | When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also... |
@@ -120,8 +121,6 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [repositioning](skills/repositioning/) | When a material positioning change has just been made in marketing-strategy and the user needs to know everything else... |
 | [retail-media](skills/retail-media/) | When the user wants to plan or optimize advertising, or organic visibility and the Buy Box, on a retailer's own... |
 | [retention-and-winback](skills/retention-and-winback/) | When the user wants to improve customer retention, increase repeat purchase rates, optimize replenishment cadence, or... |
-| [revops](skills/revops/) | When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes.... |
-| [sales-enablement](skills/sales-enablement/) | When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also... |
 | [schema](skills/schema/) | When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user... |
 | [seo-audit](skills/seo-audit/) | When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO... |
 | [signup](skills/signup/) | When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the... |
@@ -307,7 +306,7 @@ and interview me to build our brand-tier and distribution-model context, like it
 ### Conversion Optimization
 - `cro` - Homepage, landing page, product page, cart, checkout, and form CRO
 - `signup` - Registration and trial activation flows
-- `onboarding` - Post-signup activation
+- `post-purchase-experience` - Post-purchase activation, unboxing, and repurchase triggers
 - `popups` - Modals and overlays
 - `paywalls` - In-app upgrade moments
 - `ab-testing` - Experiment design
@@ -352,7 +351,7 @@ and interview me to build our brand-tier and distribution-model context, like it
 ### Growth & Retention
 - `referrals` - Referral and affiliate programs
 - `loyalty` - Points, tiers, paid-membership, and subscribe-and-save/replenishment programs
-- `churn-prevention` - Cancel flows, save offers, dunning, and payment recovery
+- `retention-and-winback` - Repeat purchase, replenishment cadence, and win-back campaigns
 - `community-marketing` - Online communities (Discord, Slack, forums)
 - `influencer-marketing` - Creator and ambassador partnerships
 - `co-marketing` - Partner identification and joint campaigns
@@ -378,8 +377,8 @@ and interview me to build our brand-tier and distribution-model context, like it
 - `compliance` - Advertising claims, disclosures, consent, and pricing-claim compliance risk
 
 ### Sales & RevOps
-- `revops` - Lead lifecycle, scoring, routing, pipeline management
-- `sales-enablement` - Sales decks, one-pagers, objection docs, demo scripts
+- `commercial-ops` - GMROI, sell-through, promotional yield, trade spend ROI
+- `trade-and-dealer-enablement` - Dealer/retailer sell-in decks, one-pagers, objection docs, demo scripts
 
 ## Contributing
 

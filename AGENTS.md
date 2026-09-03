@@ -8,12 +8,18 @@
 ## Execution Protocol
 1. **Plan First:** Always explain the underlying strategy before producing full-length collateral or campaigns.
 2. **Data Integrity:** Verify currency, tax standards (e.g., GST inclusion/exclusion), and profit margin formulas prior to finalizing briefs.
-3. **Validation:** Cross-reference all generated campaign output against the review checklist in `sushpadhye6789/retail-marketing-skills-private` (`REVIEW.md`) before flagging a task complete.
+3. **Validation:** Cross-reference all generated campaign output against the review checklist in `docs/REVIEW.md` before flagging a task complete.
+
+## Strategy-First Governance
+
+Every skill in this repo is expected to check `.agents/marketing-strategy.md` before generating output — most already do, in the "Check for product marketing context first" block near the top of their `SKILL.md`. This section states the rule at the repo level so it applies even to skills that don't (yet) restate it, and so it's a single place to update rather than 80+.
+
+- **If `.agents/marketing-strategy.md` doesn't exist:** say so plainly and offer to run `marketing-strategy` first, rather than silently proceeding on generic assumptions. A recommendation built on an assumed audience or brand tier is worse than no recommendation.
+- **If two skills' outputs conflict** (SEO recommends one thing, paid another; a promo depth that contradicts a brand-tier guardrail): don't escalate to a human to referee by default. Cite `marketing-strategy.md` Section 12 (Strategic Priorities, including what's explicitly deprioritized this cycle) — the higher-ranked priority wins. See `CONFLICT.md` for the full protocol and worked examples.
+- **If the strategy doc's Section 5 (Competitive Landscape), 6 (Differentiation), or 14 (Brand Tier) changes materially:** everything already built against the old version — live campaigns, content, sales/dealer collateral — still reflects the old positioning until deliberately updated. Say so, and point at `repositioning` for the prioritized cascade audit, rather than letting the change go unnoticed downstream.
 
 ## Public Repo Content Policy
 
-**This repo (`retail-marketing-skills`) is public.** A separate private repo, `sushpadhye6789/retail-marketing-skills-private`, holds paid-tier and personal-operational content: complete evaluation results with real metrics, the framework's implementation code (`src/`), automation scripts, industry template packages, the monetization plan, and Sush's own dealer/trade marketing operational docs.
+**This repo has no paid tier.** Everything that used to live in a separate private companion repo — completed evaluations with real metrics, the framework's implementation code (`src/`), automation scripts, and industry template packages — is merged in and public (see `README.md`'s "Everything Is Public" section for the full list).
 
-Before adding or editing anything at the root of this repo, in `evaluations/`, `src/`, `scripts/`, or `routines/`, check it against `.github/private-content-patterns.txt`. If it's new work that belongs in the private tier — has real dollar figures, real campaign/customer names, completed results with numbers, or is personal operational content rather than a generic public skill/template — build it in `retail-marketing-skills-private` instead of here. A CI check (`.github/workflows/no-private-content.yml`) will fail the build if a matching file lands on `main` anyway, but don't rely on it as the first line of defense — decide before committing, not after CI catches it.
-
-When in doubt, ask rather than assuming public is the safe default — the reverse (removing something already pushed to a public repo) is a much bigger operation than not adding it in the first place.
+The only content that should never land here is real secrets or keys — see `.github/private-content-patterns.txt` and its CI gate (`.github/workflows/no-private-content.yml`). That CI check is a safety net, not the first line of defense: don't commit a `.env`, credential, or private key on the assumption CI will catch it — decide before committing.

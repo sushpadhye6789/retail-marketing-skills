@@ -86,17 +86,11 @@ routes:
 
   - id: fix-website-contribution
     outcome: "Fix the website's contribution to revenue"
-    triggers: ["improve website conversion", "why isn't the site converting", "fix the funnel"]
-    chain: [site-architecture, cro, schema, ai-seo, analytics]
+    triggers: ["improve website conversion", "why isn't the site converting", "fix the funnel", "is our site accessible", "is my site agent-ready"]
+    chain: [site-architecture, website-ux, product-page, cro, agent-readiness, schema, ai-seo, analytics]
     owner: Ecommerce Manager
-    gate: "Tier 2 at template or navigation changes"
-    metric: "Conversion rate, AOV, organic and agent-referred revenue"
-    note: >
-      This chain strengthens once website-ux and product-page ship (see the
-      enhancement plan's move 04 — accessibility/Core Web Vitals and PDP/PLP
-      coverage don't exist as dedicated skills yet). Usable today with the
-      skills above; insert the new two into the chain right after
-      site-architecture once they land.
+    gate: "Tier 2 at template, navigation, or checkout-flow changes"
+    metric: "Conversion rate, AOV, attachment rate, Core Web Vitals, organic and agent-referred revenue"
 
   - id: grow-lifecycle-revenue
     outcome: "Grow email/SMS revenue as a share of total"

@@ -1,8 +1,8 @@
 ---
 name: cro
-description: "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, product pages, cart, checkout, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'cart abandonment,' 'checkout friction,' 'nobody's converting,' 'low conversion rate,' or 'this page needs work.' Use this even if the user just shares a URL and asks for feedback. For signup/registration flows, see signup. For post-signup activation, see post-purchase-experience. For popups/modals, see popups."
+description: "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, product pages, cart, checkout, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'cart abandonment,' 'checkout friction,' 'nobody's converting,' 'low conversion rate,' or 'this page needs work.' Use this even if the user just shares a URL and asks for feedback. For signup/registration flows, see signup. For post-signup activation, see post-purchase-experience. For popups/modals, see popups. For site-wide speed/accessibility, see website-ux. For product/category page content, see product-page. For site hierarchy, see site-architecture. For AI shopping-agent readiness, see agent-readiness."
 metadata:
-  version: 2.1.2
+  version: 2.2.0
 ---
 
 # Conversion Rate Optimization (CRO)
@@ -217,6 +217,12 @@ When recommending experiments, consider tests for:
 - **offers** / **pricing**: For free-shipping-threshold, guarantee, and urgency framing used in cart/checkout CRO
 - **emails** / **sms**: For the abandoned-cart recovery sequence once someone has already left, distinct from this skill's abandonment-prevention focus
 - **compliance**: For claims-accuracy limits on stock/urgency indicators
+- **website-ux**: If the suspected problem is site-wide (page speed, mobile usability, accessibility) rather than specific to this one page
+- **product-page**: If the fix is really about PDP/PLP content and structure, not this page's conversion mechanics
+- **site-architecture**: If the problem is really that the page is hard to find, not hard to convert on once found
+- **schema**: For Product/Offer/AggregateRating markup that reinforces trust signals this skill recommends surfacing
+- **analytics**: For instrumenting whether a recommended change actually moved the conversion rate
+- **agent-readiness**: If the question is whether an AI shopping agent, not a human, can complete a purchase on this page
 
 ---
 

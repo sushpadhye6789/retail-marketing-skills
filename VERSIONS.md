@@ -7,6 +7,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | ab-testing | 2.0.2 | 2026-08-18 |
 | ad-creative | 2.8.3 | 2026-08-20 |
 | ads | 2.4.3 | 2026-08-20 |
+| agent-readiness | 1.0.0 | 2026-09-04 |
 | ai-cmo-os | 1.1.0 | 2026-08-25 |
 | ai-seo | 2.3.0 | 2026-08-25 |
 | analytics | 2.0.2 | 2026-08-18 |
@@ -17,7 +18,6 @@ Current versions of all skills. Agents can compare against local versions to che
 | budget-allocation | 1.0.2 | 2026-08-19 |
 | budget-pacing-tracker | 1.0.2 | 2026-08-19 |
 | channel-selection | 1.0.3 | 2026-08-20 |
-| churn-prevention | 2.0.4 | 2026-08-31 |
 | co-marketing | 2.0.2 | 2026-08-20 |
 | cold-email | 2.0.4 | 2026-08-20 |
 | commercial-ops | 2.1.0 | 2026-08-25 |
@@ -29,7 +29,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | content-strategy | 2.0.1 | 2026-08-18 |
 | copy-editing | 2.0.1 | 2026-08-18 |
 | copywriting | 2.0.4 | 2026-08-20 |
-| cro | 2.1.2 | 2026-08-19 |
+| cro | 2.2.0 | 2026-09-04 |
 | customer-research | 2.0.2 | 2026-08-18 |
 | digital-out-of-home | 1.0.2 | 2026-08-19 |
 | directory-submissions | 2.0.2 | 2026-08-20 |
@@ -54,7 +54,6 @@ Current versions of all skills. Agents can compare against local versions to che
 | media-plan | 1.0.2 | 2026-08-19 |
 | moat-builder | 1.0.3 | 2026-08-19 |
 | offers | 1.1.5 | 2026-08-31 |
-| onboarding | 2.0.3 | 2026-08-31 |
 | overstock | 1.0.3 | 2026-08-20 |
 | paywalls | 3.0.0 | 2026-08-31 |
 | popups | 2.0.2 | 2026-08-20 |
@@ -64,6 +63,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | pricing | 2.2.2 | 2026-08-31 |
 | product-feed | 1.1.0 | 2026-08-19 |
 | product-lifecycle | 1.0.2 | 2026-08-19 |
+| product-page | 1.0.0 | 2026-09-04 |
 | programmatic-seo | 2.0.1 | 2026-08-18 |
 | programmatic | 1.0.2 | 2026-08-19 |
 | prospecting | 1.1.3 | 2026-08-20 |
@@ -73,8 +73,6 @@ Current versions of all skills. Agents can compare against local versions to che
 | repositioning | 1.0.2 | 2026-08-19 |
 | retail-media | 1.1.1 | 2026-08-20 |
 | retention-and-winback | 2.1.0 | 2026-08-25 |
-| revops | 2.0.2 | 2026-08-18 |
-| sales-enablement | 2.0.4 | 2026-08-20 |
 | schema | 2.0.1 | 2026-08-18 |
 | seo-audit | 2.0.1 | 2026-08-18 |
 | signup | 2.0.1 | 2026-08-18 |
@@ -89,6 +87,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | trade-marketing | 1.0.2 | 2026-08-19 |
 | video | 2.1.2 | 2026-08-20 |
 | visual-merchandising | 1.0.2 | 2026-08-19 |
+| website-ux | 1.0.0 | 2026-09-04 |
 
 ## Recent Changes
 

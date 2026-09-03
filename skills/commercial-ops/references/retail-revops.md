@@ -53,6 +53,22 @@
 - Excellent: > 10 units per $1 promotional spend
 - Poor: < 2 units per $1 promotional spend
 
+### Trade Spend ROI
+
+**Formula**: Trade Spend ROI = [(Incremental Sales $ × Gross Margin %) − Trade Spend $] / Trade Spend $
+
+**Components**:
+- Incremental Sales $: Revenue above baseline attributable to the trade spend (co-op advertising, slotting, promotional funding paid to or through a dealer/retailer — see `trade-and-dealer-enablement`)
+- Gross Margin %: Applied to incremental sales, not total sales — trade spend earns back margin dollars, not top-line revenue
+- Trade Spend $: Total dollars committed, not just the discount itself — includes co-op ad funding, display fees, and any promotional allowance paid out
+
+**Benchmark**:
+- Good: ROI > 1.0 (the spend pays for itself in incremental margin)
+- Strong: ROI > 2.0 (target for most trade-spend programs)
+- Poor: ROI < 0.5 (reconsider the program or the dealer relationship it's funding)
+
+**Distinct from Promotional Yield**: Promotional Yield measures unit-movement efficiency of a consumer-facing promotion (discounts, advertising aimed at the end customer). Trade Spend ROI measures dollar efficiency of money paid to or through a channel partner (co-op ads, slotting, dealer promotional funding) — the two often run alongside each other in a single campaign and should be evaluated separately, since a promotion can move plenty of units (good Promotional Yield) while the trade spend funding it doesn't pay back (poor Trade Spend ROI) if too much of the spend went to co-op fees rather than the discount itself.
+
 ### Inventory Turns
 
 **Formula**: Inventory Turns = Cost of Goods Sold / Average Inventory Value

@@ -20,7 +20,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | channel-selection | 1.0.3 | 2026-08-20 |
 | co-marketing | 2.0.2 | 2026-08-20 |
 | cold-email | 2.0.4 | 2026-08-20 |
-| commercial-ops | 2.1.0 | 2026-08-25 |
+| commercial-ops | 2.2.0 | 2026-09-04 |
 | community-marketing | 2.0.2 | 2026-08-20 |
 | competitor-profiling | 2.0.1 | 2026-08-18 |
 | competitors | 2.0.3 | 2026-08-20 |
@@ -33,7 +33,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | customer-research | 2.0.2 | 2026-08-18 |
 | digital-out-of-home | 1.0.2 | 2026-08-19 |
 | directory-submissions | 2.0.2 | 2026-08-20 |
-| discount-and-clearance | 1.0.3 | 2026-08-20 |
+| discount-and-clearance | 1.1.0 | 2026-09-04 |
 | emails | 2.1.3 | 2026-08-20 |
 | experiential-marketing | 1.0.2 | 2026-08-19 |
 | free-tools | 2.0.1 | 2026-08-18 |
@@ -54,13 +54,13 @@ Current versions of all skills. Agents can compare against local versions to che
 | media-plan | 1.0.2 | 2026-08-19 |
 | moat-builder | 1.0.3 | 2026-08-19 |
 | offers | 1.1.5 | 2026-08-31 |
-| overstock | 1.0.3 | 2026-08-20 |
+| overstock | 1.1.0 | 2026-09-04 |
 | paywalls | 3.0.0 | 2026-08-31 |
 | popups | 2.0.2 | 2026-08-20 |
 | pos-marketing | 1.0.4 | 2026-08-19 |
 | post-purchase-experience | 2.1.0 | 2026-08-25 |
 | price-elasticity | 1.0.2 | 2026-08-19 |
-| pricing | 2.2.2 | 2026-08-31 |
+| pricing | 2.3.0 | 2026-09-04 |
 | product-feed | 1.1.0 | 2026-08-19 |
 | product-lifecycle | 1.0.2 | 2026-08-19 |
 | product-page | 1.0.0 | 2026-09-04 |
@@ -68,7 +68,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | programmatic | 1.0.2 | 2026-08-19 |
 | prospecting | 1.1.3 | 2026-08-20 |
 | public-relations | 1.0.2 | 2026-08-19 |
-| range-review | 1.0.2 | 2026-08-19 |
+| range-review | 1.1.0 | 2026-09-04 |
 | referrals | 2.0.3 | 2026-08-20 |
 | repositioning | 1.0.2 | 2026-08-19 |
 | retail-media | 1.1.1 | 2026-08-20 |
@@ -83,7 +83,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | storytelling | 1.0.2 | 2026-08-19 |
 | supplier-funded-marketing | 1.0.2 | 2026-08-19 |
 | tentpole-campaign | 1.1.1 | 2026-08-19 |
-| trade-and-dealer-enablement | 2.1.0 | 2026-08-25 |
+| trade-and-dealer-enablement | 2.2.0 | 2026-09-04 |
 | trade-marketing | 1.0.2 | 2026-08-19 |
 | video | 2.1.2 | 2026-08-20 |
 | visual-merchandising | 1.0.2 | 2026-08-19 |

@@ -18,7 +18,7 @@ routes:
     chain: [range-review, discount-and-clearance, commercial-ops, visual-merchandising]
     owner: Campaign Manager
     gate: "Tier 2 at markdown depth beyond standard guardrails"
-    metric: "Sell-through velocity, GMROI, promotional yield (target >60%)"
+    metric: "Sell-through velocity, GMROI (target >2.0, strong >3.0), promotional yield (good >5 units per $1 spend — see commercial-ops/references/retail-revops.md)"
 
   - id: reduce-cac
     outcome: "Reduce customer acquisition cost without cutting volume"
@@ -42,7 +42,7 @@ routes:
     chain: [commercial-ops, trade-and-dealer-enablement, pricing]
     owner: Campaign Manager
     gate: "Tier 2 — validate before the promo runs, not after"
-    metric: "Promotional yield (target >60%), trade spend ROI (target >2.0)"
+    metric: "Promotional yield (good >5 units per $1 spend), trade spend ROI (good >1.0, strong >2.0) — see commercial-ops/references/retail-revops.md"
 
   - id: increase-repeat-purchase
     outcome: "Increase repeat purchase rate and customer LTV"

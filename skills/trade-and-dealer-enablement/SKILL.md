@@ -2,10 +2,10 @@
 name: trade-and-dealer-enablement
 description: "When the user wants to enable retail buyers and dealers, create line sheets, set up co-op advertising, or design dealer incentive programs. Also use when the user mentions 'trade enablement,' 'dealer enablement,' 'line sheet,' 'co-op advertising,' 'dealer incentives,' 'stockist training,' 'wholesale pipeline,' or 'retail buyer pitch.' Use this for anything involving selling products through retail channels, wholesale distribution, and dealer networks. For cold outreach emails, see cold-email. For sales collateral beyond emails, see sales-enablement. For retail financial mechanics, see commercial-ops."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
 ---
 
-# Trade & Dealer Enablement for Retail & Commerce (v2.1.0)
+# Trade & Dealer Enablement for Retail & Commerce (v2.2.0)
 
 ## Overview
 Retail-focused trade and dealer enablement framework replacing traditional B2B sales enablement with strategies optimized for selling products through retail channels, wholesale distribution, and dealer networks.
@@ -160,6 +160,8 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
    - Discrepancy resolution process
 
 ### Trade Spend Optimization
+
+**Measure it, don't just plan it.** See `commercial-ops/references/retail-revops.md`'s Trade Spend ROI formula and benchmark (good >1.0, strong >2.0) before committing co-op or promotional funding — it's the dollar-efficiency counterpart to Promotional Yield's unit-movement measure, and the two should be checked separately since a promotion can move units well while the trade spend funding it doesn't pay back.
 
 **Promotional Calendar Planning**:
 - **National Retail Events**: 

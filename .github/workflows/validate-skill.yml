@@ -37,8 +37,10 @@ jobs:
             HEAD=${{ github.event.after }}
           fi
 
-          # Find changed SKILL.md files and extract skill directories
-          SKILLS=$(git diff --name-only $BASE $HEAD | \
+          # Find changed SKILL.md files and extract skill directories.
+          # --diff-filter=ACMR excludes deletions — a removed skill has no
+          # SKILL.md left to validate, and including it fails the matrix.
+          SKILLS=$(git diff --name-only --diff-filter=ACMR $BASE $HEAD | \
             grep 'SKILL.md$' | \
             xargs -I {} dirname {} | \
             sort -u | \

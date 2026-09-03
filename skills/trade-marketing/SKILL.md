@@ -1,6 +1,6 @@
 ---
 name: trade-marketing
-description: "When the user wants to get a retail buyer, distributor, or dealer to list, stock, or feature a product — sell-in materials, buyer presentations, category management conversations, or trade show sell-in. Also use when the user mentions 'trade marketing,' 'sell-in,' 'sell-in deck,' 'buyer presentation,' 'category management,' 'category captain,' 'line review,' 'range review with a retailer,' 'planogram negotiation,' or 'getting listed.' This is the retailer-facing counterpart to consumer marketing — it targets the buyer/category manager who decides what goes on shelf, not the end shopper. For the co-op funding compliance side once a listing already exists, see supplier-funded-marketing. For paid advertising inside a retailer's own platform, see retail-media. For general B2B sales collateral mechanics, see sales-enablement, which this skill's deck-building borrows from."
+description: "When the user wants to get a retail buyer, distributor, or dealer to list, stock, or feature a product — sell-in materials, buyer presentations, category management conversations, or trade show sell-in. Also use when the user mentions 'trade marketing,' 'sell-in,' 'sell-in deck,' 'buyer presentation,' 'category management,' 'category captain,' 'line review,' 'range review with a retailer,' 'planogram negotiation,' or 'getting listed.' This is the retailer-facing counterpart to consumer marketing — it targets the buyer/category manager who decides what goes on shelf, not the end shopper. For the co-op funding compliance side once a listing already exists, see supplier-funded-marketing. For paid advertising inside a retailer's own platform, see retail-media. For general B2B sales collateral mechanics, see trade-and-dealer-enablement, which this skill's deck-building borrows from."
 metadata:
   version: 1.0.2
 ---
@@ -103,7 +103,7 @@ Where on the shelf a product sits materially affects its sell-through, independe
 - **supplier-funded-marketing**: For co-op/MDF funding compliance once a listing exists
 - **retail-media**: For paid advertising inside the retailer's own platform, once listed
 - **range-review**: For the seller's own cross-SKU range logic, the mirror discipline to a retailer's line review
-- **sales-enablement**: For the deck/collateral-building mechanics this skill's sell-in materials borrow from
+- **trade-and-dealer-enablement**: For the deck/collateral-building mechanics this skill's sell-in materials borrow from
 - **competitor-profiling**: For the competitive-set research feeding the sell-in case
 - **visual-merchandising** / **pos-marketing**: For in-store execution once placement is secured
 - **experiential-marketing**: For trade show booth/demo execution

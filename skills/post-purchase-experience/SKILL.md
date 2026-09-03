@@ -1,7 +1,8 @@
 ---
 name: post-purchase-experience
-version: 2.1.0
 description: "When the user wants to optimize post-purchase experience, improve unboxing design, increase product registration, or boost repeat purchase rates. Also use when the user mentions 'post-purchase,' 'unboxing,' 'product registration,' 'cross-sell,' 'repeat purchase,' 'first-time buyer,' 'replenishment,' or 'customer retention.' Use this for anything involving the customer experience after purchase in retail and commerce. For signup flows, see signup. For ongoing email sequences, see emails."
+metadata:
+  version: 2.1.0
 ---
 
 # Post-Purchase Experience for Retail & Commerce (v2.1.0)

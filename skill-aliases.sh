@@ -111,7 +111,7 @@ signup() {
 
 onboard() {
     check_repo || return 1
-    _run_skill onboarding "$@"
+    _run_skill post-purchase-experience "$@"
 }
 
 retention() {
@@ -283,7 +283,7 @@ list-skills() {
     echo "analytic  - analytics"
     echo "attrib    - attribution"
     echo "signup    - signup"
-    echo "onboard   - onboarding"
+    echo "onboard   - post-purchase-experience"
     echo "retention - retention-and-winback"
     echo "grill     - grill-me"
     echo "compete   - competitor-profiling"

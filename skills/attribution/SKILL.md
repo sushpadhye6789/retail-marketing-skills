@@ -1,6 +1,6 @@
 ---
 name: attribution
-description: When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions "attribution," "attribution model," "first-touch vs last-touch," "multi-touch," "which channel drives revenue," "what's my real CAC," "my dashboards disagree," "Google/Meta says X but GA says Y," "media mix model," "MMM," "incrementality," "brand lift," "geo lift," "holdout test," "how did you hear about us," "self-reported attribution," "dark social," or wants to instrument attribution themselves — "stitch my bookings to their source," "SavvyCal/Calendly attribution," "close the identify gap," "track conversions on a third-party domain," "first-party / self-hosted attribution." For event tracking setup and UTMs, see analytics. For ad-platform pixels/CAPI, see ads. For pipeline and CRM revenue reporting, see revops. For the AI-search attribution blind spot, see ai-seo.
+description: When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions "attribution," "attribution model," "first-touch vs last-touch," "multi-touch," "which channel drives revenue," "what's my real CAC," "my dashboards disagree," "Google/Meta says X but GA says Y," "media mix model," "MMM," "incrementality," "brand lift," "geo lift," "holdout test," "how did you hear about us," "self-reported attribution," "dark social," or wants to instrument attribution themselves — "stitch my bookings to their source," "SavvyCal/Calendly attribution," "close the identify gap," "track conversions on a third-party domain," "first-party / self-hosted attribution." For event tracking setup and UTMs, see analytics. For ad-platform pixels/CAPI, see ads. For pipeline and CRM revenue reporting, see commercial-ops. For the AI-search attribution blind spot, see ai-seo.
 metadata:
   version: 1.3.1
 ---
@@ -26,7 +26,7 @@ State these up front so you don't rebuild neighboring skills:
 
 - **General event tracking, tracking plans, UTM setup, GA4/GTM** → **analytics**. Attribution *assumes tracking exists*. The line: analytics = "what events and how to fire them"; attribution = "how touches join to conversions and survive to revenue."
 - **Ad-platform pixels, CAPI, server-side conversion tracking** → **ads** (`references/conversion-tracking.md`). Attribution consumes platform-reported numbers and corrects for their bias; it doesn't set up the pixels.
-- **Pipeline stages, lead lifecycle, CRM revenue dashboards** → **revops**. Attribution feeds pipeline data; it doesn't define stages.
+- **Pipeline stages, lead lifecycle, CRM revenue dashboards** → **commercial-ops**. Attribution feeds pipeline data; it doesn't define stages.
 - **Showing up in / measuring AI search** → **ai-seo**. Attribution names AI traffic as a blind spot only.
 
 ---
@@ -125,7 +125,7 @@ The through-line: **when "direct" and "branded search" dominate, your top of fun
 
 Defaults differ sharply. Summary here; full playbooks in `references/by-business-type.md`.
 
-- **B2B SaaS (long cycle, sales-assisted):** journeys span weeks–months and multiple people, so single-touch models mislead badly. Anchor on the **CRM as source of truth**, use **first-touch + position-based** side by side, lean hard on **self-reported at demo/signup**, and treat **pipeline/revenue** attribution (→ revops) as the real scoreboard. Offline touches (events, sales convos) make MTA weakest and self-reported strongest here.
+- **B2B SaaS (long cycle, sales-assisted):** journeys span weeks–months and multiple people, so single-touch models mislead badly. Anchor on the **CRM as source of truth**, use **first-touch + position-based** side by side, lean hard on **self-reported at demo/signup**, and treat **pipeline/revenue** attribution (→ commercial-ops) as the real scoreboard. Offline touches (events, sales convos) make MTA weakest and self-reported strongest here.
 - **Ecommerce / DTC (short cycle, self-serve):** fast journeys, high volume, spend concentrated in paid social + search. Anchor on **platform ROAS but distrust it** (iOS/CAPI inflation), validate with **MMM once spend is material** and **incrementality/geo-holdouts** on your biggest channels, and use a **post-purchase survey** to catch what pixels miss. Last-touch is defensible for quick-turn SKUs; MMM+incrementality is how you allocate the real budget.
 
 ### 8. Measuring awareness, not just conversion
@@ -178,7 +178,7 @@ The first payoff is one insight: your **conversion event broken down by first-to
 
 But first-touch alone can't run the multi-touch models from §2. **Store the full ordered touch path** (not just `$initial_*`) and the build track feeds the interpretation track — you can score your own journeys position-based / linear / time-decay instead of only reading about them.
 
-**The last mile — get it into the CRM** (production refinement from Tessa Kriesel). A breakdown in an analytics tool is a report; sales and lifecycle act on attribution *written onto the record*. Sync a **`source` field with `confidence` and `basis`** (journey-linked vs self-reported vs campaign-window fallback) plus a **Paid-vs-Organic read** off the medium, **rolled up to the account** (not just the contact — one B2B org is several people with mixed work/personal emails). How pipeline/lifecycle then *use* it is **revops**' job.
+**The last mile — get it into the CRM** (production refinement from Tessa Kriesel). A breakdown in an analytics tool is a report; sales and lifecycle act on attribution *written onto the record*. Sync a **`source` field with `confidence` and `basis`** (journey-linked vs self-reported vs campaign-window fallback) plus a **Paid-vs-Organic read** off the medium, **rolled up to the account** (not just the contact — one B2B org is several people with mixed work/personal emails). How pipeline/lifecycle then *use* it is **commercial-ops**' job.
 
 The pattern is tool-agnostic: identify + merge exists in PostHog, Segment, Amplitude, and via user-id in GA4; the third-party stitch works with any tool that has a metadata passthrough + webhook. PostHog + SavvyCal are the worked example in `references/first-party-tracking.md`.
 
@@ -233,7 +233,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 
 - **analytics** — event tracking, tracking plans, UTMs, GA4/GTM setup. Do this *before* attribution.
 - **ads** — ad-platform pixels, CAPI, server-side conversion tracking (`references/conversion-tracking.md`).
-- **revops** — pipeline stages, lead lifecycle, CRM revenue reporting. Attribution feeds it.
+- **commercial-ops** — pipeline stages, lead lifecycle, CRM revenue reporting. Attribution feeds it.
 - **ai-seo** — the AI-search attribution blind spot in depth.
 - **ab-testing** — controlled experiments; the incrementality mindset applied to on-site changes.
 - **price-elasticity** — reuses this skill's geo-holdout/controlled-test design, with a price change as the treatment instead of a channel on/off.

@@ -1,7 +1,8 @@
 ---
 name: commercial-ops
-version: 2.1.0
 description: "When the user wants to optimize retail operations, improve GMROI, analyze sell-through rates, or optimize trade spend. Also use when the user mentions 'commercial operations,' 'GMROI,' 'sell-through,' 'promotional yield,' 'trade spend optimization,' 'retail margin,' 'inventory turns,' or 'wholesale pipeline.' Use this for anything involving the systems and processes that connect marketing to retail revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing."
+metadata:
+  version: 2.1.0
 ---
 
 # Commercial Operations for Retail & Commerce (v2.1.0)

@@ -16,7 +16,7 @@ Use these aliases in your terminal (after making skill-aliases.sh executable):
 | `analytic "your request"` | `analytics` | Measure and understand your data |
 | `attrib "your request"` | `attribution` | Understand what marketing is working |
 | `signup "your request"` | `signup-optimization` | Improve sign-up flows |
-| `onboard "your request"` | `onboarding` | Create better onboarding experiences |
+| `onboard "your request"` | `post-purchase-experience` | Create better post-purchase and activation experiences |
 | `retention "your request"` | `retention-and-winback` | Keep customers coming back |
 | `grill "your request"` | `grill-me` | Conduct customer interviews |
 | `compete "your request"` | `competitor-profiling` | Research your competitors |

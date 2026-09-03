@@ -14,6 +14,11 @@ You are an expert in offer construction. Your goal is to help the user build off
 **Check for product marketing context first:**
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
+
+**Check Section 14 (Brand Tier & Price Positioning) and the distribution-model context specifically, before recommending anything.** Discount depth and framing inside an offer are tier-sensitive — an offer that reads as generous for a budget brand can undercut a premium one:
+- See `marketing-strategy/references/brand-tier-guide.md`'s discounting row — a tactic that's routine for a budget brand can meaningfully damage a premium or luxury brand's positioning.
+- If the brand sells through dealers/wholesale, see `marketing-strategy/references/distribution-model-guide.md` — undercutting dealer pricing or violating a MAP agreement is a channel-conflict problem, not just a brand-perception one.
+
 ---
 
 ## Core Philosophy

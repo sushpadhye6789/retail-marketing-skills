@@ -32,7 +32,7 @@ This repo has no paid tier. Everything that used to live in a private companion 
 - `evaluations/completed/` — worked evaluation results with real metrics, alongside the blank templates in `evaluations/`
 - `src/harness/`, `src/loops/`, `src/graph/` — the implementation behind the Harness → Loop → Graph architecture described in `ONBOARDING.md`
 - `scripts/` — lead enrichment and bulk ad-generation automation
-- `.agents/memory.md` — the persistent-memory pattern for style rules, corrections, and execution patterns that survive across sessions
+- `examples/agents/memory.md` — the persistent-memory pattern for style rules, corrections, and execution patterns that survive across sessions (copy it to `.agents/memory.md` to use it — `.agents/` itself is gitignored, since it's where each install's own context lives, not shared repo content)
 
 ## What are Skills?
 
@@ -43,6 +43,10 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 Skills reference each other and build on shared context. The `marketing-strategy` skill is the foundation — every other skill checks it first to understand your product, audience, brand tier, distribution model (ecom-only / own stores / dealers), and strategic priorities before doing anything. From there, skills group loosely into the categories below — conversion, content & copy, SEO, paid media, retail & physical marketing, growth & retention, commercial/monetization, and sales & RevOps — and cross-reference each other directly within and across those groups (e.g. `copywriting` ↔ `cro` ↔ `ab-testing`, `seo-audit` ↔ `schema` ↔ `ai-seo`, `pos-marketing` ↔ `retail-media` ↔ `local-marketing`).
 
 See each skill's **Related Skills** section for the full dependency map, and [Skill Categories](#skill-categories) below for the complete grouping.
+
+**Don't have a `.agents/marketing-strategy.md` yet?** [`examples/agents/marketing-strategy.md`](examples/agents/marketing-strategy.md) is a fully filled-out worked example (Cairnwood Trail Co, the same fictional brand used in `templates/cairnwood-trail-co.md`) — read it to see the pattern, then run the `marketing-strategy` skill to build your own at `.agents/marketing-strategy.md` before relying on any other skill's output. `.agents/` is gitignored on purpose: your own strategy doc is install-local context, not something this repo tracks for you.
+
+**When two skills disagree** — a promo tactic that helps one metric but contradicts a brand-tier guardrail, SEO and paid recommending different things — see [`CONFLICT.md`](CONFLICT.md) for the resolution order. Short version: cite Section 12's ranked priorities first, brand tier/distribution model second, and only escalate to a human if neither settles it.
 
 ## Available Skills
 

@@ -2,7 +2,7 @@
 name: retail-media
 description: "When the user wants to plan or optimize advertising, or organic visibility and the Buy Box, on a retailer's own platform. Also use when the user mentions 'retail media,' 'Amazon Ads,' 'Sponsored Products,' 'Walmart Connect,' 'Instacart Ads,' 'retail media network,' 'RMN,' 'share of search,' 'retail data clean room,' 'Buy Box,' 'marketplace ranking,' 'marketplace SEO,' or 'seller rating.' Distinct from ads, which covers the open web and social platforms — retail media means advertising and organic visibility inside a retailer's own site/app/in-store environment, reaching shoppers already in that retailer's shopping context. For the physical in-store counterpart, see pos-marketing. For the product data retail media depends on, see product-feed."
 metadata:
-  version: 1.1.1
+  version: 1.2.0
 ---
 
 # Retail Media
@@ -10,6 +10,8 @@ metadata:
 You help users plan and optimize both paid advertising and organic visibility inside a retailer's own platform — their site, app, or in-store digital environment — reaching shoppers at or near the point of purchase, not on the open web.
 
 **Scope note**: `ads` covers Google, Meta, LinkedIn, TikTok, and similar open-web/social platforms, where you reach people before or outside a specific shopping context. Retail media is different in kind, not just another platform: it's advertising *inside* a specific retailer's environment, to shoppers who are already there with purchase intent. The two are complementary, not interchangeable — a strong retail media strategy doesn't replace open-web paid media, and vice versa.
+
+**TikTok is a split case.** Open-web TikTok ads (driving to your own site) belong in `ads`. TikTok Shop — in-app checkout, LIVE shopping, and the creator-affiliate program — belongs here: it's shoppers already inside TikTok's commerce environment with purchase intent, the same "advertising inside a specific platform's shopping context" definition that makes Amazon Ads or Walmart Connect retail media rather than open-web ads. See `product-feed`'s TikTok Shop Catalog Sync section for the feed/catalog mechanics, and `influencer-marketing` for managing the creator-affiliate relationships the commission structure depends on.
 
 ## Before Starting
 

@@ -2,7 +2,7 @@
 name: range-review
 description: "When the user wants to periodically review the product range/assortment and decide what to keep, grow, fix, cut, or add. Also use when the user mentions 'range review,' 'assortment planning,' 'assortment review,' 'SKU rationalization,' 'range rationalization,' 'category review,' 'which SKUs to cut,' 'range gaps,' or 'assortment optimization.' This is a periodic, cross-SKU exercise — for what happens to an individual SKU once a decision is made (phase it out, replace it, transition it), see product-lifecycle, which this skill hands off to. For the inventory disposition of a cut SKU, see overstock."
 metadata:
-  version: 1.0.2
+  version: 1.1.0
 ---
 
 # Range Review
@@ -19,6 +19,9 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 - **Section 12 (Strategic Priorities)** — range decisions should trace back to a stated priority (e.g., simplifying operations, moving upmarket, filling a competitive gap), not happen in isolation.
 - **Section 14 (Brand Tier)** — see `marketing-strategy/references/brand-tier-guide.md`; range breadth-vs-depth strategy differs by tier (see "Range Architecture" below).
 - **Section 15 (Distribution Model)** — if dealers are involved, see `marketing-strategy/references/distribution-model-guide.md`; some dealer agreements contractually require carrying a minimum range or specific SKUs, which constrains what can actually be cut.
+
+
+**Check the numbers against real benchmarks, not intuition.** See `commercial-ops/references/retail-revops.md` for healthy ranges on GMROI, sell-through rate, promotional yield, trade spend ROI, inventory turns, UPT, and ATV by category — cite the actual threshold rather than asserting a recommendation is "good" or "strong" without it.
 
 Gather this context (ask if not provided):
 

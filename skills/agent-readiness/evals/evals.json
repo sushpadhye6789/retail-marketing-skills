@@ -1,0 +1,38 @@
+{
+  "skill_name": "agent-readiness",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Can an AI shopping agent actually buy from our site right now?",
+      "expected_output": "Should walk the assessment checklist in order: llms.txt existence/currency, whether robots.txt explicitly addresses commerce-agent user agents, whether Product/Offer schema reflects live price/stock, whether checkout would complete without a CAPTCHA or visual-only step, and whether the business has made a deliberate protocol decision. Should not just answer yes/no without the checklist.",
+      "assertions": [
+        "Walks through the assessment checklist rather than giving an unsupported yes/no",
+        "Distinguishes this from ai-seo's citation-focused scope",
+        "Flags CAPTCHA/checkout-assumption issues as a distinct, commonly-missed item"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We want to show up when someone asks ChatGPT to recommend a hiking jacket.",
+      "expected_output": "Should recognize this is a citation/discovery goal, not a transactional agent-commerce goal, and redirect to ai-seo rather than answering it as an agent-readiness question — while noting the llms.txt/schema baseline is shared between both.",
+      "assertions": [
+        "Recognizes this is ai-seo's scope, not agent-readiness's",
+        "Redirects to ai-seo",
+        "Notes the shared baseline (llms.txt, schema) rather than treating the two skills as fully separate work"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Should we adopt AP2 or ACP first?",
+      "expected_output": "Should present the protocol table's distinction (AP2 = payment authorization backed by Google, ACP = discovery/checkout backed by OpenAI/Stripe) and note that neither requires full adoption to start — the machine-legible baseline (llms.txt, agent-aware robots.txt, current schema, agent-passable checkout) is what makes adopting either fast later, and should ask about the business's actual current agent-traffic signal before recommending one over the other rather than picking arbitrarily.",
+      "assertions": [
+        "Correctly distinguishes AP2 from ACP by what each standardizes",
+        "States that the baseline should come before full protocol adoption",
+        "Does not arbitrarily recommend one protocol without asking about current signal/need"
+      ],
+      "files": []
+    }
+  ]
+}

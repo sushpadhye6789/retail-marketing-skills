@@ -1,0 +1,38 @@
+{
+  "skill_name": "product-page",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "What should be above the fold on our product page?",
+      "expected_output": "Should give the prioritized above-the-fold structure: primary image, product name/price/stock status, add-to-cart with variant selectors directly above it, and the single strongest trust/differentiation signal for the category. Should note stock status specifically as commonly buried and fixable.",
+      "assertions": [
+        "Gives a prioritized, ordered structure rather than an unordered list",
+        "Includes stock status visibility as a specific point",
+        "Ties the trust/differentiation signal choice back to the strategy doc's Section 6",
+        "Mentions checking Section 14 (Brand Tier) for how 'sold' the copy should read"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Our size-fit issue is causing a lot of returns, can you help with the product page?",
+      "expected_output": "Should recommend size/fit guidance content sourced from real return/exchange data ('runs small, size up') rather than a generic size chart alone, and should reference post-purchase-experience as the source of that size-fit feedback data rather than inventing it.",
+      "assertions": [
+        "Recommends fit guidance beyond a static size chart",
+        "References real return/exchange data as the source",
+        "Cross-references post-purchase-experience for the feedback loop"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "How do I A/B test our new PDP layout?",
+      "expected_output": "Should recognize the testing mechanics themselves belong to cro/ab-testing, not product-page, and redirect there while still being able to comment on what to test if asked what changed on the page.",
+      "assertions": [
+        "Recognizes the testing mechanics fall outside this skill's scope",
+        "Redirects to cro or ab-testing for the test design itself"
+      ],
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "skill_name": "website-ux",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Our checkout page feels janky on mobile — buttons jump around while it loads.",
+      "expected_output": "Should identify this as a Cumulative Layout Shift (CLS) problem, name the good threshold (<=0.1), and give retail-specific likely culprits (a promo banner injected after load, images without reserved dimensions). Should not conflate this with a single-page conversion-copy issue that belongs to cro.",
+      "assertions": [
+        "Identifies the issue as CLS specifically, not a vague 'slowness' complaint",
+        "States the good CLS threshold",
+        "Names a retail-specific likely cause",
+        "Does not redirect this to cro, since it's a structural/performance issue, not page copy"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Is our site accessible? We sell to an older demographic and want to make sure we're not excluding anyone.",
+      "expected_output": "Should recommend WCAG 2.1 AA as the retail baseline, and give the prioritized high-impact fixes (alt text, color contrast on price/CTA elements, keyboard navigability through checkout, form labels, visible focus states) rather than a generic 'add alt text' answer. Should connect the older-demographic context to why this is directly revenue-relevant, not just compliance risk management.",
+      "assertions": [
+        "Names WCAG 2.1 AA as the baseline",
+        "Gives the prioritized fix list, not just one generic recommendation",
+        "Connects the older-demographic detail to real business relevance"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Our homepage looks great but I think our product page is boring.",
+      "expected_output": "Should recognize this is about a specific page's content and redirect to product-page, since website-ux is scoped to the site-wide structural layer (speed, accessibility, navigation), not individual page content or copy.",
+      "assertions": [
+        "Recognizes this falls outside website-ux's scope",
+        "Redirects to product-page rather than attempting to answer directly",
+        "States the scope distinction plainly"
+      ],
+      "files": []
+    }
+  ]
+}

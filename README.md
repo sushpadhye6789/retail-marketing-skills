@@ -56,6 +56,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [ab-testing](skills/ab-testing/) | When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program.... |
 | [ad-creative](skills/ad-creative/) | When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad... |
 | [ads](skills/ads/) | When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X,... |
+| [agent-readiness](skills/agent-readiness/) | When the user wants their catalog, pricing, or checkout to be usable by an autonomous AI shopping or purchasing agent... |
 | [ai-cmo-os](skills/ai-cmo-os/) | When the user wants to build an AI Chief Marketing Officer operating system with Claude Code orchestration, isolated... |
 | [ai-seo](skills/ai-seo/) | When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers.... |
 | [analytics](skills/analytics/) | When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions... |
@@ -112,6 +113,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [pricing](skills/pricing/) | When the user wants help with pricing decisions, packaging, monetization strategy, or checking prices against... |
 | [product-feed](skills/product-feed/) | When the user wants to build, audit, or optimize a product data feed for shopping ads or catalog-driven marketing. Also... |
 | [product-lifecycle](skills/product-lifecycle/) | When the user wants marketing guidance for a product moving through its lifecycle — beyond the initial launch. Also use... |
+| [product-page](skills/product-page/) | When the user wants to optimize a product detail page (PDP) or product listing/category page (PLP) — structure,... |
 | [programmatic](skills/programmatic/) | When the user wants to plan or optimize programmatic media buying — automated, auction-based ad buying across display,... |
 | [programmatic-seo](skills/programmatic-seo/) | When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions... |
 | [prospecting](skills/prospecting/) | When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or... |
@@ -135,6 +137,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [trade-marketing](skills/trade-marketing/) | When the user wants to get a retail buyer, distributor, or dealer to list, stock, or feature a product — sell-in... |
 | [video](skills/video/) | When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use... |
 | [visual-merchandising](skills/visual-merchandising/) | When the user wants to plan how products are physically displayed and arranged in a retail environment — window... |
+| [website-ux](skills/website-ux/) | When the user wants to improve site-wide usability, accessibility, page speed, navigation, or mobile experience — as... |
 <!-- SKILLS:END -->
 
 ## Installation

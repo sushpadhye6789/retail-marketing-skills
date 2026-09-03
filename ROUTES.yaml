@@ -1,0 +1,139 @@
+# Outcome routes for the `start-here` skill.
+#
+# Each entry maps a commercial outcome to the skill chain that addresses it,
+# who owns running it, what gate tier it needs (see AGENTS.md and the `tier`
+# convention skills are expected to declare), and what metric proves it
+# worked. This is the front door: state an outcome, get a chain — not "which
+# of 82 skills applies," which is the problem this file exists to remove.
+#
+# Adding a route: a route only belongs here once the underlying skill chain
+# has actually been run end-to-end at least once (see the 3-Job Promotion
+# Rule referenced in the enhancement plan) — this file is meant to stay a
+# small, trustworthy set, not grow into a second skill catalog.
+
+routes:
+  - id: lift-sell-through
+    outcome: "Lift sell-through on slow-moving or aging inventory"
+    triggers: ["increase sell-through", "clear slow-moving stock", "improve sell-through velocity", "aging inventory"]
+    chain: [range-review, discount-and-clearance, commercial-ops, visual-merchandising]
+    owner: Campaign Manager
+    gate: "Tier 2 at markdown depth beyond standard guardrails"
+    metric: "Sell-through velocity, GMROI, promotional yield (target >60%)"
+
+  - id: reduce-cac
+    outcome: "Reduce customer acquisition cost without cutting volume"
+    triggers: ["reduce CAC", "lower acquisition cost", "improve CAC payback"]
+    chain: [attribution, channel-selection, budget-allocation, ads]
+    owner: Paid Media Manager
+    gate: "Tier 2 at budget shifts >10%"
+    metric: "CAC, LTV:CAC ratio"
+
+  - id: increase-attachment
+    outcome: "Increase attachment rate / average order value"
+    triggers: ["increase AOV", "grow basket size", "attachment rate", "cross-sell more"]
+    chain: [product-feed, offers, cro, post-purchase-experience]
+    owner: Ecommerce Manager
+    gate: "Tier 1 — no gate unless it changes checkout/cart structure"
+    metric: "AOV, attachment rate"
+
+  - id: improve-promotional-yield
+    outcome: "Improve promotional yield and trade spend ROI"
+    triggers: ["promotional yield", "trade spend ROI", "is this promo worth running"]
+    chain: [commercial-ops, trade-and-dealer-enablement, pricing]
+    owner: Campaign Manager
+    gate: "Tier 2 — validate before the promo runs, not after"
+    metric: "Promotional yield (target >60%), trade spend ROI (target >2.0)"
+
+  - id: increase-repeat-purchase
+    outcome: "Increase repeat purchase rate and customer LTV"
+    triggers: ["repeat purchase", "reduce churn", "improve retention", "grow LTV"]
+    chain: [post-purchase-experience, retention-and-winback, loyalty, emails]
+    owner: Retention / CX Lead
+    gate: "Tier 1 — Tier 2 only for a new loyalty-program structure"
+    metric: "Repeat purchase rate, LTV"
+
+  - id: grow-dealer-network
+    outcome: "Activate or grow the dealer/wholesale network"
+    triggers: ["activate dealers", "grow wholesale", "onboard new retailers", "dealer sell-in"]
+    chain: [trade-and-dealer-enablement, cold-email, trade-marketing, co-marketing]
+    owner: Trade Marketing Manager
+    gate: "Tier 2 — new dealer terms or MAP changes"
+    metric: "Dealer activation rate, sell-in volume"
+
+  - id: clear-overstock
+    outcome: "Clear overstock or dead inventory profitably"
+    triggers: ["clear overstock", "dead stock", "excess inventory", "discontinued SKUs"]
+    chain: [overstock, discount-and-clearance, commercial-ops]
+    owner: Merchandising / Campaign Manager
+    gate: "Tier 2 at markdown depth beyond standard guardrails"
+    metric: "Inventory turns, GMROI recovered"
+
+  - id: grow-organic-contribution
+    outcome: "Increase organic/SEO contribution to revenue"
+    triggers: ["grow organic traffic", "improve SEO revenue", "get cited by AI search"]
+    chain: [seo-audit, ai-seo, schema, content-strategy]
+    owner: SEO Manager
+    gate: "Tier 1"
+    metric: "Organic revenue share, AI-citation rate"
+
+  - id: improve-paid-romi
+    outcome: "Improve paid media ROMI, not just ROAS"
+    triggers: ["improve paid ROMI", "paid media profitability", "is this channel actually profitable"]
+    chain: [attribution, budget-allocation, ads, ad-creative]
+    owner: Paid Media Manager
+    gate: "Tier 2 at budget shifts >10% or new audiences >20% of spend"
+    metric: "Marketing ROMI = (incremental gross profit − spend) / spend"
+
+  - id: fix-website-contribution
+    outcome: "Fix the website's contribution to revenue"
+    triggers: ["improve website conversion", "why isn't the site converting", "fix the funnel"]
+    chain: [site-architecture, cro, schema, ai-seo, analytics]
+    owner: Ecommerce Manager
+    gate: "Tier 2 at template or navigation changes"
+    metric: "Conversion rate, AOV, organic and agent-referred revenue"
+    note: >
+      This chain strengthens once website-ux and product-page ship (see the
+      enhancement plan's move 04 — accessibility/Core Web Vitals and PDP/PLP
+      coverage don't exist as dedicated skills yet). Usable today with the
+      skills above; insert the new two into the chain right after
+      site-architecture once they land.
+
+  - id: grow-lifecycle-revenue
+    outcome: "Grow email/SMS revenue as a share of total"
+    triggers: ["grow email revenue", "improve SMS performance", "lifecycle marketing"]
+    chain: [customer-research, emails, sms, copywriting]
+    owner: Lifecycle Manager
+    gate: "Tier 1"
+    metric: "Email/SMS revenue share, click-to-conversion rate"
+
+  - id: launch-profitably
+    outcome: "Launch a new product profitably"
+    triggers: ["product launch", "new SKU launch", "launch plan"]
+    chain: [launch, pricing, marketing-plan, ad-creative]
+    owner: Product Marketing
+    gate: "Tier 2 — launch budget approval"
+    metric: "Initial sell-through, launch-period ROMI"
+
+  - id: respond-to-competitor
+    outcome: "Respond to a competitor move without reacting blindly"
+    triggers: ["competitor launched", "competitor price change", "losing share to a competitor"]
+    chain: [competitor-profiling, repositioning, moat-builder]
+    owner: Marketing Strategy Lead
+    gate: "Tier 1 for analysis; Tier 2 if it triggers a repositioning"
+    metric: "Share of voice, win rate against the named competitor"
+
+  - id: cascade-a-strategy-change
+    outcome: "Cascade a positioning or strategic-priority change through everything downstream"
+    triggers: ["we changed positioning", "update everything for new strategy", "repositioning rollout"]
+    chain: [marketing-strategy, repositioning, brand-guidelines]
+    owner: Head of Marketing
+    gate: "Tier 2 — material changes to Sections 5, 6, or 14"
+    metric: "Strategy citation rate, time from change to full cascade"
+
+  - id: settle-a-cross-skill-conflict
+    outcome: "Two skills disagree and you need a resolution, not a meeting"
+    triggers: ["SEO and paid disagree", "conflicting recommendations", "which recommendation wins"]
+    chain: [marketing-strategy]
+    owner: Whoever hit the conflict
+    gate: "Tier 1 — this is a lookup, not an escalation"
+    metric: "See CONFLICT.md — cite Section 12, then Section 14, then escalate only if neither settles it"

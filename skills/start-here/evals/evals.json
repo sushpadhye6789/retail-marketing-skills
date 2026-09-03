@@ -1,0 +1,51 @@
+{
+  "skill_name": "start-here",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Our sell-through on last season's line is really soft and I don't know where to start.",
+      "expected_output": "Should match to the lift-sell-through route in ROUTES.yaml and return the full chain (range-review, discount-and-clearance, commercial-ops, visual-merchandising) in order, name the owner (Campaign Manager), flag the Tier 2 gate at markdown depth, and state the metric (sell-through velocity, GMROI, promotional yield target >60%) — not just point at the first skill in the chain.",
+      "assertions": [
+        "Matches to the lift-sell-through route rather than a generic clearance answer",
+        "Returns the full ordered chain, not just one skill",
+        "States the owner role and the Tier 2 gate before any work starts",
+        "States the metric the route is measured on"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "How do I get our TikTok ad copy to sound punchier?",
+      "expected_output": "Should recognize this is not an outcome-shaped request but a request for a specific skill (ad-creative or copywriting), and say so — pointing directly at the closest matching skill rather than forcing it into a ROUTES.yaml route it doesn't fit.",
+      "assertions": [
+        "Does not force this into an existing ROUTES.yaml route",
+        "Recognizes the user already effectively knows which skill they want",
+        "Points at ad-creative or copywriting directly"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I want to reduce CAC and also improve our promotional yield — which matters more right now?",
+      "expected_output": "Should recognize two candidate routes both plausibly fit (reduce-cac and improve-promotional-yield), and apply CONFLICT.md's resolution order — cite marketing-strategy.md Section 12's ranked priorities first to settle which matters more this cycle, rather than picking one arbitrarily or running both simultaneously without a stated reason.",
+      "assertions": [
+        "Identifies both routes as plausible candidates",
+        "Applies the CONFLICT.md resolution order rather than guessing",
+        "Cites Section 12 (Strategic Priorities) as the first tiebreaker",
+        "Does not silently pick one route without explaining why"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We need to improve our influencer program's ROI specifically for our Gen Z segment on Discord communities.",
+      "expected_output": "Should recognize no existing route in ROUTES.yaml matches this specific outcome, say so plainly, and suggest the closest single existing skill (influencer-marketing or community-marketing) rather than forcing a weak match to an unrelated route. Should not fabricate a route that doesn't exist in the file.",
+      "assertions": [
+        "States plainly that no route matches rather than forcing one",
+        "Suggests the closest existing skill by name",
+        "Does not invent or fabricate a route not present in ROUTES.yaml"
+      ],
+      "files": []
+    }
+  ]
+}

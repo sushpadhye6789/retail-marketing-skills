@@ -124,6 +124,19 @@ for skill_dir in "$SKILLS_DIR"/*/; do
         fi
     done
 
+    # ===== STRATEGY-FIRST GOVERNANCE (see AGENTS.md) =====
+    # marketing-strategy is the skill that creates the doc, so it's exempt from
+    # reading it first. Every other skill should reference the shared context
+    # file somewhere in its body, even if it doesn't use the exact standard
+    # phrasing — this is a warning (not a hard error) so a new skill with a
+    # deliberate, documented exemption doesn't fail CI outright, but silent
+    # drift back to a strategy-blind skill still gets flagged.
+    if [[ "$skill_name" != "marketing-strategy" ]]; then
+        if ! grep -q "marketing-strategy.md" "$skill_file"; then
+            skill_warnings+=("No mention of .agents/marketing-strategy.md — see AGENTS.md 'Strategy-First Governance.' If this skill is a deliberate exception, say so in its scope note.")
+        fi
+    fi
+
     # ===== REPORT RESULTS =====
     if [[ ${#skill_errors[@]} -gt 0 ]]; then
         echo -e "${RED}❌ $skill_name${NC}"

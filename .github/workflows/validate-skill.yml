@@ -65,3 +65,20 @@ jobs:
         uses: Flash-Brew-Digital/validate-skill@39c9da973b7ce3fd4d9632672a0c355bdd733d89 # v1
         with:
           path: ${{ matrix.skill }}
+
+  # Repo-specific conventions the generic Agent Skills action above doesn't
+  # know about: metadata.version placement (not top-level version:), and
+  # every skill referencing .agents/marketing-strategy.md per AGENTS.md's
+  # "Strategy-First Governance" (warning-level, not hard-fail — see
+  # validate-skills.sh's comment on why). Runs against the whole repo, not
+  # just changed skills, since it's one fast shell script either way.
+  repo-conventions:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.skills != '[]'
+    runs-on: ubuntu-slim
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Run validate-skills.sh
+        run: bash validate-skills.sh

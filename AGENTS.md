@@ -12,7 +12,7 @@
 
 ## Strategy-First Governance
 
-Every skill in this repo is expected to check `.agents/marketing-strategy.md` before generating output — most already do, in the "Check for product marketing context first" block near the top of their `SKILL.md`. This section states the rule at the repo level so it applies even to skills that don't (yet) restate it, and so it's a single place to update rather than 80+.
+Every skill in this repo is expected to check `.agents/marketing-strategy.md` before generating output — nearly all do, in the "Check for product marketing context first" block near the top of their `SKILL.md` (`marketing-strategy` itself, which creates the doc, is the one exception). This section states the rule at the repo level so it applies even to a skill that doesn't (yet) restate it, and so it's a single place to update rather than 80+. `validate-skills.sh` enforces this in CI (`.github/workflows/validate-skill.yml`'s `repo-conventions` job) as a warning, not a hard fail — a new skill that's a deliberate exception should say so in its scope note rather than being silently blocked.
 
 - **If `.agents/marketing-strategy.md` doesn't exist:** say so plainly and offer to run `marketing-strategy` first, rather than silently proceeding on generic assumptions. A recommendation built on an assumed audience or brand tier is worse than no recommendation.
 - **If two skills' outputs conflict** (SEO recommends one thing, paid another; a promo depth that contradicts a brand-tier guardrail): don't escalate to a human to referee by default. Cite `marketing-strategy.md` Section 12 (Strategic Priorities, including what's explicitly deprioritized this cycle) — the higher-ranked priority wins. See `CONFLICT.md` for the full protocol and worked examples.

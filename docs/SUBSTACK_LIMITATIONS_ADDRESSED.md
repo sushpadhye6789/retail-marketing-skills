@@ -1,5 +1,7 @@
 # Addressing Limitations from the Substack Article
 
+> **Correction:** this document was written when the evaluation system's example numbers were pitched as real business results. That was inaccurate — every evaluation in `evaluations/completed/` is an AI-generated illustrative example of the methodology, not a verified real-business outcome (see that folder's own `README.md`). Any specific metric or percentage cited below is illustrative, not evidence of an actual result.
+
 This document outlines how we've addressed the limitations mentioned in the Substack article about AI marketing frameworks and the AI Marketing Employee framework implementation in this repository.
 
 ## Common Limitations in AI Marketing Frameworks & How We Address Them

@@ -27,10 +27,10 @@ Compared to asking a plain AI chat assistant for marketing advice, this gives an
 
 ## Everything Is Public
 
-This repo has no paid tier. Everything that used to live in a private companion repo — industry template packages, completed evaluations with real before/after metrics, the Harness → Loop → Graph implementation (`src/`), and automation scripts (`scripts/`) — is merged in and free:
+This repo has no paid tier. Everything that used to live in a private companion repo — industry template packages, worked evaluation examples, the Harness → Loop → Graph implementation (`src/`), and automation scripts (`scripts/`) — is merged in and free:
 
 - `templates/` — industry-specific template packages (grocery, apparel, home goods, and more)
-- `evaluations/completed/` — worked evaluation results with real metrics, alongside the blank templates in `evaluations/`
+- `evaluations/completed/` — **illustrative, AI-generated examples of the evaluation methodology, not real business results** (see that folder's own `README.md`) — useful for seeing what running a skill through the eval framework produces and how to structure one yourself, alongside the blank templates in `evaluations/`
 - `src/harness/`, `src/loops/`, `src/graph/` — the implementation behind the Harness → Loop → Graph architecture described in `ONBOARDING.md`
 - `scripts/` — lead enrichment and bulk ad-generation automation
 - `examples/agents/memory.md` — the persistent-memory pattern for style rules, corrections, and execution patterns that survive across sessions (copy it to `.agents/memory.md` to use it — `.agents/` itself is gitignored, since it's where each install's own context lives, not shared repo content)

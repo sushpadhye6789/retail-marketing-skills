@@ -57,8 +57,9 @@ jobs:
 
           if [ "$FAILED" -eq 1 ]; then
             echo ""
-            echo "Move the flagged file(s) to retail-marketing-skills-private instead,"
-            echo "or edit .github/private-content-patterns.txt if this is a deliberate exception."
+            echo "Remove the flagged file(s) — this repo has no paid tier or private companion"
+            echo "repo to move them to. If this is a deliberate, safe exception, edit"
+            echo ".github/private-content-patterns.txt instead."
             exit 1
           fi
 

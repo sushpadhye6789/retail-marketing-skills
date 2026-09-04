@@ -1,5 +1,7 @@
 # Team Onboarding Guide: AI Marketing Employee Framework
 
+> **Correction:** this document was written when the evaluation system's example numbers were pitched as real business results. That was inaccurate — every evaluation in `evaluations/completed/` is an AI-generated illustrative example of the methodology, not a verified real-business outcome (see that folder's own `README.md`). Any specific metric or percentage cited below is illustrative, not evidence of an actual result.
+
 ## Overview
 This guide explains how your client-side marketing team can use the retail-marketing-skills repository to execute strategic workflows that drive real business metrics through the AI CMO OS (Chief Marketing Officer Operating System).
 

@@ -31,6 +31,6 @@ Every skill in this repo is expected to check `.agents/marketing-strategy.md` be
 
 ## Public Repo Content Policy
 
-**This repo has no paid tier.** Everything that used to live in a separate private companion repo — completed evaluations with real metrics, the framework's implementation code (`src/`), automation scripts, and industry template packages — is merged in and public (see `README.md`'s "Everything Is Public" section for the full list).
+**This repo has no paid tier.** Everything that used to live in a separate private companion repo — worked evaluation examples (`evaluations/completed/` — illustrative and AI-generated, not real business results; see that folder's own `README.md`), the framework's implementation code (`src/`), automation scripts, and industry template packages — is merged in and public (see `README.md`'s "Everything Is Public" section for the full list).
 
 The only content that should never land here is real secrets or keys — see `.github/private-content-patterns.txt` and its CI gate (`.github/workflows/no-private-content.yml`). That CI check is a safety net, not the first line of defense: don't commit a `.env`, credential, or private key on the assumption CI will catch it — decide before committing.

@@ -1,4 +1,6 @@
 # Skills Evaluation Summary
+
+> **Correction:** this document was written when the evaluation system's example numbers were pitched as real business results. That was inaccurate — every evaluation in `evaluations/completed/` is an AI-generated illustrative example of the methodology, not a verified real-business outcome (see that folder's own `README.md`). Any specific metric or percentage cited below is illustrative, not evidence of an actual result.
 ## AI Marketing Employee Framework - Evaluation Cycle 2026-08-25
 
 > **Illustrative example, not a verified real-business result.** See `evaluations/README.md`.

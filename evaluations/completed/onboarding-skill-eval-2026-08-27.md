@@ -1,9 +1,9 @@
 # Onboarding Skill Evaluation
 
-> **Illustrative example, not a verified real-business result.** See `evaluations/README.md`.
+> **Illustrative example, not a verified real-business result.** See `evaluations/README.md`. **Also note:** the `onboarding` skill this file evaluates was retired and replaced by `post-purchase-experience` — kept here as a dated historical record rather than rewritten to match the current skill.
 
 
-## Skill Being Evaluated: onboarding/SKILL.md
+## Skill Being Evaluated: onboarding/SKILL.md (retired — see note above)
 ## Evaluation Period: 2026-08-01 to 2026-08-26
 ## Evaluator: AI Marketing Employee Framework (Claude Code)
 ## Associated Campaign(s): New User Activation Improvement, First-Run Experience Optimization

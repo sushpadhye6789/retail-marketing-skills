@@ -10,7 +10,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | agent-readiness | 1.0.1 | 2026-09-04 |
 | ai-cmo-os | 1.1.0 | 2026-08-25 |
 | ai-seo | 2.3.1 | 2026-09-04 |
-| analytics | 2.0.2 | 2026-08-18 |
+| analytics | 2.0.3 | 2026-09-05 |
 | aso | 2.0.2 | 2026-09-04 |
 | attribution | 1.3.1 | 2026-08-18 |
 | brand-guidelines | 2.0.0 | 2026-09-04 |
@@ -32,13 +32,13 @@ Current versions of all skills. Agents can compare against local versions to che
 | cro | 2.3.0 | 2026-09-04 |
 | customer-research | 2.0.2 | 2026-08-18 |
 | digital-out-of-home | 1.0.2 | 2026-08-19 |
-| directory-submissions | 2.0.2 | 2026-08-20 |
+| directory-submissions | 2.0.3 | 2026-09-05 |
 | discount-and-clearance | 1.2.0 | 2026-09-04 |
 | emails | 2.2.0 | 2026-09-04 |
 | experiential-marketing | 1.0.2 | 2026-08-19 |
 | free-tools | 2.0.1 | 2026-08-18 |
 | growth-playbooks | 1.1.0 | 2026-09-04 |
-| image | 2.0.2 | 2026-08-18 |
+| image | 2.0.3 | 2026-09-05 |
 | influencer-marketing | 1.0.2 | 2026-08-20 |
 | launch | 2.0.2 | 2026-08-18 |
 | lead-magnets | 2.0.1 | 2026-08-18 |

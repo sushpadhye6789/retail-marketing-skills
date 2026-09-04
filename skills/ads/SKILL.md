@@ -62,7 +62,6 @@ This skill's depth lives in references — load by intent. For **any operational
 
 **Note for platform-specific implementations**: If your ecommerce platform references a specific platform in `.agents/marketing-strategy.md` under Tech Stack, prefer the platform-specific variants found in `references/platforms/[platform]/`. For example, if your tech stack indicates Shopify, use `references/platforms/shopify/meta-decision-system-ecommerce.md` for Shopify-focused Meta ads decisions.
 
----
 
 ## Platform Selection Guide
 
@@ -74,7 +73,6 @@ This skill's depth lives in references — load by intent. For **any operational
 | **Twitter/X** | Tech audiences, thought leadership | Audience is active on X, timely content |
 | **TikTok** | Younger demographics, viral creative | Audience skews 18-34, video capacity |
 
----
 
 ## Campaign Structure Best Practices
 
@@ -113,7 +111,6 @@ TT_Conv_Broad_NewArrivals_Mar24
 - Increase budgets ~20% at a time — never 30%+ in one move (resets platform learning)
 - Wait 3-5 days between increases for algorithm learning
 
----
 
 ## Ad Copy Frameworks
 

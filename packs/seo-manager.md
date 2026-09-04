@@ -20,6 +20,7 @@ Per `AGENTS.md`: most of this role's work (audits, content, schema) is Tier 1. A
 
 - **Monday**: Check Core Web Vitals and crawl-error trends. A regression here undercuts every other SEO effort this week, so it gets fixed first, not queued behind content work.
 - **Friday**: AI-citation check on the week's highest-intent content — is it actually getting cited, and if not, what's missing relative to `ai-seo`'s extractable-structure guidance (answer blocks, FAQ schema, comparison tables)?
+- **First Monday of the month**: this role owns the largest single share of the skills tagged `volatility: dated` (see `AGENTS.md`'s Skill Freshness section) — `ai-seo`, `aso`, `directory-submissions`, `schema`, `seo-audit`, `website-ux`, six of the fourteen currently tagged. When the monthly "Skill freshness review" issue is open, this is usually the role that clears most of it — check it alongside the regular Monday check, not as a separate task.
 
 ## Cross-department reporting
 

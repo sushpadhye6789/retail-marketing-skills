@@ -2,7 +2,7 @@
 name: discount-and-clearance
 description: "When the user wants to plan, structure, or message a discount or clearance event — sizing the depth, cadence, and messaging, regardless of what triggered it. Also use when the user mentions 'discount,' 'clearance,' 'markdown,' 'sale event,' 'flash sale,' 'how deep should this discount be,' 'clearance section,' or 'end-of-season sale.' If the trigger is specifically excess/aging/dead inventory, start with overstock instead — it handles the inventory diagnosis and disposition-channel decision, then hands off here for the discount mechanics. For sizing the actual discount depth against margin, see price-elasticity. For the offer mechanics (bundling, scarcity, guarantees), see offers. For the brand-tier and distribution-model context that shapes how public a discount can be, see marketing-strategy."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Discount & Clearance
@@ -101,6 +101,16 @@ Match urgency language to the real reason:
 - **Ignoring cannibalization of full-price siblings** — a discount on one SKU can just be moving demand from a full-price adjacent product, not creating new demand.
 
 ---
+
+## When to Refuse Rather Than Guess
+
+Recommending a discount is a Tier 2 action once it's specific enough to act on (a depth, a channel, a go date) — see `AGENTS.md`'s fail-closed guidance. Refuse and name the specific gap rather than proceeding on an assumed number when:
+
+- **The discount depth would exceed the brand's normal range (illustrative: >40% off) and no explicit margin floor or override has been given.** Don't infer a floor from category norms — a wrong guess here recommends a money-losing promotion, not just a suboptimal one.
+- **The SKUs involved might already be out of stock or near it**, and stock status isn't known. Promoting inventory that's about to sell out (or already has) wastes the promotion and disappoints the customer it reaches.
+- **The messaging implies a claim needing a legal disclaimer** (an "up to X% off," a limited-time framing, a comparison to a prior price) and it isn't clear the claim has been checked — see `compliance`.
+
+State the specific missing input, not a vague "need more information" — "I need the margin floor to size a discount past 40%; what's the lowest price this can go to and still clear at breakeven or better?" is actionable. Silence or an assumed number is not.
 
 ## Task-Specific Questions
 

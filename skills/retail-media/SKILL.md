@@ -1,15 +1,17 @@
 ---
 name: retail-media
-description: "When the user wants to plan or optimize advertising, or organic visibility and the Buy Box, on a retailer's own platform. Also use when the user mentions 'retail media,' 'Amazon Ads,' 'Sponsored Products,' 'Walmart Connect,' 'Instacart Ads,' 'retail media network,' 'RMN,' 'share of search,' 'retail data clean room,' 'Buy Box,' 'marketplace ranking,' 'marketplace SEO,' or 'seller rating.' Distinct from ads, which covers the open web and social platforms — retail media means advertising and organic visibility inside a retailer's own site/app/in-store environment, reaching shoppers already in that retailer's shopping context. For the physical in-store counterpart, see pos-marketing. For the product data retail media depends on, see product-feed."
+description: "When the user wants to plan or optimize advertising, or organic visibility and the Buy Box, on a retailer's own platform. Also use when the user mentions 'retail media,' 'Amazon Ads,' 'Sponsored Products,' 'Walmart Connect,' 'Instacart Ads,' 'Cartology,' 'Coles 360,' 'retail media network,' 'RMN,' 'share of search,' 'retail data clean room,' 'Buy Box,' 'marketplace ranking,' 'marketplace SEO,' or 'seller rating.' Distinct from ads, which covers the open web and social platforms — retail media means advertising and organic visibility inside a retailer's own site/app/in-store environment, reaching shoppers already in that retailer's shopping context. For the physical in-store counterpart, see pos-marketing. For the product data retail media depends on, see product-feed."
 metadata:
-  version: 1.1.1
+  version: 1.3.0
 ---
 
 # Retail Media
 
 You help users plan and optimize both paid advertising and organic visibility inside a retailer's own platform — their site, app, or in-store digital environment — reaching shoppers at or near the point of purchase, not on the open web.
 
-**Scope note**: `ads` covers Google, Meta, LinkedIn, TikTok, and similar open-web/social platforms, where you reach people before or outside a specific shopping context. Retail media is different in kind, not just another platform: it's advertising *inside* a specific retailer's environment, to shoppers who are already there with purchase intent. The two are complementary, not interchangeable — a strong retail media strategy doesn't replace open-web paid media, and vice versa.
+**Scope note**: `ads` covers Google, Meta, LinkedIn, TikTok, and similar open-web/social platforms, where you reach people before or outside a specific shopping context. Retail media is different in kind, not just another platform: it's advertising *inside* a **retailer's** own environment — a company whose core business is retail, with owned on-site search and browse intent (Amazon, Walmart, Woolworths, Coles) — to shoppers already there with purchase intent. The two are complementary, not interchangeable.
+
+**TikTok Shop is not retail media, even though it has in-app checkout.** TikTok's core business is social/content, not retail — commerce there is discovered through a video feed and creator relationships, not through a retailer's own search/browse the way Sponsored Products or the Buy Box work, and none of this skill's core mechanics (share of search, Buy Box, retail data clean rooms) apply to it. TikTok Shop's paid-promotion side belongs in `ads` (already covers TikTok Ads directly); its creator/affiliate-commission side belongs in `influencer-marketing`; its catalog/feed mechanics are in `product-feed`'s TikTok Shop Catalog Sync section.
 
 ## Before Starting
 
@@ -42,7 +44,7 @@ Structurally, most retail media networks offer some mix of:
 - **Off-site extensions** — a growing category where the retail media network uses its own shopper data to reach the same audience on the open web or social platforms, which blurs the line with `ads` — treat this as part of the retail media budget/strategy (it's targeted using the retailer's first-party purchase data) even though it technically runs outside the retailer's own site.
 - **In-store/digital-in-store media** — screens, audio, and other in-store placements some networks now offer. See `pos-marketing` for the physical/non-programmatic counterpart.
 
-Major retail media networks include Amazon Ads, Walmart Connect, Instacart Ads, Target Roundel, and Kroger Precision Marketing in the US, and grocery/retail-specific networks in other markets (for example, major Australian grocery retailers run their own retail media offerings) — evaluate current platform capabilities directly rather than treating any of these as fixed; retail media is a fast-moving category and specifics change often.
+Major retailers now run their own retail media network, and which ones apply depends entirely on where the business actually sells — don't default to US examples for a business that doesn't sell in the US. Amazon Ads operates across most markets this repo's users are likely to sell in, so it's the one near-universal reference point; beyond that, match the network to the actual market: **US** — Walmart Connect, Target Roundel, Kroger Precision Marketing, Instacart Ads; **Australia** — Woolworths' retail media arm (Cartology) and Coles' (Coles 360); other markets have their own major grocers' equivalents. Evaluate current platform capabilities directly rather than treating any of these as fixed — retail media is a fast-moving category and specifics change often, and a name not listed here doesn't mean it doesn't exist.
 
 ---
 
@@ -101,7 +103,7 @@ Retail media's closed-loop nature (the ad and the purchase happen on the same pl
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](../../tools/REGISTRY.md). Key retail media networks:
+For implementation, see the [tools registry](../../tools/REGISTRY.md). These are the networks with a built tool integration in this repo today — not the full list of what exists (see the market-specific list above), just what's been wired up so far:
 
 | Tool | Best For | MCP | Guide |
 |------|----------|:---:|-------|

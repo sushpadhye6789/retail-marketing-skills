@@ -1,8 +1,8 @@
 ---
 name: growth-playbooks
-description: "When the user wants to apply proven growth mechanics from well-known brands to their own business — a referral loop, a flywheel, a scarcity drop, a community-led growth model — adapted for retail and updated for the AI era (AI shopping agents, AI-generated content, agentic commerce). Also use when the user mentions 'growth playbook,' 'growth loop,' 'flywheel,' 'how did [brand] grow,' 'growth hacking,' 'scale growth,' 'proven growth strategies,' or names a brand (Dropbox, Airbnb, Costco, Glossier, Supreme, Duolingo, etc.) and asks how to apply what they did. For a broader list of one-off tactics not tied to a named brand mechanic, see marketing-ideas. For testing whether a differentiator is durable rather than borrowed, see moat-builder. For running any of these as the actual work, see compound-marketing."
+description: "When the user wants to apply proven growth mechanics from well-known brands to their own business — a referral loop, a flywheel, a scarcity drop, a community-led growth model — adapted for retail and updated for the AI era (AI shopping agents, AI-generated content, agentic commerce). Also use when the user mentions 'growth playbook,' 'growth loop,' 'flywheel,' 'how did [brand] grow,' 'growth hacking,' 'scale growth,' 'proven growth strategies,' or names a brand (Dropbox, Airbnb, Costco, Glossier, Supreme, Duolingo, Canva, Airtasker, Frank Body, Who Gives A Crap, Aesop, etc.) and asks how to apply what they did. For a broader list of one-off tactics not tied to a named brand mechanic, see marketing-ideas. For testing whether a differentiator is durable rather than borrowed, see moat-builder. For running any of these as the actual work, see compound-marketing."
 metadata:
-  version: 1.0.3
+  version: 1.1.0
 ---
 
 # Growth Playbooks

@@ -2,7 +2,7 @@
 name: product-feed
 description: "When the user wants to build, audit, or optimize a product data feed for shopping ads or catalog-driven marketing. Also use when the user mentions 'product feed,' 'Merchant Center,' 'Google Shopping feed,' 'Meta catalog,' 'catalog feed,' 'feed disapprovals,' 'feed optimization,' 'feed rules,' 'supplemental feed,' 'GTIN,' 'feed errors,' or 'my products aren't showing in Shopping.' Covers the product data layer that Shopping/PMax, Meta/Instagram catalog ads, and (via schema) some organic search surfaces all consume. For running the campaigns that use the feed, see ads. For the structured-data/schema markup version of the same product attributes, see schema."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Product Feed
@@ -97,6 +97,15 @@ Most platforms let you transform or enrich feed data without touching the source
 A supplemental feed (a separate small feed that overlays specific fields onto the primary feed by matching ID) is useful when the enrichment data lives in a different system than the main product export — e.g., a spreadsheet of custom labels maintained by marketing, layered onto an engineering-owned primary feed.
 
 ---
+
+## TikTok Shop Catalog Sync
+
+TikTok Shop needs deeper feed integration than a standard TikTok ads product feed — it's an in-app checkout, not just a click-out to your site, so the catalog has to stay live-accurate in a way an open-web ad feed doesn't.
+
+- **Sync method**: either the TikTok Shop Partner integration (Shopify, BigCommerce, and similar platforms have a direct app) or the TikTok Shop Seller API directly. Prefer the platform integration where available — it handles inventory/price sync in near-real-time, which matters more here than for a standard ads feed since a stock-out can mean an accepted order for something you can't fulfill.
+- **Category-specific required attributes**: TikTok Shop enforces category-specific required fields more strictly than TikTok's ads-only product feed does — sizing/fit fields for apparel, ingredient/material fields for beauty and consumables. Check the category's specific requirements before launch; a generic feed that passes for ads can still fail Shop's stricter validation.
+- **Video and LIVE product tagging**: products need to be taggable inside both short-form video and LIVE streams, which depends on the catalog being properly synced and category-approved *before* a livestream, not fixed reactively during one — a livestream host tagging a product that fails validation mid-stream loses the sale in real time.
+- **Affiliate/creator commission structure**: TikTok Shop's built-in affiliate program lets creators earn a set commission per sale they drive — this is a catalog-level setting (commission rate can vary by product or category) as much as a creator-relationship one. See `influencer-marketing` for managing the creator relationships themselves; this skill's job is making sure the commission structure in the catalog actually reflects what was agreed, since a misconfigured rate here undercuts a negotiated deal without anyone noticing until reconciliation.
 
 ## Troubleshooting Disapprovals
 

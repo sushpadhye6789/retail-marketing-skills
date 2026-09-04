@@ -2,7 +2,7 @@
 name: commercial-ops
 description: "When the user wants to optimize retail operations, improve GMROI, analyze sell-through rates, or optimize trade spend. Also use when the user mentions 'commercial operations,' 'GMROI,' 'sell-through,' 'promotional yield,' 'trade spend optimization,' 'retail margin,' 'inventory turns,' or 'wholesale pipeline.' Use this for anything involving the systems and processes that connect marketing to retail revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing."
 metadata:
-  version: 2.2.0
+  version: 2.3.0
 ---
 
 # Commercial Operations for Retail & Commerce (v2.2.0)
@@ -214,7 +214,7 @@ CLV = (Average Order Value) × (Purchase Frequency) × (Customer Lifespan)
 1. **Business Model**
    - What percentage of sales come from D2C vs. wholesale vs. brick-and-mortar?
    - What are your primary retail channels (independents, chains, specialty, mass)?
-   - Do you sell through marketplaces (Amazon, Walmart.com, etc.)?
+   - Do you sell through marketplaces (Amazon, or the equivalent in your market — Walmart.com in the US, Kogan or Catch in Australia, etc.)?
 
 2. **Product & Category**
    - What is your typical product lifecycle (seasonal, evergreen, fashion)?
@@ -244,7 +244,7 @@ CLV = (Average Order Value) × (Purchase Frequency) × (Customer Lifespan)
 | **Markdown Optimization** | Revionis, Clear Demand, Pricefx | Data-driven markdown decisions |
 | **Wholesale Portals** | JOOR, NuORDER, Centra | Digital line sheets and order management |
 | **Analytics & BI** | Tableau, Power BI, Looker | Retail performance dashboards |
-| **Supplier Portals** | Amazon Vendor, Walmart Retail Link | Chargebacks, deductions, performance metrics |
+| **Supplier Portals** | Amazon Vendor Central, plus each major retailer's own vendor portal (Walmart Retail Link in the US, or the equivalent for whichever retailers the business actually supplies) | Chargebacks, deductions, performance metrics |
 
 ---
 

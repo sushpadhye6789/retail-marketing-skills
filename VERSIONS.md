@@ -20,7 +20,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | channel-selection | 1.0.3 | 2026-08-20 |
 | co-marketing | 2.0.2 | 2026-08-20 |
 | cold-email | 2.0.4 | 2026-08-20 |
-| commercial-ops | 2.2.0 | 2026-09-04 |
+| commercial-ops | 2.3.0 | 2026-09-04 |
 | community-marketing | 2.0.2 | 2026-08-20 |
 | competitor-profiling | 2.0.1 | 2026-08-18 |
 | competitors | 2.0.3 | 2026-08-20 |
@@ -37,7 +37,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | emails | 2.1.3 | 2026-08-20 |
 | experiential-marketing | 1.0.2 | 2026-08-19 |
 | free-tools | 2.0.1 | 2026-08-18 |
-| growth-playbooks | 1.0.3 | 2026-08-20 |
+| growth-playbooks | 1.1.0 | 2026-09-04 |
 | image | 2.0.2 | 2026-08-18 |
 | influencer-marketing | 1.0.2 | 2026-08-20 |
 | launch | 2.0.2 | 2026-08-18 |
@@ -61,7 +61,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | post-purchase-experience | 2.1.0 | 2026-08-25 |
 | price-elasticity | 1.0.2 | 2026-08-19 |
 | pricing | 2.3.0 | 2026-09-04 |
-| product-feed | 1.1.0 | 2026-08-19 |
+| product-feed | 1.2.0 | 2026-09-04 |
 | product-lifecycle | 1.0.2 | 2026-08-19 |
 | product-page | 1.0.0 | 2026-09-04 |
 | programmatic-seo | 2.0.1 | 2026-08-18 |
@@ -71,7 +71,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | range-review | 1.1.0 | 2026-09-04 |
 | referrals | 2.0.3 | 2026-08-20 |
 | repositioning | 1.0.2 | 2026-08-19 |
-| retail-media | 1.1.1 | 2026-08-20 |
+| retail-media | 1.3.0 | 2026-09-04 |
 | retention-and-winback | 2.1.0 | 2026-08-25 |
 | schema | 2.0.1 | 2026-08-18 |
 | seo-audit | 2.0.1 | 2026-08-18 |

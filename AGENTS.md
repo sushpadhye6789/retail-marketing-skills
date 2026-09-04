@@ -29,6 +29,27 @@ Every skill in this repo is expected to check `.agents/marketing-strategy.md` be
 
 **Execution receipts.** After a skill takes or recommends a real Tier 2 action (not routine drafting or analysis), append a one-line receipt to `.agents/execution-log.md` (gitignored — this is install-local state, like the other `.agents/` files): `date | skill=NAME version=X.Y.Z | strategy-version=X.Y.Z | action=SHORT-DESCRIPTION | tier=1|2`. This is what answers "what did the team actually do this week" without anyone having to remember and report it separately, and it's what a future skill-performance or roll-up tool would read — building that tool isn't warranted yet with no real log to process, but the convention is the cheap part worth having in place before it is.
 
+## Skill Freshness
+
+Some skill content decays faster than others — a platform's named features, an algorithm's current behavior, a converging protocol landscape (`agent-readiness`'s AP2/ACP/UCP) are true today and possibly wrong in six months, unlike a durable framework (`storytelling`'s narrative structures, `brand-management`'s architecture decisions) that doesn't have an expiry date.
+
+**The convention:** a skill whose content is genuinely time-sensitive declares it in frontmatter:
+
+```yaml
+metadata:
+  version: X.Y.Z
+  volatility: dated
+  last_verified: YYYY-MM-DD
+```
+
+Omit `volatility` entirely for evergreen content — that's the default and the common case; most skills in this repo are durable frameworks, not platform documentation. Only add `volatility: dated` where there's a real, stated reason (a named platform, a live algorithm, a converging standard) — don't tag a skill "dated" by default just to be safe, or every skill ends up tagged and the flag stops meaning anything.
+
+**Enforcement: `.github/workflows/skill-staleness-check.yml`**, on the same scheduling pattern `weekly-seo-audit.yml` already proved works in this repo, runs monthly and opens (or updates) a single "Skill freshness review" GitHub issue listing every `dated` skill past a 90-day review window, plus any `dated` skill missing a `last_verified` date entirely. It closes the issue automatically once nothing's overdue.
+
+**This workflow never writes to a skill file, on purpose.** It only opens an issue. Building an auto-refresh path that researches and commits an update to a skill directly would be an unreviewed write into 86 files that every skill and every user depends on — one bad research pass (a hallucinated stat, a misread platform change) silently corrupts a skill nobody's likely to spot-check before using it. Flag it; a human reviews and refreshes the content in a normal PR, same as any other change. This is what the mkt1 "Multiplayer AI" article calls "maintenance capabilities" and treats as the maturity marker most teams never build — the flagging half is cheap and worth having; the auto-write half is exactly the wrong kind of automation for content this load-bearing.
+
+**Currently tagged `dated`**: `ads`, `agent-readiness`, `ai-seo`, `aso`, `marketing-council`, `product-feed`, `retail-media`, `schema`, `seo-audit`, `specialist-lenses`, `website-ux` — none carry a `last_verified` date yet, so the first scheduled run will correctly flag all eleven for an initial review rather than claiming a verification that hasn't actually happened. Add the tag to any other skill when you notice its content is genuinely platform- or algorithm-dependent, not preemptively.
+
 ## Public Repo Content Policy
 
 **This repo has no paid tier.** Everything that used to live in a separate private companion repo — worked evaluation examples (`evaluations/completed/` — illustrative and AI-generated, not real business results; see that folder's own `README.md`), the framework's implementation code (`src/`), automation scripts, and industry template packages — is merged in and public (see `README.md`'s "Everything Is Public" section for the full list).

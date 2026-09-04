@@ -2,7 +2,8 @@
 name: website-ux
 description: "When the user wants to improve site-wide usability, accessibility, page speed, navigation, or mobile experience — as distinct from a single page's conversion rate. Also use when the user mentions 'accessibility,' 'WCAG,' 'Core Web Vitals,' 'page speed,' 'LCP,' 'CLS,' 'mobile usability,' 'site navigation,' 'is my site accessible,' 'screen reader,' 'ADA compliance,' or 'my site feels slow.' Use this for the structural, cross-page experience layer a site runs on. For a single page's conversion problem (a landing page, a form, checkout), see cro. For the information architecture and URL/nav structure itself, see site-architecture. For product/category page content and merchandising, see product-page."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
+  volatility: dated
 ---
 
 # Website UX

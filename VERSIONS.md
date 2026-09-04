@@ -6,12 +6,12 @@ Current versions of all skills. Agents can compare against local versions to che
 |-------|---------|--------------|
 | ab-testing | 2.1.0 | 2026-09-04 |
 | ad-creative | 2.8.3 | 2026-08-20 |
-| ads | 2.4.3 | 2026-08-20 |
-| agent-readiness | 1.0.0 | 2026-09-04 |
+| ads | 2.4.4 | 2026-09-04 |
+| agent-readiness | 1.0.1 | 2026-09-04 |
 | ai-cmo-os | 1.1.0 | 2026-08-25 |
-| ai-seo | 2.3.0 | 2026-08-25 |
+| ai-seo | 2.3.1 | 2026-09-04 |
 | analytics | 2.0.2 | 2026-08-18 |
-| aso | 2.0.1 | 2026-08-18 |
+| aso | 2.0.2 | 2026-09-04 |
 | attribution | 1.3.1 | 2026-08-18 |
 | brand-guidelines | 2.0.0 | 2026-09-04 |
 | brand-management | 1.0.2 | 2026-08-19 |
@@ -45,7 +45,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | local-marketing | 1.1.0 | 2026-08-19 |
 | loyalty | 1.2.0 | 2026-09-04 |
 | marketing-brief-template | 1.0.0 | 2026-08-30 |
-| marketing-council | 1.2.3 | 2026-08-19 |
+| marketing-council | 1.2.4 | 2026-09-04 |
 | marketing-ideas | 2.0.4 | 2026-08-18 |
 | marketing-loops | 1.3.4 | 2026-08-20 |
 | marketing-plan | 1.1.1 | 2026-08-20 |
@@ -61,23 +61,23 @@ Current versions of all skills. Agents can compare against local versions to che
 | post-purchase-experience | 2.2.0 | 2026-09-04 |
 | price-elasticity | 1.0.2 | 2026-08-19 |
 | pricing | 2.3.0 | 2026-09-04 |
-| product-feed | 1.2.0 | 2026-09-04 |
+| product-feed | 1.2.1 | 2026-09-04 |
 | product-lifecycle | 1.0.2 | 2026-08-19 |
 | product-page | 1.0.0 | 2026-09-04 |
 | programmatic-seo | 2.0.1 | 2026-08-18 |
 | programmatic | 1.0.2 | 2026-08-19 |
 | prospecting | 1.1.3 | 2026-08-20 |
 | public-relations | 1.0.2 | 2026-08-19 |
-| range-review | 1.1.0 | 2026-09-04 |
+| range-review | 1.2.0 | 2026-09-04 |
 | referrals | 2.0.3 | 2026-08-20 |
 | repositioning | 1.0.2 | 2026-08-19 |
-| retail-media | 1.3.0 | 2026-09-04 |
+| retail-media | 1.3.1 | 2026-09-04 |
 | retention-and-winback | 2.2.0 | 2026-09-04 |
-| schema | 2.0.1 | 2026-08-18 |
-| seo-audit | 2.0.1 | 2026-08-18 |
+| schema | 2.0.2 | 2026-09-04 |
+| seo-audit | 2.0.2 | 2026-09-04 |
 | signup | 2.0.1 | 2026-08-18 |
 | site-architecture | 2.0.1 | 2026-08-18 |
-| specialist-lenses | 2.0.1 | 2026-08-19 |
+| specialist-lenses | 2.0.2 | 2026-09-04 |
 | sms | 1.0.2 | 2026-08-19 |
 | social | 2.3.3 | 2026-08-20 |
 | storytelling | 1.1.0 | 2026-09-04 |
@@ -87,7 +87,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | trade-marketing | 1.0.2 | 2026-08-19 |
 | video | 2.1.2 | 2026-08-20 |
 | visual-merchandising | 1.1.0 | 2026-09-04 |
-| website-ux | 1.0.0 | 2026-09-04 |
+| website-ux | 1.0.1 | 2026-09-04 |
 
 ## Recent Changes
 

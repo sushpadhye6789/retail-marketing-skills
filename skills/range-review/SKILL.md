@@ -2,7 +2,7 @@
 name: range-review
 description: "When the user wants to periodically review the product range/assortment and decide what to keep, grow, fix, cut, or add. Also use when the user mentions 'range review,' 'assortment planning,' 'assortment review,' 'SKU rationalization,' 'range rationalization,' 'category review,' 'which SKUs to cut,' 'range gaps,' or 'assortment optimization.' This is a periodic, cross-SKU exercise — for what happens to an individual SKU once a decision is made (phase it out, replace it, transition it), see product-lifecycle, which this skill hands off to. For the inventory disposition of a cut SKU, see overstock."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Range Review
@@ -72,6 +72,15 @@ For each SKU or category under review, assess across these dimensions before dec
 - **Breadth vs. depth by brand tier** — from `marketing-strategy/references/brand-tier-guide.md`'s underlying logic: budget/mid-market ranges often lean broad and shallow (many price points and variants to capture as much of the market as possible); premium/luxury ranges typically lean narrower and more curated (fewer, more deliberate SKUs — an overly broad premium range can dilute the brand's positioning as much as aggressive discounting does).
 - **Good-Better-Best structure within a category** — see `pricing`'s Good-Better-Best framework; a range review is a natural point to check whether this structure is actually intact (clear differentiation between tiers) or has drifted (tiers too close in price/value to give the customer a real choice).
 - **Dealer range requirements** — if a dealer agreement requires carrying a minimum set, factor that into what's actually cuttable versus what has to stay regardless of its own performance, and flag the tension explicitly if a contractually-required SKU is a genuine underperformer with no strategic role.
+
+### Private Label / Owned-Brand Mix (Retailers Only)
+
+A different question from brand architecture above, and only relevant to a business that's a *retailer* carrying other companies' brands alongside its own — not a manufacturer/brand deciding how its own product lines relate to each other:
+
+- **Margin, not just sales, drives the mix decision.** A private-label or owned-brand SKU is typically higher-margin than the equivalent national-brand item (no wholesale markup layer, no slotting fee paid *to* a retailer since the retailer *is* the brand) — see `commercial-ops/references/retail-revops.md`'s GMROI section. A range review for a retailer should weight private-label performance by margin contribution, not unit sales alone, or a strong-margin private-label line reads as an underperformer next to a high-volume, thin-margin national brand it's actually outperforming on profit.
+- **The placement tension is real and needs to be named, not assumed away.** Private label earns better margin; a national brand may be paying co-op/slotting fees for placement (see `supplier-funded-marketing`) or driving footfall through its own brand recognition and marketing spend. The "best" shelf position isn't automatically the retailer's own brand — it's whichever placement maximizes total category profit and traffic, which sometimes means a lower-margin national brand still earns the power zone (see `visual-merchandising`'s Store Zoning) because it's what brings the customer into the category in the first place.
+- **Private label needs its own credibility strategy, not a discount-store default.** A common mistake: treating private label as inherently the "value" option and pricing/positioning it accordingly by default. Depending on brand tier (see `marketing-strategy` Section 14), an owned brand can be positioned as a genuine quality alternative, not just a cheaper one — the margin advantage funds better product investment, not just a lower price point.
+- **Assortment mix ratio is itself a strategic choice**, not just the sum of individual SKU decisions — what share of the category should be private label vs. national brand is a deliberate range-architecture call (tied to Section 12's strategic priorities: margin expansion vs. traffic-driving vs. differentiation), reviewed at the category level, not left to accumulate passively from one-off SKU adds.
 
 ### When the Catalog Is Too Small for a Cross-SKU Review
 

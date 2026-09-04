@@ -2,7 +2,8 @@
 name: marketing-council
 description: "When the user wants multiple expert perspectives on a marketing question — either a simulated board of legendary marketers (Seth Godin, Ogilvy, Schwartz, Dunford, Hormozi, and more) applying documented frameworks, or a domain-agnostic Decision Council (Contrarian, First Principles Thinker, Expansionist, Outsider, Executor) that stress-tests the idea. Also use when the user mentions 'marketing council,' 'advisory board,' 'boardroom,' 'audit this,' 'tear this apart,' 'grade this ad,' 'what would Seth Godin say,' 'channel Hormozi,' 'debate this,' 'decision council,' 'contrarian take,' 'stress-test this,' or 'first-principles this.' The marketer bench surfaces documented disagreement; Decision Council catches fatal flaws, wrong framing, undersold upside, curse-of-knowledge blind spots, and feasibility gaps. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill."
 metadata:
-  version: 1.2.3
+  version: 1.2.4
+  volatility: dated
 ---
 
 # Marketing Council

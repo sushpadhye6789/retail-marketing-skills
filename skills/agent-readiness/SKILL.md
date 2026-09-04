@@ -2,7 +2,8 @@
 name: agent-readiness
 description: "When the user wants their catalog, pricing, or checkout to be usable by an autonomous AI shopping or purchasing agent acting on a customer's behalf — as distinct from getting cited in an AI-generated answer. Also use when the user mentions 'agentic commerce,' 'AI shopping agent,' 'can an agent buy from my site,' 'ChatGPT shopping,' 'Amazon Rufus,' 'agent checkout,' 'AP2,' 'Agent Payments Protocol,' 'ACP,' 'Agentic Commerce Protocol,' 'UCP,' 'Universal Commerce Protocol,' 'A2A,' 'Visa TAP,' or 'is my site agent-ready.' For getting content cited or surfaced in AI-generated answers (ChatGPT, Perplexity, Google AI Overviews), see ai-seo — that's discovery and citation; this skill is transaction: can an agent actually find, evaluate, and complete a purchase."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
+  volatility: dated
 ---
 
 # Agent Commerce Readiness

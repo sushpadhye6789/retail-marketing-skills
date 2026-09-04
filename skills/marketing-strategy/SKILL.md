@@ -2,7 +2,7 @@
 name: marketing-strategy
 description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' 'brand tier,' 'are we a premium/luxury brand,' 'do we sell wholesale,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, strategic-priority, and B2B/wholesale-channel context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
 metadata:
-  version: 1.5.1
+  version: 1.6.0
 ---
 
 # Marketing Strategy
@@ -124,9 +124,7 @@ The JTBD Four Forces:
 - Glossary of product-specific terms
 
 ### 10. Brand Voice
-- Tone (professional, casual, playful, etc.)
-- Communication style (direct, conversational, technical)
-- Brand personality (3-5 adjectives)
+- Captured in `brand-guidelines` now, not here — that skill owns full brand identity (visual and verbal) so every asset-producing skill gets both from one document. If it doesn't exist yet, offer to run it after this document is saved. This section stays numbered 10 so Sections 11+ keep their existing references elsewhere in this repo.
 
 ### 11. Proof Points
 - Key metrics or results to cite
@@ -257,9 +255,7 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
 | | |
 
 ## Brand Voice
-**Tone:**
-**Style:**
-**Personality:**
+**Captured in `brand-guidelines` instead** — that skill owns full brand identity (visual and verbal) so every asset-producing skill reads one document for both. Run it after saving this one if it doesn't exist yet. (Section kept numbered 10, empty, so later section numbers don't shift.)
 
 ## Proof Points
 **Metrics:**

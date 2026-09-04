@@ -1,6 +1,6 @@
 # Marketing Strategy
 
-**Document version:** v1
+**Document version:** v2
 **Last updated:** 2026-09-04
 
 > **Worked example, not a real business.** This file exists so a new user of this repo sees the pattern filled in — every field carrying a real, specific answer instead of a blank template — rather than starting from nothing. **Cairnwood Trail Co** is fictional throughout. This copy lives at `examples/agents/marketing-strategy.md` precisely so it ships with the repo; skills read `.agents/marketing-strategy.md` (gitignored, install-local), so copy this file there — or better, run the `marketing-strategy` skill — to build your own before relying on any other skill's output.
@@ -85,9 +85,7 @@
 | Specialty retailer | An independent outdoor shop stocking Cairnwood — distinct from big-box or marketplace channels |
 
 ## Brand Voice
-**Tone:** Straight-talking, specific, earns trust through detail rather than superlatives.
-**Style:** Short, concrete claims tied to named trail conditions. No summit-conquest language.
-**Personality:** The experienced friend who hikes the same trail as you every weekend, not a mountaineering guide.
+**Captured in `brand-guidelines` instead** — see `examples/agents/brand-guidelines.md` for Cairnwood's full voice and visual identity. (Section kept numbered 10, empty, so later section numbers don't shift.)
 
 ## Proof Points
 **Metrics:** 4.7-average product rating across the core jacket and pack lines; under 4% return rate for durability-related reasons (vs. a stated industry norm the brand cites as materially higher for comparable big-box gear).
@@ -150,4 +148,5 @@
 
 ## Changelog
 *Newest first. One line per revision: what changed and why.*
+- v2 (2026-09-04) — Moved Section 10 (Brand Voice) content to `examples/agents/brand-guidelines.md`, matching brand-guidelines' consolidation to own full brand identity (visual + verbal) as one document.
 - v1 (2026-09-04) — Initial context. Built as a worked example for this repo (see the note under the title) using the Cairnwood Trail Co brand already established in `templates/cairnwood-trail-co.md`, so the two stay consistent rather than describing two different fictional brands.

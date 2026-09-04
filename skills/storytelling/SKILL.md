@@ -2,7 +2,7 @@
 name: storytelling
 description: "When the user wants to construct a brand, founder, product, or customer narrative — the underlying story arc, not the finished page copy. Also use when the user mentions 'storytelling,' 'brand story,' 'narrative,' 'founder story,' 'origin story,' 'story arc,' 'narrative framework,' 'tell a story,' or 'case study story.' This is the narrative-construction layer that feeds copywriting (page-level execution), video (script/production), social (carousel/post narrative), tentpole-campaign (brand campaign story), and public-relations (press narrative) — it doesn't write the finished page itself. For the finished page copy itself, see copywriting; for a video script's production, see video."
 metadata:
-  version: 1.0.2
+  version: 1.1.0
 ---
 
 # Storytelling
@@ -88,7 +88,7 @@ This skill builds the arc; these skills execute it:
 
 ## Tier and Brand Voice Alignment
 
-See `marketing-strategy/references/brand-tier-guide.md`'s Creative Aesthetic row, applied to pacing and tone rather than just visuals: budget/mid-market storytelling tends punchier and faster-paced (native to short-form video/UGC); premium/luxury storytelling tends slower and more cinematic, with more space given to the story rather than compressing it for speed. Check `marketing-strategy` Section 10 (Brand Voice) for tone specifics beyond pacing.
+See `marketing-strategy/references/brand-tier-guide.md`'s Creative Aesthetic row, applied to pacing and tone rather than just visuals: budget/mid-market storytelling tends punchier and faster-paced (native to short-form video/UGC); premium/luxury storytelling tends slower and more cinematic, with more space given to the story rather than compressing it for speed. Check `brand-guidelines`' Voice & Tone section for tone specifics beyond pacing.
 
 ---
 

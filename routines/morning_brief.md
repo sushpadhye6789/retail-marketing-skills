@@ -1,16 +1,18 @@
 # Daily Campaign Priority Check
 
-Read /ROADMAP.md and /specs/. Generate a 250-word daily priority action list highlighting:
+Read `examples/agents/ROADMAP.md` (or `.agents/ROADMAP.md` if you've built your own from it — see that file's own note on the worked-example vs. your-own-copy distinction) and any active items under `.agents/campaigns/` (see `compound-marketing`). Generate a 250-word daily priority action list highlighting:
 1. Top priority deliverable for today.
 2. Potential campaign bottleneck or pricing dependency.
-3. Recommended copy or asset optimization based on /REVIEW.md.
+3. Recommended copy or asset optimization based on `docs/REVIEW.md`.
 
-## Today's Priority (Auto-generated based on ROADMAP.md)
-- **Top Priority**: Review and advance items from active sprint in ROADMAP.md
-- **Current Focus**: 
-  - [ ] Develop Q4 Dealer Promotional Framework in `/specs/q4-promotions.md`
-  - [ ] Build a reusable trade customer persona sheet in `/customers/trade-persona.md`
-  - [ ] Set up automated copy QA hooks under `.claude/skills/copy-review`
+## Today's Priority (auto-generated from your ROADMAP.md)
+
+Replace this section's example items with your own active sprint — the two below are illustrative, from the worked-example `examples/agents/ROADMAP.md`:
+- **Top Priority**: Review and advance items from the active sprint in your `.agents/ROADMAP.md`
+- **Current Focus** (example, replace with your own):
+  - [ ] Develop next-cycle promotional framework in `.agents/campaigns/`
+  - [ ] Build a reusable trade customer persona sheet (see `customer-research`)
+  - [ ] Confirm any automated copy QA checks are still current
 
 ## Potential Bottlenecks to Watch
 - Pricing approval dependencies for promotional campaigns

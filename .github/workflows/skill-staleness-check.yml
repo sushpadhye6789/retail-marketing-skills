@@ -1,0 +1,75 @@
+name: Skill Freshness Check
+
+# Flags skills tagged volatility: dated whose last_verified date is past the
+# review window. This workflow only opens/updates a GitHub issue — it never
+# writes to a skill file. See AGENTS.md's "Skill Freshness" section: an
+# unreviewed auto-refresh write path into 86 skill files means one bad
+# research pass silently corrupts content every user depends on. Flag for a
+# human to review and refresh in a normal PR; never auto-commit the fix.
+
+on:
+  schedule:
+    - cron: "0 3 1 * *"  # 1st of every month, 3am UTC
+  workflow_dispatch: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-slim
+    permissions:
+      issues: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run staleness check
+        id: check
+        run: |
+          BODY=$(node .github/scripts/check-staleness.js)
+          echo "body<<STALENESS_EOF" >> "$GITHUB_OUTPUT"
+          echo "$BODY" >> "$GITHUB_OUTPUT"
+          echo "STALENESS_EOF" >> "$GITHUB_OUTPUT"
+          if [ "$BODY" = "NONE" ]; then
+            echo "has_stale=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_stale=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Find existing tracking issue
+        id: find
+        if: steps.check.outputs.has_stale == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          NUMBER=$(gh issue list --search "Skill freshness review in:title" --state open --json number,title \
+            --jq '.[] | select(.title == "Skill freshness review") | .number' | head -1)
+          echo "number=$NUMBER" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update the tracking issue
+        if: steps.check.outputs.has_stale == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BODY: ${{ steps.check.outputs.body }}
+        run: |
+          if [ -n "${{ steps.find.outputs.number }}" ]; then
+            gh issue edit "${{ steps.find.outputs.number }}" --body "$BODY"
+            echo "Updated issue #${{ steps.find.outputs.number }}"
+          else
+            gh issue create --title "Skill freshness review" --body "$BODY"
+          fi
+
+      - name: Close the tracking issue if everything is current
+        if: steps.check.outputs.has_stale == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          NUMBER=$(gh issue list --search "Skill freshness review in:title" --state open --json number,title \
+            --jq '.[] | select(.title == "Skill freshness review") | .number' | head -1)
+          if [ -n "$NUMBER" ]; then
+            gh issue comment "$NUMBER" --body "All \`volatility: dated\` skills are within the review window. Closing."
+            gh issue close "$NUMBER"
+          fi

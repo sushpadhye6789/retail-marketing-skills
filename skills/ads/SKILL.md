@@ -2,7 +2,8 @@
 name: ads
 description: "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' 'should I run ads,' 'ABM,' 'account-based marketing,' 'B2B ads,' 'lead quality,' 'negative keywords,' 'Performance Max,' 'thought leader ads,' or 'when should I kill an ad.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see cro."
 metadata:
-  version: 2.4.3
+  version: 2.4.4
+  volatility: dated
 ---
 
 # Paid Ads
@@ -61,7 +62,6 @@ This skill's depth lives in references — load by intent. For **any operational
 
 **Note for platform-specific implementations**: If your ecommerce platform references a specific platform in `.agents/marketing-strategy.md` under Tech Stack, prefer the platform-specific variants found in `references/platforms/[platform]/`. For example, if your tech stack indicates Shopify, use `references/platforms/shopify/meta-decision-system-ecommerce.md` for Shopify-focused Meta ads decisions.
 
----
 
 ## Platform Selection Guide
 
@@ -73,7 +73,6 @@ This skill's depth lives in references — load by intent. For **any operational
 | **Twitter/X** | Tech audiences, thought leadership | Audience is active on X, timely content |
 | **TikTok** | Younger demographics, viral creative | Audience skews 18-34, video capacity |
 
----
 
 ## Campaign Structure Best Practices
 
@@ -112,7 +111,6 @@ TT_Conv_Broad_NewArrivals_Mar24
 - Increase budgets ~20% at a time — never 30%+ in one move (resets platform learning)
 - Wait 3-5 days between increases for algorithm learning
 
----
 
 ## Ad Copy Frameworks
 

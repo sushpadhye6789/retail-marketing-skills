@@ -2,7 +2,7 @@
 name: retention-and-winback
 description: "When the user wants to improve customer retention, increase repeat purchase rates, optimize replenishment cadence, or implement win-back campaigns. Also use when the user mentions 'retention,' 'repeat purchase,' 'replenishment,' 'LTV,' 'win-back,' 'lapsed customer,' 'customer churn,' or 'basket size.' Use this for anything involving keeping customers coming back and re-engaging lapsed buyers in retail and commerce. For post-purchase experience, see post-purchase-experience. For loyalty programs, see loyalty."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
 ---
 
 # Retail Retention & Win-Back Strategies (v2.1.0)
@@ -28,6 +28,8 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 ---
 
 ## 2. Retail Retention Framework
+
+**For how this fits alongside Welcome, Onboarding, Abandoned Browse, and Abandoned Cart** — the journeys owned by other skills — see [references/lifecycle-journeys.md](references/lifecycle-journeys.md), the shared trigger/timing/channel map across the full customer lifecycle.
 
 ### Understanding Retail Customer Lifecycle
 

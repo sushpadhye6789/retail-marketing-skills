@@ -2,7 +2,7 @@
 name: cro
 description: "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, product pages, cart, checkout, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'cart abandonment,' 'checkout friction,' 'nobody's converting,' 'low conversion rate,' or 'this page needs work.' Use this even if the user just shares a URL and asks for feedback. For signup/registration flows, see signup. For post-signup activation, see post-purchase-experience. For popups/modals, see popups. For site-wide speed/accessibility, see website-ux. For product/category page content, see product-page. For site hierarchy, see site-architecture. For AI shopping-agent readiness, see agent-readiness."
 metadata:
-  version: 2.2.0
+  version: 2.3.0
 ---
 
 # Conversion Rate Optimization (CRO)
@@ -165,7 +165,7 @@ For key elements (headlines, CTAs), provide 2-3 alternatives with rationale.
 - **Multiple payment and delivery options visible early in the flow**, not discovered only after committing to a path — a customer who wanted to pay a specific way and finds out at the last step it's unavailable is a lost sale that a clear upfront listing would have kept.
 - **Progress indication on a multi-step checkout** reduces the uncertainty ("how much more of this is there") that drives mid-flow abandonment.
 - **Trust signals at the payment step specifically** (security badges, clear return/refund policy link) address the exact moment financial-risk objections peak.
-- For the abandoned-cart *recovery* sequence once someone has already left, see `emails`/`sms` — this section is about preventing the abandonment in the first place.
+- For the abandoned-cart *recovery* sequence once someone has already left, see `emails`/`sms` — this section is about preventing the abandonment in the first place. See `retention-and-winback/references/lifecycle-journeys.md` for how Abandoned Cart and Abandoned Browse fit alongside the rest of the customer lifecycle.
 
 ### Pricing Page CRO
 - Clear plan comparison

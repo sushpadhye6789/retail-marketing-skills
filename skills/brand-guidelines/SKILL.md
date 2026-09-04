@@ -1,17 +1,17 @@
 ---
 name: brand-guidelines
-description: "When the user wants to create, update, or apply visual brand identity guidelines — logo usage, color palette, typography, imagery style — so every asset (ads, social, email, packaging, site) stays consistent without a designer reviewing each one. Also use when the user mentions 'brand guidelines,' 'brand identity,' 'brand book,' 'style guide,' 'brand colors,' 'typography,' 'logo usage,' 'visual identity,' or 'brand kit.' Covers visual identity specifically — for verbal brand voice (tone, personality, words to use/avoid), see marketing-strategy Section 10, which this skill reads rather than duplicating. This document is meant to be read by every asset-producing skill (copywriting, copy-editing, emails, sms, social, video, image, ad-creative, popups, content-strategy, influencer-marketing, product-feed, cro, launch) before they generate visual or written output — that's the mechanism that keeps messaging and design consistent across channels."
+description: "When the user wants to create, update, or apply full brand identity guidelines — visual (logo, color, typography, imagery) and verbal (tone, personality, words to use/avoid) — so every asset (ads, social, email, packaging, site) stays consistent without a designer or editor reviewing each one. Also use when the user mentions 'brand guidelines,' 'brand identity,' 'brand book,' 'style guide,' 'brand colors,' 'typography,' 'logo usage,' 'visual identity,' 'brand kit,' 'brand voice,' or 'tone of voice.' Owns both halves of brand identity in one document, read by every asset-producing skill before they generate visual or written output. For the strategic inputs identity should reflect (audience, positioning, tier), see marketing-strategy."
 metadata:
-  version: 1.0.2
+  version: 2.0.0
 ---
 
 # Brand Guidelines
 
-You help users create and maintain a visual brand identity document — logo usage, color palette, typography, and imagery style — that other skills read before generating ads, images, social content, or any other visual output, so everything stays consistent without a human reviewing every asset.
+You help users create and maintain a complete brand identity document — visual (logo usage, color palette, typography, imagery style) and verbal (tone, personality, words to use/avoid) — that other skills read before generating ads, copy, images, social content, or any other output, so everything stays consistent without a human reviewing every asset.
 
 The document is stored at `.agents/brand-guidelines.md`.
 
-**Scope note:** this skill covers visual identity. Verbal brand voice (tone, communication style, personality) already lives in `marketing-strategy` Section 10 — read that rather than re-capturing it here. If it doesn't exist yet, point the user to `marketing-strategy` first, or capture a minimal tone note here and flag that the full version belongs there.
+**Scope note:** this skill owns both halves of brand identity — how the brand looks and how it sounds — as one document, since they're typically decided together and read together by the same downstream skills. `marketing-strategy` owns the *strategic inputs* brand identity should reflect (target audience, competitive positioning, brand tier) but doesn't itself decide look or voice — Section 10 there points here rather than duplicating.
 
 ## Before Starting
 
@@ -58,9 +58,13 @@ Then check if `.agents/brand-guidelines.md` already exists.
 - Illustration style, if used, and when illustration vs. photography is appropriate
 - What to avoid: generic stock-photo tells, competitor visual conventions to stay distinct from
 
-### 5. Tone by Channel (light cross-reference, not a re-capture)
-- Pull the core voice from `marketing-strategy` Section 10
-- Note any deliberate flex by channel (e.g., slightly more playful on social, more restrained in paid ads) while staying recognizably the same brand — this is a delta from the core voice, not a replacement for it
+### 5. Voice & Tone
+- **Tone**: professional, casual, playful, etc. — how the brand generally sounds
+- **Communication style**: direct, conversational, technical
+- **Personality**: 3-5 adjectives that describe the brand if it were a person
+- **Words to use / avoid**: the specific vocabulary that reinforces (or undercuts) the tone — pull from actual customer language where available (see `marketing-strategy` Section 9, Customer Language) rather than inventing phrases nobody actually says
+- **Channel flex**: deliberate variation by channel (e.g., slightly more playful on social, more restrained in paid ads) while staying recognizably the same brand — a delta from the core voice, not a replacement for it
+- Check the tier-alignment question here too: does the voice read as the claimed brand tier (see Section 2, Color Palette)? A "premium" brand using exclamation-heavy, discount-store urgency language is the verbal version of the same mismatch
 
 ### 6. Do's and Don'ts
 A short, concrete misuse list drawn from real mistakes seen (or anticipated) — "don't place the logo on a busy photo background without a solid-color safe area," "don't use the accent color as a dominant color," "don't crop the logo icon." Concrete examples beat abstract rules for this section specifically, since the goal is catching mistakes before they ship, not philosophy.
@@ -106,8 +110,12 @@ A short, concrete misuse list drawn from real mistakes seen (or anticipated) —
 **Avoid:**
 -
 
-## Tone by Channel
-**Core voice:** (from marketing-strategy Section 10)
+## Voice & Tone
+**Tone:**
+**Communication style:**
+**Personality:**
+**Words to use:**
+**Words to avoid:**
 **Channel flex:**
 -
 
@@ -128,8 +136,8 @@ Save to `.agents/brand-guidelines.md`. Same versioning discipline as `marketing-
 This document doesn't do creative work itself — it's read by the skills that do:
 
 - **ad-creative** / **image**: check color palette, typography, and imagery style before generating visual ad assets
-- **social**: check tone-by-channel and imagery style for post content
-- **copywriting** / **emails** / **popups**: check tone-by-channel for on-brand written output
+- **social**: check Voice & Tone and imagery style for post content
+- **copywriting** / **emails** / **popups**: check Voice & Tone for on-brand written output
 - **ads**: cross-reference the imagery-style and tier-alignment notes against the creative-aesthetic guidance in its Meta creative sections
 
 If a skill's default output would visibly conflict with something captured here (e.g., a generated ad using a color outside the palette), that's worth flagging to the user rather than silently picking a "close enough" alternative.
@@ -157,9 +165,9 @@ If a skill's default output would visibly conflict with something captured here 
 
 ## Related Skills
 
-- **marketing-strategy**: For verbal brand voice (Section 10) and brand tier (Section 14) — both read by this skill rather than duplicated
+- **marketing-strategy**: For the strategic inputs this skill's identity should reflect — target audience, competitive positioning (Section 6), brand tier (Section 14) — read by this skill rather than duplicated
 - **ad-creative** / **image**: For generating on-brand visual ad assets using this document
 - **social**: For on-brand social content
-- **copywriting** / **emails** / **popups**: For on-brand written output using the tone-by-channel section
+- **copywriting** / **emails** / **popups**: For on-brand written output using the Voice & Tone section
 - **ads**: For creative-aesthetic alignment with campaign strategy
 - **supplier-funded-marketing**: This document is the compliance reference handed to dealers when providing co-op funds; a supplier's equivalent document is the reference when receiving funds from them

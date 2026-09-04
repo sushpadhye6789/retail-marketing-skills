@@ -2,7 +2,7 @@
 name: visual-merchandising
 description: "When the user wants to plan how products are physically displayed and arranged in a retail environment — window displays, store layout, product placement, planograms, or fixture design. Also use when the user mentions 'visual merchandising,' 'VM,' 'window display,' 'store layout,' 'planogram,' 'store zoning,' 'product placement,' 'end cap,' 'fixture design,' 'shelf layout,' or 'store reset.' This is the spatial/placement discipline — distinct from pos-marketing, which covers the printed or digital signage and collateral placed within that layout, not the layout itself. For securing the shelf space or placement being merchandised, see trade-marketing."
 metadata:
-  version: 1.0.2
+  version: 1.1.0
 ---
 
 # Visual Merchandising
@@ -66,7 +66,7 @@ Gather this context (ask if not provided):
 
 - **Set a deliberate reset cadence** (seasonal, or tied to major category/tentpole moments) rather than resetting reactively or never — a layout that never changes trains regular shoppers to stop noticing it; a layout that changes chaotically undermines the wayfinding logic shoppers rely on.
 - **For a multi-location or dealer-executed footprint**, provide a clear planogram/reset kit (diagrams, fixture specs, a checklist) rather than a verbal description — see `pos-marketing`'s dealer-compliance discipline and `brand-management`'s governance role for enforcing consistency across locations that don't execute in-house.
-- **Audit against the plan, not just against intent** — a planogram that looks right on paper needs a periodic in-store (or photo-based, for a distributed footprint) check against what's actually on the shelf.
+- **Audit against the plan, not just against intent** — a planogram that looks right on paper needs a periodic in-store (or photo-based, for a distributed footprint) check against what's actually on the shelf. See [references/planogram-compliance-guide.md](references/planogram-compliance-guide.md) for the concrete audit method (a four-photo, four-dimension score any location can run from a smartphone), shared with `pos-marketing`.
 
 ---
 

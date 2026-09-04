@@ -2,7 +2,7 @@
 name: pos-marketing
 description: "When the user wants to plan point-of-sale or point-of-purchase marketing materials — in-store signage, shelf talkers, displays, or other physical/in-store marketing at the moment of purchase. Also use when the user mentions 'POS,' 'point of sale,' 'point of purchase,' 'POP display,' 'shelf talker,' 'end cap,' 'in-store signage,' 'in-store display,' or 'store display.' Scope note: this covers point-of-sale marketing materials and execution, not point-of-sale transaction systems/software — if the request is actually about POS system data or checkout software, that's outside this repo's marketing scope. For the digital retail-platform counterpart, see retail-media."
 metadata:
-  version: 1.0.4
+  version: 1.1.0
 ---
 
 # Point-of-Sale (POS) Marketing
@@ -74,7 +74,7 @@ See `marketing-strategy/references/brand-tier-guide.md` for the general pattern 
 ## Distribution Model Considerations
 
 - **Own stores**: full creative and placement control — execute directly, coordinate with `brand-guidelines` for consistency.
-- **Dealers**: needs centrally-produced material kits distributed to dealer locations, with a real compliance-monitoring step — materials produced but never actually placed are a common, easy-to-miss failure (see Common Mistakes). If POS materials are co-op-funded, see `supplier-funded-marketing`'s providing-side guidance for program design and compliance enforcement — this is one of the most common categories MDF funds actual dealer-executed marketing.
+- **Dealers**: needs centrally-produced material kits distributed to dealer locations, with a real compliance-monitoring step — materials produced but never actually placed are a common, easy-to-miss failure (see Common Mistakes). See `visual-merchandising/references/planogram-compliance-guide.md` for the concrete audit method — a four-photo, four-dimension score any location can run from a smartphone, shared between this skill and `visual-merchandising`. If POS materials are co-op-funded, see `supplier-funded-marketing`'s providing-side guidance for program design and compliance enforcement — this is one of the most common categories MDF funds actual dealer-executed marketing.
 
 ---
 

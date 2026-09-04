@@ -1,8 +1,8 @@
 ---
 name: ab-testing
-description: When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions "A/B test," "split test," "experiment," "test this change," "variant copy," "multivariate test," "hypothesis," "should I test this," "which version is better," "test two versions," "statistical significance," "how long should I run this test," "growth experiments," "experiment velocity," "experiment backlog," "ICE score," "experimentation program," or "experiment playbook." Use this whenever someone is comparing two approaches and wants to measure which performs better, or when they want to build a systematic experimentation practice. For tracking implementation, see analytics. For page-level conversion optimization, see cro.
+description: When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions "A/B test," "split test," "experiment," "test this change," "variant copy," "multivariate test," "hypothesis," "should I test this," "which version is better," "test two versions," "statistical significance," "how long should I run this test," "growth experiments," "experiment velocity," "experiment backlog," "ICE score," "experimentation program," "experiment playbook," "p-value," "confidence interval," "Mann-Whitney," or "is this result significant." Use this whenever someone is comparing two approaches and wants to measure which performs better, or when they want to build a systematic experimentation practice. For tracking implementation, see analytics. For page-level conversion optimization, see cro.
 metadata:
-  version: 2.0.2
+  version: 2.1.0
 ---
 
 # A/B Test Setup
@@ -196,6 +196,13 @@ Looking at results before reaching sample size and stopping early leads to false
 - 95% confidence = p-value < 0.05
 - Means <5% chance result is random
 - Not a guarantee—just a threshold
+
+**Run the actual test, don't eyeball it.** [scripts/significance.js](scripts/significance.js) is a zero-dependency Node script (same convention as `tools/clis/`) that computes real statistics instead of an approximate "does this look different":
+
+- **A binary/rate metric** (conversion rate, click rate, add-to-cart rate) — `node scripts/significance.js proportions --control-conversions N --control-visitors N --variant-conversions N --variant-visitors N` runs a two-proportion z-test: p-value, z-score, and a 95% CI on the lift.
+- **A continuous metric** (AOV, session duration, items per order) — `node scripts/significance.js means --control 1,2,3 --variant 4,5,6` (or `--control-file`/`--variant-file` with one value per line) runs **both** a bootstrap confidence interval and a Mann-Whitney U test, and reports both.
+
+**Why both, for continuous metrics specifically:** retail metrics like AOV are frequently right-skewed — a handful of large orders pull the mean up, which is exactly where a t-test's normality assumption breaks down. The script reports `methods_agree` explicitly. When they agree, trust the read. When they don't, trust the Mann-Whitney (rank-based, no normality assumption) over the bootstrap mean CI, and report the mean difference as context rather than the headline number — a skewed-distribution disagreement is itself diagnostic information, not noise to average away.
 
 ### Analysis Checklist
 

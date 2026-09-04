@@ -4,7 +4,7 @@ Current versions of all skills. Agents can compare against local versions to che
 
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
-| ab-testing | 2.0.2 | 2026-08-18 |
+| ab-testing | 2.1.0 | 2026-09-04 |
 | ad-creative | 2.8.3 | 2026-08-20 |
 | ads | 2.4.3 | 2026-08-20 |
 | agent-readiness | 1.0.0 | 2026-09-04 |

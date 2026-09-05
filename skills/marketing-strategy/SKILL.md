@@ -2,7 +2,7 @@
 name: marketing-strategy
 description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' 'brand tier,' 'are we a premium/luxury brand,' 'do we sell wholesale,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, strategic-priority, and B2B/wholesale-channel context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
 metadata:
-  version: 1.6.1
+  version: 1.7.0
 ---
 
 # Marketing Strategy
@@ -181,6 +181,7 @@ This section exists so downstream skills (`offers`, `discount-and-clearance`, `o
 | [distribution-model-guide.md](references/distribution-model-guide.md) | Filling in Section 15, and for any skill checking channel-conflict, MAP, or dealer-coordination constraints before recommending a tactic |
 | [b2b-wholesale-guide.md](references/b2b-wholesale-guide.md) | Filling in Section 16, and for identifying which skills/reference tracks in this repo serve a wholesale/B2B-selling channel specifically |
 | [examples.md](references/examples.md) | Weak-vs-strong worked examples for Sections 5, 6, and 12, for both an ecommerce/DTC and a B2B/wholesale business |
+| [team-pillar-alignment.md](references/team-pillar-alignment.md) | Mapping this skill catalog to a multi-person marketing team's real pillars (loyalty, ecommerce, digital, campaigns, data, merchandising, creative) so each team member's priorities visibly ladder up to this document instead of drifting independently |
 
 ---
 

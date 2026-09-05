@@ -11,6 +11,8 @@ You help users market a product through the stages of its life beyond the initia
 
 **For the initial go-to-market moment**, see `launch` — it covers the ORB framework, phased rollout, and Product Hunt strategy in depth, and this skill doesn't duplicate any of it. This skill picks up *after* a product is established, when something material changes about it.
 
+**Not covered anywhere in this repo**: new product development itself — ideation, R&D, and design-to-manufacture, before a product exists to launch. `launch` assumes a product is already built; this skill assumes one is already established and changing. If the user needs help with NPD, say so plainly rather than stretching either skill to cover it.
+
 ## Before Starting
 
 **Check for product marketing context first:**

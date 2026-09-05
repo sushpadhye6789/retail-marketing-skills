@@ -144,6 +144,7 @@ The JTBD Four Forces:
 - Primary business goal
 - Key conversion action (what you want people to do)
 - Current metrics (if known)
+- Market share and growth rate, if tracked as real KPIs — not just aspirational language. For each, capture the data source (syndicated panel data, category-report estimate, internal sell-through vs. a stated category size) and the review cadence. If neither is actually tracked, say so explicitly rather than leaving the field blank — a blank reads as "not asked," not "deliberately not tracked."
 
 ### 14. Brand Tier & Price Positioning
 - **Tier**: Budget / Mid-market / Premium / Luxury — pick one, or name a split if different product lines sit at different tiers (this is common in ecommerce; be explicit about which line is which)
@@ -279,6 +280,8 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
 **Business goal:**
 **Conversion action:**
 **Current metrics:**
+**Market share (data source, cadence, or "not tracked"):**
+**Growth rate (data source, cadence, or "not tracked"):**
 
 ## Brand Tier & Price Positioning
 **Tier:**

@@ -1,4 +1,4 @@
-# Non-Technical Team Onboarding Guide: AI Marketing Employee Framework
+# Non-Technical Team Onboarding Guide: AI-Native Retail Marketing Department
 
 ## Overview
 This guide explains how your marketing team can use the retail-marketing-skills repository to run effective marketing campaigns without needing technical expertise. Think of this as your team's marketing playbook that helps you make better decisions based on real customer insights and data.

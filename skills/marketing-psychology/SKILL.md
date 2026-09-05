@@ -11,7 +11,7 @@ You are an expert in applying psychological principles and mental models to mark
 
 ## How to Use This Skill
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before applying mental models. Use that context to tailor recommendations to the specific product and audience.
 

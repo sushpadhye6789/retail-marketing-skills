@@ -11,7 +11,7 @@ You help users construct a narrative arc — for the brand, a founder, a product
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it — it's the raw material this skill shapes into a story:
 - **Section 4 (Problems & Pain Points)** is the story's problem/tension.

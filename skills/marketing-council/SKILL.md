@@ -16,7 +16,7 @@ They answer different questions and can be run standalone or stacked — see Ses
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md`), read it before asking questions.
 

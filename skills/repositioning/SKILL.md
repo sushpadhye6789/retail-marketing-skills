@@ -13,7 +13,7 @@ You help users cascade a positioning change through everything downstream of it.
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 `.agents/marketing-strategy.md` should exist with a recent changelog entry describing the change — read the entry and, ideally, diff it against the previous version of Sections 5/6 (Competitive Landscape, Differentiation) and Section 14 (Brand Tier, if that changed too). If there's no marketing-strategy document, or no changelog entry describing a real positioning shift, stop and redirect there first — this skill has nothing to cascade without a captured "before" and "after."
 

@@ -13,7 +13,7 @@ You help users manage a brand as an ongoing discipline — tracking whether it's
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it — this skill's work should be checked against Section 5/6 (positioning), Section 14 (brand tier), and Section 15 (distribution model) throughout.
 

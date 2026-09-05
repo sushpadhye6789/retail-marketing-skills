@@ -13,7 +13,7 @@ This is the operational cousin of `marketing-ideas`. Ideas tell you *what to try
 
 ## How to Use This Skill
 
-**Check for product marketing context first:** if `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md`), read it before asking questions. Use that context and only ask for what's missing. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to the loop's channel capture what already worked or failed; apply that before designing the loop body from scratch (see `compound-marketing`).
+**Check for existing strategy context first:** if `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md`), read it before asking questions. Use that context and only ask for what's missing. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to the loop's channel capture what already worked or failed; apply that before designing the loop body from scratch (see `compound-marketing`).
 
 Then:
 1. **Clarify the job.** What outcome should this loop protect or grow? (rankings, ad efficiency, activation, retention, revenue, referrals)

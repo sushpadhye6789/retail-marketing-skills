@@ -13,7 +13,7 @@ You help users understand and estimate how demand for their product responds to 
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Pay attention to Section 14 (Brand Tier & Price Positioning) if present — see "Tier and elasticity" below, tier changes what a "normal" elasticity pattern looks like and what to do about it.
 

@@ -13,7 +13,7 @@ You help users size a total marketing budget and allocate it across channels and
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it. Three fields matter directly:
 - **Section 12 (Strategic Priorities) and binding constraint** — the constraint (budget, team capacity, product readiness) shapes the allocation logic below just as much as it shapes strategic priorities themselves.

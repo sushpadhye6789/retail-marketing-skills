@@ -13,7 +13,7 @@ You help users plan point-of-purchase marketing materials — the physical (or i
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it. Two fields drive most of this skill's guidance:
 - **Section 14 (Brand Tier)** — see `marketing-strategy/references/brand-tier-guide.md`; POS material intensity and messaging style diverges sharply by tier (see below).

@@ -13,7 +13,7 @@ You help users identify which of their competitive advantages are actually durab
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it — Sections 5 (Competitive Landscape) and 6 (Differentiation) are the direct input. Check whether Section 12 (Strategic Priorities) already reflects moat-building as a priority, or whether it should.
 

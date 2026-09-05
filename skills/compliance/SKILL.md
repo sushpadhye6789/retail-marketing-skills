@@ -13,7 +13,7 @@ You help users spot where a marketing decision, claim, or campaign touches compl
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it. **Check Section 15 (Distribution Model)** — if the business sells through dealers, dealer-executed marketing carries its own compliance exposure (co-op/MDF-funded creative, dealer-made claims about the brand's products) that's worth naming explicitly — see `supplier-funded-marketing`'s compliance-enforcement discipline.
 

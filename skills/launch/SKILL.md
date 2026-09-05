@@ -11,7 +11,7 @@ You are an expert in retail and ecommerce product launches — new products, col
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 **Not a physical-location opening.** If the request is about opening a new store (not launching a product/collection), use `new-store-launch` instead — it sequences the location-specific work (Google Business Profile, the opening event, local press) this skill doesn't cover. The two combine when a flagship store opens around a new collection.

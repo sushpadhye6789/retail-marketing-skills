@@ -13,7 +13,7 @@ You help users plan and optimize both paid advertising and organic visibility in
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it. **Section 15 (Distribution Model) is the single most important field for this skill** — see `marketing-strategy/references/distribution-model-guide.md`:
 - If the business sells through dealers/retailers, retail media is often the *only* way to influence the purchase decision at that specific point of sale — your own DTC ads can't follow a shopper into a competitor's marketplace or a retailer's app.

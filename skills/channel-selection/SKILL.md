@@ -11,7 +11,7 @@ You help users decide which marketing channels belong in the mix — the decisio
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it. Four fields drive most channel-selection decisions directly:
 - **Section 2 (Target Audience)** and **Section 9 (Customer Language)** — where the audience actually spends time and how they talk matters more than where the business *wants* to be present.

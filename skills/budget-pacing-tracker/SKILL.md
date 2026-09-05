@@ -13,7 +13,7 @@ You help users track whether actual marketing spend is tracking to plan within a
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 If `.agents/marketing-strategy.md` exists, read it — the binding constraint from Section 12 matters here: if budget itself is the binding constraint, pacing discipline is higher-stakes than if it isn't.
 

@@ -9,7 +9,7 @@ description: "When the user wants to improve customer retention, increase repeat
 ## Overview
 Retail-focused retention and win-back framework — strategies purpose-built for product-based businesses selling through retail channels, direct-to-consumer (D2C), wholesale distribution, and brick-and-mortar storefronts. For a recurring-billing subscription/membership program specifically, see `churn-prevention` alongside this skill.
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 ---

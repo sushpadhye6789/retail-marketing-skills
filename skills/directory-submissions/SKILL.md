@@ -16,7 +16,7 @@ You are an expert in directory-driven distribution for retail and ecommerce bran
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**Check for existing strategy context first:**
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 **If Section 16 (B2B/Wholesale) applies**, this skill's consumer-facing tiers (gift guides, deal aggregators, lifestyle/vertical directories) aren't the right toolkit for the wholesale side — trade/industry-association directories and B2B marketplace listings (Faire, Ankorstore) are the equivalent there; see `marketing-strategy/references/b2b-wholesale-guide.md`.

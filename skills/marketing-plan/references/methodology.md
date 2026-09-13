@@ -19,7 +19,7 @@ Canonical file layout for every plan:
 │   ├── 01.md          # Executive summary (written last, ordered first)
 │   ├── 02.md          # Strategic frame
 │   ├── ...
-│   └── 13.md          # Measurement, RACI, open decisions, appendix
+│   └── 12.md          # Measurement, RACI, open decisions, appendix
 └── final_plan.md      # Compiled deliverable (Phase 3 output)
 ```
 
@@ -38,16 +38,15 @@ last_updated: YYYY-MM-DD HH:MM
 ## Sections completed
 - [ ] 2. Strategic frame
 - [ ] 3. Current state
-- [ ] 4. Acquisition
-- [ ] 5. Activation
-- [ ] 6. Retention
-- [ ] 7. Referral
-- [ ] 8. Revenue
-- [ ] 9. 90-day roadmap
-- [ ] 10. 12-month outlook
-- [ ] 11. Marketing operations stack
-- [ ] 12. Tactical idea bank
-- [ ] 13. Measurement, RACI, open decisions, appendix
+- [ ] 4. Awareness
+- [ ] 5. Consideration
+- [ ] 6. Conversion
+- [ ] 7. Loyalty
+- [ ] 8. 90-day roadmap
+- [ ] 9. 12-month outlook
+- [ ] 10. Marketing operations stack
+- [ ] 11. Tactical idea bank
+- [ ] 12. Measurement, RACI, open decisions, appendix
 - [ ] 1. Executive summary (synthesized last)
 
 ## Approved artifacts
@@ -137,21 +136,20 @@ For every gap in the materials, ask the user. The minimum intake covers ten topi
 - Advisors who touch marketing?
 - Agencies / contractors / fractionals?
 - Where are the obvious gaps?
-- For the team's current marketing owner (if there is one): is the shape π-shaped (two deep skill sets), T-shaped (one deep, broad), or tactical-only? See `team-and-agency-model.md` for the framework that informs Section 11 RACI and the first-hire recommendation in Section 9.
+- For the team's current marketing owner (if there is one): is the shape π-shaped (two deep skill sets), T-shaped (one deep, broad), or tactical-only? See `team-and-agency-model.md` for the framework that informs Section 10 RACI and the first-hire recommendation in Section 8.
 
 #### Intake 6 — Budget
 - Current monthly marketing spend, broken down: paid acquisition, tools, retainers, headcount?
 - Budget tier this maps to (see `funding-stage-unlocks.md`)?
 - What budget unlocks when the next round/loan closes?
-- Blended CAC if known (including salaries, content costs, tools, retainers — not just paid ad spend). If unknown, flag as the top Section 13 open decision — every revenue projection depends on it.
-- AOV, gross margin, purchase frequency, and repeat-purchase rate, so the order-based budget math in `budget-planning.md` can be applied to Section 8 (Revenue) and Section 10 (12-month outlook). If the client is genuinely recurring-revenue, pull ARPC and annual retention rate instead (see `budget-planning.md`'s Recurring-Revenue Variant).
+- Blended CAC if known (including salaries, content costs, tools, retainers — not just paid ad spend). If unknown, flag as the top Section 12 open decision — every revenue projection depends on it.
+- AOV, gross margin, purchase frequency, and repeat-purchase rate, so the order-based budget math in `budget-planning.md` can be applied to Section 6 (Conversion), Section 7 (Loyalty), and Section 9 (12-month outlook). If the client is genuinely recurring-revenue, pull ARPC and annual retention rate instead (see `budget-planning.md`'s Recurring-Revenue Variant).
 
 #### Intake 7 — Channels currently active
-- Acquisition: organic SEO, paid search, paid social, content, social, partnerships, events, PR, ambassadors, etc. — for each, status (live / paused / never tried)
-- Activation: onboarding state, signup flow, paywall, first-session experience, app store listing
-- Retention: lifecycle email state, in-app upsells, churn cohort
-- Referral: program existence, attribution, inbound interest
-- Revenue: pricing structure, plan mix, recent experiments
+- Awareness: organic SEO, paid search, paid social, content, social, partnerships, events, PR, ambassadors, etc. — for each, status (live / paused / never tried)
+- Consideration: product-page depth, reviews, comparison content, app store / marketplace listing quality
+- Conversion: checkout/signup flow, paywall, cart-abandonment rate, first-order economics
+- Loyalty: lifecycle email state, in-app upsells, churn cohort, referral/ambassador program existence and attribution, repeat-purchase economics
 
 #### Intake 8 — Already done
 What past work should this plan acknowledge?
@@ -225,7 +223,7 @@ Compile everything into `research.md` with this structure:
 - Tier mapping
 
 ## Channels currently active
-[By AARRR stage]
+[By funnel stage]
 
 ## Already done (acknowledge in plan)
 [List]
@@ -258,16 +256,16 @@ Save. Move to Phase 2.
 
 Use the schema defined in Step 1.1.1 above. Set `phase: review`, `current_section: 2`, `plan_version: v1`, and stamp `last_updated`.
 
-### Step 2.2 — Walk each section in this order: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, then 1
+### Step 2.2 — Walk each section in this order: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, then 1
 
-Section 1 (Executive Summary) is drafted **last** because it depends on every other section's conclusions. Walk Sections 2 → 13 in numeric order, then synthesize Section 1 from the others. The final compiled `final_plan.md` is always presented in canonical order 1 → 13.
+Section 1 (Executive Summary) is drafted **last** because it depends on every other section's conclusions. Walk Sections 2 → 12 in numeric order, then synthesize Section 1 from the others. The final compiled `final_plan.md` is always presented in canonical order 1 → 12.
 
 For each section, use the template at `references/plan-template.md` to draft. Then in chat:
 
 1. Present the draft (or key bullets — short sections inline, long sections as bullet outline first)
 2. Ask: *"Approve, adjust, or expand?"*
 3. Iterate until user confirms
-4. Save the confirmed text to `sections/01.md` ... `sections/13.md` (one file per section, zero-padded for sort order). This is the canonical persisted artifact — recovery depends on it.
+4. Save the confirmed text to `sections/01.md` ... `sections/12.md` (one file per section, zero-padded for sort order). This is the canonical persisted artifact — recovery depends on it.
 5. Check the box in `progress.md`
 6. Move to next section
 
@@ -277,13 +275,13 @@ For each section, use the template at `references/plan-template.md` to draft. Th
 
 **Section 3 (Current state)** uses the embedded 17-section rubric in `references/current-state-rubric.md`. If a prior scored audit exists, paste those scores in. If not, score from available materials.
 
-**Sections 4–8 (AARRR)** each follow the same internal structure: current state, the plan (numbered moves), 90-day moves, 12-month outlook, skills + tools. Don't skip the skills + tools sub-section — it's what makes the plan operationally honest.
+**Sections 4–7 (Awareness / Consideration / Conversion / Loyalty)** each follow the same internal structure: current state, the plan (numbered moves), 90-day moves, 12-month outlook, skills + tools. Section 7 (Loyalty) additionally has the Referral & Advocacy and repeat-purchase-economics subsections. Don't skip the skills + tools sub-section — it's what makes the plan operationally honest.
 
-**Section 11 (Marketing operations stack)** is auto-generatable from `references/ops-stack-mapping.md` plus the specific moves named in Sections 4–8.
+**Section 10 (Marketing operations stack)** is auto-generatable from `references/ops-stack-mapping.md` plus the specific moves named in Sections 4–7.
 
-**Section 12 (Idea bank)** is auto-generatable from `references/idea-cross-reference.md` plus client-specific filters (skip ideas that conflict with brand voice; status moves based on funding-stage timing).
+**Section 11 (Idea bank)** is auto-generatable from `references/idea-cross-reference.md` plus client-specific filters (skip ideas that conflict with brand voice; status moves based on funding-stage timing).
 
-**Section 13** lives at the end. Open decisions should be ranked by impact. Appendix should reference only files the team can access (warn about machine-local paths).
+**Section 12** lives at the end. Open decisions should be ranked by impact. Appendix should reference only files the team can access (warn about machine-local paths).
 
 ### Step 2.4 — Brand voice consistency
 
@@ -303,7 +301,7 @@ If a section's draft violates the brand voice, redo it before showing it to the 
 
 ### Step 3.1 — Compile
 
-Set `phase: finalize` in `progress.md` before starting. Concatenate `sections/01.md` through `sections/13.md` into `final_plan.md` (canonical order 1 → 13, regardless of drafting order). Add:
+Set `phase: finalize` in `progress.md` before starting. Concatenate `sections/01.md` through `sections/12.md` into `final_plan.md` (canonical order 1 → 12, regardless of drafting order). Add:
 - Title header with date and "v1" version marker
 - "Prepared by / For / Date / Status" frontmatter
 - Section anchors that work in Notion paste
@@ -313,10 +311,10 @@ Set `phase: finalize` in `progress.md` before starting. Concatenate `sections/01
 Before printing:
 
 - **Cross-reference check** — every marketing-ideas number (e.g., "idea #17") matches the actual idea in `references/idea-cross-reference.md`. Every related-skill mention either exists in the `marketingskills` repo or is documented as an external dependency (see ops-stack-mapping note on cross-marketplace skills).
-- **MCP/API check** — every tool mentioned in Section 11 actually exists in the user's stack (per research.md intake) OR is flagged as "future / not yet wired."
+- **MCP/API check** — every tool mentioned in Section 10 actually exists in the user's stack (per research.md intake) OR is flagged as "future / not yet wired."
 - **Path check** — no machine-specific paths (`/Users/...`, `/home/...`) in the output. Replace with descriptive references.
 - **Voice check** — final read against brand voice rules. Flag and fix violations.
-- **Open-decisions check** — every "TBD" or unanswered question from intake is listed in Section 13's open decisions, not hidden in the body.
+- **Open-decisions check** — every "TBD" or unanswered question from intake is listed in Section 12's open decisions, not hidden in the body.
 - **Acknowledge check** — every item from "already done" in research.md is acknowledged somewhere in the plan.
 
 ### Step 3.3 — Print
@@ -358,6 +356,6 @@ If the user says *"redo Section X"* → uncheck that box in `progress.md`, delet
 - **Skipping intake.** A plan written without proper intake is generic and won't survive contact with the founder. Always do the full ten-topic intake unless the user explicitly waives it.
 - **Pretending data exists.** If you can't confirm a number (AOV, purchase frequency, repeat-purchase rate, etc.), don't guess. Mark it `[TBD — to confirm with team]` in the plan and add to open decisions.
 - **Ignoring the brand voice.** If the client has a strong voice (most do), every section must respect it. Read the voice rules before drafting any copy-adjacent text.
-- **Padding the idea bank.** Section 12 is comprehensive only if it includes the skip list with reasons. Don't pad with ideas that clearly don't fit just to hit the 139.
+- **Padding the idea bank.** Section 11 is comprehensive only if it includes the skip list with reasons. Don't pad with ideas that clearly don't fit just to hit the 139.
 - **Glossing over uncomfortable metrics.** If repeat-purchase rate is weak or first-purchase conversion is low, name it in Current State. Founders read past sugar-coating.
 - **Forgetting capital-stage logic.** If the client is mid-raise or mid-loan-application, the plan must explain what changes when the capital closes. Skipping this turns a plan into a wish-list.

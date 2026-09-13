@@ -2,7 +2,7 @@
 
 The problem with most marketing budgets is that they're pulled out of thin air — a number that hopefully doesn't constrain growth too much, but doesn't anchor in customer-acquisition economics either. The result: when someone asks "why this number?" there's no answer.
 
-Two scientific methods solve this. Use one (not both) in Section 8 (Revenue) and Section 10 (12-month outlook) of every plan.
+Two scientific methods solve this. Use one (not both) in Sections 6–7 (Conversion and Loyalty) and Section 9 (12-month outlook) of every plan.
 
 Adapted from *Founding Marketing* by Corey Haines — the source material is written for subscription/SaaS unit economics (ARR, ARPC, churn). Most clients this plan serves are retail/ecommerce/wholesale, which has no recurring-revenue snapshot to churn out of, so the worked math below is rebuilt around **order-based unit economics** (AOV, margin per order, purchase frequency) using the same vocabulary as `ads/references/payback-period.md`. If the client's business genuinely is recurring-revenue (a subscribe-and-save program, a membership retailer, a hardware-plus-software-subscription client, or a marketplace take-rate model — see `marketing-plan/references/client-types.md`), use the **Recurring-Revenue Variant** at the end of this doc instead; the two methods and the underlying logic are the same, only the unit-economics inputs change.
 
@@ -116,7 +116,7 @@ That's the 3-3-2-2-2 rule, carried over from the SaaS source material. Useful wh
 
 - The plan needs to map 12-month and 36-month milestones to investor expectations
 - The founder is mid-raise and the board needs to see a plausible path to the next round
-- Section 10 (12-month outlook) needs anchoring against an external benchmark, not just internal ambition
+- Section 9 (12-month outlook) needs anchoring against an external benchmark, not just internal ambition
 
 Most companies miss it — that's fine; knowing the benchmark gives a defensible reason to either match it or explicitly choose not to. **For the majority of retail clients this plan serves — bootstrapped, self-funded, bank-financed, or profit-focused** — this benchmark doesn't apply at all. Skip it and use the linear/step-function targeting in `growth-patterns.md` instead; forcing a VC revenue-multiple framing onto a business that isn't raising VC-style capital produces a target nobody asked for and nobody is accountable to.
 
@@ -149,7 +149,7 @@ This whole framework derives a budget and a revenue goal — not a 12-month mont
 
 - The annual goal is a defensible direction-of-travel
 - The budget is the resource commitment that makes the goal plausible
-- The 90-day roadmap (Section 9) is what's actionable now
+- The 90-day roadmap (Section 8) is what's actionable now
 - Month-to-month variance is expected — retail especially, given seasonality; see `growth-patterns.md`'s cadence guidance — and quarterly review is when the plan adjusts
 
 What's actionable: how to deploy the budget, what concrete moves to execute, what to adjust when real data comes in.
@@ -163,10 +163,11 @@ What's not actionable: trying to forecast traffic, conversion rates, AOV, and ch
 | Section | What to include |
 |---|---|
 | **3 (Current state)** | Current monthly marketing spend broken down by line (paid, tools, content, headcount, retainers). Compute current %-of-revenue allocation. |
-| **8 (Revenue)** | The unit-economics table (CAC, AOV, gross margin, purchase frequency, repeat-purchase rate) that feeds whichever budget method you're using. |
-| **10 (12-month outlook)** | Apply Method 1 or Method 2 to derive the 12-month budget and the resulting revenue goal. Anchor against the 3-3-2-2-2 rule only if the client is VC/growth-equity-backed DTC. |
-| **11 (Ops stack)** | Show the budget allocation across the AARRR stages — what % to Acquisition, Activation, etc. The ops-stack mapping informs which line items grow when the next funding/revenue tier unlocks. |
-| **13 (Open decisions)** | If CAC, AOV, or purchase frequency is unknown or contested, flag it as the highest-impact open decision — every other number depends on it. |
+| **6 (Conversion)** | The initial-purchase unit-economics table (CAC, AOV, gross margin, CAC payback) that feeds whichever budget method you're using. |
+| **7 (Loyalty)** | The repeat-purchase-economics table (repeat-purchase rate, blended annual purchase frequency, LTV) — the other half of the inputs the budget formulas need. |
+| **9 (12-month outlook)** | Apply Method 1 or Method 2 to derive the 12-month budget and the resulting revenue goal. Anchor against the 3-3-2-2-2 rule only if the client is VC/growth-equity-backed DTC. |
+| **10 (Ops stack)** | Show the budget allocation across the funnel stages — what % to Awareness, Consideration, etc. The ops-stack mapping informs which line items grow when the next funding/revenue tier unlocks. |
+| **12 (Open decisions)** | If CAC, AOV, or purchase frequency is unknown or contested, flag it as the highest-impact open decision — every other number depends on it. |
 
 ## When to choose which method
 

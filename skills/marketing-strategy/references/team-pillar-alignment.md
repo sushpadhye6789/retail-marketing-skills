@@ -47,7 +47,7 @@ A retail marketing org usually isn't one person running every skill in this repo
 
 These serve every pillar rather than belonging to one:
 - **`marketing-strategy`** — the foundation every pillar file must ladder up to
-- **`marketing-plan`** — the cross-pillar tactical roadmap; if built per-pillar, each pillar's 90-day moves should trace back to this plan's AARRR sections
+- **`marketing-plan`** — the cross-pillar tactical roadmap; if built per-pillar, each pillar's 90-day moves should trace back to this plan's retail-funnel sections (Awareness, Consideration, Conversion, Loyalty)
 - **`marketing-council`** / **`compound-marketing`** — the review and learnings-compounding layer described below
 - **`community-marketing`** — can sit under Digital Marketing or Campaigns depending on whether your org treats community as an acquisition channel or a brand/loyalty function; genuinely ambiguous, pick deliberately rather than defaulting
 
@@ -69,7 +69,7 @@ Use the skills that already exist for this rather than inventing a new process:
 ## Related Skills
 
 - **marketing-strategy**: The foundation this whole mapping ladders up to
-- **marketing-plan** / **references/ops-stack-mapping.md**: A complementary mapping on a different axis — that file maps skills to AARRR funnel stages; this file maps the same skills to human team ownership. Use both together: funnel stage answers "what does this skill do for the business," pillar ownership answers "whose job is it."
+- **marketing-plan** / **references/ops-stack-mapping.md**: A complementary mapping on a different axis — that file maps skills to retail-funnel stages (Awareness, Consideration, Conversion, Loyalty); this file maps the same skills to human team ownership. Use both together: funnel stage answers "what does this skill do for the business," pillar ownership answers "whose job is it."
 - **marketing-council**: For stress-testing cross-pillar conflicts
 - **compound-marketing**: For the learnings-compounding mechanism across pillars
 - **marketing-loops**: For the recurring sync cadence

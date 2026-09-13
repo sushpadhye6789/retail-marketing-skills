@@ -61,8 +61,8 @@ Key insight for the plan: **each step requires deliberate action and investment.
 Zoom out far enough and a series of linear phases + step functions can look exponential. That's where the myth comes from. Understanding it's actually a series of plannable shapes changes how you build the plan:
 
 - Don't chase the myth of doubling every month
-- Build sustainable linear systems (Sections 4–8 AARRR moves)
-- Plan deliberate step functions (Section 10 12-month milestones)
+- Build sustainable linear systems (Sections 4–7 funnel-stage moves)
+- Plan deliberate step functions (Section 9 12-month milestones)
 
 ## Layering growth curves — Channel × Product × Market
 
@@ -80,7 +80,7 @@ Every marketing channel has its own lifecycle:
 
 **The rule:** start the next channel before the current one plateaus. Riding one channel to its ceiling before investing in the next produces a multi-month growth plateau that takes more effort to break out of than it would have taken to start the next channel earlier.
 
-In the plan: Section 4 (Acquisition) names current channels, planned channels, and skipped channels. The 12-month roadmap (Section 10) sequences when the next channel investment begins.
+In the plan: Section 4 (Awareness) names current channels, planned channels, and skipped channels. The 12-month roadmap (Section 9) sequences when the next channel investment begins.
 
 ### Product S-curves
 
@@ -89,7 +89,7 @@ The core product/assortment naturally hits a growth ceiling as the initial marke
 - Extending the line to serve adjacent needs (an apparel brand adding footwear or accessories to sell deeper into the same customer base)
 - Expanding into new customer segments (adding a wholesale/B2B line alongside a consumer-only assortment — see `marketing-strategy` Section 16)
 
-In the plan: Sections 5 (Activation) and 8 (Revenue) name where the product/assortment needs to grow to unlock the next tier.
+In the plan: Sections 6 (Conversion) and 7 (Loyalty) name where the product/assortment needs to grow to unlock the next tier.
 
 ### Market S-curves
 
@@ -106,7 +106,7 @@ In the plan: Section 2 (Strategic frame) names current segment + future segments
 
 The real magic: while SEO is maturing, paid is delivering quick wins. As those channels mature, the product line is developing the next category that unlocks a new customer segment. Meanwhile, the groundwork for a wholesale channel or international expansion is being laid for when the domestic direct channel saturates.
 
-This is the operational thesis behind the AARRR mapping (Sections 4–8) and the 12-month outlook (Section 10): each section is a curve, and the plan sequences them so the next curve is ramping while the current one is still growing.
+This is the operational thesis behind the retail-funnel mapping (Sections 4–7) and the 12-month outlook (Section 9): each section is a curve, and the plan sequences them so the next curve is ramping while the current one is still growing.
 
 ## The 70/20/10 resource-allocation rule
 
@@ -124,7 +124,7 @@ Why it matters for the plan:
 - It maps cleanly onto the **10–20% experimental budget buffer** in `budget-planning.md` — the experimental layer is the 10% here.
 - It gives Section 11 (Ops stack) and Section 10 (12-month outlook) a defensible allocation logic instead of dumping the whole budget into what's currently working.
 
-**In the plan:** Section 10 (12-month outlook) names what sits in each bucket now, and what's expected to graduate. Section 11 (Ops stack) shows the 70/20/10 split across the AARRR stages. Adjust the ratio by phase — Phase 1 businesses (still hunting for any channel that works) may run closer to 40/30/30; Phase 3 businesses with a proven engine can run 80/15/5.
+**In the plan:** Section 9 (12-month outlook) names what sits in each bucket now, and what's expected to graduate. Section 10 (Ops stack) shows the 70/20/10 split across the funnel stages. Adjust the ratio by phase — Phase 1 businesses (still hunting for any channel that works) may run closer to 40/30/30; Phase 3 businesses with a proven engine can run 80/15/5.
 
 ## Weekly tracking cadence and plateau alerts
 
@@ -160,12 +160,12 @@ For a brand that has crossed roughly $1M in annual revenue and raised venture or
 | Section | What to include |
 |---|---|
 | **3 (Current state)** | Where the business is on each S-curve (channel maturity, product/assortment maturity, market saturation). Name the current phase ($0–250K / $250K–1.5M / $1.5M–10M / $10M+). |
-| **4 (Acquisition)** | Current channels + their position on the S-curve (early / mature / plateauing). Next channel investment with rationale. |
-| **5–8 (AARRR)** | Each section names the binding constraint at the current phase. For Phase 2 businesses, Activation (first-purchase conversion) is usually the leverage point. For Phase 3, Retention + Referral compound the existing growth. |
-| **9 (90-day roadmap)** | Linear-pattern moves dominate (predictable additions). Step-function setups (the build-up to a launch, a new distribution channel, a new market) live here. |
-| **10 (12-month outlook)** | Sequence channel S-curves, product S-curves, market S-curves. Apply the 70/20/10 split (current / next / experimental) so the next curve is funded before the current one plateaus. If VC/growth-equity-backed DTC, anchor against 3-3-2-2-2. If not, name the linear or step-function targets. |
-| **11 (Ops stack)** | Show the 70/20/10 allocation across the AARRR stages — what share protects what's working vs. builds the next curve vs. experiments. |
-| **13 (Measurement)** | The north-star metric reflects the current phase (Phase 1 is usually pure new-customer count; Phase 3 is usually repeat-purchase revenue or repeat rate). Name the weekly leading indicators per S-curve and the plateau thresholds that trigger the next move. |
+| **4 (Awareness)** | Current channels + their position on the S-curve (early / mature / plateauing). Next channel investment with rationale. |
+| **5–7 (Consideration / Conversion / Loyalty)** | Each section names the binding constraint at the current phase. For Phase 2 businesses, Conversion (first-purchase completion) is usually the leverage point. For Phase 3, Loyalty (including Referral & Advocacy) compounds the existing growth. |
+| **8 (90-day roadmap)** | Linear-pattern moves dominate (predictable additions). Step-function setups (the build-up to a launch, a new distribution channel, a new market) live here. |
+| **9 (12-month outlook)** | Sequence channel S-curves, product S-curves, market S-curves. Apply the 70/20/10 split (current / next / experimental) so the next curve is funded before the current one plateaus. If VC/growth-equity-backed DTC, anchor against 3-3-2-2-2. If not, name the linear or step-function targets. |
+| **10 (Ops stack)** | Show the 70/20/10 allocation across the funnel stages — what share protects what's working vs. builds the next curve vs. experiments. |
+| **12 (Measurement)** | The north-star metric reflects the current phase (Phase 1 is usually pure new-customer count; Phase 3 is usually repeat-purchase revenue or repeat rate). Name the weekly leading indicators per S-curve and the plateau thresholds that trigger the next move. |
 
 ## Operational guidance for the planner
 

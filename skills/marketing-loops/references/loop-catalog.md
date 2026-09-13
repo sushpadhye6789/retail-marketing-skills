@@ -602,7 +602,7 @@ Loops are grouped by function. Naming follows the "The X loop" convention.
 - **Purpose**: One standing full-funnel pulse so nothing drifts unnoticed.
 - **Skills used**: `analytics`, `marketing-plan`, `marketing-ideas`
 - **Loop body**:
-  1. Pull top-line AARRR metrics vs. last week and vs. plan.
+  1. Pull top-line funnel-stage metrics (Awareness / Consideration / Conversion / Loyalty) vs. last week and vs. plan.
   2. Flag the biggest mover (good and bad) per stage.
   3. Tie each flag to the loop or skill that should act on it; surface 1–2 experiment ideas.
 - **Self-check**: Distinguish trend from noise before raising an alarm.

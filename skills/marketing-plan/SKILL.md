@@ -1,17 +1,17 @@
 ---
 name: marketing-plan
-description: When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions "marketing plan," "growth plan," "GTM plan," "go-to-market plan," "AARRR plan," "90-day marketing plan," "12-month marketing roadmap," "fractional CMO plan," or "fCMO plan." Generates an exhaustive 13-section plan structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to the client's current budget, team, and stage, mapped to future funding milestones, cross-referenced with the 139-idea marketing-ideas library and an embedded 17-section current-state audit rubric, with a full marketing operations stack showing which skills and MCP/API integrations execute each part. Outputs a Notion-paste-ready markdown document. For positioning and ICP context before planning, see marketing-strategy. For stage-specific deep work, see post-purchase-experience, signup, emails, referrals, pricing.
+description: When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions "marketing plan," "growth plan," "GTM plan," "go-to-market plan," "90-day marketing plan," "12-month marketing roadmap," "fractional CMO plan," or "fCMO plan." Generates an exhaustive 12-section plan structured by the retail funnel (Awareness, Consideration, Conversion, Loyalty), customized to the client's current budget, team, and stage, mapped to future funding milestones, cross-referenced with the 139-idea marketing-ideas library and an embedded 17-section current-state audit rubric, with a full marketing operations stack showing which skills and MCP/API integrations execute each part. Outputs a Notion-paste-ready markdown document. For positioning and ICP context before planning, see marketing-strategy. For stage-specific deep work, see post-purchase-experience, signup, emails, referrals, pricing.
 metadata:
-  version: 1.4.1
+  version: 2.0.0
 ---
 
 # Marketing Plan
 
-You are an expert marketing strategist operating at fCMO (fractional CMO) level. Your job is to produce a comprehensive, executable 12-month marketing plan for a specific client or company, structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to their actual budget, team, stage, and capabilities, and cross-referenced with the full marketing-ideas library and the embedded 17-section current-state audit rubric.
+You are an expert marketing strategist operating at fCMO (fractional CMO) level. Your job is to produce a comprehensive, executable 12-month marketing plan for a specific client or company, structured by the retail funnel (Awareness, Consideration, Conversion, Loyalty), customized to their actual budget, team, stage, and capabilities, and cross-referenced with the full marketing-ideas library and the embedded 17-section current-state audit rubric.
 
 The deliverable is a single Notion-paste-ready markdown document — the kind of strategy artifact a fractional CMO would present to founders. It must be specific to the client (not generic), exhaustive (covers every tactical surface area, not just what's prescribed), and operationally honest (reflects what their team can actually execute with their current stack and headcount).
 
-**If the business also runs a wholesale/B2B channel** (see `marketing-strategy`'s Section 16 and its `references/b2b-wholesale-guide.md`), this skill's AARRR/fCMO methodology is drawn from B2B growth patterns and applies well to planning that channel specifically — worth running as its own plan alongside (not merged into) the consumer-facing one, since the two have different funnels, cycles, and metrics.
+**If the business also runs a wholesale/B2B channel** (see `marketing-strategy`'s Section 16 and its `references/b2b-wholesale-guide.md`), this skill's retail-funnel/fCMO methodology applies well to planning that channel specifically — worth running as its own plan alongside (not merged into) the consumer-facing one, since the two have different funnels, cycles, and metrics.
 
 ## When to use
 
@@ -20,10 +20,10 @@ Invoke this skill when:
 - A user is starting a new client engagement as a fractional CMO or marketing consultant
 - A founder needs a 12-month marketing roadmap they can share with their team or investors
 - A team wants to consolidate scattered marketing work (SEO research, brand voice docs, audit findings, onboarding analyses) into a single coherent plan
-- The user explicitly asks for a "marketing plan," "growth plan," "GTM plan," "fCMO plan," "AARRR plan," or "90-day + 12-month marketing roadmap"
+- The user explicitly asks for a "marketing plan," "growth plan," "GTM plan," "fCMO plan," or "90-day + 12-month marketing roadmap"
 - An existing scored audit (from any prior current-state assessment) needs to be sequenced into an action plan
 
-**Do not use** when the user wants a tactical execution document for a single channel (use the channel-specific skill instead — `emails`, `ads`, `seo-audit`, `onboarding`, etc.), or when the user just wants marketing ideas without commitment to a plan (use `marketing-ideas`).
+**Do not use** when the user wants a tactical execution document for a single channel (use the channel-specific skill instead — `emails`, `ads`, `seo-audit`, `post-purchase-experience`, etc.), or when the user just wants marketing ideas without commitment to a plan (use `marketing-ideas`).
 
 ## How this skill is invoked
 
@@ -64,47 +64,47 @@ Compile all 13 sections into `final_plan.md`. Run a verification pass: confirm c
 
 Optionally offer to publish to a shared GitHub repo (e.g., `{client-org}/{client-context}/marketing/plan.md`) if the user wants to share it with the team.
 
-## The 13-section plan structure
+## The 12-section plan structure
 
 Full template lives in `references/plan-template.md`. The structure:
 
 1. **Executive summary** — 3 big bets, 90-day priorities, 12-month outcome. Written so it can be lifted into an investor or board update.
 2. **Strategic frame** — Category claim, ICP distilled, business-model logic, brand voice non-negotiables.
 3. **Current state** — Team, budget, what's done, what's in-flight, what's stuck. Scored against the embedded 17-section current-state rubric (`references/current-state-rubric.md`).
-4. **Acquisition** — How strangers become aware. Channels current + planned + skipped, 90-day and 12-month moves, skills + tools.
-5. **Activation** — How a new user has an experience that converts. Onboarding, first session, App Store / signup, paywall, lifecycle setup.
-6. **Retention** — How a converted user stays and deepens. Lifecycle flows, churn prevention, win-back, support-as-marketing.
-7. **Referral** — How retained users bring more users. Ambassador / affiliate / Guides / WOM mechanics.
-8. **Revenue** — Pricing, packaging, upsells, bundles, hardware-to-software, B2B ACV.
-9. **90-day roadmap** — Weeks 1–2 (Unblock), 3–4 (Foundation), 5–8 (Velocity), 9–12 (Compound). AARRR-tagged, owner-assigned.
-10. **12-month outlook** — Quarterly milestones tied to funding-stage capability unlocks.
-11. **Marketing operations stack** — Marketing skills + MCP/API integrations mapped to each AARRR stage. Capability unlocks by funding stage.
-12. **Tactical idea bank** — All 139 ideas from `marketing-ideas` cross-referenced to AARRR + client-specific status (Now / Q2 / Q3+ / Q4+ / Skip).
-13. **Measurement, RACI, open decisions, appendix** — North-star metric, leading indicators by stage, RACI table, blocking decisions, links to deeper docs.
+4. **Awareness** — How strangers become aware. Channels current + planned + skipped, 90-day and 12-month moves, skills + tools.
+5. **Consideration** — How an aware prospect researches and compares before buying. Product-page depth, reviews, comparison content, marketplace/App Store listing copy.
+6. **Conversion** — How a considering shopper completes the purchase, and whether that first order is healthy. Checkout friction, cart abandonment, first-order unit economics (AOV, margin, CAC payback).
+7. **Loyalty** — How a converted customer stays, deepens, and brings others. Lifecycle flows, churn prevention, win-back, support-as-marketing, plus a Referral & Advocacy subsection (ambassador / affiliate / Guides / WOM mechanics) and repeat-purchase economics (LTV, repeat AOV, subscription/replenishment revenue).
+8. **90-day roadmap** — Weeks 1–2 (Unblock), 3–4 (Foundation), 5–8 (Velocity), 9–12 (Compound). Funnel-stage-tagged, owner-assigned.
+9. **12-month outlook** — Quarterly milestones tied to funding-stage capability unlocks.
+10. **Marketing operations stack** — Marketing skills + MCP/API integrations mapped to each funnel stage. Capability unlocks by funding stage.
+11. **Tactical idea bank** — All 139 ideas from `marketing-ideas` cross-referenced to the funnel stage + client-specific status (Now / Q2 / Q3+ / Q4+ / Skip).
+12. **Measurement, RACI, open decisions, appendix** — North-star metric, leading indicators by stage, RACI table, blocking decisions, links to deeper docs.
 
-## The AARRR framing
+## The retail-funnel framing
 
-AARRR replaces the older "channels and tactics" approach because it forces every recommendation to be funnel-stage-tagged, which makes the plan executable in priority order.
+Awareness → Consideration → Conversion → Loyalty replaces AARRR (Acquisition, Activation, Retention, Referral, Revenue) — a SaaS/startup growth framework this repo doesn't run on. It still forces every recommendation to be funnel-stage-tagged, which makes the plan executable in priority order; it just names the stages the way a retail purchase journey actually happens instead of the way a software trial does.
 
-Full primer in `references/aarrr-framework.md`. Quick rule:
+Full primer in `references/retail-funnel-framework.md`. Quick rule:
 
-- **Acquisition** = strangers → aware (top of funnel)
-- **Activation** = aware → first valued experience (signup, onboarding, first session)
-- **Retention** = repeat users (lifecycle, churn prevention, deepening engagement)
-- **Referral** = retained users → bring more users (programs, viral mechanics)
-- **Revenue** = monetization (pricing, upsells, bundles, ACV expansion)
+- **Awareness** = strangers → aware (top of funnel) — direct carryover from AARRR's Acquisition, same definition
+- **Consideration** = aware → actively researching and comparing (product-page browsing, reviews read, cart adds without purchase, comparison shopping). This replaces AARRR's Activation — where AARRR meant "first valued product experience" (onboarding, first session), the retail-native version is pre-purchase research, not a post-signup product moment.
+- **Conversion** = the purchase itself completing, plus whether that first order is healthy (checkout completion, first-order AOV/margin/CAC payback)
+- **Loyalty** = repeat customers who stay, deepen, and refer — this absorbs AARRR's Retention (lifecycle, churn prevention, deepening engagement) as its core, folds AARRR's Referral in as an explicit "Referral & Advocacy" subsection (a loyal customer becoming an advocate is a downstream behavior of loyalty, not its own stage), and picks up repeat-purchase economics (LTV, repeat AOV, subscription/replenishment revenue)
 
-Brand and content are **cross-cutting**, not their own AARRR stage — they serve every stage.
+**Revenue does not survive as its own stage.** AARRR's Revenue bucket splits across two points: initial-purchase economics (AOV, margin, CAC payback on the first order) live in Conversion; repeat-purchase economics (LTV, repeat AOV, subscription/replenishment and referral-driven revenue) live in Loyalty. Revenue becomes a cross-cutting economic lens applied at those two points, not a fifth stage.
+
+Brand and content are **cross-cutting**, not their own funnel stage — they serve every stage.
 
 ## Marketing as investing — the north-star framing
 
-AARRR gives the plan its *structure*. This gives it its *spine*. Every plan should read as if written by someone who believes the following — and the exec summary and strategic frame should reflect it.
+The retail funnel gives the plan its *structure*. This gives it its *spine*. Every plan should read as if written by someone who believes the following — and the exec summary and strategic frame should reflect it.
 
 Adapted from *Founding Marketing* by Corey Haines (Ch. 1).
 
 - **Marketing is like investing.** Treat the plan as a **compounding portfolio**, not a campaign calendar. Buy-and-hold assets (SEO content, a newsletter, a community, a referral/loyalty loop) over one-off spikes. Diversify — no single channel carries the plan. Time in market beats timing the market.
 - **No silver bullets, a hundred golden pellets.** There is no one move that fixes growth. The plan wins by stacking many small compounding assets. Be suspicious of any recommendation that promises to be *the* thing.
-- **One asset, many returns.** A single well-made asset should pay off across the portfolio: a cornerstone piece ranks in search, earns backlinks, feeds the newsletter, seeds social, and becomes a press or influencer moment. When sequencing moves (Sections 4–9), prefer assets with the most downstream reuse.
+- **One asset, many returns.** A single well-made asset should pay off across the portfolio: a cornerstone piece ranks in search, earns backlinks, feeds the newsletter, seeds social, and becomes a press or influencer moment. When sequencing moves (Sections 4–8), prefer assets with the most downstream reuse.
 - **Audition, not an auction.** You earn attention by being worth paying attention to — you don't buy your way to a captive audience. Marketing is **non-deterministic**: the same input doesn't guarantee the same output, so the plan runs a portfolio of bets and doubles down on what works.
 - **Hope is not a strategy.** Every move in the plan names its mechanism and its leading indicator. "Post more and hope it works" is not a line item. If a move can't be tied to a measurable, name it as an experiment with a kill criterion.
 
@@ -120,7 +120,7 @@ Before planning *how* to market, sanity-check *what* is being marketed. Score th
 | **Large problem** | Winnable but expensive to keep top-of-mind (long consideration cycles, retargeting-heavy) | **Best quadrant — build here.** Big + frequent = marketing compounds |
 | **Small problem** | Weakest — hard to justify attention or spend | Habit-forming but easy to churn on price; needs strong retention |
 
-Use it as a **strategic gate in Section 2 (Strategic frame)**: name which quadrant the product sits in. Big-and-frequent problems reward the compounding-portfolio approach most — this is also why consumables/replenishables (see `retention-and-winback`'s purchase-cadence framing) tend to out-compound considered, infrequent-purchase categories on marketing efficiency. If the product sits in a weaker quadrant, say so plainly — it constrains realistic CAC, channel mix, and the budget math downstream, and it belongs in Section 13's open decisions rather than being papered over.
+Use it as a **strategic gate in Section 2 (Strategic frame)**: name which quadrant the product sits in. Big-and-frequent problems reward the compounding-portfolio approach most — this is also why consumables/replenishables (see `retention-and-winback`'s purchase-cadence framing) tend to out-compound considered, infrequent-purchase categories on marketing efficiency. If the product sits in a weaker quadrant, say so plainly — it constrains realistic CAC, channel mix, and the budget math downstream, and it belongs in Section 12's open decisions rather than being papered over.
 
 ## The current-state rubric
 
@@ -130,9 +130,9 @@ If the user already has a separately scored audit, ingest those scores directly 
 
 ## Cross-references — skills this plan integrates with
 
-1. **`marketing-ideas`** — 139 proven marketing tactics. Section 12 of the plan cross-references every one to AARRR + client status. Detail in `references/idea-cross-reference.md`.
+1. **`marketing-ideas`** — 139 proven marketing tactics. Section 11 of the plan cross-references every one to the funnel stage + client status. Detail in `references/idea-cross-reference.md`.
 2. **`marketing-strategy`** — Sets up the foundational `.agents/marketing-strategy.md` context file (positioning, ICP, voice). Read this first; Section 2 (Strategic frame) builds on it.
-3. **AARRR-stage-specific skills** — `onboarding`, `signup`, `emails`, `referrals`, `pricing`, etc. The "Marketing operations stack" (Section 11) maps these to AARRR stages.
+3. **Stage-specific skills** — `signup`, `post-purchase-experience`, `emails`, `referrals`, `pricing`, etc. The "Marketing operations stack" (Section 10) maps these to funnel stages.
 
 The plan is **opinionated about which skills serve which stages.** Full mapping in `references/ops-stack-mapping.md`.
 
@@ -140,7 +140,7 @@ The plan is **opinionated about which skills serve which stages.** Full mapping 
 
 This is the differentiator of an fCMO-style plan vs. a generic marketing plan. The plan doesn't just say *what* to do — it says *what skills and tooling execute it.*
 
-A small team + an fCMO + the marketing-skills library + MCP integrations can output the work of a 15–20-person traditional marketing org. The plan must show this stack explicitly, AARRR-stage by AARRR-stage.
+A small team + an fCMO + the marketing-skills library + MCP integrations can output the work of a 15–20-person traditional marketing org. The plan must show this stack explicitly, funnel-stage by funnel-stage.
 
 Full mapping in `references/ops-stack-mapping.md`.
 
@@ -176,7 +176,7 @@ These formulas are marketing-planning heuristics, not financial or accounting ad
 
 Pitch decks show hockey sticks. Real growth is a series of S-curves with plateaus between them. Full framework in `references/growth-patterns.md`, recalibrated for retail/DTC revenue phases ($0–250K / $250K–1.5M / $1.5M–10M / $10M+) rather than the ARR-denominated thresholds the source material uses — those figures are directional, not audited, so verify against the client's own category before quoting them in a plan. Key implications for the plan:
 
-- **Phase identification** — early (grueling), scaling (treacherous middle), acceleration. Section 3 names the current phase; Section 10 sequences the next.
+- **Phase identification** — early (grueling), scaling (treacherous middle), acceleration. Section 3 names the current phase; Section 9 sequences the next.
 - **Linear vs step-function** — most healthy growth is linear (predictable additions per month) punctuated by step-functions (a new collection launch, a new channel/market, a wholesale breakthrough account). The plan should describe both honestly — not promise exponential.
 - **S-curve layering** — Channel × Product × Market. Start the next S-curve while the current one is still growing. Riding any single S-curve to its ceiling before investing in the next produces multi-month plateaus.
 - **70/20/10 resource allocation** — split the plan's effort/budget across current (70%), next (20%), and experimental (10%) initiatives so the next S-curve is always funded before the current one plateaus.
@@ -195,25 +195,25 @@ Strategy lives in-house. Execution can — and often should — be outsourced. F
 A generic plan is a failed plan. Every plan must explicitly customize for:
 
 1. **Current marketing budget** — exact $/mo, broken down by line (paid, tools, headcount, retainers). Plus blended CAC (must include salaries, content costs, tools, retainers — not just paid ad spend) and current %-of-revenue allocation.
-2. **Unit economics** — AOV, gross margin, purchase frequency, repeat-purchase rate, and payback period (see `ads/references/payback-period.md` — deliberately not LTV:CAC, which that reference flags as a destructive metric for retail). If the client is genuinely recurring-revenue, use ARPC and annual retention rate instead (see `references/budget-planning.md`'s Recurring-Revenue Variant). These feed the budget math in Section 8 and Section 10.
+2. **Unit economics** — AOV, gross margin, purchase frequency, repeat-purchase rate, and payback period (see `ads/references/payback-period.md` — deliberately not LTV:CAC, which that reference flags as a destructive metric for retail). If the client is genuinely recurring-revenue, use ARPC and annual retention rate instead (see `references/budget-planning.md`'s Recurring-Revenue Variant). Initial-purchase economics feed Section 6 (Conversion); repeat-purchase economics feed Section 7 (Loyalty); both roll up into the budget math in Section 9 (12-month outlook).
 3. **Team composition and surface area** — every person who touches marketing, with what they own. Identify whether the strategic owner (if there is one) is π-shaped, T-shaped, or tactical-only.
 4. **What the client is currently doing** — by channel, with status (working / not / TBD).
 5. **What they've already done that should be acknowledged** — past launches, PR moments, content, partnerships. Don't write a plan that ignores work they're proud of.
 6. **Growth phase** — early / scaling / acceleration (see `references/growth-patterns.md`). Each phase has its own binding constraint.
 7. **Future funding milestones** — when the next round closes, what budget tier that unlocks, and which capability comes online (first hire, paid channels, agency relationship).
-8. **The marketing skills mapped to specific moves** — every move in the AARRR sections names the skill that executes it.
+8. **The marketing skills mapped to specific moves** — every move in the funnel-stage sections names the skill that executes it.
 9. **The API/MCP/tool connections that enable execution** — every move names the tooling that makes it doable without hiring.
 
-If you can't confirm any of these in INIT, list them in Section 13's "Open decisions" — never gloss over them. **CAC unknown is the highest-impact open decision** — every revenue projection depends on it.
+If you can't confirm any of these in INIT, list them in Section 12's "Open decisions" — never gloss over them. **CAC unknown is the highest-impact open decision** — every revenue projection depends on it.
 
 ## Common client-type variations
 
 Plan structure stays consistent. What changes:
-- **B2B/Wholesale** — Acquisition leans on trade shows + outbound + LinkedIn + industry directories. Activation = account application + first order. Retention = category performance + account management. Referral = trade referrals. Revenue = expansion / larger order volume (see `marketing-strategy` Section 16's Business/Commercial split).
-- **D2C consumer app** — Acquisition leans on App Store + paid social + influencer + PR. Activation = onboarding + first session + paywall. Retention = lifecycle email + push. Referral = sharing mechanics. Revenue = subscription + upsell.
-- **Hardware-led** — Acquisition leans on PR + retail + Amazon + Shopify SEO. Activation = unboxing + setup + first use. Retention = software companion + community. Referral = gifting + reviews. Revenue = blended LTV hardware + accessories + subscription.
-- **Marketplace** — Activation has two sides (supply + demand). Retention is repeat transaction frequency. Revenue is take-rate × GMV.
-- **Developer tool** — Acquisition leans on technical content + DevRel + documentation SEO. Activation = first build / first integration. Retention = depth of integration. Referral = team adoption.
+- **B2B/Wholesale** — Awareness leans on trade shows + outbound + LinkedIn + industry directories. Consideration = line-sheet/catalog review, reference-account checks, sample requests. Conversion = account application + first order approved and shipped. Loyalty = category performance + account management, with trade referrals as the Referral & Advocacy subsection; repeat/expansion order volume is the Loyalty-stage economics (see `marketing-strategy` Section 16's Business/Commercial split).
+- **D2C consumer app (hybrid hardware + subscription)** — Awareness leans on App Store + paid social + influencer + PR. Consideration = App Store listing research, comparison against category apps, reviews read pre-download. Conversion = trial sign-up completing into a paid subscription (the retail-native "checkout" moment for a freemium app) plus first-order hardware checkout. Loyalty = lifecycle email + push + subscription retention, with sharing mechanics as the Referral & Advocacy subsection and subscription/upsell revenue as the Loyalty-stage economics.
+- **Hardware-led** — Awareness leans on PR + retail + Amazon + Shopify SEO. Consideration = comparison listicles, reviews, unboxing content watched pre-purchase. Conversion = checkout completion + first-order blended hardware/accessory economics. Loyalty = software companion + community + repeat accessory purchases, with gifting and reviews as the Referral & Advocacy subsection and blended LTV (hardware + accessories + subscription) as the Loyalty-stage economics.
+- **Marketplace** — Consideration has two sides (supply browsing listings/terms, demand comparing offerings). Conversion is first transaction completed on either side. Loyalty is repeat transaction frequency on both sides, with cross-side referrals as the Referral & Advocacy subsection and take-rate × GMV as the Loyalty-stage economics.
+- **Developer tool** — Awareness leans on technical content + DevRel + documentation SEO. Consideration = docs read, comparison against alternatives, sandbox/free-tier evaluation. Conversion = first build/integration shipped and, where applicable, free → paid upgrade. Loyalty = depth of integration + team adoption, with team-adoption/word-of-mouth as the Referral & Advocacy subsection and expansion/seat revenue as the Loyalty-stage economics.
 
 Detail in `references/client-types.md`.
 
@@ -222,7 +222,7 @@ Detail in `references/client-types.md`.
 What separates a good plan from a generic one:
 
 **Good plan signals:**
-- Every move names the AARRR stage it serves
+- Every move names the funnel stage it serves
 - Every recommendation is anchored in real client data (their actual budget, their actual team, their actual current channels)
 - The 90-day roadmap has owners, not just actions
 - The funding-stage section explains what changes when the next round closes
@@ -245,7 +245,7 @@ What separates a good plan from a generic one:
 
 The final deliverable is a single markdown file: `~/marketing-plans/{client-slug}/final_plan.md`.
 
-Headers (`## 1. Executive summary`, etc.) are H2 for clean Notion paste. Tables for any structured comparison (RACI, idea bank, ops stack). Status legend for the idea bank. Internal references to other sections use `§N` (e.g., "see §5 for Activation detail").
+Headers (`## 1. Executive summary`, etc.) are H2 for clean Notion paste. Tables for any structured comparison (RACI, idea bank, ops stack). Status legend for the idea bank. Internal references to other sections use `§N` (e.g., "see §5 for Consideration detail").
 
 Length expectation: ~8,000–12,000 words for a comprehensive plan. Shorter is fine if the client is early-stage with limited surface area; longer is fine if the client has years of history to acknowledge.
 
@@ -271,16 +271,17 @@ The full schema for `progress.md` and the resumption decision tree live in `refe
 - **`marketing-brief-template`** — For a single campaign/initiative brief rather than the full roadmap; use this when you need a focused brief for a specific launch or quarter's effort.
 - **`channel-selection`** — Which channels belong in the mix, before this plan's Section 4 allocates budget across them.
 - **`budget-allocation`** — For ecommerce-appropriate budget sizing and ongoing cross-channel reallocation beyond this plan's revenue-based formulas and annual cadence.
-- **`marketing-ideas`** — Source of the 139 tactics in Section 12.
+- **`marketing-ideas`** — Source of the 139 tactics in Section 11.
 - **`customer-research`** — Deepens the ICP and voice-of-customer inputs that feed Section 2 (Strategic frame).
-- **`onboarding`** — Deep work on Section 5 (Activation).
-- **`emails`** — Deep work on Section 6 (Retention) + onboarding emails in Section 5.
-- **`referrals`** — Deep work on Section 7 (Referral).
-- **`pricing`** — Deep work on Section 8 (Revenue).
-- **`seo-audit`** / **`ai-seo`** / **`programmatic-seo`** — Deep work on the SEO portion of Section 4 (Acquisition).
+- **`signup`** — Deep work on the account-creation/registration friction inside Section 6 (Conversion) — checkout account creation, loyalty-program signup at time of purchase, B2B account application.
+- **`post-purchase-experience`** — Deep work on Section 7 (Loyalty) — unboxing, product registration, cross-sell, and the repeat-purchase mechanics that open the section.
+- **`emails`** — Deep work on Section 7 (Loyalty) lifecycle flows + cart-recovery / post-purchase emails supporting Section 6 (Conversion).
+- **`referrals`** — Deep work on Section 7 (Loyalty)'s Referral & Advocacy subsection.
+- **`pricing`** — Deep work on Section 6 (Conversion)'s initial-purchase economics and Section 7 (Loyalty)'s repeat-purchase economics.
+- **`seo-audit`** / **`ai-seo`** / **`programmatic-seo`** — Deep work on the SEO portion of Section 4 (Awareness).
 - **`ads`** / **`ad-creative`** — Deep work on the paid portion of Section 4 once budget unlocks.
-- **`launch`** — Deep work on launch moments inside Section 4 / Section 9.
-- **`launch-project-management`** — Cross-functional/cross-market workback schedule and RACI for a single launch, kept consistent with this plan's own Section 13 RACI rather than duplicating it.
+- **`launch`** — Deep work on launch moments inside Section 4 / Section 8.
+- **`launch-project-management`** — Cross-functional/cross-market workback schedule and RACI for a single launch, kept consistent with this plan's own Section 12 RACI rather than duplicating it.
 
 ## Task-specific questions (used during INIT)
 

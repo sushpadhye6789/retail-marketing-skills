@@ -1,18 +1,19 @@
-# Idea Cross-Reference — 139 Marketing Ideas Mapped to AARRR
+# Idea Cross-Reference — 139 Marketing Ideas Mapped to the Retail Funnel
 
-The `marketing-ideas` skill catalogs 139 proven marketing tactics. This doc is the source-of-truth mapping: every idea assigned to a primary AARRR stage, with notes for when it's typically active and what category constraints apply.
+The `marketing-ideas` skill catalogs 139 proven marketing tactics. This doc is the source-of-truth mapping: every idea assigned to a primary funnel stage (Awareness, Consideration, Conversion, Loyalty), with notes for when it's typically active and what category constraints apply.
 
-The plan's Section 12 ("Tactical idea bank") uses this mapping as the base, then layers client-specific filters: brand voice rules might skip some ideas; funding stage might shift Q-status; client category might rule out others.
+The plan's Section 11 ("Tactical idea bank") uses this mapping as the base, then layers client-specific filters: brand voice rules might skip some ideas; funding stage might shift Q-status; client category might rule out others.
 
 ## How to read this doc
 
-- **139 unique ideas, 144 entries.** Five ideas cross-cut multiple AARRR stages and appear under each stage they serve (#79 Early-Access Referrals, #86 Lifetime Deals, #91 In-App Upsells, #114 Moneyball Marketing, #117 Product Competitions). Each duplicate row carries a cross-cut note.
+- **139 unique ideas, 144 entries.** Five ideas cross-cut multiple stages and appear under each stage they serve (#79 Early-Access Referrals, #86 Lifetime Deals, #91 In-App Upsells, #114 Moneyball Marketing, #117 Product Competitions). Each duplicate row carries a cross-cut note.
 - **"Entries" counts rows; idea IDs are unique.** Section header counts reflect rows in this doc, not unique ideas from `marketing-ideas`.
 - **Numbers correspond exactly to the `marketing-ideas` skill ordering.** If `marketing-ideas` reorders or expands, update this doc.
+- **Loyalty absorbs Referral.** Under AARRR, Referral was its own stage; under the retail funnel it's the "Referral & Advocacy" subsection of Loyalty. Ideas that used to sit in a standalone Referral table are tagged **Loyalty (Referral & Advocacy)** below so a plan can still call out that they're specifically an advocacy tactic within the stage, not the whole of it.
 
-## AARRR assignment for all 139 ideas
+## Funnel-stage assignment for all 139 ideas
 
-### Acquisition (116 entries)
+### Awareness (116 entries)
 
 These ideas primarily serve top-of-funnel awareness, traffic, and lead generation.
 
@@ -135,20 +136,31 @@ These ideas primarily serve top-of-funnel awareness, traffic, and lead generatio
 | 133 | Investor Marketing | Developer/etc | Now (when raising) |
 | 138 | Podcast Tours | Audience-Specific | Q2+ |
 
-### Activation (8 entries)
+### Consideration (2 entries)
+
+These moved out of AARRR's Activation table — they're pre-purchase research/capture tactics, not a post-signup product experience.
 
 | # | Idea | Category | Typical stage available |
 |---|---|---|---|
-| 47 | Founder Welcome Email | Email | Q2+ (Activation use) |
-| 48 | Dynamic Email Capture | Email | Q2+ |
-| 51 | Onboarding Emails | Email | When UI is stable |
-| 90 | One-Click Registration | Product-Led | Now |
-| 91 | In-App Upsells | Product-Led | Q2+ (cross-cuts Revenue) |
-| 95 | Concierge Setup | Product-Led | Q3+ (high-value users) |
-| 96 | Onboarding Optimization | Product-Led | Now |
-| 124 | App Store Optimization | Platforms | Now (App Store products) |
+| 48 | Dynamic Email Capture | Email | Q2+ — exit-intent / scroll-depth capture while a prospect is still researching |
+| 124 | App Store Optimization | Platforms | Now (App Store products) — the listing's *discovery* role is Awareness; its role as the pre-download research surface (copy, screenshots, reviews) is Consideration |
 
-### Retention (8 entries)
+### Conversion (4 entries)
+
+Three of these moved out of AARRR's Activation table (they gate whether the purchase/trial-to-paid actually completes, which is what "Conversion" means here) and one moved out of Retention (recovering a lapsed *purchase decision*, not a repeat customer).
+
+| # | Idea | Category | Typical stage available |
+|---|---|---|---|
+| 90 | One-Click Registration | Product-Led | Now — OAuth/quick signup at checkout or trial start reduces the friction that gates the purchase |
+| 96 | Onboarding Optimization | Product-Led | Now — the retail-native reading is optimizing the free-trial-to-paid (or first-order-checkout) funnel, not a post-purchase tutorial |
+| 53 | Trial Reactivation | Email | Q2+ (when paywall is firing) — recovering an expired trial into a paid conversion, moved from Retention |
+| 132 | Price Localization | International | Q4+ — adjusting the initial-purchase price shown to a local market |
+
+### Loyalty, incl. Referral & Advocacy (16 entries)
+
+This folds together AARRR's Retention (core lifecycle), Referral (now the "Referral & Advocacy" subsection), and the repeat-purchase-economics half of Revenue. Entries tagged **(Referral & Advocacy)** are specifically an advocacy/word-of-mouth tactic within Loyalty, not the whole stage.
+
+**Core lifecycle (7 entries, from Retention):**
 
 | # | Idea | Category | Typical stage available |
 |---|---|---|---|
@@ -156,12 +168,18 @@ These ideas primarily serve top-of-funnel awareness, traffic, and lead generatio
 | 46 | Reactivation Emails | Email | Now |
 | 50 | Inbox Placement | Email | Now (technical setup) |
 | 52 | Win-back Emails | Email | Q1+ |
-| 53 | Trial Reactivation | Email | Q2+ (when paywall is firing) |
 | 94 | Offboarding Flows | Product-Led | Q2+ |
 | 135 | Support as Marketing | Developer/etc | Q2+ |
-| 134 | Certifications | Developer/etc | Q3+ (cross-cuts Referral) |
+| 47 | Founder Welcome Email | Email | Q2+ — the first lifecycle touch after a purchase/signup completes, moved from Activation |
 
-### Referral (5 entries)
+**Post-purchase depth (2 entries, from Activation):**
+
+| # | Idea | Category | Typical stage available |
+|---|---|---|---|
+| 51 | Onboarding Emails | Email | When UI is stable — post-purchase/post-signup lifecycle content, not a pre-purchase activation gate |
+| 95 | Concierge Setup | Product-Led | Q3+ (high-value users) — high-touch post-purchase setup that deepens the relationship |
+
+**Referral & Advocacy (6 entries, from Referral):**
 
 | # | Idea | Category | Typical stage available |
 |---|---|---|---|
@@ -170,15 +188,15 @@ These ideas primarily serve top-of-funnel awareness, traffic, and lead generatio
 | 92 | Newsletter Referrals | Product-Led | Q3+ (if newsletter exists) |
 | 93 | Viral Loops | Product-Led | Q3+ |
 | 137 | Two-Sided Referrals | Audience-Specific | Q2+ |
+| 134 | Certifications | Developer/etc | Q3+ (Referral & Advocacy) — moved from Retention, cross-cuts here |
 
-### Revenue (2 entries — most monetization is strategy not tactic)
+**Repeat-purchase economics (1 entry, from Revenue):**
 
 | # | Idea | Category | Typical stage available |
 |---|---|---|---|
-| 91 | In-App Upsells | Product-Led | Q2+ (cross-cuts Activation) |
-| 132 | Price Localization | International | Q4+ |
+| 91 | In-App Upsells | Product-Led | Q2+ (cross-cuts Conversion) — ongoing upsell prompts to an existing customer, not the first-order upsell |
 
-> **Skipped from Revenue:** #86 Lifetime Deals appears under Launches (Acquisition section) only. It's generally off-brand for subscription products because it damages LTV math; recommend in Section 12's Skip list with rationale, not in stage totals.
+> **Skipped from Loyalty:** #86 Lifetime Deals appears under Launches (Awareness section) only. It's generally off-brand for subscription products because it damages LTV math; recommend in Section 11's Skip list with rationale, not in stage totals.
 
 ### Cross-cutting / brand foundation (2 entries)
 
@@ -196,7 +214,7 @@ These ideas primarily serve top-of-funnel awareness, traffic, and lead generatio
 
 ## How to apply this to a specific client
 
-For Section 12 of the plan:
+For Section 11 of the plan:
 
 ### Step 1 — Filter for category fit
 
@@ -236,15 +254,14 @@ Every "Now / Q2 / Q3+" idea gets a one-line client-specific note. Examples:
 
 ### Step 5 — Sum the bank
 
-After all five AARRR tables + skip list:
+After all four funnel-stage tables + skip list:
 
 ```markdown
 ### Idea-bank summary
 
-- {Acquisition count} ideas applicable to Acquisition (the dominant stage at {client}'s current stage)
-- {Activation count} to Activation, {Retention count} to Retention
-- {Referral count} to Referral
-- {Revenue count} to Revenue
+- {Awareness count} ideas applicable to Awareness (the dominant stage at {client}'s current stage)
+- {Consideration count} to Consideration, {Conversion count} to Conversion
+- {Loyalty count} to Loyalty, of which {Referral & Advocacy count} are specifically Referral & Advocacy tactics
 - {cross-cutting count} cross-cutting
 - {skipped count} ideas skipped for brand / business-model fit
 
@@ -255,7 +272,7 @@ After all five AARRR tables + skip list:
 
 If `marketing-ideas` adds new ideas (it's a living skill — the 139 may become 145 or 160 over time):
 1. Read `skills/marketing-ideas/references/ideas-by-category.md` in the `marketingskills` repo
-2. Assign each new idea to a primary AARRR stage using the rules above
+2. Assign each new idea to a primary funnel stage using the rules above
 3. Add to this doc's tables
 4. Update SKILL.md's idea-count reference
 

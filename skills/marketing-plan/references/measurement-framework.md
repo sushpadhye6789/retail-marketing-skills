@@ -1,6 +1,6 @@
 # Measurement Framework — KPIs, North Stars, Cadence
 
-Every plan needs a measurement section that tells the team how to know if the plan is working. This doc is the source for Section 13's measurement subsection.
+Every plan needs a measurement section that tells the team how to know if the plan is working. This doc is the source for Section 12's measurement subsection.
 
 **Related docs:**
 - `growth-patterns.md` — the funded-DTC growth path (3× in years 1–2, 2× in years 3–5 from $1M revenue, for VC/growth-equity-backed clients only) and which phase of growth the business is in ($0–250K / $250K–1.5M / $1.5M–10M / $10M+)
@@ -49,46 +49,41 @@ Don't default to "ARR" or "MRR" alone. Those are outcomes, not norths. Pick some
 - **Repeat purchase rate × AOV × frequency** — captures monetization layered on quality of customer
 - Alternative: "Discounted payback period by category" (see `ads/references/payback-period.md`) — deliberately not LTV/CAC, which that reference treats as a destructive metric for retail
 
-## Leading indicators by AARRR stage
+## Leading indicators by funnel stage
 
-After the north star, every plan needs leading indicators per AARRR stage. These move faster than the north star and trigger investigations.
+After the north star, every plan needs leading indicators per funnel stage (Awareness, Consideration, Conversion, Loyalty). These move faster than the north star and trigger investigations.
 
-### Acquisition leading indicators
+### Awareness leading indicators
 - Organic visits/month, total + per pillar (SEO health)
-- App Store / Play Store visit-to-install rate (ASO health)
+- App Store / Play Store / marketplace visit rate (discovery health)
 - Founder-led social channel growth → email subscriber conversion (LinkedIn / X / Substack funnels)
-- Event-to-app conversion rate (event ROI)
-- Ambassador-attributed visits (referral funnel)
+- Event-to-site or event-to-app conversion rate (event ROI)
 - Paid CAC by channel (when paid is firing)
 
-### Activation leading indicators
-- Day 1 / Day 7 / Day 35 → paid conversion rate
-- Onboarding session-completion rate
-- First key-action completion (post-signup activation event)
-- App Store conversion rate (install → trial → paid)
-- Trial → paid conversion rate
+### Consideration leading indicators
+- Product-page session depth and exit rate
+- Reviews-read rate / review-widget engagement
+- Comparison-page traffic and time-on-page
+- Cart adds without checkout ("interested but not yet committed")
+- App Store / marketplace listing visit-to-consideration rate (screenshots viewed, description expanded)
 
-### Retention leading indicators
-- Day 30 / Day 60 / Day 90 retention
-- Monthly churn rate (gross + net)
+### Conversion leading indicators
+- Cart-to-checkout and checkout-completion rate
+- Cart abandonment rate
+- Day 1 / Day 7 / Day 35 trial → paid conversion rate (for a subscription/hybrid business)
+- First-order AOV, gross margin, and CAC payback period
+- Checkout step-by-step drop-off (where in the flow shoppers leave)
+
+### Loyalty leading indicators (including Referral & Advocacy)
+- Day 30 / Day 60 / Day 90 repeat-purchase rate
+- Monthly churn rate (gross + net, for subscription/repeat businesses)
 - Lifecycle email engagement (open / click / unsubscribe by flow)
-- Hardware → app activation rate (for hybrid businesses)
+- Hardware → software activation rate (for hybrid businesses)
 - Win-back / reactivation rate
-
-### Referral leading indicators
-- Ambassador-attributed new subs (via Dub or similar)
-- Share-after-value moment rate (% of users sharing)
+- Ambassador-attributed new customers (via Dub or similar)
+- Share-after-purchase moment rate (% of customers sharing)
 - Two-sided referral completion rate
-- Guides program referrals (when live)
-- NPS score (if surveyed)
-
-### Revenue leading indicators
-- ARPU by cohort
-- Annual plan adoption %
-- Cohort LTV by source
-- Plan mix shifts
-- Eye-mask / hardware attach rate (for hybrid)
-- Expansion revenue (B2B)
+- Repeat AOV vs. first-order AOV, LTV by cohort, subscription/replenishment revenue as % of total (repeat-purchase economics)
 
 ## Review cadence
 
@@ -97,7 +92,7 @@ The plan should specify three rhythms:
 ### Weekly (operational sync)
 - **Who:** fCMO ↔ founder (CEO usually)
 - **Duration:** 30 min
-- **Format:** AARRR scoreboard (current vs. last week numbers across the leading indicators) + this week's ships + blockers
+- **Format:** Funnel-stage scoreboard (current vs. last week numbers across the leading indicators) + this week's ships + blockers
 - **Output:** Action items, decisions made
 
 ### Monthly (metrics review)
@@ -114,7 +109,7 @@ The plan should specify three rhythms:
 
 ## KPI target setting
 
-For each quarter in Section 10, the plan must include 3–5 specific KPI targets. These should be:
+For each quarter in Section 9, the plan must include 3–5 specific KPI targets. These should be:
 - **Specific** — not "improve retention," but "Day 30 retention from 22% → 30%"
 - **Measurable** — pull from a wired data source
 - **Stretch but plausible** — based on funnel state + historical patterns
@@ -188,7 +183,7 @@ The plan should name where each metric comes from. This makes it auditable.
 | Organic traffic | GA4 / Ahrefs |
 | App Store conversion | App Store Connect |
 | Funnel conversion (Day N → paid) | Internal analytics (Mixpanel / Amplitude) or App Store Connect cohort export |
-| Retention | Customer.io segments + product analytics |
+| Repeat-purchase / retention rate | Customer.io segments + product analytics |
 | MRR / ARR | Stripe (via MCP if wired) |
 | Plan mix | Stripe |
 | Lifecycle email metrics | Customer.io |
@@ -198,7 +193,7 @@ The plan should name where each metric comes from. This makes it auditable.
 
 ## When data isn't wired
 
-If a metric can't currently be measured, flag it in Section 13's open decisions. Example:
+If a metric can't currently be measured, flag it in Section 12's open decisions. Example:
 
 > "Hardware → app activation rate not currently visible in the App Store dashboard. Requires Shopify ↔ App Store Connect join. Q1 work item."
 

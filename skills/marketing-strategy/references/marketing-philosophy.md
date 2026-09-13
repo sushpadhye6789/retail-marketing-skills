@@ -38,12 +38,12 @@ Frameworks resolve strategy; they don't run a Tuesday. When a list of "things we
 
 - **Section 12 (Strategic Priorities):** use the 60:40 split as a sense-check on a draft priorities list — does it read as 100% performance/narrow, or 100% brand/broad? Either extreme is a signal, not necessarily a mistake, but it should be a deliberate choice, not a default.
 - **`budget-allocation`:** the 60:40 split is a starting allocation heuristic, not a rule to apply blind — a brand-new store with zero mental availability skews further toward the 60 (or beyond); a mature brand milking a saturated category can lean further toward the 40.
-- **`marketing-plan`'s AARRR staging:** CEPs are most useful when deciding what Awareness-stage creative and media actually say, since that's the stage where "reach broadly, but about the moments that matter" has to become an actual brief.
+- **`marketing-plan`'s retail-funnel staging:** CEPs are most useful when deciding what Awareness-stage creative and media actually say, since that's the stage where "reach broadly, but about the moments that matter" has to become an actual brief.
 - **Any prioritized list, anywhere in this repo's workflow:** apply the top-3 rule before treating a brainstormed list as a plan.
 
 ## Related Skills
 
 - **marketing-strategy / references/prioritization.md**: The scoring mechanics for Section 12 — this file supplies the lenses, that one supplies the method for cutting a list once you have them.
 - **marketing-council / references/advisors/byron-sharp.md**: The fuller treatment of penetration-led growth as applied elsewhere in this repo.
-- **marketing-plan / references/aarrr-framework.md**: Where CEP-driven Awareness-stage decisions actually get built into a dated plan.
+- **marketing-plan / references/retail-funnel-framework.md**: Where CEP-driven Awareness-stage decisions actually get built into a dated plan.
 - **budget-allocation**: Where the 60:40 split becomes an actual number in a budget.

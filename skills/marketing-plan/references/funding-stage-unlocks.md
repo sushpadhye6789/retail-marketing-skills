@@ -149,16 +149,16 @@ Private-equity-backed, a large loan facility, or sustained scale on reinvested p
 ### Section 3 (Current state)
 - State the client's current tier explicitly: "Current tier: bootstrapped / self-funded per Tier 1."
 
-### Section 4–8 (AARRR sections)
+### Section 4–7 (Awareness / Consideration / Conversion / Loyalty)
 - Note tier-dependent moves: "Paid layer (Tier 2 unlock — held until the loan/round closes)"
 - For Tier 1 plans: every move must be executable at current budget tier OR explicitly flagged as future
 - For Tier 2+ plans: moves can assume the tier's capability
 
-### Section 10 (12-month outlook)
+### Section 9 (12-month outlook)
 - Each quarter names the tier that's active: "Q2 — Months 4–6 (post capital close). Capital state: Tier 2."
 - Tier transitions trigger plan recalibration moments
 
-### Section 11 (Marketing operations stack)
+### Section 10 (Marketing operations stack)
 - Use the table in `references/ops-stack-mapping.md` capability-unlocks section
 - Make it client-specific: "Today (Tier 1): {client's current capability}. After capital close (Tier 2): + {what changes}."
 

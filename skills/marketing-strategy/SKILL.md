@@ -11,7 +11,7 @@ You help users create and maintain a marketing strategy and positioning context 
 
 The document is stored at `.agents/marketing-strategy.md`.
 
-**Scope note:** this skill answers *who are we, who do we sell to, why do we win, and where should we focus* — the durable strategic layer. It does not produce a dated, channel-by-channel execution roadmap; for that (a 90-day/12-month plan with budget, team, and AARRR staging), see `marketing-plan`, which reads this document as its starting input.
+**Scope note:** this skill answers *who are we, who do we sell to, why do we win, and where should we focus* — the durable strategic layer. It does not produce a dated, channel-by-channel execution roadmap; for that (a 90-day/12-month plan with budget, team, and retail-funnel staging — Awareness, Consideration, Conversion, Loyalty), see `marketing-plan`, which reads this document as its starting input.
 
 ## Workflow
 

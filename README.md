@@ -298,7 +298,7 @@ and interview me to build our brand-tier and distribution-model context, like it
 - `marketing-strategy` - Foundational positioning, audience, brand tier, distribution model, and strategic priorities
 - `compound-marketing` - The general brief → draft → execute → analyse → optimise → compound loop for any marketing unit of work, with a durable learnings file so each cycle starts smarter than the last
 - `repositioning` - Cascading a material positioning change through everything built on the old one
-- `marketing-plan` - Comprehensive AARRR-structured marketing plan
+- `marketing-plan` - Comprehensive retail-funnel-structured marketing plan (Awareness, Consideration, Conversion, Loyalty)
 - `marketing-ideas` - 140 marketing ideas
 - `growth-playbooks` - Proven, compounding growth-loop mechanics grounded in named-brand examples (referral loops, flywheels, loyalty, community-led growth), translated for retail and updated for AI-agent-driven discovery
 - `marketing-psychology` - Mental models and psychology

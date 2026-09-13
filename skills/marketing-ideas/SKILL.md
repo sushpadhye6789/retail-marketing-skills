@@ -165,7 +165,7 @@ When recommending ideas, provide for each:
 
 - **compound-marketing**: A good input to that skill's Brief stage when starting from a gap rather than a known idea — carry the strongest candidate into the loop.
 - **growth-playbooks**: The sibling library for proven, compounding growth-loop mechanics tied to a named brand example (a referral loop, a flywheel) — reach for that instead of this list when the goal is a compounding mechanic rather than a one-off tactic.
-- **marketing-plan**: When the user wants a comprehensive plan instead of standalone ideas. Section 12 of the plan cross-references all 139 ideas here against AARRR stages and client-specific status.
+- **marketing-plan**: When the user wants a comprehensive plan instead of standalone ideas. Section 11 of the plan cross-references all 139 ideas here against the retail funnel (Awareness, Consideration, Conversion, Loyalty) and client-specific status.
 - **programmatic-seo**: For scaling SEO content (#4)
 - **competitors**: For comparison pages (#11)
 - **emails**: For email marketing tactics

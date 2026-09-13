@@ -52,7 +52,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | marketing-first-principles | 1.0.0 | 2026-09-09 |
 | marketing-ideas | 2.1.0 | 2026-09-02 |
 | marketing-loops | 1.3.5 | 2026-09-02 |
-| marketing-plan | 1.4.1 | 2026-09-02 |
+| marketing-plan | 2.0.0 | 2026-09-13 |
 | marketing-psychology | 2.0.3 | 2026-08-20 |
 | marketing-strategy | 1.8.2 | 2026-09-13 |
 | media-plan | 1.0.2 | 2026-08-19 |
@@ -97,6 +97,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | website-ux | 1.0.1 | 2026-09-04 |
 
 ## Recent Changes
+
+### 2.24.1 (2026-09-13)
+
+- **`marketing-plan` (1.4.1 → 2.0.0, major/breaking):** Replaced the AARRR framework (Acquisition, Activation, Retention, Referral, Revenue) — a SaaS/startup growth model — with the retail-native funnel **Awareness → Consideration → Conversion → Loyalty**, at the repo owner's explicit request. This is a structural change to the plan's own output shape: the plan goes from 13 sections to **12** (Acquisition/Activation/Retention/Referral/Revenue's 5 sections collapse into 4). Mapping: Awareness is a direct rename of Acquisition; Consideration replaces Activation's SaaS-native "onboarding, first session" framing with retail-native pre-purchase research and comparison behavior; Conversion is a new stage absorbing the transactional tail of Activation (does the trial/cart actually convert) plus Revenue's initial-purchase economics (AOV, margin, CAC payback on the first order); Loyalty absorbs Retention as its core, folds Referral in as an explicit "Referral & Advocacy" subsection, and picks up Revenue's repeat-purchase economics (LTV, repeat AOV, subscription/replenishment revenue). Revenue no longer exists as a standalone section — it's a cross-cutting economic lens applied at the Conversion and Loyalty checkpoints, mirroring how Brand/Content were already cross-cutting rather than their own AARRR stage. Touched all 13 files under `skills/marketing-plan/`: genuine content rewrites (not mechanical relabeling) in `SKILL.md`, `references/aarrr-framework.md` (renamed to `references/retail-funnel-framework.md`), `references/current-state-rubric.md` (rubric section #8 "Onboarding" rewritten to "Pre-purchase research experience"), `references/example-quietude.md` (the worked example's Activation/Retention/Referral/Revenue sections rewritten in Consideration/Conversion/Loyalty terms against Quietude's actual funnel behavior, not search-replaced), `references/client-types.md` (all 7 archetypes' funnel breakdowns redone), and `references/idea-cross-reference.md` (all 139 ideas remapped, with former Referral-stage ideas tagged `Loyalty (Referral & Advocacy)`); mechanical section-renumbering and stage-label updates in `references/plan-template.md`, `references/ops-stack-mapping.md`, `references/growth-patterns.md`, `references/measurement-framework.md`, `references/methodology.md`, `references/budget-planning.md`, `references/funding-stage-unlocks.md`, and `evals/evals.json`. Also fixed genuine dangling cross-references to the old AARRR framing in other skills that describe `marketing-plan`'s structure: `marketing-ideas`, `marketing-strategy` (`SKILL.md`, `references/team-pillar-alignment.md`, `references/b2b-wholesale-guide.md`, `references/marketing-philosophy.md`), `marketing-loops/references/loop-catalog.md`, `README.md`, and `.claude-plugin/marketplace.json`.
 
 ### 2.24.0 (2026-08-27)
 

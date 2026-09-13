@@ -1,84 +1,80 @@
-# Marketing Operations Stack — Skills + MCPs per AARRR Stage
+# Marketing Operations Stack — Skills + MCPs per Funnel Stage
 
-This doc maps every marketing-skill and every relevant MCP/API integration to the AARRR stage(s) it primarily serves. It's the source for Section 11 of every plan.
+This doc maps every marketing-skill and every relevant MCP/API integration to the funnel stage(s) — Awareness, Consideration, Conversion, Loyalty — it primarily serves. It's the source for Section 10 of every plan.
 
-> **Note on scope.** Skills below live in this `marketingskills` repo. A few references point to optional tools from adjacent Claude Code marketplaces (e.g., `vercel:agent-browser`, `compound-engineering:diagram-maker`) — substitute equivalents if not installed. When a plan references a skill or tool that isn't available, fall back to the underlying tactic and call it out in Section 13's open decisions.
+> **Note on scope.** Skills below live in this `marketingskills` repo. A few references point to optional tools from adjacent Claude Code marketplaces (e.g., `vercel:agent-browser`, `compound-engineering:diagram-maker`) — substitute equivalents if not installed. When a plan references a skill or tool that isn't available, fall back to the underlying tactic and call it out in Section 12's open decisions.
 
 ## The thesis
 
 A small team + fCMO + agentic tooling = output of a 15–20-person traditional marketing org. The skills + MCPs encode workflows that previously required dedicated headcount per channel.
 
-The plan's Section 11 makes this thesis explicit by:
+The plan's Section 10 makes this thesis explicit by:
 1. Mapping skills to stages so the founder sees which skills execute which work
 2. Mapping MCPs/APIs to stages so the founder sees the tooling layer
 3. Naming a concrete operational example that proves the stack works
 4. Showing capability unlocks by capital stage (bootstrapped → first outside capital → scaling)
 
-## Marketing skills mapped to AARRR
+## Marketing skills mapped to the retail funnel
 
-### Acquisition skills
+### Awareness skills
 
-| Skill | What it does | Primary use in Acquisition |
+| Skill | What it does | Primary use in Awareness |
 |---|---|---|
 | `seo-audit` | Audit site for technical and on-page SEO | Quarterly site health checks |
 | `ai-seo` | Optimize content for AI search engines / LLM citation | Future-proof content strategy |
 | `programmatic-seo` | Build template-driven SEO pages at scale | Location, comparison, integration page systems |
 | `schema` | Add structured data markup | Rich snippets, eligibility for AI citation |
 | `content-strategy` | Plan content topics, pillars, cadence | Setting the editorial calendar |
-| `competitors` | Build vs-pages and alternative-to-pages | Capture high-intent SERPs against competitors |
 | `ads` | Plan and structure paid campaigns | Apple Search Ads, Meta, Google, LinkedIn |
 | `ad-creative` | Generate ad variations and creative | Iterate ad creative across platforms |
 | `social` | Plan and write social media content | LinkedIn, Twitter/X, Instagram, TikTok |
 | `typefully` | Schedule/post tweets, threads, LinkedIn content | Cadence operations for founder-led channels |
-| `cold-email` | Write B2B cold outreach + sequences | Outbound for B2B SaaS / hybrid businesses |
+| `cold-email` | Write B2B cold outreach + sequences | Outbound for B2B/wholesale / hybrid businesses |
 | `analytics` | Set up tracking, GA4, conversion events | Funnel instrumentation |
 | `free-tools` | Plan engineering-as-marketing free tools | Build tools that generate links + leads |
-| `site-architecture` | Design site/page structure with intention | Pillar/landing page design |
 | `launch` | Plan and execute launches (Product Hunt, GA, feature launches) | GTM moments — strategy + tactical execution |
 
-### Activation skills
+### Consideration skills
 
-| Skill | What it does | Primary use in Activation |
+| Skill | What it does | Primary use in Consideration |
 |---|---|---|
-| `onboarding` | Optimize user onboarding flows | Onboarding rebuild, activation rate tests |
-| `signup` | Optimize signup/registration | Reduce friction at top of activation |
-| `cro` | Optimize any marketing page or form | Conversion testing across pages, forms, landing pages |
-| `paywalls` | Optimize paywalls and upgrade screens | Trial → paid conversion (also Revenue) |
-| `popups` | Optimize popups, modals, slide-ins | Lead capture + activation prompts |
-| `copywriting` | Write marketing copy, including full website/landing-page copy | Onboarding screens, paywall copy, CTAs, site copy |
-| `copy-editing` | Edit and improve existing copy | Voice / clarity pass before ship |
-| `ab-testing` | Plan A/B tests | Structure for onboarding variant tests |
-| `marketing-psychology` | Apply behavioral science to copy and CRO | Persuasion principles in activation moments |
+| `competitors` | Build vs-pages and alternative-to-pages | The canonical Consideration-stage asset — comparison content a shopper reads before buying |
+| `content-strategy` | Plan content topics, pillars, cadence | Buying guides, credibility/science content that resolves a shopper's doubt |
+| `site-architecture` | Design site/page structure with intention | Product-page and comparison-page structure |
+| `copywriting` / `copy-editing` | Write and edit marketing copy | Product-page copy, comparison copy, reviews presentation |
+| `cro` | Optimize any marketing page or form | Product-page and comparison-page testing (checkout-specific CRO lives in Conversion) |
+| `popups` | Optimize popups, modals, slide-ins | Wishlist/save-for-later capture, light retargeting prompts |
+| `marketing-psychology` | Apply behavioral science to copy and CRO | Persuasion principles in research/comparison content |
+| `sales-enablement` | Build sales decks, one-pagers, demos | The B2B/wholesale buyer's research packet |
 
-### Retention skills
+### Conversion skills
 
-| Skill | What it does | Primary use in Retention |
+| Skill | What it does | Primary use in Conversion |
 |---|---|---|
-| `emails` | Design email sequences | Customer.io / Mailchimp / Resend flow building |
-| `churn-prevention` | Build cancellation flows, save offers, win-back | Reduce churn, recover failed payments |
-| `copywriting` / `copy-editing` | Email copy production | Lifecycle email content |
-| `paywalls` | (cross-cuts) — upgrade prompts in retention emails | Upsell within lifecycle |
-| `ab-testing` | Test email variants | Subject line, CTA, timing tests |
+| `signup` | Optimize signup/registration | Checkout account creation, loyalty-program signup at purchase, B2B account application — this is where AARRR's "Activation" signup work actually lands, since it gates the purchase |
+| `cro` | Optimize any marketing page or form | Checkout / cart-page conversion testing |
+| `paywalls` | Optimize paywalls and upgrade screens | Trial → paid conversion (the freemium-app equivalent of "checkout") |
+| `popups` | Optimize popups, modals, slide-ins | Exit-intent / cart-abandonment prompts |
+| `copywriting` / `copy-editing` | Checkout copy, CTAs | Trust-signal copy, guarantee/returns language |
+| `ab-testing` | Plan A/B tests | Checkout-step and paywall variant tests |
+| `pricing` | Audit and optimize pricing | Initial-purchase pricing structure, intro offers |
+| `marketing-psychology` | Apply behavioral science to copy and CRO | Trust signals and friction reduction at the point of purchase |
 
-### Referral skills
+### Loyalty skills (core, plus Referral & Advocacy)
 
-| Skill | What it does | Primary use in Referral |
+| Skill | What it does | Primary use in Loyalty |
 |---|---|---|
-| `referrals` | Plan and launch referral / affiliate / ambassador programs | Core skill for Section 7 |
+| `emails` | Design email sequences | Customer.io / Mailchimp / Resend flow building — post-purchase, replenishment, win-back, ambassador lifecycle |
+| `churn-prevention` | Build cancellation flows, save offers, win-back | Reduce churn, recover failed payments/subscriptions |
+| `post-purchase-experience` | Unboxing, product registration, cross-sell | The repeat-purchase groundwork this section opens with |
+| `referrals` | Plan and launch referral / affiliate / ambassador programs | Core skill for the Referral & Advocacy subsection |
 | `social` | Create ambassador-shareable content | Talking points, post templates |
-| `copywriting` | Ambassador / affiliate email copy | Recruitment, onboarding, communication |
 | `site-architecture` | Per-ambassador landing pages | Attribution surface |
-| `emails` | Ambassador lifecycle emails | Onboarding, monthly digest, payout notifications |
-
-### Revenue skills
-
-| Skill | What it does | Primary use in Revenue |
-|---|---|---|
-| `pricing` | Audit and optimize pricing | Plan tier structure, annual defaults, value metrics |
-| `paywalls` | Paywall optimization | Trial → paid, free → paid conversion |
-| `sales-enablement` | Build sales decks, one-pagers, demos | B2B sales support material |
-| `revops` | Revenue operations, lead lifecycle | Marketing → sales handoff |
-| `ab-testing` | Pricing experiments | Test annual default, intro pricing, tier consolidation |
+| `pricing` | Audit and optimize pricing | Subscription/replenishment pricing, repeat-purchase bundles |
+| `sales-enablement` | Build sales decks, one-pagers, demos | B2B/wholesale account-management and expansion material |
+| `revops` | Revenue operations, lead lifecycle | Marketing → account-management handoff for repeat/expansion revenue |
+| `copywriting` / `copy-editing` | Email and ambassador copy | Lifecycle content, recruitment, onboarding, communication |
+| `ab-testing` | Test email and offer variants | Subject line, CTA, timing, and repeat-offer tests |
 
 ### Cross-cutting / brand foundation skills
 
@@ -87,17 +83,17 @@ The plan's Section 11 makes this thesis explicit by:
 | `marketing-strategy` | Set up the `.agents/marketing-strategy.md` context file (positioning, ICP, voice) | Foundational — run first; every section of the plan references this |
 | `customer-research` | Conduct customer interviews + surveys | Section 2 + Section 3 (Current state) |
 | `marketing-psychology` | Apply behavioral science | Cross-cuts copy, CRO, paywalls |
-| `marketing-ideas` | The 139-idea library | Section 12 of plan (Idea bank) |
+| `marketing-ideas` | The 139-idea library | Section 11 of plan (Idea bank) |
 
-## MCPs and APIs mapped to AARRR
+## MCPs and APIs mapped to the retail funnel
 
-### Acquisition tooling
+### Awareness tooling
 
 | Tool | What it provides | Wired-at-client check |
 |---|---|---|
 | **Ahrefs API** | SEO data: keyword research, backlinks, competitor analysis | Required `AHREFS_API_KEY` in `.env` |
 | **DataForSEO API** | SERP data, keyword volume, competitor SERP analysis | Required API key |
-| **GA4 MCP** | Traffic by channel, conversion events, retention curves | Wired via gcp project + service account |
+| **GA4 MCP** | Traffic by channel, conversion events, funnel curves | Wired via gcp project + service account |
 | **GitHub MCP** | Repo work: marketing site (`site-name-promo` patterns), content authoring | Standard `gh` CLI auth + MCP server |
 | **Typefully MCP** | Social posting (LinkedIn, X, Threads, Bluesky) | Typefully account + API key |
 | **Google Ads MCP** | Ad account management, campaign creation, performance pulls | Wired post-budget-unlock |
@@ -105,47 +101,39 @@ The plan's Section 11 makes this thesis explicit by:
 | **dev-browser** | General-purpose browser automation | MCP server install |
 | **defuddle** | Clean markdown extraction from web pages | CLI install |
 | **Notion** | Internal knowledge directory access | Notion API key |
-| **Stripe MCP** | LTV math, paid-CAC reconciliation (cross-cuts to Revenue) | Stripe account + restricted key |
 
-### Activation tooling
-
-| Tool | What it provides |
-|---|---|
-| **App Store Connect** | Conversion rate by listing variant, install funnel | Usually manual + `dev-browser` for screenshots |
-| **GitHub MCP** | Mobile app repo for onboarding code edits |
-| **Figma / Pencil MCP** | Onboarding screen design + iteration |
-| **Customer.io MCP** | In-app messaging + lifecycle email coordination |
-| **Stripe MCP** | Subscription state for paywall logic |
-| **GA4 MCP** | Activation events instrumentation |
-
-### Retention tooling
+### Consideration tooling
 
 | Tool | What it provides |
 |---|---|
-| **Customer.io MCP** | The retention infrastructure — flow building, segmentation, sending |
-| **Shopify** | Hardware buyer events as lifecycle triggers |
-| **Stripe MCP** | Subscription state, churn cohorts, plan changes |
-| **GA4 MCP** | Session events, retention curves |
+| **App Store Connect** | Listing-variant performance, install funnel (the pre-download research surface) | Usually manual + `dev-browser` for screenshots |
+| **GitHub MCP** | Marketing site / comparison-page repo edits |
+| **Figma / Pencil MCP** | Product-page and comparison-page design + iteration |
+| **GA4 MCP** | Product-page engagement, session depth, review-read events |
+| **Judge.me / Yotpo / similar** | Review collection + display on product pages |
+
+### Conversion tooling
+
+| Tool | What it provides |
+|---|---|
+| **Stripe MCP** | Checkout/trial-to-paid state, initial-order economics, blended CAC payback math |
+| **Shopify** | Checkout events, cart-abandonment triggers, AOV by order |
+| **App Store Connect** | Trial → paid conversion funnel (for a hybrid subscription app) | Usually manual + `dev-browser` for screenshots |
+| **Customer.io MCP** | Cart-recovery / order-confirmation messaging coordination |
+| **GA4 MCP** | Checkout-funnel events, conversion-rate instrumentation |
+
+### Loyalty tooling (incl. Referral & Advocacy)
+
+| Tool | What it provides |
+|---|---|
+| **Customer.io MCP** | The loyalty infrastructure — flow building, segmentation, sending (post-purchase, replenishment, win-back, ambassador lifecycle) |
+| **Shopify** | Hardware/repeat-buyer events as lifecycle triggers |
+| **Stripe MCP** | Subscription state, churn cohorts, plan changes, repeat-order economics |
+| **GA4 MCP** | Session events, repeat-visit and retention curves |
 | **Resend / Mailchimp / SendGrid** | Alternatives to Customer.io for different stacks |
-
-### Referral tooling
-
-| Tool | What it provides |
-|---|---|
 | **Dub.co** | Ambassador attribution, short links, per-ambassador tracking |
-| **Stripe MCP** | Commission accounting + payouts via Connect |
 | **GitHub MCP** | Per-ambassador landing pages |
-| **Customer.io MCP** | Ambassador lifecycle (recruitment → onboarding → monthly digest → payout notifications) |
 | **Rewardful / Tolt / Mention Me** | Alternatives to Dub for affiliate management |
-
-### Revenue tooling
-
-| Tool | What it provides |
-|---|---|
-| **Stripe MCP** | Pricing tests, subscription analytics, churn cohort analysis, blended CAC math |
-| **Shopify** | Hardware transactions |
-| **GA4 MCP** | Revenue events |
-| **Customer.io MCP** | Paywall / pricing-related lifecycle |
 | **Notion** | Commercial knowledge directory |
 
 ### Cross-cutting tooling
@@ -161,7 +149,7 @@ The plan's Section 11 makes this thesis explicit by:
 
 ## Capability unlocks by capital stage
 
-The plan's Section 11 must include this table (or equivalent), specific to the client's current and projected capital stages.
+The plan's Section 10 must include this table (or equivalent), specific to the client's current and projected capital stages.
 
 | Tier | Headcount | Tooling | Channels live |
 |---|---|---|---|
@@ -173,7 +161,7 @@ The plan's Section 11 must include this table (or equivalent), specific to the c
 
 ## The concrete-example test
 
-Section 11 of the plan must include at least one concrete operational example that proves the stack thesis. The example should be:
+Section 10 of the plan must include at least one concrete operational example that proves the stack thesis. The example should be:
 - A specific event (not abstract claim)
 - From this client's actual history if possible (most credible)
 - Tied to a non-technical person executing via the stack (proves it works without dedicated engineering)
@@ -187,7 +175,7 @@ If the client has no such moment in their history yet, frame the example as the 
 
 ## When the stack doesn't apply (yet)
 
-For clients without MCP connections set up, frame Section 11 differently:
+For clients without MCP connections set up, frame Section 10 differently:
 - List the skills that DO apply with current tooling
 - Name which MCPs would unlock which sections of the plan
 - Treat MCP setup as a Q1 priority alongside the bedrock fixes

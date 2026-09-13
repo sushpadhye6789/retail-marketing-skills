@@ -1,6 +1,6 @@
 # Growth Playbook Catalog
 
-15 growth-loop archetypes, each grounded in a real, publicly documented brand mechanic. See `SKILL.md`'s Grounding Rule before adding to or citing this catalog — describe the mechanic; don't invent the metric.
+17 growth-loop archetypes, each grounded in a real, publicly documented brand mechanic. See `SKILL.md`'s Grounding Rule before adding to or citing this catalog — describe the mechanic; don't invent the metric.
 
 ---
 
@@ -211,3 +211,31 @@
 **Retail translation**: This is the loyalty-and-replenishment version of the same idea — the metric that matters isn't "did they buy once," it's "what share of their category spend now runs through us." A subscribe-and-save default, an auto-reorder setting, or a loyalty app that becomes the first place someone checks before any category purchase is the retail equivalent of Flow's rising percentage of characters typed.
 
 **AI-era delta**: The founder-to-enterprise seeding pattern — reach a small, high-influence audience first and let them become the advocates who bring the next, larger tier — maps to reaching a retailer's most engaged repeat customers or a niche community before broad paid reach. The AI-era wrinkle is where that seed audience is actually found now: increasingly founder/creator podcasts and niche newsletters rather than traditional PR or mass channels.
+
+---
+
+## 16. Live/AI-Curated Social Commerce at Scale
+
+**Mechanic**: Real-time live selling — the QVC watch-then-buy impulse — compounds on a platform (not a single seller's channel) because the platform's own discovery layer routes viewers to whichever live show fits them, and every successful seller's growth pulls in more sellers, more shows, and more reasons for buyers to keep coming back.
+
+**Why it compounds**: More sellers competing for the same buyer attention deepens selection and trust at the same time — a platform-level network effect distinct from any single brand's own live-selling effort. The flywheel is visible in the seller success rate itself becoming the recruiting pitch for the next wave of sellers.
+
+**Grounding**: Whatnot generated $8B in GMV in 2025, and gross merchandise volume in just the first half of 2026 already surpassed that full prior year's total. The platform adds roughly 650,000 new users per week, the number of sellers who've passed $1M in lifetime sales has more than doubled year over year, and the share earning a full-time living on the platform grew 25%. It raised $545M at a $20B valuation (nearly double its prior $11.5B mark) explicitly earmarked "to speed AI expansion" ([Tubefilter](https://www.tubefilter.com/2026/08/07/whatnot-series-g-funding-round-545-million-live-shopping/), [PYMNTS](https://www.pymnts.com/news/investment-tracker/2026/live-commerce-platform-whatnot-raises-545-million-to-speed-ai-expansion/)).
+
+**Retail translation**: This mechanic is already retail-native — no translation layer needed, unlike the AI-native SaaS entries above. The direct application: treat live selling as a recurring owned channel with a real cadence (weekly, not a one-off event), not a stunt bolted onto an existing catalog. A retailer building a following on a platform like this is renting the platform's discovery layer the same way a marketplace seller rents Amazon's — the same trade-offs `retail-media` covers apply here.
+
+**AI-era delta**: The funding is explicitly earmarked for AI expansion, meaning the discovery-matching layer itself (which viewers see which live show) is about to get materially better at routing the right buyer to the right seller — the next competitive edge goes to sellers who pair a live-selling cadence with whatever AI-curation surface the platform exposes, not sellers relying on organic browse and existing followers alone.
+
+---
+
+## 17. AI-Volume Creative Testing
+
+**Mechanic**: When the ad platform's own AI handles targeting and bidding automatically, targeting skill stops being a lever a brand controls — the only remaining lever is the volume and quality of creative variations fed into the system. Growth shifts from "who targets smarter" to "who produces and tests more creative, faster."
+
+**Why it compounds**: Every additional variation tested is a data point on what creative pattern actually works, and a brand producing 30x more variations at the same budget finds its winning patterns faster than a competitor still doing traditional low-volume production — a compounding creative-learning advantage, not a one-time cost saving.
+
+**Grounding**: Traditional retail video production runs $15,000+ per asset; AI-assisted production brings that under $500, enabling far higher variation volume at the same budget. TikTok Shop's global GMV is projected at $112.2B for 2026, and AI-influenced purchases drove $67B in retail sales overall, with AI-sourced referrals converting 31% more than non-AI sources (54% more on Thanksgiving 2025) ([Stormy AI](https://stormy.ai/blog/tiktok-shop-ads-2026-gmv-max-playbook), [Colaba](https://www.colaba.us/blogs/tiktok-shop-2026-global-ecommerce-growth)).
+
+**Retail translation**: Also directly retail-native — this is retail commerce ad infrastructure, not a borrowed SaaS mechanic. For any retailer running ads on a platform with automated bidding (TikTok Shop's GMV Max and its equivalents elsewhere): budget for creative production volume, not just media spend — see `ad-creative` for the bulk-generation workflow this pairs with directly.
+
+**AI-era delta**: This entry *is* the AI-era mechanic, not a mechanic with an AI-era wrinkle applied after the fact — the platform's own AI is commoditizing targeting expertise as a differentiator, and the competitive edge moves entirely to creative production throughput. A brand still competing on targeting sophistication here is optimizing a lever the platform has already taken control of.

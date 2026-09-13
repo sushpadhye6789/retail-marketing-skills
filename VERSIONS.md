@@ -39,7 +39,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | experiential-marketing | 1.1.0 | 2026-09-02 |
 | free-tools | 2.1.0 | 2026-09-02 |
 | grill-me | 1.0.0 | 2026-09-09 |
-| growth-playbooks | 1.1.0 | 2026-09-09 |
+| growth-playbooks | 1.2.0 | 2026-09-13 |
 | image | 2.0.3 | 2026-09-05 |
 | influencer-marketing | 1.0.2 | 2026-08-20 |
 | launch | 3.0.1 | 2026-09-02 |

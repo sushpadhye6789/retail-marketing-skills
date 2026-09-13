@@ -2,7 +2,7 @@
 name: growth-playbooks
 description: "When the user wants to apply proven growth mechanics from well-known brands to their own business — a referral loop, a flywheel, a scarcity drop, a community-led growth model — adapted for retail and updated for the AI era (AI shopping agents, AI-generated content, agentic commerce). Also use when the user mentions 'growth playbook,' 'growth loop,' 'flywheel,' 'how did [brand] grow,' 'growth hacking,' 'scale growth,' 'proven growth strategies,' or names a brand (Dropbox, Airbnb, Costco, Glossier, Supreme, Duolingo, Canva, Airtasker, Frank Body, Who Gives A Crap, Aesop, etc.) and asks how to apply what they did. For a broader list of one-off tactics not tied to a named brand mechanic, see marketing-ideas. For testing whether a differentiator is durable rather than borrowed, see moat-builder. For running any of these as the actual work, see compound-marketing."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Growth Playbooks
@@ -38,7 +38,7 @@ Apply these five as a lens across every entry below, not just where called out e
 
 ## The Catalog
 
-`references/playbook-catalog.md` holds the full library — 15 growth-loop archetypes grouped by mechanic: Viral & Referral Loops, Marketplace/Network-Effect Flywheels, Membership & Loyalty Flywheels, Community-Led & UGC Flywheels, Scarcity & Drop Marketing, Friction-Removal & Trial Loops, Content & SEO Flywheels, Brand-as-Activism & Earned Media, Customer-Service-as-Marketing, Subscription & Personalization Loops, Gamification & Habit Loops, No-Loyalty-Program Word of Mouth, Live/Social Commerce, AI-Native Product-Led Virality (Gamma, Cursor, Lovable), and Usage-Share Habit Expansion (Wispr Flow). Each entry has: the mechanic, why it compounds, the grounding brand example(s), a retail translation, and the AI-era delta specific to that mechanic.
+`references/playbook-catalog.md` holds the full library — 17 growth-loop archetypes grouped by mechanic: Viral & Referral Loops, Marketplace/Network-Effect Flywheels, Membership & Loyalty Flywheels, Community-Led & UGC Flywheels, Scarcity & Drop Marketing, Friction-Removal & Trial Loops, Content & SEO Flywheels, Brand-as-Activism & Earned Media, Customer-Service-as-Marketing, Subscription & Personalization Loops, Gamification & Habit Loops, No-Loyalty-Program Word of Mouth, Live/Social Commerce, AI-Native Product-Led Virality (Gamma, Cursor, Lovable), Usage-Share Habit Expansion (Wispr Flow), Live/AI-Curated Social Commerce at Scale (Whatnot), and AI-Volume Creative Testing (TikTok Shop GMV Max). Each entry has: the mechanic, why it compounds, the grounding brand example(s), a retail translation, and the AI-era delta specific to that mechanic — the last three entries are directly retail-native, so their "translation" is a straight application rather than a cross-industry adaptation.
 
 ## Common Mistakes
 

@@ -2,7 +2,7 @@
 name: marketing-strategy
 description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' 'brand tier,' 'are we a premium/luxury brand,' 'do we sell wholesale,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, strategic-priority, and B2B/wholesale-channel context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
 metadata:
-  version: 1.8.1
+  version: 1.8.2
 ---
 
 # Marketing Strategy
@@ -249,6 +249,7 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
 **Anxiety:**
 
 ## Customer Language
+*Thin on verbatim quotes? Run `grill-me` to conduct structured JTBD interviews and generate real customer language for this section and Personas above, rather than guessing at phrasing.*
 **How they describe the problem:**
 - "[verbatim]"
 **How they describe us:**

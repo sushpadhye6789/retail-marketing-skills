@@ -31,7 +31,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | copy-editing | 2.0.1 | 2026-08-18 |
 | copywriting | 2.1.0 | 2026-09-02 |
 | cro | 2.3.0 | 2026-09-04 |
-| customer-research | 2.1.1 | 2026-09-02 |
+| customer-research | 2.1.2 | 2026-09-13 |
 | digital-out-of-home | 1.0.2 | 2026-08-19 |
 | directory-submissions | 3.0.0 | 2026-09-02 |
 | discount-and-clearance | 1.2.0 | 2026-09-04 |
@@ -54,7 +54,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | marketing-loops | 1.3.5 | 2026-09-02 |
 | marketing-plan | 1.4.1 | 2026-09-02 |
 | marketing-psychology | 2.0.3 | 2026-08-20 |
-| marketing-strategy | 1.8.1 | 2026-09-09 |
+| marketing-strategy | 1.8.2 | 2026-09-13 |
 | media-plan | 1.0.2 | 2026-08-19 |
 | moat-builder | 1.0.5 | 2026-09-09 |
 | new-store-launch | 1.0.1 | 2026-09-02 |
@@ -76,7 +76,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | public-relations | 1.0.4 | 2026-09-02 |
 | range-review | 1.2.0 | 2026-09-04 |
 | referrals | 2.1.1 | 2026-09-02 |
-| repositioning | 1.0.2 | 2026-08-19 |
+| repositioning | 1.0.3 | 2026-09-13 |
 | retail-media | 1.3.1 | 2026-09-04 |
 | retention-and-winback | 2.2.0 | 2026-09-04 |
 | schema | 2.0.2 | 2026-09-02 |

@@ -2,7 +2,7 @@
 name: schema
 description: When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "product schema," "review schema," "breadcrumb schema," "Google rich results," "knowledge panel," "star ratings in search," or "add structured data." Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.
 metadata:
-  version: 2.0.2
+  version: 2.0.3
   volatility: dated
 ---
 
@@ -174,6 +174,7 @@ You can combine multiple schema types on one page using `@graph`:
 
 ## Related Skills
 
+- **product-feed**: For the underlying product data (price, availability, GTIN, images, reviews) that should feed both the paid Shopping feed and this schema markup from one source, not two separately maintained efforts — see `product-feed`'s "Overlap with Organic" section
 - **seo-audit**: For overall SEO including schema review
 - **ai-seo**: For AI search optimization (schema helps AI understand content)
 - **programmatic-seo**: For templated schema at scale

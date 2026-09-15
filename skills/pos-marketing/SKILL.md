@@ -2,7 +2,7 @@
 name: pos-marketing
 description: "When the user wants to plan point-of-sale or point-of-purchase marketing materials — in-store signage, shelf talkers, displays, or other physical/in-store marketing at the moment of purchase. Also use when the user mentions 'POS,' 'point of sale,' 'point of purchase,' 'POP display,' 'shelf talker,' 'end cap,' 'in-store signage,' 'in-store display,' or 'store display.' Scope note: this covers point-of-sale marketing materials and execution, not point-of-sale transaction systems/software — if the request is actually about POS system data or checkout software, that's outside this repo's marketing scope. For the digital retail-platform counterpart, see retail-media."
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Point-of-Sale (POS) Marketing
@@ -89,6 +89,8 @@ POS materials need to stay in sync with what's happening everywhere else, not ru
 ---
 
 ## Measurement
+
+**This section is a gate, not optional** — see `AGENTS.md`'s Measurement Discipline rule: an in-store activation plan isn't complete without naming which method below applies, or an explicit "not measurable yet" and why.
 
 Harder to directly attribute than digital channels — POS influence is largely invisible to standard ecommerce attribution (see `attribution`'s blind-spots framing; in-store influence on a later online purchase, or vice versa, is a real but hard-to-track effect). Proxy measures worth using instead:
 

@@ -2,7 +2,7 @@
 name: storytelling
 description: "When the user wants to construct a brand, founder, product, or customer narrative — the underlying story arc, not the finished page copy. Also use when the user mentions 'storytelling,' 'brand story,' 'narrative,' 'founder story,' 'origin story,' 'story arc,' 'narrative framework,' 'tell a story,' or 'case study story.' This is the narrative-construction layer that feeds copywriting (page-level execution), video (script/production), social (carousel/post narrative), tentpole-campaign (brand campaign story), and public-relations (press narrative) — it doesn't write the finished page itself. For the finished page copy itself, see copywriting; for a video script's production, see video."
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Storytelling
@@ -82,7 +82,7 @@ This skill builds the arc; these skills execute it:
 - **social**: carousel/post-level narrative — see `social/references/carousel-frameworks.md`'s five slide-by-slide architectures, which are this skill's structures compressed further for a swipeable format
 - **tentpole-campaign**: the story a major brand campaign is built around
 - **public-relations**: press narrative and pitch angle
-- **sales-enablement**: the narrative arc a sales deck or one-pager should follow
+- **trade-and-dealer-enablement**: the narrative arc a sales deck or one-pager should follow
 
 ---
 

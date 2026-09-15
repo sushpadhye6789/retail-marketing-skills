@@ -2,7 +2,7 @@
 name: retail-media
 description: "When the user wants to plan or optimize advertising, or organic visibility and the Buy Box, on a retailer's own platform. Also use when the user mentions 'retail media,' 'Amazon Ads,' 'Sponsored Products,' 'Walmart Connect,' 'Instacart Ads,' 'Cartology,' 'Coles 360,' 'retail media network,' 'RMN,' 'share of search,' 'retail data clean room,' 'Buy Box,' 'marketplace ranking,' 'marketplace SEO,' or 'seller rating.' Distinct from ads, which covers the open web and social platforms — retail media means advertising and organic visibility inside a retailer's own site/app/in-store environment, reaching shoppers already in that retailer's shopping context. For the physical in-store counterpart, see pos-marketing. For the product data retail media depends on, see product-feed."
 metadata:
-  version: 1.3.1
+  version: 1.3.2
   volatility: dated
 ---
 
@@ -72,6 +72,8 @@ Retail media spend is frequently funded, in whole or part, through supplier-fund
 ---
 
 ## Measurement
+
+**An always-on retail media placement is subject to `AGENTS.md`'s Measurement Discipline gate** — name the measurement method below before treating an ongoing placement as set up, not just as a closing nicety.
 
 Retail media's closed-loop nature (the ad and the purchase happen on the same platform) makes its reporting generally more trustworthy than open-web platform-reported attribution — but "more trustworthy" isn't "automatically incremental." Apply the same discipline `attribution` uses elsewhere:
 

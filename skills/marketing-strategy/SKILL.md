@@ -2,7 +2,7 @@
 name: marketing-strategy
 description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' 'brand tier,' 'are we a premium/luxury brand,' 'do we sell wholesale,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, strategic-priority, and B2B/wholesale-channel context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
 metadata:
-  version: 1.8.1
+  version: 1.8.2
 ---
 
 # Marketing Strategy
@@ -347,4 +347,4 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
 - **pricing** / **offers**: For monetization decisions that should trace back to Section 13's priorities
 - **discount-and-clearance** / **overstock** / **brand-guidelines** / **loyalty** / **ads**: For skills that check Section 14's brand tier before applying tactics that diverge by tier (see [references/brand-tier-guide.md](references/brand-tier-guide.md))
 - **discount-and-clearance** / **overstock** / **ads** / **product-feed** / **retail-media** / **pos-marketing**: For skills that check Section 15's distribution model before recommending a tactic that could conflict with dealer channels (see [references/distribution-model-guide.md](references/distribution-model-guide.md))
-- **cold-email** / **sales-enablement** / **revops** / **prospecting**: The B2B/wholesale toolkit Section 16 flags — relevant only if that channel applies, not part of the default consumer-facing workflow (see [references/b2b-wholesale-guide.md](references/b2b-wholesale-guide.md))
+- **cold-email** / **trade-and-dealer-enablement** / **prospecting**: The B2B/wholesale toolkit Section 16 flags — relevant only if that channel applies, not part of the default consumer-facing workflow (see [references/b2b-wholesale-guide.md](references/b2b-wholesale-guide.md))

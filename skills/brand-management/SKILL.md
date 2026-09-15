@@ -2,7 +2,7 @@
 name: brand-management
 description: "When the user wants to track brand health, decide on brand architecture (house of brands vs. branded house vs. sub-brands), evaluate a brand extension, or govern brand consistency across teams, channels, and dealers over time. Also use when the user mentions 'brand management,' 'brand health,' 'brand equity,' 'brand tracking,' 'brand architecture,' 'sub-brand,' 'house of brands,' 'branded house,' 'brand extension,' 'brand governance,' 'brand consistency,' or 'brand audit.' Scope note: marketing-strategy defines positioning and brand-guidelines defines visual/verbal identity, each largely as a point-in-time capture exercise; this skill is the ongoing discipline of tracking whether the brand is actually landing as intended, staying consistent everywhere it appears, and evolving deliberately as the business changes — it reads both rather than duplicating them. For initial positioning capture, see marketing-strategy; for the visual identity document itself, see brand-guidelines."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Brand Management
@@ -32,6 +32,8 @@ Gather this context (ask if not provided):
 ---
 
 ## Brand Health Tracking
+
+**This is a gate, not optional** — see `AGENTS.md`'s Measurement Discipline rule: if no awareness survey, NPS trend, or review-sentiment data exists to track against, say so plainly and name what's missing rather than treating brand health as tracked when it isn't.
 
 Reuse `attribution`'s "Measuring awareness, not just conversion" section directly for the quantitative side — brand lift studies (aided/unaided recall, favorability, purchase intent) and share-of-voice tracking use the same methodology whether the question is "did this campaign build awareness" or "how is brand health trending over time." The difference here is cadence: brand management tracks this as an ongoing signal, not a single campaign's result.
 

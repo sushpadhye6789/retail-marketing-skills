@@ -2,7 +2,7 @@
 name: offers
 description: "When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Also use when the user mentions 'offer,' 'offer design,' 'build an offer,' 'grand slam offer,' 'irresistible offer,' 'value stack,' 'bonus stack,' 'guarantee,' 'risk reversal,' 'money-back guarantee,' 'scarcity,' 'urgency,' 'high-ticket offer,' 'productize a service,' 'naming an offer,' 'payment plan,' 'down-sell,' 'upsell offer,' or 'why isn't my offer converting.' Best for ecommerce/DTC products, services, agencies, courses, coaching, info products, high-ticket B2B/wholesale, and direct-response. If you run a subscribe-and-save program with tiered plans, read pricing first — plan structure and packaging do more work there. For price level (tiers, value metric), see pricing; for the offer page, see copywriting; for the launch moment, see launch; for sales collateral, see trade-and-dealer-enablement."
 metadata:
-  version: 1.2.1
+  version: 1.2.2
 ---
 
 # Offer Design
@@ -80,7 +80,7 @@ A complete offer has six components. Skip any one and conversion suffers.
 | # | Component | Question it answers |
 |---|-----------|---------------------|
 | 1 | **Core deliverable** | What do they get? |
-| 2 | **Bonus stack** | What else do they get that makes the core feel undervalued? |
+| 2 | **Bonus stack** | What else do they get that makes the core feel undervalued? For each element in the offer, ask directly: is this required for the core deliverable to function, or is it value stacked on top? If everything comes back "required," the bonus stack is empty — that's a construction gap worth fixing, not just a box to note as missing. |
 | 3 | **Guarantee** | What happens if it doesn't work? |
 | 4 | **Scarcity / urgency** | Why now, not later? |
 | 5 | **Name** | What is this thing called? |
@@ -113,7 +113,7 @@ When the user says "my offer isn't converting" or "I want to improve my offer":
 1. **Identify the business type** — ecommerce/DTC, service, course, coaching, info product, agency, high-ticket B2B/wholesale. The right playbook is type-specific.
 2. **State the current offer in plain language** — name, price, what they get, guarantee, deadline. Write it down even if it lives in scattered places now.
 3. **Run the value equation** — score each of the four levers 1–10. The lowest is the binding constraint.
-4. **Audit the anatomy** — which of the six components is missing or weak?
+4. **Audit the anatomy** — which of the six components is missing or weak? For Component 2 specifically, force the required-vs-bonus split per element rather than accepting a bundle where everything is framed as required.
 5. **Pick one lever to fix this iteration** — don't rebuild everything. The biggest lever is usually the one currently scoring lowest.
 6. **Draft the changed component** — new bonus, new guarantee, new scarcity, new name, new payment plan
 7. **Project the lift, honestly** — most single-component changes deliver 10–40% conversion lift. Anyone promising 5x is selling something. Two consecutive iterations on different levers can stack to 2–3x.

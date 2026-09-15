@@ -117,4 +117,4 @@ A different lever from sponsoring or exhibiting — trading expertise for stage 
 - **public-relations** — press/media angles around a speaking slot or major sponsorship
 - **content-strategy** / **video** / **ai-seo** — turning event/speaking content into a durable, citable asset
 - **attribution** — the incrementality and self-reported-attribution discipline for crediting a sponsorship's results honestly
-- **revops** — routing and scoring leads/contacts captured at a sponsored event
+- **prospecting** — routing and scoring leads/contacts captured at a sponsored event

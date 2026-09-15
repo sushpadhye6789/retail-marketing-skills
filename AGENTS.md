@@ -52,6 +52,16 @@ Omit `volatility` entirely for evergreen content — that's the default and the 
 
 **Deliberately left untagged despite a platform/algorithm mention**: `social` and `attribution` (their algorithm references are evergreen advice about *reasoning under* volatility, not content that itself depends on a specific current platform state); `pricing` and `content-strategy` (a single evergreen-principle sub-section each, not core dependency); `ad-creative` (one example folder mentions "App Store," not core). Add the tag to any other skill when you notice its content is genuinely platform- or algorithm-dependent — don't tag preemptively just because a platform name appears once.
 
+## Measurement Discipline Is a Gate, Not a Closing Section
+
+`pos-marketing`, `supplier-funded-marketing`, and `brand-management` each independently surfaced the same failure shape in testing: a well-designed program or input structure with no defined way to check whether it's working — in-store materials with no compliance-monitoring mechanism, a dealer co-op fund with no pre-approval gate or incremental-ROI measurement, a brand with no awareness/NPS/sentiment tracking at all. Each skill already names the right method (`pos-marketing` points to lift analysis, `supplier-funded-marketing` points to `attribution`'s holdout methodology, `brand-management` points to review-sentiment tracking) — the gap isn't missing knowledge, it's that a skill's `Measurement` section sits after the deliverable as something easy to skip, rather than gating completion the way Section 12 already requires naming what's deprioritized.
+
+**The rule**: for a Tier 2 action that establishes a funded, ongoing, or in-market program (a POS rollout, a co-op/MDF fund, a loyalty or brand-health initiative, an always-on retail media placement) — not routine one-off drafting — a skill cannot treat the task as complete without stating one of:
+1. **Which measurement method applies** — a specific incrementality/holdout comparison (see `attribution/references/incrementality-checkpoint.md`), a lift analysis, or the specific proxy metric and cadence being tracked; or
+2. **An explicit "not measurable yet" with the named blocker** — e.g. no baseline data exists, no compliance-check mechanism exists yet — rather than silently treating the program as done without one.
+
+This doesn't add new content to most skills — the methodology already exists in `attribution` and is already cross-referenced from the skills above. It changes the posture from optional-and-skippable to a required field before completion, the same way a missing `.agents/marketing-strategy.md` already gets flagged plainly rather than silently worked around.
+
 ## Drift Checks (Scheduled Re-Runs, Not Auto-Execution)
 
 Some things this repo relies on can go stale silently between sessions: a dealer's advertised pricing drifting off MAP, a strategy-doc changelog entry under-describing how material a Section 5/6/14 change actually was, POS materials that were produced but never verified as placed. The fix isn't a new skill — it's re-running an *existing* skill on a schedule against current `.agents/` state and reporting what it finds. This follows the same pattern `skill-staleness-check.yml` already proved out for skill content itself.

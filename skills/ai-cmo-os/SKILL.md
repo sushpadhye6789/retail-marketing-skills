@@ -2,7 +2,7 @@
 name: ai-cmo-os
 description: "When the user wants to build an AI Chief Marketing Officer operating system with Claude Code orchestration, isolated secure execution, browser-based supervision, and human-in-the-loop strategic workflows that produce real business metrics. Also use when the user mentions 'AI CMO,' 'marketing operating system,' 'Claude Code orchestrator,' 'isolated server instances,' 'browser-based execution,' 'human-in-the-loop,' 'strategic business metrics,' 'no AI slop,' 'state graph,' 'context boundaries,' or 'marketing supervision UI.' Use this for building a secure, strategic AI-powered marketing operations platform that executes marketing workflows with Claude Code as the orchestrator."
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # AI Chief Marketing Officer Operating System (v1.1.0)
@@ -431,7 +431,6 @@ Workflow Trigger →
 - **trade-and-dealer-enablement** - Channel enablement that AI CMO orchestrates for wholesale/distributor success
 - **ai-seo** - AI search optimization that AI CMO implements to improve visibility in AI-generated answers
 - **cold-email** - Outreach sequences that AI CMO generates and personalizes for wholesale/retail buyer acquisition
-- **sales-enablement** - Sales collateral that AI CMO creates and distributes to enable channel partners
 - **content-strategy** - Content planning that AI CMO develops to support campaigns and SEO
 - **copywriting** - Copy generation that AI CMO automates for ads, emails, landing pages, and social
 - **analytics** - Performance measurement that AI CMO tracks to measure campaign effectiveness and ROI

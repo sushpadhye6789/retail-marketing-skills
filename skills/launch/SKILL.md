@@ -2,7 +2,7 @@
 name: launch
 description: "When the user wants to plan a product, collection, or new-store launch, or a major restock/drop announcement. Also use when the user mentions 'launch,' 'product launch,' 'collection launch,' 'drop,' 'restock announcement,' 'go-to-market,' 'pre-order,' 'early access,' 'waitlist,' 'limited release,' 'launch checklist,' 'GTM plan,' or 'we're about to launch.' Use this whenever someone is preparing to release a product, collection, or drop publicly. For a new physical-location opening, see new-store-launch. For ongoing marketing after launch, see marketing-ideas. For the offer being launched (bonuses, guarantees, scarcity, naming), see offers."
 metadata:
-  version: 3.0.1
+  version: 3.0.2
 ---
 
 # Launch Strategy
@@ -367,5 +367,5 @@ Even small "new arrivals" updates remind customers the brand is actively refresh
 - **loyalty**: For giving loyalty VIPs early access ahead of the public release
 - **content-strategy**: For comparison/buying-guide pages and atomizing launch-day coverage
 - **free-tools**: For a hands-on preview tool (try-on, size finder, configurator) for a considered-purchase launch
-- **sales-enablement**: For launch sell-in collateral if the launch also involves trade/wholesale accounts
+- **trade-and-dealer-enablement**: For launch sell-in collateral if the launch also involves trade/wholesale accounts
 - **media-plan**: For sizing the reach/frequency goal and sequencing paid media across channels for a launch big enough to need coordinated media weight

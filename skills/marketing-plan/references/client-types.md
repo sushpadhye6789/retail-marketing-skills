@@ -355,6 +355,54 @@ The 13-section plan structure stays consistent across client types. What changes
 
 ---
 
+## Archetype 8 — Dealer/Trade-Channel Physical Goods
+
+### Core characteristics
+- Sells through an independent dealer/retailer network as the primary channel, alongside a growing direct ecommerce channel (see `marketing-strategy` Section 15's Distribution Model)
+- No venture funding, no ARR — an established or growing manufacturer, often profitable, with budget cycles tied to internal approval and demonstrated ROI, not funding rounds (see `references/funding-stage-unlocks.md`'s capital-source framing)
+- Purchase decision is often trade/professional (a considered, sales-assisted or dealer-assisted buy) rather than a consumer impulse purchase, even where a direct ecommerce channel exists in parallel
+- Wholesale/dealer margin structure and MAP/channel-conflict considerations are a real, ongoing constraint on pricing and promotion decisions that don't exist for a pure DTC or SaaS business
+
+### AARRR emphasis
+
+**Acquisition:**
+- Dealer sell-in and range/shelf presence (`trade-marketing`) — often the primary acquisition lever, not an afterthought
+- Trade shows and dealer-collaboration co-funded programs (`experiential-marketing`, `supplier-funded-marketing`)
+- Search and paid split between the brand's own site (driving awareness and direct-channel demand) and surfacing dealer locations/stock (`ads`, `retail-media`, `product-feed`) — not App Store/Amazon-first framing
+- Trade/peer credibility and professional-community word-of-mouth (see Referral below)
+
+**Activation:**
+- Two distinct tracks, not one funnel: the in-store or dealer-assisted first purchase experience (demo quality, in-store education, staff product knowledge) for the dealer channel, and standard ecommerce onboarding (checkout, confirmation, first-use guidance) for the direct channel
+- `pos-marketing` and `trade-and-dealer-enablement` own the dealer-side track; `post-purchase-experience` owns the direct-channel track
+
+**Retention:**
+- Two distinct questions, not one: dealer relationship health (repeat sell-in, category-captain status, co-op program utilization — see `trade-marketing`) and end-customer retention (loyalty/warranty registration, repurchase, replenishment — see `loyalty`, `retention-and-winback`)
+- Don't blend a dealer-network health metric and an end-customer retention metric into one number — they answer different questions and need different fixes
+
+**Referral:**
+- Trade/peer credibility and word-of-mouth within a professional community (a tradesperson recommending a brand to another) rather than a consumer viral/sharing mechanic — see `community-marketing` for the professional-community version of this
+- Dealer-to-customer recommendation (a trusted dealer's staff endorsement) is itself a referral channel worth planning for explicitly, distinct from customer-to-customer referral
+
+**Revenue:**
+- Wholesale/dealer margin structure alongside direct-channel pricing, explicitly checked against the channel-conflict and MAP considerations `marketing-strategy` Section 15 already tracks — a dimension none of the other archetypes need to handle
+- `discount-and-clearance` and `offers` both need the MAP floor before recommending a discount depth (see `AGENTS.md`'s fail-closed rule)
+- `attribution`'s Dealer/Trade + Direct Omnichannel fork (`references/by-business-type.md`) is the attribution model this archetype should default to, not the standard ecommerce or B2B/Wholesale fork alone
+
+### Skills emphasis
+- `trade-marketing` + `trade-and-dealer-enablement` (heavy weight — the primary channel motion)
+- `supplier-funded-marketing` for co-op/MDF-funded dealer programs
+- `pos-marketing` for in-store execution and compliance
+- `product-feed` for the two-feed distinction (own Shopping feed vs. dealer-catalog supply feed)
+- `attribution`'s omnichannel fork for measurement across both channels
+
+### Tier-1 budget priority
+- Dealer collateral and line sheets (`trade-and-dealer-enablement`)
+- Co-op program design if none exists (`supplier-funded-marketing`)
+- Direct-channel ecommerce fundamentals in parallel, not instead of, the dealer channel
+- MAP monitoring — a real, low-cost first step even without full pricing-compliance tooling (see `AGENTS.md`'s Drift Checks convention)
+
+---
+
 ## How to use this doc when drafting a plan
 
 When you start drafting Sections 4–8 (AARRR), identify the client's archetype (or hybrid if applicable) and lean into the patterns above.

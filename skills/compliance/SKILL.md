@@ -2,7 +2,7 @@
 name: compliance
 description: "When the user wants to check a marketing decision, claim, or campaign for compliance risk — advertising claims, required disclosures, email/SMS consent, data privacy, or pricing-claim accuracy. Also use when the user mentions 'marketing compliance,' 'advertising compliance,' 'FTC disclosure,' 'ad claims,' 'substantiation,' 'email compliance,' 'CAN-SPAM,' 'GDPR,' 'data privacy marketing,' 'cookie consent,' 'was/now pricing,' 'drip pricing,' 'affiliate disclosure,' 'influencer disclosure,' or 'accessibility compliance.' This skill flags where a marketing decision touches a compliance-risk area and what the general principle is — it is not legal advice and does not assert jurisdiction-specific legal thresholds, which change over time and vary by region. Route anything with real stakes to qualified legal/compliance counsel before publishing."
 metadata:
-  version: 1.0.3
+  version: 1.0.4
 ---
 
 # Marketing Compliance
@@ -82,6 +82,8 @@ Consent requirements for tracking (cookies, pixels, first-party data collection)
 - **"Was/now" pricing** needs the "was" price to be a genuine, recently-charged price — not inflated specifically to make a discount look bigger. This is the direct compliance counterpart to `discount-and-clearance`'s honest-messaging principle and `offers`'s Banned Vocabulary ("Worth $X or $Y value with no comparable" is both bad copywriting and, in several jurisdictions, a real compliance risk).
 - **Drip pricing** (revealing mandatory fees only late in checkout, after the customer has committed attention to the purchase) is under increasing regulatory scrutiny in multiple jurisdictions — the general principle worth flagging is: show the real total price as early as practical, not just the headline number.
 - **MAP/RRP disclaimers**, if the business sells through dealers — see `pricing`'s competitive-price-monitoring reference and `marketing-strategy/references/distribution-model-guide.md`.
+- **Scarcity/availability claims during a genuine supply disruption** need the same honesty standard as any other urgency claim — a real shortage described accurately is fine; a real shortage dressed up with fake-countdown or artificial-scarcity language on top of it compounds two dark patterns into one message. See `marketing-strategy/references/disruption-response-guide.md`.
+- **Category-specific claim risk varies by vertical** — a therapeutic-sounding claim on a cosmetic, an unsubstantiated nutrition/health claim on a food product, or a safety-rating claim on hardware/electronics each carry different regulatory exposure than the same style of claim in a lower-risk category. See `marketing-strategy/references/vertical-nuance-guide.md`'s Regulatory & compliance load section before treating one vertical's claim norms as universal.
 
 **Flag for legal review**: any "was/now" price claim where the "was" price wasn't the genuine recent price, any checkout flow where mandatory fees appear only at the final step.
 

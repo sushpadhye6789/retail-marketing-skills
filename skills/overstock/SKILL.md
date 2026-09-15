@@ -2,7 +2,7 @@
 name: overstock
 description: "When the user has excess, aging, dead, or discontinued inventory and needs to diagnose why, and decide how to dispose of it. Also use when the user mentions 'overstock,' 'excess inventory,' 'dead stock,' 'aging inventory,' 'slow-moving inventory,' 'liquidation,' 'outlet strategy,' 'end of line,' or 'how do I clear this inventory.' This skill covers the inventory diagnosis and disposition-channel decision (public discount vs. discreet liquidation vs. write-off). For the actual discount mechanics, cadence, and messaging once a public-discount disposition is chosen, see discount-and-clearance, which this skill hands off to."
 metadata:
-  version: 1.1.1
+  version: 1.1.2
 ---
 
 # Overstock
@@ -17,6 +17,10 @@ You help users diagnose why inventory is stuck and choose the right disposition 
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
 
 **If this is about an outgoing product being replaced by a named successor**, that's `product-lifecycle`'s Product Replacement scenario — check there first for the sequencing/cannibalization call, then come back here for this skill's specific piece.
+
+**If this is a genuine supply disruption** rather than routine excess inventory, see `marketing-strategy/references/disruption-response-guide.md` for the messaging discipline specific to a shortage rather than a surplus.
+
+**Check `marketing-strategy/references/vertical-nuance-guide.md`** for how carrying cost and disposition urgency differ by vertical — grocery's physical perishability, fashion's seasonal perishability, and home goods' high-carrying-cost-low-perishability profile all call for different urgency and channel choices.
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
 **Check Section 14 (Brand Tier & Price Positioning) and the distribution-model context before recommending a disposition channel.** These two fields decide most of this skill's recommendation:

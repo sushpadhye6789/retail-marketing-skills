@@ -2,7 +2,7 @@
 name: marketing-strategy
 description: "When the user wants to create or update their foundational marketing strategy and positioning context, or needs help thinking through marketing strategy at the level of 'who are we, who do we sell to, why do we win, and where do we focus.' Also use when the user mentions 'marketing strategy,' 'product marketing,' 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' 'strategic priorities,' 'what should we focus on,' 'brand tier,' 'are we a premium/luxury brand,' 'do we sell wholesale,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/marketing-strategy.md` that all other skills reference for product, audience, positioning, strategic-priority, and B2B/wholesale-channel context. For the tactical 90-day/12-month execution plan built from this strategy, see marketing-plan."
 metadata:
-  version: 1.8.3
+  version: 1.9.0
 ---
 
 # Marketing Strategy
@@ -62,6 +62,7 @@ Push for verbatim customer language — exact phrases are more valuable than pol
 - Product category (what "shelf" you sit on—how customers search for you)
 - Product type (ecommerce/DTC, marketplace, brick-and-mortar retail, service, etc.)
 - Business model and pricing
+- **Vertical**: which retail category this is closest to (fashion/apparel, grocery/food & beverage, beauty & personal care, electronics & appliances, hardware/tools & trade, home goods & furniture, or another) — this changes default guidance on perishability/clearance timing, returns behavior, regulatory load, promotional calendar, and sampling/trial tactics across several skills. See [references/vertical-nuance-guide.md](references/vertical-nuance-guide.md) for the tactic-by-tactic breakdown; use the closest-fitting vertical and name the deviation if the business genuinely spans more than one.
 
 ### 2. Target Audience
 - For B2B: target company type (industry, size, stage), target decision-makers (roles, departments)
@@ -182,6 +183,9 @@ This section exists so downstream skills (`offers`, `discount-and-clearance`, `o
 | [examples.md](references/examples.md) | Weak-vs-strong worked examples for Sections 5, 6, and 12, for both an ecommerce/DTC and a B2B/wholesale business |
 | [team-pillar-alignment.md](references/team-pillar-alignment.md) | Mapping this skill catalog to a multi-person marketing team's real pillars (loyalty, ecommerce, digital, campaigns, data, merchandising, creative) so each team member's priorities visibly ladder up to this document instead of drifting independently |
 | [marketing-philosophy.md](references/marketing-philosophy.md) | Before filling in Section 12 — the decision lenses behind *how* to prioritize (Pareto, Byron Sharp's penetration-led growth, Binet & Field's 60:40 brand:performance split, Category Entry Points, the top-3 rule), including where Pareto and Sharp actively disagree and how the 60:40 split resolves it |
+| [vertical-nuance-guide.md](references/vertical-nuance-guide.md) | Filling in Section 1's Vertical field, and for any skill checking how perishability, returns behavior, regulatory load, promotional calendar, or sampling tactics should shift by product category |
+| [competitive-pressure-guide.md](references/competitive-pressure-guide.md) | A competitor is undercutting on price repeatedly and deliberately — match/hold/differentiate/exit decision framework, gated by brand tier and a real margin floor |
+| [disruption-response-guide.md](references/disruption-response-guide.md) | A geopolitical event, pandemic-style shock, logistics crisis, or tariff change has disrupted supply — marketing's specific job (communication, demand-shaping, channel coordination), scoped explicitly away from supply-chain management itself |
 
 ---
 
@@ -348,3 +352,6 @@ After gathering information, create `.agents/marketing-strategy.md` with this st
 - **discount-and-clearance** / **overstock** / **brand-guidelines** / **loyalty** / **ads**: For skills that check Section 14's brand tier before applying tactics that diverge by tier (see [references/brand-tier-guide.md](references/brand-tier-guide.md))
 - **discount-and-clearance** / **overstock** / **ads** / **product-feed** / **retail-media** / **pos-marketing**: For skills that check Section 15's distribution model before recommending a tactic that could conflict with dealer channels (see [references/distribution-model-guide.md](references/distribution-model-guide.md))
 - **cold-email** / **trade-and-dealer-enablement** / **prospecting**: The B2B/wholesale toolkit Section 16 flags — relevant only if that channel applies, not part of the default consumer-facing workflow (see [references/b2b-wholesale-guide.md](references/b2b-wholesale-guide.md))
+- **discount-and-clearance** / **overstock** / **compliance** / **post-purchase-experience** / **experiential-marketing**: For skills that check Section 1's vertical before defaulting to a perishability, returns, compliance, or sampling assumption that's right for a different category (see [references/vertical-nuance-guide.md](references/vertical-nuance-guide.md))
+- **pricing** / **price-elasticity** / **competitor-profiling**: For a sustained, deliberate competitor price-undercutting pattern — see [references/competitive-pressure-guide.md](references/competitive-pressure-guide.md) for the match/hold/differentiate/exit framework
+- **compliance** / **ads** / **trade-and-dealer-enablement** / **loyalty**: For a geopolitical, pandemic-style, or logistics-driven supply disruption — see [references/disruption-response-guide.md](references/disruption-response-guide.md) for marketing's specific role during one

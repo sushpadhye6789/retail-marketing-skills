@@ -2,7 +2,7 @@
 name: cold-email
 description: "When the user wants to write cold outreach emails to retail buyers, wholesale distributors, or trade partners. Also use when the user mentions 'cold email,' 'outbound email,' 'wholesale outreach,' 'retail buyer outreach,' 'distributor outreach,' 'trade prospecting,' or 'follow-up email sequence.' Use this for writing B2B cold emails and follow-up sequences that get replies from retail and wholesale accounts."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Cold Email for Retail & Wholesale Trade (v2.1.0)
@@ -224,3 +224,13 @@ Best,
 * [ ] **Margin Clarity:** Explicitly state the gross margin percentage (e.g., 50% Keystone, 65% D2C) in the first two touchpoints.
 * [ ] **Low-Friction CTA:** Focus early emails on sending samples or line sheets rather than asking for immediate inventory purchase commitments.
 * [ ] **EDI & Logistics Readiness:** For enterprise chain buyers, mention GS1 barcode compliance, pallet dimensions, and distribution/fulfillment capability up front.
+
+---
+
+## Related Skills
+
+- **trade-marketing**: For the actual sell-in case and buyer presentation once a reply turns into a real conversation — this skill gets the door open, trade-marketing walks through it
+- **trade-and-dealer-enablement**: For the line sheets, co-op programs, and dealer incentive structures this skill's emails reference and attach
+- **prospecting**: For building and qualifying the target list this skill writes to
+- **compliance**: For substantiating any margin, velocity, or performance stat used in outreach copy before it goes to a real buyer
+- **marketing-strategy**: Section 16 (B2B/Wholesale Channel) for the Business vs. Commercial segmentation this skill's pitch flexes by

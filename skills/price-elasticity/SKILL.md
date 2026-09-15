@@ -2,7 +2,7 @@
 name: price-elasticity
 description: "When the user wants to understand or estimate how demand responds to a price change, decide how much they can raise prices, size a discount, or reason about willingness-to-pay data as an economic effect rather than just a survey result. Also use when the user mentions 'price elasticity,' 'elastic demand,' 'inelastic demand,' 'price sensitivity,' 'demand curve,' 'how much can I raise prices,' 'will a price increase hurt sales,' 'how deep should this discount be,' 'cross-price elasticity,' or 'price test.' For willingness-to-pay research methods (Van Westendorp, MaxDiff) and tier structure, see pricing — this skill covers the causal, measured relationship between price and quantity, not stated preference. For sizing a specific markdown, see discount-and-clearance; for an inventory liquidation/disposition decision, see overstock. Both use this skill's method."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Price Elasticity
@@ -15,6 +15,8 @@ You help users understand and estimate how demand for their product responds to 
 
 **Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
+
+**If this is about an outgoing product being replaced by a named successor**, that's `product-lifecycle`'s Product Replacement scenario — check there first for the sequencing/cannibalization call, then come back here for this skill's specific piece.
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Pay attention to Section 14 (Brand Tier & Price Positioning) if present — see "Tier and elasticity" below, tier changes what a "normal" elasticity pattern looks like and what to do about it.
 
 Gather this context (ask if not provided):

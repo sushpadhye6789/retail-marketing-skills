@@ -2,7 +2,7 @@
 name: product-feed
 description: "When the user wants to build, audit, or optimize a product data feed for shopping ads or catalog-driven marketing. Also use when the user mentions 'product feed,' 'Merchant Center,' 'Google Shopping feed,' 'Meta catalog,' 'catalog feed,' 'feed disapprovals,' 'feed optimization,' 'feed rules,' 'supplemental feed,' 'GTIN,' 'feed errors,' or 'my products aren't showing in Shopping.' Covers the product data layer that Shopping/PMax, Meta/Instagram catalog ads, and (via schema) some organic search surfaces all consume. For running the campaigns that use the feed, see ads. For the structured-data/schema markup version of the same product attributes, see schema."
 metadata:
-  version: 1.2.1
+  version: 1.2.3
   volatility: dated
 ---
 
@@ -20,6 +20,10 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 **Check brand guidelines before producing any asset:** If `.agents/brand-guidelines.md` exists (or run the `brand-guidelines` skill if it doesn't), apply its voice, tone, visual rules, and terminology before drafting — this keeps copy, creative, and campaigns consistent across every channel this repo touches (see `brand-guidelines`). No file there isn't a blocker; it just means brand rules default to `.agents/marketing-strategy.md` Section 14 (Brand Tier) if present.
 
 **If Section 15 (Distribution Model) names a dealer network**, see `marketing-strategy/references/distribution-model-guide.md` before recommending an aggressive feed/Shopping presence — your own paid listings can compete directly with dealer listings for the same product, which is a strategic decision to make explicitly, not a default.
+
+**This is one of two structurally distinct feeds a dealer-selling business may need — don't gate both by the same check.** The feed above (your own Google Merchant Center/Shopping feed powering your own paid ads) is the one the dealer-conflict check applies to, since it's a competing paid presence for the same products. A separate feed a business also supplies *to a dealer's own catalog or listing system* (so dealers can list and represent the product accurately on their own sites) is enrichment handed to a partner, not a competing paid presence — treat it as its own section with its own quality bar, and don't hold it to the same conflict check that governs the first.
+
+**The dealer-catalog feed must reflect each dealer's actual range tier, not the full catalog by default.** See `marketing-strategy/references/distribution-model-guide.md`'s Dealer Range Tiers section — a core-range dealer stocking a curated subset of the catalog shouldn't receive (or have listed on their behalf) feed data for extended-range-only SKUs they can't fulfill. If dealer tier data exists, filter the feed per dealer before it's sent; if it doesn't exist yet, name that as a real gap rather than shipping an untiered feed and letting the mismatch surface as a customer-facing stockout.
 
 Gather this context (ask if not provided):
 

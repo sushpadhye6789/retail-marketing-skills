@@ -13,11 +13,11 @@ A retail marketing org usually isn't one person running every skill in this repo
 ## The Seven Pillars (default — customize freely)
 
 ### 1. Loyalty & Lifecycle Automation
-**Owns:** `loyalty`, `emails`, `sms`, `retention-and-winback`, `churn-prevention`, `marketing-loops`, `popups`
+**Owns:** `loyalty`, `emails`, `sms`, `retention-and-winback`, `marketing-loops`, `popups`
 **Typically ladders up to:** repeat-purchase rate, retention/repeat-customer goals, CRM-driven revenue share
 
 ### 2. Ecommerce / Site
-**Owns:** `site-architecture`, `cro`, `product-feed`, `schema`, `post-purchase-experience`, `paywalls`, `signup`, `onboarding`
+**Owns:** `site-architecture`, `cro`, `product-feed`, `schema`, `post-purchase-experience`, `paywalls`, `signup`
 **Typically ladders up to:** conversion rate, site-driven revenue, technical foundation for every other pillar's traffic
 **Note on `product-feed`:** owned here specifically because ecommerce controls how the feed is created and displayed (structure, custom labels, campaign-facing data) — not merchandising, which owns *what's displayed and which products are chosen* (see Pillar 6). Two different decisions about the same catalog.
 

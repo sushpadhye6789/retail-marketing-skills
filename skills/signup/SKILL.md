@@ -111,7 +111,7 @@ Every field reduces conversion. For each field, ask:
 - Infer from email domain when possible
 
 ### Use Case / Role Questions
-- Defer to onboarding if possible
+- Defer to post-purchase-experience if possible
 - If needed at signup, keep to one question
 - Use progressive disclosure (don't show all options at once)
 
@@ -248,12 +248,12 @@ Organized by:
 ### Loyalty/Rewards Program
 1. Email (or phone, if SMS-based) + name
 2. Optional: birthday, preferences (for personalized offers) — defer if not essential to the first reward
-3. → Onboarding flow (see `onboarding` if there's a real app; otherwise a simple confirmation + welcome email/SMS)
+3. → Onboarding flow (see `post-purchase-experience` if there's a real app; otherwise a simple confirmation + welcome email/SMS)
 
 ### Subscribe-and-Save Account
 1. Product/plan selection + delivery cadence
 2. Email + payment method
-3. → Confirmation, with clear next-delivery date and how to skip/manage (see `loyalty` and `churn-prevention`)
+3. → Confirmation, with clear next-delivery date and how to skip/manage (see `loyalty` and `retention-and-winback`)
 
 ### B2B/Wholesale Account Application
 1. Business details (name, tax/resale ID if required, business type)

@@ -2,7 +2,7 @@
 name: loyalty
 description: "When the user wants to design, launch, or improve a customer loyalty or rewards program, or a subscribe-and-save/replenishment/box subscription program. Also use when the user mentions 'loyalty program,' 'rewards program,' 'points program,' 'VIP program,' 'loyalty tiers,' 'membership program,' 'punch card,' 'paid membership,' 'loyalty points,' 'rewards points,' 'customer loyalty,' 'repeat purchase program,' 'subscribe and save,' 'subscription box,' 'replenishment program,' 'recurring order,' 'skip a shipment,' or 'how do I get customers to come back.' Use this whenever the goal is rewarding and retaining existing customers through a structured program (points, tiers, paid membership, or an automated recurring subscription) — not a one-time discount or a program aimed at acquiring new customers via existing ones (see referrals for that). For save offers and cancellation flows on subscription churn, see retention-and-winback."
 metadata:
-  version: 1.2.1
+  version: 1.2.2
 ---
 
 # Loyalty & Rewards Programs
@@ -83,13 +83,13 @@ A structurally different retention mechanism from the reward programs above: ins
 
 - **Skip/pause self-service is a retention lever, not a leak.** A customer who can skip one shipment when overstocked stays subscribed; a customer whose only options are "stay on the current cadence" or "cancel entirely" cancels. Treat a skip as a save, not a loss.
 - **Make skip/pause/swap genuinely self-service** — requiring a support contact to skip a shipment adds friction at exactly the moment a customer is deciding whether the subscription is worth the hassle.
-- **Track skip rate as a leading churn indicator.** A rising skip rate on a cohort usually precedes cancellation; treat it the way `churn-prevention` treats other pre-cancellation signals, and consider a proactive cadence-adjustment prompt before the customer skips enough times to just cancel instead.
+- **Track skip rate as a leading churn indicator.** A rising skip rate on a cohort usually precedes cancellation; treat it the way `retention-and-winback` treats other pre-cancellation signals, and consider a proactive cadence-adjustment prompt before the customer skips enough times to just cancel instead.
 
 ### Subscription-Specific Churn
 
 - **Distinguish "too much product" churn from "don't want this anymore" churn.** The first is a cadence problem, solvable with a skip/pause prompt or cadence extension; the second is a genuine save-offer or win-back situation. Treating the first like the second — a discount save offer to someone who just has too much product — misses the actual fix and burns margin for nothing; see `attribution/references/incrementality-checkpoint.md`'s save-offer trap, the same principle `retention-and-winback` applies to any recurring-billing save offer.
 - **Failed payment (involuntary churn) applies here exactly as `retention-and-winback` describes** — dunning, card updaters, and retry logic are core to any recurring-billing program, subscribe-and-save included; see `retention-and-winback`'s Involuntary Churn: Payment Recovery section directly rather than re-deriving it here.
-- **A cancel flow needs the same discipline `churn-prevention` applies generally** — understand the actual reason via an exit survey, offer a proportionate save (a skip/pause first, a discount only if the reason is genuinely price-sensitivity, not overstock), and don't make cancellation itself artificially difficult — a hard-to-cancel subscription creates the reputational and regulatory risk `compliance` flags for dark-pattern cancellation flows.
+- **A cancel flow needs the same discipline `retention-and-winback`'s Involuntary Churn: Payment Recovery section applies generally** — understand the actual reason via an exit survey, offer a proportionate save (a skip/pause first, a discount only if the reason is genuinely price-sensitivity, not overstock), and don't make cancellation itself artificially difficult — a hard-to-cancel subscription creates the reputational and regulatory risk `compliance` flags for dark-pattern cancellation flows.
 
 ### Economics
 
@@ -163,7 +163,7 @@ Set these guardrails proportionate to the program's actual value at stake — a 
 - **Progress and gamification**: visible progress toward the next reward or tier drives re-engagement — mirrors the same principle used in onboarding checklists.
 - **Point-balance reminders**: a customer who forgot they have points is a customer who's about to lapse — a well-timed "you have $X in rewards waiting" email/SMS is one of the highest-ROI touches a loyalty program can send. See `emails` and `sms` for the sequence mechanics.
 - **Expiring-points nudges**: notify before points expire, not after — this is a save-the-relationship touch, not just a "use it or lose it" threat.
-- **For subscription businesses**: loyalty and churn prevention overlap — a strong loyalty program is itself a churn-prevention lever (status/points lost on cancellation raises the cost of leaving). See `churn-prevention` for the cancellation-flow side of that same coin.
+- **For subscription businesses**: loyalty and churn prevention overlap — a strong loyalty program is itself a churn-prevention lever (status/points lost on cancellation raises the cost of leaving). See `retention-and-winback`'s Involuntary Churn: Payment Recovery section for the cancellation-flow side of that same coin.
 
 ---
 

@@ -40,7 +40,7 @@ The plan's Section 11 makes this thesis explicit by:
 
 | Skill | What it does | Primary use in Activation |
 |---|---|---|
-| `onboarding` | Optimize user onboarding flows | Onboarding rebuild, activation rate tests |
+| `post-purchase-experience` | Optimize user onboarding flows | Onboarding rebuild, activation rate tests |
 | `signup` | Optimize signup/registration | Reduce friction at top of activation |
 | `cro` | Optimize any marketing page or form | Conversion testing across pages, forms, landing pages |
 | `paywalls` | Optimize paywalls and upgrade screens | Trial → paid conversion (also Revenue) |
@@ -55,7 +55,7 @@ The plan's Section 11 makes this thesis explicit by:
 | Skill | What it does | Primary use in Retention |
 |---|---|---|
 | `emails` | Design email sequences | Customer.io / Mailchimp / Resend flow building |
-| `churn-prevention` | Build cancellation flows, save offers, win-back | Reduce churn, recover failed payments |
+| `retention-and-winback` | Build cancellation flows, save offers, win-back | Reduce churn, recover failed payments |
 | `copywriting` / `copy-editing` | Email copy production | Lifecycle email content |
 | `paywalls` | (cross-cuts) — upgrade prompts in retention emails | Upsell within lifecycle |
 | `ab-testing` | Test email variants | Subject line, CTA, timing tests |
@@ -76,8 +76,8 @@ The plan's Section 11 makes this thesis explicit by:
 |---|---|---|
 | `pricing` | Audit and optimize pricing | Plan tier structure, annual defaults, value metrics |
 | `paywalls` | Paywall optimization | Trial → paid, free → paid conversion |
-| `sales-enablement` | Build sales decks, one-pagers, demos | B2B sales support material |
-| `revops` | Revenue operations, lead lifecycle | Marketing → sales handoff |
+| `trade-and-dealer-enablement` | Build sales decks, one-pagers, demos | B2B sales support material |
+| `prospecting` | Revenue operations, lead lifecycle | Marketing → sales handoff |
 | `ab-testing` | Pricing experiments | Test annual default, intro pricing, tier consolidation |
 
 ### Cross-cutting / brand foundation skills

@@ -2,7 +2,7 @@
 name: experiential-marketing
 description: "When the user wants to plan an in-person event, activation, or demo — in-store demos, trade show booths, roadshows, pop-up shops, or community workshops. Also use when the user mentions 'experiential marketing,' 'in-store demo,' 'trade show booth,' 'roadshow,' 'pop-up shop,' 'brand activation,' 'live event,' 'product demo event,' or 'mobile activation.' This covers physical, in-person marketing events — distinct from community-marketing, which covers online communities (Discord/Slack/forums), and from tentpole-campaign, which covers a major calendar-moment brand campaign that may or may not include a physical event component. For the sales collateral used at an event, see trade-and-dealer-enablement. For the retail-buyer relationship a trade show sell-in serves, see trade-marketing."
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Experiential Marketing
@@ -135,7 +135,7 @@ Experiential events are notoriously under-measured relative to their cost — ap
 - **packaging-design**: For booth/display structural design when product samples or packaging factor into a trade show or sponsorship presence
 - **emails** / **sms**: For the follow-up sequence to audiences captured at an event
 - **attribution**: For applying incrementality discipline before crediting event-driven sales lift, and for the self-reported-attribution discipline around sponsorship results
-- **revops**: For routing and scoring leads/contacts captured at a sponsored event or trade show
+- **prospecting**: For routing and scoring leads/contacts captured at a sponsored event or trade show
 - **public-relations**: For press/media angles around a speaking slot or major sponsorship
 - **content-strategy** / **video** / **ai-seo**: For turning event or speaking content into a durable, citable asset
 - **marketing-strategy**: For distribution-model context determining venue and dealer coordination, and the Business/Commercial segmentation that shapes whether in-person B2B presence is worth the cost

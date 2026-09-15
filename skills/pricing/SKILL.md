@@ -2,7 +2,7 @@
 name: pricing
 description: "When the user wants help with pricing decisions, packaging, monetization strategy, or checking prices against competitors and dealers. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'competitor pricing,' 'price check,' 'MAP compliance,' 'annual vs monthly,' 'per seat pricing,' 'should I offer a free plan,' 'pricing page teardown,' 'pricing page audit,' 'is my pricing page AI-readable,' or 'can AI read my pricing.' Use this whenever someone is figuring out what to charge, how to structure their plans, wants to audit a pricing page, or wants to check pricing against competitors/dealers. For the gated price-reveal screen itself, see paywalls. For offer construction (bonuses, guarantees, value framing, naming) on services/courses/coaching/high-ticket B2B, see offers."
 metadata:
-  version: 2.3.2
+  version: 2.3.4
 ---
 
 # Pricing Strategy
@@ -166,6 +166,8 @@ Van Westendorp and MaxDiff above answer "what should we charge" from the custome
 
 **Competitor price checks**: normalize for pack size/bundle differences before comparing, and treat a single snapshot with caution — it can catch a competitor mid-promotion and misread it as their everyday price. A finding here should feed `price-elasticity` before triggering a reaction; being cheaper than a competitor doesn't automatically mean you should cut price.
 
+**If the pattern is a repeated, escalating undercut rather than a one-off promotion**, that's a price war, not routine competitive pricing — see `marketing-strategy/references/competitive-pressure-guide.md` for the match/hold/differentiate/exit decision framework before recommending a response.
+
 **Dealer/MAP price consistency**: relevant only if `marketing-strategy` Section 15 names a dealer network. MAP governs the *advertised* price, not necessarily the transaction price — don't conflate the two when assessing compliance.
 
 **For the full method and cadence guidance on both**: see [references/competitive-price-monitoring.md](references/competitive-price-monitoring.md)
@@ -272,7 +274,7 @@ The AI-readiness fixes are usually high-impact, low-effort (put prices in text, 
 - **price-elasticity**: For sizing a pricing move against real demand response, not just a competitor comparison
 - **competitor-profiling** / **competitors**: For competitive context beyond price — positioning, features, messaging
 - **marketing-strategy**: For the distribution-model context (dealers/MAP) and competitive landscape this skill's monitoring checks against
-- **retention-and-winback** / **churn-prevention**: For reducing revenue churn — retention-and-winback for general repeat-purchase retention, churn-prevention for cancel flows/save offers on a recurring-billing program
+- **retention-and-winback**: For reducing revenue churn — general repeat-purchase retention, plus its Involuntary Churn: Payment Recovery section for cancel flows/save offers on a recurring-billing program
 - **discount-and-clearance**: For where discounting is actually earned (clearance/end-of-life stock) vs. a standing acquisition lever
 - **offers**: For raising perceived value instead of cutting price when the value/price ratio isn't landing
 - **cro**: For optimizing pricing page conversion
@@ -281,5 +283,4 @@ The AI-readiness fixes are usually high-impact, low-effort (put prices in text, 
 - **copywriting**: For pricing page copy
 - **marketing-psychology**: For pricing psychology principles
 - **ab-testing**: For testing pricing changes
-- **revops**: For deal desk processes and pipeline pricing
-- **sales-enablement**: For proposal templates and pricing presentations
+- **trade-and-dealer-enablement**: For deal-desk-style pipeline pricing, proposal templates, and pricing presentations

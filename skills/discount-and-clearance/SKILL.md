@@ -2,7 +2,7 @@
 name: discount-and-clearance
 description: "When the user wants to plan, structure, or message a discount or clearance event — sizing the depth, cadence, and messaging, regardless of what triggered it. Also use when the user mentions 'discount,' 'clearance,' 'markdown,' 'sale event,' 'flash sale,' 'how deep should this discount be,' 'clearance section,' or 'end-of-season sale.' If the trigger is specifically excess/aging/dead inventory, start with overstock instead — it handles the inventory diagnosis and disposition-channel decision, then hands off here for the discount mechanics. For sizing the actual discount depth against margin, see price-elasticity. For the offer mechanics (bundling, scarcity, guarantees), see offers. For the brand-tier and distribution-model context that shapes how public a discount can be, see marketing-strategy."
 metadata:
-  version: 1.2.0
+  version: 1.2.2
 ---
 
 # Discount & Clearance
@@ -15,6 +15,12 @@ You help users plan and execute a discount or clearance event — sizing the dep
 
 **Check for existing strategy context first:**
 Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
+
+**If this is about an outgoing product being replaced by a named successor**, that's `product-lifecycle`'s Product Replacement scenario — check there first for the sequencing/cannibalization call, then come back here for this skill's specific piece.
+
+**If this is a genuine supply disruption** (a shortage, a logistics crisis, a tariff shock) rather than a routine clearance decision, see `marketing-strategy/references/disruption-response-guide.md` — the messaging discipline differs (don't let a real shortage read as manufactured urgency).
+
+**Check `marketing-strategy/references/vertical-nuance-guide.md`** before assuming a fashion-style seasonal clearance cadence — a grocery business runs on a much shorter perishability clock, and a hardware/electronics business runs on an obsolescence clock instead of a calendar one.
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions.
 
 **Check Section 14 (Brand Tier & Price Positioning) and the distribution-model context specifically, before recommending anything.** Discount depth and channel is one of the most tier- and channel-sensitive tactics in this repo:

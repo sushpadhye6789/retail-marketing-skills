@@ -117,4 +117,4 @@ Avoid: "set it and forget it," "fully autonomous marketing," "AI does everything
 - **marketing-ideas** — one-off tactics and inspiration (what to try). Loops operationalize the ones worth repeating.
 - **ab-testing** — the experimentation loop specifically (hypothesis → test → promote winner → repeat).
 - **analytics** — most loops read from analytics to decide whether to act.
-- Individual channel skills (`ads`, `seo-audit`, `emails`, `social`, `retention-and-winback`, `churn-prevention`, `pricing`, `referrals`) — the loop bodies orchestrate these.
+- Individual channel skills (`ads`, `seo-audit`, `emails`, `social`, `retention-and-winback`, `pricing`, `referrals`) — the loop bodies orchestrate these.

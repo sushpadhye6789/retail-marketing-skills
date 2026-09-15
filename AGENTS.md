@@ -52,6 +52,23 @@ Omit `volatility` entirely for evergreen content — that's the default and the 
 
 **Deliberately left untagged despite a platform/algorithm mention**: `social` and `attribution` (their algorithm references are evergreen advice about *reasoning under* volatility, not content that itself depends on a specific current platform state); `pricing` and `content-strategy` (a single evergreen-principle sub-section each, not core dependency); `ad-creative` (one example folder mentions "App Store," not core). Add the tag to any other skill when you notice its content is genuinely platform- or algorithm-dependent — don't tag preemptively just because a platform name appears once.
 
+## Drift Checks (Scheduled Re-Runs, Not Auto-Execution)
+
+Some things this repo relies on can go stale silently between sessions: a dealer's advertised pricing drifting off MAP, a strategy-doc changelog entry under-describing how material a Section 5/6/14 change actually was, POS materials that were produced but never verified as placed. The fix isn't a new skill — it's re-running an *existing* skill on a schedule against current `.agents/` state and reporting what it finds. This follows the same pattern `skill-staleness-check.yml` already proved out for skill content itself.
+
+**The convention**: a lightweight periodic job — a GitHub Actions workflow on a cron, or (for a live Claude Code session) a Routine — that:
+1. Re-reads `.agents/marketing-strategy.md` (and any other relevant `.agents/*.md` state) as it currently stands.
+2. Re-runs one named skill's check/audit logic against it.
+3. Reports findings back (a GitHub issue, same as `skill-staleness-check.yml`; or a message into the session that requested it).
+4. **Never auto-edits or auto-executes anything** — same posture as `skill-staleness-check.yml` and the Tier 2 gate above. A drift check that found something is a Tier 1 action (read, analyze, report); acting on the finding is a separate, gated step.
+
+**Worth setting up this way, in priority order**:
+- **`compliance` re-run whenever `marketing-strategy.md`'s proof-points/claims section changes** — a new claim slipping in unreviewed is the real risk, not a stale one sitting unnoticed.
+- **`pos-marketing`'s compliance/execution audit** — "materials produced but never verified as placed" is a real, named gap with no other check covering it.
+- **`repositioning`'s severity check on every `marketing-strategy` changelog entry** — so a materially significant change doesn't get silently logged as minor. Note this depends on the changelog description being written honestly; nothing currently verifies that a changelog entry's stated severity matches what actually changed in Sections 5/6/14 (a diff-based check would be a stronger version of this than trusting prose self-reporting, but isn't built).
+
+A given install should name which skills/checks it's actually running this way (and where findings land) rather than assuming the pattern applies universally — this section documents the pattern once so each user doesn't reinvent it, not a specific schedule everyone must run.
+
 ## Public Repo Content Policy
 
 **This repo has no paid tier.** Everything that used to live in a separate private companion repo — worked evaluation examples (`evaluations/completed/` — illustrative and AI-generated, not real business results; see that folder's own `README.md`), the framework's implementation code (`src/`), automation scripts, and industry template packages — is merged in and public (see `README.md`'s "Everything Is Public" section for the full list).

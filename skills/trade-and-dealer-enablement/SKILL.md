@@ -2,7 +2,7 @@
 name: trade-and-dealer-enablement
 description: "When the user wants to enable retail buyers and dealers, create line sheets, set up co-op advertising, or design dealer incentive programs. Also use when the user mentions 'trade enablement,' 'dealer enablement,' 'line sheet,' 'co-op advertising,' 'dealer incentives,' 'stockist training,' 'wholesale pipeline,' or 'retail buyer pitch.' Use this for anything involving selling products through retail channels, wholesale distribution, and dealer networks. For the buyer-facing sell-in negotiation itself (getting a product listed, category management conversations, planogram negotiation), see trade-marketing, whose deck-building borrows this skill's mechanics. For cold outreach emails, see cold-email. For retail financial mechanics, see commercial-ops."
 metadata:
-  version: 2.3.1
+  version: 2.3.2
 ---
 
 # Trade & Dealer Enablement for Retail & Commerce (v2.2.0)
@@ -623,4 +623,5 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 - **content-strategy** - Educational content, usage tips, inspirational lifestyle content for post-purchase and retention
 - **trade-marketing** - Strategic frameworks for selling through retail channels (complementary skill)
 - **pricing** - Retail pricing strategies, keystone markup, competitive positioning
+- **co-marketing** - For a joint campaign with a dealer/partner beyond co-op advertising itself (a co-branded promotion, shared content); this skill covers the co-op advertising and trade spend mechanics specifically, co-marketing covers the broader partnership-campaign case
 - **range-review** / **overstock** - Stock-to-sales ratios, aging analysis, and turn optimization for supply chain

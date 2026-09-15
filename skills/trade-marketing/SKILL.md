@@ -44,7 +44,7 @@ A buyer's job is to maximize the return on a finite amount of shelf space (physi
 - **Show what it does *for the category*, not just for itself** — does it fill a genuine gap in the retailer's current range (a price point, a use case, a customer segment) they're not currently serving? A "me-too" pitch competing head-on with an already-strong incumbent SKU is the hardest sell; a gap-filling pitch is the easiest.
 - **Address cannibalization directly, don't wait to be asked** — if the new listing will pull volume from an existing SKU (yours or a competitor's) on the same shelf, name it and show the net category impact is still positive. A buyer who discovers unaddressed cannibalization after listing loses trust fast.
 - **Bring proof, not just projections**: sell-in data from comparable retailers, consumer research (`customer-research`), or a limited pilot/trial period proposal all de-risk the buyer's decision more than a confident pitch alone.
-- **For the deck/document mechanics** (structure, scannability, tailoring to the audience), reuse `sales-enablement`'s discipline directly — a buyer presentation is a specific application of the same "situation-specific, not generic" principle.
+- **For the deck/document mechanics** (structure, scannability, tailoring to the audience), reuse `trade-and-dealer-enablement`'s discipline directly — a buyer presentation is a specific application of the same "situation-specific, not generic" principle.
 
 ---
 

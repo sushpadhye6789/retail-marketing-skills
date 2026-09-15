@@ -8,7 +8,7 @@ Coleman's **First 100 Days®** methodology, from his Wall Street Journal bestsel
 
 ## Retail application
 
-This extends `onboarding` (currently written with a SaaS/signup-flow lean) and `loyalty`/`churn-prevention` with a retail-appropriate version of the same idea: the period right after a purchase — order confirmation, delivery, unboxing, first use, warranty registration — is under-owned by most retail marketing, which treats "sale complete" as the finish line. A structured post-purchase sequence (a genuine welcome beyond a shipping notification, proactive care/usage guidance before a support question arises, a check-in at the point the customer would naturally start using the product) applies the 8-A logic without needing a SaaS-style "activation event."
+This extends `post-purchase-experience` and `loyalty`/`retention-and-winback` with a retail-appropriate version of the same idea: the period right after a purchase — order confirmation, delivery, unboxing, first use, warranty registration — is under-owned by most retail marketing, which treats "sale complete" as the finish line. A structured post-purchase sequence (a genuine welcome beyond a shipping notification, proactive care/usage guidance before a support question arises, a check-in at the point the customer would naturally start using the product) applies the 8-A logic without needing a SaaS-style "activation event."
 
 ## Best for / blind spots
 

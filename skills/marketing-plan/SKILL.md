@@ -23,7 +23,7 @@ Invoke this skill when:
 - The user explicitly asks for a "marketing plan," "growth plan," "GTM plan," "fCMO plan," "AARRR plan," or "90-day + 12-month marketing roadmap"
 - An existing scored audit (from any prior current-state assessment) needs to be sequenced into an action plan
 
-**Do not use** when the user wants a tactical execution document for a single channel (use the channel-specific skill instead — `emails`, `ads`, `seo-audit`, `onboarding`, etc.), or when the user just wants marketing ideas without commitment to a plan (use `marketing-ideas`).
+**Do not use** when the user wants a tactical execution document for a single channel (use the channel-specific skill instead — `emails`, `ads`, `seo-audit`, `post-purchase-experience`, etc.), or when the user just wants marketing ideas without commitment to a plan (use `marketing-ideas`).
 
 ## How this skill is invoked
 
@@ -132,7 +132,7 @@ If the user already has a separately scored audit, ingest those scores directly 
 
 1. **`marketing-ideas`** — 139 proven marketing tactics. Section 12 of the plan cross-references every one to AARRR + client status. Detail in `references/idea-cross-reference.md`.
 2. **`marketing-strategy`** — Sets up the foundational `.agents/marketing-strategy.md` context file (positioning, ICP, voice). Read this first; Section 2 (Strategic frame) builds on it.
-3. **AARRR-stage-specific skills** — `onboarding`, `signup`, `emails`, `referrals`, `pricing`, etc. The "Marketing operations stack" (Section 11) maps these to AARRR stages.
+3. **AARRR-stage-specific skills** — `post-purchase-experience`, `signup`, `emails`, `referrals`, `pricing`, etc. The "Marketing operations stack" (Section 11) maps these to AARRR stages.
 
 The plan is **opinionated about which skills serve which stages.** Full mapping in `references/ops-stack-mapping.md`.
 
@@ -273,7 +273,7 @@ The full schema for `progress.md` and the resumption decision tree live in `refe
 - **`budget-allocation`** — For ecommerce-appropriate budget sizing and ongoing cross-channel reallocation beyond this plan's revenue-based formulas and annual cadence.
 - **`marketing-ideas`** — Source of the 139 tactics in Section 12.
 - **`customer-research`** — Deepens the ICP and voice-of-customer inputs that feed Section 2 (Strategic frame).
-- **`onboarding`** — Deep work on Section 5 (Activation).
+- **`post-purchase-experience`** — Deep work on Section 5 (Activation).
 - **`emails`** — Deep work on Section 6 (Retention) + onboarding emails in Section 5.
 - **`referrals`** — Deep work on Section 7 (Referral).
 - **`pricing`** — Deep work on Section 8 (Revenue).

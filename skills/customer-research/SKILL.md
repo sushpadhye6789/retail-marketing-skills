@@ -284,7 +284,7 @@ Don't ask all five at once — lead with #1 and #2, then follow up as needed.
 | Writing copy informed by the research | `copywriting` |
 | Optimizing a page using VOC insights | `cro` |
 | Building a competitor comparison page | `competitors` |
-| Creating a churn prevention strategy from churn research | `churn-prevention` |
+| Creating a churn prevention strategy from churn research | `retention-and-winback` |
 | Building repeat-purchase/win-back strategy from lapsed-customer interview findings | `retention-and-winback` |
 | Fixing a stock-availability gap surfaced in interviews | `range-review` |
 | Planning paid ads informed by research | `ads` |

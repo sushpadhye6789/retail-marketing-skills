@@ -61,7 +61,7 @@ Work through these in order — the ordering *is* the prioritization, by custome
 - **Brand visual identity** — `brand-guidelines`, only if tier or architecture changed alongside positioning (a pure positioning-language change doesn't necessarily require a visual refresh; check before assuming it does).
 
 ### Sales and partner-facing
-- **Sales enablement materials** — `sales-enablement` battle cards and decks built on the old competitive story.
+- **Sales enablement materials** — `trade-and-dealer-enablement` line sheets, buyer decks, and battle cards built on the old competitive story.
 - **Dealer-facing materials and co-branded assets** — `supplier-funded-marketing` and `distribution-model-guide.md`; dealers need advance notice before customer-facing repositioning affects shared materials, not after.
 - **POS materials** — `pos-marketing`, if physical retail presence exists and signage reflects old messaging.
 

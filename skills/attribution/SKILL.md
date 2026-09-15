@@ -18,7 +18,7 @@ Most requests start with (A). Reach for (B) only when they control the surface a
 
 Product context: check for `.agents/marketing-strategy.md` (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames) and read it if present — business type, sales cycle, and primary conversion drive almost every recommendation here. Also check `.agents/marketing-learnings.md` if it exists — past entries note whether a channel's reported lift already held up (or didn't) under an incrementality check, which saves re-litigating it here (see `compound-marketing`).
 
-**This skill also owns a repo-wide pattern**: `references/incrementality-checkpoint.md` is a reusable "would this have happened anyway?" checklist any skill can point to before recommending that an activity be scaled or kept funded, scaled to the stakes involved. It's referenced from `referrals`, `loyalty`, `churn-prevention`, `influencer-marketing`, `co-marketing`, `ad-creative`, `content-strategy`, `public-relations`, `lead-magnets`, and `free-tools` — read it once here rather than each skill re-deriving the same logic.
+**This skill also owns a repo-wide pattern**: `references/incrementality-checkpoint.md` is a reusable "would this have happened anyway?" checklist any skill can point to before recommending that an activity be scaled or kept funded, scaled to the stakes involved. It's referenced from `referrals`, `loyalty`, `retention-and-winback`, `influencer-marketing`, `co-marketing`, `ad-creative`, `content-strategy`, `public-relations`, `lead-magnets`, and `free-tools` — read it once here rather than each skill re-deriving the same logic.
 
 ## Boundaries — what this skill does NOT own
 
@@ -238,4 +238,4 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 - **ab-testing** — controlled experiments; the incrementality mindset applied to on-site changes.
 - **price-elasticity** — reuses this skill's geo-holdout/controlled-test design, with a price change as the treatment instead of a channel on/off.
 - **supplier-funded-marketing** — reuses the holdout methodology to measure a co-op/MDF program's actual incremental lift, not just raw utilization.
-- **referrals / loyalty / churn-prevention / influencer-marketing / co-marketing / ad-creative / content-strategy / public-relations / lead-magnets / free-tools** — each checks `references/incrementality-checkpoint.md` before recommending a scale-up, since each has its own version of claiming credit for an outcome that would have happened anyway.
+- **referrals / loyalty / retention-and-winback / influencer-marketing / co-marketing / ad-creative / content-strategy / public-relations / lead-magnets / free-tools** — each checks `references/incrementality-checkpoint.md` before recommending a scale-up, since each has its own version of claiming credit for an outcome that would have happened anyway.

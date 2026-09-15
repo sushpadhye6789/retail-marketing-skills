@@ -38,7 +38,7 @@ The product or brand gets more valuable as more people use it (marketplaces, com
 
 ### Switching costs
 Customers face real friction leaving — data lock-in, learned habits, integrated workflows, accumulated loyalty status or history.
-**Widen it via**: `onboarding` depth (the more invested a customer becomes early, the higher the switching cost), `loyalty` program design (status and history that would be lost by switching), `retention-and-winback`'s repeat-purchase discipline more broadly, and `churn-prevention` specifically where a subscribe-and-save or paid membership component is involved.
+**Widen it via**: `post-purchase-experience` depth (the more invested a customer becomes early, the higher the switching cost), `loyalty` program design (status and history that would be lost by switching), and `retention-and-winback`'s repeat-purchase discipline more broadly, including its Involuntary Churn: Payment Recovery section where a subscribe-and-save or paid membership component is involved.
 
 ### Brand / intangible assets
 Trust, prestige, or perceived quality that commands a price premium or preference independent of feature comparison.

@@ -93,7 +93,7 @@ The 13-section plan structure stays consistent across client types. What changes
 - In-app upsells
 
 ### Skills emphasis
-- `onboarding`, `paywalls`, `emails`
+- `post-purchase-experience`, `paywalls`, `emails`
 - `ads`, `ad-creative` (heavy creative iteration)
 - `referrals`
 - `pricing` for annual default + tier consolidation
@@ -294,7 +294,7 @@ The 13-section plan structure stays consistent across client types. What changes
 
 ### Skills emphasis
 - Light traditional marketing
-- Heavy `marketing-strategy`, `sales-enablement`, `pricing`
+- Heavy `marketing-strategy`, `trade-and-dealer-enablement`, `pricing`
 - `cold-email` to specific researchers / practitioners
 - PR + investor marketing
 

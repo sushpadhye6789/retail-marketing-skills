@@ -91,7 +91,7 @@ Skip or downgrade the booth; host a curated dinner, breakfast, or small activati
 
 ### Follow-up: where the sponsorship is won or lost
 
-- **24–48 hour window**, tiered: a real conversation with a next step gets a personal follow-up referencing what was discussed; a lighter conversation gets a relevant asset; a scan-only contact gets one light touch or nothing (see `emails`/`sms` and `revops` for routing) — never dump scans into a full outbound sequence, it burns domain reputation on people who don't remember you
+- **24–48 hour window**, tiered: a real conversation with a next step gets a personal follow-up referencing what was discussed; a lighter conversation gets a relevant asset; a scan-only contact gets one light touch or nothing (see `emails`/`sms` and `prospecting` for routing) — never dump scans into a full outbound sequence, it burns domain reputation on people who don't remember you
 - **Measure cost per qualified conversation and cost per resulting order/opportunity** against your other channels — this is the actual renewal decision for next year
 - **Self-reported attribution** ("saw you at the show") catches influence that source tags miss — see `attribution`
 - **Judge a first-time sponsorship against a discount** — a first run of any event underperforms its steady state; a promising-but-unprofitable first year is a redesign signal, not automatically a no

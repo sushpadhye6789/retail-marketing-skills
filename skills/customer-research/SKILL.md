@@ -2,7 +2,7 @@
 name: customer-research
 description: When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer research," "ICP research," "talk to customers," "analyze transcripts," "customer interviews," "survey analysis," "support ticket analysis," "voice of customer," "VOC," "build personas," "customer personas," "jobs to be done," "JTBD," "what do customers say," "what are customers struggling with," "Reddit mining," "G2 reviews," "review mining," "digital watering holes," "community research," "forum research," "competitor reviews," "customer sentiment," or "find out why customers churn/convert/buy." Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see cro.
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # Customer Research
@@ -134,6 +134,7 @@ Choose sources based on your ICP type — then read `references/source-guides.md
 | Wholesale/trade buyer (Business segment — small/medium) | Industry trade publications, trade show forums/attendee chatter, LinkedIn, local business communities |
 | Wholesale/trade buyer (Commercial segment — large accounts) | LinkedIn, industry analyst/trade reports, category-manager-focused trade press, job postings (category management hires signal buying activity) |
 | Independent small-business owner | Reddit (r/smallbusiness, r/retail), local business Facebook groups, industry association forums |
+| Professional/tradesperson end-user (buys for their own trade, distinct from the wholesale/trade *buyer* rows above who resell or stock the product) | Trade-specific subreddits and forums (e.g. r/electricians, r/Construction, r/Tools, or the per-trade equivalent), YouTube tool-review comment sections, marketplace and Google review mining for the *category* (not just the brand), trade association/publication content |
 
 **Quick decision guide:**
 - Have a product category? → Start with G2/Capterra reviews (yours + competitors)

@@ -2,7 +2,7 @@
 name: retail-media
 description: "When the user wants to plan or optimize advertising, or organic visibility and the Buy Box, on a retailer's own platform. Also use when the user mentions 'retail media,' 'Amazon Ads,' 'Sponsored Products,' 'Walmart Connect,' 'Instacart Ads,' 'Cartology,' 'Coles 360,' 'retail media network,' 'RMN,' 'share of search,' 'retail data clean room,' 'Buy Box,' 'marketplace ranking,' 'marketplace SEO,' or 'seller rating.' Distinct from ads, which covers the open web and social platforms — retail media means advertising and organic visibility inside a retailer's own site/app/in-store environment, reaching shoppers already in that retailer's shopping context. For the physical in-store counterpart, see pos-marketing. For the product data retail media depends on, see product-feed."
 metadata:
-  version: 1.3.1
+  version: 1.3.3
   volatility: dated
 ---
 
@@ -11,6 +11,8 @@ metadata:
 You help users plan and optimize both paid advertising and organic visibility inside a retailer's own platform — their site, app, or in-store digital environment — reaching shoppers at or near the point of purchase, not on the open web.
 
 **Scope note**: `ads` covers Google, Meta, LinkedIn, TikTok, and similar open-web/social platforms, where you reach people before or outside a specific shopping context. Retail media is different in kind, not just another platform: it's advertising *inside* a **retailer's** own environment — a company whose core business is retail, with owned on-site search and browse intent (Amazon, Walmart, Woolworths, Coles) — to shoppers already there with purchase intent. The two are complementary, not interchangeable.
+
+**The buyer doesn't have to be the retailer.** A manufacturer or brand that sells through dealers, distributors, or marketplaces — with no owned retail storefront of its own — can still be the one planning and funding retail media placements, and that stays in this skill's scope, not `ads`. The line is drawn by *where the ad runs*, not *who's paying for it*: a consumer-goods brand running or co-funding Sponsored Products on Amazon for its own SKUs, or paying into a distributor's or dealer's retail media network placement (e.g. a grocery chain's or a specialty retailer's own RMN), is retail media, exactly as if the retailer itself had bought the placement — the mechanic is the same whether the manufacturer sells appliances, apparel, food and beverage, or tools. See "Funding Through Co-Op / MDF" above for the funding mechanics this typically runs through.
 
 **TikTok Shop is not retail media, even though it has in-app checkout.** TikTok's core business is social/content, not retail — commerce there is discovered through a video feed and creator relationships, not through a retailer's own search/browse the way Sponsored Products or the Buy Box work, and none of this skill's core mechanics (share of search, Buy Box, retail data clean rooms) apply to it. TikTok Shop's paid-promotion side belongs in `ads` (already covers TikTok Ads directly); its creator/affiliate-commission side belongs in `influencer-marketing`; its catalog/feed mechanics are in `product-feed`'s TikTok Shop Catalog Sync section.
 
@@ -70,6 +72,8 @@ Retail media spend is frequently funded, in whole or part, through supplier-fund
 ---
 
 ## Measurement
+
+**An always-on retail media placement is subject to `AGENTS.md`'s Measurement Discipline gate** — name the measurement method below before treating an ongoing placement as set up, not just as a closing nicety.
 
 Retail media's closed-loop nature (the ad and the purchase happen on the same platform) makes its reporting generally more trustworthy than open-web platform-reported attribution — but "more trustworthy" isn't "automatically incremental." Apply the same discipline `attribution` uses elsewhere:
 

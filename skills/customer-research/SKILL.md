@@ -2,7 +2,7 @@
 name: customer-research
 description: When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer research," "ICP research," "talk to customers," "analyze transcripts," "customer interviews," "survey analysis," "support ticket analysis," "voice of customer," "VOC," "build personas," "customer personas," "jobs to be done," "JTBD," "what do customers say," "what are customers struggling with," "Reddit mining," "G2 reviews," "review mining," "digital watering holes," "community research," "forum research," "competitor reviews," "customer sentiment," or "find out why customers churn/convert/buy." Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see cro.
 metadata:
-  version: 2.1.1
+  version: 2.1.3
 ---
 
 # Customer Research
@@ -134,6 +134,7 @@ Choose sources based on your ICP type — then read `references/source-guides.md
 | Wholesale/trade buyer (Business segment — small/medium) | Industry trade publications, trade show forums/attendee chatter, LinkedIn, local business communities |
 | Wholesale/trade buyer (Commercial segment — large accounts) | LinkedIn, industry analyst/trade reports, category-manager-focused trade press, job postings (category management hires signal buying activity) |
 | Independent small-business owner | Reddit (r/smallbusiness, r/retail), local business Facebook groups, industry association forums |
+| Professional/tradesperson end-user (buys equipment/supplies for their own trade — a tradie, a chef, a stylist, a mechanic — distinct from the wholesale/trade *buyer* rows above who resell or stock the product) | Trade-specific subreddits and forums for that profession (e.g. r/electricians and r/Tools for construction trades, r/KitchenConfidential for chefs, or the equivalent for the trade in question), YouTube product-review comment sections, marketplace and Google review mining for the *category* (not just the brand), trade association/publication content |
 
 **Quick decision guide:**
 - Have a product category? → Start with G2/Capterra reviews (yours + competitors)
@@ -284,7 +285,7 @@ Don't ask all five at once — lead with #1 and #2, then follow up as needed.
 | Writing copy informed by the research | `copywriting` |
 | Optimizing a page using VOC insights | `cro` |
 | Building a competitor comparison page | `competitors` |
-| Creating a churn prevention strategy from churn research | `churn-prevention` |
+| Creating a churn prevention strategy from churn research | `retention-and-winback` |
 | Building repeat-purchase/win-back strategy from lapsed-customer interview findings | `retention-and-winback` |
 | Fixing a stock-availability gap surfaced in interviews | `range-review` |
 | Planning paid ads informed by research | `ads` |

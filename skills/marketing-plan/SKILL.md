@@ -2,7 +2,7 @@
 name: marketing-plan
 description: When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions "marketing plan," "growth plan," "GTM plan," "go-to-market plan," "AARRR plan," "90-day marketing plan," "12-month marketing roadmap," "fractional CMO plan," or "fCMO plan." Generates an exhaustive 13-section plan structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to the client's current budget, team, and stage, mapped to future funding milestones, cross-referenced with the 139-idea marketing-ideas library and an embedded 17-section current-state audit rubric, with a full marketing operations stack showing which skills and MCP/API integrations execute each part. Outputs a Notion-paste-ready markdown document. For positioning and ICP context before planning, see marketing-strategy. For stage-specific deep work, see post-purchase-experience, signup, emails, referrals, pricing.
 metadata:
-  version: 1.4.1
+  version: 1.5.0
 ---
 
 # Marketing Plan
@@ -23,7 +23,7 @@ Invoke this skill when:
 - The user explicitly asks for a "marketing plan," "growth plan," "GTM plan," "fCMO plan," "AARRR plan," or "90-day + 12-month marketing roadmap"
 - An existing scored audit (from any prior current-state assessment) needs to be sequenced into an action plan
 
-**Do not use** when the user wants a tactical execution document for a single channel (use the channel-specific skill instead — `emails`, `ads`, `seo-audit`, `onboarding`, etc.), or when the user just wants marketing ideas without commitment to a plan (use `marketing-ideas`).
+**Do not use** when the user wants a tactical execution document for a single channel (use the channel-specific skill instead — `emails`, `ads`, `seo-audit`, `post-purchase-experience`, etc.), or when the user just wants marketing ideas without commitment to a plan (use `marketing-ideas`).
 
 ## How this skill is invoked
 
@@ -132,7 +132,7 @@ If the user already has a separately scored audit, ingest those scores directly 
 
 1. **`marketing-ideas`** — 139 proven marketing tactics. Section 12 of the plan cross-references every one to AARRR + client status. Detail in `references/idea-cross-reference.md`.
 2. **`marketing-strategy`** — Sets up the foundational `.agents/marketing-strategy.md` context file (positioning, ICP, voice). Read this first; Section 2 (Strategic frame) builds on it.
-3. **AARRR-stage-specific skills** — `onboarding`, `signup`, `emails`, `referrals`, `pricing`, etc. The "Marketing operations stack" (Section 11) maps these to AARRR stages.
+3. **AARRR-stage-specific skills** — `post-purchase-experience`, `signup`, `emails`, `referrals`, `pricing`, etc. The "Marketing operations stack" (Section 11) maps these to AARRR stages.
 
 The plan is **opinionated about which skills serve which stages.** Full mapping in `references/ops-stack-mapping.md`.
 
@@ -225,7 +225,7 @@ What separates a good plan from a generic one:
 - Every move names the AARRR stage it serves
 - Every recommendation is anchored in real client data (their actual budget, their actual team, their actual current channels)
 - The 90-day roadmap has owners, not just actions
-- The funding-stage section explains what changes when the next round closes
+- The capital-stage section explains what changes when the next tier of budget unlocks (a round, a loan, or reinvested revenue — see `references/funding-stage-unlocks.md`)
 - The ops stack section names specific skills + MCPs per move
 - The idea bank shows what we're *not* doing and why (skipped ideas with rationale)
 - The exec summary can stand alone — could be lifted into an investor update
@@ -273,7 +273,7 @@ The full schema for `progress.md` and the resumption decision tree live in `refe
 - **`budget-allocation`** — For ecommerce-appropriate budget sizing and ongoing cross-channel reallocation beyond this plan's revenue-based formulas and annual cadence.
 - **`marketing-ideas`** — Source of the 139 tactics in Section 12.
 - **`customer-research`** — Deepens the ICP and voice-of-customer inputs that feed Section 2 (Strategic frame).
-- **`onboarding`** — Deep work on Section 5 (Activation).
+- **`post-purchase-experience`** — Deep work on Section 5 (Activation).
 - **`emails`** — Deep work on Section 6 (Retention) + onboarding emails in Section 5.
 - **`referrals`** — Deep work on Section 7 (Referral).
 - **`pricing`** — Deep work on Section 8 (Revenue).
@@ -286,9 +286,9 @@ The full schema for `progress.md` and the resumption decision tree live in `refe
 
 The full intake questionnaire lives in `references/methodology.md`. The most important questions:
 
-1. **Funding state** — What round are you in? How much raised so far? Burn? Runway? Upcoming rounds and timing?
+1. **Capital state** — Bootstrapped/self-funded, venture-funded, bank/loan-financed, or an established profitable business reinvesting from revenue? For a funded startup: what round, how much raised, burn, runway, upcoming rounds and timing. For a bootstrapped or established business: annual revenue scale, budget cycle (annual/quarterly), and what internal approval process unlocks the next tier of spend — there's no "round closing" equivalent, so don't force the question (see `references/funding-stage-unlocks.md`'s capital-source framing).
 2. **Team** — Who are all the people who touch marketing? What does each own? Where are the gaps?
-3. **Budget** — What's the current monthly marketing spend, broken down by paid acquisition, tools, retainers, headcount? What budget unlocks when the next round closes?
+3. **Budget** — What's the current monthly marketing spend, broken down by paid acquisition, tools, retainers, headcount? What unlocks the next tier — a raise, a loan, a new budget cycle, or demonstrated ROI justifying reinvestment?
 4. **Current channels** — What's working today? What's not? What have you not tried yet?
 5. **Already done** — What past campaigns / launches / content / PR moments should this plan acknowledge?
 6. **In-flight** — What's drafted but not shipped? What's blocking each item?

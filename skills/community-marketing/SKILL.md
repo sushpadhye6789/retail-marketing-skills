@@ -2,7 +2,7 @@
 name: community-marketing
 description: "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \"build a community,\" \"community strategy,\" \"Discord community,\" \"Slack community,\" \"community-led growth,\" \"brand advocates,\" \"user community,\" \"forum strategy,\" \"community engagement,\" \"grow our community,\" \"ambassador program,\" \"community flywheel.\""
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # Community Marketing
@@ -165,7 +165,7 @@ Always be specific. Generic advice ("be consistent," "provide value") is not use
 ## Related Skills
 
 - **referrals**: For structured referral and ambassador incentive programs
-- **retention-and-winback** / **churn-prevention**: For retention strategies that complement community engagement — retention-and-winback for general repeat-purchase retention, churn-prevention for a recurring-billing/subscription program specifically
+- **retention-and-winback**: For retention strategies that complement community engagement — general repeat-purchase retention, plus its Involuntary Churn: Payment Recovery section for a recurring-billing/subscription program specifically
 - **social**: For content creation across social platforms
 - **customer-research**: For understanding your community members' needs and language
 - **experiential-marketing**: For the in-person counterpart — workshops and events that convert online community engagement into deeper loyalty, and vice versa

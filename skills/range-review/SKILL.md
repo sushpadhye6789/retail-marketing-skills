@@ -2,7 +2,7 @@
 name: range-review
 description: "When the user wants to periodically review the product range/assortment and decide what to keep, grow, fix, cut, or add. Also use when the user mentions 'range review,' 'assortment planning,' 'assortment review,' 'SKU rationalization,' 'range rationalization,' 'category review,' 'which SKUs to cut,' 'range gaps,' or 'assortment optimization.' This is a periodic, cross-SKU exercise — for what happens to an individual SKU once a decision is made (phase it out, replace it, transition it), see product-lifecycle, which this skill hands off to. For the inventory disposition of a cut SKU, see overstock."
 metadata:
-  version: 1.2.0
+  version: 1.2.1
 ---
 
 # Range Review
@@ -124,6 +124,7 @@ This skill covers the marketing-relevant inputs and outputs of a range review (p
 
 - **product-lifecycle**: For executing a Fix (transition), Cut (phase-out/replacement), or Add (hands to launch) decision once made
 - **overstock**: For disposing of inventory from a cut SKU
+- **inventory-management**: For a stock-to-sales trend on a specific SKU worth feeding into the next periodic review, or for a pre-campaign stock check outside the review cadence
 - **price-elasticity** / **pricing**: For margin data and the Good-Better-Best structure this reviews against
 - **competitor-profiling** / **competitors**: For competitive range-gap analysis
 - **customer-research**: For the customer-feedback signal feeding the review

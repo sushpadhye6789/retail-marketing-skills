@@ -2,7 +2,7 @@
 name: popups
 description: When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions "exit intent," "popup conversions," "modal optimization," "lead capture popup," "email popup," "announcement banner," "overlay," "collect emails with a popup," "exit popup," "scroll trigger," "sticky bar," or "notification bar." Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see cro. For general page conversion optimization, see cro.
 metadata:
-  version: 2.0.3
+  version: 2.0.4
 ---
 
 # Popup CRO
@@ -255,11 +255,15 @@ Before providing recommendations, understand:
 
 ## Compliance and Accessibility
 
-### GDPR/Privacy
-- Clear consent language
-- Link to privacy policy
-- Don't pre-check opt-ins
-- Honor unsubscribe/preferences
+### Consent & Privacy
+
+A popup is very often where marketing consent is first captured — upstream of whatever `emails`/`sms` program later relies on that consent record. Get the standard right here, since a gap introduced at capture propagates downstream before either channel skill gets a chance to catch it. Requirements vary by market (this repo doesn't assert specific legal thresholds — verify current requirements or consult counsel for anything ambiguous), matching `emails`' Compliance & Deliverability section:
+- **Australia's Spam Act 2003 and New Zealand's Unsolicited Electronic Messages Act 2007** — both opt-in by default; don't pre-check the opt-in box.
+- **US CAN-SPAM** — more permissive (opt-out is workable for an existing relationship), but still needs clear consent language, not an implied one.
+- **Canada's CASL** — express consent, sender identification, unsubscribe.
+- **EU/UK GDPR/PECR** — explicit opt-in, no pre-checked boxes, link to privacy policy.
+- If the business operates in more than one of these markets, match the popup's consent checkbox/language to the strictest applicable standard rather than the most permissive one.
+- Always: clear consent language, a link to the privacy policy, and honor unsubscribe/preferences promptly once given.
 
 ### Accessibility
 - Keyboard navigable (Tab, Enter, Esc)

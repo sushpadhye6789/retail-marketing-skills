@@ -2,7 +2,7 @@
 name: analytics
 description: When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters," "tag manager," "GTM," "analytics implementation," "tracking plan," "how do I measure this," "track conversions," "Mixpanel," "Segment," "are my events firing," or "analytics isn't working." Use this whenever someone asks how to know if something is working or wants to measure marketing results. For choosing attribution models, comparing multi-touch/MMM/incrementality, or reconciling conflicting numbers across tools, see attribution. For A/B test measurement, see ab-testing.
 metadata:
-  version: 2.0.3
+  version: 2.0.5
   volatility: dated
 ---
 
@@ -109,6 +109,16 @@ checkout_payment_completed
 | feature_used | feature_name |
 | purchase_completed | plan, value |
 | subscription_cancelled | reason |
+
+### Dealer/Retailer Referral
+
+For a business that sells through dealers or retailers alongside a direct channel (see `marketing-strategy/references/distribution-model-guide.md`), a visitor referred to a third-party seller is a structurally different event from either category above — no direct conversion value is captured on this site, the destination is external, and there's often no post-click visibility into whether it converted:
+
+| Event | Properties |
+|-------|------------|
+| dealer_locator_used | search_location, results_count |
+| find_dealer_clicked | dealer_id, sku, distance |
+| dealer_stock_check_completed | dealer_id, sku, stock_status |
 
 **For full event library by business type**: See [references/event-library.md](references/event-library.md)
 
@@ -308,4 +318,4 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key analy
 - **attribution**: For attribution models, multi-touch/MMM/incrementality, and reconciling conflicting numbers across tools (once tracking is live)
 - **seo-audit**: For organic traffic analysis
 - **cro**: For conversion optimization (uses this data)
-- **revops**: For pipeline metrics, CRM tracking, and revenue attribution
+- **prospecting**: For pipeline metrics, CRM tracking, and revenue attribution

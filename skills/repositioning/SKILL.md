@@ -2,7 +2,7 @@
 name: repositioning
 description: "When a material positioning change has just been made in marketing-strategy and the user needs to know everything else that now needs to be revisited as a result. Also use when the user mentions 'repositioning,' 'we changed our positioning,' 'positioning change,' 'rebrand rollout,' 'update everything for our new positioning,' or 'positioning cascade.' This skill does not do the positioning work itself — that happens in marketing-strategy, using references/positioning-methodology.md. This skill activates after that change is captured and produces a prioritized audit of every customer-facing and internal surface that was built on the old positioning and now needs updating, sequenced by exposure risk."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Repositioning
@@ -61,7 +61,7 @@ Work through these in order — the ordering *is* the prioritization, by custome
 - **Brand visual identity** — `brand-guidelines`, only if tier or architecture changed alongside positioning (a pure positioning-language change doesn't necessarily require a visual refresh; check before assuming it does).
 
 ### Sales and partner-facing
-- **Sales enablement materials** — `sales-enablement` battle cards and decks built on the old competitive story.
+- **Sales enablement materials** — `trade-and-dealer-enablement` line sheets, buyer decks, and battle cards built on the old competitive story.
 - **Dealer-facing materials and co-branded assets** — `supplier-funded-marketing` and `distribution-model-guide.md`; dealers need advance notice before customer-facing repositioning affects shared materials, not after.
 - **POS materials** — `pos-marketing`, if physical retail presence exists and signage reflects old messaging.
 
@@ -123,5 +123,5 @@ This skill is an orchestrator — it routes to nearly every other skill in this 
 - **brand-management**: For architecture/governance implications of a major reposition
 - **ads** / **ad-creative** / **tentpole-campaign** / **emails** / **sms**: Live/active surfaces, highest priority
 - **seo-audit** / **content-strategy** / **competitors** / **pricing** / **offers**: Owned long-shelf-life content
-- **sales-enablement** / **supplier-funded-marketing** / **pos-marketing**: Partner and sales-facing materials
+- **trade-and-dealer-enablement** / **supplier-funded-marketing** / **pos-marketing**: Partner and sales-facing materials
 - **public-relations** / **influencer-marketing** / **referrals**: Earned and third-party surfaces

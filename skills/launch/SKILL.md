@@ -2,7 +2,7 @@
 name: launch
 description: "When the user wants to plan a product, collection, or new-store launch, or a major restock/drop announcement. Also use when the user mentions 'launch,' 'product launch,' 'collection launch,' 'drop,' 'restock announcement,' 'go-to-market,' 'pre-order,' 'early access,' 'waitlist,' 'limited release,' 'launch checklist,' 'GTM plan,' or 'we're about to launch.' Use this whenever someone is preparing to release a product, collection, or drop publicly. For a new physical-location opening, see new-store-launch. For ongoing marketing after launch, see marketing-ideas. For the offer being launched (bonuses, guarantees, scarcity, naming), see offers."
 metadata:
-  version: 3.0.1
+  version: 3.0.3
 ---
 
 # Launch Strategy
@@ -144,6 +144,7 @@ Gather initial feedback and iron out major issues before going public.
 - Sample the product internally (team, close advisors) and with a small trusted-customer panel
 - Collect feedback on fit, quality, packaging, and any friction in the buying experience
 - Confirm production/inventory readiness is real, not aspirational — a launch date set before supply is confirmed is the single most common cause of a broken launch
+- **If selling through a dealer network** (see `marketing-strategy` Section 15), extend this preview to key dealers/category captains before any public signal — see `trade-marketing`'s relationship framing. Dealers finding out about a launch the same day the public does, with no lead time to commit shelf space or stock, is a preventable relationship cost distinct from the production-readiness risk above.
 
 **Goal:** Validate the product and buying experience with friendly eyes before any customer-facing signal goes out.
 
@@ -164,6 +165,7 @@ Scale up early access while generating external buzz — this is where borrowed-
 - Send product samples to press and relevant creators under embargo (see `public-relations` and `influencer-marketing`)
 - Start marketing with teasers about the problem/occasion the product solves
 - Recruit loyalty-program VIPs and known advocates to preview and share
+- **For a trade/professional product**, a trade show or industry event is often the borrowed-channel equivalent of a press/creator moment — a credibility-building public reveal to the exact audience that matters, handed to `experiential-marketing` for booth/demo execution. Time it against this phase rather than treating it as a separate, uncoordinated event.
 
 **Consider adding:**
 - A "coming soon" landing page or countdown
@@ -183,6 +185,7 @@ Shift from preview to a controlled first wave of real sales.
 **Release options:**
 - Option A: Throttle access in waves (loyalty VIPs first, then the broader early-access list, then public)
 - Option B: Open the limited release to the full early-access list at once, capped by actual stock
+- **Option C (dealer network): staged dealer inventory allocation** — rather than a consumer waitlist, this is a real supply-constrained rollout across dealers (which dealers get stock first, and why — category captains, historical sell-through, or geographic priority) driven by production/logistics reality rather than an artificial gate. Coordinate with `product-lifecycle` if this launch is also replacing an outgoing product.
 
 **Goal:** Validate demand and operations at real (if limited) scale before committing to the full public push.
 
@@ -367,5 +370,5 @@ Even small "new arrivals" updates remind customers the brand is actively refresh
 - **loyalty**: For giving loyalty VIPs early access ahead of the public release
 - **content-strategy**: For comparison/buying-guide pages and atomizing launch-day coverage
 - **free-tools**: For a hands-on preview tool (try-on, size finder, configurator) for a considered-purchase launch
-- **sales-enablement**: For launch sell-in collateral if the launch also involves trade/wholesale accounts
+- **trade-and-dealer-enablement**: For launch sell-in collateral if the launch also involves trade/wholesale accounts
 - **media-plan**: For sizing the reach/frequency goal and sequencing paid media across channels for a launch big enough to need coordinated media weight

@@ -2,14 +2,14 @@
 name: product-lifecycle
 description: "When the user wants marketing guidance for a product moving through its lifecycle — beyond the initial launch. Also use when the user mentions 'product transition,' 'phase out,' 'phasing out,' 'discontinue a product,' 'sunset a product,' 'product replacement,' 'product succession,' 'end of life,' 'EOL,' 'replace this product,' 'reformulation,' or 'repackaging.' Covers three stages: Transition (a product continues but changes materially — reformulation, repackaging, supplier change), Phase-Out (winding a product down with no successor), and Replacement (winding a product down while introducing a successor). For the initial go-to-market launch itself, see launch, which this skill hands off to and doesn't duplicate. For disposing of the resulting excess inventory, see overstock."
 metadata:
-  version: 1.0.3
+  version: 1.0.4
 ---
 
 # Product Lifecycle
 
 You help users market a product through the stages of its life beyond the initial launch — a material change to a continuing product, winding a product down, or replacing one product with another. Each stage has different risks (customer confusion, lost SEO/ad history, alarmed subscribers) and needs different marketing handling than a launch does.
 
-**For the initial go-to-market moment**, see `launch` — it covers the ORB framework, phased rollout, and Product Hunt strategy in depth, and this skill doesn't duplicate any of it. This skill picks up *after* a product is established, when something material changes about it.
+**For the initial go-to-market moment**, see `launch` — it covers the ORB framework and phased rollout in depth, and this skill doesn't duplicate any of it. This skill picks up *after* a product is established, when something material changes about it.
 
 **Not covered anywhere in this repo**: new product development itself — ideation, R&D, and design-to-manufacture, before a product exists to launch. `launch` assumes a product is already built; this skill assumes one is already established and changing. If the user needs help with NPD, say so plainly rather than stretching either skill to cover it.
 
@@ -74,6 +74,8 @@ A recall or safety-driven withdrawal is not a slow-wind-down phase-out — it in
 ---
 
 ## Product Replacement (Phase-Out + Successor)
+
+**Start here for "an outgoing product is being replaced by a named successor" as a scenario class.** `discount-and-clearance`, `overstock`, and `price-elasticity` each own a specific mechanic this scenario touches (clearance depth, disposition channel, pricing/demand response), but none of them own the sequencing and cannibalization-vs-under-promotion tradeoff — that's this section's job. Enter here first, then hand off to those three for their specific piece, rather than starting from whichever of them comes to mind first.
 
 The trickiest case — two products' marketing needs to be managed against each other during the transition.
 

@@ -2,7 +2,7 @@
 name: post-purchase-experience
 description: "When the user wants to optimize post-purchase experience, improve unboxing design, increase product registration, or boost repeat purchase rates. Also use when the user mentions 'post-purchase,' 'unboxing,' 'product registration,' 'cross-sell,' 'repeat purchase,' 'first-time buyer,' 'replenishment,' or 'customer retention.' Use this for anything involving the customer experience after purchase in retail and commerce. For signup flows, see signup. For ongoing email sequences, see emails."
 metadata:
-  version: 2.2.0
+  version: 2.2.1
 ---
 
 # Post-Purchase Experience for Retail & Commerce (v2.1.0)
@@ -349,7 +349,6 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 ## 7. Related Skills
 
 - **packaging-design** - Owns the package itself (structure, materials, on-pack branding) that this skill's unboxing-journey work happens around
-- **onboarding** - For the separate case of activating a genuine app or account portal (loyalty app, subscription-management portal, B2B ordering portal) — distinct from this skill's physical-product post-purchase journey
 - **commercial-ops** - Retail financial mechanics including GMROI, sell-through analytics, and promotional yield
 - **retention-and-winback** - Replenishment cadence, LTV decay mitigation, win-back sequences for retail
 - **trade-and-dealer-enablement** - Retail buyer pitch kits, co-op advertising, dealer incentives programs

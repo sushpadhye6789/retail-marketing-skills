@@ -1,8 +1,8 @@
 ---
 name: trade-and-dealer-enablement
-description: "When the user wants to enable retail buyers and dealers, create line sheets, set up co-op advertising, or design dealer incentive programs. Also use when the user mentions 'trade enablement,' 'dealer enablement,' 'line sheet,' 'co-op advertising,' 'dealer incentives,' 'stockist training,' 'wholesale pipeline,' or 'retail buyer pitch.' Use this for anything involving selling products through retail channels, wholesale distribution, and dealer networks. For cold outreach emails, see cold-email. For sales collateral beyond emails, see sales-enablement. For retail financial mechanics, see commercial-ops."
+description: "When the user wants to enable retail buyers and dealers, create line sheets, set up co-op advertising, or design dealer incentive programs. Also use when the user mentions 'trade enablement,' 'dealer enablement,' 'line sheet,' 'co-op advertising,' 'dealer incentives,' 'stockist training,' 'wholesale pipeline,' or 'retail buyer pitch.' Use this for anything involving selling products through retail channels, wholesale distribution, and dealer networks. For the buyer-facing sell-in negotiation itself (getting a product listed, category management conversations, planogram negotiation), see trade-marketing, whose deck-building borrows this skill's mechanics. For cold outreach emails, see cold-email. For retail financial mechanics, see commercial-ops."
 metadata:
-  version: 2.2.0
+  version: 2.3.2
 ---
 
 # Trade & Dealer Enablement for Retail & Commerce (v2.2.0)
@@ -65,6 +65,8 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 3. **Seasonal Line Sheet**: New launches for specific season
 4. **Digital Interactive**: Click-through to variants, videos, specs
 5. **Print Catalog**: Full assortment presentation for buying meetings
+
+**Tier the line sheet to the dealer's actual range, not just to the occasion.** See `marketing-strategy/references/distribution-model-guide.md`'s Dealer Range Tiers section — a core-range dealer (the majority case in most networks; carries a curated, higher-velocity subset of the catalog) should receive a line sheet scoped to what they can actually order, not the full-catalog Print Catalog meant for an extended-range account. Sending the wrong tier's line sheet either wastes the buyer's time on SKUs they can't stock, or undersells what an extended-range account is actually capable of carrying.
 
 ### Retail Buyer Pitch Framework
 
@@ -220,6 +222,7 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 - **Approved Media Reimbursement**: For pre-approved campaigns
 - **In-Store Demo Pay**: For staffed sampling events
 - **End-Cap/Island Display**: Premium placement incentives
+- **Post-Transaction Store-Selection Commission**: A commission paid to whichever dealer a customer optionally selects for credit after completing a purchase on the brand's own direct channel (a confirmation-screen or follow-up prompt, not mandatory). Structurally different from the incentives above — it rewards a dealer relationship the customer chose to name after the fact, not a program the dealer actively executed. See `marketing-strategy/references/distribution-model-guide.md`'s Attribution and measurement section for the full mechanic and its measurement caveat (selection is optional, so commission-attributed revenue understates true dealer influence), and `attribution/references/by-business-type.md`'s Dealer/Trade + Direct Omnichannel fork for how to report it. Administer it with the same clear terms and timely payment discipline as any other incentive below — a dealer who doesn't understand how or when they'll be credited has no reason to encourage customers to select them.
 
 **Program Administration**:
 - **Clear Communication**: Program guide, terms, and conditions
@@ -620,4 +623,5 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 - **content-strategy** - Educational content, usage tips, inspirational lifestyle content for post-purchase and retention
 - **trade-marketing** - Strategic frameworks for selling through retail channels (complementary skill)
 - **pricing** - Retail pricing strategies, keystone markup, competitive positioning
+- **co-marketing** - For a joint campaign with a dealer/partner beyond co-op advertising itself (a co-branded promotion, shared content); this skill covers the co-op advertising and trade spend mechanics specifically, co-marketing covers the broader partnership-campaign case
 - **range-review** / **overstock** - Stock-to-sales ratios, aging analysis, and turn optimization for supply chain

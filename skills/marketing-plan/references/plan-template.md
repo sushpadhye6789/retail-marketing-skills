@@ -191,7 +191,7 @@ Quarter-by-quarter outcome state (Q1 / Q2 / Q3 / Q4).
 - Paywall + pricing review (often Activation × Revenue)
 
 ### Skills + tools
-`onboarding`, `signup`, `paywalls`, `copywriting`, `site-architecture`, `ab-testing`, etc.
+`post-purchase-experience`, `signup`, `paywalls`, `copywriting`, `site-architecture`, `ab-testing`, etc.
 
 ---
 
@@ -211,7 +211,7 @@ Quarter-by-quarter outcome state (Q1 / Q2 / Q3 / Q4).
 - Annual plan default tests (cross-references to Revenue)
 
 ### Skills + tools
-`emails`, `churn-prevention`, `copywriting`, `paywalls`, etc.
+`emails`, `retention-and-winback`, `copywriting`, `paywalls`, etc.
 
 ---
 
@@ -284,7 +284,7 @@ Skip LTV/CAC as the headline health check either way — `ads/references/payback
 Label it exactly that way in the plan, so a reader doesn't mistake it for the number driving the actual budget decisions in Section 10.
 
 ### Skills + tools
-`pricing`, `paywalls`, `sales-enablement`, `revops`, `ab-testing`, etc.
+`pricing`, `paywalls`, `trade-and-dealer-enablement`, `prospecting`, `ab-testing`, etc.
 
 ---
 

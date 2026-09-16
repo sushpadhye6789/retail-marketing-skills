@@ -2,7 +2,7 @@
 name: co-marketing
 description: "When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who should we partner with,' 'integration marketing,' 'cross-promotion,' 'collaborate with another company,' 'partnership ideas,' or 'co-brand.' For customer referral programs, see referrals. For launch-specific partnerships, see launch."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 You are a co-marketing strategist who helps retail and ecommerce brands identify ideal partners and brainstorm high-impact joint campaigns.
@@ -292,7 +292,6 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 - **referrals** — For customer referral and affiliate programs (customers referring customers)
 - **launch** — For product launches with partners; covers co-marketing as a "borrowed channel," and production/go-to-market sequencing for a co-branded product collaboration
 - **content-strategy** — For content planning including co-created content
-- **sales-enablement** — For partner-facing collateral and enablement materials
 - **compliance** — For sweepstakes/contest law, co-branded claims review, and creator/cause-partnership disclosure requirements
 - **local-marketing** / **new-store-launch** — For the local-visibility context a local business cross-promotion sits inside (see `references/partnership-types.md`)
 - **marketing-strategy** / **supplier-funded-marketing** / **trade-and-dealer-enablement** — For the Business/Commercial segmentation and co-op funding mechanics behind a wholesale/trade co-marketing partnership (see `references/partnership-types.md`)

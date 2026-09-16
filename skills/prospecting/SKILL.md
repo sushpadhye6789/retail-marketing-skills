@@ -2,7 +2,7 @@
 name: prospecting
 description: When the user wants to find, qualify, and build a list of prospects to reach out to — across wholesale/trade accounts, general B2B, or local small businesses. Also use when the user mentions "prospecting," "build a prospect list," "find prospects," "find leads," "lead gen list," "find wholesale accounts," "find retail buyers," "find B2B companies," "find local businesses," "ICP-fit accounts," "who should we go after," "outbound list," "target account list," "find clients near me," "businesses without websites," "prospect research," "qualified leads," "find my first customers," "early adopters," "design partners," "beta testers," or "who has this problem." Use this for the list-building and qualification phase. For writing the outbound copy after the list is built, see cold-email. For deep competitive research on specific accounts, see competitor-profiling.
 metadata:
-  version: 1.2.0
+  version: 1.2.1
 ---
 
 # Prospecting
@@ -256,8 +256,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key prosp
 - **cold-email**: For writing outbound sequences against the qualified list (the natural next step after prospecting)
 - **customer-research**: For understanding why current customers buy — informs the ICP definition
 - **competitor-profiling**: For deeper research on individual accounts (different from list-building qualification)
-- **revops**: For lead routing, lifecycle, and CRM handoff after prospecting
-- **sales-enablement**: For battle cards and one-pagers used in the outreach
+- **trade-and-dealer-enablement**: For battle cards, line sheets, and one-pagers used in the outreach; also the CRM-pipeline handoff this repo doesn't yet have a dedicated skill for (see `marketing-strategy/references/b2b-wholesale-guide.md`)
 - **directory-submissions**: For inbound discovery surfaces (the prospects might find you back)
 - **trade-marketing**: For the sell-in pitch itself once a wholesale/trade prospect is qualified
 - **marketing-strategy**: For the ICP definition and the Section 16 Business/Commercial split that anchors every wholesale prospecting engagement

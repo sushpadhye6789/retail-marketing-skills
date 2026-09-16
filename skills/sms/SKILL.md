@@ -2,7 +2,7 @@
 name: sms
 description: When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the user mentions "SMS marketing," "text message campaigns," "SMS sequence," "SMS automation," "abandoned cart text," "post-purchase SMS," "Klaviyo SMS," "Postscript," "Attentive," "Twilio," "A2P 10DLC," "TCPA," "SMS compliance," "short code," "toll-free SMS," "MMS campaign," "should I do SMS," or "SMS vs email." For email sequences, see emails. For SMS copy framing, see copywriting. For opt-in popups that capture phone numbers, see popups.
 metadata:
-  version: 1.0.4
+  version: 1.0.6
 ---
 
 # SMS Marketing
@@ -69,6 +69,13 @@ SMS is not "another email." Use it where the channel's properties win:
 ## Compliance — Read First
 
 **Compliance is the foundation, not an afterthought.** A single TCPA class-action settlement runs $5M–$40M. The basics:
+
+### Australia — Spam Act 2003 / New Zealand — Unsolicited Electronic Messages Act 2007
+
+- **Express consent (opt-in) required** for commercial SMS — the same standard `emails`, `retention-and-winback`, and `compliance` already apply to email in these markets; SMS carries no lighter standard than email here.
+- **Sender identification** must be included in the message.
+- **A functional unsubscribe mechanism** (STOP or equivalent) must be present and honored promptly — the ACMA (Australia) and DIA (New Zealand) both enforce this.
+- Implied consent has narrower carve-outs than the US's business-relationship exception below — don't assume a US-style implied-consent window applies.
 
 ### US — TCPA (Telephone Consumer Protection Act)
 
@@ -340,8 +347,8 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key SMS t
 - **copywriting**: For SMS copy at scale and the longer-form pages/emails that SMS links to.
 - **popups**: For phone number capture popups on-site.
 - **retention-and-winback**: For general repeat-purchase win-back flows that combine SMS + email.
-- **churn-prevention**: For cancel-flow/save-offer SMS on a recurring-billing subscription program.
-- **onboarding**: For post-signup SMS milestone nudges.
+- **retention-and-winback**: For cancel-flow/save-offer SMS on a recurring-billing subscription program (see its Involuntary Churn: Payment Recovery section).
+- **post-purchase-experience**: For post-signup SMS milestone nudges.
 - **analytics**: For attribution and RPS measurement.
 - **ab-testing**: For SMS-specific test design.
 - **lead-magnets**: For incentivizing opt-in (the "10% off for joining" offer).

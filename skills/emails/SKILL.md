@@ -2,7 +2,7 @@
 name: emails
 description: When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome sequence," "re-engagement emails," "email automation," "lifecycle emails," "trigger-based emails," "email funnel," "email workflow," "what emails should I send," "welcome series," or "email cadence." Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see post-purchase-experience.
 metadata:
-  version: 2.2.1
+  version: 2.2.2
 ---
 
 # Email Sequence Design
@@ -334,4 +334,4 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key email
 - **copywriting**: For landing pages emails link to
 - **ab-testing**: For testing email elements
 - **popups**: For email capture popups
-- **revops**: For lifecycle stages that trigger email sequences
+- **prospecting**: For lead-lifecycle stages that trigger B2B/wholesale email sequences

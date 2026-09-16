@@ -2,13 +2,13 @@
 name: retention-and-winback
 description: "When the user wants to improve customer retention, increase repeat purchase rates, optimize replenishment cadence, or implement win-back campaigns. Also use when the user mentions 'retention,' 'repeat purchase,' 'replenishment,' 'LTV,' 'win-back,' 'lapsed customer,' 'customer churn,' or 'basket size.' Use this for anything involving keeping customers coming back and re-engaging lapsed buyers in retail and commerce. For post-purchase experience, see post-purchase-experience. For loyalty programs, see loyalty."
 metadata:
-  version: 2.2.0
+  version: 2.3.0
 ---
 
 # Retail Retention & Win-Back Strategies (v2.1.0)
 
 ## Overview
-Retail-focused retention and win-back framework — strategies purpose-built for product-based businesses selling through retail channels, direct-to-consumer (D2C), wholesale distribution, and brick-and-mortar storefronts. For a recurring-billing subscription/membership program specifically, see `churn-prevention` alongside this skill.
+Retail-focused retention and win-back framework — strategies purpose-built for product-based businesses selling through retail channels, direct-to-consumer (D2C), wholesale distribution, and brick-and-mortar storefronts. For a recurring-billing subscription/membership program specifically, see this skill's Involuntary Churn: Payment Recovery section below for the cancel-flow/dunning/save-offer side of that relationship.
 
 **Check for existing strategy context first:**
 If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-marketing.md`, `.claude/product-marketing.md`, or `product-marketing-context.md` filenames), read it before asking questions. Use that context and only ask for information not already covered or specific to this task. Also check `.agents/marketing-learnings.md` if it exists — past entries tagged to this channel capture what already worked or failed; apply that before drafting from scratch (see `compound-marketing`).
@@ -25,7 +25,7 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 | **Customer Journey Stage** | Post-purchase → active → at-risk → lapsed → win-back |
 | **Communication Channels** | Email/SMS, direct mail, loyalty app notifications, package inserts |
 
-**If the business also runs a recurring-billing program** (subscribe-and-save, paid membership), the cancel-flow/dunning/save-offer intervention points for that specific billing relationship are `churn-prevention`'s territory — use both skills together rather than reinventing that half here.
+**If the business also runs a recurring-billing program** (subscribe-and-save, paid membership), the cancel-flow/dunning/save-offer intervention points for that specific billing relationship are covered in this skill's Involuntary Churn: Payment Recovery section.
 
 ---
 
@@ -145,6 +145,15 @@ LTV decay occurs when predicted future purchases decline due to:
    - User-generated content campaigns with rewards
    - Customer advisory boards or feedback panels
    - Exclusive events or experiences for top customers
+
+### Involuntary Churn: Payment Recovery
+
+For a subscribe-and-save or paid-membership program, a meaningful share of cancellations aren't a customer choosing to leave — they're a failed card charge the customer never actually decided on. Treat this separately from voluntary lapse, since the fix is operational, not persuasive:
+
+- **Card updater services first.** Automatic card-on-file refresh (via the payment processor or a dedicated updater) recovers a large share of failed payments before they ever reach the customer — expired cards, reissued numbers after a breach, and BIN updates are the majority of "failures," not genuine declines.
+- **Smart retry logic, not a single retry.** Space retries against the card network's own decline-reason codes (a hard decline shouldn't retry identically; a soft decline from insufficient funds is worth retrying a few days later, e.g. near a likely payday) rather than one fixed retry schedule for every failure type.
+- **Dunning communication is a service message, not a sales pitch.** A clear "we couldn't process your payment, here's how to fix it" email/SMS with a direct link to update payment details, sent promptly and again before final cancellation — not styled as a win-back offer, since the customer hasn't chosen to leave.
+- **Voluntary cancel flows need the same discipline as any save motion**: understand the actual reason via a short exit survey before offering anything, offer a proportionate save (a skip/pause first; a discount only where the stated reason is genuinely price-sensitivity, not "too much product," which is a cadence problem — see Replenishment Cadence above), and never make cancellation itself artificially difficult. A hard-to-cancel subscription creates the reputational and regulatory risk `compliance` flags for dark-pattern cancellation flows. Apply `attribution/references/incrementality-checkpoint.md`'s save-offer trap here directly: a save offer that "retains" a customer who was never actually going to cancel isn't a win.
 
 ---
 

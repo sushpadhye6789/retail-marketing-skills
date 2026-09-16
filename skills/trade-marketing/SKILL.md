@@ -2,7 +2,7 @@
 name: trade-marketing
 description: "When the user wants to get a retail buyer, distributor, or dealer to list, stock, or feature a product — sell-in materials, buyer presentations, category management conversations, or trade show sell-in. Also use when the user mentions 'trade marketing,' 'sell-in,' 'sell-in deck,' 'buyer presentation,' 'category management,' 'category captain,' 'line review,' 'range review with a retailer,' 'planogram negotiation,' or 'getting listed.' This is the retailer-facing counterpart to consumer marketing — it targets the buyer/category manager who decides what goes on shelf, not the end shopper. For the co-op funding compliance side once a listing already exists, see supplier-funded-marketing. For paid advertising inside a retailer's own platform, see retail-media. For general B2B sales collateral mechanics, see trade-and-dealer-enablement, which this skill's deck-building borrows from."
 metadata:
-  version: 1.0.4
+  version: 1.0.5
 ---
 
 # Trade Marketing
@@ -40,11 +40,13 @@ Gather this context (ask if not provided):
 
 A buyer's job is to maximize the return on a finite amount of shelf space (physical or digital) — every pitch needs to answer their actual question, not the brand's own story:
 
-- **Lead with the retailer's economics, not the brand's**: sell-through velocity, margin (both the initial margin and the total category margin contribution), and turn rate matter more to a buyer than brand story or product features. Have real numbers — from your own sales elsewhere, comparable-category benchmarks, or a pilot — not aspirational projections.
+- **Lead with the retailer's economics, not the brand's**: sell-through velocity, margin (both the initial margin and the total category margin contribution), and turn rate matter more to a buyer than brand story or product features. Have real numbers — not aspirational projections — but where those numbers come from depends on which direction this pitch is running:
+  - **A smaller or emerging brand pitching an established retailer for its first listing** cites proof from where it's already sold: other retailers, its own direct channel, or a pilot/trial period.
+  - **A manufacturer with an existing dealer network pitching a new or additional retail channel** has no "own sales elsewhere" to cite in the same way — it's the same brand across every existing dealer. Proof here comes from performance at comparable existing dealers instead, and the pitch must address cannibalization risk to the existing network by name (see below), not leave the buyer to raise it.
 - **Show what it does *for the category*, not just for itself** — does it fill a genuine gap in the retailer's current range (a price point, a use case, a customer segment) they're not currently serving? A "me-too" pitch competing head-on with an already-strong incumbent SKU is the hardest sell; a gap-filling pitch is the easiest.
 - **Address cannibalization directly, don't wait to be asked** — if the new listing will pull volume from an existing SKU (yours or a competitor's) on the same shelf, name it and show the net category impact is still positive. A buyer who discovers unaddressed cannibalization after listing loses trust fast.
 - **Bring proof, not just projections**: sell-in data from comparable retailers, consumer research (`customer-research`), or a limited pilot/trial period proposal all de-risk the buyer's decision more than a confident pitch alone.
-- **For the deck/document mechanics** (structure, scannability, tailoring to the audience), reuse `sales-enablement`'s discipline directly — a buyer presentation is a specific application of the same "situation-specific, not generic" principle.
+- **For the deck/document mechanics** (structure, scannability, tailoring to the audience), reuse `trade-and-dealer-enablement`'s discipline directly — a buyer presentation is a specific application of the same "situation-specific, not generic" principle.
 
 ---
 

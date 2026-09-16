@@ -2,7 +2,7 @@
 name: supplier-funded-marketing
 description: "When the user wants help with marketing development funds (MDF) or co-op advertising — either requesting and using funds a supplier/manufacturer provides, or designing and administering a program that funds a dealer network's marketing. Also use when the user mentions 'MDF,' 'marketing development funds,' 'co-op advertising,' 'co-op marketing,' 'vendor funded marketing,' 'supplier funded marketing,' 'dealer marketing funds,' 'co-op claim,' or 'brand compliance funds.' Covers both directions of the channel — a business can be receiving funds from its own suppliers and providing funds to its own dealers at the same time; establish which direction a given task is about before proceeding."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Supplier-Funded Marketing
@@ -54,6 +54,8 @@ Gather this context (ask if not provided):
 - **Enforce compliance consistently** — inconsistent enforcement (some dealers' off-brand creative gets approved, others' doesn't) breeds resentment and doesn't protect the brand anyway.
 
 ### Measuring program ROI
+
+**This isn't optional** — see `AGENTS.md`'s Measurement Discipline rule: a funding program isn't complete without a pre-approval gate, a claims/documentation process, and a stated measurement method, or an explicit "not measurable yet" and why.
 
 The strongest method reuses `attribution`'s incrementality/holdout logic directly: compare sell-through or sales lift for dealers who used MDF-funded campaigns against a matched set of comparable dealers who didn't (or didn't during the same window) — this isolates the program's actual incremental effect rather than just observing that funded dealers sold more, which could reflect that your best-performing dealers are also the ones most likely to use available funds. Without this comparison, program ROI numbers are directional at best.
 

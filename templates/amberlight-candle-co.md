@@ -2,7 +2,7 @@
 
 **Fictional company throughout: Amberlight Candle Co.** Everything below is a worked *process* template — target lists, outreach sequences, flow redesigns, copy — not a claim about results a real campaign produced. Per the standard now applied across this repo (see `evaluations/README.md`), any "expected outcome" language here is a planning estimate to replace with real data once run, never a substitute for it.
 
-This package demonstrates three skills together, since they naturally chain for a real DTC brand launch: `directory-submissions` (discovery/backlinks), `onboarding` (loyalty app first-run), and `signup` (checkout + loyalty account creation) — all retooled away from SaaS framing this session, with no private-tier depth behind any of them until now.
+This package demonstrates three skills together, since they naturally chain for a real DTC brand launch: `directory-submissions` (discovery/backlinks), `post-purchase-experience` (loyalty app first-run), and `signup` (checkout + loyalty account creation) — all retooled away from SaaS framing this session, with no private-tier depth behind any of them until now.
 
 ## Why This Vertical Needs Specialized Marketing
 
@@ -73,7 +73,7 @@ guide is covering.
 
 ### 3. Onboarding — Loyalty App First-Run Flow
 
-Amberlight's loyalty app (order tracking + subscribe-and-save management + VIP perks) redesigned per the `onboarding` skill:
+Amberlight's loyalty app (order tracking + subscribe-and-save management + VIP perks) redesigned per the `post-purchase-experience` skill:
 
 **Before:** 6-step generic onboarding (create account → verify email → set preferences → tutorial carousel → notification permission ask → done), 34% completion rate, no persona differentiation.
 
@@ -106,7 +106,7 @@ Per the `signup` skill's guest-checkout-first principle:
 
 ## Related
 
-- Public skills this demonstrates: `directory-submissions`, `onboarding`, `signup`
+- Public skills this demonstrates: `directory-submissions`, `post-purchase-experience`, `signup`
 - `journalist-pitching.md` (public, `public-relations` skill) — the scoring/discovery approach adapted above for gift-guide editors
 - `loyalty` — the program mechanics behind the VIP perks referenced in the onboarding flow
 - `compliance` — endorsement-disclosure and certification-claim review before any sustainability/certification messaging ships

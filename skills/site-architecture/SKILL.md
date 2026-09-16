@@ -2,7 +2,7 @@
 name: site-architecture
 description: When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions "sitemap," "site map," "visual sitemap," "site structure," "page hierarchy," "information architecture," "IA," "navigation design," "URL structure," "breadcrumbs," "internal linking strategy," "website planning," "what pages do I need," "how should I organize my site," or "site navigation." Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema.
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Site Architecture
@@ -48,6 +48,7 @@ Gather this context (ask if not provided):
 | E-commerce | 3-4 levels | Home, Categories, Products, Cart | `/category/subcategory/product` |
 | Wholesale/B2B portal | 3-4 levels | Home, Catalog, Account, Order History | `/catalog/category/product`, `/account/orders` |
 | Hybrid ecommerce+content | 3-4 levels | Home, Shop, Blog, Guides, About | `/shop/product`, `/blog/slug` |
+| Manufacturer/dealer-network | 3-4 levels | Home, Products, Find a Dealer, Support/Training, (optional) Direct Shop | `/products/name`, `/dealers/location`, `/find-a-dealer` |
 | Small business | 1-2 levels | Home, Services, About, Contact | `/services/name` |
 
 **For full page hierarchy templates**: See [references/site-type-templates.md](references/site-type-templates.md)
@@ -173,6 +174,7 @@ Breadcrumbs should mirror the URL hierarchy. Every breadcrumb segment should be 
 | Blog post | `/blog/{slug}` | `/blog/seo-guide` |
 | Blog category | `/blog/category/{slug}` | `/blog/category/seo` |
 | Case study | `/customers/{slug}` | `/customers/acme-corp` |
+| Dealer locator | `/dealers/{location}` or `/find-a-dealer` | `/dealers/melbourne`, `/find-a-dealer` |
 | Documentation | `/docs/{section}/{page}` | `/docs/api/authentication` |
 | Legal | `/{page}` | `/privacy`, `/terms` |
 | Landing page | `/{slug}` or `/lp/{slug}` | `/free-trial`, `/lp/webinar` |

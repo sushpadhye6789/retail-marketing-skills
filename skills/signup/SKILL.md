@@ -2,6 +2,7 @@
 name: signup
 description: When the user wants to optimize signup, registration, or account-creation flows — checkout account creation, loyalty program signup, subscribe-and-save signup, or a B2B/wholesale account application. Also use when the user mentions "signup conversions," "registration friction," "signup form optimization," "guest checkout," "reduce signup dropoff," "account creation flow," "people aren't signing up," "signup abandonment," "nobody completes registration," "too many steps to sign up," or "simplify our signup." Use this whenever the user has a signup or registration flow that isn't performing. For what happens after signup, see post-purchase-experience. For lead capture forms (not account creation), see cro.
 metadata:
+  category: Retention, CRM & Website Experience
   version: 3.0.0
 ---
 

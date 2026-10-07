@@ -2,6 +2,7 @@
 name: marketing-brief-template
 description: When the user needs to create a standardized marketing brief to align team members, guide campaign execution, or document marketing initiatives. Use this when starting new campaigns, planning quarterly initiatives, or needing to ensure all stakeholders have a shared understanding of goals, audience, and success metrics.
 metadata:
+  category: Operations, Budgeting & Launch Management
   version: 1.0.0
 ---
 

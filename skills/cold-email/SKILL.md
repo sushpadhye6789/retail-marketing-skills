@@ -2,6 +2,7 @@
 name: cold-email
 description: "When the user wants to write cold outreach emails to retail buyers, wholesale distributors, or trade partners. Also use when the user mentions 'cold email,' 'outbound email,' 'wholesale outreach,' 'retail buyer outreach,' 'distributor outreach,' 'trade prospecting,' or 'follow-up email sequence.' Use this for writing B2B cold emails and follow-up sequences that get replies from retail and wholesale accounts."
 metadata:
+  category: Acquisition, Ads & Channel Marketing
   version: 2.1.1
 ---
 

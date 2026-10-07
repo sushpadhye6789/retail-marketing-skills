@@ -2,6 +2,7 @@
 name: launch
 description: "When the user wants to plan a product, collection, or new-store launch, or a major restock/drop announcement. Also use when the user mentions 'launch,' 'product launch,' 'collection launch,' 'drop,' 'restock announcement,' 'go-to-market,' 'pre-order,' 'early access,' 'waitlist,' 'limited release,' 'launch checklist,' 'GTM plan,' or 'we're about to launch.' Use this whenever someone is preparing to release a product, collection, or drop publicly. For a new physical-location opening, see new-store-launch. For ongoing marketing after launch, see marketing-ideas. For the offer being launched (bonuses, guarantees, scarcity, naming), see offers."
 metadata:
+  category: Operations, Budgeting & Launch Management
   version: 3.0.3
 ---
 

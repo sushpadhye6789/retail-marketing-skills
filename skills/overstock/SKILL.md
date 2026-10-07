@@ -2,6 +2,7 @@
 name: overstock
 description: "When the user has excess, aging, dead, or discontinued inventory and needs to diagnose why, and decide how to dispose of it. Also use when the user mentions 'overstock,' 'excess inventory,' 'dead stock,' 'aging inventory,' 'slow-moving inventory,' 'liquidation,' 'outlet strategy,' 'end of line,' or 'how do I clear this inventory.' This skill covers the inventory diagnosis and disposition-channel decision (public discount vs. discreet liquidation vs. write-off). For the actual discount mechanics, cadence, and messaging once a public-discount disposition is chosen, see discount-and-clearance, which this skill hands off to."
 metadata:
+  category: Product, Pricing & Offer Strategy
   version: 1.1.3
 ---
 

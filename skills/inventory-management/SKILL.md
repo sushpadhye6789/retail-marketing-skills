@@ -2,6 +2,7 @@
 name: inventory-management
 description: "When the user wants to check or align marketing activity against actual stock levels before it runs — a pre-campaign stock check, low-stock or out-of-stock handling, safety-stock-aware promo timing, or a stock-to-sales/aging read that isn't a full range review. Also use when the user mentions 'stock check,' 'inventory visibility,' 'is this in stock,' 'don't promote what's out of stock,' 'stock-to-sales ratio,' 'safety stock,' 'low stock messaging,' 'sold out,' 'backorder,' or 'waitlist for out-of-stock item.' This is marketing's read of inventory data, not warehouse/supply-chain inventory optimization — that operational function isn't covered by this repo (see the boundary note below). For periodic cross-SKU keep/cut/grow decisions, see range-review. For disposing of excess/dead stock, see overstock. For a single SKU's phase-out or replacement, see product-lifecycle. For a geopolitical/logistics-driven shortage, see marketing-strategy/references/disruption-response-guide.md."
 metadata:
+  category: Product, Pricing & Offer Strategy
   version: 1.0.0
 ---
 

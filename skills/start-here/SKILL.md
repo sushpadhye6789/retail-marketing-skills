@@ -2,6 +2,7 @@
 name: start-here
 description: "When the user states a commercial outcome or business goal rather than naming a specific marketing skill or tactic — 'I want to lift sell-through on slow-moving inventory,' 'how do I reduce CAC,' 'grow repeat purchase rate,' 'clear our overstock,' 'improve promotional yield,' 'fix the website's conversion problem' — and doesn't already know which of this repo's 80+ skills applies. Also use when the user says 'where do I start,' 'which skill do I need,' 'I don't know what to use for this,' or names a metric they want to move (GMROI, sell-through, CAC, LTV, promotional yield, trade spend ROI, AOV, repeat purchase rate, Marketing ROMI) without naming a tactic. Not for a user who already knows which skill they want — route them there directly instead of through this skill. Not a replacement for any individual skill's own judgment; this only sequences which skills to run and in what order."
 metadata:
+  category: Foundation & Strategy
   version: 1.0.0
 ---
 

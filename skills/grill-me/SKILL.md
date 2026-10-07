@@ -2,6 +2,7 @@
 name: grill-me
 description: "When the user wants to conduct structured customer interviews to uncover deep motivations, objections, and language for marketing strategy validation. Use when the user mentions 'customer interviews,' 'grill me,' 'JTBD interviews,' 'voice of customer depth,' 'problem validation,' 'solution validation,' or 'customer development.' This skill provides frameworks for conducting and analyzing customer interviews to inform and validate marketing strategy."
 metadata:
+  category: AI-Native & Meta
   version: 1.0.0
 ---
 

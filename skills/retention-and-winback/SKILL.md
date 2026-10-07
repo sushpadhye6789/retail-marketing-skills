@@ -2,6 +2,7 @@
 name: retention-and-winback
 description: "When the user wants to improve customer retention, increase repeat purchase rates, optimize replenishment cadence, or implement win-back campaigns. Also use when the user mentions 'retention,' 'repeat purchase,' 'replenishment,' 'LTV,' 'win-back,' 'lapsed customer,' 'customer churn,' or 'basket size.' Use this for anything involving keeping customers coming back and re-engaging lapsed buyers in retail and commerce. For post-purchase experience, see post-purchase-experience. For loyalty programs, see loyalty."
 metadata:
+  category: Retention, CRM & Website Experience
   version: 2.3.0
 ---
 

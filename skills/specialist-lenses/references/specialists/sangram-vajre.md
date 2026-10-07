@@ -8,7 +8,7 @@ Vajre (co-founder of Terminus, CEO of GTM Partners) helped pioneer account-based
 
 ## Retail application
 
-This is explicitly a B2B framework and doesn't apply to consumer-facing retail marketing — but it's the right toolkit for the wholesale/B2B side of a retail business, alongside this repo's existing `sales-enablement` and `revops` skills: a retailer selling into dealer networks, trade accounts, or corporate/institutional buyers is running exactly the named-account, sales-marketing-alignment motion Vajre describes, distinct from the consumer-facing majority of the business. See `marketing-strategy` Section 16 (B2B/Wholesale Channel) for whether this applies at all.
+This is explicitly a B2B framework and doesn't apply to consumer-facing retail marketing — but it's the right toolkit for the wholesale/B2B side of a retail business, alongside this repo's existing `trade-and-dealer-enablement` and `prospecting` skills: a retailer selling into dealer networks, trade accounts, or corporate/institutional buyers is running exactly the named-account, sales-marketing-alignment motion Vajre describes, distinct from the consumer-facing majority of the business. See `marketing-strategy` Section 16 (B2B/Wholesale Channel) for whether this applies at all.
 
 ## Best for / blind spots
 

@@ -2,6 +2,7 @@
 name: autoresearch
 description: "When the user wants to generate many variants of conversion copy and pick a strong starting candidate before spending real traffic on it — a product page headline, an email subject line, ad copy, SMS copy, or a signup/form page. Also use when the user mentions 'autoresearch,' 'run autoresearch,' 'generate variants,' 'optimize this headline,' 'score these variants,' 'which version is stronger,' or wants a fast, simulated-panel read on copy before a real test. This is NOT a substitute for ab-testing — it picks a pre-launch candidate; ab-testing measures it against real traffic. The panel's score is a simulated signal, not a result — a human always reviews and approves the winner before anything ships; nothing from this skill auto-publishes."
 metadata:
+  category: AI-Native & Meta
   version: 1.0.0
 ---
 

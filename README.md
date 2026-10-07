@@ -71,6 +71,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [analytics](skills/analytics/) | When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions... |
 | [aso](skills/aso/) | When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO... |
 | [attribution](skills/attribution/) | When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an... |
+| [autoresearch](skills/autoresearch/) | When the user wants to generate many variants of conversion copy and pick a strong starting candidate before spending... |
 | [brand-guidelines](skills/brand-guidelines/) | When the user wants to create, update, or apply full brand identity guidelines — visual (logo, color, typography,... |
 | [brand-management](skills/brand-management/) | When the user wants to track brand health, decide on brand architecture (house of brands vs. branded house vs.... |
 | [budget-allocation](skills/budget-allocation/) | When the user wants to size a total marketing budget or decide how to split it across channels/campaigns, including... |
@@ -99,6 +100,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [growth-playbooks](skills/growth-playbooks/) | When the user wants to apply proven growth mechanics from well-known brands to their own business — a referral loop, a... |
 | [image](skills/image/) | When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product... |
 | [influencer-marketing](skills/influencer-marketing/) | When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and... |
+| [inventory-management](skills/inventory-management/) | When the user wants to check or align marketing activity against actual stock levels before it runs — a pre-campaign... |
 | [launch](skills/launch/) | When the user wants to plan a product, collection, or new-store launch, or a major restock/drop announcement. Also use... |
 | [launch-project-management](skills/launch-project-management/) | When the user wants to coordinate a launch or major campaign across multiple internal functions (marketing, design,... |
 | [lead-magnets](skills/lead-magnets/) | When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the... |
@@ -297,7 +299,11 @@ and interview me to build our brand-tier and distribution-model context, like it
 ## Skill Categories
 
 ### Strategy & Foundation
+- `start-here` - Resolves a stated commercial outcome to a skill chain, owner role, approval gate, and success metric via `ROUTES.yaml`
 - `marketing-strategy` - Foundational positioning, audience, brand tier, distribution model, and strategic priorities
+- `marketing-brief-template` - Standardized brief for aligning stakeholders on a campaign's goal, audience, and scope before work starts
+- `grill-me` - Structured customer interviews (JTBD, objection-mining) to ground strategy in real customer language rather than assumption
+- `ai-cmo-os` - Architecture spec for orchestrating this skill library as a supervised, gated agent system (infrastructure design, not a packaged product)
 - `compound-marketing` - The general brief → draft → execute → analyse → optimise → compound loop for any marketing unit of work, with a durable learnings file so each cycle starts smarter than the last
 - `repositioning` - Cascading a material positioning change through everything built on the old one
 - `marketing-plan` - Comprehensive AARRR-structured marketing plan
@@ -328,6 +334,9 @@ and interview me to build our brand-tier and distribution-model context, like it
 - `popups` - Modals and overlays
 - `paywalls` - In-app upgrade moments
 - `ab-testing` - Experiment design
+- `autoresearch` - Generates and scores many copy variants with a simulated panel before spending real traffic on a test
+- `product-page` - Product detail/listing page structure, merchandising copy, and stock/review signals
+- `website-ux` - Site-wide usability, accessibility, page speed, and mobile experience, as distinct from a single page's conversion
 
 ### Content & Copy
 - `storytelling` - Brand, founder, product, and customer narrative construction
@@ -349,6 +358,7 @@ and interview me to build our brand-tier and distribution-model context, like it
 - `schema` - Structured data
 - `aso` - App Store / Google Play optimization
 - `competitors` - Comparison and alternative pages
+- `agent-readiness` - Making a catalog, pricing, and checkout usable by an autonomous AI shopping/purchasing agent, as distinct from getting cited in an AI-generated answer
 
 ### Paid Media
 - `ads` - Google, Meta, LinkedIn, TikTok campaigns (including PMax and Advantage+ Shopping)
@@ -365,6 +375,8 @@ and interview me to build our brand-tier and distribution-model context, like it
 - `visual-merchandising` - Store layout, planograms, and window displays
 - `experiential-marketing` - In-store demos, trade shows, roadshows, and pop-ups
 - `supplier-funded-marketing` - MDF/co-op advertising, receiving or providing dealer marketing funds
+- `new-store-launch` - Marketing around opening a new physical location — grand opening, flagship, or market expansion
+- `packaging-design` - Structural packaging, materials, sustainability, and on-pack branding for shelf and shipping
 
 ### Growth & Retention
 - `referrals` - Referral and affiliate programs
@@ -390,6 +402,8 @@ and interview me to build our brand-tier and distribution-model context, like it
 - `product-lifecycle` - Product transitions, phase-outs, and replacements after launch
 - `tentpole-campaign` - Major brand campaigns tied to a calendar or cultural moment
 - `launch` - Product launches and announcements
+- `launch-project-management` - Cross-functional workback schedule, RACI, and dependency mapping for a launch or major campaign
+- `inventory-management` - Checking real stock levels before a campaign runs — pre-campaign checks, low-stock/out-of-stock handling, safety-stock-aware timing
 
 ### Compliance
 - `compliance` - Advertising claims, disclosures, consent, and pricing-claim compliance risk

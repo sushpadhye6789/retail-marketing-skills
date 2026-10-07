@@ -2,6 +2,7 @@
 name: cro
 description: "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, product pages, cart, checkout, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'cart abandonment,' 'checkout friction,' 'nobody's converting,' 'low conversion rate,' or 'this page needs work.' Use this even if the user just shares a URL and asks for feedback. For signup/registration flows, see signup. For post-signup activation, see post-purchase-experience. For popups/modals, see popups. For site-wide speed/accessibility, see website-ux. For product/category page content, see product-page. For site hierarchy, see site-architecture. For AI shopping-agent readiness, see agent-readiness."
 metadata:
+  category: Retention, CRM & Website Experience
   version: 2.3.0
 ---
 

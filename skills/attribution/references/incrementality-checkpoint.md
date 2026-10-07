@@ -9,7 +9,7 @@ A short, reusable pattern any skill in this repo can point to before recommendin
 Every skill's version of this trap is structurally the same shape, just wearing different clothes:
 
 - **A referral or loyalty program** rewards a customer for a purchase or referral they were going to make anyway — the program looks like it's driving volume, but it's mostly subsidizing behavior that didn't need subsidizing. (`referrals`, `loyalty`)
-- **A save offer or discount** "retains" a customer who was never actually going to cancel, or "converts" a shopper who was going to buy at full price. (`churn-prevention`, `discount-and-clearance`, `offers`)
+- **A save offer or discount** "retains" a customer who was never actually going to cancel, or "converts" a shopper who was going to buy at full price. (`retention-and-winback`, `discount-and-clearance`, `offers`)
 - **An influencer or co-marketing partnership** gets credited with sales that branded search, direct traffic, or another channel would have captured regardless — the partnership looks efficient because attribution flatters it, not because it caused the lift. (`influencer-marketing`, `co-marketing`, `community-marketing`)
 - **A piece of SEO/content** ranks and gets traffic, but the traffic converts at the same rate it would have via another channel — the content gets credit for demand it didn't create, only captured. (`content-strategy`, `seo-audit`, `ai-seo`, `programmatic-seo`)
 - **A creative variant** wins an A/B test on a vanity metric (CTR, engagement) that doesn't move the metric that actually matters (purchases, retained revenue). (`ad-creative`, `ads`)

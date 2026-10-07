@@ -2,6 +2,7 @@
 name: brand-guidelines
 description: "When the user wants to create, update, or apply full brand identity guidelines — visual (logo, color, typography, imagery) and verbal (tone, personality, words to use/avoid) — so every asset (ads, social, email, packaging, site) stays consistent without a designer or editor reviewing each one. Also use when the user mentions 'brand guidelines,' 'brand identity,' 'brand book,' 'style guide,' 'brand colors,' 'typography,' 'logo usage,' 'visual identity,' 'brand kit,' 'brand voice,' or 'tone of voice.' Owns both halves of brand identity in one document, read by every asset-producing skill before they generate visual or written output. For the strategic inputs identity should reflect (audience, positioning, tier), see marketing-strategy."
 metadata:
+  category: Foundation & Strategy
   version: 2.0.0
 ---
 

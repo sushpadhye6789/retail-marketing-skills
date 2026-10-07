@@ -317,7 +317,7 @@ Loops are grouped by function. Naming follows the "The X loop" convention.
 - **Check cadence**: Weekly
 - **Acts when**: An onboarding step's drop exceeds benchmark or regresses vs. last period.
 - **Purpose**: Find and fix the biggest leak between signup and first value.
-- **Skills used**: `onboarding`, `analytics`, `cro`
+- **Skills used**: `post-purchase-experience`, `analytics`, `cro`
 - **Loop body**:
   1. Pull the activation funnel step-by-step (signup → key action → aha).
   2. Identify the worst-dropping step vs. benchmark and last period.
@@ -359,7 +359,7 @@ Loops are grouped by function. Naming follows the "The X loop" convention.
 - **Check cadence**: Weekly
 - **Acts when**: A sticky/valuable feature is underused by a segment that would benefit.
 - **Purpose**: Drive adoption of the features that correlate with retention.
-- **Skills used**: `onboarding`, `emails`, `analytics`
+- **Skills used**: `post-purchase-experience`, `emails`, `analytics`
 - **Loop body**:
   1. Identify high-retention-correlated features and the segments not using them.
   2. Pick the highest-leverage feature × segment.
@@ -377,7 +377,7 @@ Loops are grouped by function. Naming follows the "The X loop" convention.
 - **Check cadence**: Daily (or on-trigger)
 - **Acts when**: An account newly crosses a churn-risk threshold and isn't already in an intervention.
 - **Purpose**: Intervene inside the short window before an at-risk account leaves.
-- **Skills used**: `churn-prevention`, `analytics`, `emails`
+- **Skills used**: `retention-and-winback`, `analytics`, `emails`
 - **Loop body**:
   1. Score accounts on churn-risk signals (usage decline, seat drop, dunning, support escalations).
   2. Segment newly at-risk accounts.
@@ -433,10 +433,10 @@ Loops are grouped by function. Naming follows the "The X loop" convention.
 - **Check cadence**: Weekly
 - **Acts when**: New feedback (NPS, surveys, support tickets, reviews, calls) has arrived.
 - **Purpose**: Route feedback to the right action **and** mine it for marketing inputs.
-- **Skills used**: `customer-research`, `churn-prevention`, `referrals`, `copywriting`
+- **Skills used**: `customer-research`, `retention-and-winback`, `referrals`, `copywriting`
 - **Loop body**:
   1. Collect new feedback across sources.
-  2. Route: detractors/at-risk → save motion (`churn-prevention`); promoters → referral/review ask (`referrals`); recurring pain/desire → experiment + copy inputs.
+  2. Route: detractors/at-risk → save motion (`retention-and-winback`); promoters → referral/review ask (`referrals`); recurring pain/desire → experiment + copy inputs.
   3. Extract verbatim customer language for copy, FAQ, and objection-handling.
 - **Self-check**: Is a theme a real pattern or one loud voice? Require a minimum count before acting on it.
 - **State / idempotency**: Track processed feedback IDs; never double-route the same item.
@@ -465,7 +465,7 @@ Loops are grouped by function. Naming follows the "The X loop" convention.
 - **Check cadence**: Daily
 - **Acts when**: A free/trial user shows product-qualified buying intent (usage limits, key-feature use, team invites).
 - **Purpose**: Catch high-intent users and stage upgrade outreach at the right moment.
-- **Skills used**: `analytics`, `sales-enablement`, `revops`
+- **Skills used**: `analytics`, `trade-and-dealer-enablement`, `prospecting`
 - **Loop body**:
   1. Score free/trial users on PQL signals.
   2. Surface newly qualified users.
@@ -507,7 +507,7 @@ Loops are grouped by function. Naming follows the "The X loop" convention.
 - **Check cadence**: Weekly
 - **Acts when**: An existing paid account hits an expansion signal (usage near limits, added seats, new use case).
 - **Purpose**: Grow revenue from existing customers via well-timed upsell/cross-sell.
-- **Skills used**: `revops`, `sales-enablement`, `emails`
+- **Skills used**: `prospecting`, `trade-and-dealer-enablement`, `emails`
 - **Loop body**:
   1. Score paid accounts on expansion signals.
   2. Surface newly expansion-ready accounts.
@@ -521,7 +521,7 @@ Loops are grouped by function. Naming follows the "The X loop" convention.
 - **Check cadence**: Daily
 - **Acts when**: A payment fails or a card is about to expire.
 - **Purpose**: Recover involuntary churn — often the highest-ROI retention work.
-- **Skills used**: `revops`, `emails`
+- **Skills used**: `prospecting`, `emails`
 - **Loop body**:
   1. Detect failed payments and upcoming card expirations.
   2. Trigger the dunning sequence (retry schedule + escalating update-card messaging).
@@ -553,7 +553,7 @@ Loops are grouped by function. Naming follows the "The X loop" convention.
 - **Check cadence**: Weekly
 - **Acts when**: New reviews, testimonials, or user-generated content have appeared.
 - **Purpose**: Keep a steady flow of social proof and route it into marketing.
-- **Skills used**: `social`, `referrals`, `sales-enablement`, `cro`
+- **Skills used**: `social`, `referrals`, `trade-and-dealer-enablement`, `cro`
 - **Loop body**:
   1. Collect new reviews/testimonials/UGC/mentions since last run.
   2. Sort by strength and relevance.
@@ -568,7 +568,7 @@ Loops are grouped by function. Naming follows the "The X loop" convention.
 - **Check cadence**: Weekly
 - **Acts when**: New reviews land on G2/Capterra/app stores, or listings drift out of date.
 - **Purpose**: Maintain reputation and conversion on third-party review platforms.
-- **Skills used**: `sales-enablement`, `social`, `cro`
+- **Skills used**: `trade-and-dealer-enablement`, `social`, `cro`
 - **Loop body**:
   1. Track new reviews across review sites/app stores.
   2. Draft responses (thank promoters, address detractors constructively).
@@ -582,7 +582,7 @@ Loops are grouped by function. Naming follows the "The X loop" convention.
 - **Check cadence**: Monthly
 - **Acts when**: A customer hits case-study-worthy success (strong results, milestone, enthusiastic feedback).
 - **Purpose**: Keep a pipeline of case studies and customer stories.
-- **Skills used**: `sales-enablement`, `customer-research`, `referrals`
+- **Skills used**: `trade-and-dealer-enablement`, `customer-research`, `referrals`
 - **Loop body**:
   1. Identify customers with standout results/engagement.
   2. Qualify for a case study (results, willingness, logo value).

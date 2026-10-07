@@ -8,7 +8,7 @@ Weiss (VP Advocacy at Yotpo, previously led CX and Retention at OLIPOP and Jones
 
 ## Retail application
 
-Directly extends this repo's `emails`/`sms` and `loyalty`/`churn-prevention` skills: Weiss's core argument — that the sequence right after a purchase is a CX design problem, not just a marketing automation to set and forget — reinforces Joey Coleman's First 100 Days lens (see his entry in this catalog) with ecommerce-specific tactical grounding (post-purchase flow structure, not general customer-relationship phases).
+Directly extends this repo's `emails`/`sms` and `loyalty`/`retention-and-winback` skills: Weiss's core argument — that the sequence right after a purchase is a CX design problem, not just a marketing automation to set and forget — reinforces Joey Coleman's First 100 Days lens (see his entry in this catalog) with ecommerce-specific tactical grounding (post-purchase flow structure, not general customer-relationship phases).
 
 ## Best for / blind spots
 

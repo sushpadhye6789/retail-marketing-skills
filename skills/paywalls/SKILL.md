@@ -2,6 +2,7 @@
 name: paywalls
 description: When the user wants to design or optimize a screen where price, stock, or access is withheld until the shopper acts — trade/wholesale price gates, quantity-break unlocks, members-only early access, restock/waitlist gates, or age/regulated-product verification. Also use when the user mentions "sign in to see price," "trade account login," "wholesale login," "unlock trade pricing," "members-only access," "VIP early access," "request a quote," "call for pricing," "notify me when back in stock," "join the waitlist," "unlock bulk pricing," "quantity break," or "age verification gate." Distinct from an ongoing loyalty/paid-membership program (see loyalty), overall pricing strategy (see pricing), general email-capture popups (see popups), and trade sell-in strategy (see trade-marketing) — this is the interaction design of the gate/unlock moment itself, where something real is withheld until the shopper acts.
 metadata:
+  category: Retention, CRM & Website Experience
   version: 3.0.0
 ---
 

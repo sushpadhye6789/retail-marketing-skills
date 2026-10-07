@@ -23,18 +23,19 @@ Section 16 asks which segment(s) apply because the toolkit genuinely differs, no
 | **Cycle length** | Days to weeks | Months, often 6+ |
 | **Content needs** | Line sheets, order forms, catalog, simple onboarding | Formal proposals, compliance/vendor documentation, category business cases |
 | **Volume per account** | Low-to-moderate, many accounts | High, few accounts |
-| **Primary skill lean** | `cold-email`, `prospecting`, self-serve `revops` pipeline | `sales-enablement`, `ads` → ABM playbook, `revops`'s account-based tracking |
+| **Primary skill lean** | `cold-email`, `prospecting`'s self-serve pipeline | `trade-and-dealer-enablement`, `ads` → ABM playbook, `prospecting`'s account-based qualification |
 
-Running both segments at once is common — the toolkit below is tagged by which segment it best fits, but most skills flex to serve either with different inputs (a shorter, catalog-led `sales-enablement` deck for a Business account vs. a full proposal for a Commercial one).
+Running both segments at once is common — the toolkit below is tagged by which segment it best fits, but most skills flex to serve either with different inputs (a shorter, catalog-led `trade-and-dealer-enablement` deck for a Business account vs. a full proposal for a Commercial one).
 
 ## The toolkit
 
 | Skill / reference track | What it's for on the B2B/wholesale side | Best fit |
 |---|---|---|
 | `cold-email` | Outbound emails to prospective wholesale/trade accounts — a motion that has no consumer-storefront equivalent | Business — high-volume outbound at low cost per account |
-| `prospecting` | Finding and qualifying wholesale/trade-account prospects to reach out to | Business — building volume in a self-serve pipeline |
-| `sales-enablement` | Sell-in decks, one-pagers, and objection-handling docs for a sales rep working a wholesale/trade account, as distinct from `trade-marketing`'s retail-buyer sell-in (see below) | Both — a one-pager for a Business account, a full formal proposal for a Commercial one |
-| `revops` | Lead lifecycle, scoring, routing, and pipeline management for a wholesale/business-account sales motion — the CRM-pipeline discipline a consumer storefront doesn't need | Both — a lightweight scored pipeline for Business volume, an account-based/named-account pipeline for Commercial |
+| `prospecting` | Finding, qualifying, and scoring wholesale/trade-account prospects to reach out to — the list-building and qualification half of the pipeline | Business — building volume in a self-serve pipeline; Commercial — an account-based/named-account list |
+| `trade-and-dealer-enablement` | Sell-in decks, one-pagers, and objection-handling docs for a sales rep working a wholesale/trade account, as distinct from `trade-marketing`'s retail-buyer sell-in (see below) | Both — a one-pager for a Business account, a full formal proposal for a Commercial one |
+
+*Note: ongoing CRM-pipeline discipline (lead routing, stage-by-stage lifecycle automation) doesn't have a dedicated skill in this repo — `prospecting` covers the qualification/scoring half, but the routing/automation half is a real gap if the business runs its own CRM for the wholesale side.*
 | `marketing-plan` | Its AARRR-structured planning methodology is drawn from B2B growth patterns; most useful for planning the wholesale side specifically, alongside (not instead of) the consumer-facing plan | Both |
 | `ads` → `references/b2b-paid-playbook.md`, `references/linkedin-b2b-playbook.md` | General B2B paid playbooks for reaching business buyers | Business — volume-oriented lead gen at a lower deal-size threshold |
 | `ads` → `references/abm-playbook.md` | Named-account targeting — the playbook's own go/no-go gate (deal size ~$25K+, target list ≥ ~1,000 or accepting 1:1/1:few economics, 60+ day cycle) is effectively a Commercial-segment filter | Commercial — skip entirely for a pure Business-segment motion, the economics don't clear |

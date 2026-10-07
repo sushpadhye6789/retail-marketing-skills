@@ -2,6 +2,7 @@
 name: new-store-launch
 description: "When the user wants to plan the marketing around opening a new physical retail location — a grand opening, a new store launch, a flagship opening, or expansion into a new market. Also use when the user mentions 'new store launch,' 'grand opening,' 'store opening marketing,' 'opening a new location,' 'flagship store opening,' 'ribbon cutting,' or 'expanding to a new city/market.' This sequences the pre-opening local-SEO setup, the opening event itself, launch-week promotions, and the handoff into ongoing local marketing — it's an orchestration layer over local-marketing, experiential-marketing, pos-marketing, and public-relations, not a replacement for any of them. For marketing a new product/collection (not a physical location), see launch. For the ongoing (ordinary-time) local visibility motion once the store is established, see local-marketing."
 metadata:
+  category: Operations, Budgeting & Launch Management
   version: 1.0.1
 ---
 

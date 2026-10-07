@@ -2,6 +2,7 @@
 name: packaging-design
 description: "When the user wants to design or evaluate product packaging — structural design, materials, sustainability, on-pack branding, or shelf/shipping packaging tradeoffs. Also use when the user mentions 'packaging design,' 'product packaging,' 'box design,' 'shipping box,' 'retail packaging,' 'sustainable packaging,' 'packaging materials,' 'on-pack branding,' 'shelf standout,' 'packaging insert,' or 'how should we package this.' This is the design/production discipline for the package itself — distinct from post-purchase-experience, which owns the unboxing moment as a customer-journey touchpoint once the package arrives, and from visual-merchandising, which owns where the product sits in-store, not the container it's in."
 metadata:
+  category: Product, Pricing & Offer Strategy
   version: 1.0.0
 ---
 

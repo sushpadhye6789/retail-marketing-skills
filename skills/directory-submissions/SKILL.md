@@ -2,6 +2,7 @@
 name: directory-submissions
 description: When the user wants to get a retail/ecommerce brand listed in gift guides, deal aggregators, review platforms, and industry/vertical directories for backlinks, discovery, and AI-shopping-assistant citation. Also use when the user mentions "directory submissions," "backlinks," "gift guide," "get featured in a gift guide," "deal aggregator," "RetailMeNot," "Honey," "Trustpilot listing," "Sitejabber," "B Corp directory," "sustainability directory," "best of listicle," "comparison shopping engine," or "directory tracker." Use this whenever someone is planning the directory/listicle layer of a launch or an ongoing backlink and AI-citation campaign for a retail brand. For local/location-level citations (Google Business Profile, NAP), see local-marketing. For marketplace/shopping-feed listings (Google Shopping, Amazon), see product-feed. For the broader launch moment, see launch. For AI citation optimization, see ai-seo.
 metadata:
+  category: Acquisition, Ads & Channel Marketing
   version: 3.0.0
   volatility: dated
 ---

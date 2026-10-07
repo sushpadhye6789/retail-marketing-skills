@@ -428,19 +428,7 @@
 
 ## Related Skills and References
 
-**Commercial Operations Skills**:
-- promotional-yield: Measuring effectiveness of trade spend and promotional activities
-- sell-through-analytics: Deep dive into velocity analysis and inventory productivity
-- retail-margin-calculator: Tools for GMROI, IMU, MMU, and pricing optimization
-- dealer-pipeline: Managing wholesale distributor relationships and performance
-- inventory-management: Stock-to-sales ratios, aging analysis, turn optimization
-
-**Reference Materials**:
-- references/retail-gmroi-guide.md: Detailed GMROI calculation and improvement strategies
-- references/retail-str-framework.md: Sell-through rate analysis and planning
-- references/retailՀٔ promotional-yield-calculator.md: Promotional ROI measurement tools
-- references/wholesale-account-management.md: Managing retail distributor relationships
-- references/d2c-fulfillment-metrics.md: Ecommerce fulfillment and customer experience KPIs
+**Within this file**: GMROI, Sell-Through Rate, Promotional Yield, Trade Spend ROI, Inventory Turns, UPT, and ATV are all covered above under Core Retail Financial Mechanics; Wholesale Distribution Operations, D2C & Ecommerce Operations, and Wholesale Account Management are covered above under Retail-Specific Processes and Process Workflows — this file is the single reference for all of it, not a pointer to separate skills or files that don't exist.
 
 **Cross-References to Other Skills**:
 - post-purchase-experience: Unboxing, registration, and repeat purchase triggers

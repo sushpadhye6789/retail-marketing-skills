@@ -54,6 +54,32 @@ How to classify a brand's distribution model, and how that classification should
 | Ecom-only / Own stores | Standard attribution — every sale is directly trackable through your own systems |
 | Dealers | A sale that happens through a dealer is frequently **not trackable back to your own marketing** the way a DTC sale is — a customer who saw your ad, then bought from a local dealer, shows up nowhere in your pixel data. This is a real, structural blind spot (similar in kind to `attribution`'s "dark social" blind spot) rather than a measurement failure to fix — name it explicitly rather than assuming DTC-style attribution coverage. Where possible, use dealer-reported sell-through data or co-op program reporting (see `supplier-funded-marketing`) to close part of the gap |
 
+**A specific, common mechanic worth naming directly: post-transaction, opt-in dealer-selection commission.** A website sale completes on the brand's own direct channel, and after the transaction — typically on a confirmation screen or follow-up prompt — the customer is *optionally* invited to select the dealer/store they'd like credited (for local service, warranty support, or simply loyalty to a store they know). If they select one, that dealer receives a commission on the sale; if they don't (and there's no obligation to), no dealer is credited and the sale stays fully direct-channel revenue.
+
+This is structurally different from a dealer-assisted sale (where the dealer relationship drove the purchase decision itself) and from a pure DTC sale (where no dealer is involved at all) — it's a third, thinner form of dealer attribution that only fires when the customer takes an extra, unprompted action. Two things follow directly:
+
+- **The select-through rate is itself a real metric, not just plumbing** — track what share of direct-channel transactions result in a dealer being selected, by product category, region, and dealer density. A low select-through rate isn't necessarily bad (it may just mean most direct buyers genuinely don't have or want a dealer relationship for that purchase), but it needs to be watched, since a *falling* rate over time can signal the prompt is poorly placed, poorly explained, or that dealers have stopped being seen as relevant to a direct-channel buyer.
+- **Don't treat an unselected sale as proof of zero dealer influence.** Because selection is optional and easy to skip, a customer who genuinely researched at a dealer showroom before buying online may still complete the purchase without selecting that dealer — the mechanic under-credits dealer influence structurally, in the same direction as (and compounding) the general dealer attribution blind spot above. Report the commission-attributed dealer revenue and the true dealer-influenced revenue as two different numbers if both are knowable; don't let the smaller, cleaner (commission-based) number stand in silently for the larger, messier (actual-influence) one.
+
+See `attribution/references/by-business-type.md`'s Dealer/Trade + Direct Omnichannel fork for how this mechanic fits into the broader attribution model for a business running both channels, and `trade-and-dealer-enablement`'s Dealer Incentive Programs section for how to structure and administer the commission itself.
+
+---
+
+## Dealer Range Tiers (Stock Depth)
+
+Not every dealer stocks the full catalog. Most dealer networks run at least two tiers based on how much of the range a given location carries:
+
+- **Core-range** (sometimes "A-range" or similar — terminology varies by industry and by dealer agreement) — a curated, higher-velocity subset of the catalog. This is the majority case: most dealer locations in a typical network are core-range, stocking the products that turn over fastest and justify shelf/floor space at that location's volume.
+- **Extended-range** — the full catalog, or close to it. Fewer locations qualify for this tier, typically higher-volume or flagship locations, larger format stores, or those serving a specialist customer base that needs breadth (e.g. a trade-focused location versus a general-consumer one).
+
+**This tiering changes what's correct to send or promise to a given dealer, not just how much:**
+
+- **Product feed / dealer catalog data** (see `product-feed`'s two-feed distinction) — a feed supplied to a dealer's own catalog or listing system needs to reflect that specific dealer's actual range tier, not the brand's full catalog. Representing a core-range dealer as carrying (or able to fulfill) an extended-range-only SKU creates a real customer-experience failure — a shopper who finds a product listed at a store that doesn't actually stock it.
+- **POS materials and campaigns** (see `pos-marketing`) — signage, displays, and promotional materials for an extended-range-only product are wasted (or actively confusing) at a core-range location that can't fulfill demand the material generates. Segment POS material distribution by range tier, not just by dealer count.
+- **Promotions and discounting** (see `discount-and-clearance`, `offers`) — a promotion built around an extended-range SKU needs a distribution plan that accounts for which dealers can actually sell it; driving traffic to a core-range dealer for a product they don't stock burns the promotion's own effectiveness and the dealer relationship.
+- **Line sheets and dealer collateral** (see `trade-and-dealer-enablement`) — a line sheet should be tiered the same way: a core-range dealer needs the core-range line sheet (or a category line sheet scoped to what they can actually order), not the full-catalog print catalog meant for an extended-range account.
+- **Post-transaction dealer selection** (see above) — if the store-selection prompt lets a customer choose *any* dealer regardless of range tier, a customer who bought an extended-range-only product could select a core-range dealer who has no ability to service or restock it. Where feasible, filter the selectable dealer list by whether that dealer's tier actually carries the purchased product.
+
 ---
 
 ## How other skills should use this field

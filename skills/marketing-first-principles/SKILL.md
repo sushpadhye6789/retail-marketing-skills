@@ -2,6 +2,7 @@
 name: marketing-first-principles
 description: "When the user wants a marketing strategy, positioning, channel choice, or campaign idea pressure-tested against fundamentals before any execution begins. Also use when the user mentions 'first principles marketing,' 'first-principles strategy,' 'question the strategy,' 'stress-test this campaign,' 'why are we doing this,' 'cargo-cult marketing,' or pitches a channel/tactic (\"we need a TikTok strategy,\" \"increase brand awareness,\" \"our target market is Gen Z\") without having justified it against unit economics or a real human motivation. Scope note: this is a Socratic pre-execution gate, not a framework document — it interrogates an idea that's about to be executed, rather than capturing context (marketing-strategy), identifying durable advantage (moat-builder), or reviewing a finished asset (marketing-council)."
 metadata:
+  category: Foundation & Strategy
   version: 1.0.0
 ---
 

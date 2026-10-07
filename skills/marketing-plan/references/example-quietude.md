@@ -306,7 +306,7 @@ What's the current trial structure? Length, paywall trigger, intro pricing? When
 
 ### Skills + tools
 
-- **Skills:** `onboarding`, `signup`, `cro`, `paywalls`, `popups`, `copywriting`, `copy-editing`, `site-architecture`, `ab-testing`, `marketing-psychology`
+- **Skills:** `post-purchase-experience`, `signup`, `cro`, `paywalls`, `popups`, `copywriting`, `copy-editing`, `site-architecture`, `ab-testing`, `marketing-psychology`
 - **MCPs / APIs:** App Store Connect (manual + `dev-browser` for screenshot automation), GitHub MCP (`quietude-app` app repo for onboarding code), Figma / Pencil MCP (for onboarding screen design), Customer.io MCP (for any in-app/email coordination), GA4 MCP (activation events)
 
 ---
@@ -365,7 +365,7 @@ Industry pattern: defaulting to annual reduces churn anxiety and improves LTV. T
 
 ### Skills + tools
 
-- **Skills:** `emails`, `churn-prevention`, `copywriting`, `copy-editing`, `paywalls`, `ab-testing`
+- **Skills:** `emails`, `retention-and-winback`, `copywriting`, `copy-editing`, `paywalls`, `ab-testing`
 - **MCPs / APIs:** **Customer.io MCP** (validated on kickoff — non-technical team can ship flows), Shopify (eye mask buyers as event source), Stripe MCP (subscription state, churn cohort pulls), GA4 MCP (session events, retention curves)
 
 ---
@@ -475,7 +475,7 @@ Per seed deck Y10–15 value pool: $100–160M/yr. Not immediate revenue. Belong
 
 ### Skills + tools
 
-- **Skills:** `pricing`, `paywalls`, `sales-enablement`, `revops`, `ab-testing`, `copywriting`
+- **Skills:** `pricing`, `paywalls`, `trade-and-dealer-enablement`, `prospecting`, `ab-testing`, `copywriting`
 - **MCPs / APIs:** Stripe MCP (pricing tests, subscription analytics, churn cohort, blended CAC math), Customer.io MCP (paywall-related lifecycle), Shopify (eye mask transactions), GA4 MCP (revenue events), Notion (commercial knowledge directory)
 
 ---
@@ -628,10 +628,10 @@ The fCMO's job is to:
 | Stage | Primary skills | Supporting skills |
 |---|---|---|
 | **Acquisition** | `seo-audit`, `ai-seo`, `programmatic-seo`, `schema`, `content-strategy`, `competitors`, `ads`, `ad-creative`, `social`, `typefully` | `launch`, `free-tools`, `analytics`, `cold-email`, `copywriting`, `site-architecture` |
-| **Activation** | `onboarding`, `signup`, `paywalls`, `cro`, `copywriting`, `copy-editing` | `site-architecture`, `ab-testing`, `marketing-psychology`, `popups` |
-| **Retention** | `emails`, `churn-prevention` | `copywriting`, `copy-editing`, `ab-testing`, `paywalls` |
+| **Activation** | `post-purchase-experience`, `signup`, `paywalls`, `cro`, `copywriting`, `copy-editing` | `site-architecture`, `ab-testing`, `marketing-psychology`, `popups` |
+| **Retention** | `emails`, `retention-and-winback` | `copywriting`, `copy-editing`, `ab-testing`, `paywalls` |
 | **Referral** | `referrals`, `social` | `copywriting`, `site-architecture`, `emails` |
-| **Revenue** | `pricing`, `paywalls`, `sales-enablement`, `revops` | `ab-testing`, `copywriting` |
+| **Revenue** | `pricing`, `paywalls`, `trade-and-dealer-enablement`, `prospecting` | `ab-testing`, `copywriting` |
 | **Cross-cutting** (brand, intelligence) | `marketing-strategy`, `customer-research`, `marketing-psychology` | `marketing-ideas`, `diagram-maker` |
 
 ### MCPs / APIs mapped to stages

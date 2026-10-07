@@ -2,6 +2,7 @@
 name: launch-project-management
 description: "When the user wants to coordinate a launch or major campaign across multiple internal functions (marketing, design, product, regional/local teams) — a workback schedule, a RACI, dependency mapping, or global/regional rollout sequencing. Also use when the user mentions 'launch project management,' 'workback schedule,' 'launch timeline,' 'cross-functional coordination,' 'global rollout,' 'regional launch,' 'localization,' 'launch RACI,' 'who owns what,' or 'align marketing and design.' This is the cross-team coordination layer that sits alongside launch (the marketing mechanics) and new-store-launch (a physical-location opening) — use this when the question is 'who does what, by when, and in what order,' not 'what should we say or when should we announce it.'"
 metadata:
+  category: Operations, Budgeting & Launch Management
   version: 1.0.0
 ---
 

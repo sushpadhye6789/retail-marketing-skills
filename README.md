@@ -114,6 +114,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [marketing-strategy](skills/marketing-strategy/) | When the user wants to create or update their foundational marketing strategy and positioning context, or needs help... |
 | [media-plan](skills/media-plan/) | When the user wants to build a media plan — sequencing and weighting paid media across channels, over time, to hit a... |
 | [moat-builder](skills/moat-builder/) | When the user wants to identify a durable competitive advantage (a moat) and direct marketing investment to build or... |
+| [no-ai-slop](skills/no-ai-slop/) | When the user wants marketing copy cleaned of AI-sounding writing, or wants a draft checked for it. Also use when the user mentions 'AI slop,' 'sounds like AI,' ... |
 | [new-store-launch](skills/new-store-launch/) | When the user wants to plan the marketing around opening a new physical retail location — a grand opening, a new store... |
 | [offers](skills/offers/) | When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing,... |
 | [overstock](skills/overstock/) | When the user has excess, aging, dead, or discontinued inventory and needs to diagnose why, and decide how to dispose... |
@@ -308,6 +309,7 @@ and interview me to build our brand-tier and distribution-model context, like it
 - `marketing-first-principles` - Socratic pre-execution gate that strips a strategy, positioning, or campaign idea down to human motivation, unit economics, and distribution physics before anything gets built around it
 - `specialist-lenses` - Narrow-domain specialists' public frameworks (CRO, AI search, loyalty, retail media, and a growing roster) applied directly to a tactical problem
 - `moat-builder` - Identifying and widening durable competitive advantages, not just messaging around them
+- `no-ai-slop` - Remove AI-sounding patterns from copy, or audit a draft for them; runs as a final pass in every writing skill
 - `customer-research` - Conducting and synthesizing customer research
 - `competitor-profiling` - Researching and profiling competitors from their URLs
 - `brand-management` - Brand health tracking, architecture, extension decisions, and governance

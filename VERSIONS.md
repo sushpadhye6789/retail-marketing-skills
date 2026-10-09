@@ -101,7 +101,7 @@ Current versions of all skills. Agents can compare against local versions to che
 
 ### 2.25.0 (2026-10-09)
 
-- Added **`no-ai-slop`**: an editing and detection skill that strips AI-sounding patterns (banned words, binary contrasts, throat-clearing, fake-profound endings, weasel attribution) while keeping the writer's voice, with retail-specific rules for product copy, promotions, price claims and local copy. It never invents a stat, review or claim. Sixteen writing skills (**copywriting, copy-editing, ad-creative, ads, storytelling, content-strategy, product-page, emails, sms, social, cold-email, lead-magnets, popups, public-relations, pos-marketing, video**) now run it as a final pass before delivering copy and are tagged `writing: true` in their frontmatter so tools such as the RMOS app can load the rules automatically. Each of those skills was patch-bumped. Total skills: 92.
+- Added **`no-ai-slop`**: an editing and detection skill that strips AI-sounding patterns (banned words, binary contrasts, throat-clearing, fake-profound endings, weasel attribution) while keeping the writer's voice, with retail-specific rules for product copy, promotions, price claims and local copy. It never invents a stat, review or claim. Sixteen writing skills (**copywriting, copy-editing, ad-creative, ads, storytelling, content-strategy, product-page, emails, sms, social, cold-email, lead-magnets, popups, public-relations, pos-marketing, video**) now run it as a final pass before delivering copy and are tagged `writing: "true"` in their frontmatter so tools such as the RMOS app can load the rules automatically. Each of those skills was patch-bumped. Total skills: 92.
 
 ### 2.24.0 (2026-08-27)
 

@@ -3,7 +3,7 @@ name: product-page
 description: "When the user wants to optimize a product detail page (PDP) or product listing/category page (PLP) — structure, content, merchandising copy, review/stock signals, or attachment prompts. Also use when the user mentions 'product page,' 'PDP,' 'PLP,' 'category page,' 'product description,' 'spec sheet,' 'buy box,' 'product listing,' or wants to know what should be on a product page. For the page's conversion mechanics (layout tests, form friction, urgency framing), see cro. For the underlying product data feed quality, see product-feed. For site-wide navigation and category structure, see site-architecture."
 metadata:
   version: 1.0.1
-  writing: true
+  writing: "true"
 ---
 
 # Product & Category Pages (PDP / PLP)

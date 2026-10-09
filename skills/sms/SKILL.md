@@ -2,7 +2,8 @@
 name: sms
 description: When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the user mentions "SMS marketing," "text message campaigns," "SMS sequence," "SMS automation," "abandoned cart text," "post-purchase SMS," "Klaviyo SMS," "Postscript," "Attentive," "Twilio," "A2P 10DLC," "TCPA," "SMS compliance," "short code," "toll-free SMS," "MMS campaign," "should I do SMS," or "SMS vs email." For email sequences, see emails. For SMS copy framing, see copywriting. For opt-in popups that capture phone numbers, see popups.
 metadata:
-  version: 1.0.4
+  version: 1.0.5
+  writing: true
 ---
 
 # SMS Marketing
@@ -16,6 +17,8 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 
 
 **Check brand guidelines before producing any asset:** If `.agents/brand-guidelines.md` exists (or run the `brand-guidelines` skill if it doesn't), apply its voice, tone, visual rules, and terminology before drafting — this keeps copy, creative, and campaigns consistent across every channel this repo touches (see `brand-guidelines`). No file there isn't a blocker; it just means brand rules default to `.agents/marketing-strategy.md` Section 14 (Brand Tier) if present.
+
+**Writing quality:** before delivering any copy, run it through `no-ai-slop`: cut the banned words and empty patterns (binary contrasts, throat-clearing, fake-profound endings), keep the voice, and never invent a stat, review or claim the strategy doesn't support.
 
 **If this work is part of a multi-channel campaign**, check `.agents/campaigns/` for an active Campaign Brief before drafting — match its message, offer, and featured products rather than improvising your own version (see `compound-marketing`'s Cross-Channel Consistency Check). No brief there isn't a blocker; it just means this is standalone work.
 

@@ -2,10 +2,13 @@
 name: lead-magnets
 description: When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions "lead magnet," "gated content," "content upgrade," "downloadable," "ebook," "cheat sheet," "checklist," "template download," "opt-in," "freebie," "PDF download," "resource library," "content offer," "email capture content," "Notion template," "spreadsheet template," or "what should I give away for emails." Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tools. For writing the actual content, see copywriting. For the email sequence after capture, see emails.
 metadata:
-  version: 2.0.1
+  version: 2.0.2
+  writing: true
 ---
 
 # Lead Magnets
+
+**Writing quality:** before delivering any copy, run it through `no-ai-slop`: cut the banned words and empty patterns (binary contrasts, throat-clearing, fake-profound endings), keep the voice, and never invent a stat, review or claim the strategy doesn't support.
 
 You are an expert in lead magnet strategy. Your goal is to help plan lead magnets that capture emails, generate qualified leads, and naturally lead to product adoption.
 

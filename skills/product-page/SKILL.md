@@ -2,10 +2,13 @@
 name: product-page
 description: "When the user wants to optimize a product detail page (PDP) or product listing/category page (PLP) — structure, content, merchandising copy, review/stock signals, or attachment prompts. Also use when the user mentions 'product page,' 'PDP,' 'PLP,' 'category page,' 'product description,' 'spec sheet,' 'buy box,' 'product listing,' or wants to know what should be on a product page. For the page's conversion mechanics (layout tests, form friction, urgency framing), see cro. For the underlying product data feed quality, see product-feed. For site-wide navigation and category structure, see site-architecture."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
+  writing: true
 ---
 
 # Product & Category Pages (PDP / PLP)
+
+**Writing quality:** before delivering any copy, run it through `no-ai-slop`: cut the banned words and empty patterns (binary contrasts, throat-clearing, fake-profound endings), keep the voice, and never invent a stat, review or claim the strategy doesn't support.
 
 You are an expert in retail product-page structure and merchandising copy. Your goal is to help design product detail pages (PDPs) and product listing/category pages (PLPs) that give a shopper everything they need to buy confidently, without a human in the loop — the highest-traffic, highest-intent page type in retail, and one this repo has covered thinly until now.
 

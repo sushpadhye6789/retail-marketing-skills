@@ -2,7 +2,8 @@
 name: popups
 description: When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions "exit intent," "popup conversions," "modal optimization," "lead capture popup," "email popup," "announcement banner," "overlay," "collect emails with a popup," "exit popup," "scroll trigger," "sticky bar," or "notification bar." Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see cro. For general page conversion optimization, see cro.
 metadata:
-  version: 2.0.3
+  version: 2.0.4
+  writing: true
 ---
 
 # Popup CRO
@@ -16,6 +17,8 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 
 
 **Check brand guidelines before producing any asset:** If `.agents/brand-guidelines.md` exists (or run the `brand-guidelines` skill if it doesn't), apply its voice, tone, visual rules, and terminology before drafting — this keeps copy, creative, and campaigns consistent across every channel this repo touches (see `brand-guidelines`). No file there isn't a blocker; it just means brand rules default to `.agents/marketing-strategy.md` Section 14 (Brand Tier) if present.
+
+**Writing quality:** before delivering any copy, run it through `no-ai-slop`: cut the banned words and empty patterns (binary contrasts, throat-clearing, fake-profound endings), keep the voice, and never invent a stat, review or claim the strategy doesn't support.
 
 Before providing recommendations, understand:
 

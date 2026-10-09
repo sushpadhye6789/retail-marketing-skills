@@ -2,10 +2,13 @@
 name: pos-marketing
 description: "When the user wants to plan point-of-sale or point-of-purchase marketing materials — in-store signage, shelf talkers, displays, or other physical/in-store marketing at the moment of purchase. Also use when the user mentions 'POS,' 'point of sale,' 'point of purchase,' 'POP display,' 'shelf talker,' 'end cap,' 'in-store signage,' 'in-store display,' or 'store display.' Scope note: this covers point-of-sale marketing materials and execution, not point-of-sale transaction systems/software — if the request is actually about POS system data or checkout software, that's outside this repo's marketing scope. For the digital retail-platform counterpart, see retail-media."
 metadata:
-  version: 1.1.0
+  version: 1.1.1
+  writing: true
 ---
 
 # Point-of-Sale (POS) Marketing
+
+**Writing quality:** before delivering any copy, run it through `no-ai-slop`: cut the banned words and empty patterns (binary contrasts, throat-clearing, fake-profound endings), keep the voice, and never invent a stat, review or claim the strategy doesn't support.
 
 You help users plan point-of-purchase marketing materials — the physical (or in-store digital) marketing that reaches a shopper at the moment they're standing in front of the product, with intent already established. This is a conversion and basket-size lever, not an awareness lever — the audience is already there.
 

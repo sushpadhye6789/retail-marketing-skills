@@ -5,8 +5,8 @@ Current versions of all skills. Agents can compare against local versions to che
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
 | ab-testing | 2.1.1 | 2026-09-09 |
-| ad-creative | 2.8.4 | 2026-09-02 |
-| ads | 2.5.0 | 2026-08-31 |
+| ad-creative | 2.8.5 | 2026-10-09 |
+| ads | 2.5.1 | 2026-10-09 |
 | agent-readiness | 1.0.1 | 2026-09-04 |
 | ai-cmo-os | 1.1.0 | 2026-08-25 |
 | ai-seo | 2.3.1 | 2026-09-02 |
@@ -20,22 +20,22 @@ Current versions of all skills. Agents can compare against local versions to che
 | budget-pacing-tracker | 1.0.2 | 2026-08-19 |
 | channel-selection | 1.0.3 | 2026-08-20 |
 | co-marketing | 2.1.0 | 2026-09-02 |
-| cold-email | 2.1.0 | 2026-09-09 |
+| cold-email | 2.1.1 | 2026-10-09 |
 | commercial-ops | 2.3.0 | 2026-09-04 |
 | community-marketing | 2.1.1 | 2026-09-02 |
 | competitor-profiling | 2.0.1 | 2026-08-18 |
 | competitors | 2.0.3 | 2026-08-20 |
 | compliance | 1.0.3 | 2026-08-20 |
 | compound-marketing | 1.3.2 | 2026-09-09 |
-| content-strategy | 2.1.0 | 2026-09-02 |
-| copy-editing | 2.0.1 | 2026-08-18 |
-| copywriting | 2.1.0 | 2026-09-02 |
+| content-strategy | 2.1.1 | 2026-10-09 |
+| copy-editing | 2.0.2 | 2026-10-09 |
+| copywriting | 2.1.1 | 2026-10-09 |
 | cro | 2.3.0 | 2026-09-04 |
 | customer-research | 2.1.1 | 2026-09-02 |
 | digital-out-of-home | 1.0.2 | 2026-08-19 |
 | directory-submissions | 3.0.0 | 2026-09-02 |
 | discount-and-clearance | 1.2.0 | 2026-09-04 |
-| emails | 2.2.1 | 2026-09-09 |
+| emails | 2.2.2 | 2026-10-09 |
 | experiential-marketing | 1.1.0 | 2026-09-02 |
 | free-tools | 2.1.0 | 2026-09-02 |
 | grill-me | 1.0.0 | 2026-09-09 |
@@ -44,7 +44,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | influencer-marketing | 1.0.2 | 2026-08-20 |
 | launch | 3.0.1 | 2026-09-02 |
 | launch-project-management | 1.0.0 | 2026-09-02 |
-| lead-magnets | 2.0.1 | 2026-08-18 |
+| lead-magnets | 2.0.2 | 2026-10-09 |
 | local-marketing | 1.1.1 | 2026-09-02 |
 | loyalty | 1.2.1 | 2026-09-09 |
 | marketing-brief-template | 1.0.0 | 2026-08-30 |
@@ -58,22 +58,23 @@ Current versions of all skills. Agents can compare against local versions to che
 | media-plan | 1.0.2 | 2026-08-19 |
 | moat-builder | 1.0.5 | 2026-09-09 |
 | new-store-launch | 1.0.1 | 2026-09-02 |
+| no-ai-slop | 1.0.0 | 2026-10-09 |
 | offers | 1.2.1 | 2026-09-09 |
 | overstock | 1.1.0 | 2026-09-04 |
 | packaging-design | 1.0.0 | 2026-09-02 |
 | paywalls | 3.0.0 | 2026-08-31 |
-| popups | 2.0.3 | 2026-09-02 |
-| pos-marketing | 1.1.0 | 2026-09-04 |
+| popups | 2.0.4 | 2026-10-09 |
+| pos-marketing | 1.1.1 | 2026-10-09 |
 | post-purchase-experience | 2.2.0 | 2026-09-04 |
 | price-elasticity | 1.0.2 | 2026-08-19 |
 | pricing | 2.3.2 | 2026-09-09 |
 | product-feed | 1.2.1 | 2026-09-04 |
 | product-lifecycle | 1.0.3 | 2026-09-02 |
-| product-page | 1.0.0 | 2026-09-04 |
+| product-page | 1.0.1 | 2026-10-09 |
 | programmatic | 1.0.2 | 2026-08-19 |
 | programmatic-seo | 2.0.1 | 2026-08-18 |
 | prospecting | 1.2.0 | 2026-09-02 |
-| public-relations | 1.0.4 | 2026-09-02 |
+| public-relations | 1.0.5 | 2026-10-09 |
 | range-review | 1.2.0 | 2026-09-04 |
 | referrals | 2.1.1 | 2026-09-02 |
 | repositioning | 1.0.2 | 2026-08-19 |
@@ -83,20 +84,24 @@ Current versions of all skills. Agents can compare against local versions to che
 | seo-audit | 2.0.2 | 2026-09-02 |
 | signup | 3.0.0 | 2026-09-02 |
 | site-architecture | 2.1.0 | 2026-09-02 |
-| sms | 1.0.4 | 2026-09-02 |
-| social | 2.3.5 | 2026-09-02 |
+| sms | 1.0.5 | 2026-10-09 |
+| social | 2.3.6 | 2026-10-09 |
 | specialist-lenses | 2.0.2 | 2026-09-04 |
 | start-here | 1.0.0 | 2026-09-09 |
-| storytelling | 1.1.0 | 2026-09-04 |
+| storytelling | 1.1.1 | 2026-10-09 |
 | supplier-funded-marketing | 1.0.2 | 2026-08-19 |
 | tentpole-campaign | 1.1.2 | 2026-09-02 |
 | trade-and-dealer-enablement | 2.2.0 | 2026-09-04 |
 | trade-marketing | 1.0.4 | 2026-09-02 |
-| video | 2.1.2 | 2026-08-20 |
+| video | 2.1.3 | 2026-10-09 |
 | visual-merchandising | 1.1.1 | 2026-09-09 |
 | website-ux | 1.0.1 | 2026-09-04 |
 
 ## Recent Changes
+
+### 2.25.0 (2026-10-09)
+
+- Added **`no-ai-slop`**: an editing and detection skill that strips AI-sounding patterns (banned words, binary contrasts, throat-clearing, fake-profound endings, weasel attribution) while keeping the writer's voice, with retail-specific rules for product copy, promotions, price claims and local copy. It never invents a stat, review or claim. Sixteen writing skills (**copywriting, copy-editing, ad-creative, ads, storytelling, content-strategy, product-page, emails, sms, social, cold-email, lead-magnets, popups, public-relations, pos-marketing, video**) now run it as a final pass before delivering copy and are tagged `writing: true` in their frontmatter so tools such as the RMOS app can load the rules automatically. Each of those skills was patch-bumped. Total skills: 92.
 
 ### 2.24.0 (2026-08-27)
 

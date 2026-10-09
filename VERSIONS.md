@@ -87,6 +87,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | sms | 1.0.5 | 2026-10-09 |
 | social | 2.3.6 | 2026-10-09 |
 | specialist-lenses | 2.0.2 | 2026-09-04 |
+| strategy-consistency-check | 1.0.0 | 2026-10-09 |
 | start-here | 1.0.0 | 2026-09-09 |
 | storytelling | 1.1.1 | 2026-10-09 |
 | supplier-funded-marketing | 1.0.2 | 2026-08-19 |
@@ -98,6 +99,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | website-ux | 1.0.1 | 2026-09-04 |
 
 ## Recent Changes
+
+### 2.26.0 (2026-10-09)
+
+- Added **`strategy-consistency-check`**: audits whether recent skill outputs agree with the marketing strategy and with each other (Section 12 priorities and deprioritised list, binding constraint, brand tier, distribution and dealer constraints, B2C/B2B fit, claims against proof, language), and whether Section 12 is specific enough to settle a conflict at all. It resolves each discrepancy with the `CONFLICT.md` order, proposes sharper priority wording as suggestions only (no invented numbers), and is Tier 1. Total skills: 93.
 
 ### 2.25.0 (2026-10-09)
 

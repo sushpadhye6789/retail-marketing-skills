@@ -145,6 +145,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [social](skills/social/) | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram,... |
 | [specialist-lenses](skills/specialist-lenses/) | When the user wants a specific, narrow-domain specialist's public perspective applied to a retail marketing problem — a... |
 | [start-here](skills/start-here/) | When the user states a commercial outcome or business goal rather than naming a specific marketing skill or tactic — 'I... |
+| [strategy-consistency-check](skills/strategy-consistency-check/) | When the user wants to check whether recent marketing outputs agree with each other and with the marketing strategy, or whether the strategic priorities are clear enough to settle a conflict... |
 | [storytelling](skills/storytelling/) | When the user wants to construct a brand, founder, product, or customer narrative — the underlying story arc, not the... |
 | [supplier-funded-marketing](skills/supplier-funded-marketing/) | When the user wants help with marketing development funds (MDF) or co-op advertising — either requesting and using... |
 | [tentpole-campaign](skills/tentpole-campaign/) | When the user wants to plan a major brand campaign tied to a calendar moment, cultural moment, or brand-owned milestone... |
@@ -332,6 +333,7 @@ and interview me to build our brand-tier and distribution-model context, like it
 - `ab-testing` - Experiment design
 
 ### Content & Copy
+- `strategy-consistency-check` - Check outputs against the strategy and each other, and test whether the priorities are clear enough to rank
 - `storytelling` - Brand, founder, product, and customer narrative construction
 - `copywriting` - Marketing page copy
 - `copy-editing` - Edit and polish existing copy

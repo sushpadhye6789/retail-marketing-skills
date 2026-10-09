@@ -71,6 +71,7 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [analytics](skills/analytics/) | When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions... |
 | [aso](skills/aso/) | When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO... |
 | [attribution](skills/attribution/) | When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an... |
+| [autoresearch](skills/autoresearch/) | When the user wants to generate many variants of conversion copy and pick a strong starting candidate before spending... |
 | [brand-guidelines](skills/brand-guidelines/) | When the user wants to create, update, or apply full brand identity guidelines — visual (logo, color, typography,... |
 | [brand-management](skills/brand-management/) | When the user wants to track brand health, decide on brand architecture (house of brands vs. branded house vs.... |
 | [budget-allocation](skills/budget-allocation/) | When the user wants to size a total marketing budget or decide how to split it across channels/campaigns, including... |
@@ -114,8 +115,8 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [marketing-strategy](skills/marketing-strategy/) | When the user wants to create or update their foundational marketing strategy and positioning context, or needs help... |
 | [media-plan](skills/media-plan/) | When the user wants to build a media plan — sequencing and weighting paid media across channels, over time, to hit a... |
 | [moat-builder](skills/moat-builder/) | When the user wants to identify a durable competitive advantage (a moat) and direct marketing investment to build or... |
-| [no-ai-slop](skills/no-ai-slop/) | When the user wants marketing copy cleaned of AI-sounding writing, or wants a draft checked for it. Also use when the user mentions 'AI slop,' 'sounds like AI,' ... |
 | [new-store-launch](skills/new-store-launch/) | When the user wants to plan the marketing around opening a new physical retail location — a grand opening, a new store... |
+| [no-ai-slop](skills/no-ai-slop/) | When the user wants marketing copy cleaned of AI-sounding writing, or wants a draft checked for it. Also use when the... |
 | [offers](skills/offers/) | When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing,... |
 | [overstock](skills/overstock/) | When the user has excess, aging, dead, or discontinued inventory and needs to diagnose why, and decide how to dispose... |
 | [packaging-design](skills/packaging-design/) | When the user wants to design or evaluate product packaging — structural design, materials, sustainability, on-pack... |
@@ -145,8 +146,8 @@ See each skill's **Related Skills** section for the full dependency map, and [Sk
 | [social](skills/social/) | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram,... |
 | [specialist-lenses](skills/specialist-lenses/) | When the user wants a specific, narrow-domain specialist's public perspective applied to a retail marketing problem — a... |
 | [start-here](skills/start-here/) | When the user states a commercial outcome or business goal rather than naming a specific marketing skill or tactic — 'I... |
-| [strategy-consistency-check](skills/strategy-consistency-check/) | When the user wants to check whether recent marketing outputs agree with each other and with the marketing strategy, or whether the strategic priorities are clear enough to settle a conflict... |
 | [storytelling](skills/storytelling/) | When the user wants to construct a brand, founder, product, or customer narrative — the underlying story arc, not the... |
+| [strategy-consistency-check](skills/strategy-consistency-check/) | When the user wants to check whether recent marketing outputs agree with each other and with the marketing strategy, or... |
 | [supplier-funded-marketing](skills/supplier-funded-marketing/) | When the user wants help with marketing development funds (MDF) or co-op advertising — either requesting and using... |
 | [tentpole-campaign](skills/tentpole-campaign/) | When the user wants to plan a major brand campaign tied to a calendar moment, cultural moment, or brand-owned milestone... |
 | [trade-and-dealer-enablement](skills/trade-and-dealer-enablement/) | When the user wants to enable retail buyers and dealers, create line sheets, set up co-op advertising, or design dealer... |

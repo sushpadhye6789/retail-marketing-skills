@@ -2,7 +2,7 @@
 name: launch-project-management
 description: "When the user wants to coordinate a launch or major campaign across multiple internal functions (marketing, design, product, regional/local teams) — a workback schedule, a RACI, dependency mapping, or global/regional rollout sequencing. Also use when the user mentions 'launch project management,' 'workback schedule,' 'launch timeline,' 'cross-functional coordination,' 'global rollout,' 'regional launch,' 'localization,' 'launch RACI,' 'who owns what,' or 'align marketing and design.' This is the cross-team coordination layer that sits alongside launch (the marketing mechanics) and new-store-launch (a physical-location opening) — use this when the question is 'who does what, by when, and in what order,' not 'what should we say or when should we announce it.'"
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Launch Project Management
@@ -42,7 +42,11 @@ Start from the launch date and work backward, naming what has to be *started* by
 **Build it by:**
 1. Listing every workstream with real lead time (design/asset production, copywriting/localization, legal/compliance review, regional operational readiness, paid media trafficking, PR/influencer embargo timing — see `launch`'s Influencer & Press Seeding section for that specific lead time).
 2. For each, working backward from launch date by its own realistic lead time (not the optimistic one) to find its start date.
-3. Flagging the workstream with the latest required start date as the **critical path** — the one that, if delayed, delays the whole launch regardless of how ready everything else is.
+3. Mapping dependencies and identifying the **critical path** — the longest-duration dependent chain governing completion, not the workstream with the latest start date. Calculate earliest/latest starts and finishes and total float against the launch milestone; account for working calendars, constraints and resource availability. In a simple unconstrained network, critical tasks have zero total float. Multiple paths can be critical; an imposed deadline can produce negative float and an infeasible plan. Recheck the path when durations or dependencies change.
+
+**Example:** design (10 working days) → localization (5) → regional review (3) takes 18 working days. An independent media-upload task takes 2 days and can start much later. If both must finish for launch, the 18-day chain governs minimum duration; the latest-start task is not the longest chain. If a just-in-time workback gives every task zero buffer, that alone does not make every task part of the longest path.
+
+For the calculation method, see [PMI's critical-path scheduling explanation](https://www.pmi.org/learning/library/critical-path-method-calculations-scheduling-8040).
 
 ### 2. The RACI
 Name who's **R**esponsible (does the work), **A**ccountable (owns the outcome — one person, not a committee), **C**onsulted (input needed before a decision), and **I**nformed (told after) for each major decision and deliverable. A launch RACI's most common failure is having two people who both think they're Accountable for the same thing, or zero people who are — both produce the same result: nothing ships on time and nobody feels responsible for why.

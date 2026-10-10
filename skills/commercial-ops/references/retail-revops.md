@@ -7,10 +7,13 @@
 **Formula**: GMROI = (Gross Margin $) / (Average Inventory Cost $)
 
 **Interpretation**:
-- GMROI > 1.0: Inventory investment generates gross profit
+- GMROI > 0: Positive gross margin dollars relative to average inventory cost; this does not establish net profitability after operating costs
 - GMROI > 2.0: Healthy performance for most retail categories
 - GMROI > 3.0: Strong performance (target for many retailers)
-- GMROI < 1.0: Inventory investment loses money
+- 0 < GMROI < 1.0: Gross margin dollars are below average inventory cost for the measured period, not necessarily a loss
+- GMROI = 0: No gross margin dollars; GMROI < 0 indicates negative gross margin, assuming positive average inventory cost
+
+Specify the measurement period and use matching gross margin and average inventory data; ratios from different periods are not comparable. For example, $50 gross margin on $100 average inventory cost gives GMROI 0.5 while still generating $50 gross profit before operating costs.
 
 **Calculation Example**:
 - Gross Margin: $500,000
@@ -62,10 +65,14 @@
 - Gross Margin %: Applied to incremental sales, not total sales — trade spend earns back margin dollars, not top-line revenue
 - Trade Spend $: Total dollars committed, not just the discount itself — includes co-op ad funding, display fees, and any promotional allowance paid out
 
-**Benchmark**:
-- Good: ROI > 1.0 (the spend pays for itself in incremental margin)
+**Break-even and benchmark interpretation**:
+- ROI = 0: Incremental gross margin equals trade spend; the measured spend breaks even on this formula
+- ROI > 0: Positive return after subtracting trade spend; ROI < 0: incremental gross margin does not cover it
+- Good: ROI > 1.0 (incremental gross margin is more than twice trade spend; a target, not the break-even point)
 - Strong: ROI > 2.0 (target for most trade-spend programs)
 - Poor: ROI < 0.5 (reconsider the program or the dealer relationship it's funding)
+
+The Good/Strong/Poor thresholds are planning heuristics, not sourced universal benchmarks. For example, $100 incremental gross margin with $100 trade spend gives ROI 0; $200 incremental gross margin with $100 spend gives ROI 1 (100%). Do not confuse net ROI with the gross return-to-spend ratio. Incremental sales must be supported by the measurement design rather than assumed from attributed sales; include additional relevant variable costs when assessing contribution profit.
 
 **Distinct from Promotional Yield**: Promotional Yield measures unit-movement efficiency of a consumer-facing promotion (discounts, advertising aimed at the end customer). Trade Spend ROI measures dollar efficiency of money paid to or through a channel partner (co-op ads, slotting, dealer promotional funding) — the two often run alongside each other in a single campaign and should be evaluated separately, since a promotion can move plenty of units (good Promotional Yield) while the trade spend funding it doesn't pay back (poor Trade Spend ROI) if too much of the spend went to co-op fees rather than the discount itself.
 

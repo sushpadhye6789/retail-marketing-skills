@@ -6,27 +6,24 @@ Audience research platform that reveals what your target audience reads, watches
 
 | Integration | Available | Notes |
 |-------------|-----------|-------|
-| API | - | Not yet public (coming soon) |
-| MCP | - | Not available |
-| CLI | - | Not available |
-| SDK | - | Not available |
+| API | Yes | Official REST API; prepaid credits, separate from web subscriptions |
+| MCP | Yes | Official server; included with paid subscriptions and uses their report quota |
+| CLI | Unverified | Check current official documentation before selecting a client |
+| SDK | Unverified | Check current official documentation before selecting a library |
 
-SparkToro is primarily a web-based research tool. No public API, CLI, or SDK is currently available. Use the web interface at https://sparktoro.com for all queries.
+Use the web interface, official MCP server, or official API according to the account access and tools actually available. API and MCP availability and billing checked against official documentation on 2026-10-11; no live account or endpoint test performed.
+
+Sources: [API and subscription access](https://sparktoro.com/support/faq/api-access-and-subscriptions), [API credits](https://sparktoro.com/support/faq/how-api-credits-work), and [current plans](https://sparktoro.com/pricing). Consult the linked API documentation for authentication and endpoint schemas before implementing calls.
 
 ## Authentication
 
-- **Type**: Account login at https://sparktoro.com
-- **Free tier**: 5 reports/month with limited results
-- **Paid plans**: $50–$300/month with expanded results and exports
+- **Web**: Account login at https://sparktoro.com
+- **API**: Create a key through the official API dashboard; API access is billed separately through prepaid credit bundles and does not require a web subscription.
+- **MCP**: Use the official connection instructions and a paid subscription. Its usage counts against the subscription's report quota rather than API credits.
 
 ## Pricing Tiers
 
-| Plan | Price | Reports/Month | Users | Result Depth |
-|------|-------|---------------|-------|-------------|
-| Free | $0 | 5 | 1 | Top 5–10 results |
-| Personal | $50/mo | 50 | 1 | Top 50 results |
-| Business | $150/mo | 500 | 10 | Top 150 results, contact data, AI advice |
-| Agency | $300/mo | Unlimited | 100 | Top 300 results, full CSV export |
+Check [current plans](https://sparktoro.com/pricing) before recommending a subscription: prices, billing periods, report quotas and features can change. The free web tier provides previews rather than full reports. API credits are a separate product; a paid web subscription does not include API credits. Check available balance and endpoint costs before running API research.
 
 ## What SparkToro Reveals
 
@@ -55,7 +52,7 @@ SparkToro is primarily a web-based research tool. No public API, CLI, or SDK is 
 
 ## Common Agent Operations
 
-Since SparkToro has no API, these are the research workflows agents should guide users through.
+These research workflows apply across supported access methods. Use connected official tools when available; otherwise guide the user through the web interface. Do not invent tool names or API schemas, or scrape web results as a substitute for official access.
 
 ### Audience Profile Research
 
@@ -111,8 +108,8 @@ SparkToro aggregates from three sources:
 
 ## Limitations
 
-- No public API — all research is done through the web interface
-- Free tier limited to 5 reports/month with shallow results
+- API calls consume separately billed credits; MCP requires a paid subscription and consumes its report quota
+- Free web previews are limited; verify current quota and feature access before planning a batch
 - Data skews toward English-language, US-centric audiences
 - Clickstream data may not capture all niche audiences
 - Cannot track individual users — all data is aggregated and anonymized

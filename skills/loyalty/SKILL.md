@@ -2,7 +2,7 @@
 name: loyalty
 description: "When the user wants to design, launch, or improve a customer loyalty or rewards program, or a subscribe-and-save/replenishment/box subscription program. Also use when the user mentions 'loyalty program,' 'rewards program,' 'points program,' 'VIP program,' 'loyalty tiers,' 'membership program,' 'punch card,' 'paid membership,' 'loyalty points,' 'rewards points,' 'customer loyalty,' 'repeat purchase program,' 'subscribe and save,' 'subscription box,' 'replenishment program,' 'recurring order,' 'skip a shipment,' or 'how do I get customers to come back.' Use this whenever the goal is rewarding and retaining existing customers through a structured program (points, tiers, paid membership, or an automated recurring subscription) — not a one-time discount or a program aimed at acquiring new customers via existing ones (see referrals for that). For save offers and cancellation flows on subscription churn, see retention-and-winback."
 metadata:
-  version: 1.2.1
+  version: 1.2.2
 ---
 
 # Loyalty & Rewards Programs
@@ -67,7 +67,7 @@ Points for everyday engagement, tiers for status, occasionally a paid tier layer
 
 ## Subscription Commerce (Subscribe & Save / Replenishment / Boxes)
 
-**For where Replenishment fits alongside the rest of the customer lifecycle** (Welcome, Onboarding, Abandoned Browse/Cart, Winback, Sunset) — see `retention-and-winback/references/lifecycle-journeys.md`.
+**For where Replenishment fits alongside the rest of the customer lifecycle** (Welcome, Onboarding, Post-purchase, Abandoned Browse/Cart, Back-in-stock and price-drop alerts, VIP tiers, Winback, Sunset) — see `retention-and-winback/references/lifecycle-journeys.md`.
 
 A structurally different retention mechanism from the reward programs above: instead of earning value back for returning, the customer pre-commits to recurring, automated repurchase. The job shifts from "give them a reason to come back" to "make the automatic default good enough that they don't need to leave."
 

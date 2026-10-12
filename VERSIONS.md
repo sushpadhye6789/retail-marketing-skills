@@ -46,7 +46,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | launch-project-management | 1.0.0 | 2026-09-02 |
 | lead-magnets | 2.0.2 | 2026-10-09 |
 | local-marketing | 1.1.1 | 2026-09-02 |
-| loyalty | 1.2.1 | 2026-09-09 |
+| loyalty | 1.2.2 | 2026-10-12 |
 | marketing-brief-template | 1.0.0 | 2026-08-30 |
 | marketing-council | 1.2.4 | 2026-09-02 |
 | marketing-first-principles | 1.0.0 | 2026-09-09 |
@@ -65,7 +65,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | paywalls | 3.0.0 | 2026-08-31 |
 | popups | 2.0.4 | 2026-10-09 |
 | pos-marketing | 1.1.1 | 2026-10-09 |
-| post-purchase-experience | 2.2.0 | 2026-09-04 |
+| post-purchase-experience | 2.2.1 | 2026-10-12 |
 | price-elasticity | 1.0.2 | 2026-08-19 |
 | pricing | 2.3.2 | 2026-09-09 |
 | product-feed | 1.2.1 | 2026-09-04 |
@@ -79,7 +79,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | referrals | 2.1.1 | 2026-09-02 |
 | repositioning | 1.0.2 | 2026-08-19 |
 | retail-media | 1.3.1 | 2026-09-04 |
-| retention-and-winback | 2.2.0 | 2026-09-04 |
+| retention-and-winback | 2.2.1 | 2026-10-12 |
 | schema | 2.0.2 | 2026-09-02 |
 | seo-audit | 2.0.2 | 2026-09-02 |
 | signup | 3.0.0 | 2026-09-02 |
@@ -99,6 +99,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | website-ux | 1.0.1 | 2026-09-04 |
 
 ## Recent Changes
+
+### 2.27.0 (2026-10-12)
+
+- Extended the shared lifecycle map in **`retention-and-winback/references/lifecycle-journeys.md`** from seven journeys to ten, and added the order to build them in. New rows: **Post-purchase** (care, how-to and review request, timed to delivery), **Back-in-stock and price-drop alerts** (customer-requested, limited to stock on hand, price drops only when real against a genuine previous price), and **VIP and loyalty tiers** (tier reached, close to the next, at risk). New sections: **Build Order, in Rough Order of Revenue** (abandoned cart and browse, welcome, post-purchase, replenishment, winback, alerts, VIP tiers, sunset, framed as a pattern to check against the business's own numbers, not a promise) and **Guardrails That Apply to Every Journey** (consent and service messages under the Spam Act and the NZ equivalent, approval for first launches and full-list sends, fail-closed on stock, price and margin inputs, one frequency cap, per-journey measurement with a holdout for cart and winback). Clarified that Post-purchase and Onboarding are not two programs, and that alerts sit outside the sequential rule but count toward the frequency cap. Pointers updated in **retention-and-winback** (2.2.0 → 2.2.1), **post-purchase-experience** (2.2.0 → 2.2.1) and **loyalty** (1.2.1 → 1.2.2).
 
 ### 2.26.0 (2026-10-09)
 

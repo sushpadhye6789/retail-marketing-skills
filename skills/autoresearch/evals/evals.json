@@ -5,25 +5,54 @@
       "id": 1,
       "prompt": "Run autoresearch on this subject line for our end of financial year sale email: 'EOFY sale starts now'. Minimum score 80.",
       "expected_output": "Should check for marketing-strategy.md and marketing-learnings.md. Should run Step 0 reality check before generating, noting no discount depth or margin floor was supplied and asking for it or treating the offer as fixed without inventing a depth. Should generate 10 variants, score them against a five-judge panel with the email specialist lineup and the two anchor judges, keep the top 3, and stop at the threshold or 3 rounds. Should present the winner with the top 2 runners-up and state that ab-testing is still needed. Must not auto-publish.",
-      "files": []
+      "files": [],
+      "assertions": [
+        "Checks marketing-strategy.md and marketing-learnings.md",
+        "Runs a reality check on the offer before generating and asks for or flags the missing discount depth or margin floor",
+        "Does not invent a discount depth",
+        "Generates about 10 variants per round and scores them with a five-judge panel",
+        "Stops at the threshold or after 3 rounds",
+        "Presents the winner with the top 2 runners-up",
+        "States that ab-testing is still needed and that nothing is auto-published"
+      ]
     },
     {
       "id": 2,
       "prompt": "Which of these three offer framings should we run for our clearance: 'Take 40% off', 'Buy more, save more', or 'Last chance, final pieces'? The 40% is already approved by finance.",
       "expected_output": "Should treat the offer framing as a concept type with the discount depth as a fixed input, not a variable. Should confirm margin floor and stock status or ask for them. Should use the offer-framing panel (merchandiser and finance lead among the judges) with the skeptical customer and brand voice anchors. Should require variants to differ in angle, not just wording. Should keep the human-curation gate.",
-      "files": []
+      "files": [],
+      "assertions": [
+        "Treats offer framing as a concept type with the discount depth as a fixed input",
+        "Confirms margin floor and stock status or asks for them",
+        "Uses the two anchor judges plus specialist judges that include a merchandiser and a finance lead",
+        "Requires variants that differ in angle, not only wording",
+        "Keeps a human approval step"
+      ]
     },
     {
       "id": 3,
       "prompt": "Use autoresearch to tell me which channels we should put our $50,000 spring budget into, and how much on each.",
       "expected_output": "Should decline: channel mix and budget splits depend on real cost, reach and conversion data the simulated panel does not have. Should point to attribution, budget-allocation and ads, and offer to run autoresearch only on the creative or messaging once the channels are decided. Must not invent channel scores or numbers.",
-      "files": []
+      "files": [],
+      "assertions": [
+        "Declines to decide channel mix or budget split",
+        "Explains that it depends on real cost, reach and conversion data",
+        "Points to attribution, budget-allocation or ads",
+        "Does not produce invented channel scores or numbers"
+      ]
     },
     {
       "id": 4,
       "prompt": "Our brand taste says we never use urgency countdowns and we love understated proof. Score these three ad headlines: 'Only 3 hours left!', 'Rated 4.8 by 2,100 customers', 'Sale ends tonight'.",
       "expected_output": "Should treat the taste record as judge 5 and as hard eliminations: variants using countdown urgency are eliminated before scoring and listed in the log with the rule they broke. Should score the remaining variants and name which taste rules shaped the result. Should state that taste cannot override a reality check. Should keep the human-curation gate.",
-      "files": []
+      "files": [],
+      "assertions": [
+        "Uses the taste record as judge 5",
+        "Eliminates variants that use countdown urgency before scoring and lists them with the rule they broke",
+        "Names which taste rules shaped the result",
+        "States that taste cannot override the reality check",
+        "Keeps a human approval step"
+      ]
     }
   ]
 }

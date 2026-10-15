@@ -13,7 +13,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | analytics | 2.0.3 | 2026-09-05 |
 | aso | 2.0.2 | 2026-09-04 |
 | attribution | 1.4.0 | 2026-09-02 |
-| autoresearch | 1.0.0 | 2026-09-09 |
+| autoresearch | 2.0.0 | 2026-10-15 |
 | brand-guidelines | 2.0.0 | 2026-09-04 |
 | brand-management | 1.0.2 | 2026-08-19 |
 | budget-allocation | 1.0.4 | 2026-09-08 |
@@ -91,6 +91,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | start-here | 1.0.0 | 2026-09-09 |
 | storytelling | 1.1.1 | 2026-10-09 |
 | supplier-funded-marketing | 1.0.2 | 2026-08-19 |
+| taste-builder | 1.0.0 | 2026-10-15 |
 | tentpole-campaign | 1.1.2 | 2026-09-02 |
 | trade-and-dealer-enablement | 2.2.0 | 2026-09-04 |
 | trade-marketing | 1.0.4 | 2026-09-02 |

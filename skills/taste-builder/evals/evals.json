@@ -1,0 +1,29 @@
+{
+  "skill_name": "taste-builder",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I'm the CMO of a mid-sized homewares retailer. I want to write down what I know works so everything the team produces is checked against it. Help me do it.",
+      "expected_output": "Should check for marketing-strategy.md first and say plainly if it does not exist. Should explain that taste is optional, owned by the leader and sits below strategy and guardrails. Should start an interview in short rounds of no more than three questions, anchored in real campaigns that worked and failed, not abstract preferences. Should not ask every question at once. Should not write the taste record yet.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Our brand is authentic, customer-focused and never discounts. We trust honest copy. We never use hype.",
+      "expected_output": "Should challenge these generic answers rather than record them: ask for an example of copy that is authentic and one that is not, ask when 'never discounts' stops being true, and ask what happened that made the leader believe it. Should tag any recorded rule as seen, belief or lore. Should not accept 'authentic' as a rule.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Here are my answers for all four rounds. Please write the taste record. One thing: I always want the biggest possible discount in the headline, even if finance has not approved the depth.",
+      "expected_output": "Should produce the record with exactly eight sections in this order: Copy that works, Messaging that works, Angles, Channels, Tactics, Nuances, Never, Examples. Should keep rules short with seen, belief or lore tags. Should flag that 'biggest discount regardless of approval' cannot override the margin floor, approvals or required sign-off, and keep it out of Never as a rule that waives safety. Should keep the Never list short and checkable. Should keep the whole record under about 8,000 characters.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Done. What now?",
+      "expected_output": "Should test the record on one approved and one rejected real asset and say which it would pass or stop. Should state what the record cannot do: replace the strategy, approval rules, margin floor or legal review. Should explain it is off until the leader switches it on and can run quietly or with an audit note. Should suggest a review after about a quarter or after a strategy change.",
+      "files": []
+    }
+  ]
+}

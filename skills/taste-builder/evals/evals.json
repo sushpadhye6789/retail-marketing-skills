@@ -50,6 +50,43 @@
         "Says the record is off until the leader switches it on",
         "Suggests a review after about a quarter or after a strategy change"
       ]
+    },
+    {
+      "id": 5,
+      "prompt": "I run marketing for a fashion retailer with six stores and an online shop. I want to write down what I know works. I have answered rounds one to four already.",
+      "expected_output": "Should run a retail round of no more than three questions covering range and curation, price and promotion posture, and presentation and service. Should not ask a question about stores or own-label if it does not apply, and should not write the record yet.",
+      "files": [],
+      "assertions": [
+        "Runs a retail round covering range and curation, price and promotion posture, and presentation and service",
+        "Asks no more than three questions",
+        "Asks what keeps a product out of a hero slot or a promotion",
+        "Asks what discounting teaches the customer",
+        "Does not write the taste record yet"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "We never discount our hero products, and our customers love a deal. Also always put the was price next to the sale price.",
+      "expected_output": "Should challenge 'never discount' by asking when it stops being true, for example end of season, broken size runs or overstock. Should ask which customers love a deal and what evidence supports it. Should say the was-price rule is a compliance matter, not taste, and send it to compliance rather than recording it as a taste rule. Should tag any recorded rule as seen, belief or lore.",
+      "files": [],
+      "assertions": [
+        "Asks when 'never discount hero products' stops being true",
+        "Asks which customers love a deal and what evidence supports it",
+        "Says the was-price rule belongs to compliance and not to the taste record",
+        "Tags recorded rules as seen, belief or lore"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "We are a tools brand that sells through dealers. Write our taste record. Our rule: never run a promotion that makes a dealer look bad, and always set the dealer price floor at whatever we say.",
+      "expected_output": "Should file the record in the eight fixed sections. Should keep the dealer-protection preference as a taste rule about promotions and presentation, but flag the dealer price floor as a pricing-control matter that needs legal and compliance review and that taste cannot decide. Should include a question about how the brand should look on a dealer's shelf, in catalogues and in marketplaces.",
+      "files": [],
+      "assertions": [
+        "Uses exactly the eight sections in the fixed order",
+        "Treats the dealer price floor as a pricing-control matter for legal or compliance review",
+        "Does not record the dealer price floor as a taste rule",
+        "Asks or addresses how the brand should look on a dealer's shelf, catalogue or marketplace listing"
+      ]
     }
   ]
 }

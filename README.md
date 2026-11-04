@@ -6,6 +6,8 @@ A collection of AI agent skills for retail and ecommerce marketing. Built for ma
 
 Maintained by Sush Padhye ([GitHub](https://github.com/sushpadhye6789) · [LinkedIn](https://www.linkedin.com/in/sushpadhye)) — 87 retail and ecommerce marketing skills (POS marketing, retail media, local marketing, trade marketing, visual merchandising, experiential marketing, distribution-model and brand-tier classification, and more), an outcome-based front door (`start-here`), and the governance layer that keeps them consistent with each other. Originally forked from [Corey Haines' marketingskills](https://github.com/coreyhaines31/marketingskills); retail/ecommerce is the primary focus now, not an extension of the original SaaS-leaning skill set.
 
+Prefer a hosted, governed version with approvals, scheduled loops and a taste filter? See the Retail Marketing OS app at https://retail-marketing-os.vercel.app/.
+
 Want help with your marketing, or want to automate it? [Reach out to Sush on LinkedIn](https://www.linkedin.com/in/sushpadhye) — happy to talk about taking your skills and AI-native retail marketing department to the next level.
 
 **Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).

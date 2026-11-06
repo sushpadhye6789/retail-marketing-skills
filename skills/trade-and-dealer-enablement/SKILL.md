@@ -2,10 +2,10 @@
 name: trade-and-dealer-enablement
 description: "When the user wants to enable retail buyers and dealers, create line sheets, set up co-op advertising, or design dealer incentive programs. Also use when the user mentions 'trade enablement,' 'dealer enablement,' 'line sheet,' 'co-op advertising,' 'dealer incentives,' 'stockist training,' 'wholesale pipeline,' or 'retail buyer pitch.' Use this for anything involving selling products through retail channels, wholesale distribution, and dealer networks. For cold outreach emails, see cold-email. For sales collateral beyond emails, see sales-enablement. For retail financial mechanics, see commercial-ops."
 metadata:
-  version: 2.2.0
+  version: 2.2.1
 ---
 
-# Trade & Dealer Enablement for Retail & Commerce (v2.2.0)
+# Trade & Dealer Enablement for Retail & Commerce (v2.2.1)
 
 ## Overview
 Retail-focused trade and dealer enablement framework replacing traditional B2B sales enablement with strategies optimized for selling products through retail channels, wholesale distribution, and dealer networks.
@@ -198,6 +198,8 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 - **Control Group**: Similar stores/SKUs without promotion (where possible)
 - **Incrementality Calculation**: Promo sales - baseline sales
 - **ROI Calculation**: (Incremental margin - promotional cost) / promotional cost
+- **Return Basis**: Incremental margin is measured before the separately listed promotional cost; do not subtract that cost twice. Use compatible campaign windows and cost scope, and report ROI as undefined when promotional cost is missing or not strictly positive. State whether incremental margin is estimated or supported by a defensible control design.
+- **Worked Example**: $1,000 incremental margin before $500 promotional cost gives net promotional ROI `(1,000 - 500) / 500 = 1.0` (100%). The gross return ratio `1,000 / 500 = 2.0` is a different metric. Under this net formula break-even is ROI `0`, not `1`.
 - **Cannibalization Analysis**: Impact on related SKUs and categories
 - **Pull-Forward Effect**: Post-promotion dip analysis
 
@@ -435,7 +437,7 @@ If `.agents/marketing-strategy.md` exists (or the legacy `.agents/product-market
 
 **Trade Spend Efficiency**:
 - **Co-Op Utilization Rate**: % of available funds claimed
-- **Promotional ROI**: Incremental margin / promotional spend
+- **Promotional ROI (net)**: (Incremental margin before promotional spend - promotional spend) / promotional spend, using the measurement framework's window and cost basis; break-even is 0
 - **Lift Consistency**: Predicted vs. actual promotional performance
 - **Timeliness**: Submission and reconciliation within terms
 - **Fraud Rate**: Invalid or non-compliant claims detected

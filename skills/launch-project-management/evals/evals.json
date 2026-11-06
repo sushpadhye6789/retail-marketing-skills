@@ -48,6 +48,17 @@
         "Positions launch-project-management as the cross-functional coordination layer tying both together"
       ],
       "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "All tasks must finish before launch. Design takes 10 working days, then localization 5, then regional review 3. A separate media upload takes 2 working days and can start latest. Assume a common working calendar, no resource conflicts and no other constraints. Which chain governs minimum launch duration?",
+      "expected_output": "Identifies design -> localization -> regional review as the 18-working-day longest dependency chain. Does not select media upload merely because it can start latest. Explains that backward-dated just-in-time tasks can all have no buffer without all belonging to the longest path, and that constraints or changed durations require recalculation.",
+      "assertions": [
+        "Identifies the design/localization/review chain as 18 working days",
+        "Does not identify media upload as critical solely from its latest start",
+        "Distinguishes longest dependency path from a just-in-time workback with no buffer"
+      ],
+      "files": []
     }
   ]
 }

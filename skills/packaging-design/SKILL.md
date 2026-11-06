@@ -2,7 +2,7 @@
 name: packaging-design
 description: "When the user wants to design or evaluate product packaging — structural design, materials, sustainability, on-pack branding, or shelf/shipping packaging tradeoffs. Also use when the user mentions 'packaging design,' 'product packaging,' 'box design,' 'shipping box,' 'retail packaging,' 'sustainable packaging,' 'packaging materials,' 'on-pack branding,' 'shelf standout,' 'packaging insert,' or 'how should we package this.' This is the design/production discipline for the package itself — distinct from post-purchase-experience, which owns the unboxing moment as a customer-journey touchpoint once the package arrives, and from visual-merchandising, which owns where the product sits in-store, not the container it's in."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Packaging Design
@@ -79,7 +79,7 @@ The package has to survive a carrier network and then create a deliberate reveal
 
 ## Packaging as a Marketing Channel
 
-Packaging is one of the only marketing surfaces that reaches 100% of buyers, not just the ones an ad happened to reach — treat it as a real channel, not just a container:
+Packaging gives delivered physical orders an owned marketing surface — treat it as a real channel, not just a container. The recipient may differ from the buyer (for example, a gift), and delivery does not prove that the branding or insert was noticed. State reach and engagement only from the relevant delivery or response evidence:
 
 - **On-pack branding as a shelf-and-photo asset**: the package needs to read well both at physical shelf distance and as a small thumbnail image on a product listing page — design for both, since ecommerce increasingly means the package is "seen" as a photo before it's seen in person.
 - **Branded inserts and referral codes**: a card inside the package driving to a referral program, a loyalty signup, or a UGC hashtag turns every delivered order into a marketing touchpoint — see `referrals`' Retail Viral Mechanisms section for the fuller mechanic (visible branding, gifting exposure loops, unboxing UGC).
